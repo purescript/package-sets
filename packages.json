@@ -1,11 +1,11 @@
 {
   "prelude": {
-    "repo": "git@github.com:purescript/purescript-prelude.git",
+    "repo": "https://github.com/purescript/purescript-prelude.git",
     "version": "v1.1.0",
     "dependencies": [ ]
   },
   "eff": {
-    "repo": "git@github.com:purescript/purescript-eff.git",
+    "repo": "https://github.com/purescript/purescript-eff.git",
     "version": "v1.0.0",
     "dependencies": [ "prelude" ]
   }
