@@ -1,4 +1,6 @@
-sudo: false
+language: c
+dist: trusty
+sudo: required
 
 # Caching so the next build will be fast too.
 cache:
