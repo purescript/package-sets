@@ -44,32 +44,40 @@ getGitRepoList = toListOf ((ifolded <. to (repo &&& version)) . withIndex)
 
 verifyPackageSet :: PackagesSpec -> IO ()
 verifyPackageSet ps = sh $ do
-    -- Wipe out the current packages directory
-    rmdirIfExists "packages"
-
     -- Clone all repos into the packages/ directory
     for_ (getGitRepoList ps) $ \(name, (repo, version)) -> do
-      procs "git"
-            [ "clone"
-            , repo
-            , "-b", version
-            , explode $ toText ("packages" </> fromText name)
-            ] empty
+      let pkgDir = "packages" </> fromText name
+      exists <- testdir pkgDir
+      if exists
+        then
+          pushd pkgDir $
+            procs "git"
+                  [ "checkout"
+                  , version
+                  ] empty
+        else
+          procs "git"
+                [ "clone"
+                , repo
+                , "-b", version
+                , (explode . toText) pkgDir
+                ] empty
 
     -- Print out the psc version
     procs "psc" [ "--version" ] empty
 
     for_ (toList ps) $ \(name, PackageSpec{..}) -> do
+      let pkgDir = "packages" </> fromText name
       echo ("Building package " <> name)
-      rmdirIfExists "output"
-      let srcGlobs = map (("packages/" <>) . (<> "/src/**/*.purs")) (name : dependencies)
-      procs "psc"
-            srcGlobs
-            empty
+      pushd pkgDir $ do
+        let srcGlobs = map (("../" <>) . (<> "/src/**/*.purs")) (name : dependencies)
+        procs "psc" srcGlobs empty
 
   where
     explode = either (error . show) id
 
-    rmdirIfExists dir = do
-      exists <- testdir dir
-      when exists (rmtree dir)
+    pushd dir x = do
+      cur <- pwd
+      cd dir
+      x
+      cd cur
