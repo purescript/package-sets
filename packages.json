@@ -245,13 +245,6 @@
     "repo": "https://github.com/purescript/purescript-monoid.git",
     "version": "v1.0.0"
   },
-  "newtype": {
-    "dependencies": [
-      "prelude"
-    ],
-    "repo": "https://github.com/purescript/purescript-newtype.git",
-    "version": "v0.1.0"
-  },
   "orders": {
     "dependencies": [
       "control",
