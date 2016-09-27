@@ -107,6 +107,35 @@
     "repo": "https://github.com/purescript/purescript-control.git",
     "version": "v1.0.0"
   },
+  "datetime": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "assert",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "functions",
+      "generics",
+      "integers",
+      "invariant",
+      "math",
+      "partial",
+      "monoid",
+      "maybe",
+      "prelude",
+      "proxy",
+      "st",
+      "tuples",
+      "strings",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-datetime.git",
+    "version": "v1.0.0"
+  },
   "distributive": {
     "dependencies": [
       "bifunctors",
@@ -274,6 +303,20 @@
     "repo": "https://github.com/purescript/purescript-functor-coproducts.git",
     "version": "v1.1.0"
   },
+  "functor-products": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript/purescript-functor-products.git",
+    "version": "v1.0.0"
+  },
   "generics": {
     "dependencies": [
       "arrays",
@@ -389,6 +432,42 @@
     "repo": "https://github.com/purescript/purescript-lists.git",
     "version": "v1.0.1"
   },
+  "maps": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "exceptions",
+      "functions",
+      "generics",
+      "identity",
+      "integers",
+      "invariant",
+      "lazy",
+      "lists",
+      "math",
+      "maybe",
+      "monoid",
+      "partial",
+      "prelude",
+      "proxy",
+      "random",
+      "st",
+      "quickcheck",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-maps.git",
+    "version": "v1.2.0"
+  },
   "math": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-math.git",
@@ -462,6 +541,44 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-psci-support.git",
+    "version": "v1.0.0"
+  },
+  "quickcheck": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exceptions",
+      "exists",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "integers",
+      "invariant",
+      "lazy",
+      "lists",
+      "math",
+      "maybe",
+      "monoid",
+      "partial",
+      "prelude",
+      "profunctor",
+      "proxy",
+      "psci-support",
+      "random",
+      "st",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript/purescript-quickcheck.git",
     "version": "v1.0.0"
   },
   "random": {
