@@ -346,6 +346,36 @@
     "repo": "https://github.com/purescript/purescript-globals.git",
     "version": "v1.1.0"
   },
+  "graphs": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "control",
+      "eff",
+      "either",
+      "functions",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "invariant",
+      "lazy",
+      "lists",
+      "maps",
+      "maybe",
+      "partial",
+      "monoid",
+      "prelude",
+      "proxy",
+      "sets",
+      "st",
+      "tailrec",
+      "strings",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-graphs.git",
+    "version": "v1.0.0"
+  },
   "identity": {
     "dependencies": [
       "bifunctors",
@@ -502,6 +532,34 @@
     "repo": "https://github.com/purescript/purescript-orders.git",
     "version": "v1.0.0"
   },
+  "parallel": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "functions",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "partial",
+      "prelude",
+      "refs",
+      "st",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-parallel.git",
+    "version": "v1.1.0"
+  },
   "partial": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-partial.git",
@@ -602,6 +660,62 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-refs.git",
+    "version": "v1.0.0"
+  },
+  "semirings": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "control",
+      "either",
+      "eff",
+      "foldable-traversable",
+      "generics",
+      "invariant",
+      "lazy",
+      "lists",
+      "maybe",
+      "monoid",
+      "partial",
+      "proxy",
+      "strings",
+      "prelude",
+      "st",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-semirings.git",
+    "version": "v1.0.0"
+  },
+  "sets": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "assert",
+      "console",
+      "control",
+      "eff",
+      "foldable-traversable",
+      "either",
+      "functions",
+      "generics",
+      "invariant",
+      "identity",
+      "lazy",
+      "lists",
+      "maps",
+      "maybe",
+      "monoid",
+      "partial",
+      "prelude",
+      "st",
+      "proxy",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-sets.git",
     "version": "v1.0.0"
   },
   "st": {
