@@ -12,6 +12,7 @@
       "maybe",
       "monoid",
       "newtype",
+      "nonempty",
       "partial",
       "prelude",
       "st",
@@ -20,7 +21,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "assert": {
     "dependencies": [
@@ -124,6 +125,25 @@
     "repo": "https://github.com/purescript/purescript-either.git",
     "version": "v2.0.0"
   },
+  "enums": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "either",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "partial",
+      "prelude",
+      "strings",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-enums.git",
+    "version": "v2.0.0"
+  },
   "exceptions": {
     "dependencies": [
       "bifunctors",
@@ -167,6 +187,39 @@
     "repo": "https://github.com/purescript/purescript-functions.git",
     "version": "v2.0.0"
   },
+  "functor-coproducts": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "const",
+      "contravariant",
+      "either",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript/purescript-functor-coproducts.git",
+    "version": "v2.0.0"
+  },
+  "functor-products": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript/purescript-functor-products.git",
+    "version": "v2.0.0"
+  },
   "generics": {
     "dependencies": [
       "arrays",
@@ -182,6 +235,7 @@
       "maybe",
       "monoid",
       "newtype",
+      "nonempty",
       "partial",
       "prelude",
       "proxy",
@@ -192,7 +246,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-generics.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "globals": {
     "dependencies": [],
@@ -245,6 +299,38 @@
     "repo": "https://github.com/purescript/purescript-lazy.git",
     "version": "v2.0.0"
   },
+  "lists": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "assert",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "invariant",
+      "lazy",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "psci-support",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-lists.git",
+    "version": "v2.0.0"
+  },
   "math": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-math.git",
@@ -277,6 +363,20 @@
     ],
     "repo": "https://github.com/purescript/purescript-newtype.git",
     "version": "v1.0.0"
+  },
+  "nonempty": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-nonempty.git",
+    "version": "v3.0.0"
   },
   "orders": {
     "dependencies": [
