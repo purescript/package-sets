@@ -86,5 +86,5 @@ verifyPackageSet ps = do
         pkgDir = dirFor name
     echo ("Building package " <> name)
     pushd pkgDir $ do
-      let srcGlobs = "/src/**/*.purs" : map (("../../../" <>) . (<> "/src/**/*.purs") . toTextUnsafe . dirFor) dependencies
+      let srcGlobs = "src/**/*.purs" : map (("../../../" <>) . (<> "/src/**/*.purs") . toTextUnsafe . dirFor) dependencies
       procs "psc" srcGlobs empty
