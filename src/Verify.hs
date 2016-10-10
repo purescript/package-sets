@@ -17,9 +17,12 @@ import           Control.Monad.IO.Class (liftIO)
 import           Data.Aeson (FromJSON, ToJSON, decodeStrict)
 import           Data.ByteString (ByteString)
 import           Data.Foldable (for_)
-import           Data.Map (Map, toList)
+import           Data.Map (Map, toList, fromList)
+import qualified Data.Map as M
+import           Data.Maybe (fromMaybe)
 import           Data.Text (Text)
 import           Data.Text.Encoding (decodeUtf8')
+import           Data.Traversable (for)
 import           Filesystem.Path ((</>))
 import           Filesystem.Path.CurrentOS (fromText, toText)
 import           GHC.Generics (Generic)
@@ -45,36 +48,18 @@ decodePackagesSpec = decodeStrict
 getGitRepoList :: PackagesSpec -> [(PackageName, (Repo, Version))]
 getGitRepoList = toListOf ((ifolded <. to (repo &&& version)) . withIndex)
 
-checkout :: Version -> IO ()
-checkout version = sh $
-  procs "git"
-        [ "checkout"
-        , version
-        ] empty
-
 clone :: Repo -> Version -> Turtle.FilePath -> IO ()
 clone repo version into = sh $
     procs "git"
           [ "clone"
           , repo
           , "-b", version
-          , (explode . toText) into
+          , toTextUnsafe into
           ] empty
-  where
-    explode = either (error . show) id
 
-shaFor :: Version -> IO Text
-shaFor version = do
-  mver <- Turtle.fold
-            (inproc "git"
-                   [ "rev-list"
-                   , "-n", "1"
-                   , version
-                   ] empty)
-            Fold.head
-  case mver of
-    Nothing -> die ("Unable to determine SHA for ref " <> version)
-    Just sha -> pure sha
+toTextUnsafe :: Turtle.FilePath -> Text
+toTextUnsafe = explode . toText where
+  explode = either (error . show) id
 
 pushd :: Turtle.FilePath -> IO a -> IO a
 pushd dir x = do
@@ -86,29 +71,20 @@ pushd dir x = do
 verifyPackageSet :: PackagesSpec -> IO ()
 verifyPackageSet ps = do
   -- Clone all repos into the packages/ directory
-  for_ (getGitRepoList ps) $ \(name, (repo, version)) -> do
-    let pkgDir = "packages" </> fromText name
-    exists <- testdir pkgDir
-    shouldClone <-
-      if exists
-        then do
-          current <- pushd pkgDir $ do
-            oldSHA <- shaFor "HEAD"
-            newSHA <- shaFor version
-            pure (oldSHA == newSHA)
-          unless current $ do
-            echo ("Package " <> name <> " is out of date..")
-            rmtree pkgDir
-          pure (not current)
-        else pure True
-    when shouldClone $ clone repo version pkgDir
+  paths <- fromList <$>
+    (for (getGitRepoList ps) (\(name, (repo, version)) -> do
+      let pkgDir = "packages" </> fromText name </> fromText version
+      exists <- testdir pkgDir
+      unless exists $ clone repo version pkgDir
+      return (name, pkgDir)))
 
   -- Print out the psc version
   procs "psc" [ "--version" ] empty
 
   for_ (toList ps) $ \(name, PackageSpec{..}) -> do
-    let pkgDir = "packages" </> fromText name
+    let dirFor = fromMaybe (error "verifyPackageSet: no directory") . (`M.lookup` paths)
+        pkgDir = dirFor name
     echo ("Building package " <> name)
     pushd pkgDir $ do
-      let srcGlobs = map (("../" <>) . (<> "/src/**/*.purs")) (name : dependencies)
+      let srcGlobs = "/src/**/*.purs" : map (("../../../" <>) . (<> "/src/**/*.purs") . toTextUnsafe . dirFor) dependencies
       procs "psc" srcGlobs empty
