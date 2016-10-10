@@ -19,6 +19,7 @@ library
                      , aeson
                      , bytestring
                      , containers
+                     , foldl
                      , lens
                      , system-filepath
                      , text
