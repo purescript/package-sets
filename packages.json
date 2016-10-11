@@ -279,6 +279,17 @@
     "repo": "https://github.com/purescript/purescript-generics.git",
     "version": "v3.0.0"
   },
+  "generics-rep": {
+    "dependencies": [
+      "control",
+      "invariant",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-generics-rep.git",
+    "version": "v3.0.0"
+  },
   "globals": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-globals.git",
@@ -371,7 +382,6 @@
       "partial",
       "prelude",
       "proxy",
-      "psci-support",
       "st",
       "strings",
       "tailrec",
@@ -557,6 +567,13 @@
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "v2.0.0"
   },
+  "symbols": {
+    "dependencies": [
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript/purescript-symbols.git",
+    "version": "v1.0.1"
+  },
   "tailrec": {
     "dependencies": [
       "bifunctors",
@@ -617,6 +634,11 @@
     ],
     "repo": "https://github.com/purescript/purescript-tuples.git",
     "version": "v2.0.0"
+  },
+  "type-equality": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript/purescript-type-equality.git",
+    "version": "v1.0.0"
   },
   "unfoldable": {
     "dependencies": [
