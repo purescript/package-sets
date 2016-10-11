@@ -596,7 +596,6 @@
       "nonempty",
       "partial",
       "prelude",
-      "psci-support",
       "st",
       "tailrec",
       "tuples",
