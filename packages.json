@@ -41,6 +41,37 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v2.0.0"
   },
+  "catenable-lists": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "invariant",
+      "lazy",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "lists",
+      "maybe",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-catenable-lists.git",
+    "version": "v2.0.0"
+  },
   "console": {
     "dependencies": [
       "prelude",
@@ -267,6 +298,25 @@
     "repo": "https://github.com/purescript/purescript-identity.git",
     "version": "v2.0.0"
   },
+  "inject": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "const",
+      "contravariant",
+      "either",
+      "foldable-traversable",
+      "functor-coproducts",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript/purescript-inject.git",
+    "version": "v2.0.0"
+  },
   "integers": {
     "dependencies": [
       "control",
@@ -455,6 +505,35 @@
     "repo": "https://github.com/purescript/purescript-refs.git",
     "version": "v2.0.0"
   },
+  "semirings": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "control",
+      "either",
+      "eff",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "invariant",
+      "lazy",
+      "lists",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "proxy",
+      "strings",
+      "prelude",
+      "st",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-semirings.git",
+    "version": "v2.0.0"
+  },
   "st": {
     "dependencies": [
       "eff",
@@ -496,6 +575,34 @@
       "st"
     ],
     "repo": "https://github.com/purescript/purescript-tailrec.git",
+    "version": "v2.0.0"
+  },
+  "transformers": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "distributive",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "psci-support",
+      "st",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-transformers.git",
     "version": "v2.0.0"
   },
   "tuples": {
