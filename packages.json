@@ -218,7 +218,7 @@
     "repo": "https://github.com/purescript/purescript-functions.git",
     "version": "v2.0.0"
   },
-  "functor-coproducts": {
+  "functors": {
     "dependencies": [
       "bifunctors",
       "control",
@@ -233,23 +233,8 @@
       "prelude",
       "tuples"
     ],
-    "repo": "https://github.com/purescript/purescript-functor-coproducts.git",
-    "version": "v2.0.0"
-  },
-  "functor-products": {
-    "dependencies": [
-      "bifunctors",
-      "control",
-      "foldable-traversable",
-      "invariant",
-      "maybe",
-      "monoid",
-      "newtype",
-      "prelude",
-      "tuples"
-    ],
-    "repo": "https://github.com/purescript/purescript-functor-products.git",
-    "version": "v2.0.0"
+    "repo": "https://github.com/purescript/purescript-functors.git",
+    "version": "v1.0.0"
   },
   "generics": {
     "dependencies": [
@@ -317,7 +302,7 @@
       "contravariant",
       "either",
       "foldable-traversable",
-      "functor-coproducts",
+      "functors",
       "invariant",
       "maybe",
       "monoid",
@@ -326,7 +311,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-inject.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "integers": {
     "dependencies": [
@@ -619,7 +604,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-transformers.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "tuples": {
     "dependencies": [
