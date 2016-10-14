@@ -211,6 +211,80 @@
     "repo": "https://github.com/purescript/purescript-foldable-traversable.git",
     "version": "v2.0.0"
   },
+  "foreign": {
+   "dependencies": [
+     "arrays",
+     "console",
+     "bifunctors",
+     "control",
+     "distributive",
+     "eff",
+     "either",
+     "foldable-traversable",
+     "functions",
+     "generics",
+     "identity",
+     "integers",
+     "invariant",
+     "lazy",
+     "lists",
+     "math",
+     "maybe",
+     "monoid",
+     "newtype",
+     "nonempty",
+     "partial",
+     "prelude",
+     "proxy",
+     "st",
+     "strings",
+     "unfoldable",
+     "tailrec",
+     "transformers",
+     "tuples"
+   ],
+   "repo": "https://github.com/purescript/purescript-foreign.git",
+   "version": "v2.0.0"
+ },
+ "free": {
+   "dependencies": [
+     "arrays",
+     "bifunctors",
+     "console",
+     "const",
+     "contravariant",
+     "catenable-lists",
+     "distributive",
+     "control",
+     "eff",
+     "either",
+     "exists",
+     "foldable-traversable",
+     "functors",
+     "generics",
+     "inject",
+     "identity",
+     "invariant",
+     "lazy",
+     "lists",
+     "maybe",
+     "monoid",
+     "newtype",
+     "nonempty",
+     "partial",
+     "prelude",
+     "proxy",
+     "st",
+     "strings",
+     "tailrec",
+     "tuples",
+     "transformers",
+     "unfoldable",
+     "unsafe-coerce"
+   ],
+   "repo": "https://github.com/purescript/purescript-free.git",
+   "version": "v2.0.0"
+},
   "functions": {
     "dependencies": [
       "prelude"
@@ -374,7 +448,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
   },
   "math": {
     "dependencies": [],
