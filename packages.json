@@ -120,6 +120,39 @@
     "repo": "https://github.com/purescript/purescript-control.git",
     "version": "v2.0.0"
   },
+  "datetime": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "functions",
+      "generics",
+      "identity",
+      "integers",
+      "invariant",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-datetime.git",
+    "version": "v2.0.0"
+  },
   "distributive": {
     "dependencies": [
       "bifunctors",
