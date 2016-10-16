@@ -70,7 +70,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "console": {
     "dependencies": [
@@ -277,7 +277,7 @@
      "tuples"
    ],
    "repo": "https://github.com/purescript/purescript-foreign.git",
-   "version": "v2.0.0"
+   "version": "v3.0.0"
  },
  "free": {
    "dependencies": [
@@ -316,7 +316,7 @@
      "unsafe-coerce"
    ],
    "repo": "https://github.com/purescript/purescript-free.git",
-   "version": "v2.0.0"
+   "version": "v3.0.0"
 },
   "functions": {
     "dependencies": [
@@ -481,7 +481,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "v2.1.0"
+    "version": "v3.0.0"
   },
   "math": {
     "dependencies": [],
@@ -621,7 +621,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "random": {
     "dependencies": [
@@ -674,7 +674,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-semirings.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "st": {
     "dependencies": [
