@@ -1157,5 +1157,18 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-core.git",
     "version": "v2.0.0"
+  },
+  "node-buffer": {
+    "dependencies": [
+      "control",
+      "eff",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-node-buffer.git",
+    "version": "v2.0.0"
   }
 }
