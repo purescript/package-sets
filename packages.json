@@ -1170,5 +1170,23 @@
     ],
     "repo": "https://github.com/purescript-node/purescript-node-buffer.git",
     "version": "v2.0.0"
+  },
+  "node-streams": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "node-buffer",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-node-streams.git",
+    "version": "v2.0.0"
   }
 }
