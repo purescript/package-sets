@@ -1188,5 +1188,36 @@
     ],
     "repo": "https://github.com/purescript-node/purescript-node-streams.git",
     "version": "v2.0.0"
+  },
+  "sets": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "functions",
+      "generics",
+      "identity",
+      "invariant",
+      "lazy",
+      "lists",
+      "maps",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-sets.git",
+    "version": "v2.0.0"
   }
 }
