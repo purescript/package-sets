@@ -1292,5 +1292,41 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-dom.git",
     "version": "v3.0.0"
+  },
+  "aff": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "const",
+      "contravariant",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "functions",
+      "functors",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "parallel",
+      "partial",
+      "prelude",
+      "refs",
+      "st",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/slamdata/purescript-aff.git",
+    "version": "v2.0.0"
   }
 }
