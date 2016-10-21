@@ -1328,5 +1328,17 @@
     ],
     "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "v2.0.0"
+  },
+  "posix-types": {
+    "dependencies": [
+      "control",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-posix-types.git",
+    "version": "v2.0.0"
   }
 }
