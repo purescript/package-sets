@@ -1219,5 +1219,36 @@
     ],
     "repo": "https://github.com/purescript/purescript-sets.git",
     "version": "v2.0.0"
+  },
+  "parallel": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "const",
+      "contravariant",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "functors",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "refs",
+      "st",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-parallel.git",
+    "version": "v2.0.0"
   }
 }
