@@ -369,7 +369,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-generics.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "generics-rep": {
     "dependencies": [
@@ -587,7 +587,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
   },
   "profunctor": {
     "dependencies": [
