@@ -1480,5 +1480,40 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-coroutines.git",
     "version": "v3.0.0"
+  },
+  "argonaut-codecs": {
+    "dependencies": [
+      "argonaut-core",
+      "arrays",
+      "bifunctors",
+      "control",
+      "eff",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "functions",
+      "generics",
+      "identity",
+      "integers",
+      "invariant",
+      "lazy",
+      "lists",
+      "maps",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
+    "version": "v2.0.0"
   }
 }
