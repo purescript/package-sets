@@ -1554,5 +1554,42 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-profunctor-lenses.git",
     "version": "v2.0.0"
+  },
+  "options": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "contravariant",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "foreign",
+      "functions",
+      "generics",
+      "identity",
+      "integers",
+      "invariant",
+      "lazy",
+      "lists",
+      "maps",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-options.git",
+    "version": "v2.0.0"
   }
 }
