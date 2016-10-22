@@ -1443,5 +1443,42 @@
     ],
     "repo": "https://github.com/purescript-node/purescript-node-fs-aff.git",
     "version": "v3.0.0"
+  },
+  "coroutines": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "const",
+      "contravariant",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exists",
+      "foldable-traversable",
+      "freet",
+      "functors",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "parallel",
+      "partial",
+      "prelude",
+      "profunctor",
+      "refs",
+      "st",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-coroutines.git",
+    "version": "v3.0.0"
   }
 }
