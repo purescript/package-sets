@@ -429,6 +429,38 @@
     "repo": "https://github.com/paf31/purescript-day.git",
     "version": "v7.0.0"
   },
+  "distributions": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "assert",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "invariant",
+      "lazy",
+      "lists",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/paf31/purescript-distributions.git",
+    "version": "v2.0.0"
+  },
   "distributive": {
     "dependencies": [
       "bifunctors",
@@ -616,6 +648,47 @@
     "repo": "https://github.com/purescript/purescript-foreign.git",
     "version": "v3.0.0"
   },
+  "foreign-generic": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "functions",
+      "generics",
+      "globals",
+      "identity",
+      "integers",
+      "invariant",
+      "lazy",
+      "lists",
+      "maps",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "nullable",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/paf31/purescript-foreign-generic.git",
+    "version": "v2.0.0"
+  },
   "free": {
     "dependencies": [
       "arrays",
@@ -787,6 +860,25 @@
     "repo": "https://github.com/purescript/purescript-graphs.git",
     "version": "v2.0.0"
   },
+  "hoist": {
+    "dependencies": [
+      "bifunctors",
+      "const",
+      "contravariant",
+      "control",
+      "either",
+      "foldable-traversable",
+      "functors",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/paf31/purescript-hoist.git",
+    "version": "v3.0.0"
+  },
   "http-methods": {
     "dependencies": [
       "arrays",
@@ -813,25 +905,6 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-http-methods.git",
     "version": "v2.0.0"
-  },
-  "hoist": {
-    "dependencies": [
-      "bifunctors",
-      "const",
-      "contravariant",
-      "control",
-      "either",
-      "foldable-traversable",
-      "functors",
-      "invariant",
-      "maybe",
-      "monoid",
-      "newtype",
-      "prelude",
-      "tuples"
-    ],
-    "repo": "https://github.com/paf31/purescript-hoist.git",
-    "version": "v3.0.0"
   },
   "identity": {
     "dependencies": [
@@ -2134,6 +2207,16 @@
     ],
     "repo": "https://github.com/purescript/purescript-transformers.git",
     "version": "v2.0.1"
+  },
+  "tropical": {
+    "dependencies": [
+      "globals",
+      "math",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/paf31/purescript-tropical.git",
+    "version": "v2.0.0"
   },
   "tuples": {
     "dependencies": [
