@@ -33,7 +33,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/slamdata/purescript-aff.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "argonaut": {
     "dependencies": [
@@ -516,7 +516,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-dom.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "eff": {
     "dependencies": [
@@ -1210,7 +1210,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-maybe.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "media-types": {
     "dependencies": [
