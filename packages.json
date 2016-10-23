@@ -562,6 +562,25 @@
     "repo": "https://github.com/purescript/purescript-foldable-traversable.git",
     "version": "v2.0.0"
   },
+  "folds": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "distributive",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude",
+      "profunctor",
+      "tuples"
+    ],
+    "repo": "https://github.com/paf31/purescript-folds.git",
+    "version": "v2.0.0"
+  },
   "foreign": {
     "dependencies": [
       "arrays",
@@ -945,6 +964,14 @@
     "repo": "https://github.com/purescript/purescript-lazy.git",
     "version": "v2.0.0"
   },
+  "leibniz": {
+    "dependencies": [
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/paf31/purescript-leibniz.git",
+    "version": "v2.0.0"
+  },
   "lens-simple": {
     "dependencies": [
       "bifunctors",
@@ -1026,21 +1053,16 @@
     "dependencies": [
       "arrays",
       "bifunctors",
-      "console",
       "control",
-      "distributive",
       "eff",
       "either",
-      "exceptions",
       "foldable-traversable",
       "functions",
       "generics",
       "identity",
-      "integers",
       "invariant",
       "lazy",
       "lists",
-      "math",
       "maybe",
       "monoid",
       "newtype",
@@ -1048,12 +1070,9 @@
       "partial",
       "prelude",
       "proxy",
-      "quickcheck",
-      "random",
       "st",
       "strings",
       "tailrec",
-      "transformers",
       "tuples",
       "unfoldable"
     ],
@@ -1102,6 +1121,40 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-media-types.git",
     "version": "v2.0.0"
+  },
+  "memoize": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "generics-rep",
+      "identity",
+      "integers",
+      "invariant",
+      "lazy",
+      "lists",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/paf31/purescript-memoize.git",
+    "version": "v3.0.0"
   },
   "monoid": {
     "dependencies": [
