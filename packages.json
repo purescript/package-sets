@@ -1965,6 +1965,43 @@
     "repo": "https://github.com/purescript/purescript-refs.git",
     "version": "v2.0.0"
   },
+  "safely": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exists",
+      "foldable-traversable",
+      "freet",
+      "generics",
+      "identity",
+      "invariant",
+      "lazy",
+      "lists",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/paf31/purescript-safely.git",
+    "version": "v2.0.0"
+  },
   "semirings": {
     "dependencies": [
       "arrays",
