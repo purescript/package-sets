@@ -83,8 +83,6 @@ verifyPackageSet ps = do
 
   for_ (toList ps) $ \(name, PackageSpec{..}) -> do
     let dirFor = fromMaybe (error "verifyPackageSet: no directory") . (`M.lookup` paths)
-        pkgDir = dirFor name
     echo ("Building package " <> name)
-    pushd pkgDir $ do
-      let srcGlobs = "src/**/*.purs" : map (("../../../" <>) . (<> "/src/**/*.purs") . toTextUnsafe . dirFor) dependencies
-      procs "psc" srcGlobs empty
+    let srcGlobs = map ((<> "/src/**/*.purs") . toTextUnsafe . dirFor) (name : dependencies)
+    procs "psc" srcGlobs empty
