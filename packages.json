@@ -2049,6 +2049,15 @@
     "repo": "https://github.com/anttih/purescript-rationals.git",
     "version": "v2.0.0"
   },
+  "react": {
+    "dependencies": [
+      "eff",
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-react.git",
+    "version": "v2.0.0"
+  },
   "reflection": {
     "dependencies": [
       "control",
