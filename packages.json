@@ -945,6 +945,11 @@
     "repo": "https://github.com/purescript/purescript-graphs.git",
     "version": "v2.0.0"
   },
+  "handlebars": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript-contrib/purescript-handlebars.git",
+    "version": "v2.0.0"
+  },
   "hoist": {
     "dependencies": [
       "bifunctors",
@@ -2100,6 +2105,14 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/paf31/purescript-safely.git",
+    "version": "v2.0.0"
+  },
+  "sammy": {
+    "dependencies": [
+      "eff",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-sammy.git",
     "version": "v2.0.0"
   },
   "semirings": {
