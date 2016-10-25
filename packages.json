@@ -76,6 +76,22 @@
     "repo": "https://github.com/purescript-contrib/purescript-aff-coroutines.git",
     "version": "v4.0.0"
   },
+  "ansi": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "either",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/hdgarrood/purescript-ansi.git",
+    "version": "v2.0.0"
+  },
   "argonaut": {
     "dependencies": [
       "argonaut-codecs",
