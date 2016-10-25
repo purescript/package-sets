@@ -2222,6 +2222,43 @@
     "repo": "https://github.com/purescript/purescript-refs.git",
     "version": "v2.0.0"
   },
+  "rx": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "bifunctors",
+      "console",
+      "const",
+      "contravariant",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "functions",
+      "functors",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "parallel",
+      "partial",
+      "prelude",
+      "refs",
+      "st",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/anttih/purescript-rx.git",
+    "version": "v1.0.0"
+  },
   "safely": {
     "dependencies": [
       "arrays",
