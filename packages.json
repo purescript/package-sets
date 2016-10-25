@@ -281,6 +281,25 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v2.0.0"
   },
+  "canvas": {
+    "dependencies": [
+      "arraybuffer-types",
+      "bifunctors",
+      "control",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "functions",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-canvas.git",
+    "version": "v2.0.0"
+  },
   "catenable-lists": {
     "dependencies": [
       "arrays",
