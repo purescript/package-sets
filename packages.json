@@ -627,6 +627,44 @@
     "repo": "https://github.com/purescript-contrib/purescript-dom.git",
     "version": "v3.1.0"
   },
+  "drawing": {
+    "dependencies": [
+      "arraybuffer-types",
+      "arrays",
+      "assert",
+      "bifunctors",
+      "canvas",
+      "colors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "functions",
+      "generics",
+      "identity",
+      "integers",
+      "invariant",
+      "lazy",
+      "lists",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-drawing.git",
+    "version": "v2.0.0"
+  },
   "eff": {
     "dependencies": [
       "prelude"
