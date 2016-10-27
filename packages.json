@@ -346,6 +346,39 @@
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
     "version": "v3.0.0"
   },
+  "colors": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "integers",
+      "invariant",
+      "lazy",
+      "lists",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-colors.git",
+    "version": "v2.0.0"
+  },
   "console": {
     "dependencies": [
       "prelude",
