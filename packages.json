@@ -888,6 +888,34 @@
     "repo": "https://github.com/paf31/purescript-foreign-lens.git",
     "version": "v2.0.0"
   },
+  "form-urlencoded": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "globals",
+      "identity",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-form-urlencoded.git",
+    "version": "v2.0.0"
+  },
   "free": {
     "dependencies": [
       "arrays",
