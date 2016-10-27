@@ -672,6 +672,14 @@
     "repo": "https://github.com/purescript/purescript-eff.git",
     "version": "v2.0.0"
   },
+  "eff-functions": {
+    "dependencies": [
+      "eff",
+      "prelude"
+    ],
+    "repo": "https://github.com/hdgarrood/purescript-eff-functions.git",
+    "version": "v2.0.0"
+  },
   "either": {
     "dependencies": [
       "bifunctors",
