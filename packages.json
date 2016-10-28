@@ -1416,7 +1416,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "machines": {
     "dependencies": [
@@ -2720,6 +2720,35 @@
     ],
     "repo": "https://github.com/slamdata/purescript-stalling-coroutines.git",
     "version": "v3.0.0"
+  },
+  "string-parsers": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "invariant",
+      "lazy",
+      "lists",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-string-parsers.git",
+    "version": "v2.0.0"
   },
   "strings": {
     "dependencies": [
