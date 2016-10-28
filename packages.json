@@ -2467,6 +2467,13 @@
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
     "version": "v2.0.0"
   },
+  "react-addons-css-transition-group": {
+    "dependencies": [
+      "react"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-react-addons-css-transition-group.git",
+    "version": "v0.2.0"
+  },
   "react-dom": {
     "dependencies": [
       "arrays",
