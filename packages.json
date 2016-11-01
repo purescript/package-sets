@@ -2862,6 +2862,7 @@
   },
   "symbols": {
     "dependencies": [
+      "prelude",
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-symbols.git",
