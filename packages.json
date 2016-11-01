@@ -2865,7 +2865,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-symbols.git",
-    "version": "v1.0.1"
+    "version": "v2.0.0"
   },
   "tailrec": {
     "dependencies": [
