@@ -2089,7 +2089,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-parallel.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
   },
   "parsing": {
     "dependencies": [
