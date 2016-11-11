@@ -764,6 +764,34 @@
     "repo": "https://github.com/purescript/purescript-enums.git",
     "version": "v2.0.0"
   },
+  "errors": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "st",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/passy/purescript-errors.git",
+    "version": "v2.0.0"
+  },
   "exceptions": {
     "dependencies": [
       "bifunctors",
