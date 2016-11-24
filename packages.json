@@ -1444,7 +1444,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "v3.2.0"
+    "version": "v3.2.1"
   },
   "machines": {
     "dependencies": [
