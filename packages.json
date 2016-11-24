@@ -393,7 +393,7 @@
       "tuples",
       "unfoldable",
       "unicode",
-      "unsafe-coerce",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/paluh/purescript-boomerang.git",
     "version": "v1.2.0"
