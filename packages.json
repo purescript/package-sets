@@ -341,8 +341,8 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v2.0.0"
   },
-  boomerang: {
-    dependencies: [
+  "boomerang": {
+    "dependencies": [
       "aff",
       "arrays",
       "assert",
