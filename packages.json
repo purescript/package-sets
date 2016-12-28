@@ -3118,6 +3118,7 @@
       "distributive",
       "dom",
       "eff",
+      "eff-functions",
       "either",
       "enums",
       "exceptions",
