@@ -977,7 +977,8 @@
       "tailrec",
       "transformers",
       "tuples",
-      "unfoldable"
+      "unfoldable",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/paf31/purescript-foreign-generic.git",
     "version": "v3.0.0"
