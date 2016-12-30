@@ -330,7 +330,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-assert.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "bifunctors": {
     "dependencies": [
@@ -954,6 +954,7 @@
       "foreign",
       "functions",
       "generics",
+      "generics-rep",
       "globals",
       "identity",
       "integers",
@@ -972,13 +973,15 @@
       "proxy",
       "st",
       "strings",
+      "symbols",
       "tailrec",
       "transformers",
       "tuples",
-      "unfoldable"
+      "unfoldable",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/paf31/purescript-foreign-generic.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "foreign-lens": {
     "dependencies": [
@@ -1183,7 +1186,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-generics-rep.git",
-    "version": "v3.0.0"
+    "version": "v4.0.0"
   },
   "globals": {
     "dependencies": [],
@@ -1428,7 +1431,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "js-timers": {
     "dependencies": [
@@ -1532,7 +1535,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-machines.git",
-    "version": "v2.0.1"
+    "version": "v3.0.0"
   },
   "maps": {
     "dependencies": [
@@ -1859,7 +1862,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-http.git",
-    "version": "v2.0.0"
+    "version": "v3.0.1"
   },
   "node-path": {
     "dependencies": [],
@@ -2143,7 +2146,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/paf31/purescript-pairing.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "parallel": {
     "dependencies": [
@@ -2288,7 +2291,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/paf31/purescript-pprint.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "preface": {
     "dependencies": [],
@@ -3240,7 +3243,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-tuples.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "type-equality": {
     "dependencies": [],
@@ -3282,7 +3285,7 @@
   "unsafe-coerce": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-unsafe-coerce.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "uri": {
     "dependencies": [
