@@ -17,5 +17,4 @@ install:
   - chmod a+x $HOME/purescript
   
 script:
-  - psc-package init
-  - psc-package verify-set
+  - ./travis.sh
