@@ -1129,6 +1129,26 @@
     "repo": "https://github.com/purescript/purescript-free.git",
     "version": "v3.1.0"
   },
+  "freeap": {
+    "dependencies": [
+      "bifunctors",
+      "const",
+      "contravariant",
+      "control",
+      "either",
+      "exists",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/ethul/purescript-freeap.git",
+    "version": "2.0.0"
+  },
   "freet": {
     "dependencies": [
       "arrays",
