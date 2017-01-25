@@ -1177,6 +1177,43 @@
     "repo": "https://github.com/paf31/purescript-foreign-lens.git",
     "version": "v2.0.0"
   },
+  "fork": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "bifunctors",
+      "console",
+      "const",
+      "contravariant",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "functions",
+      "functors",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "parallel",
+      "partial",
+      "prelude",
+      "refs",
+      "st",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/slamdata/purescript-fork.git",
+    "version": "v1.0.0"
+  },
   "form-urlencoded": {
     "dependencies": [
       "arrays",
