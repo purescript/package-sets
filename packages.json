@@ -1389,8 +1389,11 @@
     },
     "generics-rep": {
         "dependencies": [
+            "bifunctors",
             "control",
+            "foldable-traversable",
             "invariant",
+            "maybe",
             "monoid",
             "newtype",
             "prelude"
