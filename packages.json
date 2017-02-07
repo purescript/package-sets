@@ -3311,6 +3311,7 @@
             "maybe",
             "monoid",
             "newtype",
+            "partial",
             "prelude"
         ],
         "repo": "https://github.com/purescript/purescript-strings.git",
@@ -3693,6 +3694,7 @@
             "maybe",
             "monoid",
             "newtype",
+            "partial",
             "prelude",
             "strings"
         ],
