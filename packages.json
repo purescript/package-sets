@@ -1396,7 +1396,9 @@
             "maybe",
             "monoid",
             "newtype",
-            "prelude"
+            "prelude",
+            "symbols",
+            "unsafe-coerce"
         ],
         "repo": "https://github.com/purescript/purescript-generics-rep.git",
         "version": "v4.1.0"
