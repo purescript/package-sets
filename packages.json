@@ -1396,7 +1396,9 @@
             "maybe",
             "monoid",
             "newtype",
-            "prelude"
+            "prelude",
+            "symbols",
+            "unsafe-coerce"
         ],
         "repo": "https://github.com/purescript/purescript-generics-rep.git",
         "version": "v4.1.0"
@@ -1973,9 +1975,11 @@
             "proxy",
             "st",
             "strings",
+            "symbols",
             "tailrec",
             "tuples",
-            "unfoldable"
+            "unfoldable",
+            "unsafe-coerce"
         ],
         "repo": "https://github.com/paf31/purescript-memoize.git",
         "version": "v3.0.0"
@@ -3307,6 +3311,7 @@
             "maybe",
             "monoid",
             "newtype",
+            "partial",
             "prelude"
         ],
         "repo": "https://github.com/purescript/purescript-strings.git",
@@ -3689,6 +3694,7 @@
             "maybe",
             "monoid",
             "newtype",
+            "partial",
             "prelude",
             "strings"
         ],
