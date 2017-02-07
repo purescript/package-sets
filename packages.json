@@ -1975,9 +1975,11 @@
             "proxy",
             "st",
             "strings",
+            "symbols",
             "tailrec",
             "tuples",
-            "unfoldable"
+            "unfoldable",
+            "unsafe-coerce"
         ],
         "repo": "https://github.com/paf31/purescript-memoize.git",
         "version": "v3.0.0"
