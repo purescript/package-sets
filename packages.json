@@ -2083,6 +2083,23 @@
         "repo": "https://github.com/paf31/purescript-memoize.git",
         "version": "v3.0.0"
     },
+    "mini-redux": {
+        "dependencies": [
+            "control",
+            "eff",
+            "functions",
+            "invariant",
+            "maybe",
+            "monoid",
+            "newtype",
+            "nullable",
+            "prelude",
+            "react",
+            "unsafe-coerce"
+        ],
+        "repo": "https://github.com/ecliptic/purescript-mini-redux.git",
+        "version": "v1.1.0"
+    },
     "monoid": {
         "dependencies": [
             "control",
@@ -3084,6 +3101,17 @@
         ],
         "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
         "version": "v2.0.0"
+    },
+    "recompose": {
+        "dependencies": [
+            "eff",
+            "functions",
+            "prelude",
+            "react",
+            "unsafe-coerce"
+        ],
+        "repo": "https://github.com/ecliptic/purescript-recompose.git",
+        "version": "v1.1.0"
     },
     "reflection": {
         "dependencies": [
