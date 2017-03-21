@@ -6,15 +6,15 @@ cache:
   directories:
   - .psc-package
   - output
-  
+
 env:
   - PATH=$HOME/purescript:$PATH
-  
+
 install:
-  - TAG=v0.10.7
+  - TAG=v0.11.0-rc.1
   - wget -O $HOME/purescript.tar.gz https://github.com/purescript/purescript/releases/download/$TAG/linux64.tar.gz
   - tar -xvf $HOME/purescript.tar.gz -C $HOME/
   - chmod a+x $HOME/purescript
-  
+
 script:
   - ./travis.sh
