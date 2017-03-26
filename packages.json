@@ -827,7 +827,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-st.git",
-    "version": "ps-0.11"
+    "version": "v3.0.0"
   },
   "strings": {
     "dependencies": [
