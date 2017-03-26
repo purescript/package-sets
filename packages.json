@@ -528,7 +528,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "ps-0.11"
+    "version": "v4.0.0"
   },
   "maps": {
     "dependencies": [
