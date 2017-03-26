@@ -606,7 +606,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-nonempty.git",
-    "version": "v3.0.0"
+    "version": "v4.0.0"
   },
   "orders": {
     "dependencies": [
