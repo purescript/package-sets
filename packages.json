@@ -209,7 +209,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-enums.git",
-    "version": "ps-0.11"
+    "version": "v3.0.0"
   },
   "exceptions": {
     "dependencies": [
@@ -463,7 +463,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-inject.git",
-    "version": "ps-0.11"
+    "version": "v4.0.0"
   },
   "integers": {
     "dependencies": [
@@ -899,7 +899,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-transformers.git",
-    "version": "ps-0.11"
+    "version": "v3.0.0"
   },
   "tuples": {
     "dependencies": [
