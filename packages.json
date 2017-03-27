@@ -71,7 +71,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
-    "version": "ps-0.11"
+    "version": "v4.0.0"
   },
   "console": {
     "dependencies": [
@@ -787,7 +787,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-semirings.git",
-    "version": "ps-0.11"
+    "version": "v4.0.0"
   },
   "sets": {
     "dependencies": [
