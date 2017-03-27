@@ -763,7 +763,7 @@
       "control",
       "either",
       "eff",
-      "foldable-traversable
+      "foldable-traversable",
       "identity",
       "invariant",
       "lazy",
