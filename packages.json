@@ -137,6 +137,8 @@
       "identity",
       "integers",
       "invariant",
+      "lazy",
+      "lists",
       "math",
       "maybe",
       "monoid",
@@ -153,7 +155,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-datetime.git",
-    "version": "ps-0.11"
+    "version": "v3.0.0"
   },
   "distributive": {
     "dependencies": [
@@ -358,6 +360,7 @@
       "foldable-traversable",
       "identity",
       "invariant",
+      "lazy",
       "lists",
       "maybe",
       "monoid",
@@ -374,7 +377,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-generics.git",
-    "version": "ps-0.11"
+    "version": "v4.0.0"
   },
   "generics-rep": {
     "dependencies": [
@@ -556,7 +559,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-maps.git",
-    "version": "ps-0.11"
+    "version": "v3.0.0"
   },
   "math": {
     "dependencies": [],
@@ -646,7 +649,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-parallel.git",
-    "version": "ps-0.11"
+    "version": "v3.0.0"
   },
   "partial": {
     "dependencies": [],
@@ -814,7 +817,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-sets.git",
-    "version": "ps-0.11"
+    "version": "v3.0.0"
   },
   "st": {
     "dependencies": [
