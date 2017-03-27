@@ -343,7 +343,8 @@
       "monoid",
       "newtype",
       "prelude",
-      "tuples"
+      "tuples",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-functors.git",
     "version": "v2.0.0"
@@ -460,7 +461,8 @@
       "monoid",
       "newtype",
       "prelude",
-      "tuples"
+      "tuples",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-inject.git",
     "version": "v4.0.0"
