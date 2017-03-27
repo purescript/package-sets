@@ -926,7 +926,7 @@
       "proxy",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/purescript/purescript-type-equality.git",
+    "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
     "version": "v2.0.0"
   },
   "unfoldable": {
