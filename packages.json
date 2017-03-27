@@ -732,7 +732,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
-    "version": "ps-0.11"
+    "version": "v4.0.0"
   },
   "random": {
     "dependencies": [
