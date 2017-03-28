@@ -617,7 +617,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-orders.git",
-    "version": "ps-0.11"
+    "version": "v3.0.0"
   },
   "parallel": {
     "dependencies": [
@@ -927,7 +927,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
-    "version": "v2.0.0"
+    "version": "52ededde01ca0c98cbedb108408bd0ad7b98ec8a"
   },
   "unfoldable": {
     "dependencies": [
