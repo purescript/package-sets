@@ -22,7 +22,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "assert": {
     "dependencies": [
@@ -529,7 +529,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "maps": {
     "dependencies": [
