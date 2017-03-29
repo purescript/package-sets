@@ -282,7 +282,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-foreign.git",
-    "version": "ps-0.11"
+    "version": "v4.0.0"
   },
   "free": {
     "dependencies": [
@@ -431,7 +431,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-graphs.git",
-    "version": "ps-0.11"
+    "version": "v3.0.0"
   },
   "identity": {
     "dependencies": [
