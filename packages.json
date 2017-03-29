@@ -322,6 +322,36 @@
     "repo": "https://github.com/purescript/purescript-free.git",
     "version": "v4.0.0"
   },
+  "freet": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exists",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "st",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-freet.git",
+    "version": "v3.0.0"
+  },
   "functions": {
     "dependencies": [
       "prelude"
@@ -432,6 +462,11 @@
     ],
     "repo": "https://github.com/purescript/purescript-graphs.git",
     "version": "v3.0.0"
+  },
+  "handlebars": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript-contrib/purescript-handlebars.git",
+    "version": "v2.0.0"
   },
   "identity": {
     "dependencies": [
@@ -608,6 +643,19 @@
     "repo": "https://github.com/purescript/purescript-nonempty.git",
     "version": "v4.0.0"
   },
+  "nullable": {
+    "dependencies": [
+      "control",
+      "functions",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-nullable.git",
+    "version": "v3.0.0"
+  },
   "orders": {
     "dependencies": [
       "control",
@@ -751,12 +799,29 @@
     "repo": "https://github.com/purescript/purescript-random.git",
     "version": "v3.0.0"
   },
+  "react": {
+    "dependencies": [
+      "eff",
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-react.git",
+    "version": "v3.0.0"
+  },
   "refs": {
     "dependencies": [
       "eff",
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-refs.git",
+    "version": "v3.0.0"
+  },
+  "sammy": {
+    "dependencies": [
+      "eff",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-sammy.git",
     "version": "v3.0.0"
   },
   "semirings": {
@@ -841,6 +906,36 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
+    "version": "v3.0.0"
+  },
+  "string-parsers": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "invariant",
+      "lazy",
+      "lists",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-string-parsers.git",
     "version": "v3.0.0"
   },
   "symbols": {
