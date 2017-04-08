@@ -262,7 +262,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "arraybuffer-types": {
     "dependencies": [],
@@ -1365,7 +1365,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/paf31/purescript-leibniz.git",
-    "version": "v3.0.0"
+    "version": "v4.0.0"
   },
   "lens": {
     "dependencies": [
@@ -2567,7 +2567,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-strongcheck.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "symbols": {
     "dependencies": [
@@ -2742,7 +2742,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-transformers.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "tuples": {
     "dependencies": [
