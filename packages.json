@@ -2342,6 +2342,22 @@
     "repo": "https://github.com/purescript/purescript-random.git",
     "version": "v3.0.0"
   },
+  "rationals": {
+    "dependencies": [
+      "control",
+      "globals",
+      "integers",
+      "invariant",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "partial",
+      "prelude"
+    ],
+    "repo": "https://github.com/anttih/purescript-rationals.git",
+    "version": "v3.0.0"
+  },
   "react": {
     "dependencies": [
       "eff",
