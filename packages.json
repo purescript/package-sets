@@ -2204,7 +2204,7 @@
       "transformers",
       "tuples",
       "unfoldable",
-      "unsafe-coerce",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/brandonhamilton/purescript-phoenix",
     "version": "v3.0.0"
