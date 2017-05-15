@@ -599,6 +599,13 @@
     "repo": "https://github.com/paf31/purescript-day.git",
     "version": "v9.0.0"
   },
+  "debug": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/garyb/purescript-debug.git",
+    "version": "v3.0.0"
+  },
   "distributions": {
     "dependencies": [
       "arrays",
