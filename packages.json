@@ -1954,6 +1954,38 @@
     "repo": "https://github.com/paf31/purescript-memoize.git",
     "version": "v4.0.0"
   },
+  "mmorph": {
+    "dependencies": [
+    "arrays",
+    "bifunctors",
+    "console",
+    "const",
+    "contravariant",
+    "control",
+    "distributive",
+    "eff",
+    "either",
+    "foldable-traversable",
+    "functors",
+    "identity",
+    "invariant",
+    "lazy",
+    "maybe",
+    "monoid",
+    "newtype",
+    "nonempty",
+    "partial",
+    "prelude",
+    "st",
+    "tailrec",
+    "transformers",
+    "tuples",
+    "unfoldable",
+    "unsafe-coerce"
+  ],
+  "repo":"https://github.com/Thimoteus/purescript-mmorph.git",
+  "version":"v3.0.0"
+  },
   "monoid": {
     "dependencies": [
       "control",
