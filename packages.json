@@ -2372,6 +2372,20 @@
     "repo": "https://github.com/purescript-contrib/purescript-nullable.git",
     "version": "v3.0.0"
   },
+  "numbers": {
+    "dependencies": [
+      "control",
+      "globals",
+      "invariant",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-numbers.git",
+    "version": "v5.0.0"
+  },
   "options": {
     "dependencies": [
       "arrays",
