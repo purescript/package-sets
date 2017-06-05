@@ -269,7 +269,7 @@
   "arraybuffer-types": {
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "arrays": {
     "dependencies": [
@@ -1634,7 +1634,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "js-timers": {
     "dependencies": [
@@ -1960,35 +1960,35 @@
   },
   "mmorph": {
     "dependencies": [
-    "arrays",
-    "bifunctors",
-    "console",
-    "const",
-    "contravariant",
-    "control",
-    "distributive",
-    "eff",
-    "either",
-    "foldable-traversable",
-    "functors",
-    "identity",
-    "invariant",
-    "lazy",
-    "maybe",
-    "monoid",
-    "newtype",
-    "nonempty",
-    "partial",
-    "prelude",
-    "st",
-    "tailrec",
-    "transformers",
-    "tuples",
-    "unfoldable",
-    "unsafe-coerce"
-  ],
-  "repo":"https://github.com/Thimoteus/purescript-mmorph.git",
-  "version":"v3.0.0"
+      "arrays",
+      "bifunctors",
+      "console",
+      "const",
+      "contravariant",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "functors",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "st",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
+    "version": "v3.0.0"
   },
   "monoid": {
     "dependencies": [
@@ -2553,44 +2553,6 @@
     "repo": "https://github.com/purescript/purescript-partial.git",
     "version": "v1.2.0"
   },
-  "pipes": {
-    "dependencies": [
-      "arrays",
-      "assert",
-      "bifunctors",
-      "console",
-      "const",
-      "contravariant",
-      "control",
-      "distributive",
-      "eff",
-      "either",
-      "foldable-traversable",
-      "functors",
-      "identity",
-      "invariant",
-      "lazy",
-      "lists",
-      "math",
-      "maybe",
-      "mmorph",
-      "monoid",
-      "newtype",
-      "nonempty",
-      "partial",
-      "prelude",
-      "proxy",
-      "st",
-      "strings",
-      "tailrec",
-      "transformers",
-      "tuples",
-      "unfoldable",
-      "unsafe-coerce"
-  ],
-    "repo":"https://github.com/felixSchl/purescript-pipes.git",
-    "version":"v4.0.0"
-  },
   "phoenix": {
     "dependencies": [
       "arrays",
@@ -2630,6 +2592,44 @@
     ],
     "repo": "https://github.com/brandonhamilton/purescript-phoenix",
     "version": "v3.0.0"
+  },
+  "pipes": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "bifunctors",
+      "console",
+      "const",
+      "contravariant",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "functors",
+      "identity",
+      "invariant",
+      "lazy",
+      "lists",
+      "math",
+      "maybe",
+      "mmorph",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/felixSchl/purescript-pipes.git",
+    "version": "v4.0.0"
   },
   "posix-types": {
     "dependencies": [
@@ -3039,9 +3039,9 @@
       "tuples",
       "unfoldable",
       "unsafe-coerce"
-  ],
-  "repo":"https://github.com/krisajenkins/purescript-remotedata",
-  "version":"v2.1.0"
+    ],
+    "repo": "https://github.com/krisajenkins/purescript-remotedata",
+    "version": "v2.1.0"
   },
   "safely": {
     "dependencies": [
@@ -3277,7 +3277,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/bodil/purescript-smolder.git",
-    "version": "v7.0.0"
+    "version": "v9.0.0"
   },
   "spec": {
     "dependencies": [
@@ -3336,8 +3336,8 @@
       "unfoldable",
       "unsafe-coerce"
     ],
-    "repo":"https://github.com/owickstrom/purescript-spec.git",
-    "version":"v1.0.0"
+    "repo": "https://github.com/owickstrom/purescript-spec.git",
+    "version": "v1.0.0"
   },
   "st": {
     "dependencies": [
