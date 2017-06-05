@@ -3277,7 +3277,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/bodil/purescript-smolder.git",
-    "version": "v8.0.0"
+    "version": "v7.0.0"
   },
   "spec": {
     "dependencies": [
