@@ -3222,6 +3222,16 @@
     "repo": "https://github.com/owickstrom/purescript-spec.git",
     "version": "v1.0.0"
   },
+  "spec-discovery": {
+    "dependencies": [
+      "prelude",
+      "eff",
+      "arrays",
+      "spec"
+    ],
+    "repo": "https://github.com/owickstrom/purescript-spec-discovery",
+    "version": "v0.6.0"
+  },
   "st": {
     "dependencies": [
       "eff",
