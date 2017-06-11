@@ -3283,6 +3283,16 @@
     "repo": "https://github.com/owickstrom/purescript-spec-discovery",
     "version": "v0.6.0"
   },
+  "spec-quickcheck": {
+    "dependencies": [
+      "aff",
+      "random",
+      "quickcheck",
+      "spec"
+    ],
+    "repo": "https://github.com/owickstrom/purescript-spec-quickcheck",
+    "version": "v0.10.0"
+  },
   "st": {
     "dependencies": [
       "eff",
