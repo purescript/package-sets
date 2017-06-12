@@ -3636,5 +3636,34 @@
     ],
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v3.0.0"
+  },
+  "errors": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "st",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/passy/purescript-errors.git",
+    "version": "v3.0.0"
   }
 }
