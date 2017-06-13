@@ -2781,7 +2781,7 @@
       "signal",
       "smolder"
     ],
-    "repo": "https://github.com/alexmingoia/pux",
+    "repo": "https://github.com/alexmingoia/purescript-pux.git",
     "version": "v10.0.0"
   },
   "quickcheck": {
