@@ -44,6 +44,25 @@
     "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "v3.0.0"
   },
+"affjax":{
+  "dependencies": [
+      "aff",
+      "argonaut-core",
+      "arraybuffer-types",
+      "dom",
+      "foreign",
+      "form-urlencoded",
+      "http-methods",
+      "integers",
+      "math",
+      "media-types",
+      "nullable",
+      "refs",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/slamdata/purescript-affjax/",
+    "version": "v4.0.0"
+  },
   "aff-coroutines": {
     "dependencies": [
       "aff",
@@ -2746,6 +2765,24 @@
     ],
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "v3.0.0"
+  },
+  "pux": {
+    "dependencies": [
+      "aff",
+      "css",
+      "dom",
+      "eff",
+      "functions",
+      "globals",
+      "lists",
+      "maps",
+      "profunctor",
+      "react",
+      "signal",
+      "smolder"
+    ],
+    "repo": "https://github.com/alexmingoia/purescript-pux.git",
+    "version": "v10.0.0"
   },
   "quickcheck": {
     "dependencies": [
