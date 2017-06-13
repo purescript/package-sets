@@ -44,6 +44,25 @@
     "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "v3.0.0"
   },
+"affjax":{
+  "dependencies": [
+      "aff",
+      "argonaut-core",
+      "arraybuffer-types",
+      "dom",
+      "foreign",
+      "form-urlencoded",
+      "http-methods",
+      "integers",
+      "math",
+      "media-types",
+      "nullable",
+      "refs",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/slamdata/purescript-affjax/",
+    "version": "v4.0.0"
+  },
   "aff-coroutines": {
     "dependencies": [
       "aff",
