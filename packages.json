@@ -3286,6 +3286,26 @@
     "repo": "https://github.com/krisajenkins/purescript-remotedata",
     "version": "v2.1.0"
   },
+  "run" : {
+    "dependencies": [
+      "aff",
+      "console",
+      "eff",
+      "either",
+      "free",
+      "newtype",
+      "maybe",
+      "prelude",
+      "profunctor",
+      "tailrec",
+      "tuples",
+      "type-equality",
+      "unsafe-coerce",
+      "variant"
+    ],
+    "repo":"https://github.com/natefaubion/purescript-run.git",
+    "version":"v0.4.0"
+  },
   "safely": {
     "dependencies": [
       "arrays",
@@ -3960,6 +3980,18 @@
     ],
     "repo": "https://github.com/purescript/purescript-validation.git",
     "version": "v3.0.0"
+  },
+  "variant" :{
+    "dependencies":[
+      "maybe",
+      "partials",
+      "prelude",
+      "symbols",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo":"https://github.com/natefaubion/purescript-variant.git",
+    "version":"1.1.0"
   },
   "yargs": {
     "dependencies": [
