@@ -4018,9 +4018,11 @@
   },
   "variant" :{
     "dependencies":[
+      "bifunctors",
       "control",
       "distributive",
       "foldable-traversable",
+      "identity",
       "invariant",
       "maybe",
       "monoid",
