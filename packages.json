@@ -3311,6 +3311,7 @@
       "generics",
       "globals",
       "identity",
+      "integers",
       "inject",
       "invariant",
       "lazy",
