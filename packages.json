@@ -1279,6 +1279,36 @@
     "repo": "https://github.com/purescript-contrib/purescript-form-urlencoded.git",
     "version": "v3.0.0"
   },
+  "format": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "prelude",
+      "control",
+      "monoid",
+      "tuples",
+      "foldable-traversable",
+      "maybe",
+      "newtype",
+      "globals",
+      "st",
+      "eff",
+      "nonempty",
+      "lazy",
+      "either",
+      "invariant",
+      "identity",
+      "partial",
+      "bifunctors",
+      "unsafe-coerce",
+      "tailrec",
+      "math",
+      "strings",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-format",
+    "version": "v3.0.0"
+  },
   "formatters": {
     "dependencies": [
       "arrays",
