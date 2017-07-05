@@ -1016,6 +1016,35 @@
     "repo": "https://github.com/purescript/purescript-exists.git",
     "version": "v3.0.0"
   },
+  "filterable": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "functions",
+      "identity",
+      "invariant",
+      "lazy",
+      "lists",
+      "maps",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "st",
+      "tailrec",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/LiamGoodacre/purescript-filterable",
+    "version": "v2.2.0"
+  },
   "fixed-points": {
     "dependencies": [
       "arrays",
