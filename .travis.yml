@@ -11,8 +11,8 @@ env:
   - PATH=$HOME/purescript:$HOME/psc-package:$PATH
 
 install:
-  - TAG=v0.11.5
-  - PSC_PACKAGE_TAG=v0.1.1
+  - TAG=v0.11.6
+  - PSC_PACKAGE_TAG=v0.1.4
   - wget -O $HOME/purescript.tar.gz https://github.com/purescript/purescript/releases/download/$TAG/linux64.tar.gz
   - tar -xvf $HOME/purescript.tar.gz -C $HOME/
   - chmod a+x $HOME/purescript
