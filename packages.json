@@ -3190,6 +3190,42 @@
     "repo": "https://github.com/purescript/purescript-partial.git",
     "version": "v1.2.0"
   },
+  "pathy": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "lazy",
+      "lists",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "profunctor",
+      "proxy",
+      "st",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/slamdata/purescript-pathy.git",
+    "version": "v4.0.0"
+  },
   "phoenix": {
     "dependencies": [
       "arrays",
