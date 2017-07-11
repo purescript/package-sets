@@ -1597,7 +1597,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-functors.git",
-    "version": "v2.0.0"
+    "version": "v2.2.0"
   },
   "gen": {
     "dependencies": [
