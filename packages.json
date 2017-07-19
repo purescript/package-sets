@@ -1028,6 +1028,14 @@
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v4.0.0"
   },
+  "record": {
+    "dependencies": [
+      "functions",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-record.git",
+    "version": "v0.1.0"
+  },
   "reflection": {
     "dependencies": [
       "monoid",
