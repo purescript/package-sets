@@ -99,6 +99,15 @@
     "repo": "https://github.com/purescript/purescript-assert.git",
     "version": "v3.0.0"
   },
+  "behaviors": {
+    "dependencies": [
+      "prelude",
+      "eff",
+      "sets"
+    ],
+    "repo": "git://github.com/paf31/purescript-behaviors.git",
+    "version": "v5.1.0"
+  },
   "bifunctors": {
     "dependencies": [
       "control",
