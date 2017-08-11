@@ -49,6 +49,7 @@
       "media-types",
       "nullable",
       "refs",
+      "partial",
       "unsafe-coerce"
     ],
     "repo": "https://github.com/slamdata/purescript-affjax.git",
@@ -2413,11 +2414,6 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-precise.git",
     "version": "v1.0.1"
-  },
-  "preface": {
-    "dependencies": [],
-    "repo": "https://github.com/paf31/purescript-preface.git",
-    "version": "v1.1.0"
   },
   "prelude": {
     "dependencies": [],
