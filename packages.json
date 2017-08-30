@@ -150,6 +150,7 @@
       "maybe",
       "monoid",
       "newtype",
+      "partial",
       "prelude",
       "strings"
     ],
@@ -3501,6 +3502,13 @@
     ],
     "repo": "https://github.com/slamdata/purescript-uri.git",
     "version": "v2.0.0"
+  },
+  "uuid": {
+    "dependencies": [
+      "eff"
+    ],
+    "repo": "https://github.com/spicydonuts/purescript-uuid.git",
+    "version": "v3.0.0"
   },
   "validation": {
     "dependencies": [
