@@ -1274,7 +1274,7 @@
       "proxy"
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
-    "version": "v2.3.1"
+    "version": "v2.4.0"
   },
   "unfoldable": {
     "dependencies": [
