@@ -784,7 +784,7 @@
       "globals",
       "integers"
     ],
-    "repo": "git@github.com:chexxor/purescript-dom-geolocation.git",
+    "repo": "https://github.com/chexxor/purescript-dom-geolocation.git",
     "version": "use-aff"
   },
   "drawing": {
@@ -942,7 +942,7 @@
       "strings",
       "transformers"
     ],
-    "repo": "git@github.com:chexxor/purescript-express",
+    "repo": "https://github.com/chexxor/purescript-express.git",
     "version": "master-chexxor"
   },
   "fixed-points": {
@@ -1018,7 +1018,7 @@
       "transformers",
       "tuples"
     ],
-    "repo": "git@github.com:chexxor/purescript-foreign.git",
+    "repo": "https://github.com/chexxor/purescript-foreign.git",
     "version": "v3.1.0"
   },
   "foreign-generic": {
@@ -1113,7 +1113,7 @@
       "fixed-points",
       "datetime"
     ],
-    "repo": "git@github.com:paulbjarne/purescript-formatters.git",
+    "repo": "https://github.com/paulbjarne/purescript-formatters.git",
     "version": "ps-0.10-backport"
   },
   "form-urlencoded": {
@@ -2568,7 +2568,7 @@
       "react",
       "globals"
     ],
-    "repo": "git@github.com:chexxor/purescript-pux.git",
+    "repo": "https://github.com/chexxor/purescript-pux.git",
     "version": "master-chexxor"
   },
   "pux-css": {
@@ -3528,7 +3528,7 @@
       "exceptions",
       "maybe"
     ],
-    "repo": "git@github.com:chexxor/purescript-web-storage.git",
+    "repo": "https://github.com/chexxor/purescript-web-storage.git",
     "version": "bump-deps"
   },
   "yargs": {
