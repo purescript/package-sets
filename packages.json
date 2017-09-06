@@ -282,6 +282,17 @@
     "repo": "https://github.com/purescript/purescript-either.git",
     "version": "v3.1.0"
   },
+  "email-validate": {
+    "dependencies": [
+       "generics",
+       "parsing",
+       "string-parsers",
+       "aff",
+       "transformers"
+    ],
+    "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
+    "version": "v1.0.7"
+  },
   "enums": {
     "dependencies": [
       "strings",
