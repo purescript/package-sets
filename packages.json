@@ -1618,6 +1618,20 @@
     "repo": "https://github.com/purescript/purescript-lists.git",
     "version": "v3.2.1"
   },
+  "logging": {
+    "dependencies": [
+      "prelude",
+      "contravariant",
+      "monoid",
+      "console",
+      "eff",
+      "transformers",
+      "tuple",
+      "either"
+    ],
+    "repo": "https://github.com/rightfold/purescript-logging.git",
+    "version": "v1.1.0"
+  },
   "machines": {
     "dependencies": [
       "arrays",
