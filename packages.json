@@ -339,6 +339,20 @@
     "repo": "https://github.com/slamdata/purescript-fixed-points.git",
     "version": "v4.0.0"
   },
+  "flare": {
+    "dependencies": [
+      "canvas",
+      "datetime",
+      "dom",
+      "drawing",
+      "foldable-traversable",
+      "nonempty",
+      "signal",
+      "smolder"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-flare.git",
+    "version": "v3.2.0"
+  },
   "foldable-traversable": {
     "dependencies": [
       "bifunctors",
