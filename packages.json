@@ -1166,6 +1166,19 @@
     "repo": "https://github.com/bodil/purescript-smolder.git",
     "version": "v9.0.0"
   },
+  "sparkle": {
+    "dependencies": [
+      "flare",
+      "proxy",
+      "globals",
+      "generics",
+      "record",
+      "typelevel-prelude",
+      "numbers"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-sparkle.git",
+    "version": "v4.1.1"
+  },
   "spec": {
     "dependencies": [
       "aff",
