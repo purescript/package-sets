@@ -804,6 +804,24 @@
     "repo": "https://github.com/purescript-node/purescript-node-path.git",
     "version": "v2.0.0"
   },
+  "node-postgres": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "either",
+      "foldable-traversable",
+      "foreign",
+      "foreign-generic",
+      "datetime",
+      "integers",
+      "nullable",
+      "prelude",
+      "transformers",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/epost/purescript-node-postgres.git",
+    "version": "v2.0.0"
+  },
   "node-process": {
     "dependencies": [
       "maps",
