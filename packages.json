@@ -820,7 +820,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/epost/purescript-node-postgres.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "node-process": {
     "dependencies": [
