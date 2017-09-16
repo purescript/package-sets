@@ -1207,6 +1207,16 @@
     "repo": "https://github.com/owickstrom/purescript-spec.git",
     "version": "v1.0.0"
   },
+  "spec-quickcheck": {
+    "dependencies": [
+      "aff",
+      "random",
+      "quickcheck",
+      "spec"
+    ],
+    "repo": "https://github.com/owickstrom/purescript-spec-quickcheck.git",
+    "version": "v1.0.0"
+  },
   "st": {
     "dependencies": [
       "eff"
