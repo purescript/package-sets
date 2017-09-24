@@ -1176,6 +1176,17 @@
     "repo": "https://github.com/bodil/purescript-signal.git",
     "version": "v9.0.0"
   },
+  "simple-json": {
+    "dependencies": [
+      "foreign",
+      "foreign-generic",
+      "record",
+      "typelevel-prelude",
+      "prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-simple-json.git",
+    "version": "v0.10.0"
+  },
   "smolder": {
     "dependencies": [
       "catenable-lists",
