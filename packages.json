@@ -387,7 +387,7 @@
       "nullable"
     ],
     "repo": "https://github.com/paf31/purescript-foreign-generic.git",
-    "version": "v4.2.0"
+    "version": "v5.0.0"
   },
   "foreign-lens": {
     "dependencies": [
@@ -1086,7 +1086,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/purescript/purescript-record.git",
-    "version": "v0.1.0"
+    "version": "v0.2.2"
   },
   "reflection": {
     "dependencies": [
@@ -1175,6 +1175,17 @@
     ],
     "repo": "https://github.com/bodil/purescript-signal.git",
     "version": "v9.0.0"
+  },
+  "simple-json": {
+    "dependencies": [
+      "foreign",
+      "foreign-generic",
+      "record",
+      "typelevel-prelude",
+      "prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-simple-json.git",
+    "version": "v0.10.0"
   },
   "smolder": {
     "dependencies": [
