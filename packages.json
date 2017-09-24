@@ -178,6 +178,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-coroutines.git",
     "version": "v4.0.0"
   },
+  "crypto": {
+    "dependencies": [
+      "node-buffer",
+      "eff",
+      "prelude"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-crypto.git",
+    "version": "v0.1.3"
+  },
   "css": {
     "dependencies": [
       "colors",
@@ -198,6 +207,12 @@
     ],
     "repo": "https://github.com/purescript/purescript-datetime.git",
     "version": "v3.3.0"
+  },
+  "data-default": {
+    "dependencies": [
+    ],
+    "repo": "https://github.com/nkly/purescript-data-default.git",
+    "version": "0.1.0"
   },
   "day": {
     "dependencies": [
@@ -323,6 +338,29 @@
     ],
     "repo": "https://github.com/purescript/purescript-exists.git",
     "version": "v3.0.0"
+  },
+  "express": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "control",
+      "data-default",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "lists",
+      "node-http",
+      "parsing",
+      "strings",
+      "transformers",
+      "unfoldable",
+      "foreign-generic",
+      "test-unit"
+    ],
+    "repo": "https://github.com/nkly/purescript-express.git",
+    "version": "0.5.1"
   },
   "filterable": {
     "dependencies": [
@@ -650,6 +688,16 @@
     "repo": "https://github.com/paf31/purescript-leibniz.git",
     "version": "v4.0.0"
   },
+  "lenient-html-parser": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "string-parsers",
+      "generics-rep"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-lenient-html-parser.git",
+    "version": "v1.0.0"
+  },
   "lens": {
     "dependencies": [
       "const",
@@ -829,7 +877,16 @@
       "posix-types"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-process.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
+  },
+  "node-sqlite3": {
+    "dependencies": [
+      "console",
+      "aff",
+      "foreign"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-node-sqlite3.git",
+    "version": "v0.5.0"
   },
   "node-readline": {
     "dependencies": [
