@@ -18,6 +18,14 @@
     "repo": "https://github.com/purescript-contrib/purescript-aff-coroutines.git",
     "version": "v5.0.0"
   },
+  "aff-promise": {
+    "dependencies": [
+      "aff",
+      "foreign"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
+    "version": "v0.7.0"
+  },
   "affjax": {
     "dependencies": [
       "aff",
@@ -779,6 +787,16 @@
     "repo": "https://github.com/paf31/purescript-memoize.git",
     "version": "v4.0.1"
   },
+  "milkis": {
+    "dependencies": [
+      "prelude",
+      "node-http",
+      "http-methods",
+      "aff-promise"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-milkis.git",
+    "version": "v0.2.0"
+  },
   "mmorph": {
     "dependencies": [
       "functors",
@@ -1034,6 +1052,14 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
     "version": "v3.1.0"
+  },
+  "prettier": {
+    "dependencies": [
+      "prelude",
+      "maybe"
+    ],
+    "repo": "https://github.com/gcanti/purescript-prettier.git",
+    "version":"v0.0.2"
   },
   "profunctor": {
     "dependencies": [
