@@ -140,6 +140,14 @@
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
     "version": "v4.0.0"
   },
+  "codec": {
+    "dependencies": [
+      "transformers",
+      "profunctor"
+    ],
+    "repo": "https://github.com/garyb/purescript-codec.git",
+    "version": "v2.1.0"
+  },
   "colors": {
     "dependencies": [
       "generics",
