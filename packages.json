@@ -888,6 +888,21 @@
     "repo": "https://github.com/jystic/purescript-jack.git",
     "version": "v2.0.0"
   },
+  "io": {
+    "dependencies": [
+      "aff",
+      "control",
+      "eff",
+      "exceptions",
+      "monoid",
+      "newtype",
+      "prelude",
+      "tailrec",
+      "transformers"
+    ],
+    "repo": "https://github.com/slamdata/purescript-io.git",
+    "version": "v5.0.0"
+  },
   "jquery": {
     "dependencies": [
       "dom",
@@ -2046,6 +2061,17 @@
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v4.0.0"
+  },
+  "yargs": {
+    "dependencies": [
+      "unsafe-coerce",
+      "foreign",
+      "either",
+      "console",
+      "exceptions"
+    ],
+    "repo": "https://github.com/paf31/purescript-yargs.git",
+    "version": "v3.1.0"
   },
   "websocket-simple": {
     "dependencies": [
