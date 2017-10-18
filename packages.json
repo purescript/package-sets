@@ -1507,5 +1507,16 @@
     ],
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v3.0.1"
+  },
+  "websocket-simple": {
+    "dependencies": [
+      "dom",
+      "eff",
+      "exceptions",
+      "generics",
+      "var"
+    ],
+    "repo": "https://github.com/zudov/purescript-websocket-simple.git",
+    "version": "v2.0.0"
   }
 }
