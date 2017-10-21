@@ -1489,6 +1489,15 @@
     "repo": "https://github.com/purescript/purescript-validation.git",
     "version": "v3.1.0"
   },
+  "var": {
+    "dependencies": [
+      "invariant",
+      "contravariant",
+      "eff"
+    ],
+    "repo": "https://github.com/zudov/purescript-var.git",
+    "version": "v2.0.0"
+  },
   "variant": {
     "dependencies": [
       "distributive",
@@ -1507,5 +1516,16 @@
     ],
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v3.0.1"
+  },
+  "websocket-simple": {
+    "dependencies": [
+      "dom",
+      "eff",
+      "exceptions",
+      "generics",
+      "var"
+    ],
+    "repo": "https://github.com/zudov/purescript-websocket-simple.git",
+    "version": "v2.0.0"
   }
 }
