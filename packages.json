@@ -1048,6 +1048,24 @@
     "repo": "https://github.com/purescript-node/purescript-node-path.git",
     "version": "v2.0.0"
   },
+  "node-postgres": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "foreign",
+      "foldable-traversable",
+      "transformers",
+      "aff",
+      "integers",
+      "datetime",
+      "unsafe-coerce",
+      "nullable",
+      "prelude",
+      "foreign-generic"
+    ],
+    "repo": "https://github.com/epost/purescript-node-postgres.git",
+    "version": "v4.0.0"
+  },
   "node-process": {
     "dependencies": [
       "console",
