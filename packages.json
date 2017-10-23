@@ -1309,6 +1309,16 @@
     "repo": "https://github.com/owickstrom/purescript-spec.git",
     "version": "v1.0.0"
   },
+  "spec-mocha": {
+    "dependencies": [
+      "console",
+      "foldable-traversable",
+      "exceptions",
+      "spec"
+    ],
+    "repo": "https://github.com/owickstrom/purescript-spec-mocha.git",
+    "version": "v1.0.0"
+  },
   "spec-quickcheck": {
     "dependencies": [
       "aff",
