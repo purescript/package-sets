@@ -342,7 +342,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-dom.git",
-    "version": "v4.9.0"
+    "version": "v4.10.0"
   },
   "dom-classy": {
     "dependencies": [
@@ -358,7 +358,7 @@
       "dom"
     ],
     "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
-    "version": "v3.0.0"
+    "version": "v5.0.0"
   },
   "drawing": {
     "dependencies": [
@@ -698,6 +698,56 @@
     ],
     "repo": "https://github.com/purescript/purescript-graphs.git",
     "version": "v3.0.0"
+  },
+  "halogen": {
+    "dependencies": [
+      "aff",
+      "const",
+      "coroutines",
+      "dom",
+      "dom-indexed",
+      "foreign",
+      "fork",
+      "free",
+      "freeap",
+      "halogen-vdom",
+      "maps",
+      "media-types",
+      "nullable",
+      "parallel",
+      "profunctor",
+      "profunctor-lenses",
+      "unsafe-coerce",
+      "unsafe-reference"
+    ],
+    "repo": "git://github.com/slamdata/purescript-halogen.git",
+    "version": "v3.0.0"
+  },
+  "halogen-bootstrap": {
+    "dependencies": ["halogen"],
+    "repo": "git://github.com/slamdata/purescript-halogen-bootstrap.git",
+    "version": "v7.0.0"
+  },
+  "halogen-css": {
+    "dependencies": ["css", "halogen"],
+    "repo": "git://github.com/slamdata/purescript-halogen-css.git",
+    "version": "v7.0.0"
+  },
+  "halogen-vdom": {
+    "dependencies": [
+      "prelude",
+      "eff",
+      "tuples",
+      "dom",
+      "maps",
+      "maybe",
+      "unsafe-coerce",
+      "bifunctors",
+      "refs",
+      "foreign"
+    ],
+    "repo": "git://github.com/slamdata/purescript-halogen-vdom.git",
+    "version": "v2.0.0"
   },
   "handlebars": {
     "dependencies": [],
