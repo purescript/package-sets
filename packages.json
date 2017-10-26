@@ -1367,6 +1367,24 @@
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "v3.0.0"
   },
+  "pux": {
+    "dependencies": [
+      "aff",
+      "eff",
+      "lists",
+      "signal",
+      "maps",
+      "functions",
+      "profunctor",
+      "react",
+      "globals",
+      "dom",
+      "smolder",
+      "css"
+    ],
+    "repo": "git://github.com/alexmingoia/purescript-pux.git",
+    "version": "v12.0.0"
+  },
   "quickcheck": {
     "dependencies": [
       "arrays",
