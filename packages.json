@@ -1080,6 +1080,11 @@
     "repo": "https://github.com/purescript-node/purescript-node-fs-aff.git",
     "version": "v5.0.0"
   },
+  "node-he": {
+    "dependencies": [],
+    "repo": "https://github.com/justinwoo/purescript-node-he.git",
+    "version": "v0.1.0"
+  },
   "node-http": {
     "dependencies": [
       "maps",
