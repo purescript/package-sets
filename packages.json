@@ -649,6 +649,15 @@
     "repo": "https://github.com/purescript/purescript-inject.git",
     "version": "v4.0.0"
   },
+  "int-53": {
+    "dependencies": [
+      "generics",
+      "integers",
+      "math"
+    ],
+    "repo": "https://github.com/rgrempel/purescript-int-53.git",
+    "version": "v3.0.0"
+  },
   "integers": {
     "dependencies": [
       "globals",
@@ -665,6 +674,20 @@
     ],
     "repo": "https://github.com/purescript/purescript-invariant.git",
     "version": "v3.0.0"
+  },
+  "jack": {
+    "dependencies": [
+      "prelude",
+      "foldable-traversable",
+      "int-53",
+      "lists",
+      "arrays",
+      "maps",
+      "console",
+      "random"
+    ],
+    "repo": "https://github.com/jystic/purescript-jack.git",
+    "version": "v2.0.0"
   },
   "jquery": {
     "dependencies": [
