@@ -1560,5 +1560,28 @@
     ],
     "repo": "https://github.com/zudov/purescript-websocket-simple.git",
     "version": "v2.0.0"
+  },
+  "web3": {
+    "dependencies": [
+      "prelude",
+      "errors",
+      "mmorph",
+      "word",
+      "profunctor-lenses",
+      "foreign",
+      "foreign-generic",
+      "proxy",
+      "console",
+      "bytestrings",
+      "partial",
+      "folds",
+      "parsing",
+      "transformers",
+      "identity",
+      "aff",
+      "math"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-web3.git",
+    "version": "v0.1.0"
   }
 }
