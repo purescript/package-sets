@@ -666,6 +666,20 @@
     "repo": "https://github.com/purescript/purescript-invariant.git",
     "version": "v3.0.0"
   },
+  "jack": {
+    "dependencies": [
+      "prelude",
+      "foldable-traversable",
+      "int-53",
+      "lists",
+      "arrays",
+      "maps",
+      "console",
+      "random"
+    ],
+    "repo": "https://github.com/jystic/purescript-jack.git",
+    "version": "v2.0.0"
+  },
   "jquery": {
     "dependencies": [
       "dom"
