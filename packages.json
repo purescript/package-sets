@@ -649,6 +649,15 @@
     "repo": "https://github.com/purescript/purescript-inject.git",
     "version": "v4.0.0"
   },
+  "int-53": {
+    "dependencies": [
+      "generics",
+      "integers",
+      "math"
+    ],
+    "repo": "https://github.com/rgrempel/purescript-int-53.git",
+    "version": "v3.0.0"
+  },
   "integers": {
     "dependencies": [
       "globals",
