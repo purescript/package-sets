@@ -1579,10 +1579,11 @@
       "transformers",
       "identity",
       "aff",
-      "math"
+      "math",
+      "debug"
     ],
     "repo": "https://github.com/f-o-a-m/purescript-web3.git",
-    "version": "v0.1.0"
+    "version": "v0.1.1a"
   },
   "word": {
     "dependencies": [
