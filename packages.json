@@ -1583,5 +1583,72 @@
     ],
     "repo": "https://github.com/f-o-a-m/purescript-web3.git",
     "version": "v0.1.0"
+  },
+  "word": {
+    "dependencies": [
+      "prelude",
+      "numerics",
+      "strings",
+      "uint",
+      "bigints"
+    ],
+    "repo": "https://github.com/Proclivis/purescript-word.git",
+    "version": "v0.4.1"
+  },
+  "numerics": {
+    "dependencies": [
+      "prelude",
+	    "integers",
+	    "rationals",
+	    "uint",
+      "bigints"
+    ],
+    "repo": "https://github.com/Proclivis/purescript-numerics.git",
+    "version": "v0.1.1"
+  },
+  "uint": {
+    "dependencies": [
+      "maybe",
+      "math"
+    ],
+    "repo": "https://github.com/zaquest/purescript-uint.git",
+    "version": "v0.5.0"
+  },
+  "bigints": {
+    "dependencies": [
+      "maybe",
+      "quickcheck-laws"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-bigints.git",
+    "version": "v3.2.0"
+  },
+  "bytestrings": {
+    "dependencies": [
+      "exceptions",
+      "newtype",
+      "arrays",
+      "maybe",
+      "monoid",
+      "quotient",
+      "foldable-traversable",
+      "leibniz",
+      "prelude",
+      "unsafe-coerce",
+      "integers",
+      "eff",
+      "node-buffer",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/rightfold/purescript-bytestrings.git",
+    "version": "v6.0.0"
+  },
+  "quotient": {
+    "dependencies": [
+      "proxy",
+      "prelude",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/rightfold/purescript-quotient.git",
+    "version": "v1.0.0"
   }
 }
