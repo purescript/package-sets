@@ -1908,25 +1908,38 @@
     "dependencies": [
       "prelude",
       "errors",
-      "mmorph",
-      "word",
       "profunctor-lenses",
       "foreign",
       "foreign-generic",
       "proxy",
-      "console",
       "bytestrings",
       "partial",
-      "folds",
       "parsing",
       "transformers",
-      "identity",
       "aff",
-      "math",
       "debug"
     ],
     "repo": "https://github.com/f-o-a-m/purescript-web3.git",
     "version": "master"
+  },
+  "web3-generator": { 
+    "dependencies": [
+      "prelude",
+      "argonaut",
+      "argonaut-core",
+      "argonaut-codecs",
+      "argonaut-generic",
+      "errors",
+      "yargs",
+      "ansi",
+      "spec",
+      "node-fs-aff",
+      "console",
+      "psci-support",
+      "web3"
+   ],
+   "repo": "https://github.com/f-o-a-m/purescript-web3-generator.git",
+   "version": "master"
   },
   "word": {
     "dependencies": [
