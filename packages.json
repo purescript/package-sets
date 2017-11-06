@@ -67,6 +67,17 @@
     "repo": "https://github.com/purescript-contrib/purescript-argonaut.git",
     "version": "v3.1.0"
   },
+  "argonaut-aeson-generic": {
+    "dependencies": [
+    "argonaut-core",
+    "arrays",
+    "generics",
+    "integers",
+    "partial"
+    ],
+    "repo": "https://github.com/eskimor/purescript-argonaut-generic-codecs.git",
+    "version": "v6.0.4"
+  },
   "argonaut-codecs": {
     "dependencies": [
       "argonaut-core",
