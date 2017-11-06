@@ -294,7 +294,7 @@
       "maps"
     ],
     "repo": "https://github.com/nwolverson/purescript-csv.git",
-    "version": "master"
+    "version": "v2.0.0"
   },
   "data-default": {
     "dependencies": [],
@@ -1409,6 +1409,16 @@
     ],
     "repo": "git://github.com/alexmingoia/purescript-pux.git",
     "version": "v12.0.0"
+  },
+  "queue":{
+    "dependencies": [
+      "prelude",
+      "console",
+      "signal",
+      "refs"
+    ],
+    "repo": "https://github.com/athanclark/purescript-queue.git",
+    "version": "v0.7.0"
   },
   "quickcheck": {
     "dependencies": [
