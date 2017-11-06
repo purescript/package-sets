@@ -1275,6 +1275,15 @@
     "repo": "https://github.com/eskimor/purescript-servant-support",
     "version": "v8.0.0"
   },
+  "server-sent-events": {
+    "dependencies": [
+      "dom",
+      "functions",
+      "maybe"
+    ],
+    "repo": "https://github.com/MichaelXavier/purescript-server-sent-events.git",
+    "version": "v0.1.0"
+  },
   "sets": {
     "dependencies": [
       "maps"
