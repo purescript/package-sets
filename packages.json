@@ -1330,7 +1330,7 @@
       "maybe"
     ],
     "repo": "https://github.com/gcanti/purescript-prettier.git",
-    "version": "v0.0.2"
+    "version": "v0.1.0"
   },
   "profunctor": {
     "dependencies": [
