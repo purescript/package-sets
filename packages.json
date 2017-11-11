@@ -1266,6 +1266,17 @@
     "repo": "https://github.com/purescript-node/purescript-node-streams.git",
     "version": "v3.1.0"
   },
+  "node-telegram-bot-api": {
+    "dependencies": [
+      "aff",
+      "strings",
+      "foreign",
+      "aff-promise",
+      "simple-json"
+    ],
+    "repo": "git://github.com/justinwoo/purescript-node-telegram-bot-api.git",
+    "version": "v1.0.0"
+  },
   "node-url": {
     "dependencies": [
       "nullable"
