@@ -32,6 +32,14 @@
     "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
     "version": "v1.0.0"
   },
+  "react-material-ui": {
+    "dependencies": [
+      "react-dom",
+      "options"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-react-material-ui.git",
+    "version": "v0.1.0"
+  },
   "affjax": {
     "dependencies": [
       "aff",
