@@ -1955,7 +1955,8 @@
       "node-fs-aff",
       "console",
       "psci-support",
-      "web3"
+      "web3",
+      "string-parsers"
    ],
    "repo": "https://github.com/f-o-a-m/purescript-web3-generator.git",
    "version": "master"
