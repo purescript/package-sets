@@ -1796,8 +1796,8 @@
       "react-dom",
       "react"
     ],
-    "repo": "https://github.com/paf31/purescript-thermite.git",
-    "version": "v5.0.0"
+    "repo": "https://github.com/blinky3713/purescript-thermite.git",
+    "version": "v6.0.0"
   },
   "these": {
     "dependencies": [
