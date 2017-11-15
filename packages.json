@@ -64,7 +64,8 @@
   },
   "argonaut-generic": {
     "dependencies": [
-      "argonaut-codecs"
+      "argonaut-codecs",
+      "generics-rep"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic",
     "version": "v1.2.0"
@@ -550,6 +551,7 @@
   },
   "generics-rep": {
     "dependencies": [
+      "enums",
       "foldable-traversable",
       "symbols"
     ],
@@ -674,6 +676,13 @@
     "repo": "https://github.com/purescript/purescript-invariant.git",
     "version": "v3.0.0"
   },
+  "io": {
+    "dependencies": [
+      "aff"
+    ],
+    "repo": "https://github.com/slamdata/purescript-io.git",
+    "version": "v4.1.0"
+  },
   "jack": {
     "dependencies": [
       "prelude",
@@ -699,7 +708,8 @@
     "dependencies": [
       "datetime",
       "exceptions",
-      "foreign"
+      "foreign",
+      "now"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
     "version": "v5.1.0"
@@ -888,6 +898,7 @@
   },
   "node-http": {
     "dependencies": [
+      "arraybuffer-types",
       "node-streams",
       "node-url",
       "options"
@@ -1057,6 +1068,8 @@
   },
   "pipes": {
     "dependencies": [
+      "aff",
+      "io",
       "lists",
       "mmorph"
     ],
@@ -1107,6 +1120,7 @@
       "functors",
       "generics",
       "profunctor",
+      "record",
       "sets",
       "symbols",
       "transformers"
@@ -1149,7 +1163,9 @@
       "profunctor",
       "psci-support",
       "random",
-      "transformers"
+      "record",
+      "transformers",
+      "typelevel-prelude"
     ],
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
     "version": "v4.6.0"
@@ -1180,6 +1196,7 @@
   "react": {
     "dependencies": [
       "eff",
+      "nullable",
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
@@ -1196,6 +1213,7 @@
   "record": {
     "dependencies": [
       "functions",
+      "st",
       "typelevel-prelude"
     ],
     "repo": "https://github.com/purescript/purescript-record.git",
@@ -1525,6 +1543,7 @@
   "validation": {
     "dependencies": [
       "bifunctors",
+      "foldable-traversable",
       "monoid"
     ],
     "repo": "https://github.com/purescript/purescript-validation.git",
