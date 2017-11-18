@@ -162,7 +162,7 @@
       "nullable"
     ],
     "repo": "git://github.com/paf31/purescript-behaviors.git",
-    "version": "v5.2.0"
+    "version": "v6.0.1"
   },
   "bifunctors": {
     "dependencies": [
@@ -211,7 +211,7 @@
       "strings"
     ],
     "repo": "https://github.com/sharkdp/purescript-colors.git",
-    "version": "v3.1.0"
+    "version": "v4.3.0"
   },
   "console": {
     "dependencies": [
@@ -260,7 +260,7 @@
       "prelude"
     ],
     "repo": "https://github.com/oreshinya/purescript-crypto.git",
-    "version": "v0.1.3"
+    "version": "v0.2.0"
   },
   "css": {
     "dependencies": [
@@ -383,7 +383,7 @@
       "aff"
     ],
     "repo": "https://github.com/slamdata/purescript-echarts.git",
-    "version": "v5.0.0"
+    "version": "v9.1.0"
   },
   "eff": {
     "dependencies": [
@@ -604,7 +604,7 @@
       "generics-rep"
     ],
     "repo": "https://github.com/slamdata/purescript-formatters.git",
-    "version": "v2.1.0"
+    "version": "v3.0.0"
   },
   "free": {
     "dependencies": [
@@ -1451,11 +1451,12 @@
       "prelude"
     ],
     "repo": "https://github.com/anttih/purescript-rationals.git",
-    "version": "v3.1.1"
+    "version": "v4.0.0"
   },
   "react": {
     "dependencies": [
       "eff",
+      "exceptions",
       "prelude",
       "nullable",
       "unsafe-coerce"
@@ -1586,7 +1587,7 @@
       "argonaut-generic-codecs"
     ],
     "repo": "https://github.com/eskimor/purescript-servant-support",
-    "version": "v0.9.0.1"
+    "version": "v9.0.1"
   },
   "server-sent-events": {
     "dependencies": [
@@ -1666,7 +1667,7 @@
       "spec"
     ],
     "repo": "https://github.com/owickstrom/purescript-spec-mocha.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "spec-quickcheck": {
     "dependencies": [
@@ -1676,7 +1677,7 @@
       "spec"
     ],
     "repo": "https://github.com/owickstrom/purescript-spec-quickcheck.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "st": {
     "dependencies": [
@@ -1864,7 +1865,7 @@
       "profunctor-lenses"
     ],
     "repo": "https://github.com/slamdata/purescript-uri.git",
-    "version": "v3.1.0"
+    "version": "v4.2.1"
   },
   "validation": {
     "dependencies": [
