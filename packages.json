@@ -161,7 +161,7 @@
       "filterable",
       "nullable"
     ],
-    "repo": "git://github.com/paf31/purescript-behaviors.git",
+    "repo": "https://github.com/paf31/purescript-behaviors.git",
     "version": "v6.0.1"
   },
   "bifunctors": {
@@ -720,14 +720,14 @@
       "unsafe-coerce",
       "unsafe-reference"
     ],
-    "repo": "git://github.com/slamdata/purescript-halogen.git",
+    "repo": "https://github.com/slamdata/purescript-halogen.git",
     "version": "v3.0.1"
   },
   "halogen-bootstrap": {
     "dependencies": [
       "halogen"
     ],
-    "repo": "git://github.com/slamdata/purescript-halogen-bootstrap.git",
+    "repo": "https://github.com/slamdata/purescript-halogen-bootstrap.git",
     "version": "v7.0.0"
   },
   "halogen-css": {
@@ -735,7 +735,7 @@
       "css",
       "halogen"
     ],
-    "repo": "git://github.com/slamdata/purescript-halogen-css.git",
+    "repo": "https://github.com/slamdata/purescript-halogen-css.git",
     "version": "v7.0.0"
   },
   "halogen-vdom": {
@@ -751,7 +751,7 @@
       "refs",
       "foreign"
     ],
-    "repo": "git://github.com/slamdata/purescript-halogen-vdom.git",
+    "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
     "version": "v2.0.0"
   },
   "handlebars": {
@@ -1392,7 +1392,7 @@
       "smolder",
       "css"
     ],
-    "repo": "git://github.com/alexmingoia/purescript-pux.git",
+    "repo": "https://github.com/alexmingoia/purescript-pux.git",
     "version": "v12.0.0"
   },
   "quickcheck": {
