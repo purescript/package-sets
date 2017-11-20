@@ -738,6 +738,14 @@
     "repo": "https://github.com/slamdata/purescript-halogen-css.git",
     "version": "v7.0.0"
   },
+  "halogen-echarts": {
+    "dependencies": [
+      "halogen-css",
+      "echarts"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen-echarts.git",
+    "version": "v12.0.0"
+  },
   "halogen-vdom": {
     "dependencies": [
       "prelude",
