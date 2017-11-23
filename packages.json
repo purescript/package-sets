@@ -214,6 +214,16 @@
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
     "version": "v4.0.0"
   },
+  "choco-pie": {
+    "dependencies": [
+      "prelude",
+      "behaviors",
+      "typelevel-prelude",
+      "record"
+    ],
+    "repo": "git://github.com/justinwoo/purescript-chocopie.git",
+    "version": "v1.0.0"
+  },
   "codec": {
     "dependencies": [
       "transformers",
