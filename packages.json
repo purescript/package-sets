@@ -1293,6 +1293,15 @@
     "repo": "https://github.com/slamdata/purescript-pathy.git",
     "version": "v4.0.0"
   },
+  "permutations": {
+    "dependencies": [
+      "prelude",
+      "maybe",
+      "arrays"
+    ],
+    "repo": "https://github.com/vmchale/ppp.git",
+    "version": "v0.1.0"
+  },
   "phoenix": {
     "dependencies": [
       "options"
