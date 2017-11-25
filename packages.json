@@ -162,7 +162,7 @@
       "nullable"
     ],
     "repo": "https://github.com/paf31/purescript-behaviors.git",
-    "version": "v6.0.1"
+    "version": "v6.2.0"
   },
   "bifunctors": {
     "dependencies": [
