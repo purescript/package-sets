@@ -1297,7 +1297,7 @@
     "dependencies": [
       "prelude",
       "maybe",
-      "array"
+      "arrays"
     ],
     "repo": "https://github.com/vmchale/ppp.git",
     "version": "v0.1.0"
