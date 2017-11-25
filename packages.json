@@ -2044,5 +2044,12 @@
     ],
     "repo": "https://github.com/rightfold/purescript-quotient.git",
     "version": "v1.0.0"
+  },
+  "tagged": {
+    "dependencies": [
+      "identity"
+    ],
+    "repo": "https://github.com/LiamGoodacre/purescript-tagged.git",
+    "version": "v1.0.0"
   }
 }
