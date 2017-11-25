@@ -1296,7 +1296,7 @@
   "permutations": {
     "dependencies": [
       "prelude"
-    ]
+    ],
     "repo": "https://github.com/vmchale/ppp.git",
     "version": "v0.1.0"
   },
