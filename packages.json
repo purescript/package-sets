@@ -1956,7 +1956,7 @@
       "debug"
     ],
     "repo": "https://github.com/f-o-a-m/purescript-web3.git",
-    "version": "v0.9.0"
+    "version": "better-tuples"
   },
   "web3-generator": { 
     "dependencies": [
