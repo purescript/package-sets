@@ -1976,7 +1976,7 @@
       "string-parsers"
    ],
    "repo": "https://github.com/f-o-a-m/purescript-web3-generator.git",
-   "version": "v0.9.0"
+   "version": "master"
   },
   "word": {
     "dependencies": [
