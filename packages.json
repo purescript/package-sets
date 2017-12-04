@@ -788,6 +788,15 @@
     "repo": "https://github.com/purescript/purescript-identity.git",
     "version": "v3.1.0"
   },
+  "indexed-monad": {
+    "dependencies": [
+      "aff",
+      "eff",
+      "transformers"
+    ],
+    "repo": "https://github.com/garyb/purescript-indexed-monad.git",
+    "version": "v0.3.0"
+  },
   "inject": {
     "dependencies": [
       "functors"
