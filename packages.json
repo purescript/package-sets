@@ -778,6 +778,17 @@
     "repo": "https://github.com/paf31/purescript-hoist.git",
     "version": "v4.0.0"
   },
+  "howler": {
+    "dependencies": [
+      "prelude",
+      "maybe",
+      "nullable",
+      "control",
+      "eff"
+    ],
+    "repo": "https://github.com/soupi/purescript-howler.git",
+    "version": "v0.4.0"
+  },
   "http-methods": {
     "dependencies": [
       "generics"
