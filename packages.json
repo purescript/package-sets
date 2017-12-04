@@ -1953,7 +1953,8 @@
       "parsing",
       "transformers",
       "aff",
-      "debug"
+      "debug,"
+      "tagged"
     ],
     "repo": "https://github.com/f-o-a-m/purescript-web3.git",
     "version": "v0.9.0"
@@ -1973,7 +1974,8 @@
       "console",
       "psci-support",
       "web3",
-      "string-parsers"
+      "string-parsers",
+      "tagged"
    ],
    "repo": "https://github.com/f-o-a-m/purescript-web3-generator.git",
    "version": "v0.9.0"
