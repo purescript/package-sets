@@ -700,8 +700,8 @@
       "prelude",
       "symbols"
     ],
-    "repo": "https://github.com/kejace/purescript-generics-rep.git",
-    "version": "master"
+    "repo": "https://github.com/purescript/purescript-generics-rep.git",
+    "version": "v5.4.0"
   },
   "globals": {
     "dependencies": [],
