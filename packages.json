@@ -1953,7 +1953,7 @@
       "parsing",
       "transformers",
       "aff",
-      "debug,"
+      "debug",
       "tagged"
     ],
     "repo": "https://github.com/f-o-a-m/purescript-web3.git",
