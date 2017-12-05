@@ -965,6 +965,29 @@
     "repo": "https://github.com/purescript/purescript-lists.git",
     "version": "v4.11.0"
   },
+  "logging": {
+    "dependencies": [
+      "console",
+      "contravariant",
+      "eff",
+      "either",
+      "monoid",
+      "prelude",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/rightfold/purescript-logging.git",
+    "version": "v2.0.0"
+  },
+  "logging-journald": {
+    "dependencies": [
+      "generics-rep",
+      "logging",
+      "systemd-journald"
+    ],
+    "repo": "https://github.com/paluh/purescript-logging-journald.git",
+    "version": "v0.2.3"
+  },
   "machines": {
     "dependencies": [
       "arrays",
@@ -1789,6 +1812,15 @@
     ],
     "repo": "https://github.com/purescript/purescript-symbols.git",
     "version": "v3.0.0"
+  },
+  "systemd-journald": {
+    "dependencies": [
+      "eff",
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/paluh/purescript-systemd-journald.git",
+    "version": "v0.1.3"
   },
   "tailrec": {
     "dependencies": [
