@@ -172,6 +172,26 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v3.0.0"
   },
+  "bytestrings": {
+    "dependencies": [
+      "arrays",
+      "eff",
+      "exceptions",
+      "foldable-traversable",
+      "integers",
+      "leibniz",
+      "maybe",
+      "monoid",
+      "newtype",
+      "node-buffer",
+      "prelude",
+      "quickcheck",
+      "quotient",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rightfold/purescript-bytestrings.git",
+    "version": "v6.0.0"
+  },
   "canvas": {
     "dependencies": [
       "eff",
@@ -1461,6 +1481,15 @@
     ],
     "repo": "https://github.com/paf31/purescript-quickserve.git",
     "version": "v2.0.0"
+  },
+  "quotient": {
+    "dependencies": [
+      "quickcheck",
+      "prelude",
+      "proxy"
+    ],
+    "repo": "https://github.com/rightfold/purescript-quotient.git",
+    "version": "v1.0.0"
   },
   "random": {
     "dependencies": [
