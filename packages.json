@@ -951,6 +951,21 @@
     "repo": "https://github.com/purescript/purescript-lists.git",
     "version": "v4.10.0"
   },
+  "literate-purescript": {
+    "dependencies": [
+      "console",
+      "node-fs",
+      "node-process",
+      "transformerless",
+      "optlicative",
+      "validation",
+      "typelevel-prelude",
+      "record",
+      "snail"
+    ],
+    "repo" : "https://github.com/Thimoteus/literate-purescript.git",
+    "version": "v0.0.2"
+  },
   "machines": {
     "dependencies": [
       "arrays",
