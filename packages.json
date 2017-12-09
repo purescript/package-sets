@@ -2113,9 +2113,8 @@
       "yarn",
       "nonempty"
     ],
-    "repo": ""https://github.com/Thimoteus/purescript-snail.git",
+    "repo": "https://github.com/Thimoteus/purescript-snail.git",
     "version": "v4.0.0"
- 
   },
   "yarn": {
     "dependencies": [
