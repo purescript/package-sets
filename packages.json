@@ -1261,6 +1261,21 @@
     "repo": "https://github.com/purescript-contrib/purescript-options.git",
     "version": "v3.0.0"
   },
+  "optlicative": {
+    "dependencies": [
+      "record",
+      "typelevel-prelude",
+      "symbols",
+      "validation",
+      "node-process",
+      "psci-support",
+      "console",
+      "eff",
+      "prelude"
+    ],
+    "repo": "https://github.com/Thimoteus/purescript-optlicative.git",
+    "version": "v0.4.1"
+  },
   "orders": {
     "dependencies": [
       "monoid"
