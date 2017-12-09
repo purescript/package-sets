@@ -1849,7 +1849,8 @@
   },
   "transformerless": {
     "dependencies": [
-      "tailrec"
+      "tailrec",
+      "tuples"
     ],
     "repo": "https://github.com/Thimoteus/purescript-transformerless.git",
     "version": "v2.1.0"
