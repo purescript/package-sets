@@ -2101,5 +2101,29 @@
     ],
     "repo": "https://github.com/LiamGoodacre/purescript-tagged.git",
     "version": "v1.0.0"
+  },
+  "snail": {
+    "dependencies": [
+      "aff",
+      "node-process",
+      "node-fs-aff",
+      "node-child-process",
+      "node-os",
+      "coercible",
+      "yarn",
+      "nonempty"
+    ],
+    "repo": ""https://github.com/Thimoteus/purescript-snail.git",
+    "version": "v4.0.0"
+ 
+  },
+  "yarn": {
+    "dependencies": [
+      "strings",
+      "arrays",
+      "generics-rep"
+    ],
+    "repo": "https://github.com/Thimoteus/purescript-yarn.git",
+    "version": "v3.0.1"
   }
 }
