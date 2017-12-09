@@ -964,7 +964,7 @@
       "snail"
     ],
     "repo" : "https://github.com/Thimoteus/literate-purescript.git",
-    "version": "v0.0.2"
+    "version": "master"
   },
   "machines": {
     "dependencies": [
