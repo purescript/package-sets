@@ -2124,5 +2124,14 @@
     ],
     "repo": "https://github.com/Thimoteus/purescript-yarn.git",
     "version": "v3.0.1"
+  },
+  "node-os": {
+    "dependencies": [
+      "prelude",
+      "maps",
+      "datetime"
+    ],
+    "repo": "https://github.com/Thimoteus/purescript-node-os.git",
+    "version": "v2.1.0"
   }
 }
