@@ -1832,6 +1832,13 @@
     "repo": "https://github.com/purescript-contrib/purescript-these.git",
     "version": "v3.0.0"
   },
+  "transformerless": {
+    "dependencies": [
+      "tailrec"
+    ],
+    "repo": "https://github.com/Thimoteus/purescript-transformerless.git",
+    "version": "v2.1.0"
+  },
   "transformers": {
     "dependencies": [
       "arrays",
