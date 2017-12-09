@@ -2133,5 +2133,15 @@
     ],
     "repo": "https://github.com/Thimoteus/purescript-node-os.git",
     "version": "v2.1.0"
+  },
+  "coercible": {
+    "dependencies": [
+      "integers",
+      "strings",
+      "foldable-traversable",
+      "lists"
+    ],
+    "repo": "https://github.com/Thimoteus/purescript-coercible.git",
+    "version": "v3.0.0"
   }
 }
