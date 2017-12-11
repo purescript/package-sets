@@ -2144,5 +2144,32 @@
     ],
     "repo": "https://github.com/Thimoteus/purescript-coercible.git",
     "version": "v3.0.0"
+  },
+  "markdown-smolder": {
+    "dependencies": [
+      "markdown",
+      "smolder"
+    ],
+    "repo": "https://github.com/kejace/purescript-markdown-smolder.git",
+    "version": "master"
+  },
+  "markdown": {
+    "dependencies": [
+      "const",
+      "functors",
+      "lists",
+      "parsing",
+      "partial",
+      "precise",
+      "prelude",
+      "sets",
+      "strings",
+      "strongcheck",
+      "validation",
+      "datetime"
+    ],
+    "repo": "https://github.com/slamdata/purescript-markdown.git",
+    "version": "v11.0.1"
+
   }
 }
