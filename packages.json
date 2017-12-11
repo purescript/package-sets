@@ -1698,10 +1698,11 @@
       "tuples",
       "free",
       "transformers",
-      "bifunctors"
+      "bifunctors",
+      "globals"
     ],
     "repo": "https://github.com/bodil/purescript-smolder.git",
-    "version": "v10.1.0"
+    "version": "v10.2.0"
   },
   "spec": {
     "dependencies": [
@@ -2144,14 +2145,6 @@
     ],
     "repo": "https://github.com/Thimoteus/purescript-coercible.git",
     "version": "v3.0.0"
-  },
-  "markdown-smolder": {
-    "dependencies": [
-      "markdown",
-      "smolder"
-    ],
-    "repo": "https://github.com/kejace/purescript-markdown-smolder.git",
-    "version": "master"
   },
   "markdown": {
     "dependencies": [
