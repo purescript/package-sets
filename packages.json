@@ -2170,6 +2170,17 @@
     ],
     "repo": "https://github.com/slamdata/purescript-markdown.git",
     "version": "v11.0.1"
-
+  },
+  "precise": {
+    "dependencies": [
+      "arrays",
+      "globals",
+      "integers",
+      "quickcheck",
+      "generics",
+      "strings"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-precise.git",
+    "version": "v2.0.0"
   }
 }
