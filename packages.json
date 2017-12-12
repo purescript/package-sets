@@ -631,7 +631,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-free.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "freeap": {
     "dependencies": [
