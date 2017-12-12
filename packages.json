@@ -2004,7 +2004,8 @@
       "transformers",
       "aff",
       "debug",
-      "tagged"
+      "tagged",
+      "machines"
     ],
     "repo": "https://github.com/f-o-a-m/purescript-web3.git",
     "version": "v0.10.0"
