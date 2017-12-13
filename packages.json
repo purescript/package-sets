@@ -1910,6 +1910,16 @@
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
     "version": "v2.5.0"
   },
+  "typelevel": {
+    "dependencies": [
+      "partial",
+      "prelude",
+      "tuples",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/bodil/purescript-typelevel.git",
+    "version": "v3.0.0"
+  },
   "unfoldable": {
     "dependencies": [
       "partial",
