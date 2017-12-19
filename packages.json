@@ -296,6 +296,15 @@
     "repo": "https://github.com/slamdata/purescript-css.git",
     "version": "v3.3.0"
   },
+  "csv": {
+    "dependencies": [
+       "arrays",
+       "maps",
+       "parsing"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-csv.git",
+    "version": "v2.0.0"
+  },
   "data-default": {
     "dependencies": [],
     "repo": "https://github.com/nkly/purescript-data-default.git",
