@@ -1757,6 +1757,23 @@
     "repo": "https://github.com/owickstrom/purescript-spec-quickcheck.git",
     "version": "v2.0.0"
   },
+  "spork": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "tailrec",
+      "arrays",
+      "refs",
+      "foldable-traversable",
+      "maybe",
+      "aff",
+      "halogen-vdom",
+      "dom-indexed",
+      "unsafe-reference"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-spork.git",
+    "version": "v0.4.0"
+  },
   "st": {
     "dependencies": [
       "eff"
