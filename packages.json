@@ -1072,6 +1072,17 @@
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
     "version": "v1.0.0"
   },
+  "minibench": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "integers",
+      "st",
+      "partial"
+    ],
+    "repo": "https://github.com/paf31/purescript-minibench.git",
+    "version": "v1.0.1"
+  },
   "mmorph": {
     "dependencies": [
       "transformers",
