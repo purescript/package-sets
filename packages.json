@@ -2008,6 +2008,15 @@
     "repo": "https://github.com/zudov/purescript-websocket-simple.git",
     "version": "v2.0.0"
   },
+  "webstorage": {
+    "dependencies": [
+      "eff",
+      "maybe",
+      "functions"
+    ],
+    "repo": "https://github.com/joneshf/purescript-webstorage",
+    "version": "v3.0.1"
+  },
   "yargs": {
     "dependencies": [
       "unsafe-coerce",
