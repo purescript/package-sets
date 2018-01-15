@@ -2008,7 +2008,7 @@
       "machines"
     ],
     "repo": "https://github.com/f-o-a-m/purescript-web3.git",
-    "version": "v0.11.0"
+    "version": "v0.11.1"
   },
   "web3-generator": { 
     "dependencies": [
