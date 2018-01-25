@@ -1664,7 +1664,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript/purescript-sets.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "signal": {
     "dependencies": [
