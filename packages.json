@@ -2176,5 +2176,21 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-precise.git",
     "version": "v2.0.0"
+  },
+  "cofree-react-router": {
+    "dependencies": [
+      "free",
+      "newtype", 
+      "maps",
+      "react-dom",
+      "profunctor-lenses",
+      "react",
+      "unsafe-reference",
+      "routing",
+      "prelude",
+      "const"
+    ],
+    "repo": "https://github.com/coot/purescript-cofree-react-router",
+    "version": "v7.0.0"
   }
 }
