@@ -1551,6 +1551,19 @@
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v4.1.0"
   },
+  "reactnative" : {
+     "dependencies": [
+         "eff",
+         "integers",
+         "maps",
+         "maybe",
+         "newtype",
+         "nullable",
+         "react"
+     ],
+     "repo": "https://github.com/doolse/purescript-reactnative.git",
+     "version": "v5.0.0"
+  },
   "record": {
     "dependencies": [
       "symbols",
