@@ -1790,6 +1790,19 @@
     "repo": "https://github.com/bodil/purescript-smolder.git",
     "version": "v10.2.0"
   },
+  "sparkle": {
+    "dependencies": [
+      "flare",
+      "generics",
+      "globals",
+      "numbers",
+      "proxy",
+      "record",
+      "typelevel-prelude"
+    ],
+    "repo": "git://github.com/sharkdp/purescript-sparkle.git",
+    "version": "v4.2.0"
+  },
   "spec": {
     "dependencies": [
       "console",
