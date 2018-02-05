@@ -2029,7 +2029,7 @@
       "tagged"
    ],
    "repo": "https://github.com/f-o-a-m/purescript-web3-generator.git",
-   "version": "v0.13.0"
+   "version": "v0.14.0"
   },
   "word": {
     "dependencies": [
