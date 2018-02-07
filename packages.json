@@ -1628,7 +1628,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/purescript/purescript-record.git",
-    "version": "v0.2.5"
+    "version": "v0.2.6"
   },
   "reflection": {
     "dependencies": [
