@@ -2008,7 +2008,7 @@
       "machines"
     ],
     "repo": "https://github.com/f-o-a-m/purescript-web3.git",
-    "version": "v0.14.0-alpha"
+    "version": "v0.14.0"
   },
   "web3-generator": { 
     "dependencies": [
@@ -2029,7 +2029,7 @@
       "tagged"
    ],
    "repo": "https://github.com/f-o-a-m/purescript-web3-generator.git",
-   "version": "v0.14.0"
+   "version": "v0.14.1"
   },
   "word": {
     "dependencies": [
