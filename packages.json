@@ -308,9 +308,9 @@
   },
   "csv": {
     "dependencies": [
-       "arrays",
-       "maps",
-       "parsing"
+      "arrays",
+      "maps",
+      "parsing"
     ],
     "repo": "https://github.com/nwolverson/purescript-csv.git",
     "version": "v2.0.0"
@@ -897,21 +897,6 @@
     ],
     "repo": "https://github.com/jystic/purescript-jack.git",
     "version": "v2.0.0"
-  },
-  "io": {
-    "dependencies": [
-      "aff",
-      "control",
-      "eff",
-      "exceptions",
-      "monoid",
-      "newtype",
-      "prelude",
-      "tailrec",
-      "transformers"
-    ],
-    "repo": "https://github.com/slamdata/purescript-io.git",
-    "version": "v5.0.0"
   },
   "jquery": {
     "dependencies": [
@@ -1607,18 +1592,18 @@
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v4.1.0"
   },
-  "reactnative" : {
-     "dependencies": [
-         "eff",
-         "integers",
-         "maps",
-         "maybe",
-         "newtype",
-         "nullable",
-         "react"
-     ],
-     "repo": "https://github.com/doolse/purescript-reactnative.git",
-     "version": "v5.0.0"
+  "reactnative": {
+    "dependencies": [
+      "eff",
+      "integers",
+      "maps",
+      "maybe",
+      "newtype",
+      "nullable",
+      "react"
+    ],
+    "repo": "https://github.com/doolse/purescript-reactnative.git",
+    "version": "v5.0.0"
   },
   "record": {
     "dependencies": [
@@ -2000,15 +1985,6 @@
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "v2.1.0"
   },
-  "typelevel-prelude": {
-    "dependencies": [
-      "proxy",
-      "symbols",
-      "type-equality"
-    ],
-    "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
-    "version": "v2.5.0"
-  },
   "typelevel": {
     "dependencies": [
       "partial",
@@ -2018,6 +1994,15 @@
     ],
     "repo": "https://github.com/bodil/purescript-typelevel.git",
     "version": "v3.0.0"
+  },
+  "typelevel-prelude": {
+    "dependencies": [
+      "proxy",
+      "symbols",
+      "type-equality"
+    ],
+    "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
+    "version": "v2.5.0"
   },
   "unfoldable": {
     "dependencies": [
@@ -2096,17 +2081,6 @@
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v4.0.0"
   },
-  "yargs": {
-    "dependencies": [
-      "unsafe-coerce",
-      "foreign",
-      "either",
-      "console",
-      "exceptions"
-    ],
-    "repo": "https://github.com/paf31/purescript-yargs.git",
-    "version": "v3.1.0"
-  },
   "websocket-simple": {
     "dependencies": [
       "dom",
@@ -2129,11 +2103,11 @@
   },
   "yargs": {
     "dependencies": [
-      "unsafe-coerce",
-      "foreign",
-      "either",
       "console",
-      "exceptions"
+      "either",
+      "exceptions",
+      "foreign",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v3.1.0"
