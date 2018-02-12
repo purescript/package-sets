@@ -1493,7 +1493,7 @@
       "quickcheck"
     ],
     "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
-    "version": "v3.0.0"
+    "version": "v3.0.1"
   },
   "quickserve": {
     "dependencies": [
@@ -1616,7 +1616,7 @@
       "profunctor"
     ],
     "repo": "https://github.com/natefaubion/purescript-run.git",
-    "version": "v1.0.0"
+    "version": "v1.0.1"
   },
   "safely": {
     "dependencies": [
