@@ -399,6 +399,15 @@
     "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
     "version": "v5.0.0"
   },
+  "domparser": {
+    "dependencies": [
+      "dom",
+      "eff",
+      "prelude"
+    ],
+    "repo": "https://github.com/toastal/purescript-domparser.git",
+    "version": "v1.0.0"
+  },
   "drawing": {
     "dependencies": [
       "canvas",
