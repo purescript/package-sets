@@ -1447,6 +1447,17 @@
     "repo": "https://github.com/gcanti/purescript-prettier.git",
     "version": "v0.1.0"
   },
+  "prettier-printer": {
+    "dependencies": [
+      "console",
+      "lists",
+      "prelude",
+      "spec-quickcheck",
+      "tuples"
+    ],
+    "repo": "https://github.com/paulyoung/purescript-prettier-printer.git",
+    "version": "v1.2.0"
+  },
   "profunctor": {
     "dependencies": [
       "contravariant",
