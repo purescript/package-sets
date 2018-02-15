@@ -2237,5 +2237,14 @@
     ],
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v3.1.0"
+  },
+  "yarn": {
+    "dependencies": [
+      "arrays",
+      "generics-rep",
+      "strings"
+    ],
+    "repo": "https://github.com/thimoteus/purescript-yarn",
+    "version": "v3.0.0"
   }
 }
