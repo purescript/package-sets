@@ -32,6 +32,14 @@
     "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
     "version": "v1.0.0"
   },
+  "aff-reattempt": {
+    "dependencies": [
+      "aff",
+      "refs"
+    ],
+    "repo": "git://github.com/slamdata/purescript-aff-reattempt.git",
+    "version": "v4.0.0"
+  },
   "affjax": {
     "dependencies": [
       "aff",
@@ -2080,6 +2088,16 @@
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v4.0.0"
+  },
+  "webdriver": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "aff-reattempt",
+      "dom"
+    ],
+    "repo": "https://github.com/slamdata/purescript-webdriver",
+    "version": "v5.0.0"
   },
   "websocket-simple": {
     "dependencies": [
