@@ -116,6 +116,18 @@
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
     "version": "v3.1.0"
   },
+  "arraybuffer": {
+    "dependencies": [
+      "arrays",
+      "maybe",
+      "unfoldable",
+      "typelevel",
+      "foldable-traversable",
+      "prelude"
+    ],
+    "repo": "https://github.com/bodil/purescript-sized-vectors",
+    "version": "v2.2.0"
+  },
   "arraybuffer-types": {
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
