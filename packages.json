@@ -1401,6 +1401,17 @@
     "repo": "https://github.com/sharkdp/purescript-numbers.git",
     "version": "v5.0.0"
   },
+  "numerics": {
+    "dependencies": [
+      "bigints",
+      "uint",
+      "rationals",
+      "prelude",
+      "integers"
+    ],
+    "repo": "https://github.com/proclivis/purescript-numerics",
+    "version": "v0.1.1"
+  },
   "options": {
     "dependencies": [
       "foreign",
@@ -2115,6 +2126,14 @@
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
     "version": "v2.5.0"
   },
+  "uint": {
+    "dependencies": [
+      "maybe",
+      "math"
+    ],
+    "repo": "https://github.com/zaquest/purescript-uint",
+    "version": "v0.5.0"
+  },
   "unfoldable": {
     "dependencies": [
       "partial",
@@ -2253,6 +2272,17 @@
     ],
     "repo": "https://github.com/joneshf/purescript-webstorage",
     "version": "v3.0.1"
+  },
+  "word": {
+    "dependencies": [
+      "bigints",
+      "uint",
+      "prelude",
+      "numerics",
+      "strings"
+    ],
+    "repo": "https://github.com/proclivis/purescript-word",
+    "version": "v0.4.1"
   },
   "yargs": {
     "dependencies": [
