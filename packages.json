@@ -464,6 +464,17 @@
     "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
     "version": "v2.0.0"
   },
+  "encoding": {
+    "dependencies": [
+      "exceptions",
+      "arraybuffer-types",
+      "either",
+      "prelude",
+      "functions"
+    ],
+    "repo": "https://github.com/menelaos/purescript-encoding.git",
+    "version": "v0.0.4"
+  },
   "enums": {
     "dependencies": [
       "either",
