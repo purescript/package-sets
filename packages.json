@@ -153,6 +153,15 @@
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v2.0.1"
   },
+  "base58": {
+    "dependencies": [
+      "console",
+      "maybe",
+      "functions"
+    ],
+    "repo": "https://github.com/throughnothing/purescript-base58",
+    "version": "v0.0.3"
+  },
   "behaviors": {
     "dependencies": [
       "prelude",
