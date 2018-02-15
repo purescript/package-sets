@@ -1158,6 +1158,18 @@
     "repo": "https://github.com/TinkerTravel/purescript-modules.git",
     "version": "v3.0.0"
   },
+  "monad-loops": {
+    "dependencies": [
+      "maybe",
+      "monoid",
+      "tailrec",
+      "prelude",
+      "tuples",
+      "lists"
+    ],
+    "repo": "https://github.com/mlang/purescript-monad-loops",
+    "version": "v0.4.0"
+  },
   "monoid": {
     "dependencies": [
       "control",
