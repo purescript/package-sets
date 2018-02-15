@@ -181,6 +181,14 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v3.0.0"
   },
+  "bigints": {
+    "dependencies": [
+      "maybe",
+      "integers"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-bigints",
+    "version": "v3.4.0"
+  },
   "bytestrings": {
     "dependencies": [
       "arrays",
