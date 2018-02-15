@@ -909,6 +909,22 @@
     "repo": "https://github.com/slamdata/purescript-io.git",
     "version": "v5.0.0"
   },
+  "ipfs-api": {
+    "dependencies": [
+      "console",
+      "node-streams",
+      "argonaut",
+      "profunctor-lenses",
+      "aff-promise",
+      "coroutines",
+      "aff",
+      "prelude",
+      "aff-coroutines",
+      "node-buffer"
+    ],
+    "repo": "https://github.com/chfi/purescript-ipfs-api.git",
+    "version": "v0.0.3"
+  },
   "jack": {
     "dependencies": [
       "prelude",
