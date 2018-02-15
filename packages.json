@@ -1663,6 +1663,14 @@
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "v0.2.6"
   },
+  "record-show": {
+    "dependencies": [
+      "record",
+      "lists"
+    ],
+    "repo": "https://github.com/matthewleon/purescript-record-show",
+    "version": "v0.4.0"
+  },
   "reflection": {
     "dependencies": [
       "unsafe-coerce",
