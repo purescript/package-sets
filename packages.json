@@ -564,6 +564,20 @@
     "repo": "https://github.com/nkly/purescript-express.git",
     "version": "v0.6.0"
   },
+  "extensions": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "math",
+      "lists",
+      "tailrec",
+      "foreign-clone",
+      "partial",
+      "js-date"
+    ],
+    "repo": "https://github.com/jutaro/purescript-extensions",
+    "version": "v2.3.8"
+  },
   "filterable": {
     "dependencies": [
       "foldable-traversable",
@@ -630,6 +644,20 @@
     ],
     "repo": "https://github.com/purescript/purescript-foreign.git",
     "version": "v4.0.1"
+  },
+  "foreign-clone": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "foldable-traversable",
+      "functions",
+      "integers",
+      "lists",
+      "strings",
+      "transformers"
+    ],
+    "repo": "https://github.com/jutaro/purescript-foreign-clone",
+    "version": "v0.0.1"
   },
   "foreign-generic": {
     "dependencies": [
@@ -2209,6 +2237,19 @@
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v4.0.0"
+  },
+  "vector": {
+    "dependencies": [
+      "proxy",
+      "either",
+      "arrays",
+      "extensions",
+      "foldable-traversable",
+      "prelude",
+      "math"
+    ],
+    "repo": "https://github.com/jutaro/purescript-vector",
+    "version": "v2.0.0"
   },
   "web3": {
     "dependencies": [
