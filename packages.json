@@ -118,15 +118,14 @@
   },
   "arraybuffer": {
     "dependencies": [
-      "arrays",
+      "arraybuffer-types",
       "maybe",
-      "unfoldable",
-      "typelevel",
-      "foldable-traversable",
-      "prelude"
+      "uint",
+      "eff",
+      "functions"
     ],
-    "repo": "https://github.com/bodil/purescript-sized-vectors",
-    "version": "v2.2.0"
+    "repo": "https://github.com/jacereda/purescript-arraybuffer",
+    "version": "v6.0.0"
   },
   "arraybuffer-types": {
     "dependencies": [],
