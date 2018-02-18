@@ -37,7 +37,7 @@
       "aff",
       "refs"
     ],
-    "repo": "git://github.com/slamdata/purescript-aff-reattempt.git",
+    "repo": "https://github.com/slamdata/purescript-aff-reattempt.git",
     "version": "v4.0.0"
   },
   "affjax": {
