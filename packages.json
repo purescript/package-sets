@@ -1092,13 +1092,13 @@
   },
   "milkis": {
     "dependencies": [
-      "prelude",
-      "node-http",
+      "aff-promise",
       "http-methods",
-      "aff-promise"
+      "node-http",
+      "prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "minibench": {
     "dependencies": [
