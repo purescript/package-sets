@@ -966,6 +966,20 @@
     "repo" : "https://github.com/Thimoteus/literate-purescript.git",
     "version": "master"
   },
+  "localstorage": {
+    "dependencies": [
+      "maybe",
+      "generics",
+      "argonaut-core",
+      "argonaut-codecs",
+      "var",
+      "eff",
+      "dom",
+      "argonaut-generic"
+    ],
+    "repo" : "git://github.com/eskimor/purescript-localstorage.git",
+    "version": "v2.0.0"
+  },
   "machines": {
     "dependencies": [
       "arrays",
