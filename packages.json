@@ -2032,7 +2032,7 @@
       "psci-support",
       "spec",
       "typelevel-prelude",
-      "typelevel-equality",
+      "type-equality",
       "mmorph",
       "machines"
     ],
