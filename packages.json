@@ -216,10 +216,10 @@
   },
   "choco-pie": {
     "dependencies": [
-      "prelude",
       "behaviors",
-      "typelevel-prelude",
-      "record"
+      "prelude",
+      "record",
+      "typelevel-prelude"
     ],
     "repo": "git://github.com/justinwoo/purescript-chocopie.git",
     "version": "v1.0.0"
