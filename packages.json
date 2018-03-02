@@ -2033,15 +2033,19 @@
       "transformers",
       "aff",
       "tagged",
+      "free",
       "coroutines",
       "identity",
       "modules",
       "psci-support",
       "spec",
-      "typelevel-prelude"
+      "typelevel-prelude",
+      "type-equality",
+      "mmorph",
+      "machines"
     ],
     "repo": "https://github.com/f-o-a-m/purescript-web3.git",
-    "version": "v0.15.0"
+    "version": "v0.15.2"
   },
   "web3-generator": { 
     "dependencies": [
