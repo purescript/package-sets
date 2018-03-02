@@ -16,6 +16,14 @@
     "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "v4.0.0"
   },
+  "aff-bus": {
+    "dependencies": [
+      "aff",
+      "prelude"
+    ],
+    "repo": "https://github.com/slamdata/purescript-aff-bus.git",
+    "version": "v3.0.1"
+  },
   "aff-coroutines": {
     "dependencies": [
       "aff",
