@@ -161,6 +161,21 @@
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v2.0.1"
   },
+  "b64": {
+    "dependencies": [
+      "prelude",
+      "exceptions",
+      "arraybuffer-types",
+      "stringutils",
+      "either",
+      "functions",
+      "encoding",
+      "typedarray",
+      "partial"
+    ],
+    "repo": "https://github.com/menelaos/purescript-b64.git",
+    "version": "v0.0.4"
+  },
   "behaviors": {
     "dependencies": [
       "prelude",
@@ -466,6 +481,17 @@
     ],
     "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
     "version": "v2.0.0"
+  },
+  "encoding": {
+    "dependencies": [
+      "prelude",
+      "functions",
+      "either",
+      "arraybuffer-types",
+      "exceptions"
+    ],
+    "repo": "https://github.com/menelaos/purescript-encoding.git",
+    "version": "v0.0.4"
   },
   "enums": {
     "dependencies": [
@@ -1097,6 +1123,19 @@
     ],
     "repo": "https://github.com/paf31/purescript-memoize.git",
     "version": "v4.0.1"
+  },
+  "midi": {
+    "dependencies": [
+      "lists",
+      "string-parsers",
+      "integers",
+      "unicode",
+      "generics-rep",
+      "signal",
+      "prelude"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-midi.git",
+    "version": "v1.2.0"
   },
   "milkis": {
     "dependencies": [
@@ -1902,6 +1941,19 @@
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "v3.3.1"
   },
+  "stringutils": {
+    "dependencies": [
+      "strings",
+      "partial",
+      "arrays",
+      "either",
+      "maybe",
+      "integers",
+      "prelude"
+    ],
+    "repo": "https://github.com/menelaos/purescript-stringutils.git",
+    "version": "v0.0.7"
+  },
   "strongcheck": {
     "dependencies": [
       "console",
@@ -2012,6 +2064,16 @@
     ],
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "v2.1.0"
+  },
+  "typedarray": {
+    "dependencies": [
+      "prelude",
+      "maybe",
+      "arraybuffer-types",
+      "functions"
+    ],
+    "repo": "https://github.com/jutaro/purescript-typedarray.git",
+    "version": "v2.0.0"
   },
   "typelevel": {
     "dependencies": [
