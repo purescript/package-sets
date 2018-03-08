@@ -526,7 +526,7 @@
       "test-unit"
     ],
     "repo": "https://github.com/nkly/purescript-express.git",
-    "version": "v0.6.0"
+    "version": "v0.6.2"
   },
   "filterable": {
     "dependencies": [
