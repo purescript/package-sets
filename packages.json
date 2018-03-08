@@ -1049,6 +1049,24 @@
     "repo": "https://github.com/purescript/purescript-maps.git",
     "version": "v3.5.2"
   },
+  "markdown": {
+    "dependencies": [
+      "const",
+      "functors",
+      "lists",
+      "parsing",
+      "partial",
+      "precise",
+      "prelude",
+      "sets",
+      "strings",
+      "strongcheck",
+      "validation",
+      "datetime"
+    ],
+    "repo": "https://github.com/slamdata/purescript-markdown.git",
+    "version": "v11.0.1"
+  },
   "math": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-math.git",
@@ -1450,6 +1468,18 @@
     ],
     "repo": "https://github.com/paf31/purescript-pprint.git",
     "version": "v4.0.0"
+  },
+  "precise": {
+    "dependencies": [
+      "arrays",
+      "globals",
+      "integers",
+      "generics",
+      "quickcheck",
+      "strings"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-precise.git",
+    "version": "v2.0.0"
   },
   "prelude": {
     "dependencies": [],
