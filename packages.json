@@ -141,7 +141,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "v4.2.1"
+    "version": "v4.3.0"
   },
   "assert": {
     "dependencies": [
