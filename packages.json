@@ -384,6 +384,16 @@
     "repo": "https://github.com/garyb/purescript-debug.git",
     "version": "v3.0.0"
   },
+  "deck-gl": {
+    "dependencies": [
+      "prelude",
+      "react",
+      "maps",
+      "react-map-gl"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-deck-gl.git",
+    "version": "v0.1.0"
+  },
   "distributions": {
     "dependencies": [
       "lists"
@@ -1672,6 +1682,16 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v4.0.0"
+  },
+  "react-map-gl": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "react",
+      "generics-rep"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-react-map-gl.git",
+    "version": "v0.1.0"
   },
   "react-material-ui": {
     "dependencies": [
