@@ -14,7 +14,7 @@
       "avar"
     ],
     "repo": "https://github.com/slamdata/purescript-aff.git",
-    "version": "v4.0.0"
+    "version": "v4.0.2"
   },
   "aff-coroutines": {
     "dependencies": [
@@ -312,7 +312,7 @@
       "console"
     ],
     "repo": "https://github.com/slamdata/purescript-css.git",
-    "version": "v3.3.0"
+    "version": "v3.4.0"
   },
   "csv": {
     "dependencies": [
@@ -389,7 +389,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-dom.git",
-    "version": "v4.12.0"
+    "version": "v4.15.0"
   },
   "dom-classy": {
     "dependencies": [
@@ -439,14 +439,15 @@
       "aff"
     ],
     "repo": "https://github.com/slamdata/purescript-echarts.git",
-    "version": "v9.1.0"
+    "version": "v10.1.0"
   },
   "eff": {
     "dependencies": [
-      "prelude"
+      "prelude",
+      "monoid"
     ],
     "repo": "https://github.com/purescript/purescript-eff.git",
-    "version": "v3.1.0"
+    "version": "v3.2.0"
   },
   "either": {
     "dependencies": [
@@ -670,15 +671,17 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-free.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "freeap": {
     "dependencies": [
+      "lists",
+      "gen",
       "exists",
       "const"
     ],
     "repo": "https://github.com/ethul/purescript-freeap.git",
-    "version": "v3.0.1"
+    "version": "v4.0.0"
   },
   "freet": {
     "dependencies": [
@@ -777,7 +780,7 @@
       "unsafe-reference"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen.git",
-    "version": "v3.0.1"
+    "version": "v3.1.2"
   },
   "halogen-bootstrap": {
     "dependencies": [
@@ -794,13 +797,72 @@
     "repo": "https://github.com/slamdata/purescript-halogen-css.git",
     "version": "v7.0.0"
   },
+  "halogen-datepicker": {
+    "dependencies": [
+      "these",
+      "profunctor",
+      "halogen-css",
+      "formatters",
+      "halogen",
+      "generics-rep",
+      "numbers",
+      "enums",
+      "validation",
+      "datetime"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen-datepicker.git",
+    "version": "v1.0.0"
+  },
+  "halogen-day-picker": {
+    "dependencies": [
+      "dom-classy",
+      "halogen",
+      "generics-rep",
+      "datetime"
+    ],
+    "repo": "https://github.com/rnons/purescript-halogen-day-picker.git",
+    "version": "v0.1.2"
+  },
   "halogen-echarts": {
     "dependencies": [
       "halogen-css",
       "echarts"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-echarts.git",
-    "version": "v12.0.0"
+    "version": "v14.0.0"
+  },
+  "halogen-menu": {
+    "dependencies": [
+      "halogen"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen-menu.git",
+    "version": "v5.0.0"
+  },
+  "halogen-proxy": {
+    "dependencies": [
+      "halogen"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen-proxy.git",
+    "version": "v1.0.0"
+  },
+  "halogen-select": {
+    "dependencies": [
+      "control",
+      "dom",
+      "halogen",
+      "aff",
+      "transformers"
+    ],
+    "repo": "https://github.com/citizennet/purescript-halogen-select.git",
+    "version": "v0.1.12"
+  },
+  "halogen-storybook": {
+    "dependencies": [
+      "halogen",
+      "routing"
+    ],
+    "repo": "https://github.com/rnons/purescript-halogen-storybook.git",
+    "version": "v0.1.0"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -816,7 +878,16 @@
       "foreign"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
+  },
+  "halogen-vdom-string-renderer": {
+    "dependencies": [
+      "console",
+      "halogen-vdom",
+      "prelude"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen-vdom-string-renderer",
+    "version": "v0.2.2"
   },
   "handlebars": {
     "dependencies": [],
@@ -1047,7 +1118,7 @@
       "foldable-traversable"
     ],
     "repo": "https://github.com/purescript/purescript-maps.git",
-    "version": "v3.5.2"
+    "version": "v3.6.0"
   },
   "markdown": {
     "dependencies": [
@@ -1582,7 +1653,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
-    "version": "v4.6.0"
+    "version": "v4.6.2"
   },
   "quickcheck-laws": {
     "dependencies": [
@@ -1931,7 +2002,7 @@
       "arrays"
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
-    "version": "v3.3.1"
+    "version": "v3.5.0"
   },
   "strongcheck": {
     "dependencies": [
