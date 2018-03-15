@@ -312,7 +312,7 @@
       "console"
     ],
     "repo": "https://github.com/slamdata/purescript-css.git",
-    "version": "v3.3.0"
+    "version": "v3.4.0"
   },
   "csv": {
     "dependencies": [
@@ -443,10 +443,11 @@
   },
   "eff": {
     "dependencies": [
-      "prelude"
+      "prelude",
+      "monoid"
     ],
     "repo": "https://github.com/purescript/purescript-eff.git",
-    "version": "v3.1.0"
+    "version": "v3.2.0"
   },
   "either": {
     "dependencies": [
@@ -674,11 +675,13 @@
   },
   "freeap": {
     "dependencies": [
+      "lists",
+      "gen",
       "exists",
       "const"
     ],
     "repo": "https://github.com/ethul/purescript-freeap.git",
-    "version": "v3.0.1"
+    "version": "v4.0.0"
   },
   "freet": {
     "dependencies": [
@@ -1582,7 +1585,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
-    "version": "v4.6.0"
+    "version": "v4.6.2"
   },
   "quickcheck-laws": {
     "dependencies": [
@@ -1931,7 +1934,7 @@
       "arrays"
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
-    "version": "v3.3.1"
+    "version": "v3.5.0"
   },
   "strongcheck": {
     "dependencies": [
