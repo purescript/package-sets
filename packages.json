@@ -797,6 +797,32 @@
     "repo": "https://github.com/slamdata/purescript-halogen-css.git",
     "version": "v7.0.0"
   },
+  "halogen-datepicker": {
+    "dependencies": [
+      "these",
+      "profunctor",
+      "halogen-css",
+      "formatters",
+      "halogen",
+      "generics-rep",
+      "numbers",
+      "enums",
+      "validation",
+      "datetime"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen-datepicker.git",
+    "version": "v1.0.0"
+  },
+  "halogen-day-picker": {
+    "dependencies": [
+      "dom-classy",
+      "halogen",
+      "generics-rep",
+      "datetime"
+    ],
+    "repo": "https://github.com/rnons/purescript-halogen-day-picker.git",
+    "version": "v0.1.2"
+  },
   "halogen-echarts": {
     "dependencies": [
       "halogen-css",
@@ -804,6 +830,39 @@
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-echarts.git",
     "version": "v14.0.0"
+  },
+  "halogen-menu": {
+    "dependencies": [
+      "halogen"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen-menu.git",
+    "version": "v5.0.0"
+  },
+  "halogen-proxy": {
+    "dependencies": [
+      "halogen"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen-proxy.git",
+    "version": "v1.0.0"
+  },
+  "halogen-select": {
+    "dependencies": [
+      "control",
+      "dom",
+      "halogen",
+      "aff",
+      "transformers"
+    ],
+    "repo": "https://github.com/citizennet/purescript-halogen-select.git",
+    "version": "v0.1.12"
+  },
+  "halogen-storybook": {
+    "dependencies": [
+      "halogen",
+      "routing"
+    ],
+    "repo": "https://github.com/rnons/purescript-halogen-storybook.git",
+    "version": "v0.1.0"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -820,6 +879,15 @@
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
     "version": "v2.0.1"
+  },
+  "halogen-vdom-string-renderer": {
+    "dependencies": [
+      "console",
+      "halogen-vdom",
+      "prelude"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen-vdom-string-renderer",
+    "version": "v0.2.2"
   },
   "handlebars": {
     "dependencies": [],
