@@ -14,7 +14,7 @@
       "avar"
     ],
     "repo": "https://github.com/slamdata/purescript-aff.git",
-    "version": "v4.0.0"
+    "version": "v4.0.2"
   },
   "aff-coroutines": {
     "dependencies": [
@@ -389,7 +389,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-dom.git",
-    "version": "v4.12.0"
+    "version": "v4.15.0"
   },
   "dom-classy": {
     "dependencies": [
@@ -439,7 +439,7 @@
       "aff"
     ],
     "repo": "https://github.com/slamdata/purescript-echarts.git",
-    "version": "v9.1.0"
+    "version": "v10.1.0"
   },
   "eff": {
     "dependencies": [
@@ -670,7 +670,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-free.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "freeap": {
     "dependencies": [
@@ -777,7 +777,7 @@
       "unsafe-reference"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen.git",
-    "version": "v3.0.1"
+    "version": "v3.1.2"
   },
   "halogen-bootstrap": {
     "dependencies": [
@@ -800,7 +800,7 @@
       "echarts"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-echarts.git",
-    "version": "v12.0.0"
+    "version": "v14.0.0"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -816,7 +816,7 @@
       "foreign"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "handlebars": {
     "dependencies": [],
@@ -1047,7 +1047,7 @@
       "foldable-traversable"
     ],
     "repo": "https://github.com/purescript/purescript-maps.git",
-    "version": "v3.5.2"
+    "version": "v3.6.0"
   },
   "markdown": {
     "dependencies": [
