@@ -229,7 +229,7 @@
       "record",
       "typelevel-prelude"
     ],
-    "repo": "git://github.com/justinwoo/purescript-chocopie.git",
+    "repo": "https://github.com/justinwoo/purescript-chocopie.git",
     "version": "v1.0.0"
   },
   "codec": {
@@ -1190,12 +1190,10 @@
   "milkis": {
     "dependencies": [
       "aff-promise",
-      "http-methods",
-      "node-http",
       "prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "minibench": {
     "dependencies": [
@@ -1915,7 +1913,7 @@
       "record",
       "typelevel-prelude"
     ],
-    "repo": "git://github.com/sharkdp/purescript-sparkle.git",
+    "repo": "https://github.com/sharkdp/purescript-sparkle.git",
     "version": "v4.2.0"
   },
   "spec": {
