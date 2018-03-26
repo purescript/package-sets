@@ -2015,6 +2015,19 @@
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "v3.5.0"
   },
+  "stringutils": {
+    "dependencies": [
+      "either",
+      "arrays",
+      "maybe",
+      "prelude",
+      "integers",
+      "partial",
+      "strings"
+    ],
+    "repo": "https://github.com/menelaos/purescript-stringutils.git",
+    "version": "v0.0.7"
+  },
   "strongcheck": {
     "dependencies": [
       "console",
