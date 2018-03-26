@@ -712,6 +712,23 @@
     "repo": "https://github.com/purescript/purescript-functors.git",
     "version": "v2.2.0"
   },
+  "fuzzy": {
+    "dependencies": [
+      "newtype",
+      "maps",
+      "console",
+      "foldable-traversable",
+      "rationals",
+      "prelude",
+      "stringutils",
+      "generics-rep",
+      "tuples",
+      "quickcheck",
+      "strings"
+    ],
+    "repo": "https://github.com/citizennet/purescript-fuzzy.git",
+    "version": "v0.1.2"
+  },
   "gen": {
     "dependencies": [
       "nonempty",
