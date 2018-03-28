@@ -712,6 +712,23 @@
     "repo": "https://github.com/purescript/purescript-functors.git",
     "version": "v2.2.0"
   },
+  "fuzzy": {
+    "dependencies": [
+      "newtype",
+      "maps",
+      "console",
+      "foldable-traversable",
+      "rationals",
+      "prelude",
+      "stringutils",
+      "generics-rep",
+      "tuples",
+      "quickcheck",
+      "strings"
+    ],
+    "repo": "https://github.com/citizennet/purescript-fuzzy.git",
+    "version": "v0.1.2"
+  },
   "gen": {
     "dependencies": [
       "nonempty",
@@ -1998,6 +2015,19 @@
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "v3.5.0"
+  },
+  "stringutils": {
+    "dependencies": [
+      "either",
+      "arrays",
+      "maybe",
+      "prelude",
+      "integers",
+      "partial",
+      "strings"
+    ],
+    "repo": "https://github.com/menelaos/purescript-stringutils.git",
+    "version": "v0.0.7"
   },
   "strongcheck": {
     "dependencies": [
