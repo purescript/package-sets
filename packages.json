@@ -1755,6 +1755,17 @@
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "v0.2.6"
   },
+  "record-fold": {
+    "dependencies": [
+      "arrays",
+      "maybe",
+      "record",
+      "tuples",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/mbuszka/purescript-record-fold.git",
+    "version": "v0.1.0"
+  },
   "reflection": {
     "dependencies": [
       "unsafe-coerce",
