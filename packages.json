@@ -303,7 +303,7 @@
       "prelude",
       "unsafe-coerce"
     ],
-    "repo": "git://github.com/throughnothing/purescript-crypt-nacl.git",
+    "repo": "https://github.com/throughnothing/purescript-crypt-nacl.git",
     "version": "v0.3.0"
   },
   "crypto": {
@@ -491,7 +491,7 @@
       "functions",
       "prelude"
     ],
-    "repo": "git://github.com/menelaos/purescript-encoding.git",
+    "repo": "https://github.com/menelaos/purescript-encoding.git",
     "version": "v0.0.4"
   },
   "enums": {
@@ -1559,6 +1559,24 @@
     "repo": "https://github.com/felixSchl/purescript-pipes.git",
     "version": "v5.0.0"
   },
+  "polyform": {
+    "dependencies": [
+      "console",
+      "foreign",
+      "generics-rep",
+      "invariant",
+      "maps",
+      "monoid",
+      "newtype",
+      "prelude",
+      "profunctor",
+      "run",
+      "transformers",
+      "variant"
+    ],
+    "repo": "https://github.com/paluh/purescript-polyform.git",
+    "version": "v0.6.2"
+  },
   "posix-types": {
     "dependencies": [
       "prelude",
@@ -1719,24 +1737,6 @@
     ],
     "repo": "https://github.com/rightfold/purescript-quotient.git",
     "version": "v1.0.0"
-  },
-  "polyform": {
-    "dependencies": [
-      "console",
-      "foreign",
-      "generics-rep",
-      "invariant",
-      "maps",
-      "monoid",
-      "newtype",
-      "prelude",
-      "profunctor",
-      "run",
-      "transformers",
-      "variant"
-    ],
-    "repo": "https://github.com/paluh/purescript-polyform.git",
-    "version": "v0.6.2"
   },
   "random": {
     "dependencies": [
