@@ -1720,6 +1720,24 @@
     "repo": "https://github.com/rightfold/purescript-quotient.git",
     "version": "v1.0.0"
   },
+  "polyform": {
+    "dependencies": [
+      "console",
+      "foreign",
+      "generics-rep",
+      "invariant",
+      "maps",
+      "monoid",
+      "newtype",
+      "prelude",
+      "profunctor",
+      "run",
+      "transformers",
+      "variant"
+    ],
+    "repo": "https://github.com/paluh/purescript-polyform.git",
+    "version": "v0.6.2"
+  },
   "random": {
     "dependencies": [
       "eff",
@@ -1779,6 +1797,17 @@
     ],
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "v0.2.6"
+  },
+  "record-fold": {
+    "dependencies": [
+      "arrays",
+      "maybe",
+      "record",
+      "tuples",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/mbuszka/purescript-record-fold.git",
+    "version": "v0.1.0"
   },
   "reflection": {
     "dependencies": [
