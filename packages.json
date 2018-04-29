@@ -415,7 +415,7 @@
     "dependencies": [
       "identity",
       "either",
-      "st",
+      "refs",
       "partial"
     ],
     "repo": "https://github.com/purescript/purescript-tailrec.git",
