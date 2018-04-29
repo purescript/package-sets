@@ -121,7 +121,7 @@
       "either",
       "maybe"
     ],
-    "repo": "https://github.com/purescript/purescript-exceptions.git",
+    "repo": "https://github.com/MonoidMusician/purescript-exceptions.git",
     "version": "compiler/0.12"
   },
   "exists": {
@@ -218,7 +218,7 @@
     "dependencies": [
       "functors"
     ],
-    "repo": "https://github.com/purescript/purescript-inject.git",
+    "repo": "https://github.com/chexxor/purescript-inject.git",
     "version": "compiler/0.12"
   },
   "integers": {
