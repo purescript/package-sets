@@ -30,6 +30,18 @@
     "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
     "version": "v2.0.0"
   },
+  "aff-retry": {
+    "dependencies": [
+      "aff",
+      "prelude",
+      "datetime",
+      "random",
+      "transformers",
+      "exceptions"
+    ],
+    "repo": "https://github.com/Unisay/purescript-aff-retry.git",
+    "version": "v1.2.0"
+  },
   "affjax": {
     "dependencies": [
       "aff",
