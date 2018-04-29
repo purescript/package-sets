@@ -134,7 +134,8 @@
   "foldable-traversable": {
     "dependencies": [
       "bifunctors",
-      "maybe"
+      "maybe",
+      "orders"
     ],
     "repo": "https://github.com/purescript/purescript-foldable-traversable.git",
     "version": "compiler/0.12"
@@ -248,7 +249,7 @@
     "dependencies": [
       "random"
     ],
-    "repo": "https://github.com/purescript/purescript-lazy.git",
+    "repo": "https://github.com/purescript/purescript-lcg.git",
     "version": "compiler/0.12"
   },
   "lists": {
