@@ -214,13 +214,6 @@
     "repo": "https://github.com/purescript/purescript-identity.git",
     "version": "compiler/0.12"
   },
-  "inject": {
-    "dependencies": [
-      "functors"
-    ],
-    "repo": "https://github.com/chexxor/purescript-inject.git",
-    "version": "compiler/0.12"
-  },
   "integers": {
     "dependencies": [
       "globals",
