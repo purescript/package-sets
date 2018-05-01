@@ -555,6 +555,20 @@
     "repo": "https://github.com/nkly/purescript-express.git",
     "version": "v0.6.4"
   },
+  "extensions": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "math",
+      "lists",
+      "tailrec",
+      "foreign-clone",
+      "partial",
+      "js-date"
+    ],
+    "repo": "https://github.com/jutaro/purescript-extensions.git",
+    "version": "v2.3.8"
+  },
   "filterable": {
     "dependencies": [
       "foldable-traversable",
@@ -621,6 +635,20 @@
     ],
     "repo": "https://github.com/purescript/purescript-foreign.git",
     "version": "v4.0.1"
+  },
+  "foreign-clone": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "foldable-traversable",
+      "functions",
+      "integers",
+      "lists",
+      "strings",
+      "transformers"
+    ],
+    "repo": "https://github.com/jutaro/purescript-foreign-clone.git",
+    "version": "v0.0.1"
   },
   "foreign-generic": {
     "dependencies": [
@@ -1193,6 +1221,16 @@
     ],
     "repo": "https://github.com/rintcius/purescript-mathbox.git",
     "version": "v0.4.0"
+  },
+  "matrix": {
+    "dependencies": [
+      "vector",
+      "arrays",
+      "extensions",
+      "proxy"
+    ],
+    "repo": "https://github.com/jutaro/purescript-matrix.git",
+    "version": "v2.1.0"
   },
   "maybe": {
     "dependencies": [
@@ -2153,6 +2191,16 @@
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "v2.1.0"
   },
+  "typedarray": {
+    "dependencies": [
+      "prelude",
+      "maybe",
+      "arraybuffer-types",
+      "functions"
+    ],
+    "repo": "https://github.com/jutaro/purescript-typedarray.git",
+    "version": "v2.1.0"
+  },
   "typelevel": {
     "dependencies": [
       "partial",
@@ -2249,6 +2297,19 @@
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v4.1.0"
   },
+  "vector": {
+    "dependencies": [
+      "prelude",
+      "either",
+      "arrays",
+      "foldable-traversable",
+      "math",
+      "extensions",
+      "proxy"
+    ],
+    "repo": "https://github.com/jutaro/purescript-vector.git",
+    "version": "v2.10"
+  },
   "webdriver": {
     "dependencies": [
       "aff",
@@ -2258,6 +2319,30 @@
     ],
     "repo": "https://github.com/slamdata/purescript-webdriver",
     "version": "v5.0.0"
+  },
+  "webgl": {
+    "dependencies": [
+      "prelude",
+      "monoid",
+      "control",
+      "invariant",
+      "maybe",
+      "functions",
+      "arraybuffer-types",
+      "typedarray",
+      "vector",
+      "matrix",
+      "extensions",
+      "integers",
+      "foldable-traversable",
+      "eff",
+      "either",
+      "tuples",
+      "unfoldable",
+      "canvas"
+    ],
+    "repo": "https://github.com/jutaro/purescript-webgl.git",
+    "version": "v2.10"
   },
   "websocket-simple": {
     "dependencies": [
