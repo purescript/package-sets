@@ -411,7 +411,7 @@
       "dom"
     ],
     "repo": "https://github.com/garyb/purescript-dom-classy.git",
-    "version": "v2.1.0"
+    "version": "v2.2.0"
   },
   "dom-indexed": {
     "dependencies": [
@@ -950,6 +950,18 @@
     ],
     "repo": "https://github.com/purescript/purescript-identity.git",
     "version": "v3.1.0"
+  },
+  "incremental-functions": {
+    "dependencies": [
+      "maps",
+      "these",
+      "filterable",
+      "typelevel-prelude",
+      "record",
+      "enums"
+    ],
+    "repo": "https://github.com/paf31/purescript-incremental-functions.git",
+    "version": "v1.5.0"
   },
   "indexed-monad": {
     "dependencies": [
@@ -1651,6 +1663,15 @@
     ],
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "v3.0.0"
+  },
+  "purview": {
+    "dependencies": [
+      "dom-classy",
+      "incremental-functions",
+      "refs"
+    ],
+    "repo": "https://github.com/paf31/purescript-purview.git",
+    "version": "v1.1.0"
   },
   "pux": {
     "dependencies": [
