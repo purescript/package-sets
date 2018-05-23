@@ -901,11 +901,10 @@
       "dom",
       "halogen",
       "aff",
-      "transformers",
-      "day"
+      "transformers"
     ],
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
-    "version": "v0.2.0"
+    "version": "v1.0.0"
   },
   "halogen-vdom": {
     "dependencies": [
