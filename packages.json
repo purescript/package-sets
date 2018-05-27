@@ -455,6 +455,24 @@
     "repo": "https://github.com/purescript/purescript-profunctor.git",
     "version": "v4.0.0"
   },
+  "profunctor-lenses": {
+    "dependencies": [
+      "arrays",
+      "const",
+      "foreign-object",
+      "functors",
+      "identity",
+      "lists",
+      "maybe",
+      "ordered-collections",
+      "partial",
+      "profunctor",
+      "record",
+      "transformers"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-profunctor-lenses.git",
+    "version": "v4.0.0"
+  },
   "proxy": {
     "dependencies": [
       "prelude"
