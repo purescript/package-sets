@@ -207,6 +207,13 @@
     "repo": "https://github.com/purescript/purescript-datetime.git",
     "version": "v4.0.0"
   },
+  "debug": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/garyb/purescript-debug.git",
+    "version": "v4.0.0"
+  },
   "distributive": {
     "dependencies": [
       "identity",
@@ -921,6 +928,40 @@
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "v4.0.0"
   },
+  "quickcheck": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "enums",
+      "exceptions",
+      "foldable-traversable",
+      "gen",
+      "generics-rep",
+      "identity",
+      "integers",
+      "lazy",
+      "lcg",
+      "lists",
+      "math",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "record",
+      "st",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-quickcheck.git",
+    "version": "v5.0.0"
+  },
   "random": {
     "dependencies": [
       "effect",
@@ -1050,6 +1091,22 @@
     ],
     "repo": "https://github.com/purescript/purescript-tailrec.git",
     "version": "v4.0.0"
+  },
+  "test-unit": {
+    "dependencies": [
+      "aff",
+      "avar",
+      "effect",
+      "either",
+      "free",
+      "js-timers",
+      "lists",
+      "prelude",
+      "quickcheck",
+      "strings"
+    ],
+    "repo": "https://github.com/bodil/purescript-test-unit.git",
+    "version": "v14.0.0"
   },
   "these": {
     "dependencies": [
