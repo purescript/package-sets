@@ -647,6 +647,21 @@
     "repo": "https://github.com/purescript-node/purescript-node-buffer",
     "version": "v5.0.0"
   },
+  "node-child-process": {
+    "dependencies": [
+      "exceptions",
+      "foreign",
+      "foreign-object",
+      "functions",
+      "node-fs",
+      "node-streams",
+      "nullable",
+      "posix-types",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-node-child-process",
+    "version": "v5.0.0"
+  },
   "node-fs": {
     "dependencies": [
       "datetime",
