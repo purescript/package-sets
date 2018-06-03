@@ -450,28 +450,28 @@
     "dependencies": [
       "aff",
       "avar",
-      "const",
       "console",
+      "const",
       "coroutines",
-      "web-uievents",
       "dom-indexed",
       "foreign",
       "fork",
       "free",
       "freeap",
       "halogen-vdom",
-      "ordered-collections",
       "media-types",
       "nullable",
+      "ordered-collections",
       "parallel",
       "profunctor",
       "profunctor-lenses",
       "transformers",
       "unsafe-coerce",
-      "unsafe-reference"
+      "unsafe-reference",
+      "web-uievents"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen.git",
-    "version": "v4.0.0-rc.1"
+    "version": "v4.0.0"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -1188,6 +1188,15 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-unfoldable.git",
+    "version": "v4.0.0"
+  },
+  "unicode": {
+    "dependencies": [
+      "foldable-traversable",
+      "maybe",
+      "strings"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-unicode.git",
     "version": "v4.0.0"
   },
   "unsafe-coerce": {
