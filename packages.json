@@ -1199,6 +1199,19 @@
     "repo": "https://github.com/purescript-contrib/purescript-unicode.git",
     "version": "v4.0.0"
   },
+  "unordered-collections": {
+    "dependencies": [
+      "prelude",
+      "tuples",
+      "foldable-traversable",
+      "maybe",
+      "record",
+      "enums",
+      "integers"
+    ],
+    "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
+    "version": "v1.0.1"
+  },
   "unsafe-coerce": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-unsafe-coerce",
