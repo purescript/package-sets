@@ -369,7 +369,7 @@
       "lists",
       "psci-support"
     ],
-    "repo": "https://https://github.com/morganthomas/purescript-group",
+    "repo": "https://github.com/morganthomas/purescript-group",
     "version": "v3.3.0"
   },
   "halogen": {
