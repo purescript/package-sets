@@ -215,6 +215,19 @@
     "repo": "https://github.com/purescript/purescript-exists.git",
     "version": "v4.0.0"
   },
+  "filterable": {
+    "dependencies": [
+      "foldable-traversable",
+      "arrays",
+      "either",
+      "lists",
+      "ordered-collections",
+      "assert",
+      "console"
+    ],
+    "repo": "https://github.com/LiamGoodacre/purescript-filterable.git",
+    "version": "v3.0.0"
+  },
   "foldable-traversable": {
     "dependencies": [
       "bifunctors",
