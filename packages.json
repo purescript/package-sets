@@ -58,6 +58,17 @@
     "repo": "https://github.com/hdgarrood/purescript-ansi",
     "version": "v5.0.0"
   },
+  "argonaut-codecs": {
+    "dependencies": [
+      "argonaut-core",
+      "foreign-object",
+      "integers",
+      "maybe",
+      "ordered-collections"
+    ],
+    "repo": "git://github.com/purescript-contrib/purescript-argonaut-codecs.git",
+    "version": "v4.0.0"
+  },
   "argonaut-core": {
     "dependencies": [
       "arrays",
@@ -446,7 +457,7 @@
     "repo": "https://github.com/purescript/purescript-globals.git",
     "version": "v4.0.0"
   },
-  "group":  {
+  "group": {
     "dependencies": [
       "lists",
       "psci-support"
