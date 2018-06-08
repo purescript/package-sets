@@ -913,6 +913,15 @@
     "repo": "https://github.com/purescript-node/purescript-posix-types",
     "version": "v4.0.0"
   },
+  "pouchdb": {
+    "dependencies": [
+      "aff",
+      "foreign",
+      "simple-json"
+    ],
+    "repo": "https://github.com/fehrenbach/purescript-pouchdb.git",
+    "version": "v0.6.0"
+  },
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
