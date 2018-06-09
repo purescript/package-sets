@@ -298,13 +298,13 @@
   },
   "filterable": {
     "dependencies": [
-      "foldable-traversable",
       "arrays",
-      "either",
-      "lists",
-      "ordered-collections",
       "assert",
-      "console"
+      "console",
+      "either",
+      "foldable-traversable",
+      "lists",
+      "ordered-collections"
     ],
     "repo": "https://github.com/LiamGoodacre/purescript-filterable.git",
     "version": "v3.0.0"
@@ -396,8 +396,8 @@
     "dependencies": [
       "const",
       "exists",
-      "lists",
-      "gen"
+      "gen",
+      "lists"
     ],
     "repo": "https://github.com/ethul/purescript-freeap.git",
     "version": "v5.0.0"
@@ -1233,13 +1233,13 @@
   },
   "unordered-collections": {
     "dependencies": [
-      "prelude",
-      "tuples",
-      "foldable-traversable",
-      "maybe",
-      "record",
       "enums",
-      "integers"
+      "foldable-traversable",
+      "integers",
+      "maybe",
+      "prelude",
+      "record",
+      "tuples"
     ],
     "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
     "version": "v1.0.1"
