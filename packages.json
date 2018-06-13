@@ -214,6 +214,15 @@
     "repo": "https://github.com/garyb/purescript-debug.git",
     "version": "v4.0.0"
   },
+  "dispatcher-react": {
+    "dependencies": [
+      "aff",
+      "react",
+      "refs"
+    ],
+    "repo": "https://github.com/doolse/purescript-dispatcher-react.git",
+    "version": "v4.0.0"
+  },
   "distributive": {
     "dependencies": [
       "identity",
