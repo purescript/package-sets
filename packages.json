@@ -58,6 +58,26 @@
     "repo": "https://github.com/hdgarrood/purescript-ansi",
     "version": "v5.0.0"
   },
+  "argonaut": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "argonaut-traversals"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut.git",
+    "version": "v4.0.0"
+  },
+  "argonaut-codecs": {
+    "dependencies": [
+      "argonaut-core",
+      "foreign-object",
+      "integers",
+      "maybe",
+      "ordered-collections"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
+    "version": "v4.0.0"
+  },
   "argonaut-core": {
     "dependencies": [
       "arrays",
@@ -73,6 +93,15 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-core.git",
+    "version": "v4.0.0"
+  },
+  "argonaut-traversals": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "profunctor-lenses"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
     "version": "v4.0.0"
   },
   "arraybuffer-types": {
@@ -356,6 +385,18 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-form-urlencoded.git",
     "version": "v4.0.0"
+  },
+  "formatters": {
+    "dependencies": [
+      "datetime",
+      "generics-rep",
+      "lists",
+      "parsing",
+      "prelude",
+      "transformers"
+    ],
+    "repo": "git@github.com:doolse/purescript-formatters.git",
+    "version": "compiler/0.12"
   },
   "free": {
     "dependencies": [
@@ -864,6 +905,22 @@
     "repo": "https://github.com/purescript/purescript-parallel.git",
     "version": "v4.0.0"
   },
+  "parsing": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "integers",
+      "lists",
+      "maybe",
+      "strings",
+      "transformers",
+      "unicode"
+    ],
+    "repo": "git@github.com:joncfoo/purescript-parsing.git",
+    "version": "update-for-0.12.0"
+  },
   "partial": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-partial.git",
@@ -995,6 +1052,37 @@
     "repo": "https://github.com/purescript/purescript-random.git",
     "version": "v4.0.0"
   },
+  "react": {
+    "dependencies": [
+      "effect",
+      "exceptions",
+      "maybe",
+      "nullable",
+      "prelude",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-react.git",
+    "version": "v6.0.0"
+  },
+  "react-dom": {
+    "dependencies": [
+      "effect",
+      "react",
+      "web-dom"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
+    "version": "v6.0.0"
+  },
+  "react-mui": {
+    "dependencies": [
+      "react",
+      "react-dom",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/doolse/purescript-react-mui.git",
+    "version": "v2.0.0"
+  },
   "record": {
     "dependencies": [
       "functions",
@@ -1013,6 +1101,27 @@
     ],
     "repo": "https://github.com/purescript/purescript-refs.git",
     "version": "v4.1.0"
+  },
+  "routing": {
+    "dependencies": [
+      "aff",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "globals",
+      "integers",
+      "lists",
+      "maybe",
+      "prelude",
+      "semirings",
+      "tuples",
+      "validation",
+      "web-html"
+    ],
+    "repo": "https://github.com/slamdata/purescript-routing.git",
+    "version": "v8.0.0"
   },
   "semirings": {
     "dependencies": [
@@ -1217,6 +1326,20 @@
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference",
     "version": "v3.0.0"
+  },
+  "uri": {
+    "dependencies": [
+      "arrays",
+      "generics-rep",
+      "globals",
+      "integers",
+      "parsing",
+      "profunctor-lenses",
+      "these",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/doolse/purescript-uri.git",
+    "version": "compiler/0.12"
   },
   "validation": {
     "dependencies": [
