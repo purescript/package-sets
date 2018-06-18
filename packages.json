@@ -279,6 +279,17 @@
     "repo": "https://github.com/purescript/purescript-enums.git",
     "version": "v4.0.0"
   },
+  "errors": {
+    "dependencies": [
+      "control",
+      "effect",
+      "either",
+      "maybe",
+      "transformers"
+    ],
+    "repo": "https://github.com/passy/purescript-errors.git",
+    "version": "v4.0.1"
+  },
   "exceptions": {
     "dependencies": [
       "effect",
