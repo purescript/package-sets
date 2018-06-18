@@ -892,6 +892,15 @@
     "repo": "https://github.com/purescript/purescript-partial.git",
     "version": "v2.0.0"
   },
+  "phoenix": {
+    "dependencies": [
+      "effect",
+      "options",
+      "prelude"
+    ],
+    "repo": "https://github.com/brandonhamilton/purescript-phoenix.git",
+    "version": "v4.0.0"
+  },
   "pipes": {
     "dependencies": [
       "aff",
