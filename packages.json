@@ -1473,6 +1473,14 @@
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
     "version": "v1.0.0"
   },
+  "web-socket": {
+    "dependencies": [
+      "arraybuffer-types",
+      "web-file"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-socket.git",
+    "version": "v1.0.0"
+  },
   "web-storage": {
     "dependencies": [
       "nullable",
