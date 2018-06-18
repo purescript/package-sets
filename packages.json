@@ -1037,6 +1037,27 @@
     "repo": "https://github.com/purescript/purescript-refs.git",
     "version": "v4.1.0"
   },
+  "routing": {
+    "dependencies": [
+      "aff",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "globals",
+      "integers",
+      "lists",
+      "maybe",
+      "prelude",
+      "semirings",
+      "tuples",
+      "validation",
+      "web-html"
+    ],
+    "repo": "https://github.com/slamdata/purescript-routing.git",
+    "version": "v8.0.0"
+  },
   "semirings": {
     "dependencies": [
       "foldable-traversable",
