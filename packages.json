@@ -476,7 +476,7 @@
       "psci-support"
     ],
     "repo": "https://github.com/morganthomas/purescript-group",
-    "version": "v3.3.0"
+    "version": "v4.0.0"
   },
   "halogen": {
     "dependencies": [
