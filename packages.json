@@ -279,6 +279,17 @@
     "repo": "https://github.com/purescript/purescript-enums.git",
     "version": "v4.0.0"
   },
+  "errors": {
+    "dependencies": [
+      "control",
+      "effect",
+      "either",
+      "maybe",
+      "transformers"
+    ],
+    "repo": "https://github.com/passy/purescript-errors.git",
+    "version": "v4.0.1"
+  },
   "exceptions": {
     "dependencies": [
       "effect",
@@ -1038,6 +1049,15 @@
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "v1.0.0"
   },
+  "record-extra": {
+    "dependencies": [
+      "lists",
+      "record",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-record-extra.git",
+    "version": "v1.0.0"
+  },
   "refs": {
     "dependencies": [
       "effect",
@@ -1045,6 +1065,27 @@
     ],
     "repo": "https://github.com/purescript/purescript-refs.git",
     "version": "v4.1.0"
+  },
+  "routing": {
+    "dependencies": [
+      "aff",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "globals",
+      "integers",
+      "lists",
+      "maybe",
+      "prelude",
+      "semirings",
+      "tuples",
+      "validation",
+      "web-html"
+    ],
+    "repo": "https://github.com/slamdata/purescript-routing.git",
+    "version": "v8.0.0"
   },
   "semirings": {
     "dependencies": [
@@ -1085,6 +1126,16 @@
       "transformers"
     ],
     "repo": "https://github.com/owickstrom/purescript-spec.git",
+    "version": "v3.0.0"
+  },
+  "spec-quickcheck": {
+    "dependencies": [
+      "aff",
+      "quickcheck",
+      "random",
+      "spec"
+    ],
+    "repo": "https://github.com/owickstrom/purescript-spec-quickcheck.git",
     "version": "v3.0.0"
   },
   "st": {
@@ -1329,6 +1380,14 @@
       "web-storage"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
+    "version": "v1.0.0"
+  },
+  "web-socket": {
+    "dependencies": [
+      "arraybuffer-types",
+      "web-file"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-socket.git",
     "version": "v1.0.0"
   },
   "web-storage": {
