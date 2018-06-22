@@ -315,6 +315,17 @@
     "repo": "https://github.com/paf31/purescript-event.git",
     "version": "v1.0.0"
   },
+  "errors": {
+    "dependencies": [
+      "control",
+      "effect",
+      "either",
+      "maybe",
+      "transformers"
+    ],
+    "repo": "https://github.com/passy/purescript-errors.git",
+    "version": "v4.0.1"
+  },
   "exceptions": {
     "dependencies": [
       "effect",
@@ -1208,6 +1219,16 @@
     "repo": "https://github.com/owickstrom/purescript-spec.git",
     "version": "v3.0.0"
   },
+  "spec-quickcheck": {
+    "dependencies": [
+      "aff",
+      "quickcheck",
+      "random",
+      "spec"
+    ],
+    "repo": "https://github.com/owickstrom/purescript-spec-quickcheck.git",
+    "version": "v3.0.0"
+  },
   "st": {
     "dependencies": [
       "partial",
@@ -1450,6 +1471,14 @@
       "web-storage"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
+    "version": "v1.0.0"
+  },
+  "web-socket": {
+    "dependencies": [
+      "arraybuffer-types",
+      "web-file"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-socket.git",
     "version": "v1.0.0"
   },
   "web-storage": {
