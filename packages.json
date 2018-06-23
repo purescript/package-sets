@@ -304,17 +304,6 @@
     "repo": "https://github.com/purescript/purescript-enums.git",
     "version": "v4.0.0"
   },
-  "event": {
-    "dependencies": [
-      "prelude",
-      "console",
-      "effect",
-      "filterable",
-      "nullable"
-    ],
-    "repo": "https://github.com/paf31/purescript-event.git",
-    "version": "v1.0.0"
-  },
   "errors": {
     "dependencies": [
       "control",
@@ -325,6 +314,17 @@
     ],
     "repo": "https://github.com/passy/purescript-errors.git",
     "version": "v4.0.1"
+  },
+  "event": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "effect",
+      "filterable",
+      "nullable"
+    ],
+    "repo": "https://github.com/paf31/purescript-event.git",
+    "version": "v1.0.0"
   },
   "exceptions": {
     "dependencies": [
@@ -382,6 +382,21 @@
     ],
     "repo": "https://github.com/purescript/purescript-foreign.git",
     "version": "v5.0.0"
+  },
+  "foreign-generic": {
+    "dependencies": [
+      "effect",
+      "foreign",
+      "foreign-object",
+      "generics-rep",
+      "generics-rep",
+      "ordered-collections",
+      "proxy",
+      "exceptions",
+      "record"
+    ],
+    "repo": "https://github.com/paf31/purescript-foreign-generic.git",
+    "version": "v7.0.0"
   },
   "foreign-object": {
     "dependencies": [
