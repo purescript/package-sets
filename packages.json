@@ -346,11 +346,11 @@
   },
   "event": {
     "dependencies": [
-      "prelude",
       "console",
       "effect",
       "filterable",
-      "nullable"
+      "nullable",
+      "prelude"
     ],
     "repo": "https://github.com/paf31/purescript-event.git",
     "version": "v1.0.0"
@@ -415,13 +415,13 @@
   "foreign-generic": {
     "dependencies": [
       "effect",
+      "exceptions",
       "foreign",
       "foreign-object",
       "generics-rep",
       "generics-rep",
       "ordered-collections",
       "proxy",
-      "exceptions",
       "record"
     ],
     "repo": "https://github.com/paf31/purescript-foreign-generic.git",
@@ -1164,12 +1164,12 @@
   "react": {
     "dependencies": [
       "effect",
-      "prelude",
-      "unsafe-coerce",
       "exceptions",
       "maybe",
       "nullable",
-      "typelevel-prelude"
+      "prelude",
+      "typelevel-prelude",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
     "version": "v6.0.0"
@@ -1188,9 +1188,9 @@
   },
   "react-dom": {
     "dependencies": [
-      "web-dom",
+      "effect",
       "react",
-      "effect"
+      "web-dom"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v6.0.0"
@@ -1579,5 +1579,16 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v2.0.0"
+  },
+  "yargs": {
+    "dependencies": [
+      "console",
+      "either",
+      "exceptions",
+      "foreign",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/paf31/purescript-yargs",
+    "version": "v4.0.0"
   }
 }
