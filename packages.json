@@ -1468,8 +1468,15 @@
   },
   "unsafe-reference": {
     "dependencies": [],
-    "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference",
+    "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference.git",
     "version": "v3.0.0"
+  },
+  "uuid": {
+    "dependencies": [
+      "effect"
+    ],
+    "repo": "https://github.com/spicydonuts/purescript-uuid.git",
+    "version": "v5.0.0"
   },
   "validation": {
     "dependencies": [
