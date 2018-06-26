@@ -64,7 +64,7 @@
       "argonaut-core",
       "argonaut-traversals"
     ],
-    "repo": "git://github.com/purescript-contrib/purescript-argonaut.git",
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut.git",
     "version": "v4.0.1"
   },
   "argonaut-codecs": {
@@ -101,7 +101,7 @@
       "argonaut-core",
       "profunctor-lenses"
     ],
-    "repo": "git://github.com/purescript-contrib/purescript-argonaut-traversals.git",
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
     "version": "v4.0.1"
   },
   "arraybuffer-types": {
@@ -1588,7 +1588,7 @@
       "foreign",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/paf31/purescript-yargs",
+    "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v4.0.0"
   }
 }
