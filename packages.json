@@ -148,12 +148,36 @@
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v3.0.0"
   },
+  "behaviors": {
+    "dependencies": [
+      "prelude",
+      "effect",
+      "ordered-collections",
+      "filterable",
+      "nullable",
+      "event",
+      "web-html",
+      "web-events",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/paf31/purescript-behaviors.git",
+    "version": "v7.0.0"
+  },
   "bifunctors": {
     "dependencies": [
       "newtype",
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
+    "version": "v4.0.0"
+  },
+  "bigints": {
+    "dependencies": [
+      "maybe",
+      "integers",
+      "strings",
+    ],
+    "repo": "https://github.com/sharkdp/purescript-bigints.git",
     "version": "v4.0.0"
   },
   "canvas": {
@@ -317,6 +341,15 @@
     "repo": "https://github.com/purescript/purescript-either.git",
     "version": "v4.0.0"
   },
+  "email-validate": {
+    "dependencies": [
+      "string-parsers",
+      "aff",
+      "transformers"
+    ],
+    "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
+    "version": "v3.0.0"
+  },
   "enums": {
     "dependencies": [
       "control",
@@ -463,6 +496,19 @@
     "repo": "https://github.com/purescript-contrib/purescript-form-urlencoded.git",
     "version": "v4.0.0"
   },
+  "formatters": {
+    "dependencies": [
+      "fixed-points",
+      "datetime",
+      "generics-rep",
+      "transformers",
+      "lists",
+      "prelude",
+      "parsing"
+    ],
+    "repo": "https://github.com/slamdata/purescript-formatters.git",
+    "version": "v4.0.0",
+  }
   "free": {
     "dependencies": [
       "catenable-lists",
@@ -1195,6 +1241,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v6.0.0"
   },
+  "read": {
+    "dependencies": [
+      "prelude",
+      "maybe",
+      "strings"
+    ],
+    "repo": "https://github.com/truqu/purescript-read.git",
+    "version": "v1.0.1"
+  },
   "record": {
     "dependencies": [
       "functions",
@@ -1222,6 +1277,16 @@
     ],
     "repo": "https://github.com/purescript/purescript-refs.git",
     "version": "v4.1.0"
+  },
+  "remotedata": {
+    "dependencies": [
+      "bifunctors",
+      "either",
+      "profunctor-lenses",
+      "generics-rep"
+    ],
+    "repo": "https://github.com/krisajenkins/purescript-remotedata.git",
+    "version": "v4.0.0"
   },
   "routing": {
     "dependencies": [
