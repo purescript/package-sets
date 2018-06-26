@@ -175,7 +175,7 @@
     "dependencies": [
       "maybe",
       "integers",
-      "strings",
+      "strings"
     ],
     "repo": "https://github.com/sharkdp/purescript-bigints.git",
     "version": "v4.0.0"
@@ -507,8 +507,8 @@
       "parsing"
     ],
     "repo": "https://github.com/slamdata/purescript-formatters.git",
-    "version": "v4.0.0",
-  }
+    "version": "v4.0.0"
+  },
   "free": {
     "dependencies": [
       "catenable-lists",
