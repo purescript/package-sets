@@ -341,15 +341,6 @@
     "repo": "https://github.com/purescript/purescript-either.git",
     "version": "v4.0.0"
   },
-  "email-validate": {
-    "dependencies": [
-      "string-parsers",
-      "aff",
-      "transformers"
-    ],
-    "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
-    "version": "v3.0.0"
-  },
   "enums": {
     "dependencies": [
       "control",
@@ -383,10 +374,13 @@
       "effect",
       "filterable",
       "nullable",
-      "prelude"
+      "prelude",
+      "unsafe-reference",
+      "js-timers",
+      "now"
     ],
     "repo": "https://github.com/paf31/purescript-event.git",
-    "version": "v1.0.0"
+    "version": "v1.2.4"
   },
   "exceptions": {
     "dependencies": [
@@ -417,6 +411,16 @@
     ],
     "repo": "https://github.com/LiamGoodacre/purescript-filterable.git",
     "version": "v3.0.0"
+  },
+  "fixed-points": {
+    "dependencies": [
+      "exists",
+      "prelude",
+      "newtype",
+      "transformers"
+    ],
+    "repo": "https://github.com/slamdata/purescript-fixed-points.git",
+    "version": "v5.1.0"
   },
   "foldable-traversable": {
     "dependencies": [
@@ -575,6 +579,22 @@
     "repo": "https://github.com/purescript/purescript-functors.git",
     "version": "v3.0.0"
   },
+  "fuzzy": {
+    "dependencies": [
+      "prelude",
+      "strings",
+      "foldable-traversable",
+      "tuples",
+      "ordered-collections",
+      "newtype",
+      "generics-rep",
+      "rationals",
+      "strongcheck",
+      "foreign-object"
+    ],
+    "repo": "https://github.com/citizennet/purescript-fuzzy.git",
+    "version": "v0.2.1"
+  },
   "gen": {
     "dependencies": [
       "either",
@@ -649,6 +669,13 @@
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-css.git",
     "version": "v8.0.0"
+  },
+  "halogen-select": {
+    "dependencies": [
+      "halogen"
+    ],
+    "repo": "https://github.com/citizennet/purescript-halogen-select.git",
+    "version": "v2.0.0"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -1059,6 +1086,22 @@
     "repo": "https://github.com/purescript/purescript-parallel.git",
     "version": "v4.0.0"
   },
+  "parsing": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "integers",
+      "lists",
+      "maybe",
+      "strings",
+      "transformers",
+      "unicode"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
+    "version": "v5.0.1"
+  },
   "partial": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-partial.git",
@@ -1085,6 +1128,22 @@
     ],
     "repo": "https://github.com/felixSchl/purescript-pipes.git",
     "version": "v6.0.0"
+  },
+  "polyform": {
+    "dependencies": [
+      "newtype",
+      "ordered-collections",
+      "generics-rep",
+      "variant",
+      "transformers",
+      "profunctor",
+      "invariant",
+      "run",
+      "foreign",
+      "foreign-object"
+    ],
+    "repo": "https://github.com/paluh/purescript-polyform.git",
+    "version": "v0.7.0"
   },
   "posix-types": {
     "dependencies": [
@@ -1207,6 +1266,14 @@
     "repo": "https://github.com/purescript/purescript-random.git",
     "version": "v4.0.0"
   },
+  "rationals": {
+    "dependencies": [
+      "integers",
+      "prelude"
+    ],
+    "repo": "https://github.com/anttih/purescript-rationals.git",
+    "version": "v5.0.0"
+  },
   "react": {
     "dependencies": [
       "effect",
@@ -1309,6 +1376,25 @@
     "repo": "https://github.com/slamdata/purescript-routing.git",
     "version": "v8.0.0"
   },
+  "run": {
+    "dependencies": [
+      "aff",
+      "either",
+      "free",
+      "maybe",
+      "newtype",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "type-equality",
+      "unsafe-coerce",
+      "variant",
+      "profunctor",
+      "effect"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-run.git",
+    "version": "v2.0.0"
+  },
   "semirings": {
     "dependencies": [
       "foldable-traversable",
@@ -1383,7 +1469,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/paf31/purescript-string-parsers.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "strings": {
     "dependencies": [
@@ -1406,6 +1492,39 @@
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "v4.0.0"
+  },
+  "strongcheck": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "enums",
+      "exceptions",
+      "foldable-traversable",
+      "free",
+      "gen",
+      "identity",
+      "integers",
+      "invariant",
+      "lazy",
+      "lists",
+      "machines",
+      "math",
+      "newtype",
+      "partial",
+      "prelude",
+      "profunctor",
+      "random",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-strongcheck.git",
+    "version": "v4.1.1"
   },
   "tailrec": {
     "dependencies": [
