@@ -341,6 +341,16 @@
     "repo": "https://github.com/purescript/purescript-either.git",
     "version": "v4.0.0"
   },
+  "email-validate": {
+    "dependencies": [
+      "string-parsers",
+      "aff",
+      "transformers",
+      "generics-rep"
+    ],
+    "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
+    "version": "v3.0.0"
+  },
   "enums": {
     "dependencies": [
       "control",
