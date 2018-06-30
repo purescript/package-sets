@@ -1077,6 +1077,15 @@
     "repo": "https://github.com/purescript/purescript-orders.git",
     "version": "v4.0.0"
   },
+  "pairing": {
+    "dependencies": [
+      "free",
+      "functors",
+      "transformers"
+    ],
+    "repo": "https://github.com/paf31/purescript-pairing.git",
+    "version": "v5.1.0"
+  },
   "parallel": {
     "dependencies": [
       "control",
