@@ -395,7 +395,7 @@
       "prelude",
       "transformers"
     ],
-    "repo": "git@github.com:doolse/purescript-formatters.git",
+    "repo": "https://github.com/doolse/purescript-formatters.git",
     "version": "compiler/0.12"
   },
   "free": {
@@ -918,8 +918,8 @@
       "transformers",
       "unicode"
     ],
-    "repo": "git@github.com:joncfoo/purescript-parsing.git",
-    "version": "update-for-0.12.0"
+    "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
+    "version": "v5.0.1"
   },
   "partial": {
     "dependencies": [],
@@ -1081,7 +1081,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/doolse/purescript-react-mui.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "record": {
     "dependencies": [
@@ -1338,8 +1338,8 @@
       "these",
       "unfoldable"
     ],
-    "repo": "https://github.com/doolse/purescript-uri.git",
-    "version": "compiler/0.12"
+    "repo": "https://github.com/slamdata/purescript-uri.git",
+    "version": "v6.0.0"
   },
   "validation": {
     "dependencies": [
