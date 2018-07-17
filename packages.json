@@ -303,6 +303,13 @@
     "repo": "https://github.com/garyb/purescript-debug.git",
     "version": "v4.0.0"
   },
+  "decimals": {
+    "dependencies": [
+      "maybe"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-decimals.git",
+    "version": "v4.0.0"
+  },
   "distributive": {
     "dependencies": [
       "identity",
@@ -1085,6 +1092,16 @@
     ],
     "repo": "https://github.com/paf31/purescript-pairing.git",
     "version": "v5.1.0"
+  },
+  "pairs": {
+    "dependencies": [
+      "console",
+      "distributive",
+      "foldable-traversable",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-pairs.git",
+    "version": "v6.0.0"
   },
   "parallel": {
     "dependencies": [
