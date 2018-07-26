@@ -1330,7 +1330,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v1.1.1"
+    "version": "v1.2.0"
   },
   "react-dom": {
     "dependencies": [
