@@ -204,6 +204,16 @@
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
     "version": "v5.0.0"
   },
+  "choco-pie": {
+    "dependencies": [
+      "event",
+      "prelude",
+      "record",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-choco-pie.git",
+    "version": "v2.0.0"
+  },
   "colors": {
     "dependencies": [
       "arrays",
@@ -356,7 +366,7 @@
       "transformers"
     ],
     "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
-    "version": "v3.0.1"
+    "version": "v4.0.0"
   },
   "enums": {
     "dependencies": [
@@ -841,6 +851,20 @@
     "repo": "https://github.com/purescript-contrib/purescript-media-types.git",
     "version": "v4.0.1"
   },
+  "memoize": {
+    "dependencies": [
+      "either",
+      "generics-rep",
+      "integers",
+      "lazy",
+      "lists",
+      "maybe",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/paf31/purescript-memoize.git",
+    "version": "v5.0.0"
+  },
   "milkis": {
     "dependencies": [
       "aff-promise",
@@ -992,6 +1016,14 @@
     "repo": "https://github.com/purescript-node/purescript-node-readline.git",
     "version": "v4.0.0"
   },
+  "node-sqlite3": {
+    "dependencies": [
+      "aff",
+      "foreign"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-node-sqlite3",
+    "version": "v3.1.0"
+  },
   "node-streams": {
     "dependencies": [
       "effect",
@@ -1001,6 +1033,16 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-streams.git",
+    "version": "v4.0.0"
+  },
+  "node-telegram-bot-api": {
+    "dependencies": [
+      "aff",
+      "foreign",
+      "simple-json",
+      "strings"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-node-telegram-bot-api.git",
     "version": "v4.0.0"
   },
   "node-url": {
@@ -1142,9 +1184,7 @@
   },
   "phoenix": {
     "dependencies": [
-      "effect",
-      "options",
-      "prelude"
+      "options"
     ],
     "repo": "https://github.com/brandonhamilton/purescript-phoenix.git",
     "version": "v4.0.0"
@@ -1451,7 +1491,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "spec": {
     "dependencies": [
@@ -1503,7 +1543,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/paf31/purescript-string-parsers.git",
-    "version": "v4.0.1"
+    "version": "v5.0.0"
   },
   "strings": {
     "dependencies": [
@@ -1669,9 +1709,7 @@
   "unordered-collections": {
     "dependencies": [
       "enums",
-      "foldable-traversable",
       "integers",
-      "maybe",
       "prelude",
       "record",
       "tuples"
