@@ -1081,7 +1081,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/doolse/purescript-react-mui.git",
-    "version": "v2.0.1"
+    "version": "v2.0.2"
   },
   "record": {
     "dependencies": [
