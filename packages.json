@@ -204,6 +204,18 @@
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
     "version": "v5.0.0"
   },
+  "cheerio": {
+    "dependencies": [
+      "functions",
+      "test-unit",
+      "psci-support",
+      "console",
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/icyrockcom/purescript-cheerio.git",
+    "version": "v0.2.0"
+  },
   "choco-pie": {
     "dependencies": [
       "event",
