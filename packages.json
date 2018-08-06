@@ -148,6 +148,14 @@
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v3.0.0"
   },
+  "base64": {
+    "dependencies": [
+      "nullable",
+      "arraybuffer-types"
+    ],
+    "repo": "https://github.com/athanclark/purescript-base64.git",
+    "version": "v1.0.1"
+  },
   "bifunctors": {
     "dependencies": [
       "newtype",
@@ -289,6 +297,17 @@
     ],
     "repo": "https://github.com/purescript/purescript-either.git",
     "version": "v4.0.0"
+  },
+  "encoding": {
+    "dependencies": [
+      "arraybuffer-types",
+      "prelude",
+      "functions",
+      "either",
+      "exceptions"
+    ],
+    "repo": "https://github.com/menelaos/purescript-encoding.git",
+    "version": "v0.0.5"
   },
   "enums": {
     "dependencies": [
