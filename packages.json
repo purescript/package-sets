@@ -204,18 +204,6 @@
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
     "version": "v5.0.0"
   },
-  "cheerio": {
-    "dependencies": [
-      "functions",
-      "test-unit",
-      "psci-support",
-      "console",
-      "effect",
-      "prelude"
-    ],
-    "repo": "https://github.com/icyrockcom/purescript-cheerio.git",
-    "version": "v0.2.0"
-  },
   "choco-pie": {
     "dependencies": [
       "event",
@@ -1308,6 +1296,26 @@
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "v4.0.0"
   },
+  "pux": {
+    "dependencies": [
+      "aff",
+      "css",
+      "effect",
+      "foreign-object",
+      "functions",
+      "globals",
+      "lists",
+      "ordered-collections",
+      "profunctor",
+      "react",
+      "signal",
+      "smolder",
+      "web-html",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/alexmingoia/purescript-pux.git",
+    "version": "v13.0.0"
+  },
   "quickcheck": {
     "dependencies": [
       "arrays",
@@ -1490,6 +1498,17 @@
     "repo": "https://github.com/purescript/purescript-semirings.git",
     "version": "v5.0.0"
   },
+  "signal": {
+    "dependencies": [
+      "aff",
+      "foldable-traversable",
+      "js-timers",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/bodil/purescript-signal.git",
+    "version": "v10.1.0"
+  },
   "simple-json": {
     "dependencies": [
       "exceptions",
@@ -1504,6 +1523,20 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
     "version": "v4.1.0"
+  },
+  "smolder": {
+    "dependencies": [
+      "bifunctors",
+      "catenable-lists",
+      "free",
+      "globals",
+      "ordered-collections",
+      "strings",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/bodil/purescript-smolder.git",
+    "version": "v11.0.0"
   },
   "spec": {
     "dependencies": [
