@@ -104,6 +104,18 @@
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
     "version": "v4.0.1"
   },
+  "arraybuffer": {
+    "dependencies": [
+      "arraybuffer-types",
+      "effect",
+      "functions",
+      "maybe",
+      "text-encoding",
+      "uint"
+    ],
+    "repo": "https://github.com/jacereda/purescript-arraybuffer.git",
+    "version": "v8.0.0"
+  },
   "arraybuffer-types": {
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
@@ -1687,6 +1699,18 @@
     "repo": "https://github.com/bodil/purescript-test-unit.git",
     "version": "v14.0.0"
   },
+  "text-encoding": {
+    "dependencies": [
+      "arraybuffer-types",
+      "either",
+      "exceptions",
+      "functions",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/AlexaDeWit/purescript-text-encoding.git",
+    "version": "v0.0.8"
+  },
   "these": {
     "dependencies": [
       "gen",
@@ -1742,6 +1766,14 @@
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
     "version": "v3.0.0"
+  },
+  "uint": {
+    "dependencies": [
+      "math",
+      "maybe"
+    ],
+    "repo": "https://github.com/zaquest/purescript-uint.git",
+    "version": "v4.0.1"
   },
   "unfoldable": {
     "dependencies": [
@@ -1892,6 +1924,28 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v2.0.0"
+  },
+  "webaudio": {
+    "dependencies": [
+      "aff",
+      "affjax",
+      "arraybuffer",
+      "arraybuffer-types",
+      "arrays",
+      "assert",
+      "console",
+      "foldable-traversable",
+      "js-timers",
+      "lists",
+      "math",
+      "maybe",
+      "psci-support",
+      "refs",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/adkelley/purescript-webaudio.git",
+    "version": "v0.1.2"
   },
   "yargs": {
     "dependencies": [
