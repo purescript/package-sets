@@ -1388,6 +1388,15 @@
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
     "version": "v5.0.0"
   },
+  "quickcheck-laws": {
+    "dependencies": [
+      "proxy",
+      "enums",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/garyb/purescript-quickcheck-laws",
+    "version": "v4.0.0"
+  },
   "random": {
     "dependencies": [
       "effect",
