@@ -899,6 +899,20 @@
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
     "version": "v6.0.1"
   },
+  "minibench": {
+    "dependencies": [
+      "console",
+      "effect",
+      "globals",
+      "integers",
+      "math",
+      "partial",
+      "prelude",
+      "refs"
+    ],
+    "repo": "https://github.com/purescript/purescript-minibench.git",
+    "version": "v2.0.0"
+  },
   "mmorph": {
     "dependencies": [
       "functors",
