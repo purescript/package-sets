@@ -1831,7 +1831,7 @@
       "tuples"
     ],
     "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
-    "version": "v1.1.0"
+    "version": "v1.3.0"
   },
   "unsafe-coerce": {
     "dependencies": [],
