@@ -1390,8 +1390,8 @@
   },
   "quickcheck-laws": {
     "dependencies": [
-      "proxy",
       "enums",
+      "proxy",
       "quickcheck"
     ],
     "repo": "https://github.com/garyb/purescript-quickcheck-laws",
@@ -1430,14 +1430,14 @@
   "react-basic": {
     "dependencies": [
       "effect",
+      "exceptions",
       "functions",
       "nullable",
       "record",
       "typelevel-prelude",
       "unsafe-coerce",
-      "web-events",
       "web-dom",
-      "exceptions",
+      "web-events",
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
@@ -1784,6 +1784,17 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "v3.0.0"
+  },
+  "typelevel": {
+    "dependencies": [
+      "partial",
+      "prelude",
+      "tuples",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/bodil/purescript-typelevel.git",
+    "version": "v4.0.0"
   },
   "typelevel-prelude": {
     "dependencies": [
