@@ -95,6 +95,16 @@
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-core.git",
     "version": "v4.0.1"
   },
+  "argonaut-generic": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "generics-rep",
+      "record"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic.git",
+    "version": "v2.0.0"
+  },
   "argonaut-traversals": {
     "dependencies": [
       "argonaut-codecs",
