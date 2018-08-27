@@ -10,7 +10,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/slamdata/purescript-aff.git",
-    "version": "v5.0.0"
+    "version": "v5.0.2"
   },
   "aff-coroutines": {
     "dependencies": [
@@ -47,7 +47,7 @@
       "web-xhr"
     ],
     "repo": "https://github.com/slamdata/purescript-affjax.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "ansi": {
     "dependencies": [
@@ -246,7 +246,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-choco-pie.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "colors": {
     "dependencies": [
@@ -293,7 +293,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-control.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "coroutines": {
     "dependencies": [
@@ -470,7 +470,7 @@
       "ordered-collections"
     ],
     "repo": "https://github.com/LiamGoodacre/purescript-filterable.git",
-    "version": "v3.0.0"
+    "version": "v3.0.1"
   },
   "fixed-points": {
     "dependencies": [
@@ -776,7 +776,7 @@
       "strings"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-http-methods.git",
-    "version": "v4.0.1"
+    "version": "v4.0.2"
   },
   "identity": {
     "dependencies": [
@@ -863,7 +863,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "v5.0.0"
+    "version": "v5.2.0"
   },
   "machines": {
     "dependencies": [
@@ -1295,7 +1295,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
-    "version": "v4.0.1"
+    "version": "v4.1.0"
   },
   "prettier": {
     "dependencies": [
@@ -1422,7 +1422,7 @@
       "proxy",
       "quickcheck"
     ],
-    "repo": "https://github.com/garyb/purescript-quickcheck-laws",
+    "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
     "version": "v4.0.0"
   },
   "random": {
@@ -1453,7 +1453,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
-    "version": "v6.0.0"
+    "version": "v6.1.0"
   },
   "react-basic": {
     "dependencies": [
@@ -1465,8 +1465,7 @@
       "typelevel-prelude",
       "unsafe-coerce",
       "web-dom",
-      "web-events",
-      "web-html"
+      "web-events"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
     "version": "v2.0.1"
@@ -1906,7 +1905,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "web-clipboard": {
     "dependencies": [
