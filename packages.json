@@ -1617,12 +1617,12 @@
     "version": "v11.0.0"
   },
   "sodium": {
-      "dependencies": [
-        "aff",
-        "nullable"
-      ],
-      "repo": "https://github.com/SodiumFRP/purescript-sodium",
-      "version": "v0.0.2"
+    "dependencies": [
+      "aff",
+      "nullable"
+    ],
+    "repo": "https://github.com/SodiumFRP/purescript-sodium.git",
+    "version": "v0.0.2"
   },
   "spec": {
     "dependencies": [
