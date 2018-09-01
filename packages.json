@@ -1616,6 +1616,14 @@
     "repo": "https://github.com/bodil/purescript-smolder.git",
     "version": "v11.0.0"
   },
+  "sodium": {
+    "dependencies": [
+      "aff",
+      "nullable"
+    ],
+    "repo": "https://github.com/SodiumFRP/purescript-sodium.git",
+    "version": "v0.0.2"
+  },
   "spec": {
     "dependencies": [
       "aff",
