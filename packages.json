@@ -1622,7 +1622,7 @@
       "nullable"
     ],
     "repo": "https://github.com/SodiumFRP/purescript-sodium.git",
-    "version": "v0.0.2"
+    "version": "v1.0.0"
   },
   "spec": {
     "dependencies": [
