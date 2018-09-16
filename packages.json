@@ -636,7 +636,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-functors.git",
-    "version": "v3.0.0"
+    "version": "v3.0.1"
   },
   "fuzzy": {
     "dependencies": [
@@ -804,7 +804,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-invariant.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "js-date": {
     "dependencies": [
@@ -1600,7 +1600,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "smolder": {
     "dependencies": [
