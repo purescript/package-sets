@@ -730,6 +730,7 @@
   },
   "halogen-formless": {
     "dependencies": [
+      "generics-rep",
       "halogen",
       "halogen-renderless",
       "heterogeneous",
