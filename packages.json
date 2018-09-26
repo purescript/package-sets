@@ -1100,7 +1100,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/doolse/purescript-react-mui.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "record": {
     "dependencies": [
@@ -1292,7 +1292,7 @@
       "react"
     ],
     "repo": "https://github.com/doolse/purescript-tscompat.git",
-    "version": "v0.0.2"
+    "version": "v1.0.1"
   },
   "tuples": {
     "dependencies": [
