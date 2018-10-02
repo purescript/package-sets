@@ -1187,6 +1187,21 @@
     "repo": "https://github.com/sharkdp/purescript-numbers.git",
     "version": "v6.0.0"
   },
+  "ocelot": {
+    "dependencies": [
+      "svg-parser-halogen",
+      "halogen-select",
+      "fuzzy",
+      "polyform",
+      "remotedata",
+      "formatters",
+      "read",
+      "halogen-renderless",
+      "aff-promise"
+    ],
+    "repo": "https://github.com/citizennet/purescript-ocelot.git",
+    "version": "v0.11.0"
+  },
   "options": {
     "dependencies": [
       "contravariant",
@@ -1762,6 +1777,16 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-strongcheck.git",
     "version": "v4.1.1"
+  },
+  "svg-parser-halogen": {
+    "dependencies": [
+      "prelude",
+      "string-parsers",
+      "generics-rep",
+      "halogen"
+    ],
+    "repo": "https://github.com/rnons/purescript-svg-parser-halogen.git",
+    "version": "v0.4.0"
   },
   "tailrec": {
     "dependencies": [
