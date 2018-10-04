@@ -1695,7 +1695,7 @@
       "prelude",
       "spec"
     ],
-    "repo": "https://github.com/kazk/purescript-spec-discovery.git",
+    "repo": "https://github.com/owickstrom/purescript-spec-discovery.git",
     "version": "v3.0.0"
   },
   "spec-quickcheck": {
