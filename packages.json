@@ -1344,6 +1344,30 @@
     "repo": "https://github.com/purescript/purescript-prelude.git",
     "version": "v4.1.0"
   },
+  "presto": {
+    "dependencies": [
+      "aff",
+      "avar",
+      "console",
+      "control",
+      "effect",
+      "exceptions",
+      "exists",
+      "foreign-generic",
+      "foreign-object",
+      "free",
+      "generics-rep",
+      "prelude",
+      "psci-support",
+      "record",
+      "spec",
+      "transformers",
+      "tuples",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/juspay/purescript-presto.git",
+    "version": "v0.4.0"
+  },
   "prettier": {
     "dependencies": [
       "maybe",
