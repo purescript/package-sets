@@ -739,7 +739,7 @@
     "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
     "version": "v0.2.0"
   },
-  "halogen-renderless" : {
+  "halogen-renderless": {
     "dependencies": [
       "control",
       "halogen",
@@ -791,12 +791,12 @@
   },
   "heterogeneous": {
     "dependencies": [
+      "either",
+      "functors",
       "prelude",
       "record",
       "tuples",
-      "functors",
-      "variant",
-      "either"
+      "variant"
     ],
     "repo": "https://github.com/natefaubion/purescript-heterogeneous.git",
     "version": "v0.2.0"
@@ -1189,15 +1189,15 @@
   },
   "ocelot": {
     "dependencies": [
-      "svg-parser-halogen",
-      "halogen-select",
-      "fuzzy",
-      "polyform",
-      "remotedata",
+      "aff-promise",
       "formatters",
-      "read",
+      "fuzzy",
       "halogen-renderless",
-      "aff-promise"
+      "halogen-select",
+      "polyform",
+      "read",
+      "remotedata",
+      "svg-parser-halogen"
     ],
     "repo": "https://github.com/citizennet/purescript-ocelot.git",
     "version": "v0.11.0"
@@ -1780,10 +1780,10 @@
   },
   "svg-parser-halogen": {
     "dependencies": [
-      "prelude",
-      "string-parsers",
       "generics-rep",
-      "halogen"
+      "halogen",
+      "prelude",
+      "string-parsers"
     ],
     "repo": "https://github.com/rnons/purescript-svg-parser-halogen.git",
     "version": "v0.4.0"
