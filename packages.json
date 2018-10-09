@@ -1134,7 +1134,7 @@
       "foreign"
     ],
     "repo": "https://github.com/justinwoo/purescript-node-sqlite3",
-    "version": "v3.1.0"
+    "version": "v4.1.0"
   },
   "node-streams": {
     "dependencies": [
@@ -1553,7 +1553,7 @@
       "web-events"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v2.0.1"
+    "version": "v3.0.0"
   },
   "react-dom": {
     "dependencies": [
