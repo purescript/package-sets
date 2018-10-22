@@ -1672,6 +1672,19 @@
     "repo": "https://github.com/bodil/purescript-signal.git",
     "version": "v10.1.0"
   },
+  "server-sent-events": {
+    "dependencies": [
+      "console",
+      "effect",
+      "functions",
+      "generics-rep",
+      "maybe",
+      "prelude",
+      "web-events"
+    ],
+    "repo": "https://github.com/MichaelXavier/purescript-server-sent-events.git",
+    "version": "v0.2.0"
+  },
   "simple-json": {
     "dependencies": [
       "exceptions",
