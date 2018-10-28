@@ -751,7 +751,7 @@
       "variant"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
-    "version": "v0.2.0"
+    "version": "v0.4.0"
   },
   "halogen-renderless": {
     "dependencies": [
@@ -813,7 +813,7 @@
       "variant"
     ],
     "repo": "https://github.com/natefaubion/purescript-heterogeneous.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "http-methods": {
     "dependencies": [
