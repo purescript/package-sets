@@ -1542,6 +1542,8 @@
   },
   "react-basic": {
     "dependencies": [
+      "aff",
+      "console",
       "effect",
       "exceptions",
       "functions",
@@ -1550,10 +1552,11 @@
       "typelevel-prelude",
       "unsafe-coerce",
       "web-dom",
+      "web-html",
       "web-events"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v3.0.0"
+    "version": "v5.0.0"
   },
   "react-dom": {
     "dependencies": [
