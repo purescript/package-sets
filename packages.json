@@ -73,10 +73,11 @@
       "foreign-object",
       "integers",
       "maybe",
-      "ordered-collections"
+      "ordered-collections",
+      "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v4.0.2"
+    "version": "v5.0.0"
   },
   "argonaut-core": {
     "dependencies": [
@@ -103,7 +104,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
   },
   "argonaut-traversals": {
     "dependencies": [
@@ -112,7 +113,7 @@
       "profunctor-lenses"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
-    "version": "v4.0.1"
+    "version": "v5.0.0"
   },
   "arraybuffer": {
     "dependencies": [
@@ -265,7 +266,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-console.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "const": {
     "dependencies": [
@@ -276,7 +277,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-const.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "contravariant": {
     "dependencies": [
@@ -390,7 +391,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-either.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "email-validate": {
     "dependencies": [
@@ -535,10 +536,11 @@
       "st",
       "tailrec",
       "tuples",
+      "typelevel-prelude",
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-foreign-object.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "fork": {
     "dependencies": [
@@ -764,10 +766,11 @@
   },
   "halogen-select": {
     "dependencies": [
-      "halogen"
+      "halogen",
+      "halogen-renderless"
     ],
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
-    "version": "v2.0.0"
+    "version": "v3.0.1"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -833,7 +836,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-identity.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "integers": {
     "dependencies": [
@@ -1134,7 +1137,7 @@
       "foreign"
     ],
     "repo": "https://github.com/justinwoo/purescript-node-sqlite3",
-    "version": "v4.1.0"
+    "version": "v6.0.0"
   },
   "node-streams": {
     "dependencies": [
@@ -1214,7 +1217,7 @@
       "svg-parser-halogen"
     ],
     "repo": "https://github.com/citizennet/purescript-ocelot.git",
-    "version": "v0.11.0"
+    "version": "v0.13.0"
   },
   "options": {
     "dependencies": [
@@ -1552,8 +1555,8 @@
       "typelevel-prelude",
       "unsafe-coerce",
       "web-dom",
-      "web-html",
-      "web-events"
+      "web-events",
+      "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
     "version": "v5.0.0"
@@ -1701,7 +1704,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v4.2.0"
+    "version": "v4.3.0"
   },
   "smolder": {
     "dependencies": [
@@ -1808,7 +1811,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "strongcheck": {
     "dependencies": [
@@ -1935,7 +1938,7 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-tuples.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "type-equality": {
     "dependencies": [],
@@ -2035,7 +2038,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v5.1.0"
+    "version": "v5.2.0"
   },
   "web-clipboard": {
     "dependencies": [
@@ -2058,7 +2061,7 @@
       "nullable"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-events.git",
-    "version": "v1.0.0"
+    "version": "v1.0.1"
   },
   "web-file": {
     "dependencies": [
