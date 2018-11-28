@@ -1388,7 +1388,6 @@
       "prelude",
       "psci-support",
       "record",
-      "spec",
       "transformers",
       "tuples",
       "typelevel-prelude"
