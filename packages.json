@@ -873,6 +873,17 @@
     "repo": "https://github.com/purescript-contrib/purescript-js-timers.git",
     "version": "v4.0.1"
   },
+  "json-schema": {
+    "dependencies": [
+      "prelude",
+      "typelevel-prelude",
+      "foreign-object",
+      "generics-rep",
+      "simple-json"
+    ],
+    "repo": "https://github.com/felixmulder/purescript-json-schema.git",
+    "version": "v0.0.1"
+  },
   "lazy": {
     "dependencies": [
       "control",
