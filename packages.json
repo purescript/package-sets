@@ -10,7 +10,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/slamdata/purescript-aff.git",
-    "version": "v5.0.2"
+    "version": "v5.1.0"
   },
   "aff-coroutines": {
     "dependencies": [
@@ -148,7 +148,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "v5.1.1"
+    "version": "v5.2.0"
   },
   "assert": {
     "dependencies": [
@@ -770,7 +770,7 @@
       "halogen-renderless"
     ],
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
-    "version": "v3.0.1"
+    "version": "v3.0.2"
   },
   "halogen-vdom": {
     "dependencies": [
