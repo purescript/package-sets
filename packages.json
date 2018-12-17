@@ -65,7 +65,7 @@
       "argonaut-traversals"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut.git",
-    "version": "v4.0.1"
+    "version": "v5.0.0"
   },
   "argonaut-codecs": {
     "dependencies": [
@@ -77,7 +77,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "argonaut-core": {
     "dependencies": [
@@ -104,7 +104,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic.git",
-    "version": "v2.1.0"
+    "version": "v3.0.0"
   },
   "argonaut-traversals": {
     "dependencies": [
@@ -113,7 +113,7 @@
       "profunctor-lenses"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "arraybuffer": {
     "dependencies": [
@@ -148,7 +148,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "v5.1.0"
+    "version": "v5.1.1"
   },
   "assert": {
     "dependencies": [
@@ -391,7 +391,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-either.git",
-    "version": "v4.1.0"
+    "version": "v4.1.1"
   },
   "email-validate": {
     "dependencies": [
@@ -493,7 +493,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-foldable-traversable.git",
-    "version": "v4.1.0"
+    "version": "v4.1.1"
   },
   "foreign": {
     "dependencies": [
@@ -638,7 +638,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-functors.git",
-    "version": "v3.1.0"
+    "version": "v3.1.1"
   },
   "fuzzy": {
     "dependencies": [
@@ -953,7 +953,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-maybe.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "media-types": {
     "dependencies": [
@@ -1003,11 +1003,12 @@
   },
   "mmorph": {
     "dependencies": [
+      "free",
       "functors",
       "transformers"
     ],
     "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "newtype": {
     "dependencies": [
@@ -1316,7 +1317,7 @@
       "unicode"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
-    "version": "v5.0.1"
+    "version": "v5.0.2"
   },
   "partial": {
     "dependencies": [],
@@ -1569,7 +1570,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "react-dom": {
     "dependencies": [
@@ -1714,7 +1715,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v4.3.0"
+    "version": "v4.4.0"
   },
   "smolder": {
     "dependencies": [
@@ -2080,7 +2081,7 @@
       "web-dom"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-file.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "web-html": {
     "dependencies": [
@@ -2120,7 +2121,7 @@
       "web-html"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-uievents.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "web-xhr": {
     "dependencies": [
