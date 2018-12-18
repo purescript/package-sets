@@ -561,6 +561,19 @@
     "repo": "https://github.com/purescript-contrib/purescript-form-urlencoded.git",
     "version": "v4.0.1"
   },
+  "format": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "integers",
+      "math",
+      "prelude",
+      "strings",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-format.git",
+    "version": "v4.0.0"
+  },
   "formatters": {
     "dependencies": [
       "datetime",
