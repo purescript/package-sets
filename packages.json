@@ -783,7 +783,7 @@
       "halogen-renderless"
     ],
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
-    "version": "v3.0.2"
+    "version": "v4.0.0"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -1242,7 +1242,7 @@
       "svg-parser-halogen"
     ],
     "repo": "https://github.com/citizennet/purescript-ocelot.git",
-    "version": "v0.13.0"
+    "version": "v0.14.0"
   },
   "options": {
     "dependencies": [
