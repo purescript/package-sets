@@ -1681,6 +1681,14 @@
     "repo": "https://github.com/natefaubion/purescript-run.git",
     "version": "v2.0.0"
   },
+  "run-streaming": {
+    "dependencies": [
+      "prelude",
+      "run"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-run-streaming.git",
+    "version": "v2.0.0"
+  },
   "semirings": {
     "dependencies": [
       "foldable-traversable",
