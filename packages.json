@@ -888,11 +888,11 @@
   },
   "json-schema": {
     "dependencies": [
-      "prelude",
-      "typelevel-prelude",
       "foreign-object",
       "generics-rep",
-      "simple-json"
+      "prelude",
+      "simple-json",
+      "typelevel-prelude"
     ],
     "repo": "https://github.com/felixmulder/purescript-json-schema.git",
     "version": "v0.0.1"
@@ -1661,6 +1661,23 @@
     ],
     "repo": "https://github.com/slamdata/purescript-routing.git",
     "version": "v8.0.0"
+  },
+  "routing-duplex": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "either",
+      "generics-rep",
+      "globals",
+      "lazy",
+      "prelude",
+      "profunctor",
+      "record",
+      "strings",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-routing-duplex",
+    "version": "v0.2.0"
   },
   "run": {
     "dependencies": [
