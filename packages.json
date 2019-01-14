@@ -305,6 +305,13 @@
     "repo": "https://github.com/purescript-contrib/purescript-coroutines.git",
     "version": "v5.0.0"
   },
+  "crypto": {
+    "dependencies": [
+      "node-buffer"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-crypto.git",
+    "version": "v1.1.0"
+  },
   "css": {
     "dependencies": [
       "colors",
