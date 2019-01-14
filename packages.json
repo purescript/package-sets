@@ -70,14 +70,16 @@
   "argonaut-codecs": {
     "dependencies": [
       "argonaut-core",
+      "arrays",
       "foreign-object",
       "integers",
       "maybe",
+      "nonempty",
       "ordered-collections",
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v5.1.0"
+    "version": "v5.1.1"
   },
   "argonaut-core": {
     "dependencies": [
@@ -104,7 +106,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic.git",
-    "version": "v3.0.0"
+    "version": "v4.0.0"
   },
   "argonaut-traversals": {
     "dependencies": [
@@ -1590,7 +1592,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v6.0.0"
+    "version": "v6.2.0"
   },
   "react-dom": {
     "dependencies": [
@@ -2052,6 +2054,7 @@
   "unordered-collections": {
     "dependencies": [
       "enums",
+      "functions",
       "integers",
       "prelude",
       "record",
