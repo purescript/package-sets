@@ -766,7 +766,7 @@
       "variant"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
-    "version": "v0.4.0"
+    "version": "v0.5.2"
   },
   "halogen-renderless": {
     "dependencies": [
