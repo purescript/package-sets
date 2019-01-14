@@ -1778,6 +1778,14 @@
     "repo": "https://github.com/bodil/purescript-smolder.git",
     "version": "v11.0.1"
   },
+  "snabbdom": {
+    "dependencies": [
+      "maybe",
+      "web-dom"
+    ],
+    "repo": "https://github.com/LukaJCB/purescript-snabbdom.git",
+    "version": "v1.0.1"
+  },
   "sodium": {
     "dependencies": [
       "aff",
