@@ -336,6 +336,20 @@
     "repo": "https://github.com/slamdata/purescript-css.git",
     "version": "v4.0.0"
   },
+  "data-algebrae": {
+    "dependencies": [
+      "arrays",
+      "foreign-object",
+      "generics-rep",
+      "maybe",
+      "ordered-collections",
+      "prelude",
+      "spec",
+      "spec-quickcheck"
+    ],
+    "repo": "https://github.com/i-am-tom/purescript-data-algebrae",
+    "version": "v4.0.0"
+  },
   "datetime": {
     "dependencies": [
       "bifunctors",
@@ -974,6 +988,14 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-math.git",
     "version": "v2.1.1"
+  },
+  "matrices": {
+    "dependencies": [
+      "arrays",
+      "strings"
+    ],
+    "repo": "https://github.com/kRITZCREEK/purescript-matrices",
+    "version": "v4.0.0"
   },
   "maybe": {
     "dependencies": [
