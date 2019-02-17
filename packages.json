@@ -1119,6 +1119,23 @@
     "repo": "https://github.com/purescript-node/purescript-node-child-process.git",
     "version": "v5.0.0"
   },
+  "node-electron": {
+    "dependencies": [
+      "effect",
+      "foreign",
+      "halogen",
+      "maybe",
+      "options",
+      "prelude",
+      "transformers",
+      "unsafe-coerce",
+      "web-dom",
+      "web-events",
+      "web-html"
+    ],
+    "repo": "https://github.com/cprussin/purescript-node-electron.git",
+    "version": "v0.0.1"
+  },
   "node-fs": {
     "dependencies": [
       "datetime",
