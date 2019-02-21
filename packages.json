@@ -889,6 +889,23 @@
     "repo": "https://github.com/purescript-contrib/purescript-http-methods.git",
     "version": "v4.0.2"
   },
+  "httpure": {
+    "dependencies": [
+      "aff",
+      "foldable-traversable",
+      "node-child-process",
+      "node-fs",
+      "node-fs-aff",
+      "node-http",
+      "prelude",
+      "psci-support",
+      "spec",
+      "strings",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/cprussin/purescript-httpure.git",
+    "version": "v0.8.0"
+  },
   "identity": {
     "dependencies": [
       "control",
