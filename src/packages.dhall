@@ -31,5 +31,24 @@ let packages =
       ⫽ ./groups/thomashoneyman.dhall
       ⫽ ./groups/rnons.dhall
       ⫽ ./groups/justinwoo.dhall
+      ⫽ ./groups/AlexaDeWit.dhall
+      ⫽ ./groups/LukaJCB.dhall
+      ⫽ ./groups/MichaelXavier.dhall
+      ⫽ ./groups/SodiumFRP.dhall
+      ⫽ ./groups/adkelley.dhall
+      ⫽ ./groups/ajnsit.dhall
+      ⫽ ./groups/alexmingoia.dhall
+      ⫽ ./groups/cprussin.dhall
+      ⫽ ./groups/felixmulder.dhall
+      ⫽ ./groups/i-am-tom.dhall
+      ⫽ ./groups/icyrockcom.dhall
+      ⫽ ./groups/juspay.dhall
+      ⫽ ./groups/krisajenkins.dhall
+      ⫽ ./groups/kritzcreek.dhall
+      ⫽ ./groups/mschristiansen.dhall
+      ⫽ ./groups/oreshinya.dhall
+      ⫽ ./groups/owickstrom.dhall
+      ⫽ ./groups/truqu.dhall
+      ⫽ ./groups/zaquest.dhall
 
 in  packages
