@@ -1,8 +1,8 @@
-# Spacchetti
+# Package-Sets
 
-[![Build Status](https://travis-ci.org/spacchetti/spacchetti.svg?branch=master)](https://travis-ci.org/spacchetti/spacchetti)
+[![Build Status](https://travis-ci.org/purescript/package-sets.svg?branch=master)](https://travis-ci.org/purescript/package-sets)
 
-[![Documentation Status](https://readthedocs.org/projects/spacchetti/badge/?version=latest)](https://spacchetti.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/package-sets/badge/?version=latest)](https://package-sets.readthedocs.io/en/latest/?badge=latest)
 
 *Mà, ho comprato una scatola di PureScript!*
 
@@ -10,11 +10,11 @@
 
 Dhall-driven package sets, made for forking and modifying easily. Per chi non ha paura di rimboccarsi le maniche (e arrotolare gli spaghetti).
 
-Read the guide for more details on RTD: <https://spacchetti.readthedocs.io/en/latest/>
+Read the guide for more details on RTD: <https://package-sets.readthedocs.io/en/latest/>
 
 Read more about how this works here: <https://github.com/justinwoo/my-blog-posts#managing-psc-package-sets-with-dhall>
 
-## Are you looking for Spago? Go here: <https://github.com/spacchetti/spago>
+## Are you looking for Spago? Go here: <https://github.com/package-sets/spago>
 
 ## The Raisin Deets
 
@@ -24,7 +24,7 @@ Well, now all you have to do is complain that this repo doesn't have enough cont
 
 ## How to consume this package set
 
-Use [Spago](https://github.com/spacchetti/spago) or Psc-Package.
+Use [Spago](https://github.com/package-sets/spago) or Psc-Package.
 
 ### How files are organized
 
@@ -54,13 +54,13 @@ generated to packages.json
 
 This is how you format Dhall files in the project and generate the `packages.json` that needs to be checked in. Unless you plan to consume only the `packages.dhall` file in your repository, you must check in `packages.json`.
 
-To actually use your new package set, you must create a new git tag and push it to your **fork of spacchetti**. Then set your package set in your **project** repository accordingly, per EXAMPLE:
+To actually use your new package set, you must create a new git tag and push it to your **fork of package-sets**. Then set your package set in your **project** repository accordingly, per EXAMPLE:
 
 ```js
 {
   "name": "EXAMPLE",
   "set": "160618", // GIT TAG NAME
-  "source": "https://github.com/spacchetti/spacchetti.git", // PACKAGE SET REPO URL
+  "source": "https://github.com/purescript/package-sets.git", // PACKAGE SET REPO URL
   "depends": [
     "console",
     "prelude"
@@ -90,8 +90,8 @@ Open an issue in [Spago](https://github.com/spacchetti/spago) or ask on FP Slack
 
 ### Does ___ in `scripts/` mean ____?
 
-No, these are just random scripts that are used to maintain Spacchetti package sets. They are not used by Psc-Package nor are they used by Spago.
+No, these are just random scripts that are used to maintain Package-Sets package sets. They are not used by Psc-Package nor are they used by Spago.
 
 ### Can I use packages from Bower?
 
-You can use anything that is a git repository, which mean every Bower dependency and others. See the local setup docs if you want to locally add them to a project: <https://spacchetti.readthedocs.io/en/latest/local-setup.html>
+You can use anything that is a git repository, which mean every Bower dependency and others. See the local setup docs if you want to locally add them to a project: <https://package-sets.readthedocs.io/en/latest/local-setup.html>

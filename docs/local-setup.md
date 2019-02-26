@@ -2,7 +2,7 @@
 
 There's now a CLI: <https://github.com/spacchetti/spago>. This CLI can both use Dhall package information directly or set up the local project for you.
 
-See the example repo here: <https://github.com/spacchetti/spacchetti-local-setup-example>
+See the example repo here: <https://github.com/purescript/package-sets-local-setup-example>
 
 In psc-package, there is nothing like "extra-deps" from Stack. Even though editing a package set isn't hard, it can be fairly meaningless to have a package set that differs from package sets that you use for your other projects. While there's no real convenient way to work with it with standard purescript/package-sets, this is made easy with Dhall again where you can define a packages.dhall file in your repo and refer to remote sources for mkPackage and some existing packages.dhall.
 
@@ -12,7 +12,7 @@ With the Spago, you can automate the manual setup below and run a single command
 
 Install the Spago CLI in a manner you prefer:
 
-* npm: you can use `npm install --global purescript-spago` to install via npm.
+* npm: you can use `npm install --global spago` to install via npm.
 * Github releases: You can go to the release page on Github, download the archive with your platform's binary, and put it somewhere on your PATH <https://github.com/spacchetti/spago/releases>
 * stack install: You can clone the repository and run `stack install`: <https://github.com/spacchetti/spago>
 
@@ -67,10 +67,10 @@ For example, you may decide to use some different versions of packages defined i
 
 ```hs
     let mkPackage =
-          https://raw.githubusercontent.com/spacchetti/spacchetti/140918/src/mkPackage.dhall
+          https://raw.githubusercontent.com/purescript/package-sets/140918/src/mkPackage.dhall
 
 in  let upstream =
-          https://raw.githubusercontent.com/spacchetti/spacchetti/140918/src/packages.dhall
+          https://raw.githubusercontent.com/purescript/package-sets/140918/src/packages.dhall
 
 in  let overrides =
           { halogen =

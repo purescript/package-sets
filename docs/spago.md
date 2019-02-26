@@ -13,7 +13,7 @@ See the Spago repo for more: <https://github.com/spacchetti/spago>
 *(IPA: /ˈspaɡo/)*
 
 PureScript package manager and build tool powered by [Dhall][dhall] and
-[Spacchetti][spacchetti] package-sets.
+[Package-Sets][spacchetti] package-sets.
 
 
 <img src="https://raw.githubusercontent.com/spacchetti/logo/master/spacchetti-icon.png" height="300px" alt="spacchetti logo">
@@ -91,7 +91,7 @@ test files in `test/`.
 Let's take a look at the two [Dhall][dhall] configuration files that `spago` requires:
 - `packages.dhall`: this file is meant to contain the *totality* of the packages
   available to your project (that is, any package you might want to import).  
-  In practical terms, it pulls in a [Spacchetti][spacchetti] package-set as a base,
+  In practical terms, it pulls in a [Package-Sets][spacchetti] package-set as a base,
   and you are then able to add any package that might not be in the package set,
   or override esisting ones.
 - `spago.dhall`: this is your project configuration. It includes the above package-set,
@@ -228,15 +228,15 @@ Tests succeeded.
 ## Can I use this with `psc-package`?
 
 Yes! Though the scope of the integration is limited to helping your
-psc-package-project to use the [Spacchetti][spacchetti] package-set.
+psc-package-project to use the [Package-Sets][spacchetti] package-set.
 
 Here's what we can do about it:
 
 ### `psc-package-local-setup`
 
 This command creates a `packages.dhall` file in your project, that points to the
-most recent Spacchetti package-set, and lets you override and add arbitrary packages.  
-See the Spacchetti docs about this [here][spacchetti-local-setup].
+most recent Package-Sets package-set, and lets you override and add arbitrary packages.  
+See the Package-Sets docs about this [here][spacchetti-local-setup].
 
 ### `psc-package-insdhall`
 
@@ -266,7 +266,7 @@ Yees, however:
 - If you use `psc-package`, you have the problem of not having the ability of overriding
   packages versions when needed, leading everyone to make their own package-set, which
   then goes unmaintained, etc.  
-  Of course you can use [Spacchetti] to solve this issue, but this is exactly what
+  Of course you can use [Package-Sets] to solve this issue, but this is exactly what
   we're doing here: integrating all the workflow in a single tool, `spago`, instead
   of having to use `pulp`, `psc-package`, `purp`, etc.
   
@@ -279,7 +279,7 @@ To fill them in you should use the proper js tool of the day, at the time of
 writing [ParcelJS][parcel] looks like a good option.
 
 
-[spacchetti]: https://github.com/spacchetti/spacchetti
+[spacchetti]: https://github.com/purescript/package-sets
 [dhall]: https://github.com/dhall-lang/dhall-lang
 [travis-spago]: https://travis-ci.com/spacchetti/spago
 [spacchetti-local-setup]: https://spacchetti.readthedocs.io/en/latest/local-setup.html
@@ -292,4 +292,4 @@ writing [ParcelJS][parcel] looks like a good option.
 [purescript]: https://github.com/purescript/purescript
 [spago-npm]: https://www.npmjs.com/package/purescript-spago
 [spago-latest-release]: https://github.com/spacchetti/spago/releases/latest
-[spago-issues]: https://github.com/spacchetti/spacchetti-cli/issues
+[spago-issues]: https://github.com/purescript/package-sets-cli/issues

@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Spacchetti'
+project = u'Package-Sets'
 copyright = u'2018, Justin Woo'
 author = u'Justin Woo'
 
@@ -104,7 +104,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Spacchettidoc'
+htmlhelp_basename = 'package-setsdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -131,7 +131,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Spacchetti.tex', u'Spacchetti Documentation',
+    (master_doc, 'Package-Sets.tex', u'Package-Sets Documentation',
      u'Justin Woo', 'manual'),
 ]
 
@@ -141,7 +141,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'spacchetti', u'Spacchetti Documentation',
+    (master_doc, 'package-sets', u'Package-Sets Documentation',
      [author], 1)
 ]
 
@@ -152,8 +152,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Spacchetti', u'Spacchetti Documentation',
-     author, 'Spacchetti', 'One line description of project.',
+    (master_doc, 'Package-Sets', u'Package-Sets Documentation',
+     author, 'Package-Sets', 'One line description of project.',
      'Miscellaneous'),
 ]
 

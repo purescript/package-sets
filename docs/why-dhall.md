@@ -89,7 +89,3 @@ in  { string-parsers =
         "no-code-points"
     }
 ```
-
-## Video
-
-I recorded a demo video of how adding a package to Spacchetti works: <https://www.youtube.com/watch?v=4Rh-BY-7sMI>

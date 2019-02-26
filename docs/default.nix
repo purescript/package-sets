@@ -8,6 +8,6 @@ let
     recommonmark;
   };
 in pkgs.stdenv.mkDerivation {
-  name = "spacchetti-docs";
+  name = "package-sets-docs";
   buildInputs = buildInputs;
 }

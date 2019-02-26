@@ -11,7 +11,7 @@ Many users trying to rush into using Psc-Package don't slow down enough to learn
 * Whichever package you want to install must be in the package set
 * The dependencies and the transitive dependencies of the package you want to install must be in the package set
 
-Package sets are defined in `packages.json` in the root of any package set repository, like in <https://github.com/spacchetti/spacchetti/blob/master/packages.json>.
+Package sets are defined in `packages.json` in the root of any package set repository, like in <https://github.com/purescript/package-sets/blob/master/packages.json>.
 
 ## How are package sets used?
 
@@ -21,7 +21,7 @@ Package sets are consumed by having a `psc-package.json` file in the root of you
 {
   "name": "project-name",
   "set": "set-name",
-  "source": "https://github.com/spacchetti/spacchetti.git",
+  "source": "https://github.com/purescript/package-sets.git",
   "depends": [
     "aff",
     "console",
