@@ -889,6 +889,7 @@
   "httpure": {
     "dependencies": [
       "aff",
+      "console",
       "foldable-traversable",
       "node-fs",
       "node-http",

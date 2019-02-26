@@ -3,6 +3,7 @@ let mkPackage = ./../mkPackage.dhall
 in  { httpure =
         mkPackage
         [ "aff"
+        , "console"
         , "foldable-traversable"
         , "node-fs"
         , "node-http"
