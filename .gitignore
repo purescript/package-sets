@@ -1,3 +1,6 @@
+.psc-package
+.psc-package2nix
 output
 psc-package.json
-.psc-package
+bower-info
+packages.nix
