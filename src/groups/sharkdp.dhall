@@ -25,4 +25,16 @@ in  { colors =
         [ "console", "distributive", "foldable-traversable", "quickcheck" ]
         "https://github.com/sharkdp/purescript-pairs.git"
         "v6.0.0"
+    , format =
+        mkPackage
+        [ "arrays"
+        , "effect"
+        , "integers"
+        , "math"
+        , "prelude"
+        , "strings"
+        , "unfoldable"
+        ]
+        "https://github.com/sharkdp/purescript-format.git"
+        "v4.0.0"
     }

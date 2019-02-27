@@ -37,4 +37,25 @@ in  { variant =
         [ "either", "functors", "prelude", "record", "tuples", "variant" ]
         "https://github.com/natefaubion/purescript-heterogeneous.git"
         "v0.3.0"
+    , routing-duplex =
+        mkPackage
+        [ "arrays"
+        , "control"
+        , "either"
+        , "generics-rep"
+        , "globals"
+        , "lazy"
+        , "prelude"
+        , "profunctor"
+        , "record"
+        , "strings"
+        , "typelevel-prelude"
+        ]
+        "https://github.com/natefaubion/purescript-routing-duplex.git"
+        "v0.2.0"
+    , run-streaming =
+        mkPackage
+        [ "prelude", "run" ]
+        "https://github.com/natefaubion/purescript-run-streaming.git"
+        "v2.0.0"
     }

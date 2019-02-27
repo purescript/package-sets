@@ -38,4 +38,16 @@ in  { test-unit =
         ]
         "https://github.com/bodil/purescript-smolder.git"
         "v11.0.1"
+    , sized-vectors =
+        mkPackage
+        [ "arrays"
+        , "distributive"
+        , "foldable-traversable"
+        , "maybe"
+        , "prelude"
+        , "typelevel"
+        , "unfoldable"
+        ]
+        "https://github.com/bodil/purescript-sized-vectors.git"
+        "v3.1.0"
     }

@@ -146,4 +146,9 @@ in  { aff =
         [ "halogen" ]
         "https://github.com/slamdata/purescript-halogen-bootstrap.git"
         "v8.0.0"
+    , aff-bus =
+        mkPackage
+        [ "avar", "prelude" ]
+        "https://github.com/slamdata/purescript-aff-bus.git"
+        "v4.0.0"
     }
