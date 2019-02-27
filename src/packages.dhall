@@ -11,6 +11,7 @@ let packages =
       ⫽ ./groups/Thimoteus.dhall
       ⫽ ./groups/adkelley.dhall
       ⫽ ./groups/ajnsit.dhall
+      ⫽ ./groups/athanclark.dhall
       ⫽ ./groups/anttih.dhall
       ⫽ ./groups/bodil.dhall
       ⫽ ./groups/brandonhamilton.dhall

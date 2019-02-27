@@ -14,5 +14,5 @@ in  { arraybuffer =
         , "uint"
         ]
         "https://github.com/jacereda/purescript-arraybuffer.git"
-        "v10.0.0"
+        "v7.0.0"
     }

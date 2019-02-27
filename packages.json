@@ -139,7 +139,7 @@
       "uint"
     ],
     "repo": "https://github.com/jacereda/purescript-arraybuffer.git",
-    "version": "v10.0.0"
+    "version": "v7.0.0"
   },
   "arraybuffer-types": {
     "dependencies": [],
@@ -551,6 +551,14 @@
     ],
     "repo": "https://github.com/slamdata/purescript-fixed-points.git",
     "version": "v5.1.0"
+  },
+  "float32": {
+    "dependencies": [
+      "generics-rep",
+      "prelude"
+    ],
+    "repo": "https://github.com/athanclark/purescript-float32.git",
+    "version": "v0.1.1"
   },
   "foldable-traversable": {
     "dependencies": [
@@ -1909,6 +1917,19 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json-generics.git",
     "version": "v0.1.0"
+  },
+  "sized-vectors": {
+    "dependencies": [
+      "arrays",
+      "distributive",
+      "foldable-traversable",
+      "maybe",
+      "prelude",
+      "typelevel",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/bodil/purescript-sized-vectors.git",
+    "version": "v3.1.0"
   },
   "smolder": {
     "dependencies": [
