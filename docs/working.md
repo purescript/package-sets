@@ -1,4 +1,4 @@
-# How to use this package set
+# How to contribute to this package set
 
 ## Requirements
 
