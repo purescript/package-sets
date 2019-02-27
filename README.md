@@ -4,23 +4,15 @@
 
 [![Documentation Status](https://readthedocs.org/projects/package-sets/badge/?version=latest)](https://package-sets.readthedocs.io/en/latest/?badge=latest)
 
-*Mà, ho comprato una scatola di PureScript!*
+PureScript package sets for Psc-Package, aka "Spacchetti"
 
 ![](https://i.imgur.com/roCuNQ9.png)
 
-Dhall-driven package sets, made for forking and modifying easily. Per chi non ha paura di rimboccarsi le maniche (e arrotolare gli spaghetti).
+Dhall-driven package sets, made for forking and modifying easily.
 
-Read the guide for more details on RTD: <https://package-sets.readthedocs.io/en/latest/>
+## [Guide](https://package-sets.readthedocs.io/en/latest/)
 
-Read more about how this works here: <https://github.com/justinwoo/my-blog-posts#managing-psc-package-sets-with-dhall>
-
-## Are you looking for Spago? Go here: <https://github.com/package-sets/spago>
-
-## The Raisin Deets
-
-Nobody likes editing JSON. Even fewer actually like figuring out how to resolve conflicts in Git, especially if they aren't used to aborting rebases and digging up commits from reflog. Everyone complains there is no good solution for having your own patches on top of upstream changes, for when you want to add just a few of your own packages or override existing definitions.
-
-Well, now all you have to do is complain that this repo doesn't have enough contributors, commits, maintenance, curation, etc., because those above issues are solved with the usage of Dhall to merge package definitions and Psc-Package verify on CI.
+Read the guide for more details on ReadTheDocs: <https://package-sets.readthedocs.io/en/latest/>
 
 ## How to consume this package set
 
@@ -74,24 +66,8 @@ When you set this up correctly, you will see that running `psc-package install` 
 
 To set up a test project, run `make setup`. Then you can test individual packages with `psc-package verify PACKAGE`.
 
-## Further Complaints
-
-PRs welcome.
-
 ## FAQ
 
 ### How do I use this package set?
 
 Use [Spago](https://github.com/spacchetti/spago) or Psc-Package.
-
-### Can I get additional help?
-
-Open an issue in [Spago](https://github.com/spacchetti/spago) or ask on FP Slack.
-
-### Does ___ in `scripts/` mean ____?
-
-No, these are just random scripts that are used to maintain Package-Sets package sets. They are not used by Psc-Package nor are they used by Spago.
-
-### Can I use packages from Bower?
-
-You can use anything that is a git repository, which mean every Bower dependency and others. See the local setup docs if you want to locally add them to a project: <https://package-sets.readthedocs.io/en/latest/local-setup.html>
