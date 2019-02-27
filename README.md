@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/purescript/package-sets.svg?branch=master)](https://travis-ci.org/purescript/package-sets)
 
-[![Documentation Status](https://readthedocs.org/projects/package-sets/badge/?version=latest)](https://package-sets.readthedocs.io/en/latest/?badge=latest)
-
 PureScript package sets for Psc-Package, aka "Spacchetti"
 
 ![](https://i.imgur.com/roCuNQ9.png)
