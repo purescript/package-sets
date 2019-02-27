@@ -37,7 +37,6 @@ let packages =
       ⫽ ./groups/SodiumFRP.dhall
       ⫽ ./groups/adkelley.dhall
       ⫽ ./groups/ajnsit.dhall
-      ⫽ ./groups/alexmingoia.dhall
       ⫽ ./groups/cprussin.dhall
       ⫽ ./groups/felixmulder.dhall
       ⫽ ./groups/i-am-tom.dhall
