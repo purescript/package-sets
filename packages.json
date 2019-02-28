@@ -1714,6 +1714,18 @@
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
     "version": "v8.0.0"
   },
+  "react-basic-hooks": {
+    "dependencies": [
+      "console",
+      "effect",
+      "indexed-monad",
+      "prelude",
+      "react-basic",
+      "unsafe-reference"
+    ],
+    "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
+    "version": "v0.6.0"
+  },
   "react-dom": {
     "dependencies": [
       "effect",
