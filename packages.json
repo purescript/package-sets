@@ -1630,6 +1630,19 @@
     "repo": "https://github.com/purescript-contrib/purescript-profunctor-lenses.git",
     "version": "v6.0.0"
   },
+  "promises": {
+    "dependencies": [
+      "console",
+      "datetime",
+      "exceptions",
+      "functions",
+      "prelude",
+      "psci-support",
+      "transformers"
+    ],
+    "repo": "https://github.com/Thimoteus/purescript-promises.git",
+    "version": "v3.1.0"
+  },
   "proxy": {
     "dependencies": [
       "prelude"
