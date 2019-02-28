@@ -934,6 +934,14 @@
     "repo": "https://github.com/purescript/purescript-identity.git",
     "version": "v4.1.0"
   },
+  "indexed-monad": {
+    "dependencies": [
+      "control",
+      "newtype"
+    ],
+    "repo": "https://github.com/garyb/purescript-indexed-monad.git",
+    "version": "v1.0.0"
+  },
   "integers": {
     "dependencies": [
       "globals",
@@ -1705,6 +1713,18 @@
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
     "version": "v8.0.0"
+  },
+  "react-basic-hooks": {
+    "dependencies": [
+      "console",
+      "effect",
+      "indexed-monad",
+      "prelude",
+      "react-basic",
+      "unsafe-reference"
+    ],
+    "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
+    "version": "v0.6.0"
   },
   "react-dom": {
     "dependencies": [
