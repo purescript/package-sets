@@ -934,6 +934,14 @@
     "repo": "https://github.com/purescript/purescript-identity.git",
     "version": "v4.1.0"
   },
+  "indexed-monad": {
+    "dependencies": [
+      "control",
+      "newtype"
+    ],
+    "repo": "https://github.com/garyb/purescript-indexed-monad.git",
+    "version": "v1.0.0"
+  },
   "integers": {
     "dependencies": [
       "globals",

@@ -10,4 +10,9 @@ in  { debug =
         [ "enums", "proxy", "quickcheck" ]
         "https://github.com/garyb/purescript-quickcheck-laws.git"
         "v4.0.0"
+    , indexed-monad =
+        mkPackage
+        [ "newtype", "control" ]
+        "https://github.com/garyb/purescript-indexed-monad.git"
+        "v1.0.0"
     }
