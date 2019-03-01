@@ -37,9 +37,9 @@ in  { gomtang-basic =
         "v6.0.0"
     , record-extra =
         mkPackage
-        [ "lists", "record", "typelevel-prelude" ]
+        [ "arrays", "functions", "lists", "record", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-record-extra.git"
-        "v1.0.0"
+        "v2.0.2"
     , shoronpo =
         mkPackage
         [ "prelude", "record-format" ]

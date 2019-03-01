@@ -12,7 +12,7 @@ in  { debug =
         "v4.0.0"
     , indexed-monad =
         mkPackage
-        [ "newtype", "control" ]
+        [ "control", "newtype" ]
         "https://github.com/garyb/purescript-indexed-monad.git"
         "v1.0.0"
     }
