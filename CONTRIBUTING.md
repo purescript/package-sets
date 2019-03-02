@@ -230,3 +230,6 @@ You're now ready to commit! 🙂
 [releases]: https://github.com/purescript/package-sets/releases
 [issues]: https://github.com/purescript/package-sets/issues
 [local-setup]: https://github.com/spacchetti/spago#i-still-want-to-use-psc-package-can-this-help-me-in-some-way
+[spago]: https://github.com/spacchetti/spago
+[bower]: https://bower.io/
+[pulp]: https://github.com/purescript-contrib/pulp
