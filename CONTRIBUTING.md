@@ -92,7 +92,6 @@ The *TL;DR* about it is:
 - add the Dhall package definition in some `src/groups/${username}.dhall`
   (where `username` is the one of the author of the package)
 - run `make setup` and `psc-package verify ${your-new-package-name}`
-- run `make` to generate the new `packages.json`
 
 ### 0. Background knowledge
 
