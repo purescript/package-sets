@@ -2,12 +2,12 @@ let mkPackage = ./../mkPackage.dhall
 
 in  { react-basic-hooks =
         mkPackage
-        [ "effect"
-        , "console"
+        [ "console"
+        , "effect"
+        , "indexed-monad"
+        , "prelude"
         , "react-basic"
         , "unsafe-reference"
-        , "prelude"
-        , "indexed-monad"
         ]
         "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
         "v0.6.0"

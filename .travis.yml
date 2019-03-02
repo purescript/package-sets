@@ -1,2 +1,6 @@
 language: nix
 script: nix-shell --run 'make ci'
+cache:
+  directories:
+  - .psc-package
+  - output
