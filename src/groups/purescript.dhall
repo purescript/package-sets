@@ -166,7 +166,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-foreign-object.git"
-        "v1.1.0"
+        "v2.0.0"
     , free =
         mkPackage
         [ "catenable-lists"
@@ -409,7 +409,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-quickcheck.git"
-        "v5.0.0"
+        "v6.0.0"
     , random =
         mkPackage
         [ "effect", "integers", "math" ]
@@ -419,7 +419,7 @@ in  { arrays =
         mkPackage
         [ "functions", "prelude", "st", "typelevel-prelude", "unsafe-coerce" ]
         "https://github.com/purescript/purescript-record.git"
-        "v1.0.0"
+        "v2.0.0"
     , refs =
         mkPackage
         [ "effect", "prelude" ]
