@@ -1,4 +1,4 @@
-# package-sets
+# Package Sets
 
 [![Build Status](https://travis-ci.org/purescript/package-sets.svg?branch=master)](https://travis-ci.org/purescript/package-sets)
 
@@ -13,9 +13,9 @@ A curated list of PureScript packages for Psc-Package and Spago
 - [How do I use package-sets with `spago`?](#how-do-i-use-package-sets-with-spago)
 
 
-## What is a package-set?
+## What is a package set?
 
-A package set is a **collection** of packages, such that there is only **one** entry (i.e. version) for every given package in the set.
+A package set is a **collection** of packages, such that there is only **one** entry (i.e. version) for a given package in the set.
 
 If you use a package manager based on package-sets, this means that when you want to install a package:
 - it must be in the package set
@@ -28,7 +28,7 @@ In general we welcome all packages, provided that they follow some guidelines de
 
 The linked document also contains instructions on how to add new packages to the set, and information on versioning and related policies.
 
-## How do I use package-sets with `psc-package`?
+## How do I use `package-sets` with Psc Package?
 
 [`psc-package`][psc-package] is a package manager for PureScript that works essentially by running a bunch of git commands. Its distinguishing feature from most package managers is that it uses a **package set**.
 
@@ -79,7 +79,7 @@ E.g. in case of `aff@v5.0.0`:
 .psc-package/set-name/aff/v5.0.0
 ```
 
-## How do I use package-sets with `spago`?
+## How do I use `package-sets` with `spago`?
 
 [`spago`][spago] is a package manager and build tool for PureScript. It is very similar to `psc-package`, and the main differences are:
 - it uses Dhall for its configuration (instead of `json` as `psc-package` does)

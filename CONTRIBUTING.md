@@ -1,4 +1,4 @@
-# Contributing to package-sets
+# Contributing to `package-sets`
 
 This document is meant to be a general guide and FAQ for contributors to this repo.
 
