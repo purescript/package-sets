@@ -150,8 +150,8 @@
   },
   "base64": {
     "dependencies": [
-      "nullable",
-      "arraybuffer-types"
+      "arraybuffer-types",
+      "nullable"
     ],
     "repo": "https://github.com/athanclark/purescript-base64.git",
     "version": "v1.0.1"
@@ -301,10 +301,10 @@
   "encoding": {
     "dependencies": [
       "arraybuffer-types",
-      "prelude",
-      "functions",
       "either",
-      "exceptions"
+      "exceptions",
+      "functions",
+      "prelude"
     ],
     "repo": "https://github.com/menelaos/purescript-encoding.git",
     "version": "v0.0.5"
@@ -441,8 +441,8 @@
     "dependencies": [
       "const",
       "exists",
-      "lists",
-      "gen"
+      "gen",
+      "lists"
     ],
     "repo": "https://github.com/ethul/purescript-freeap.git",
     "version": "v5.0.0"
@@ -1100,7 +1100,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/doolse/purescript-react-mui.git",
-    "version": "v3.1.0"
+    "version": "v3.9.2"
   },
   "record": {
     "dependencies": [
