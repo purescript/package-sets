@@ -22,14 +22,12 @@ It defines some policies that are applied, and details how to add new packages a
 
 All changes go through pull requests.
 
-There are some criterias that packages being added should comply to.
-
-If you use [bower][bower]:
-- `bower i -p` should run succesfully
-- The published tag should start with the `v` prefix.  
-  In general you should use `pulp version` and `pulp publish`, and everything will be fine.
-
-If you don't use bower, get in touch by [opening an issue][issues], as the maintainers' tools might need some adjustments.
+There are some criterias that packages being added should comply to:
+- _You should use `pulp version` to version your package._  
+  The reason is that the tag should start with the `v` prefix
+- _You should use `pulp publish` to publish your package._  
+  The reason is that since there are two distribution methods for packages (the Bower registry and the package sets), we rely on the Bower registry to act as a "central registry of package names" for both methods, in order to prevent divergence in the ecosystem (e.g. having two different codebases for a package called "prelude")
+- `bower i -p` should run successfully
 
 ## Releases
 
