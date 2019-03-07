@@ -22,7 +22,7 @@ It defines some policies that are applied, and details how to add new packages a
 
 All changes go through pull requests.
 
-There are some criterias that packages being added should comply to:
+There are some criteria that packages being added should comply with:
 - _You should use `pulp version` to version your package._  
   The reason is that the tag should start with the `v` prefix
 - _You should use `pulp publish` to publish your package._  
