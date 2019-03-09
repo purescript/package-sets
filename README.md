@@ -1,33 +1,40 @@
-# Package-Sets
+# Package Sets
 
 [![Build Status](https://travis-ci.org/purescript/package-sets.svg?branch=master)](https://travis-ci.org/purescript/package-sets)
 
-PureScript package sets for Psc-Package, aka "Spacchetti"
+A curated list of PureScript packages for Psc-Package and Spago 
 
 ![](https://i.imgur.com/roCuNQ9.png)
 
-Dhall-driven package sets, made for forking and modifying easily.
 
-Historically, this was a separate project created by Justin Woo called "Spacchetti" (as in Spagghetti + Pacchetti). This has now merged into package-sets, but is still referred to as "Spacchetti" in many resources.
+- [What is a package-set?](#what-is-a-package-set)
+- [Add your package](#add-your-package)
+- [How do I use package-sets with `psc-package`?](#how-do-i-use-package-sets-with-psc-package)
+- [How do I use package-sets with `spago`?](#how-do-i-use-package-sets-with-spago)
 
-## Introduction to Psc-Package (from a Package-Sets perspective)
 
-### What is Psc-Package?
+## What is a package set?
 
-[Psc-Package](https://github.com/purescript/psc-package/) is a package manager for PureScript that works essentially by running a bunch of git commands. Its distinguishing feature from most package managers is that it uses a **package set**.
+A package set is a **collection** of packages, such that there is only **one** entry (i.e. version) for a given package in the set.
 
-### What is a Package Set?
+If you use a package manager based on package-sets, this means that when you want to install a package:
+- it must be in the package set
+- its dependencies and all the transitive dependencies must be in the package set
 
-Many users trying to rush into using Psc-Package don't slow down enough to learn what package sets are. They are a **set** of packages, such that the package set only contains **one** entry for a given package in a set. This means that
+## Add your package
 
-* Whichever package you want to install must be in the package set
-* The dependencies and the transitive dependencies of the package you want to install must be in the package set
+This repository aims to be a good collection of packages you can depend on.  
+In general we welcome all packages, provided that they follow some guidelines defined in the [contributing guide](#CONTRIBUTING.md).
 
-Package sets are defined in `packages.json` in the root of any package set repository, like in <https://github.com/purescript/package-sets/blob/master/packages.json>.
+The linked document also contains instructions on how to add new packages to the set, and information on versioning and related policies.
 
-### How are package sets used?
+## How do I use `package-sets` with Psc Package?
 
-Package sets are consumed by having a `psc-package.json` file in the root of your project, where the contents are like below:
+[`psc-package`][psc-package] is a package manager for PureScript that works essentially by running a bunch of git commands. Its distinguishing feature from most package managers is that it uses a **package set**.
+
+`psc-package` will use as package-set the `packages.json` file in the root of any package-set repository, like in [this case][packages-json].
+
+In order to use a package-set, the `psc-package.json` file in the root of your project, should look something like this:
 
 ```json
 {
@@ -42,178 +49,49 @@ Package sets are consumed by having a `psc-package.json` file in the root of you
 }
 ```
 
-So the way this file works is that
+The way this file works is that:
+- `"set"` matches the tag or branch of the git repository of the package set
+- `"source"` is the URL for the git repository of the package set
+- `"depends"` is an array of strings, where the strings are names of packages you depend on.
+  *Note:* as said above, these dependencies should be contained in the package-set
 
-* `"set"` matches the tag or branch of the git repository of the package set
-* `"source"` is the URL for the git repository of the package set
-* `"depends"` is an array of strings, where the strings are names of packages you depend on
-
-When you run `psc-package install`, psc-package will perform the steps so that the following directory has the package set cloned to it:
+When you run `psc-package install`, psc-package will perform the steps so that the following directory will have the package set cloned into it:
 
 ```
 .psc-package/set-name/.set
 ```
 
-And the package set will be available in
+And the package set will then be available in
 
 ```
 .psc-package/set-name/.set/packages.json
 ```
 
-When you install a package in your given package set, the directory structure will be used, such that if you install `aff` from your package set at version `v5.0.0`, you will have the contents of that package in the directory
+When you install a package in your given package set, the package contents will be cloned in the following directory structure:
+
+```
+.psc-package/${set-name}/${package-name}/${tag}
+```
+
+E.g. in case of `aff@v5.0.0`:
 
 ```
 .psc-package/set-name/aff/v5.0.0
 ```
 
-Once you understand these three sections, you'll be able to solve any problems you run into with Psc-Package.
+## How do I use `package-sets` with `spago`?
 
-## Why/How Dhall?
+[`spago`][spago] is a package manager and build tool for PureScript. It is very similar to `psc-package`, and the main differences are:
+- it uses Dhall for its configuration (instead of `json` as `psc-package` does)
+- it supports package overrides and additions directly in the project configuration
+- it supports local dependencies (think `bower link`)
 
-[Dhall](https://github.com/dhall-lang/dhall-lang) is a programming language that guarantees termination. Its most useful characteristics for uses in this project are
+With `spago` the package-set address is specified in the `upstream` variable of your local `packages.dhall`, which will usually import a remote `packages.dhall`, e.g. the one from this repo.
 
-* Static typing with correct inference: unlike the packages.json file, we have the compiler check that we correctly define packages
-* Functions: we can use functions to create simple functions for defining packages
-* Local and remote path importing: we can use this to mix and match local and remote sources as necessary to build package sets
-* Typed records with directed merging: we can use this to split definitions into multiple groupings and apply patching of existing packages as needed
+You can change the package-set version you are using by just pointing the `upstream` to a different location, and running `spago freeze` afterwards (see [its readme][spago] for more info about this)
 
-Let's look at the individual parts for how this helps us make a package set.
 
-### Files
-
-The files in this package set are prepared as such:
-
-```
--- Package type definition
-src/Package.dhall
-
--- function to define packages
-src/mkPackage.dhall
-
--- packages to be included when building package set
-src/packages.dhall
-
--- package "groups" where packages are defined in records
-src/groups/[...].dhall
-```
-
-#### `Package.dhall`
-
-This contains the simple type that is the definition of a package:
-
-```hs
-{ dependencies : List Text, repo : Text, version : Text }
-```
-
-So a given package has a list of dependencies, the git url for the repository, and the tag or branch that it can be pulled from.
-
-#### `mkPackage.dhall`
-
-This contains a function for creating `Package` values easily
-
-```hs
-  λ(dependencies : List Text)
-→ λ(repo : Text)
-→ λ(version : Text)
-→   { dependencies = dependencies, repo = repo, version = version }
-  : ./Package.dhall
-```
-
-While this function is unfortunately stringly typed, this still lets us conveniently define packages without having to clutter the file with record definitions.
-
-#### `packages.dhall`
-
-This is the main file used to generate `packages.json`, and is defined by taking package definitions from the groups and joining them with a right-sided merge.
-
-```hs
-  ./groups/purescript.dhall
-⫽ ./groups/purescript-contrib.dhall
-⫽ ./groups/purescript-web.dhall
-⫽ ./groups/purescript-node.dhall
--- ...
-⫽ ./groups/justinwoo.dhall
-⫽ ./groups/patches.dhall
-```
-
-### Definitions and overrides
-
-As `patches.dhall` is last, its definitions override any existing definitions. For example, you can put an override for an existing definition of `string-parsers` with such a definition:
-
-```hs
-    let mkPackage = ./../mkPackage.dhall
-
-in  { string-parsers =
-        mkPackage
-        [ "arrays"
-        , "bifunctors"
-        , "control"
-        , "either"
-        , "foldable-traversable"
-        , "lists"
-        , "maybe"
-        , "prelude"
-        , "strings"
-        , "tailrec"
-        ]
-        "https://github.com/justinwoo/purescript-string-parsers.git"
-        "no-code-points"
-    }
-```
-
-## How to contribute to this package set
-
-### Requirements
-
-This project requires that you have at least:
-
-* [Dhall](https://github.com/dhall-lang/dhall-haskell) installed.
-* [Psc-Package](https://github.com/purescript/psc-package/) installed, with the release binary in your PATH in some way.
-* [jq](https://github.com/stedolan/jq) installed.
-
-### How to generate the package set after editing Dhall files
-
-First, test that you can actually run `make`:
-
-```sh
-> make
-formatted dhall files
-generated to packages.json
-```
-
-This is how you format Dhall files in the project and generate the `packages.json` that needs to be checked in. Unless you plan to consume only the `packages.dhall` file in your repository, you must check in `packages.json`.
-
-To actually use your new package set, you must create a new git tag and push it to your **fork of package-sets**. Then set your package set in your **project** repository accordingly, per EXAMPLE:
-
-```js
-{
-  "name": "EXAMPLE",
-  "set": "160618", // GIT TAG NAME
-  "source": "https://github.com/purescript/package-sets.git", // PACKAGE SET REPO URL
-  "depends": [
-    "console",
-    "prelude"
-  ]
-}
-```
-
-When you set this up correctly, you will see that running `psc-package install` will create the file `.psc-package/{GIT TAG NAME HERE}/.set/packages.json`.
-
-### Testing changes to package set
-
-To set up a test project, run `make setup`. Then you can test individual packages with `psc-package verify PACKAGE`.
-
-### Package set maintenance
-
-If you would like to help maintain Package-Sets, please get in touch with Justin via Twitter: <https://twitter.com/jusrin00>
-
-## Spago
-
-### Intro
-
-Spago is a new CLI that can replace your usage of Psc-Package, using Dhall to configure your packages and your project.
-
-See the Spago repo for more: <https://github.com/spacchetti/spago>
-
-### Does Spago replace Psc-Package?
-
-Yes and no. See the Spago project for the full details on what it is and how it is the similar and different from Psc-Package: <https://github.com/spacchetti/spago>
+[spago]: https://github.com/spacchetti/spago
+[psc-package]: https://github.com/purescript/psc-package
+[issues]: https://github.com/purescript/package-sets/issues
+[packages-json]: https://github.com/purescript/package-sets/blob/master/packages.json
