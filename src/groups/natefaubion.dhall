@@ -58,4 +58,9 @@ in  { variant =
         [ "prelude", "run" ]
         "https://github.com/natefaubion/purescript-run-streaming.git"
         "v2.0.0"
+    , checked-exceptions =
+        mkPackage
+        [ "transformers", "variant" ]
+        "https://github.com/natefaubion/purescript-checked-exceptions.git"
+        "v2.0.0"
     }
