@@ -580,6 +580,14 @@
     "repo": "https://github.com/purescript/purescript-foldable-traversable.git",
     "version": "v4.1.1"
   },
+  "folds": {
+    "dependencies": [
+      "control",
+      "profunctor"
+    ],
+    "repo": "https://github.com/paf31/purescript-folds.git",
+    "version": "v4.0.0"
+  },
   "foreign": {
     "dependencies": [
       "either",

@@ -84,4 +84,9 @@ in  { event =
         [ "prelude", "unsafe-coerce" ]
         "https://github.com/paf31/purescript-leibniz.git"
         "v5.0.0"
+    , folds =
+        mkPackage
+        [ "control", "profunctor" ]
+        "https://github.com/paf31/purescript-folds.git"
+        "v4.0.0"
     }
