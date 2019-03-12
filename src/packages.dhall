@@ -46,6 +46,7 @@ let packages =
       ⫽ ./groups/paluh.dhall
       ⫽ ./groups/passy.dhall
       ⫽ ./groups/purescript-spec.dhall
+      ⫽ ./groups/reactormonk.dhall
       ⫽ ./groups/rnons.dhall
       ⫽ ./groups/sharkdp.dhall
       ⫽ ./groups/slamdata.dhall

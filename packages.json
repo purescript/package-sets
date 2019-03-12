@@ -1761,6 +1761,18 @@
     "repo": "https://github.com/anttih/purescript-rationals.git",
     "version": "v5.0.0"
   },
+  "rave": {
+    "dependencies": [
+      "aff",
+      "checked-exceptions",
+      "exceptions",
+      "prelude",
+      "record",
+      "variant"
+    ],
+    "repo": "https://github.com/reactormonk/purescript-rave.git",
+    "version": "v0.1.0"
+  },
   "react": {
     "dependencies": [
       "effect",
