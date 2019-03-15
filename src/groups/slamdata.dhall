@@ -29,7 +29,7 @@ in  { aff =
         , "web-xhr"
         ]
         "https://github.com/slamdata/purescript-affjax.git"
-        "v8.0.0"
+        "v9.0.0"
     , avar =
         mkPackage
         [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]
@@ -123,7 +123,7 @@ in  { aff =
         , "web-html"
         ]
         "https://github.com/slamdata/purescript-routing.git"
-        "v8.0.0"
+        "v9.0.0"
     , fixed-points =
         mkPackage
         [ "exists", "newtype", "prelude", "transformers" ]

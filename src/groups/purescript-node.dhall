@@ -18,7 +18,7 @@ in  { node-buffer =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript-node/purescript-node-child-process.git"
-        "v5.0.0"
+        "v6.0.0"
     , node-fs =
         mkPackage
         [ "datetime"
@@ -81,7 +81,7 @@ in  { node-buffer =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript-node/purescript-node-process.git"
-        "v6.0.0"
+        "v7.0.0"
     , node-readline =
         mkPackage
         [ "effect"

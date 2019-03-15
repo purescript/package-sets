@@ -22,9 +22,14 @@ in  { gomtang-basic =
         "v1.0.0"
     , milkis =
         mkPackage
-        [ "aff-promise", "foreign-object", "prelude", "typelevel-prelude" ]
+        [ "aff-promise"
+        , "arraybuffer-types"
+        , "foreign-object"
+        , "prelude"
+        , "typelevel-prelude"
+        ]
         "https://github.com/justinwoo/purescript-milkis.git"
-        "v6.1.0"
+        "v6.2.0"
     , node-he =
         mkPackage
         ([] : List Text)
