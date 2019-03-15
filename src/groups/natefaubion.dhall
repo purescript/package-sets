@@ -13,7 +13,7 @@ in  { variant =
         , "unsafe-coerce"
         ]
         "https://github.com/natefaubion/purescript-variant.git"
-        "v5.2.0"
+        "v6.0.0"
     , run =
         mkPackage
         [ "aff"
@@ -31,7 +31,7 @@ in  { variant =
         , "variant"
         ]
         "https://github.com/natefaubion/purescript-run.git"
-        "v2.0.0"
+        "v3.0.0"
     , heterogeneous =
         mkPackage
         [ "either", "functors", "prelude", "record", "tuples", "variant" ]

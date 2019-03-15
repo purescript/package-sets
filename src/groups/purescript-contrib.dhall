@@ -17,7 +17,7 @@ in  { aff-coroutines =
         , "record"
         ]
         "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-        "v5.1.3"
+        "v6.0.0"
     , argonaut-core =
         mkPackage
         [ "arrays"
@@ -33,7 +33,7 @@ in  { aff-coroutines =
         , "tailrec"
         ]
         "https://github.com/purescript-contrib/purescript-argonaut-core.git"
-        "v4.0.1"
+        "v5.0.0"
     , arraybuffer-types =
         mkPackage
         ([] : List Text)
@@ -151,7 +151,7 @@ in  { aff-coroutines =
         mkPackage
         [ "effect", "react", "web-dom" ]
         "https://github.com/purescript-contrib/purescript-react-dom.git"
-        "v6.0.0"
+        "v6.0.1"
     , these =
         mkPackage
         [ "gen", "tuples" ]
@@ -176,7 +176,7 @@ in  { aff-coroutines =
         mkPackage
         [ "argonaut-codecs", "argonaut-core", "profunctor-lenses" ]
         "https://github.com/purescript-contrib/purescript-argonaut-traversals.git"
-        "v6.0.0"
+        "v7.0.0"
     , parsing =
         mkPackage
         [ "arrays"
