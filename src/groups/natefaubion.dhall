@@ -13,7 +13,7 @@ in  { variant =
         , "unsafe-coerce"
         ]
         "https://github.com/natefaubion/purescript-variant.git"
-        "v6.0.0"
+        "6.0.0"
     , run =
         mkPackage
         [ "aff"
