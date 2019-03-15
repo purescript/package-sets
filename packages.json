@@ -2439,7 +2439,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v6.0.0"
+    "version": "6.0.0"
   },
   "web-clipboard": {
     "dependencies": [
