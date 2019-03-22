@@ -13,6 +13,9 @@ in pkgs.runCommand "easy-ps-test" {
     inherit (easy-ps)
     purs
     psc-package
+    dhall-simple
     dhall-json-simple;
-  };
+  } ++ [
+    pkgs.git
+  ];
 } ""
