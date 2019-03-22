@@ -14,5 +14,8 @@ in pkgs.runCommand "easy-ps-test" {
     purs
     psc-package
     dhall-json-simple;
-  };
+  } ++ [
+    pkgs.dhall
+    pkgs.git
+  ];
 } ""

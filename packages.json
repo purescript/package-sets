@@ -1242,6 +1242,30 @@
     "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
     "version": "v5.1.0"
   },
+  "monad-logger": {
+    "dependencies": [
+      "aff",
+      "ansi",
+      "argonaut",
+      "arrays",
+      "console",
+      "control",
+      "effect",
+      "foldable-traversable",
+      "foreign-object",
+      "integers",
+      "js-date",
+      "maybe",
+      "newtype",
+      "ordered-collections",
+      "prelude",
+      "strings",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/cprussin/purescript-monad-logger.git",
+    "version": "v1.0.0"
+  },
   "naporitan": {
     "dependencies": [
       "record"

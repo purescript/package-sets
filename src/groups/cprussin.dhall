@@ -34,4 +34,27 @@ in  { httpure =
         ]
         "https://github.com/cprussin/purescript-httpure.git"
         "v0.8.1"
+    , monad-logger =
+        mkPackage
+        [ "aff"
+        , "ansi"
+        , "argonaut"
+        , "arrays"
+        , "console"
+        , "control"
+        , "effect"
+        , "foldable-traversable"
+        , "foreign-object"
+        , "integers"
+        , "js-date"
+        , "maybe"
+        , "newtype"
+        , "ordered-collections"
+        , "prelude"
+        , "strings"
+        , "transformers"
+        , "tuples"
+        ]
+        "https://github.com/cprussin/purescript-monad-logger.git"
+        "v1.0.0"
     }
