@@ -51,7 +51,6 @@ let packages =
       ⫽ ./groups/sharkdp.dhall
       ⫽ ./groups/slamdata.dhall
       ⫽ ./groups/spicydonuts.dhall
-      ⫽ ./groups/thomashoneyman.dhall
       ⫽ ./groups/truqu.dhall
       ⫽ ./groups/zaquest.dhall
 

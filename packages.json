@@ -73,7 +73,7 @@
       "argonaut-traversals"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "argonaut-codecs": {
     "dependencies": [
@@ -258,6 +258,7 @@
   },
   "checked-exceptions": {
     "dependencies": [
+      "prelude",
       "transformers",
       "variant"
     ],
@@ -292,7 +293,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-chocopie.git",
-    "version": "v3.0.0"
+    "version": "v4.0.0"
   },
   "colors": {
     "dependencies": [
@@ -321,7 +322,7 @@
       "web-html"
     ],
     "repo": "https://github.com/ajnsit/purescript-concur.git",
-    "version": "v0.3.4"
+    "version": "v0.3.5"
   },
   "console": {
     "dependencies": [
@@ -609,10 +610,11 @@
   "folds": {
     "dependencies": [
       "control",
+      "ordered-collections",
       "profunctor"
     ],
     "repo": "https://github.com/paf31/purescript-folds.git",
-    "version": "v4.0.0"
+    "version": "v5.2.0"
   },
   "foreign": {
     "dependencies": [
@@ -642,7 +644,7 @@
       "record"
     ],
     "repo": "https://github.com/paf31/purescript-foreign-generic.git",
-    "version": "v8.1.0"
+    "version": "v9.0.0"
   },
   "foreign-object": {
     "dependencies": [
@@ -888,34 +890,6 @@
     "repo": "https://github.com/slamdata/purescript-halogen-css.git",
     "version": "v8.0.0"
   },
-  "halogen-formless": {
-    "dependencies": [
-      "generics-rep",
-      "halogen",
-      "halogen-renderless",
-      "heterogeneous",
-      "variant"
-    ],
-    "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
-    "version": "v0.5.2"
-  },
-  "halogen-renderless": {
-    "dependencies": [
-      "control",
-      "halogen",
-      "prelude"
-    ],
-    "repo": "https://github.com/thomashoneyman/purescript-halogen-renderless.git",
-    "version": "v0.0.3"
-  },
-  "halogen-select": {
-    "dependencies": [
-      "halogen",
-      "halogen-renderless"
-    ],
-    "repo": "https://github.com/citizennet/purescript-halogen-select.git",
-    "version": "v4.0.0"
-  },
   "halogen-vdom": {
     "dependencies": [
       "bifunctors",
@@ -942,7 +916,7 @@
       "variant"
     ],
     "repo": "https://github.com/natefaubion/purescript-heterogeneous.git",
-    "version": "v0.3.0"
+    "version": "v0.4.0"
   },
   "http-methods": {
     "dependencies": [
@@ -1031,7 +1005,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-jajanmen.git",
-    "version": "v0.2.0"
+    "version": "v1.0.0"
   },
   "js-date": {
     "dependencies": [
@@ -1068,7 +1042,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-kancho.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "kishimen": {
     "dependencies": [
@@ -1217,7 +1191,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
-    "version": "v6.2.0"
+    "version": "v7.0.0"
   },
   "minibench": {
     "dependencies": [
@@ -1695,19 +1669,17 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-profunctor-lenses.git",
-    "version": "v6.0.0"
+    "version": "v6.1.0"
   },
   "promises": {
     "dependencies": [
-      "console",
       "datetime",
       "exceptions",
       "functions",
       "prelude",
-      "psci-support",
       "transformers"
     ],
-    "repo": "https://github.com/Thimoteus/purescript-promises.git",
+    "repo": "https://github.com/thimoteus/purescript-promises.git",
     "version": "v3.1.0"
   },
   "proxy": {
@@ -1790,6 +1762,8 @@
     "dependencies": [
       "aff",
       "checked-exceptions",
+      "console",
+      "effect",
       "exceptions",
       "prelude",
       "record",
@@ -1827,7 +1801,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v8.0.0"
+    "version": "v8.0.1"
   },
   "react-basic-hooks": {
     "dependencies": [
@@ -1879,7 +1853,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-record-extra.git",
-    "version": "v2.0.2"
+    "version": "v3.0.0"
   },
   "record-format": {
     "dependencies": [
@@ -1888,7 +1862,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/kcsongor/purescript-record-format.git",
-    "version": "v0.1.0"
+    "version": "v1.0.0"
   },
   "redux-devtools": {
     "dependencies": [
@@ -1954,7 +1928,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/natefaubion/purescript-routing-duplex.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "run": {
     "dependencies": [
@@ -2045,7 +2019,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v4.4.1"
+    "version": "v5.0.0"
   },
   "simple-json-generics": {
     "dependencies": [
@@ -2269,7 +2243,7 @@
       "strings"
     ],
     "repo": "https://github.com/bodil/purescript-test-unit.git",
-    "version": "v14.0.0"
+    "version": "v15.0.0"
   },
   "text-encoding": {
     "dependencies": [
@@ -2317,7 +2291,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-tortellini.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "transformers": {
     "dependencies": [

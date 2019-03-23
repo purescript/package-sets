@@ -134,7 +134,7 @@ in  { aff-coroutines =
         , "tuples"
         ]
         "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
-        "v6.0.0"
+        "v6.1.0"
     , react =
         mkPackage
         [ "effect"
@@ -171,7 +171,7 @@ in  { aff-coroutines =
         mkPackage
         [ "argonaut-codecs", "argonaut-core", "argonaut-traversals" ]
         "https://github.com/purescript-contrib/purescript-argonaut.git"
-        "v5.0.0"
+        "v6.0.0"
     , argonaut-traversals =
         mkPackage
         [ "argonaut-codecs", "argonaut-core", "profunctor-lenses" ]

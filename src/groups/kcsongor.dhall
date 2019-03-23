@@ -4,5 +4,5 @@ in  { record-format =
         mkPackage
         [ "record", "strings", "typelevel-prelude" ]
         "https://github.com/kcsongor/purescript-record-format.git"
-        "v0.1.0"
+        "v1.0.0"
     }
