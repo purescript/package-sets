@@ -16,5 +16,5 @@ in  { concur-react =
         , "web-html"
         ]
         "https://github.com/ajnsit/purescript-concur.git"
-        "v0.3.4"
+        "v0.3.5"
     }

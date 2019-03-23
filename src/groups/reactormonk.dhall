@@ -2,10 +2,12 @@ let mkPackage = ./../mkPackage.dhall
 
 in  { rave =
         mkPackage
-        [ "prelude"
-        , "aff"
+        [ "aff"
         , "checked-exceptions"
+        , "console"
+        , "effect"
         , "exceptions"
+        , "prelude"
         , "record"
         , "variant"
         ]

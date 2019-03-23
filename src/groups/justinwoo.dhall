@@ -9,7 +9,7 @@ in  { gomtang-basic =
         mkPackage
         [ "node-sqlite3", "prelude", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-jajanmen.git"
-        "v0.2.0"
+        "v1.0.0"
     , lenient-html-parser =
         mkPackage
         [ "console", "generics-rep", "prelude", "string-parsers" ]
@@ -29,7 +29,7 @@ in  { gomtang-basic =
         , "typelevel-prelude"
         ]
         "https://github.com/justinwoo/purescript-milkis.git"
-        "v6.2.0"
+        "v7.0.0"
     , node-he =
         mkPackage
         ([] : List Text)
@@ -44,7 +44,7 @@ in  { gomtang-basic =
         mkPackage
         [ "arrays", "functions", "lists", "record", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-record-extra.git"
-        "v2.0.2"
+        "v3.0.0"
     , shoronpo =
         mkPackage
         [ "prelude", "record-format" ]
@@ -63,7 +63,7 @@ in  { gomtang-basic =
         , "variant"
         ]
         "https://github.com/justinwoo/purescript-simple-json.git"
-        "v4.4.1"
+        "v5.0.0"
     , sunde =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]
@@ -94,7 +94,7 @@ in  { gomtang-basic =
         , "typelevel-prelude"
         ]
         "https://github.com/justinwoo/purescript-tortellini.git"
-        "v4.0.0"
+        "v5.0.0"
     , node-telegram-bot-api =
         mkPackage
         [ "aff", "foreign", "simple-json", "strings" ]
@@ -104,7 +104,7 @@ in  { gomtang-basic =
         mkPackage
         [ "event", "prelude", "record", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-chocopie.git"
-        "v3.0.0"
+        "v4.0.0"
     , expect-inferred =
         mkPackage
         [ "prelude", "typelevel-prelude" ]
@@ -119,7 +119,7 @@ in  { gomtang-basic =
         mkPackage
         [ "foreign", "newtype", "strings", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-kancho.git"
-        "v1.0.0"
+        "v2.0.0"
     , redux-devtools =
         mkPackage
         [ "effect", "foreign", "nullable", "prelude" ]

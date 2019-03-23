@@ -7,14 +7,13 @@ in  { mmorph =
         "v5.1.0"
     , promises =
         mkPackage
-        [ "prelude"
-        , "functions"
-        , "exceptions"
-        , "transformers"
+        [ "console"
         , "datetime"
-        , "console"
-        , "psci-support"
+        , "exceptions"
+        , "functions"
+        , "prelude"
+        , "transformers"
         ]
-        "https://github.com/Thimoteus/purescript-promises.git"
+        "https://github.com/thimoteus/purescript-promises.git"
         "v3.1.0"
     }

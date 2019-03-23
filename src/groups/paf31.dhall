@@ -45,7 +45,7 @@ in  { event =
         , "record"
         ]
         "https://github.com/paf31/purescript-foreign-generic.git"
-        "v8.1.0"
+        "v9.0.0"
     , memoize =
         mkPackage
         [ "either"
@@ -86,7 +86,7 @@ in  { event =
         "v5.0.0"
     , folds =
         mkPackage
-        [ "control", "profunctor" ]
+        [ "control", "ordered-collections", "profunctor" ]
         "https://github.com/paf31/purescript-folds.git"
-        "v4.0.0"
+        "v5.2.0"
     }
