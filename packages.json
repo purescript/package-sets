@@ -200,6 +200,14 @@
     "repo": "https://github.com/menelaos/purescript-b64.git",
     "version": "v0.0.5"
   },
+  "basic-auth": {
+    "dependencies": [
+      "crypto",
+      "node-http"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-basic-auth.git",
+    "version": "v1.0.0"
+  },
   "behaviors": {
     "dependencies": [
       "effect",
@@ -231,6 +239,103 @@
     ],
     "repo": "https://github.com/sharkdp/purescript-bigints.git",
     "version": "v4.0.0"
+  },
+  "bucketchain": {
+    "dependencies": [
+      "aff",
+      "console",
+      "node-http",
+      "node-streams",
+      "transformers"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain.git",
+    "version": "v0.3.0"
+  },
+  "bucketchain-basic-auth": {
+    "dependencies": [
+      "basic-auth",
+      "bucketchain"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-basic-auth.git",
+    "version": "v0.2.0"
+  },
+  "bucketchain-conditional": {
+    "dependencies": [
+      "bucketchain",
+      "js-date"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-conditional.git",
+    "version": "v0.2.0"
+  },
+  "bucketchain-cors": {
+    "dependencies": [
+      "bucketchain",
+      "bucketchain-header-utils",
+      "http-methods"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-cors.git",
+    "version": "v0.2.0"
+  },
+  "bucketchain-csrf": {
+    "dependencies": [
+      "bucketchain"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-csrf.git",
+    "version": "v0.1.0"
+  },
+  "bucketchain-header-utils": {
+    "dependencies": [
+      "bucketchain"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-header-utils.git",
+    "version": "v0.1.0"
+  },
+  "bucketchain-health": {
+    "dependencies": [
+      "bucketchain"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-health.git",
+    "version": "v0.2.0"
+  },
+  "bucketchain-history-api-fallback": {
+    "dependencies": [
+      "bucketchain"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-history-api-fallback.git",
+    "version": "v0.2.0"
+  },
+  "bucketchain-logger": {
+    "dependencies": [
+      "bucketchain",
+      "js-date",
+      "node-process"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-logger.git",
+    "version": "v0.2.0"
+  },
+  "bucketchain-simple-api": {
+    "dependencies": [
+      "bucketchain",
+      "media-types",
+      "simple-json"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git",
+    "version": "v0.3.0"
+  },
+  "bucketchain-sslify": {
+    "dependencies": [
+      "bucketchain"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-sslify.git",
+    "version": "v0.2.0"
+  },
+  "bucketchain-static": {
+    "dependencies": [
+      "bucketchain",
+      "node-fs-aff"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-static.git",
+    "version": "v0.2.0"
   },
   "canvas": {
     "dependencies": [
@@ -739,6 +844,56 @@
     "repo": "https://github.com/ethul/purescript-freeap.git",
     "version": "v5.0.1"
   },
+  "freedom": {
+    "dependencies": [
+      "aff",
+      "console",
+      "foreign-object",
+      "freet",
+      "safely",
+      "simple-emitter",
+      "web-html"
+    ],
+    "repo": "https://github.com/purescript-freedom/purescript-freedom.git",
+    "version": "v1.0.0"
+  },
+  "freedom-portal": {
+    "dependencies": [
+      "freedom"
+    ],
+    "repo": "https://github.com/purescript-freedom/purescript-freedom-portal.git",
+    "version": "v1.0.0"
+  },
+  "freedom-router": {
+    "dependencies": [
+      "freedom",
+      "profunctor"
+    ],
+    "repo": "https://github.com/purescript-freedom/purescript-freedom-router.git",
+    "version": "v1.0.0"
+  },
+  "freedom-transition": {
+    "dependencies": [
+      "freedom",
+      "js-timers"
+    ],
+    "repo": "https://github.com/purescript-freedom/purescript-freedom-transition.git",
+    "version": "v1.0.0"
+  },
+  "freedom-virtualized": {
+    "dependencies": [
+      "freedom"
+    ],
+    "repo": "https://github.com/purescript-freedom/purescript-freedom-virtualized.git",
+    "version": "v1.0.0"
+  },
+  "freedom-window-resize": {
+    "dependencies": [
+      "freedom"
+    ],
+    "repo": "https://github.com/purescript-freedom/purescript-freedom-window-resize.git",
+    "version": "v1.0.0"
+  },
   "freet": {
     "dependencies": [
       "bifunctors",
@@ -1239,6 +1394,15 @@
     ],
     "repo": "https://github.com/cprussin/purescript-monad-logger.git",
     "version": "v1.0.0"
+  },
+  "mysql": {
+    "dependencies": [
+      "aff",
+      "js-date",
+      "simple-json"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-mysql.git",
+    "version": "v2.0.1"
   },
   "naporitan": {
     "dependencies": [
@@ -1958,6 +2122,14 @@
     "repo": "https://github.com/natefaubion/purescript-run-streaming.git",
     "version": "v2.0.0"
   },
+  "safely": {
+    "dependencies": [
+      "freet",
+      "lists"
+    ],
+    "repo": "https://github.com/paf31/purescript-safely.git",
+    "version": "v4.0.0"
+  },
   "semirings": {
     "dependencies": [
       "foldable-traversable",
@@ -2006,6 +2178,14 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-sijidou.git",
     "version": "v0.1.0"
+  },
+  "simple-emitter": {
+    "dependencies": [
+      "ordered-collections",
+      "refs"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-simple-emitter.git",
+    "version": "v1.0.0"
   },
   "simple-json": {
     "dependencies": [

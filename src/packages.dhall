@@ -15,6 +15,7 @@ let packages =
       ⫽ ./groups/anttih.dhall
       ⫽ ./groups/bodil.dhall
       ⫽ ./groups/brandonhamilton.dhall
+      ⫽ ./groups/bucketchain.dhall
       ⫽ ./groups/cdepillabout.dhall
       ⫽ ./groups/citizennet.dhall
       ⫽ ./groups/cprussin.dhall
@@ -45,6 +46,7 @@ let packages =
       ⫽ ./groups/paf31.dhall
       ⫽ ./groups/paluh.dhall
       ⫽ ./groups/passy.dhall
+      ⫽ ./groups/purescript-freedom.dhall
       ⫽ ./groups/purescript-spec.dhall
       ⫽ ./groups/reactormonk.dhall
       ⫽ ./groups/rnons.dhall

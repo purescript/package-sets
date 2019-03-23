@@ -59,6 +59,11 @@ in  { event =
         ]
         "https://github.com/paf31/purescript-memoize.git"
         "v5.0.0"
+    , safely =
+        mkPackage
+        [ "freet", "lists" ]
+        "https://github.com/paf31/purescript-safely.git"
+        "v4.0.0"
     , string-parsers =
         mkPackage
         [ "arrays"
