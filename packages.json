@@ -1393,7 +1393,7 @@
       "tuples"
     ],
     "repo": "https://github.com/cprussin/purescript-monad-logger.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "mysql": {
     "dependencies": [
