@@ -56,5 +56,5 @@ in  { httpure =
         , "tuples"
         ]
         "https://github.com/cprussin/purescript-monad-logger.git"
-        "v1.0.0"
+        "v1.1.0"
     }
