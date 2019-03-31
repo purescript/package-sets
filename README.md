@@ -24,7 +24,7 @@ If you use a package manager based on package-sets, this means that when you wan
 ## Add your package
 
 This repository aims to be a good collection of packages you can depend on.  
-In general we welcome all packages, provided that they follow some guidelines defined in the [contributing guide](#CONTRIBUTING.md).
+In general we welcome all packages, provided that they follow some guidelines defined in the [contributing guide](CONTRIBUTING.md).
 
 The linked document also contains instructions on how to add new packages to the set, and information on versioning and related policies.
 
