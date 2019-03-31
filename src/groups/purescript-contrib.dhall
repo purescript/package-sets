@@ -17,7 +17,7 @@ in  { aff-coroutines =
         , "record"
         ]
         "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-        "v6.0.0"
+        "v6.0.1"
     , argonaut-core =
         mkPackage
         [ "arrays"
@@ -134,7 +134,7 @@ in  { aff-coroutines =
         , "tuples"
         ]
         "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
-        "v6.1.0"
+        "v6.1.1"
     , react =
         mkPackage
         [ "effect"

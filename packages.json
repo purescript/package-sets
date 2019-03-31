@@ -10,7 +10,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/slamdata/purescript-aff.git",
-    "version": "v5.1.0"
+    "version": "v5.1.1"
   },
   "aff-bus": {
     "dependencies": [
@@ -87,7 +87,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "argonaut-core": {
     "dependencies": [
@@ -1833,7 +1833,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-profunctor-lenses.git",
-    "version": "v6.1.0"
+    "version": "v6.1.1"
   },
   "promises": {
     "dependencies": [
