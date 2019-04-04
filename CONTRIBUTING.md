@@ -22,9 +22,7 @@ It defines some policies that are applied, and details how to add new packages a
 
 All changes go through pull requests.
 
-All packages that are included here must first be published via `bower` with no exceptions. We want to avoid a similar situation that happened in Haskell: a split ecosystem. (If you're unfamiliar with this situation, read [Why not both](https://medium.com/@fommil/why-not-both-8adadb71a5ed) for some context. Their `cabal` is similar to our `bower` and their `stack` is similar to `spago`/`psc-package`.)
-
-Since there are two distribution methods for packages (the Bower registry and the package sets), we rely on the Bower registry to act as a "central registry of package names" for both methods. This prevents divergence in the ecosystem - e.g. having two different codebases for a package called "prelude".
+All packages that are included here must first be published via `bower` with no exceptions. Since there are two distribution methods for packages (the Bower registry and the package sets), we rely on the Bower registry to act as a "central registry of package names" for both methods. This prevents divergence in the ecosystem - e.g. having two different codebases for a package called "prelude".
 
 Packages must comply with the following criteria. The `pulp` commands listed below are used because they handle most of the work for you:
 - `bower i -p` must run successfully.  
