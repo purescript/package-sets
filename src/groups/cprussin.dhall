@@ -57,4 +57,20 @@ in  { httpure =
         ]
         "https://github.com/cprussin/purescript-monad-logger.git"
         "v1.1.0"
+    , node-electron =
+        mkPackage
+        [ "effect"
+        , "foreign"
+        , "halogen"
+        , "maybe"
+        , "options"
+        , "prelude"
+        , "transformers"
+        , "unsafe-coerce"
+        , "web-dom"
+        , "web-events"
+        , "web-html"
+        ]
+        "https://github.com/cprussin/purescript-node-electron.git"
+        "v0.0.2"
     }
