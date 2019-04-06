@@ -4,5 +4,5 @@ in  { errors =
         mkPackage
         [ "control", "effect", "either", "maybe", "transformers" ]
         "https://github.com/passy/purescript-errors.git"
-        "v4.0.1"
+        "v4.1.0"
     }

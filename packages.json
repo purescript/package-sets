@@ -162,7 +162,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "v5.2.0"
+    "version": "v5.2.1"
   },
   "assert": {
     "dependencies": [
@@ -427,7 +427,7 @@
       "web-html"
     ],
     "repo": "https://github.com/ajnsit/purescript-concur.git",
-    "version": "v0.3.5"
+    "version": "v0.3.6"
   },
   "console": {
     "dependencies": [
@@ -629,7 +629,7 @@
       "transformers"
     ],
     "repo": "https://github.com/passy/purescript-errors.git",
-    "version": "v4.0.1"
+    "version": "v4.1.0"
   },
   "event": {
     "dependencies": [
@@ -832,7 +832,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-free.git",
-    "version": "v5.1.0"
+    "version": "v5.2.0"
   },
   "freeap": {
     "dependencies": [
