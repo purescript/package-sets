@@ -134,7 +134,7 @@ in  { aff-coroutines =
         , "tuples"
         ]
         "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
-        "v6.1.1"
+        "v6.2.0"
     , react =
         mkPackage
         [ "effect"

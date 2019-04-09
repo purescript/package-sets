@@ -36,7 +36,7 @@
       "foreign"
     ],
     "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
-    "version": "v2.0.1"
+    "version": "v2.1.0"
   },
   "affjax": {
     "dependencies": [
@@ -1850,7 +1850,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-profunctor-lenses.git",
-    "version": "v6.1.1"
+    "version": "v6.2.0"
   },
   "promises": {
     "dependencies": [
@@ -1983,7 +1983,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v8.0.1"
+    "version": "v9.0.0"
   },
   "react-basic-hooks": {
     "dependencies": [
