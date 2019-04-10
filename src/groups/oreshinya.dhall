@@ -10,11 +10,16 @@ in  { basic-auth =
         [ "node-buffer" ]
         "https://github.com/oreshinya/purescript-crypto.git"
         "v1.1.0"
+    , identy =
+        mkPackage
+        [ "simple-json" ]
+        "https://github.com/oreshinya/purescript-identy.git"
+        "v1.0.0"
     , mysql =
         mkPackage
         [ "aff", "js-date", "simple-json" ]
         "https://github.com/oreshinya/purescript-mysql.git"
-        "v2.0.1"
+        "v2.1.0"
     , simple-emitter =
         mkPackage
         [ "ordered-collections", "refs" ]
