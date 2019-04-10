@@ -4,7 +4,7 @@ format:
 	@find src/ -iname "*.dhall" -exec dhall format --inplace {} \;
 	@echo formatted dhall files
 
-generate: SHELL:=/bin/bash
+generate: SHELL:=/usr/bin/env bash
 generate:
 	@dhall-to-json --pretty <<< "./src/packages.dhall" > packages.json
 	@psc-package format
