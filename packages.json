@@ -125,6 +125,22 @@
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
     "version": "v7.0.0"
   },
+  "array-views": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "foldable-traversable",
+      "generics-rep",
+      "maybe",
+      "nonempty",
+      "prelude",
+      "profunctor",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/8084/purescript-array-views.git",
+    "version": "v0.0.1"
+  },
   "arraybuffer": {
     "dependencies": [
       "arraybuffer-types",
