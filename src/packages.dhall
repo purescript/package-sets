@@ -19,6 +19,7 @@ let packages =
       ⫽ ./groups/cdepillabout.dhall
       ⫽ ./groups/citizennet.dhall
       ⫽ ./groups/cprussin.dhall
+      ⫽ ./groups/danieljharvey.dhall
       ⫽ ./groups/epost.dhall
       ⫽ ./groups/ethul.dhall
       ⫽ ./groups/fehrenbach.dhall
