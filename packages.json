@@ -1625,6 +1625,15 @@
     "repo": "https://github.com/purescript-node/purescript-node-url.git",
     "version": "v4.0.0"
   },
+  "nodemailer": {
+    "dependencies": [
+      "aff",
+      "node-streams",
+      "simple-json"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-nodemailer.git",
+    "version": "v2.0.0"
+  },
   "nonempty": {
     "dependencies": [
       "control",
