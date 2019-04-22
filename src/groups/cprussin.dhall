@@ -56,7 +56,7 @@ in  { httpure =
         , "tuples"
         ]
         "https://github.com/cprussin/purescript-monad-logger.git"
-        "v1.1.0"
+        "v1.2.0"
     , node-electron =
         mkPackage
         [ "effect"
