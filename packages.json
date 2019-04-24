@@ -2269,7 +2269,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "simple-json-generics": {
     "dependencies": [

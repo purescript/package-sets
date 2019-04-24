@@ -63,7 +63,7 @@ in  { gomtang-basic =
         , "variant"
         ]
         "https://github.com/justinwoo/purescript-simple-json.git"
-        "v5.0.0"
+        "v5.1.0"
     , sunde =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]
