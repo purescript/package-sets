@@ -63,7 +63,7 @@ in  { gomtang-basic =
         , "variant"
         ]
         "https://github.com/justinwoo/purescript-simple-json.git"
-        "v5.0.0"
+        "v5.1.0"
     , sunde =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]
@@ -155,4 +155,14 @@ in  { gomtang-basic =
         [ "generics-rep", "prelude", "variant" ]
         "https://github.com/justinwoo/purescript-kishimen.git"
         "v0.2.0"
+    , motsunabe =
+        mkPackage
+        [ "lists", "strings" ]
+        "https://github.com/justinwoo/purescript-motsunabe.git"
+        "v1.0.0"
+    , simple-json-utils =
+        mkPackage
+        [ "motsunabe", "simple-json" ]
+        "https://github.com/justinwoo/purescript-simple-json-utils.git"
+        "v0.1.0"
     }

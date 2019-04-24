@@ -1418,6 +1418,14 @@
     "repo": "https://github.com/cprussin/purescript-monad-logger.git",
     "version": "v1.2.0"
   },
+  "motsunabe": {
+    "dependencies": [
+      "lists",
+      "strings"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-motsunabe.git",
+    "version": "v1.0.0"
+  },
   "mysql": {
     "dependencies": [
       "aff",
@@ -2261,7 +2269,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "simple-json-generics": {
     "dependencies": [
@@ -2269,6 +2277,14 @@
       "simple-json"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json-generics.git",
+    "version": "v0.1.0"
+  },
+  "simple-json-utils": {
+    "dependencies": [
+      "motsunabe",
+      "simple-json"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-simple-json-utils.git",
     "version": "v0.1.0"
   },
   "sized-vectors": {
