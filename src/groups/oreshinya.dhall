@@ -14,7 +14,7 @@ in  { basic-auth =
         mkPackage
         [ "simple-json" ]
         "https://github.com/oreshinya/purescript-identy.git"
-        "v1.0.0"
+        "v2.0.0"
     , mysql =
         mkPackage
         [ "aff", "js-date", "simple-json" ]
