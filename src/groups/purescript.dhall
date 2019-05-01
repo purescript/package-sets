@@ -16,7 +16,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-arrays.git"
-        "v5.2.1"
+        "v5.3.0"
     , assert =
         mkPackage
         [ "console", "effect", "prelude" ]
@@ -58,7 +58,7 @@ in  { arrays =
         mkPackage
         [ "either", "newtype", "prelude", "tuples" ]
         "https://github.com/purescript/purescript-contravariant.git"
-        "v4.0.0"
+        "v4.0.1"
     , control =
         mkPackage
         [ "prelude" ]
@@ -220,7 +220,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-gen.git"
-        "v2.1.0"
+        "v2.1.1"
     , generics-rep =
         mkPackage
         [ "enums", "foldable-traversable", "maybe", "newtype", "prelude" ]
@@ -322,7 +322,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-ordered-collections.git"
-        "v1.6.0"
+        "v1.6.1"
     , orders =
         mkPackage
         [ "newtype", "prelude" ]

@@ -2,12 +2,12 @@ let mkPackage = ./../mkPackage.dhall
 
 in  { refined =
         mkPackage
-        [ "prelude"
+        [ "argonaut"
         , "console"
         , "effect"
-        , "typelevel"
         , "generics-rep"
-        , "argonaut"
+        , "prelude"
+        , "typelevel"
         ]
         "https://github.com/danieljharvey/purescript-refined.git"
         "v0.1.2"

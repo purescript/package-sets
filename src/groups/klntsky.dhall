@@ -2,17 +2,17 @@ let mkPackage = ./../mkPackage.dhall
 
 in  { array-views =
         mkPackage
-        [ "prelude"
-        , "arrays"
-        , "maybe"
-        , "generics-rep"
+        [ "arrays"
+        , "control"
         , "foldable-traversable"
+        , "generics-rep"
+        , "maybe"
+        , "nonempty"
+        , "prelude"
+        , "profunctor"
         , "tuples"
         , "unfoldable"
-        , "nonempty"
-        , "profunctor"
-        , "control"
         ]
-        "https://github.com/8084/purescript-array-views.git"
+        "https://github.com/klntsky/purescript-array-views.git"
         "v0.0.1"
     }
