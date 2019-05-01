@@ -138,7 +138,7 @@
       "tuples",
       "unfoldable"
     ],
-    "repo": "https://github.com/8084/purescript-array-views.git",
+    "repo": "https://github.com/klntsky/purescript-array-views.git",
     "version": "v0.0.1"
   },
   "arraybuffer": {
@@ -178,7 +178,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "v5.2.1"
+    "version": "v5.3.0"
   },
   "assert": {
     "dependencies": [
@@ -443,7 +443,7 @@
       "web-html"
     ],
     "repo": "https://github.com/ajnsit/purescript-concur.git",
-    "version": "v0.3.6"
+    "version": "v0.3.7"
   },
   "console": {
     "dependencies": [
@@ -472,7 +472,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-contravariant.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "control": {
     "dependencies": [
@@ -976,7 +976,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-gen.git",
-    "version": "v2.1.0"
+    "version": "v2.1.1"
   },
   "generics-rep": {
     "dependencies": [
@@ -1706,7 +1706,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-ordered-collections.git",
-    "version": "v1.6.0"
+    "version": "v1.6.1"
   },
   "orders": {
     "dependencies": [
@@ -1961,7 +1961,7 @@
       "quickcheck"
     ],
     "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "random": {
     "dependencies": [
@@ -2035,7 +2035,7 @@
       "unsafe-reference"
     ],
     "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
-    "version": "v0.6.0"
+    "version": "v0.6.1"
   },
   "react-dom": {
     "dependencies": [
@@ -2533,13 +2533,14 @@
       "record"
     ],
     "repo": "https://github.com/justinwoo/purescript-toppokki.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "tortellini": {
     "dependencies": [
       "foreign-object",
       "integers",
       "lists",
+      "motsunabe",
       "numbers",
       "prelude",
       "record",
@@ -2549,7 +2550,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-tortellini.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "transformers": {
     "dependencies": [
@@ -2718,7 +2719,7 @@
       "nullable"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-events.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "web-file": {
     "dependencies": [
@@ -2737,7 +2738,7 @@
       "web-storage"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "web-socket": {
     "dependencies": [

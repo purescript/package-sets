@@ -79,12 +79,13 @@ in  { gomtang-basic =
         , "record"
         ]
         "https://github.com/justinwoo/purescript-toppokki.git"
-        "v1.0.0"
+        "v1.1.0"
     , tortellini =
         mkPackage
         [ "foreign-object"
         , "integers"
         , "lists"
+        , "motsunabe"
         , "numbers"
         , "prelude"
         , "record"
@@ -94,7 +95,7 @@ in  { gomtang-basic =
         , "typelevel-prelude"
         ]
         "https://github.com/justinwoo/purescript-tortellini.git"
-        "v5.0.0"
+        "v5.1.0"
     , node-telegram-bot-api =
         mkPackage
         [ "aff", "foreign", "simple-json", "strings" ]
