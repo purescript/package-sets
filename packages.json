@@ -222,7 +222,7 @@
       "node-http"
     ],
     "repo": "https://github.com/oreshinya/purescript-basic-auth.git",
-    "version": "v1.0.0"
+    "version": "v1.0.1"
   },
   "behaviors": {
     "dependencies": [
@@ -495,7 +495,7 @@
       "node-buffer"
     ],
     "repo": "https://github.com/oreshinya/purescript-crypto.git",
-    "version": "v1.1.0"
+    "version": "v2.0.0"
   },
   "css": {
     "dependencies": [

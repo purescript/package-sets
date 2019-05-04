@@ -4,12 +4,12 @@ in  { basic-auth =
         mkPackage
         [ "crypto", "node-http" ]
         "https://github.com/oreshinya/purescript-basic-auth.git"
-        "v1.0.0"
+        "v1.0.1"
     , crypto =
         mkPackage
         [ "node-buffer" ]
         "https://github.com/oreshinya/purescript-crypto.git"
-        "v1.1.0"
+        "v2.0.0"
     , identy =
         mkPackage
         [ "simple-json" ]
