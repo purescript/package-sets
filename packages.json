@@ -139,7 +139,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/klntsky/purescript-array-views.git",
-    "version": "v0.0.1"
+    "version": "v0.0.2"
   },
   "arraybuffer": {
     "dependencies": [

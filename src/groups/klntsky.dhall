@@ -14,5 +14,5 @@ in  { array-views =
         , "unfoldable"
         ]
         "https://github.com/klntsky/purescript-array-views.git"
-        "v0.0.1"
+        "v0.0.2"
     }
