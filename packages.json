@@ -1792,6 +1792,14 @@
     "repo": "https://github.com/felixSchl/purescript-pipes.git",
     "version": "v6.0.0"
   },
+  "pointed-list": {
+    "dependencies": [
+      "lists",
+      "prelude"
+    ],
+    "repo": "https://github.com/paluh/purescript-pointed-list.git",
+    "version": "v0.3.0"
+  },
   "polyform": {
     "dependencies": [
       "foreign",
