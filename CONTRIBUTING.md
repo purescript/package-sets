@@ -71,6 +71,7 @@ The following section will detail how to add a package to the package-set.
 The *TL;DR* about it is:
 - add the Dhall package definition in some `src/groups/${username}.dhall` (where `username` is the one of the author of the package)
 - run `make setup` and `psc-package verify ${your-new-package-name}`
+- run `make` to add an entry for your package to `packages.json`
 
 ### 0. Background knowledge
 
@@ -176,7 +177,8 @@ In order to verify the addition (or change), you should follow these steps:
 - `make setup`: this will setup a test project based on the new package-set
 - `psc-package verify ${your-new-package-name}`
 
-Once it verifies correctly, you should check in both the Dhall files and the `packages.json`
+Once it verifies correctly, you should run `make` to add an entry for your package to `packages.json`
+and finally check in both the Dhall files and the `packages.json` file.
 
 You're now ready to commit! 🙂
 
