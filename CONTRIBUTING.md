@@ -70,8 +70,8 @@ The following section will detail how to add a package to the package-set.
 
 The *TL;DR* about it is:
 - add the Dhall package definition in some `src/groups/${username}.dhall` (where `username` is the one of the author of the package)
+- add a new line containing `⫽ ./groups/${username}.dhall` to `src/packages.dhall`
 - run `make setup` and `psc-package verify ${your-new-package-name}`
-- run `make` to add an entry for your package to `packages.json`
 
 ### 0. Background knowledge
 
@@ -168,6 +168,16 @@ in  { unicorns =
     }
 ```
 
+Then add a new line containing a reference to the new group to the `src/packages.dhall` file.
+
+For our example: 
+
+```hs
+…
+      ⫽ ./groups/someauthor.dhall
+…
+``` 
+
 
 ### 2. Verifying a package
 
@@ -177,8 +187,7 @@ In order to verify the addition (or change), you should follow these steps:
 - `make setup`: this will setup a test project based on the new package-set
 - `psc-package verify ${your-new-package-name}`
 
-Once it verifies correctly, you should run `make` to add an entry for your package to `packages.json`
-and finally check in both the Dhall files and the `packages.json` file.
+Once it verifies correctly check in both the Dhall files and the `packages.json` file.
 
 You're now ready to commit! 🙂
 
