@@ -2134,6 +2134,15 @@
     "repo": "https://github.com/krisajenkins/purescript-remotedata.git",
     "version": "v4.1.0"
   },
+  "result": {
+    "dependencies": [
+      "either",
+      "foldable-traversable",
+      "prelude"
+    ],
+    "repo": "https://github.com/ad-si/purescript-result.git",
+    "version": "v1.0.2"
+  },
   "routing": {
     "dependencies": [
       "aff",
