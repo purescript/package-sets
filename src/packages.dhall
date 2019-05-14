@@ -43,6 +43,7 @@ let packages =
       ⫽ ./groups/morganthomas.dhall
       ⫽ ./groups/mschristiansen.dhall
       ⫽ ./groups/natefaubion.dhall
+      ⫽ ./groups/nkly.dhall
       ⫽ ./groups/nwolverson.dhall
       ⫽ ./groups/oreshinya.dhall
       ⫽ ./groups/owickstrom.dhall
