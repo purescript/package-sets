@@ -279,7 +279,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-lists.git"
-        "v5.4.0"
+        "v5.4.1"
     , math =
         mkPackage
         ([] : List Text)

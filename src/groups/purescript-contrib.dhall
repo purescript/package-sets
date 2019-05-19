@@ -17,7 +17,7 @@ in  { aff-coroutines =
         , "record"
         ]
         "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-        "v6.0.1"
+        "v6.0.2"
     , argonaut-core =
         mkPackage
         [ "arrays"
@@ -109,7 +109,7 @@ in  { aff-coroutines =
         mkPackage
         [ "contravariant", "foreign", "foreign-object", "maybe", "tuples" ]
         "https://github.com/purescript-contrib/purescript-options.git"
-        "v4.0.0"
+        "v5.0.0"
     , profunctor-lenses =
         mkPackage
         [ "arrays"
@@ -146,7 +146,7 @@ in  { aff-coroutines =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript-contrib/purescript-react.git"
-        "v6.1.0"
+        "v7.0.0"
     , react-dom =
         mkPackage
         [ "effect", "react", "web-dom" ]
@@ -191,7 +191,7 @@ in  { aff-coroutines =
         , "unicode"
         ]
         "https://github.com/purescript-contrib/purescript-parsing.git"
-        "v5.0.2"
+        "v5.0.3"
     , strongcheck =
         mkPackage
         [ "arrays"
@@ -228,5 +228,5 @@ in  { aff-coroutines =
         mkPackage
         [ "argonaut-codecs", "argonaut-core", "generics-rep", "record" ]
         "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
-        "v4.0.0"
+        "v5.0.0"
     }

@@ -15,5 +15,5 @@ in  { mmorph =
         , "transformers"
         ]
         "https://github.com/thimoteus/purescript-promises.git"
-        "v3.1.0"
+        "v3.1.1"
     }

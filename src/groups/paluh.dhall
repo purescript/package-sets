@@ -17,7 +17,7 @@ in  { polyform =
         "v0.7.0"
     , pointed-list =
         mkPackage
-        [ "prelude", "lists" ]
+        [ "lists", "prelude" ]
         "https://github.com/paluh/purescript-pointed-list.git"
-        "v0.3.0"
+        "v0.4.0"
     }
