@@ -2056,6 +2056,17 @@
     "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
     "version": "v0.6.1"
   },
+  "react-basic-native": {
+    "dependencies": [
+      "effect",
+      "foreign-object",
+      "js-date",
+      "react-basic",
+      "undefinable"
+    ],
+    "repo": "https://github.com/dwhitney/purescript-react-basic-native.git",
+    "version": "v0.1.0"
+  },
   "react-dom": {
     "dependencies": [
       "effect",
@@ -2655,6 +2666,14 @@
     ],
     "repo": "https://github.com/zaquest/purescript-uint.git",
     "version": "v5.1.1"
+  },
+  "undefinable": {
+    "dependencies": [
+      "functions",
+      "maybe"
+    ],
+    "repo": "https://github.com/ethul/purescript-undefinable.git",
+    "version": "v4.0.0"
   },
   "unfoldable": {
     "dependencies": [
