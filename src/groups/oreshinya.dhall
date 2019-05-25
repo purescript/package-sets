@@ -30,4 +30,9 @@ in  { basic-auth =
         [ "ordered-collections", "refs" ]
         "https://github.com/oreshinya/purescript-simple-emitter.git"
         "v1.0.0"
+    , simple-jwt =
+        mkPackage
+        [ "crypto", "simple-json", "strings" ]
+        "https://github.com/oreshinya/purescript-simple-jwt.git"
+        "v1.0.0"
     }
