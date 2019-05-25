@@ -2326,6 +2326,15 @@
     "repo": "https://github.com/justinwoo/purescript-simple-json-utils.git",
     "version": "v0.1.0"
   },
+  "simple-jwt": {
+    "dependencies": [
+      "crypto",
+      "simple-json",
+      "strings"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-simple-jwt.git",
+    "version": "v1.0.0"
+  },
   "sized-vectors": {
     "dependencies": [
       "arrays",
