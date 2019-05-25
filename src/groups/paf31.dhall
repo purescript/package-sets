@@ -45,7 +45,7 @@ in  { event =
         , "record"
         ]
         "https://github.com/paf31/purescript-foreign-generic.git"
-        "v9.0.0"
+        "v10.0.0"
     , memoize =
         mkPackage
         [ "either"

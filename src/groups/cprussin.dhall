@@ -23,6 +23,7 @@ in  { httpure =
         , "node-streams"
         , "nullable"
         , "options"
+        , "ordered-collections"
         , "prelude"
         , "psci-support"
         , "refs"
@@ -33,7 +34,7 @@ in  { httpure =
         , "unsafe-coerce"
         ]
         "https://github.com/cprussin/purescript-httpure.git"
-        "v0.8.1"
+        "v0.8.2"
     , monad-logger =
         mkPackage
         [ "aff"
