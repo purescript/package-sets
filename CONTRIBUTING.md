@@ -57,7 +57,7 @@ This is because if packages `X@v1` and `Y@v1` depend on package `Z@v1` then if p
 
 However, things happen and packages go unmaintained, so there's the need to drop packages from the package-set every once in a while, in order to allow for the majority of the packages to keep up with the latest versions.
 
-Since package-set releases are tied to compiler releases, new compiler releases (happening every 6 weeks) will coincide with outdated packages being dropped from the set.
+Once a package version introduces breakage, the upstream will be notified (via issue or pull request) and a package might be removed from the set if there is no activity after 1 week.
 
 ## Package-sets maintenance
 
