@@ -19,4 +19,16 @@ in  { b64 =
         [ "arraybuffer-types", "either", "exceptions", "functions", "prelude" ]
         "https://github.com/menelaos/purescript-encoding.git"
         "v0.0.5"
+    , stringutils =
+        mkPackage
+        [ "strings"
+        , "partial"
+        , "arrays"
+        , "either"
+        , "maybe"
+        , "prelude"
+        , "integers"
+        ]
+        "https://github.com/menelaos/purescript-stringutils.git"
+        "v0.0.8"
     }
