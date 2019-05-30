@@ -36,7 +36,7 @@ in  { variant =
         mkPackage
         [ "either", "functors", "prelude", "record", "tuples", "variant" ]
         "https://github.com/natefaubion/purescript-heterogeneous.git"
-        "v0.4.0"
+        "v0.4.1"
     , routing-duplex =
         mkPackage
         [ "arrays"
