@@ -1949,8 +1949,8 @@
       "proxy",
       "quickcheck"
     ],
-    "repo": "https://github.com/justinwoo/purescript-quickcheck-laws.git",
-    "version": "v5.0.0-patch"
+    "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
+    "version": "v5.0.1"
   },
   "random": {
     "dependencies": [
@@ -2188,8 +2188,8 @@
       "unsafe-coerce",
       "variant"
     ],
-    "repo": "https://github.com/justinwoo/purescript-run.git",
-    "version": "v3.0.0-patch"
+    "repo": "https://github.com/natefaubion/purescript-run.git",
+    "version": "v3.0.1"
   },
   "run-streaming": {
     "dependencies": [

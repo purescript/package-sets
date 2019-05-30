@@ -76,26 +76,12 @@ let overrides =
             , repo =
                 "https://github.com/justinwoo/purescript-polyform.git"
             }
-      , quickcheck-laws =
-            packages.quickcheck-laws
-          ⫽ { version =
-                "v5.0.0-patch"
-            , repo =
-                "https://github.com/justinwoo/purescript-quickcheck-laws.git"
-            }
       , rave =
             packages.rave
           ⫽ { version =
                 "v0.1.0-patch"
             , repo =
                 "https://github.com/justinwoo/purescript-rave.git"
-            }
-      , run =
-            packages.run
-          ⫽ { version =
-                "v3.0.0-patch"
-            , repo =
-                "https://github.com/justinwoo/purescript-run.git"
             }
       , smolder =
             packages.smolder
