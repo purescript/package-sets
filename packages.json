@@ -353,6 +353,25 @@
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-static.git",
     "version": "v0.2.0"
   },
+  "bytestrings": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "exceptions",
+      "foldable-traversable",
+      "integers",
+      "leibniz",
+      "maybe",
+      "newtype",
+      "node-buffer",
+      "prelude",
+      "quickcheck",
+      "quotient",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rightfold/purescript-bytestrings.git",
+    "version": "v7.0.0"
+  },
   "canvas": {
     "dependencies": [
       "arraybuffer-types",
@@ -1827,6 +1846,33 @@
     "repo": "https://github.com/purescript-node/purescript-posix-types.git",
     "version": "v4.0.0"
   },
+  "postgresql-client": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "bifunctors",
+      "bytestrings",
+      "datetime",
+      "decimals",
+      "effect",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "foreign-generic",
+      "foreign-object",
+      "js-date",
+      "lists",
+      "maybe",
+      "newtype",
+      "nullable",
+      "prelude",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/rightfold/purescript-postgresql-client",
+    "version": "v3.0.0-alpha"
+  },
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
@@ -1951,6 +1997,15 @@
     ],
     "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
     "version": "v5.0.1"
+  },
+  "quotient": {
+    "dependencies": [
+      "prelude",
+      "proxy",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/rightfold/purescript-quotient.git",
+    "version": "v3.0.0"
   },
   "random": {
     "dependencies": [

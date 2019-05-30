@@ -53,6 +53,7 @@ let packages =
       ⫽ ./groups/purescript-freedom.dhall
       ⫽ ./groups/purescript-spec.dhall
       ⫽ ./groups/reactormonk.dhall
+      ⫽ ./groups/rightfold.dhall
       ⫽ ./groups/rnons.dhall
       ⫽ ./groups/sharkdp.dhall
       ⫽ ./groups/slamdata.dhall
