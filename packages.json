@@ -383,8 +383,8 @@
       "transformers",
       "variant"
     ],
-    "repo": "https://github.com/justinwoo/purescript-checked-exceptions.git",
-    "version": "v2.0.0-patch"
+    "repo": "https://github.com/natefaubion/purescript-checked-exceptions.git",
+    "version": "v3.0.0"
   },
   "cheerio": {
     "dependencies": [

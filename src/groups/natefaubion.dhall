@@ -62,5 +62,5 @@ in  { variant =
         mkPackage
         [ "prelude", "transformers", "variant" ]
         "https://github.com/natefaubion/purescript-checked-exceptions.git"
-        "v2.0.0"
+        "v3.0.0"
     }
