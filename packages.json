@@ -1041,14 +1041,13 @@
       "ordered-collections",
       "parallel",
       "profunctor",
-      "profunctor-lenses",
       "transformers",
       "unsafe-coerce",
       "unsafe-reference",
       "web-uievents"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0-rc.4"
   },
   "halogen-bootstrap": {
     "dependencies": [
@@ -1086,7 +1085,7 @@
       "web-html"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
-    "version": "v3.0.0"
+    "version": "v6.1.0"
   },
   "heterogeneous": {
     "dependencies": [
@@ -2308,7 +2307,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v5.1.0"
+    "version": "v6.0.0"
   },
   "simple-json-generics": {
     "dependencies": [
@@ -2513,13 +2512,12 @@
   },
   "svg-parser-halogen": {
     "dependencies": [
-      "generics-rep",
       "halogen",
       "prelude",
-      "string-parsers"
+      "svg-parser"
     ],
     "repo": "https://github.com/rnons/purescript-svg-parser-halogen.git",
-    "version": "v0.4.0"
+    "version": "v1.0.0"
   },
   "tailrec": {
     "dependencies": [

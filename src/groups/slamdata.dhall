@@ -81,14 +81,13 @@ in  { aff =
         , "ordered-collections"
         , "parallel"
         , "profunctor"
-        , "profunctor-lenses"
         , "transformers"
         , "unsafe-coerce"
         , "unsafe-reference"
         , "web-uievents"
         ]
         "https://github.com/slamdata/purescript-halogen.git"
-        "v4.0.0"
+        "v5.0.0-rc.4"
     , halogen-vdom =
         mkPackage
         [ "bifunctors"
@@ -103,7 +102,7 @@ in  { aff =
         , "web-html"
         ]
         "https://github.com/slamdata/purescript-halogen-vdom.git"
-        "v3.0.0"
+        "v6.1.0"
     , routing =
         mkPackage
         [ "aff"

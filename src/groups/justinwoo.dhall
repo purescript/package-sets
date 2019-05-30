@@ -63,7 +63,7 @@ in  { gomtang-basic =
         , "variant"
         ]
         "https://github.com/justinwoo/purescript-simple-json.git"
-        "v5.1.0"
+        "v6.0.0"
     , sunde =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]
@@ -105,7 +105,7 @@ in  { gomtang-basic =
         mkPackage
         [ "event", "prelude", "record", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-chocopie.git"
-        "v5.0.0"
+        "v4.0.0"
     , expect-inferred =
         mkPackage
         [ "prelude", "typelevel-prelude" ]
