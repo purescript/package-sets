@@ -61,4 +61,66 @@ let packages =
       ⫽ ./groups/zaquest.dhall
       ⫽ ./groups/dwhitney.dhall
 
-in  packages
+let overrides =
+      { bucketchain-simple-api =
+            packages.bucketchain-simple-api
+          ⫽ { version =
+                "v0.4.0-patch"
+            , repo =
+                "https://github.com/justinwoo/purescript-bucketchain-simple-api.git"
+            }
+      , polyform =
+            packages.polyform
+          ⫽ { version =
+                "v0.7.0-patch"
+            , repo =
+                "https://github.com/justinwoo/purescript-polyform.git"
+            }
+      , quickcheck-laws =
+            packages.quickcheck-laws
+          ⫽ { version =
+                "v5.0.0-patch"
+            , repo =
+                "https://github.com/justinwoo/purescript-quickcheck-laws.git"
+            }
+      , rave =
+            packages.rave
+          ⫽ { version =
+                "v0.1.0-patch"
+            , repo =
+                "https://github.com/justinwoo/purescript-rave.git"
+            }
+      , run =
+            packages.run
+          ⫽ { version =
+                "v3.0.0-patch"
+            , repo =
+                "https://github.com/justinwoo/purescript-run.git"
+            }
+      , smolder =
+            packages.smolder
+          ⫽ { version =
+                "v11.0.1-patch"
+            , repo =
+                "https://github.com/justinwoo/purescript-smolder.git"
+            }
+      , unordered-collections =
+            packages.unordered-collections
+          ⫽ { version =
+                "v1.8.0-patch"
+            , repo =
+                "https://github.com/justinwoo/purescript-unordered-collections.git"
+            , dependencies =
+                [ "enums"
+                , "functions"
+                , "integers"
+                , "lists"
+                , "prelude"
+                , "record"
+                , "typelevel-prelude"
+                , "tuples"
+                ]
+            }
+      }
+
+in  packages ⫽ overrides

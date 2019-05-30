@@ -335,8 +335,8 @@
       "media-types",
       "simple-json"
     ],
-    "repo": "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git",
-    "version": "v0.4.0"
+    "repo": "https://github.com/justinwoo/purescript-bucketchain-simple-api.git",
+    "version": "v0.4.0-patch"
   },
   "bucketchain-sslify": {
     "dependencies": [
@@ -384,7 +384,7 @@
       "variant"
     ],
     "repo": "https://github.com/natefaubion/purescript-checked-exceptions.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "cheerio": {
     "dependencies": [
@@ -401,10 +401,11 @@
     "dependencies": [
       "exceptions",
       "prelude",
+      "typelevel-prelude",
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-chirashi.git",
-    "version": "v0.1.0"
+    "version": "v1.0.0"
   },
   "choco-pie": {
     "dependencies": [
@@ -414,7 +415,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-chocopie.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "colors": {
     "dependencies": [
@@ -607,7 +608,7 @@
       "transformers"
     ],
     "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "encoding": {
     "dependencies": [
@@ -684,18 +685,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-expect-inferred.git",
-    "version": "v1.0.0"
-  },
-  "express": {
-    "dependencies": [
-      "aff",
-      "foreign",
-      "foreign-generic",
-      "node-http",
-      "test-unit"
-    ],
-    "repo": "https://github.com/nkly/purescript-express.git",
-    "version": "v0.8.0"
+    "version": "v2.0.0"
   },
   "filterable": {
     "dependencies": [
@@ -776,7 +766,7 @@
       "record"
     ],
     "repo": "https://github.com/paf31/purescript-foreign-generic.git",
-    "version": "v9.0.0"
+    "version": "v10.0.0"
   },
   "foreign-object": {
     "dependencies": [
@@ -794,7 +784,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-foreign-object.git",
-    "version": "v2.0.1"
+    "version": "v2.0.2"
   },
   "fork": {
     "dependencies": [
@@ -1041,14 +1031,13 @@
       "ordered-collections",
       "parallel",
       "profunctor",
-      "profunctor-lenses",
       "transformers",
       "unsafe-coerce",
       "unsafe-reference",
       "web-uievents"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0-rc.4"
   },
   "halogen-bootstrap": {
     "dependencies": [
@@ -1086,7 +1075,7 @@
       "web-html"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
-    "version": "v3.0.0"
+    "version": "v6.1.0"
   },
   "heterogeneous": {
     "dependencies": [
@@ -1098,7 +1087,7 @@
       "variant"
     ],
     "repo": "https://github.com/natefaubion/purescript-heterogeneous.git",
-    "version": "v0.4.0"
+    "version": "v0.4.1"
   },
   "http-methods": {
     "dependencies": [
@@ -1132,6 +1121,7 @@
       "node-streams",
       "nullable",
       "options",
+      "ordered-collections",
       "prelude",
       "psci-support",
       "refs",
@@ -1142,7 +1132,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/cprussin/purescript-httpure.git",
-    "version": "v0.8.1"
+    "version": "v0.8.2"
   },
   "identity": {
     "dependencies": [
@@ -1237,10 +1227,11 @@
     "dependencies": [
       "generics-rep",
       "prelude",
+      "typelevel-prelude",
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-kishimen.git",
-    "version": "v0.2.0"
+    "version": "v1.0.1"
   },
   "lazy": {
     "dependencies": [
@@ -1448,10 +1439,11 @@
   },
   "naporitan": {
     "dependencies": [
-      "record"
+      "record",
+      "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-naporitan.git",
-    "version": "v0.2.0"
+    "version": "v1.0.0"
   },
   "newtype": {
     "dependencies": [
@@ -1557,7 +1549,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-http.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "node-path": {
     "dependencies": [
@@ -1824,8 +1816,8 @@
       "transformers",
       "variant"
     ],
-    "repo": "https://github.com/paluh/purescript-polyform.git",
-    "version": "v0.7.0"
+    "repo": "https://github.com/justinwoo/purescript-polyform.git",
+    "version": "v0.7.0-patch"
   },
   "posix-types": {
     "dependencies": [
@@ -1839,28 +1831,6 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
     "version": "v4.1.0"
-  },
-  "presto": {
-    "dependencies": [
-      "aff",
-      "avar",
-      "console",
-      "control",
-      "datetime",
-      "exceptions",
-      "exists",
-      "foreign-generic",
-      "foreign-object",
-      "free",
-      "generics-rep",
-      "prelude",
-      "record",
-      "transformers",
-      "tuples",
-      "typelevel-prelude"
-    ],
-    "repo": "https://github.com/juspay/purescript-presto.git",
-    "version": "v0.4.0"
   },
   "prettier": {
     "dependencies": [
@@ -1979,8 +1949,8 @@
       "proxy",
       "quickcheck"
     ],
-    "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
-    "version": "v5.0.0"
+    "repo": "https://github.com/justinwoo/purescript-quickcheck-laws.git",
+    "version": "v5.0.0-patch"
   },
   "random": {
     "dependencies": [
@@ -2010,8 +1980,8 @@
       "record",
       "variant"
     ],
-    "repo": "https://github.com/reactormonk/purescript-rave.git",
-    "version": "v0.1.0"
+    "repo": "https://github.com/justinwoo/purescript-rave.git",
+    "version": "v0.1.0-patch"
   },
   "react": {
     "dependencies": [
@@ -2024,7 +1994,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
-    "version": "v7.0.0"
+    "version": "v7.0.1"
   },
   "react-basic": {
     "dependencies": [
@@ -2065,7 +2035,7 @@
       "undefinable"
     ],
     "repo": "https://github.com/dwhitney/purescript-react-basic-native.git",
-    "version": "v0.1.0"
+    "version": "v0.1.3"
   },
   "react-dom": {
     "dependencies": [
@@ -2074,7 +2044,7 @@
       "web-dom"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
-    "version": "v6.0.1"
+    "version": "v6.1.0"
   },
   "read": {
     "dependencies": [
@@ -2090,11 +2060,10 @@
       "functions",
       "prelude",
       "st",
-      "typelevel-prelude",
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-record.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "record-extra": {
     "dependencies": [
@@ -2219,8 +2188,8 @@
       "unsafe-coerce",
       "variant"
     ],
-    "repo": "https://github.com/natefaubion/purescript-run.git",
-    "version": "v3.0.0"
+    "repo": "https://github.com/justinwoo/purescript-run.git",
+    "version": "v3.0.0-patch"
   },
   "run-streaming": {
     "dependencies": [
@@ -2282,10 +2251,11 @@
   "sijidou": {
     "dependencies": [
       "prelude",
-      "record"
+      "record",
+      "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-sijidou.git",
-    "version": "v0.1.0"
+    "version": "v1.0.0"
   },
   "simple-emitter": {
     "dependencies": [
@@ -2308,7 +2278,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v5.1.0"
+    "version": "v6.0.0"
   },
   "simple-json-generics": {
     "dependencies": [
@@ -2359,8 +2329,8 @@
       "transformers",
       "tuples"
     ],
-    "repo": "https://github.com/bodil/purescript-smolder.git",
-    "version": "v11.0.1"
+    "repo": "https://github.com/justinwoo/purescript-smolder.git",
+    "version": "v11.0.1-patch"
   },
   "snabbdom": {
     "dependencies": [
@@ -2387,17 +2357,20 @@
     "dependencies": [
       "aff",
       "ansi",
+      "avar",
       "console",
       "exceptions",
       "foldable-traversable",
+      "fork",
       "generics-rep",
+      "now",
       "pipes",
       "prelude",
       "strings",
       "transformers"
     ],
     "repo": "https://github.com/purescript-spec/purescript-spec.git",
-    "version": "v3.1.0"
+    "version": "v4.0.0-rc1"
   },
   "spec-discovery": {
     "dependencies": [
@@ -2511,15 +2484,23 @@
     "repo": "https://github.com/justinwoo/purescript-sunde.git",
     "version": "v1.0.0"
   },
-  "svg-parser-halogen": {
+  "svg-parser": {
     "dependencies": [
       "generics-rep",
-      "halogen",
       "prelude",
       "string-parsers"
     ],
+    "repo": "https://github.com/rnons/purescript-svg-parser.git",
+    "version": "v1.0.0"
+  },
+  "svg-parser-halogen": {
+    "dependencies": [
+      "halogen",
+      "prelude",
+      "svg-parser"
+    ],
     "repo": "https://github.com/rnons/purescript-svg-parser-halogen.git",
-    "version": "v0.4.0"
+    "version": "v1.0.0"
   },
   "tailrec": {
     "dependencies": [
@@ -2665,7 +2646,7 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "uint": {
     "dependencies": [
@@ -2693,7 +2674,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-unfoldable.git",
-    "version": "v4.0.0"
+    "version": "v4.0.2"
   },
   "unicode": {
     "dependencies": [
@@ -2712,10 +2693,11 @@
       "lists",
       "prelude",
       "record",
-      "tuples"
+      "tuples",
+      "typelevel-prelude"
     ],
-    "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
-    "version": "v1.8.0"
+    "repo": "https://github.com/justinwoo/purescript-unordered-collections.git",
+    "version": "v1.8.0-patch"
   },
   "unsafe-coerce": {
     "dependencies": [],
@@ -2746,13 +2728,13 @@
       "maybe",
       "partial",
       "prelude",
+      "proxy",
       "record",
       "tuples",
-      "typelevel-prelude",
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "web-clipboard": {
     "dependencies": [
@@ -2794,7 +2776,7 @@
       "web-storage"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
-    "version": "v2.1.0"
+    "version": "v2.2.0"
   },
   "web-socket": {
     "dependencies": [

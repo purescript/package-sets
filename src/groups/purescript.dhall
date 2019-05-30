@@ -166,7 +166,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-foreign-object.git"
-        "v2.0.1"
+        "v2.0.2"
     , free =
         mkPackage
         [ "catenable-lists"
@@ -417,9 +417,9 @@ in  { arrays =
         "v4.0.0"
     , record =
         mkPackage
-        [ "functions", "prelude", "st", "typelevel-prelude", "unsafe-coerce" ]
+        [ "functions", "prelude", "st", "unsafe-coerce" ]
         "https://github.com/purescript/purescript-record.git"
-        "v2.0.0"
+        "v2.0.1"
     , refs =
         mkPackage
         [ "effect", "prelude" ]
@@ -511,12 +511,12 @@ in  { arrays =
         mkPackage
         [ "prelude", "proxy", "type-equality" ]
         "https://github.com/purescript/purescript-typelevel-prelude.git"
-        "v4.0.0"
+        "v5.0.0"
     , unfoldable =
         mkPackage
         [ "foldable-traversable", "maybe", "partial", "prelude", "tuples" ]
         "https://github.com/purescript/purescript-unfoldable.git"
-        "v4.0.0"
+        "v4.0.2"
     , unsafe-coerce =
         mkPackage
         ([] : List Text)

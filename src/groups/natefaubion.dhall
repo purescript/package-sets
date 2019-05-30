@@ -7,13 +7,13 @@ in  { variant =
         , "maybe"
         , "partial"
         , "prelude"
+        , "proxy"
         , "record"
         , "tuples"
-        , "typelevel-prelude"
         , "unsafe-coerce"
         ]
         "https://github.com/natefaubion/purescript-variant.git"
-        "v6.0.0"
+        "v6.0.1"
     , run =
         mkPackage
         [ "aff"
@@ -36,7 +36,7 @@ in  { variant =
         mkPackage
         [ "either", "functors", "prelude", "record", "tuples", "variant" ]
         "https://github.com/natefaubion/purescript-heterogeneous.git"
-        "v0.4.0"
+        "v0.4.1"
     , routing-duplex =
         mkPackage
         [ "arrays"
@@ -62,5 +62,5 @@ in  { variant =
         mkPackage
         [ "prelude", "transformers", "variant" ]
         "https://github.com/natefaubion/purescript-checked-exceptions.git"
-        "v2.0.0"
+        "v3.0.0"
     }

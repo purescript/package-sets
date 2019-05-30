@@ -63,7 +63,7 @@ in  { gomtang-basic =
         , "variant"
         ]
         "https://github.com/justinwoo/purescript-simple-json.git"
-        "v5.1.0"
+        "v6.0.0"
     , sunde =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]
@@ -105,12 +105,12 @@ in  { gomtang-basic =
         mkPackage
         [ "event", "prelude", "record", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-chocopie.git"
-        "v4.0.0"
+        "v5.0.0"
     , expect-inferred =
         mkPackage
         [ "prelude", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-expect-inferred.git"
-        "v1.0.0"
+        "v2.0.0"
     , type-isequal =
         mkPackage
         [ "typelevel-prelude" ]
@@ -133,9 +133,9 @@ in  { gomtang-basic =
         "v0.1.0"
     , naporitan =
         mkPackage
-        [ "record" ]
+        [ "record", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-naporitan.git"
-        "v0.2.0"
+        "v1.0.0"
     , xiaomian =
         mkPackage
         [ "naporitan" ]
@@ -143,19 +143,19 @@ in  { gomtang-basic =
         "v0.1.0"
     , chirashi =
         mkPackage
-        [ "exceptions", "prelude", "variant" ]
+        [ "exceptions", "prelude", "typelevel-prelude", "variant" ]
         "https://github.com/justinwoo/purescript-chirashi.git"
-        "v0.1.0"
+        "v1.0.0"
     , sijidou =
         mkPackage
-        [ "prelude", "record" ]
+        [ "prelude", "record", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-sijidou.git"
-        "v0.1.0"
+        "v1.0.0"
     , kishimen =
         mkPackage
-        [ "generics-rep", "prelude", "variant" ]
+        [ "generics-rep", "prelude", "typelevel-prelude", "variant" ]
         "https://github.com/justinwoo/purescript-kishimen.git"
-        "v0.2.0"
+        "v1.0.1"
     , motsunabe =
         mkPackage
         [ "lists", "strings" ]
