@@ -1949,8 +1949,8 @@
       "proxy",
       "quickcheck"
     ],
-    "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
-    "version": "v5.0.0"
+    "repo": "https://github.com/justinwoo/purescript-quickcheck-laws.git",
+    "version": "v5.0.0-patch"
   },
   "random": {
     "dependencies": [
@@ -1980,8 +1980,8 @@
       "record",
       "variant"
     ],
-    "repo": "https://github.com/reactormonk/purescript-rave.git",
-    "version": "v0.1.0"
+    "repo": "https://github.com/justinwoo/purescript-rave.git",
+    "version": "v0.1.0-patch"
   },
   "react": {
     "dependencies": [
@@ -2188,8 +2188,8 @@
       "unsafe-coerce",
       "variant"
     ],
-    "repo": "https://github.com/natefaubion/purescript-run.git",
-    "version": "v3.0.0"
+    "repo": "https://github.com/justinwoo/purescript-run.git",
+    "version": "v3.0.0-patch"
   },
   "run-streaming": {
     "dependencies": [
@@ -2251,10 +2251,11 @@
   "sijidou": {
     "dependencies": [
       "prelude",
-      "record"
+      "record",
+      "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-sijidou.git",
-    "version": "v0.1.0"
+    "version": "v1.0.0"
   },
   "simple-emitter": {
     "dependencies": [
@@ -2328,8 +2329,8 @@
       "transformers",
       "tuples"
     ],
-    "repo": "https://github.com/bodil/purescript-smolder.git",
-    "version": "v11.0.1"
+    "repo": "https://github.com/justinwoo/purescript-smolder.git",
+    "version": "v11.0.1-patch"
   },
   "snabbdom": {
     "dependencies": [
@@ -2481,6 +2482,15 @@
       "prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-sunde.git",
+    "version": "v1.0.0"
+  },
+  "svg-parser": {
+    "dependencies": [
+      "generics-rep",
+      "prelude",
+      "string-parsers"
+    ],
+    "repo": "https://github.com/rnons/purescript-svg-parser.git",
     "version": "v1.0.0"
   },
   "svg-parser-halogen": {
@@ -2683,10 +2693,11 @@
       "lists",
       "prelude",
       "record",
-      "tuples"
+      "tuples",
+      "typelevel-prelude"
     ],
-    "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
-    "version": "v1.8.0"
+    "repo": "https://github.com/justinwoo/purescript-unordered-collections.git",
+    "version": "v1.8.0-patch"
   },
   "unsafe-coerce": {
     "dependencies": [],

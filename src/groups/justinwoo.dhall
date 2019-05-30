@@ -148,9 +148,9 @@ in  { gomtang-basic =
         "v1.0.0"
     , sijidou =
         mkPackage
-        [ "prelude", "record" ]
+        [ "prelude", "record", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-sijidou.git"
-        "v0.1.0"
+        "v1.0.0"
     , kishimen =
         mkPackage
         [ "generics-rep", "prelude", "typelevel-prelude", "variant" ]
