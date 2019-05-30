@@ -110,7 +110,7 @@ in  { gomtang-basic =
         mkPackage
         [ "prelude", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-expect-inferred.git"
-        "v1.0.0"
+        "v2.0.0"
     , type-isequal =
         mkPackage
         [ "typelevel-prelude" ]
@@ -133,9 +133,9 @@ in  { gomtang-basic =
         "v0.1.0"
     , naporitan =
         mkPackage
-        [ "record" ]
+        [ "record", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-naporitan.git"
-        "v0.2.0"
+        "v1.0.0"
     , xiaomian =
         mkPackage
         [ "naporitan" ]
@@ -153,9 +153,9 @@ in  { gomtang-basic =
         "v0.1.0"
     , kishimen =
         mkPackage
-        [ "generics-rep", "prelude", "variant" ]
+        [ "generics-rep", "prelude", "typelevel-prelude", "variant" ]
         "https://github.com/justinwoo/purescript-kishimen.git"
-        "v0.2.0"
+        "v1.0.1"
     , motsunabe =
         mkPackage
         [ "lists", "strings" ]

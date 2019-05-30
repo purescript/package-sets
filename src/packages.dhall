@@ -69,6 +69,13 @@ let overrides =
             , repo =
                 "https://github.com/justinwoo/purescript-bucketchain-simple-api.git"
             }
+      , polyform =
+            packages.polyform
+          ⫽ { version =
+                "v0.7.0-patch"
+            , repo =
+                "https://github.com/justinwoo/purescript-polyform.git"
+            }
       }
 
 in  packages ⫽ overrides

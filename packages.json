@@ -685,7 +685,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-expect-inferred.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "express": {
     "dependencies": [
@@ -1238,10 +1238,11 @@
     "dependencies": [
       "generics-rep",
       "prelude",
+      "typelevel-prelude",
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-kishimen.git",
-    "version": "v0.2.0"
+    "version": "v1.0.1"
   },
   "lazy": {
     "dependencies": [
@@ -1449,10 +1450,11 @@
   },
   "naporitan": {
     "dependencies": [
-      "record"
+      "record",
+      "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-naporitan.git",
-    "version": "v0.2.0"
+    "version": "v1.0.0"
   },
   "newtype": {
     "dependencies": [
@@ -1825,8 +1827,8 @@
       "transformers",
       "variant"
     ],
-    "repo": "https://github.com/paluh/purescript-polyform.git",
-    "version": "v0.7.0"
+    "repo": "https://github.com/justinwoo/purescript-polyform.git",
+    "version": "v0.7.0-patch"
   },
   "posix-types": {
     "dependencies": [
