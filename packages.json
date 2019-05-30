@@ -415,7 +415,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-chocopie.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "colors": {
     "dependencies": [
@@ -608,7 +608,7 @@
       "transformers"
     ],
     "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "encoding": {
     "dependencies": [
@@ -2387,17 +2387,20 @@
     "dependencies": [
       "aff",
       "ansi",
+      "avar",
       "console",
       "exceptions",
       "foldable-traversable",
+      "fork",
       "generics-rep",
+      "now",
       "pipes",
       "prelude",
       "strings",
       "transformers"
     ],
     "repo": "https://github.com/purescript-spec/purescript-spec.git",
-    "version": "v3.1.0"
+    "version": "v4.0.0-rc1"
   },
   "spec-discovery": {
     "dependencies": [
