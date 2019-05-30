@@ -687,17 +687,6 @@
     "repo": "https://github.com/justinwoo/purescript-expect-inferred.git",
     "version": "v2.0.0"
   },
-  "express": {
-    "dependencies": [
-      "aff",
-      "foreign",
-      "foreign-generic",
-      "node-http",
-      "test-unit"
-    ],
-    "repo": "https://github.com/nkly/purescript-express.git",
-    "version": "v0.8.0"
-  },
   "filterable": {
     "dependencies": [
       "arrays",
@@ -1842,28 +1831,6 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
     "version": "v4.1.0"
-  },
-  "presto": {
-    "dependencies": [
-      "aff",
-      "avar",
-      "console",
-      "control",
-      "datetime",
-      "exceptions",
-      "exists",
-      "foreign-generic",
-      "foreign-object",
-      "free",
-      "generics-rep",
-      "prelude",
-      "record",
-      "transformers",
-      "tuples",
-      "typelevel-prelude"
-    ],
-    "repo": "https://github.com/juspay/purescript-presto.git",
-    "version": "v0.4.0"
   },
   "prettier": {
     "dependencies": [
