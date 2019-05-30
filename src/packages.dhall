@@ -61,4 +61,21 @@ let packages =
       ⫽ ./groups/zaquest.dhall
       ⫽ ./groups/dwhitney.dhall
 
-in  packages
+let overrides =
+      { bucketchain-simple-api =
+            packages.bucketchain-simple-api
+          ⫽ { version =
+                "v0.4.0-patch"
+            , repo =
+                "https://github.com/justinwoo/purescript-bucketchain-simple-api.git"
+            }
+      , checked-exceptions =
+            packages.checked-exceptions
+          ⫽ { version =
+                "v2.0.0-patch"
+            , repo =
+                "https://github.com/justinwoo/purescript-checked-exceptions.git"
+            }
+      }
+
+in  packages ⫽ overrides

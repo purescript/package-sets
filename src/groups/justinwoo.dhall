@@ -143,9 +143,9 @@ in  { gomtang-basic =
         "v0.1.0"
     , chirashi =
         mkPackage
-        [ "exceptions", "prelude", "variant" ]
+        [ "exceptions", "prelude", "typelevel-prelude", "variant" ]
         "https://github.com/justinwoo/purescript-chirashi.git"
-        "v0.1.0"
+        "v1.0.0"
     , sijidou =
         mkPackage
         [ "prelude", "record" ]
