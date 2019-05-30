@@ -83,6 +83,13 @@ let overrides =
             , repo =
                 "https://github.com/justinwoo/purescript-rave.git"
             }
+      , react-basic =
+            packages.react-basic
+          ⫽ { version =
+                "v9.0.0-fix-row-imports"
+            , repo =
+                "https://github.com/justinwoo/purescript-react-basic.git"
+            }
       , smolder =
             packages.smolder
           ⫽ { version =

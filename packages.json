@@ -2011,8 +2011,8 @@
       "web-events",
       "web-html"
     ],
-    "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v9.0.0"
+    "repo": "https://github.com/justinwoo/purescript-react-basic.git",
+    "version": "v9.0.0-fix-row-imports"
   },
   "react-basic-hooks": {
     "dependencies": [
