@@ -146,12 +146,12 @@ in  { aff-coroutines =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript-contrib/purescript-react.git"
-        "v7.0.0"
+        "v7.0.1"
     , react-dom =
         mkPackage
         [ "effect", "react", "web-dom" ]
         "https://github.com/purescript-contrib/purescript-react-dom.git"
-        "v6.0.1"
+        "v6.1.0"
     , these =
         mkPackage
         [ "gen", "tuples" ]

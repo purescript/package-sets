@@ -64,7 +64,7 @@ in  { node-buffer =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript-node/purescript-node-http.git"
-        "v5.0.0"
+        "v5.0.1"
     , node-path =
         mkPackage
         [ "effect" ]

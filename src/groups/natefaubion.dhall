@@ -7,13 +7,13 @@ in  { variant =
         , "maybe"
         , "partial"
         , "prelude"
+        , "proxy"
         , "record"
         , "tuples"
-        , "typelevel-prelude"
         , "unsafe-coerce"
         ]
         "https://github.com/natefaubion/purescript-variant.git"
-        "v6.0.0"
+        "v6.0.1"
     , run =
         mkPackage
         [ "aff"

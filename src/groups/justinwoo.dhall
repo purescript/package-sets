@@ -105,7 +105,7 @@ in  { gomtang-basic =
         mkPackage
         [ "event", "prelude", "record", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-chocopie.git"
-        "v4.0.0"
+        "v5.0.0"
     , expect-inferred =
         mkPackage
         [ "prelude", "typelevel-prelude" ]
