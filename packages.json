@@ -1816,8 +1816,8 @@
       "transformers",
       "variant"
     ],
-    "repo": "https://github.com/justinwoo/purescript-polyform.git",
-    "version": "v0.7.0-patch"
+    "repo": "https://github.com/paluh/purescript-polyform.git",
+    "version": "v0.8.0"
   },
   "posix-types": {
     "dependencies": [
