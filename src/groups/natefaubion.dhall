@@ -31,7 +31,7 @@ in  { variant =
         , "variant"
         ]
         "https://github.com/natefaubion/purescript-run.git"
-        "v3.0.0"
+        "v3.0.1"
     , heterogeneous =
         mkPackage
         [ "either", "functors", "prelude", "record", "tuples", "variant" ]

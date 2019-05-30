@@ -9,7 +9,7 @@ in  { debug =
         mkPackage
         [ "enums", "proxy", "quickcheck" ]
         "https://github.com/garyb/purescript-quickcheck-laws.git"
-        "v5.0.0"
+        "v5.0.1"
     , indexed-monad =
         mkPackage
         [ "control", "newtype" ]

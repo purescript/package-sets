@@ -69,20 +69,6 @@ let overrides =
             , repo =
                 "https://github.com/justinwoo/purescript-bucketchain-simple-api.git"
             }
-      , polyform =
-            packages.polyform
-          ⫽ { version =
-                "v0.7.0-patch"
-            , repo =
-                "https://github.com/justinwoo/purescript-polyform.git"
-            }
-      , quickcheck-laws =
-            packages.quickcheck-laws
-          ⫽ { version =
-                "v5.0.0-patch"
-            , repo =
-                "https://github.com/justinwoo/purescript-quickcheck-laws.git"
-            }
       , rave =
             packages.rave
           ⫽ { version =
@@ -90,12 +76,12 @@ let overrides =
             , repo =
                 "https://github.com/justinwoo/purescript-rave.git"
             }
-      , run =
-            packages.run
+      , react-basic =
+            packages.react-basic
           ⫽ { version =
-                "v3.0.0-patch"
+                "v9.0.0-fix-row-imports"
             , repo =
-                "https://github.com/justinwoo/purescript-run.git"
+                "https://github.com/justinwoo/purescript-react-basic.git"
             }
       , smolder =
             packages.smolder
