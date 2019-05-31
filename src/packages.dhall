@@ -62,14 +62,7 @@ let packages =
       ⫽ ./groups/dwhitney.dhall
 
 let overrides =
-      { rave =
-            packages.rave
-          ⫽ { version =
-                "v0.1.0-patch"
-            , repo =
-                "https://github.com/justinwoo/purescript-rave.git"
-            }
-      , react-basic =
+      { react-basic =
             packages.react-basic
           ⫽ { version =
                 "v9.0.0-fix-row-imports"

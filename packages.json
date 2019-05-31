@@ -1980,8 +1980,8 @@
       "record",
       "variant"
     ],
-    "repo": "https://github.com/justinwoo/purescript-rave.git",
-    "version": "v0.1.0-patch"
+    "repo": "https://github.com/reactormonk/purescript-rave.git",
+    "version": "v0.1.1"
   },
   "react": {
     "dependencies": [

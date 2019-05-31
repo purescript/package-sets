@@ -12,5 +12,5 @@ in  { rave =
         , "variant"
         ]
         "https://github.com/reactormonk/purescript-rave.git"
-        "v0.1.0"
+        "v0.1.1"
     }
