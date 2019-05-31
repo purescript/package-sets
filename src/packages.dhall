@@ -62,14 +62,7 @@ let packages =
       ⫽ ./groups/dwhitney.dhall
 
 let overrides =
-      { bucketchain-simple-api =
-            packages.bucketchain-simple-api
-          ⫽ { version =
-                "v0.4.0-patch"
-            , repo =
-                "https://github.com/justinwoo/purescript-bucketchain-simple-api.git"
-            }
-      , rave =
+      { rave =
             packages.rave
           ⫽ { version =
                 "v0.1.0-patch"
