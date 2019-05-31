@@ -335,8 +335,8 @@
       "media-types",
       "simple-json"
     ],
-    "repo": "https://github.com/justinwoo/purescript-bucketchain-simple-api.git",
-    "version": "v0.4.0-patch"
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git",
+    "version": "v0.4.1"
   },
   "bucketchain-sslify": {
     "dependencies": [
