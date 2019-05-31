@@ -1846,33 +1846,6 @@
     "repo": "https://github.com/purescript-node/purescript-posix-types.git",
     "version": "v4.0.0"
   },
-  "postgresql-client": {
-    "dependencies": [
-      "aff",
-      "arrays",
-      "bifunctors",
-      "bytestrings",
-      "datetime",
-      "decimals",
-      "effect",
-      "either",
-      "exceptions",
-      "foldable-traversable",
-      "foreign",
-      "foreign-generic",
-      "foreign-object",
-      "js-date",
-      "lists",
-      "maybe",
-      "newtype",
-      "nullable",
-      "prelude",
-      "transformers",
-      "tuples"
-    ],
-    "repo": "https://github.com/rightfold/purescript-postgresql-client",
-    "version": "v3.0.0-alpha"
-  },
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
