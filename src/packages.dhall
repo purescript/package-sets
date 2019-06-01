@@ -77,23 +77,6 @@ let overrides =
             , repo =
                 "https://github.com/justinwoo/purescript-smolder.git"
             }
-      , unordered-collections =
-            packages.unordered-collections
-          ⫽ { version =
-                "v1.8.0-patch"
-            , repo =
-                "https://github.com/justinwoo/purescript-unordered-collections.git"
-            , dependencies =
-                [ "enums"
-                , "functions"
-                , "integers"
-                , "lists"
-                , "prelude"
-                , "record"
-                , "typelevel-prelude"
-                , "tuples"
-                ]
-            }
       }
 
 in  packages ⫽ overrides

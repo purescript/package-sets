@@ -2737,8 +2737,8 @@
       "tuples",
       "typelevel-prelude"
     ],
-    "repo": "https://github.com/justinwoo/purescript-unordered-collections.git",
-    "version": "v1.8.0-patch"
+    "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
+    "version": "v1.8.1"
   },
   "unsafe-coerce": {
     "dependencies": [],
