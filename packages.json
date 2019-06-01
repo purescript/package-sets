@@ -355,19 +355,19 @@
   },
   "bytestrings": {
     "dependencies": [
-      "arrays",
-      "effect",
-      "exceptions",
-      "foldable-traversable",
-      "integers",
-      "leibniz",
-      "maybe",
-      "newtype",
       "node-buffer",
       "prelude",
+      "effect",
       "quickcheck",
+      "maybe",
+      "arrays",
+      "leibniz",
+      "foldable-traversable",
+      "unsafe-coerce",
+      "newtype",
+      "integers",
       "quotient",
-      "unsafe-coerce"
+      "exceptions"
     ],
     "repo": "https://github.com/rightfold/purescript-bytestrings.git",
     "version": "v7.0.0"
@@ -2471,13 +2471,13 @@
   },
   "stringutils": {
     "dependencies": [
+      "strings",
+      "partial",
       "arrays",
       "either",
-      "integers",
       "maybe",
-      "partial",
       "prelude",
-      "strings"
+      "integers"
     ],
     "repo": "https://github.com/menelaos/purescript-stringutils.git",
     "version": "v0.0.8"
