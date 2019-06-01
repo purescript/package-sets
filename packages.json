@@ -2469,6 +2469,19 @@
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "v4.0.1"
   },
+  "stringutils": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "integers",
+      "maybe",
+      "partial",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/menelaos/purescript-stringutils.git",
+    "version": "v0.0.8"
+  },
   "strongcheck": {
     "dependencies": [
       "arrays",
