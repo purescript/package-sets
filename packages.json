@@ -353,6 +353,25 @@
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-static.git",
     "version": "v0.2.0"
   },
+  "bytestrings": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "exceptions",
+      "foldable-traversable",
+      "integers",
+      "leibniz",
+      "maybe",
+      "newtype",
+      "node-buffer",
+      "prelude",
+      "quickcheck",
+      "quotient",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rightfold/purescript-bytestrings.git",
+    "version": "v7.0.0"
+  },
   "canvas": {
     "dependencies": [
       "arraybuffer-types",
@@ -1951,6 +1970,15 @@
     ],
     "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
     "version": "v5.0.1"
+  },
+  "quotient": {
+    "dependencies": [
+      "prelude",
+      "proxy",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/rightfold/purescript-quotient.git",
+    "version": "v3.0.0"
   },
   "random": {
     "dependencies": [
