@@ -9,7 +9,8 @@ in  { unordered-collections =
         , "prelude"
         , "record"
         , "tuples"
+        , "typelevel-prelude"
         ]
         "https://github.com/fehrenbach/purescript-unordered-collections.git"
-        "v1.8.0"
+        "v1.8.1"
     }
