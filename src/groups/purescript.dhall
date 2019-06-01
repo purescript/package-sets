@@ -347,7 +347,7 @@ in  { arrays =
         mkPackage
         ([] : List Text)
         "https://github.com/purescript/purescript-partial.git"
-        "v2.0.0"
+        "v2.0.1"
     , prelude =
         mkPackage
         ([] : List Text)
