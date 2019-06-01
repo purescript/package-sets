@@ -1792,7 +1792,7 @@
   "partial": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-partial.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "phoenix": {
     "dependencies": [
@@ -1849,7 +1849,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
-    "version": "v4.1.0"
+    "version": "v4.1.1"
   },
   "prettier": {
     "dependencies": [
