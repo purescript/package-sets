@@ -49,7 +49,7 @@ in  { web-clipboard =
         , "web-file"
         ]
         "https://github.com/purescript-web/purescript-web-xhr.git"
-        "v3.0.0"
+        "v3.0.1"
     , canvas =
         mkPackage
         [ "arraybuffer-types", "effect", "exceptions", "functions", "maybe" ]
