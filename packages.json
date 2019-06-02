@@ -2737,7 +2737,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
-    "version": "v1.8.1"
+    "version": "v1.8.2"
   },
   "unsafe-coerce": {
     "dependencies": [],
