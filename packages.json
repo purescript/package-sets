@@ -155,7 +155,7 @@
       "uint"
     ],
     "repo": "https://github.com/jacereda/purescript-arraybuffer.git",
-    "version": "v7.0.0"
+    "version": "v10.0.0"
   },
   "arraybuffer-types": {
     "dependencies": [],
@@ -2858,23 +2858,6 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v3.0.0"
-  },
-  "webaudio": {
-    "dependencies": [
-      "aff",
-      "arraybuffer",
-      "arraybuffer-types",
-      "arrays",
-      "effect",
-      "foldable-traversable",
-      "lists",
-      "math",
-      "maybe",
-      "strings",
-      "tuples"
-    ],
-    "repo": "https://github.com/adkelley/purescript-webaudio.git",
-    "version": "v0.1.2"
   },
   "xiaomian": {
     "dependencies": [
