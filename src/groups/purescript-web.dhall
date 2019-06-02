@@ -9,7 +9,7 @@ in  { web-clipboard =
         mkPackage
         [ "web-events" ]
         "https://github.com/purescript-web/purescript-web-dom.git"
-        "v2.0.0"
+        "v3.0.0"
     , web-events =
         mkPackage
         [ "datetime", "enums", "nullable" ]
