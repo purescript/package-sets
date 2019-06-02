@@ -12,5 +12,5 @@ in  { unordered-collections =
         , "typelevel-prelude"
         ]
         "https://github.com/fehrenbach/purescript-unordered-collections.git"
-        "v1.8.1"
+        "v1.8.2"
     }
