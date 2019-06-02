@@ -2788,7 +2788,7 @@
       "web-events"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-dom.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "web-events": {
     "dependencies": [
