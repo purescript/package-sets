@@ -2806,7 +2806,7 @@
       "web-dom"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-file.git",
-    "version": "v2.1.0"
+    "version": "v2.1.1"
   },
   "web-html": {
     "dependencies": [
