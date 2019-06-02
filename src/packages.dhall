@@ -63,14 +63,7 @@ let packages =
       ⫽ ./groups/dwhitney.dhall
 
 let overrides =
-      { react-basic =
-            packages.react-basic
-          ⫽ { version =
-                "v9.0.0-fix-row-imports"
-            , repo =
-                "https://github.com/justinwoo/purescript-react-basic.git"
-            }
-      , smolder =
+      { smolder =
             packages.smolder
           ⫽ { version =
                 "v11.0.1-patch"

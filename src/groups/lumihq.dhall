@@ -9,12 +9,11 @@ in  { react-basic =
         , "functions"
         , "nullable"
         , "record"
-        , "typelevel-prelude"
         , "unsafe-coerce"
         , "web-dom"
         , "web-events"
         , "web-html"
         ]
         "https://github.com/lumihq/purescript-react-basic.git"
-        "v9.0.0"
+        "v9.0.1"
     }

@@ -2033,14 +2033,13 @@
       "functions",
       "nullable",
       "record",
-      "typelevel-prelude",
       "unsafe-coerce",
       "web-dom",
       "web-events",
       "web-html"
     ],
-    "repo": "https://github.com/justinwoo/purescript-react-basic.git",
-    "version": "v9.0.0-fix-row-imports"
+    "repo": "https://github.com/lumihq/purescript-react-basic.git",
+    "version": "v9.0.1"
   },
   "react-basic-hooks": {
     "dependencies": [
