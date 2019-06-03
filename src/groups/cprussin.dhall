@@ -34,7 +34,7 @@ in  { httpure =
         , "unsafe-coerce"
         ]
         "https://github.com/cprussin/purescript-httpure.git"
-        "v0.8.2"
+        "v0.8.3"
     , monad-logger =
         mkPackage
         [ "aff"
