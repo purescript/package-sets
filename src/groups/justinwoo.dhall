@@ -29,7 +29,7 @@ in  { gomtang-basic =
         , "typelevel-prelude"
         ]
         "https://github.com/justinwoo/purescript-milkis.git"
-        "v7.0.0"
+        "v7.0.1"
     , node-he =
         mkPackage
         ([] : List Text)
