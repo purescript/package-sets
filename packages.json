@@ -837,6 +837,15 @@
     "repo": "https://github.com/sharkdp/purescript-format.git",
     "version": "v4.0.0"
   },
+  "format-nix": {
+    "dependencies": [
+      "generics-rep",
+      "motsunabe",
+      "prelude"
+    ],
+    "repo": "https://github.com/justinwoo/format-nix.git",
+    "version": "v0.1.1"
+  },
   "formatters": {
     "dependencies": [
       "datetime",
