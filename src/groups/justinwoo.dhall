@@ -166,4 +166,9 @@ in  { gomtang-basic =
         [ "motsunabe", "simple-json" ]
         "https://github.com/justinwoo/purescript-simple-json-utils.git"
         "v0.1.0"
+    , format-nix =
+        mkPackage
+        [ "generics-rep", "motsunabe", "prelude" ]
+        "https://github.com/justinwoo/format-nix.git"
+        "v0.1.1"
     }
