@@ -2339,7 +2339,7 @@
       "strings"
     ],
     "repo": "https://github.com/oreshinya/purescript-simple-jwt.git",
-    "version": "v1.0.0"
+    "version": "v1.0.1"
   },
   "sized-vectors": {
     "dependencies": [
