@@ -1390,6 +1390,11 @@
     "repo": "https://github.com/paf31/purescript-memoize.git",
     "version": "v5.0.0"
   },
+  "metadata": {
+    "dependencies": [],
+    "repo": "https://github.com/spacchetti/purescript-metadata.git",
+    "version": "v0.13.0"
+  },
   "milkis": {
     "dependencies": [
       "aff-promise",
