@@ -2422,7 +2422,7 @@
       "spec"
     ],
     "repo": "https://github.com/owickstrom/purescript-spec-discovery.git",
-    "version": "v3.2.0"
+    "version": "v4.0.0"
   },
   "spec-quickcheck": {
     "dependencies": [
