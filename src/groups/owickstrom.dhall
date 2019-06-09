@@ -4,7 +4,7 @@ in  { spec-discovery =
         mkPackage
         [ "arrays", "effect", "node-fs", "prelude", "spec" ]
         "https://github.com/owickstrom/purescript-spec-discovery.git"
-        "v3.2.0"
+        "v4.0.0"
     , spec-quickcheck =
         mkPackage
         [ "aff", "prelude", "quickcheck", "random", "spec" ]
