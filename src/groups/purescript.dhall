@@ -166,7 +166,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-foreign-object.git"
-        "v2.0.2"
+        "v2.0.3"
     , free =
         mkPackage
         [ "catenable-lists"
