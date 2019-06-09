@@ -19,7 +19,7 @@ in  { basic-auth =
         mkPackage
         [ "aff", "js-date", "simple-json" ]
         "https://github.com/oreshinya/purescript-mysql.git"
-        "v2.1.1"
+        "v3.0.0"
     , nodemailer =
         mkPackage
         [ "aff", "node-streams", "simple-json" ]
