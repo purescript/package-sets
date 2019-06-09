@@ -810,7 +810,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-foreign-object.git",
-    "version": "v2.0.2"
+    "version": "v2.0.3"
   },
   "fork": {
     "dependencies": [
