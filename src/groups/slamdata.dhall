@@ -150,4 +150,19 @@ in  { aff =
         [ "avar", "prelude" ]
         "https://github.com/slamdata/purescript-aff-bus.git"
         "v4.0.0"
+    , uri =
+        mkPackage
+        [ "arrays"
+        , "generics-rep"
+        , "globals"
+        , "integers"
+        , "parsing"
+        , "profunctor-lenses"
+        , "quickcheck"
+        , "spec"
+        , "unfoldable"
+        , "these"
+        ]
+        "https://github.com/slamdata/purescript-uri.git"
+        "v7.0.0"
     }
