@@ -1638,7 +1638,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-readline.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "node-sqlite3": {
     "dependencies": [
