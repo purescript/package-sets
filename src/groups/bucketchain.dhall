@@ -45,6 +45,11 @@ in  { bucketchain =
         [ "bucketchain", "js-date", "node-process" ]
         "https://github.com/Bucketchain/purescript-bucketchain-logger.git"
         "v0.3.0"
+    , bucketchain-secure =
+        mkPackage
+        [ "bucketchain" ]
+        "https://github.com/Bucketchain/purescript-bucketchain-secure.git"
+        "v0.1.0"
     , bucketchain-simple-api =
         mkPackage
         [ "bucketchain", "media-types", "simple-json" ]
