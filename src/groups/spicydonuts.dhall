@@ -10,5 +10,5 @@ in  { react-basic-hooks =
         , "unsafe-reference"
         ]
         "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
-        "v0.6.1"
+        "v0.7.1"
     }
