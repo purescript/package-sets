@@ -2,7 +2,8 @@ let mkPackage = ./../mkPackage.dhall
 
 in  { react-basic-hooks =
         mkPackage
-        [ "console"
+        [ "aff"
+        , "console"
         , "effect"
         , "indexed-monad"
         , "prelude"

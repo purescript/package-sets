@@ -52,7 +52,8 @@ in  { gomtang-basic =
         "v0.3.0"
     , simple-json =
         mkPackage
-        [ "exceptions"
+        [ "arrays"
+        , "exceptions"
         , "foreign"
         , "foreign-object"
         , "globals"
@@ -63,7 +64,7 @@ in  { gomtang-basic =
         , "variant"
         ]
         "https://github.com/justinwoo/purescript-simple-json.git"
-        "v6.0.0"
+        "v7.0.0"
     , sunde =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]

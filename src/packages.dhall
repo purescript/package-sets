@@ -63,14 +63,4 @@ let packages =
       ⫽ ./groups/zaquest.dhall
       ⫽ ./groups/dwhitney.dhall
 
-let overrides =
-      { smolder =
-            packages.smolder
-          ⫽ { version =
-                "v11.0.1-patch"
-            , repo =
-                "https://github.com/justinwoo/purescript-smolder.git"
-            }
-      }
-
-in  packages ⫽ overrides
+in  packages
