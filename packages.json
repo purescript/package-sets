@@ -2072,7 +2072,7 @@
       "unsafe-reference"
     ],
     "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
-    "version": "v0.6.1"
+    "version": "v0.7.1"
   },
   "react-basic-native": {
     "dependencies": [
