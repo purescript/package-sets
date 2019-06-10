@@ -64,5 +64,5 @@ in  { bucketchain =
         mkPackage
         [ "bucketchain", "node-fs-aff" ]
         "https://github.com/Bucketchain/purescript-bucketchain-static.git"
-        "v0.2.0"
+        "v0.3.0"
     }
