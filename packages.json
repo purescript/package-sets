@@ -2064,6 +2064,7 @@
   },
   "react-basic-hooks": {
     "dependencies": [
+      "aff",
       "console",
       "effect",
       "indexed-monad",
@@ -2315,6 +2316,7 @@
   },
   "simple-json": {
     "dependencies": [
+      "arrays",
       "exceptions",
       "foreign",
       "foreign-object",
@@ -2326,7 +2328,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "simple-json-generics": {
     "dependencies": [
@@ -2377,8 +2379,8 @@
       "transformers",
       "tuples"
     ],
-    "repo": "https://github.com/justinwoo/purescript-smolder.git",
-    "version": "v11.0.1-patch"
+    "repo": "https://github.com/bodil/purescript-smolder.git",
+    "version": "v12.0.0"
   },
   "snabbdom": {
     "dependencies": [

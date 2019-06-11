@@ -37,7 +37,7 @@ in  { test-unit =
         , "tuples"
         ]
         "https://github.com/bodil/purescript-smolder.git"
-        "v11.0.1"
+        "v12.0.0"
     , sized-vectors =
         mkPackage
         [ "arrays"
