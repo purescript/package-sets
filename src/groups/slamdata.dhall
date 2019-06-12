@@ -165,4 +165,19 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-uri.git"
         "v7.0.0"
+    , pathy =
+        mkPackage
+        [ "console"
+        , "exceptions"
+        , "lists"
+        , "partial"
+        , "profunctor"
+        , "quickcheck"
+        , "strings"
+        , "transformers"
+        , "unsafe-coerce"
+        , "typelevel-prelude"
+        ]
+        "https://github.com/slamdata/purescript-pathy.git"
+        "v7.0.1"
     }
