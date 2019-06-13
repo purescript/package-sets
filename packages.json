@@ -1466,7 +1466,7 @@
       "strings"
     ],
     "repo": "https://github.com/justinwoo/purescript-motsunabe.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "mysql": {
     "dependencies": [
