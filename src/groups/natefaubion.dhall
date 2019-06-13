@@ -63,4 +63,27 @@ in  { variant =
         [ "prelude", "transformers", "variant" ]
         "https://github.com/natefaubion/purescript-checked-exceptions.git"
         "v3.0.0"
+    , spork =
+        mkPackage
+        [ "prelude"
+        , "console"
+        , "tailrec"
+        , "arrays"
+        , "refs"
+        , "foldable-traversable"
+        , "maybe"
+        , "aff"
+        , "halogen-vdom"
+        , "dom-indexed"
+        , "unsafe-reference"
+        , "web-dom"
+        , "web-html"
+        , "web-events"
+        , "web-uievents"
+        , "effect"
+        , "foreign"
+        , "ordered-collections"
+        ]
+        "https://github.com/natefaubion/purescript-spork"
+        "v1.0.0"
     }
