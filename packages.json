@@ -1815,6 +1815,22 @@
     "repo": "https://github.com/purescript/purescript-partial.git",
     "version": "v2.0.1"
   },
+  "pathy": {
+    "dependencies": [
+      "console",
+      "exceptions",
+      "lists",
+      "partial",
+      "profunctor",
+      "quickcheck",
+      "strings",
+      "transformers",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/slamdata/purescript-pathy.git",
+    "version": "v7.0.1"
+  },
   "phoenix": {
     "dependencies": [
       "options"
