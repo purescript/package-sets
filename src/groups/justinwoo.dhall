@@ -161,7 +161,7 @@ in  { gomtang-basic =
         mkPackage
         [ "lists", "strings" ]
         "https://github.com/justinwoo/purescript-motsunabe.git"
-        "v1.0.0"
+        "v2.0.0"
     , simple-json-utils =
         mkPackage
         [ "motsunabe", "simple-json" ]
