@@ -69,7 +69,7 @@ in  { gomtang-basic =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]
         "https://github.com/justinwoo/purescript-sunde.git"
-        "v1.0.0"
+        "v2.0.0"
     , toppokki =
         mkPackage
         [ "aff-promise"
