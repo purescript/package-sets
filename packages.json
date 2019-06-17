@@ -607,6 +607,19 @@
     "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
     "version": "v7.0.0"
   },
+  "dotenv": {
+    "dependencies": [
+      "console",
+      "node-fs-aff",
+      "node-process",
+      "parsing",
+      "prelude",
+      "psci-support",
+      "spec"
+    ],
+    "repo": "https://github.com/nsaunders/purescript-dotenv.git",
+    "version": "v0.3.0"
+  },
   "effect": {
     "dependencies": [
       "prelude"
