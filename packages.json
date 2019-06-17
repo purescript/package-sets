@@ -2598,7 +2598,7 @@
       "prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-sunde.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "svg-parser": {
     "dependencies": [
