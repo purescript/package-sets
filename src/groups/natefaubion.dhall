@@ -86,4 +86,25 @@ in  { variant =
         ]
         "https://github.com/natefaubion/purescript-spork"
         "v1.0.0"
+    , psa-utils =
+        mkPackage
+        [ "ansi"
+        , "argonaut-codecs"
+        , "argonaut-core"
+        , "arrays"
+        , "console"
+        , "control"
+        , "effect"
+        , "either"
+        , "foldable-traversable"
+        , "maybe"
+        , "node-path"
+        , "ordered-collections"
+        , "prelude"
+        , "strings"
+        , "tuples"
+        , "unsafe-coerce"
+        ]
+        "https://github.com/natefaubion/purescript-psa-utils.git"
+        "v6.0.0"
     }

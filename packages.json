@@ -718,6 +718,13 @@
     "repo": "https://github.com/purescript/purescript-exists.git",
     "version": "v4.0.0"
   },
+  "exitcodes": {
+    "dependencies": [
+      "enums"
+    ],
+    "repo": "https://github.com/Risto-Stevcev/purescript-exitcodes.git",
+    "version": "v4.0.0"
+  },
   "expect-inferred": {
     "dependencies": [
       "prelude",
@@ -1746,6 +1753,24 @@
     "repo": "https://github.com/purescript-contrib/purescript-options.git",
     "version": "v5.0.0"
   },
+  "optparse": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "exists",
+      "exitcodes",
+      "free",
+      "memoize",
+      "node-process",
+      "ordered-collections",
+      "prelude",
+      "strings",
+      "transformers"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-optparse.git",
+    "version": "v3.0.1"
+  },
   "ordered-collections": {
     "dependencies": [
       "arrays",
@@ -1968,6 +1993,43 @@
     ],
     "repo": "https://github.com/purescript/purescript-proxy.git",
     "version": "v3.0.0"
+  },
+  "psa-utils": {
+    "dependencies": [
+      "ansi",
+      "argonaut-codecs",
+      "argonaut-core",
+      "arrays",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "maybe",
+      "node-path",
+      "ordered-collections",
+      "prelude",
+      "strings",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-psa-utils.git",
+    "version": "v6.0.0"
+  },
+  "psc-ide": {
+    "dependencies": [
+      "aff",
+      "argonaut",
+      "arrays",
+      "console",
+      "maybe",
+      "node-child-process",
+      "node-fs",
+      "parallel",
+      "random"
+    ],
+    "repo": "https://github.com/kRITZCREEK/purescript-psc-ide.git",
+    "version": "v15.0.1"
   },
   "psci-support": {
     "dependencies": [
@@ -2589,6 +2651,19 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-strongcheck.git",
     "version": "v4.1.1"
+  },
+  "suggest": {
+    "dependencies": [
+      "console",
+      "node-buffer",
+      "node-fs",
+      "node-process",
+      "node-streams",
+      "psa-utils",
+      "refs"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-suggest.git",
+    "version": "v5.0.0"
   },
   "sunde": {
     "dependencies": [
