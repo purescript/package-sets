@@ -171,5 +171,5 @@ in  { gomtang-basic =
         mkPackage
         [ "generics-rep", "motsunabe", "prelude" ]
         "https://github.com/justinwoo/format-nix.git"
-        "v0.1.1"
+        "v0.2.0"
     }
