@@ -1604,6 +1604,23 @@
     "repo": "https://github.com/purescript-node/purescript-node-http.git",
     "version": "v5.0.1"
   },
+  "node-net": {
+    "dependencies": [
+      "effect",
+      "either",
+      "exceptions",
+      "foreign",
+      "maybe",
+      "node-buffer",
+      "node-fs",
+      "nullable",
+      "options",
+      "prelude",
+      "transformers"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-node-net.git",
+    "version": "v1.0.0"
+  },
   "node-path": {
     "dependencies": [
       "effect"
