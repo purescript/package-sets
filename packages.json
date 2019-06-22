@@ -2161,7 +2161,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/kcsongor/purescript-record-format.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "redux-devtools": {
     "dependencies": [
