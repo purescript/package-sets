@@ -34,5 +34,5 @@ in  { basic-auth =
         mkPackage
         [ "crypto", "simple-json", "strings" ]
         "https://github.com/oreshinya/purescript-simple-jwt.git"
-        "v1.0.1"
+        "v1.0.2"
     }
