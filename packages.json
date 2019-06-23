@@ -1205,7 +1205,7 @@
       "simple-json"
     ],
     "repo": "https://github.com/oreshinya/purescript-identy.git",
-    "version": "v2.0.1"
+    "version": "v2.0.2"
   },
   "indexed-monad": {
     "dependencies": [
