@@ -24,7 +24,7 @@ in  { basic-auth =
         mkPackage
         [ "aff", "node-streams", "simple-json" ]
         "https://github.com/oreshinya/purescript-nodemailer.git"
-        "v2.0.1"
+        "v2.0.2"
     , simple-emitter =
         mkPackage
         [ "ordered-collections", "refs" ]
