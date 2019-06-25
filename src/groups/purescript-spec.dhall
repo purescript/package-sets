@@ -17,5 +17,5 @@ in  { spec =
         , "transformers"
         ]
         "https://github.com/purescript-spec/purescript-spec.git"
-        "v4.0.0-rc1"
+        "v4.0.0"
     }
