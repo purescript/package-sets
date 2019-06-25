@@ -871,7 +871,7 @@
       "prelude"
     ],
     "repo": "https://github.com/justinwoo/format-nix.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "formatters": {
     "dependencies": [
