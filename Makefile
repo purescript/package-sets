@@ -10,6 +10,7 @@ format:
 generate: SHELL:=/usr/bin/env bash
 generate:
 	@dhall-to-json --pretty <<< "./src/packages.dhall" > packages.json
+	@dhall <<< ./src/packages.dhall > packages.dhall
 	@psc-package format
 	@echo generated to packages.json
 
