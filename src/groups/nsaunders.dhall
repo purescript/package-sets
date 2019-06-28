@@ -11,5 +11,5 @@ in  { dotenv =
         , "spec"
         ]
         "https://github.com/nsaunders/purescript-dotenv.git"
-        "v0.3.0"
+        "v0.4.1"
     }
