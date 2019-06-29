@@ -8,8 +8,10 @@ in  { dotenv =
         , "parsing"
         , "prelude"
         , "psci-support"
+        , "run"
         , "spec"
+        , "sunde"
         ]
         "https://github.com/nsaunders/purescript-dotenv.git"
-        "v0.3.0"
+        "v0.4.1"
     }
