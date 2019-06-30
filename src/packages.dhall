@@ -57,7 +57,7 @@ let packages =
       ⫽ ./groups/rightfold.dhall sha256:fcc425bd0f37a7272341743ba23de1fa9afe69ba2fb03325ef1262c6fdb60f51
       ⫽ ./groups/rnons.dhall sha256:0d1f8201ce7094435c2695074c963c9e7e80a2b49839b6748515eda89da66d88
       ⫽ ./groups/sharkdp.dhall sha256:62ec96b8e487d45047cba0c26bf428b503a16fd76f62c041bc567ed9322ddb73
-      ⫽ ./groups/slamdata.dhall sha256:2a51520a0473a97e29021176953bfbb6a1c6c575cb4c49c547a01844dd7fa4b8
+      ⫽ ./groups/slamdata.dhall sha256:3f9efe8f0cda22338d8a60bd4d857f715147df9811c78d38ca7c63504a40101f
       ⫽ ./groups/spacchetti.dhall sha256:c255e2525c04581c7ffbb2ec3cf493512e05825558819d32e4a09d4af94f13ba
       ⫽ ./groups/spicydonuts.dhall sha256:a2392619c0b6b2e2b3ccb808c5487afb4918b8769887f67b629e83be5475c6e1
       ⫽ ./groups/truqu.dhall sha256:fc2ecdd4226de3453f44c4280c1741b43f02eec1bd433772be29ea81cfdf4cb5
