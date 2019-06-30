@@ -2264,7 +2264,7 @@
       "typelevel"
     ],
     "repo": "https://github.com/danieljharvey/purescript-refined.git",
-    "version": "v0.1.2"
+    "version": "v0.2.0"
   },
   "refs": {
     "dependencies": [

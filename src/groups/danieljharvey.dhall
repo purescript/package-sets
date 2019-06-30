@@ -10,5 +10,5 @@ in  { refined =
         , "typelevel"
         ]
         "https://github.com/danieljharvey/purescript-refined.git"
-        "v0.1.2"
+        "v0.2.0"
     }
