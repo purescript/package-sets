@@ -2,7 +2,7 @@ all: format generate
 
 format:
 	@find src/ -iname "*.dhall" -exec dhall format --inplace {} \;
-	# we have to unfreeze packages.dhall manually
+	@# we have to unfreeze packages.dhall manually
 	@sed 's/ sha256:.*//g' -i src/packages.dhall
 	@dhall freeze --all --inplace src/packages.dhall
 	@echo formatted dhall files
