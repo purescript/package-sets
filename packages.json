@@ -745,7 +745,7 @@
       "ordered-collections"
     ],
     "repo": "https://github.com/LiamGoodacre/purescript-filterable.git",
-    "version": "v3.0.1"
+    "version": "v3.0.2"
   },
   "fixed-points": {
     "dependencies": [
