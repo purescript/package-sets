@@ -5,7 +5,7 @@ let packages =
       ⫽ ./groups/purescript-node.dhall sha256:a800e19ea56bb5ef5db241c1d5eaaf9e9a690ed5e193f8ef010f1799199d43f4
       ⫽ ./groups/ad-si.dhall sha256:d3eb3377512a930d89ce64740cac962f33e9ecb5d8d4d5eb3e33fd0fb4d539b2
       ⫽ ./groups/alexadewit.dhall sha256:c982c400654e5b4d7af91be0c44e36742c8875b078edb39e88e0dc1289ee07d9
-      ⫽ ./groups/liamgoodacre.dhall sha256:0945e9c879fda9034d73afe96c38c5d2543156cd9b7f5e88120059234dc70939
+      ⫽ ./groups/liamgoodacre.dhall sha256:5c9dc3bb7ff123c21a30dba41cab80f250f4a87b227f7224aa3fa5fa998a1c51
       ⫽ ./groups/lukajcb.dhall sha256:edda46520c0d484339849ba566ea19264c9d08c98c2725a97b339b4f65ecbb52
       ⫽ ./groups/michaelxavier.dhall sha256:ce07fba394258c793ec4713dfa72ca05c0842527745bf183de37780019d98f3b
       ⫽ ./groups/sodiumfrp.dhall sha256:1ef1585906de97d4c842812411d66781f5b976e152a72a3889f07fb3ff981cdd
