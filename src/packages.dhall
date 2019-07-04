@@ -53,7 +53,7 @@ let packages =
       ⫽ ./groups/passy.dhall sha256:f16b1b87991f2b03804e3a0f1f2812d79dbeeac593811a8c246a7025520c8cde
       ⫽ ./groups/purescript-freedom.dhall sha256:27320387a19e1c12f01960f121196cdde768cea01b364731e9316082ad7631bf
       ⫽ ./groups/purescript-spec.dhall sha256:0b666e1fbd314bf62d842fdbbf5e41e8c97aa68c7ba1f7e88a969fbe0f687b23
-      ⫽ ./groups/reactormonk.dhall sha256:3af16df4a4bc5ef5f076270532b4bf66ea647169557faf6f2e66fdb831578fa5
+      ⫽ ./groups/reactormonk.dhall sha256:013d323f30d6e77a77d290887fa79d71c3cf67f1ab5e6a5b2c12f4ad9b02e632
       ⫽ ./groups/rightfold.dhall sha256:fcc425bd0f37a7272341743ba23de1fa9afe69ba2fb03325ef1262c6fdb60f51
       ⫽ ./groups/rnons.dhall sha256:0d1f8201ce7094435c2695074c963c9e7e80a2b49839b6748515eda89da66d88
       ⫽ ./groups/sharkdp.dhall sha256:62ec96b8e487d45047cba0c26bf428b503a16fd76f62c041bc567ed9322ddb73

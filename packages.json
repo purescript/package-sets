@@ -2465,6 +2465,21 @@
     "repo": "https://github.com/oreshinya/purescript-simple-jwt.git",
     "version": "v1.0.2"
   },
+  "simple-timestamp": {
+    "dependencies": [
+      "console",
+      "datetime",
+      "effect",
+      "foreign",
+      "formatters",
+      "prelude",
+      "psci-support",
+      "simple-json",
+      "spec"
+    ],
+    "repo": "https://github.com/reactormonk/purescript-simple-timestamp.git",
+    "version": "v1.1.0"
+  },
   "sized-vectors": {
     "dependencies": [
       "arrays",
