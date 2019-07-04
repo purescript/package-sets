@@ -11,7 +11,7 @@ in  { freedom =
         , "web-html"
         ]
         "https://github.com/purescript-freedom/purescript-freedom.git"
-        "v1.1.1"
+        "v1.1.2"
     , freedom-portal =
         mkPackage
         [ "freedom" ]
