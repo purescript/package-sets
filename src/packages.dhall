@@ -11,7 +11,7 @@ let packages =
       ⫽ ./groups/sodiumfrp.dhall sha256:1ef1585906de97d4c842812411d66781f5b976e152a72a3889f07fb3ff981cdd
       ⫽ ./groups/thimoteus.dhall sha256:fe6b37aea5bd48e62ae8c360899cc5b3462712d43fa7a4576b9742c9f7701cb9
       ⫽ ./groups/adkelley.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
-      ⫽ ./groups/ajnsit.dhall sha256:3cfc89744bbf059542efe4b32fc5972852e150b66828de1ea73175ab7d496d29
+      ⫽ ./groups/ajnsit.dhall sha256:fb92131767f49374e66e2a70ef78e90f7e5b8902e966acb3f8e8eab86286af3c
       ⫽ ./groups/athanclark.dhall sha256:789e7aa87b0290a029927ff0be362e0dce1c9ae2a861c1ee997899b17ff7241b
       ⫽ ./groups/anttih.dhall sha256:fd1730256d9ffe106e6899ffa7e9a7fcc77571949fce5d9e3f363f3f114be45c
       ⫽ ./groups/bodil.dhall sha256:a60df1b1d43c8d2aa82fb9c98d88316ce8db6170bb65073bb86ef39d841881d9
