@@ -19,7 +19,7 @@ in  { colors =
         mkPackage
         [ "maybe" ]
         "https://github.com/sharkdp/purescript-decimals.git"
-        "v4.0.0"
+        "v5.0.0"
     , pairs =
         mkPackage
         [ "console", "distributive", "foldable-traversable", "quickcheck" ]
