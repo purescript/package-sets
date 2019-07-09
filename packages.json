@@ -2826,6 +2826,19 @@
     "repo": "https://github.com/purescript/purescript-transformers.git",
     "version": "v4.2.0"
   },
+  "trout": {
+    "dependencies": [
+      "argonaut",
+      "media-types",
+      "prelude",
+      "smolder",
+      "spec",
+      "spec-discovery",
+      "uri"
+    ],
+    "repo": "https://github.com/owickstrom/purescript-trout.git",
+    "version": "v0.12.0"
+  },
   "tuples": {
     "dependencies": [
       "bifunctors",
