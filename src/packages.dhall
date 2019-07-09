@@ -56,7 +56,7 @@ let packages =
       ⫽ ./groups/reactormonk.dhall sha256:013d323f30d6e77a77d290887fa79d71c3cf67f1ab5e6a5b2c12f4ad9b02e632
       ⫽ ./groups/rightfold.dhall sha256:fcc425bd0f37a7272341743ba23de1fa9afe69ba2fb03325ef1262c6fdb60f51
       ⫽ ./groups/rnons.dhall sha256:0d1f8201ce7094435c2695074c963c9e7e80a2b49839b6748515eda89da66d88
-      ⫽ ./groups/sharkdp.dhall sha256:62ec96b8e487d45047cba0c26bf428b503a16fd76f62c041bc567ed9322ddb73
+      ⫽ ./groups/sharkdp.dhall sha256:c65d3b2fa230fb5da57d4ec79aae09d1a5f8c3c96f55fa398dbd816faccb5252
       ⫽ ./groups/slamdata.dhall sha256:3f9efe8f0cda22338d8a60bd4d857f715147df9811c78d38ca7c63504a40101f
       ⫽ ./groups/spacchetti.dhall sha256:35ad2e7037e6516e3fb5a36fe4f4c3ab29a3cc20e0b2f240ccf5b5365e76e7f3
       ⫽ ./groups/spicydonuts.dhall sha256:a2392619c0b6b2e2b3ccb808c5487afb4918b8769887f67b629e83be5475c6e1
