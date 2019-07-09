@@ -1759,7 +1759,7 @@
       "maybe"
     ],
     "repo": "https://github.com/sharkdp/purescript-numbers.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "options": {
     "dependencies": [
@@ -1833,7 +1833,7 @@
       "quickcheck"
     ],
     "repo": "https://github.com/sharkdp/purescript-pairs.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "parallel": {
     "dependencies": [
