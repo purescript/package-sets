@@ -35,7 +35,7 @@ let packages =
       ⫽ ./groups/juspay.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
       ⫽ ./groups/justinwoo.dhall sha256:96b267244e2b5279e4c9194b6739718949e6425cf0ac36aa27171c1db41fcd84
       ⫽ ./groups/kcsongor.dhall sha256:68b5eddc5ce2012c741537d3e11201f04a0170deb0c6bf5271f6a19a1fb62b14
-      ⫽ ./groups/klntsky.dhall sha256:85c5759f1813a878763c68e8eb2df8f3ec8bf031bff7600e95b9531eae83116a
+      ⫽ ./groups/klntsky.dhall sha256:d01ec3ea9da4deeb5ea8cb0be1bebf5d4b772ee2cfdd0a1caac208358a28c891
       ⫽ ./groups/krisajenkins.dhall sha256:838cbfe7b77dfcfb47551a031438100bb008df8c6b6483c1509772a75d6bfd03
       ⫽ ./groups/kritzcreek.dhall sha256:139951c67612bd373e4bd8f448120938096d4d5df8afc6206af2b34b6285f229
       ⫽ ./groups/lumihq.dhall sha256:8e21697c4c0b74ded7f3614c24adf10833cd2d4d1b50e2762b874ec277aa94a6

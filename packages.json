@@ -2366,6 +2366,18 @@
     "repo": "https://github.com/paf31/purescript-safely.git",
     "version": "v4.0.0"
   },
+  "search-trie": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "foldable-traversable",
+      "lists",
+      "ordered-collections",
+      "prelude"
+    ],
+    "repo": "https://github.com/klntsky/purescript-search-trie.git",
+    "version": "v1.0.0"
+  },
   "semirings": {
     "dependencies": [
       "foldable-traversable",
