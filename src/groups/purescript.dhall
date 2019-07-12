@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { arrays =
-        mkPackage
+{ arrays =
+    { dependencies =
         [ "bifunctors"
         , "control"
         , "foldable-traversable"
@@ -15,20 +13,29 @@ in  { arrays =
         , "unfoldable"
         , "unsafe-coerce"
         ]
+    , repo =
         "https://github.com/purescript/purescript-arrays.git"
+    , version =
         "v5.3.0"
-    , assert =
-        mkPackage
+    }
+, assert =
+    { dependencies =
         [ "console", "effect", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-assert.git"
+    , version =
         "v4.1.0"
-    , bifunctors =
-        mkPackage
+    }
+, bifunctors =
+    { dependencies =
         [ "newtype", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-bifunctors.git"
+    , version =
         "v4.0.0"
-    , catenable-lists =
-        mkPackage
+    }
+, catenable-lists =
+    { dependencies =
         [ "control"
         , "foldable-traversable"
         , "lists"
@@ -37,35 +44,50 @@ in  { arrays =
         , "tuples"
         , "unfoldable"
         ]
+    , repo =
         "https://github.com/purescript/purescript-catenable-lists.git"
+    , version =
         "v5.0.1"
-    , console =
-        mkPackage
+    }
+, console =
+    { dependencies =
         [ "effect", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-console.git"
+    , version =
         "v4.2.0"
-    , const =
-        mkPackage
+    }
+, const =
+    { dependencies =
         [ "contravariant"
         , "foldable-traversable"
         , "invariant"
         , "newtype"
         , "prelude"
         ]
+    , repo =
         "https://github.com/purescript/purescript-const.git"
+    , version =
         "v4.1.0"
-    , contravariant =
-        mkPackage
+    }
+, contravariant =
+    { dependencies =
         [ "either", "newtype", "prelude", "tuples" ]
+    , repo =
         "https://github.com/purescript/purescript-contravariant.git"
+    , version =
         "v4.0.1"
-    , control =
-        mkPackage
+    }
+, control =
+    { dependencies =
         [ "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-control.git"
+    , version =
         "v4.1.0"
-    , datetime =
-        mkPackage
+    }
+, datetime =
+    { dependencies =
         [ "bifunctors"
         , "control"
         , "either"
@@ -83,20 +105,29 @@ in  { arrays =
         , "prelude"
         , "tuples"
         ]
+    , repo =
         "https://github.com/purescript/purescript-datetime.git"
+    , version =
         "v4.1.1"
-    , distributive =
-        mkPackage
+    }
+, distributive =
+    { dependencies =
         [ "identity", "newtype", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-distributive.git"
+    , version =
         "v4.0.0"
-    , effect =
-        mkPackage
+    }
+, effect =
+    { dependencies =
         [ "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-effect.git"
+    , version =
         "v2.0.1"
-    , either =
-        mkPackage
+    }
+, either =
+    { dependencies =
         [ "bifunctors"
         , "control"
         , "foldable-traversable"
@@ -104,10 +135,13 @@ in  { arrays =
         , "maybe"
         , "prelude"
         ]
+    , repo =
         "https://github.com/purescript/purescript-either.git"
+    , version =
         "v4.1.1"
-    , enums =
-        mkPackage
+    }
+, enums =
+    { dependencies =
         [ "control"
         , "either"
         , "gen"
@@ -119,25 +153,37 @@ in  { arrays =
         , "tuples"
         , "unfoldable"
         ]
+    , repo =
         "https://github.com/purescript/purescript-enums.git"
+    , version =
         "v4.0.1"
-    , exceptions =
-        mkPackage
+    }
+, exceptions =
+    { dependencies =
         [ "effect", "either", "maybe", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-exceptions.git"
+    , version =
         "v4.0.0"
-    , exists =
-        mkPackage
+    }
+, exists =
+    { dependencies =
         [ "unsafe-coerce" ]
+    , repo =
         "https://github.com/purescript/purescript-exists.git"
+    , version =
         "v4.0.0"
-    , foldable-traversable =
-        mkPackage
+    }
+, foldable-traversable =
+    { dependencies =
         [ "bifunctors", "control", "maybe", "newtype", "orders", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-foldable-traversable.git"
+    , version =
         "v4.1.1"
-    , foreign =
-        mkPackage
+    }
+, foreign =
+    { dependencies =
         [ "either"
         , "functions"
         , "identity"
@@ -148,10 +194,13 @@ in  { arrays =
         , "strings"
         , "transformers"
         ]
+    , repo =
         "https://github.com/purescript/purescript-foreign.git"
+    , version =
         "v5.0.0"
-    , foreign-object =
-        mkPackage
+    }
+, foreign-object =
+    { dependencies =
         [ "arrays"
         , "foldable-traversable"
         , "functions"
@@ -165,10 +214,13 @@ in  { arrays =
         , "typelevel-prelude"
         , "unfoldable"
         ]
+    , repo =
         "https://github.com/purescript/purescript-foreign-object.git"
+    , version =
         "v2.0.3"
-    , free =
-        mkPackage
+    }
+, free =
+    { dependencies =
         [ "catenable-lists"
         , "control"
         , "distributive"
@@ -184,15 +236,21 @@ in  { arrays =
         , "tuples"
         , "unsafe-coerce"
         ]
+    , repo =
         "https://github.com/purescript/purescript-free.git"
+    , version =
         "v5.2.0"
-    , functions =
-        mkPackage
+    }
+, functions =
+    { dependencies =
         [ "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-functions.git"
+    , version =
         "v4.0.0"
-    , functors =
-        mkPackage
+    }
+, functors =
+    { dependencies =
         [ "bifunctors"
         , "const"
         , "control"
@@ -204,10 +262,13 @@ in  { arrays =
         , "tuples"
         , "unsafe-coerce"
         ]
+    , repo =
         "https://github.com/purescript/purescript-functors.git"
+    , version =
         "v3.1.1"
-    , gen =
-        mkPackage
+    }
+, gen =
+    { dependencies =
         [ "either"
         , "foldable-traversable"
         , "identity"
@@ -219,40 +280,61 @@ in  { arrays =
         , "tuples"
         , "unfoldable"
         ]
+    , repo =
         "https://github.com/purescript/purescript-gen.git"
+    , version =
         "v2.1.1"
-    , generics-rep =
-        mkPackage
+    }
+, generics-rep =
+    { dependencies =
         [ "enums", "foldable-traversable", "maybe", "newtype", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-generics-rep.git"
+    , version =
         "v6.1.1"
-    , globals =
-        mkPackage
-        ([] : List Text)
+    }
+, globals =
+    { dependencies =
+        [] : List Text
+    , repo =
         "https://github.com/purescript/purescript-globals.git"
+    , version =
         "v4.0.0"
-    , identity =
-        mkPackage
+    }
+, identity =
+    { dependencies =
         [ "control", "foldable-traversable", "invariant", "newtype", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-identity.git"
+    , version =
         "v4.1.0"
-    , integers =
-        mkPackage
+    }
+, integers =
+    { dependencies =
         [ "globals", "math", "maybe", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-integers.git"
+    , version =
         "v4.0.0"
-    , invariant =
-        mkPackage
+    }
+, invariant =
+    { dependencies =
         [ "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-invariant.git"
+    , version =
         "v4.1.0"
-    , lazy =
-        mkPackage
+    }
+, lazy =
+    { dependencies =
         [ "control", "foldable-traversable", "invariant", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-lazy.git"
+    , version =
         "v4.0.0"
-    , lcg =
-        mkPackage
+    }
+, lcg =
+    { dependencies =
         [ "effect"
         , "integers"
         , "math"
@@ -261,10 +343,13 @@ in  { arrays =
         , "prelude"
         , "random"
         ]
+    , repo =
         "https://github.com/purescript/purescript-lcg.git"
+    , version =
         "v2.0.0"
-    , lists =
-        mkPackage
+    }
+, lists =
+    { dependencies =
         [ "bifunctors"
         , "control"
         , "foldable-traversable"
@@ -278,25 +363,53 @@ in  { arrays =
         , "tuples"
         , "unfoldable"
         ]
+    , repo =
         "https://github.com/purescript/purescript-lists.git"
+    , version =
         "v5.4.1"
-    , math =
-        mkPackage
-        ([] : List Text)
+    }
+, math =
+    { dependencies =
+        [] : List Text
+    , repo =
         "https://github.com/purescript/purescript-math.git"
+    , version =
         "v2.1.1"
-    , maybe =
-        mkPackage
+    }
+, maybe =
+    { dependencies =
         [ "control", "invariant", "newtype", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-maybe.git"
+    , version =
         "v4.0.1"
-    , newtype =
-        mkPackage
+    }
+, minibench =
+    { dependencies =
+        [ "console"
+        , "effect"
+        , "globals"
+        , "integers"
+        , "math"
+        , "partial"
+        , "prelude"
+        , "refs"
+        ]
+    , repo =
+        "https://github.com/purescript/purescript-minibench.git"
+    , version =
+        "v2.0.0"
+    }
+, newtype =
+    { dependencies =
         [ "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-newtype.git"
+    , version =
         "v3.0.0"
-    , nonempty =
-        mkPackage
+    }
+, nonempty =
+    { dependencies =
         [ "control"
         , "foldable-traversable"
         , "maybe"
@@ -304,10 +417,13 @@ in  { arrays =
         , "tuples"
         , "unfoldable"
         ]
+    , repo =
         "https://github.com/purescript/purescript-nonempty.git"
+    , version =
         "v5.0.0"
-    , ordered-collections =
-        mkPackage
+    }
+, ordered-collections =
+    { dependencies =
         [ "arrays"
         , "foldable-traversable"
         , "gen"
@@ -321,15 +437,21 @@ in  { arrays =
         , "unfoldable"
         , "unsafe-coerce"
         ]
+    , repo =
         "https://github.com/purescript/purescript-ordered-collections.git"
+    , version =
         "v1.6.1"
-    , orders =
-        mkPackage
+    }
+, orders =
+    { dependencies =
         [ "newtype", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-orders.git"
+    , version =
         "v4.0.0"
-    , parallel =
-        mkPackage
+    }
+, parallel =
+    { dependencies =
         [ "control"
         , "effect"
         , "either"
@@ -341,20 +463,29 @@ in  { arrays =
         , "refs"
         , "transformers"
         ]
+    , repo =
         "https://github.com/purescript/purescript-parallel.git"
+    , version =
         "v4.0.0"
-    , partial =
-        mkPackage
-        ([] : List Text)
+    }
+, partial =
+    { dependencies =
+        [] : List Text
+    , repo =
         "https://github.com/purescript/purescript-partial.git"
+    , version =
         "v2.0.1"
-    , prelude =
-        mkPackage
-        ([] : List Text)
+    }
+, prelude =
+    { dependencies =
+        [] : List Text
+    , repo =
         "https://github.com/purescript/purescript-prelude.git"
+    , version =
         "v4.1.1"
-    , profunctor =
-        mkPackage
+    }
+, profunctor =
+    { dependencies =
         [ "contravariant"
         , "control"
         , "distributive"
@@ -365,20 +496,29 @@ in  { arrays =
         , "prelude"
         , "tuples"
         ]
+    , repo =
         "https://github.com/purescript/purescript-profunctor.git"
+    , version =
         "v4.0.0"
-    , proxy =
-        mkPackage
+    }
+, proxy =
+    { dependencies =
         [ "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-proxy.git"
+    , version =
         "v3.0.0"
-    , psci-support =
-        mkPackage
+    }
+, psci-support =
+    { dependencies =
         [ "console", "effect", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-psci-support.git"
+    , version =
         "v4.0.0"
-    , quickcheck =
-        mkPackage
+    }
+, quickcheck =
+    { dependencies =
         [ "arrays"
         , "console"
         , "control"
@@ -408,35 +548,53 @@ in  { arrays =
         , "tuples"
         , "unfoldable"
         ]
+    , repo =
         "https://github.com/purescript/purescript-quickcheck.git"
+    , version =
         "v6.1.0"
-    , random =
-        mkPackage
+    }
+, random =
+    { dependencies =
         [ "effect", "integers", "math" ]
+    , repo =
         "https://github.com/purescript/purescript-random.git"
+    , version =
         "v4.0.0"
-    , record =
-        mkPackage
+    }
+, record =
+    { dependencies =
         [ "functions", "prelude", "st", "unsafe-coerce" ]
+    , repo =
         "https://github.com/purescript/purescript-record.git"
+    , version =
         "v2.0.1"
-    , refs =
-        mkPackage
+    }
+, refs =
+    { dependencies =
         [ "effect", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-refs.git"
+    , version =
         "v4.1.0"
-    , semirings =
-        mkPackage
+    }
+, semirings =
+    { dependencies =
         [ "foldable-traversable", "lists", "newtype", "prelude" ]
+    , repo =
         "https://github.com/purescript/purescript-semirings.git"
+    , version =
         "v5.0.0"
-    , st =
-        mkPackage
+    }
+, st =
+    { dependencies =
         [ "partial", "prelude", "tailrec" ]
+    , repo =
         "https://github.com/purescript/purescript-st.git"
+    , version =
         "v4.0.0"
-    , strings =
-        mkPackage
+    }
+, strings =
+    { dependencies =
         [ "arrays"
         , "control"
         , "either"
@@ -454,10 +612,13 @@ in  { arrays =
         , "unfoldable"
         , "unsafe-coerce"
         ]
+    , repo =
         "https://github.com/purescript/purescript-strings.git"
+    , version =
         "v4.0.1"
-    , tailrec =
-        mkPackage
+    }
+, tailrec =
+    { dependencies =
         [ "bifunctors"
         , "effect"
         , "either"
@@ -467,10 +628,13 @@ in  { arrays =
         , "prelude"
         , "refs"
         ]
+    , repo =
         "https://github.com/purescript/purescript-tailrec.git"
+    , version =
         "v4.0.0"
-    , transformers =
-        mkPackage
+    }
+, transformers =
+    { dependencies =
         [ "control"
         , "distributive"
         , "effect"
@@ -486,10 +650,13 @@ in  { arrays =
         , "tuples"
         , "unfoldable"
         ]
+    , repo =
         "https://github.com/purescript/purescript-transformers.git"
+    , version =
         "v4.2.0"
-    , tuples =
-        mkPackage
+    }
+, tuples =
+    { dependencies =
         [ "bifunctors"
         , "control"
         , "distributive"
@@ -500,30 +667,45 @@ in  { arrays =
         , "prelude"
         , "type-equality"
         ]
+    , repo =
         "https://github.com/purescript/purescript-tuples.git"
+    , version =
         "v5.1.0"
-    , type-equality =
-        mkPackage
-        ([] : List Text)
+    }
+, type-equality =
+    { dependencies =
+        [] : List Text
+    , repo =
         "https://github.com/purescript/purescript-type-equality.git"
+    , version =
         "v3.0.0"
-    , typelevel-prelude =
-        mkPackage
+    }
+, typelevel-prelude =
+    { dependencies =
         [ "prelude", "proxy", "type-equality" ]
+    , repo =
         "https://github.com/purescript/purescript-typelevel-prelude.git"
+    , version =
         "v5.0.0"
-    , unfoldable =
-        mkPackage
+    }
+, unfoldable =
+    { dependencies =
         [ "foldable-traversable", "maybe", "partial", "prelude", "tuples" ]
+    , repo =
         "https://github.com/purescript/purescript-unfoldable.git"
+    , version =
         "v4.0.2"
-    , unsafe-coerce =
-        mkPackage
-        ([] : List Text)
+    }
+, unsafe-coerce =
+    { dependencies =
+        [] : List Text
+    , repo =
         "https://github.com/purescript/purescript-unsafe-coerce.git"
+    , version =
         "v4.0.0"
-    , validation =
-        mkPackage
+    }
+, validation =
+    { dependencies =
         [ "bifunctors"
         , "control"
         , "either"
@@ -531,19 +713,9 @@ in  { arrays =
         , "newtype"
         , "prelude"
         ]
+    , repo =
         "https://github.com/purescript/purescript-validation.git"
+    , version =
         "v4.2.0"
-    , minibench =
-        mkPackage
-        [ "console"
-        , "effect"
-        , "globals"
-        , "integers"
-        , "math"
-        , "partial"
-        , "prelude"
-        , "refs"
-        ]
-        "https://github.com/purescript/purescript-minibench.git"
-        "v2.0.0"
     }
+}

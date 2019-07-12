@@ -1,21 +1,64 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { variant =
-        mkPackage
-        [ "enums"
-        , "lists"
+{ checked-exceptions =
+    { dependencies =
+        [ "prelude", "transformers", "variant" ]
+    , repo =
+        "https://github.com/natefaubion/purescript-checked-exceptions.git"
+    , version =
+        "v3.0.0"
+    }
+, heterogeneous =
+    { dependencies =
+        [ "either", "functors", "prelude", "record", "tuples", "variant" ]
+    , repo =
+        "https://github.com/natefaubion/purescript-heterogeneous.git"
+    , version =
+        "v0.4.1"
+    }
+, psa-utils =
+    { dependencies =
+        [ "ansi"
+        , "argonaut-codecs"
+        , "argonaut-core"
+        , "arrays"
+        , "console"
+        , "control"
+        , "effect"
+        , "either"
+        , "foldable-traversable"
         , "maybe"
-        , "partial"
+        , "node-path"
+        , "ordered-collections"
         , "prelude"
-        , "proxy"
-        , "record"
+        , "strings"
         , "tuples"
         , "unsafe-coerce"
         ]
-        "https://github.com/natefaubion/purescript-variant.git"
-        "v6.0.1"
-    , run =
-        mkPackage
+    , repo =
+        "https://github.com/natefaubion/purescript-psa-utils.git"
+    , version =
+        "v6.0.0"
+    }
+, routing-duplex =
+    { dependencies =
+        [ "arrays"
+        , "control"
+        , "either"
+        , "generics-rep"
+        , "globals"
+        , "lazy"
+        , "prelude"
+        , "profunctor"
+        , "record"
+        , "strings"
+        , "typelevel-prelude"
+        ]
+    , repo =
+        "https://github.com/natefaubion/purescript-routing-duplex.git"
+    , version =
+        "v0.3.0"
+    }
+, run =
+    { dependencies =
         [ "aff"
         , "effect"
         , "either"
@@ -30,41 +73,21 @@ in  { variant =
         , "unsafe-coerce"
         , "variant"
         ]
+    , repo =
         "https://github.com/natefaubion/purescript-run.git"
+    , version =
         "v3.0.1"
-    , heterogeneous =
-        mkPackage
-        [ "either", "functors", "prelude", "record", "tuples", "variant" ]
-        "https://github.com/natefaubion/purescript-heterogeneous.git"
-        "v0.4.1"
-    , routing-duplex =
-        mkPackage
-        [ "arrays"
-        , "control"
-        , "either"
-        , "generics-rep"
-        , "globals"
-        , "lazy"
-        , "prelude"
-        , "profunctor"
-        , "record"
-        , "strings"
-        , "typelevel-prelude"
-        ]
-        "https://github.com/natefaubion/purescript-routing-duplex.git"
-        "v0.3.0"
-    , run-streaming =
-        mkPackage
+    }
+, run-streaming =
+    { dependencies =
         [ "prelude", "run" ]
+    , repo =
         "https://github.com/natefaubion/purescript-run-streaming.git"
+    , version =
         "v2.0.0"
-    , checked-exceptions =
-        mkPackage
-        [ "prelude", "transformers", "variant" ]
-        "https://github.com/natefaubion/purescript-checked-exceptions.git"
-        "v3.0.0"
-    , spork =
-        mkPackage
+    }
+, spork =
+    { dependencies =
         [ "prelude"
         , "console"
         , "tailrec"
@@ -84,27 +107,26 @@ in  { variant =
         , "foreign"
         , "ordered-collections"
         ]
+    , repo =
         "https://github.com/natefaubion/purescript-spork"
+    , version =
         "v1.0.0"
-    , psa-utils =
-        mkPackage
-        [ "ansi"
-        , "argonaut-codecs"
-        , "argonaut-core"
-        , "arrays"
-        , "console"
-        , "control"
-        , "effect"
-        , "either"
-        , "foldable-traversable"
+    }
+, variant =
+    { dependencies =
+        [ "enums"
+        , "lists"
         , "maybe"
-        , "node-path"
-        , "ordered-collections"
+        , "partial"
         , "prelude"
-        , "strings"
+        , "proxy"
+        , "record"
         , "tuples"
         , "unsafe-coerce"
         ]
-        "https://github.com/natefaubion/purescript-psa-utils.git"
-        "v6.0.0"
+    , repo =
+        "https://github.com/natefaubion/purescript-variant.git"
+    , version =
+        "v6.0.1"
     }
+}

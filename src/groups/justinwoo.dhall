@@ -1,57 +1,170 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { gomtang-basic =
-        mkPackage
+{ chirashi =
+    { dependencies =
+        [ "exceptions", "prelude", "typelevel-prelude", "variant" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-chirashi.git"
+    , version =
+        "v1.0.0"
+    }
+, choco-pie =
+    { dependencies =
+        [ "event", "prelude", "record", "typelevel-prelude" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-chocopie.git"
+    , version =
+        "v5.0.0"
+    }
+, expect-inferred =
+    { dependencies =
+        [ "prelude", "typelevel-prelude" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-expect-inferred.git"
+    , version =
+        "v2.0.0"
+    }
+, format-nix =
+    { dependencies =
+        [ "generics-rep", "motsunabe", "prelude" ]
+    , repo =
+        "https://github.com/justinwoo/format-nix.git"
+    , version =
+        "v0.3.0"
+    }
+, gomtang-basic =
+    { dependencies =
         [ "console", "effect", "prelude", "record", "web-html" ]
+    , repo =
         "https://github.com/justinwoo/purescript-gomtang-basic.git"
+    , version =
         "v0.2.0"
-    , jajanmen =
-        mkPackage
+    }
+, jajanmen =
+    { dependencies =
         [ "node-sqlite3", "prelude", "typelevel-prelude" ]
+    , repo =
         "https://github.com/justinwoo/purescript-jajanmen.git"
+    , version =
         "v1.0.0"
-    , lenient-html-parser =
-        mkPackage
+    }
+, kancho =
+    { dependencies =
+        [ "foreign", "newtype", "strings", "typelevel-prelude" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-kancho.git"
+    , version =
+        "v2.0.0"
+    }
+, kishimen =
+    { dependencies =
+        [ "generics-rep", "prelude", "typelevel-prelude", "variant" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-kishimen.git"
+    , version =
+        "v1.0.1"
+    }
+, lenient-html-parser =
+    { dependencies =
         [ "console", "generics-rep", "prelude", "string-parsers" ]
+    , repo =
         "https://github.com/justinwoo/purescript-lenient-html-parser.git"
+    , version =
         "v4.0.0"
-    , makkori =
-        mkPackage
+    }
+, makkori =
+    { dependencies =
         [ "functions", "node-http", "prelude", "record" ]
+    , repo =
         "https://github.com/justinwoo/purescript-makkori.git"
+    , version =
         "v1.0.0"
-    , milkis =
-        mkPackage
+    }
+, milkis =
+    { dependencies =
         [ "aff-promise"
         , "arraybuffer-types"
         , "foreign-object"
         , "prelude"
         , "typelevel-prelude"
         ]
+    , repo =
         "https://github.com/justinwoo/purescript-milkis.git"
+    , version =
         "v7.0.1"
-    , node-he =
-        mkPackage
-        ([] : List Text)
+    }
+, motsunabe =
+    { dependencies =
+        [ "lists", "strings" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-motsunabe.git"
+    , version =
+        "v2.0.0"
+    }
+, naporitan =
+    { dependencies =
+        [ "record", "typelevel-prelude" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-naporitan.git"
+    , version =
+        "v1.0.0"
+    }
+, node-he =
+    { dependencies =
+        [] : List Text
+    , repo =
         "https://github.com/justinwoo/purescript-node-he.git"
+    , version =
         "v0.2.0"
-    , node-sqlite3 =
-        mkPackage
+    }
+, node-sqlite3 =
+    { dependencies =
         [ "aff", "foreign" ]
+    , repo =
         "https://github.com/justinwoo/purescript-node-sqlite3.git"
+    , version =
         "v6.0.0"
-    , record-extra =
-        mkPackage
+    }
+, node-telegram-bot-api =
+    { dependencies =
+        [ "aff", "foreign", "simple-json", "strings" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-node-telegram-bot-api.git"
+    , version =
+        "v4.0.0"
+    }
+, record-extra =
+    { dependencies =
         [ "arrays", "functions", "lists", "record", "typelevel-prelude" ]
+    , repo =
         "https://github.com/justinwoo/purescript-record-extra.git"
+    , version =
         "v3.0.0"
-    , shoronpo =
-        mkPackage
+    }
+, redux-devtools =
+    { dependencies =
+        [ "effect", "foreign", "nullable", "prelude" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-redux-devtools.git"
+    , version =
+        "v0.1.0"
+    }
+, shoronpo =
+    { dependencies =
         [ "prelude", "record-format" ]
+    , repo =
         "https://github.com/justinwoo/purescript-shoronpo.git"
+    , version =
         "v0.3.0"
-    , simple-json =
-        mkPackage
+    }
+, sijidou =
+    { dependencies =
+        [ "prelude", "record", "typelevel-prelude" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-sijidou.git"
+    , version =
+        "v1.0.0"
+    }
+, simple-json =
+    { dependencies =
         [ "arrays"
         , "exceptions"
         , "foreign"
@@ -63,15 +176,37 @@ in  { gomtang-basic =
         , "typelevel-prelude"
         , "variant"
         ]
+    , repo =
         "https://github.com/justinwoo/purescript-simple-json.git"
+    , version =
         "v7.0.0"
-    , sunde =
-        mkPackage
+    }
+, simple-json-generics =
+    { dependencies =
+        [ "generics-rep", "simple-json" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-simple-json-generics.git"
+    , version =
+        "v0.1.0"
+    }
+, simple-json-utils =
+    { dependencies =
+        [ "motsunabe", "simple-json" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-simple-json-utils.git"
+    , version =
+        "v0.1.0"
+    }
+, sunde =
+    { dependencies =
         [ "aff", "effect", "node-child-process", "prelude" ]
+    , repo =
         "https://github.com/justinwoo/purescript-sunde.git"
+    , version =
         "v2.0.0"
-    , toppokki =
-        mkPackage
+    }
+, toppokki =
+    { dependencies =
         [ "aff-promise"
         , "functions"
         , "node-buffer"
@@ -79,10 +214,13 @@ in  { gomtang-basic =
         , "prelude"
         , "record"
         ]
+    , repo =
         "https://github.com/justinwoo/purescript-toppokki.git"
+    , version =
         "v1.1.0"
-    , tortellini =
-        mkPackage
+    }
+, tortellini =
+    { dependencies =
         [ "foreign-object"
         , "integers"
         , "lists"
@@ -95,81 +233,25 @@ in  { gomtang-basic =
         , "transformers"
         , "typelevel-prelude"
         ]
+    , repo =
         "https://github.com/justinwoo/purescript-tortellini.git"
+    , version =
         "v5.1.0"
-    , node-telegram-bot-api =
-        mkPackage
-        [ "aff", "foreign", "simple-json", "strings" ]
-        "https://github.com/justinwoo/purescript-node-telegram-bot-api.git"
-        "v4.0.0"
-    , choco-pie =
-        mkPackage
-        [ "event", "prelude", "record", "typelevel-prelude" ]
-        "https://github.com/justinwoo/purescript-chocopie.git"
-        "v5.0.0"
-    , expect-inferred =
-        mkPackage
-        [ "prelude", "typelevel-prelude" ]
-        "https://github.com/justinwoo/purescript-expect-inferred.git"
-        "v2.0.0"
-    , type-isequal =
-        mkPackage
-        [ "typelevel-prelude" ]
-        "https://github.com/justinwoo/purescript-type-isequal.git"
-        "v0.1.0"
-    , kancho =
-        mkPackage
-        [ "foreign", "newtype", "strings", "typelevel-prelude" ]
-        "https://github.com/justinwoo/purescript-kancho.git"
-        "v2.0.0"
-    , redux-devtools =
-        mkPackage
-        [ "effect", "foreign", "nullable", "prelude" ]
-        "https://github.com/justinwoo/purescript-redux-devtools.git"
-        "v0.1.0"
-    , simple-json-generics =
-        mkPackage
-        [ "generics-rep", "simple-json" ]
-        "https://github.com/justinwoo/purescript-simple-json-generics.git"
-        "v0.1.0"
-    , naporitan =
-        mkPackage
-        [ "record", "typelevel-prelude" ]
-        "https://github.com/justinwoo/purescript-naporitan.git"
-        "v1.0.0"
-    , xiaomian =
-        mkPackage
-        [ "naporitan" ]
-        "https://github.com/justinwoo/purescript-xiaomian.git"
-        "v0.1.0"
-    , chirashi =
-        mkPackage
-        [ "exceptions", "prelude", "typelevel-prelude", "variant" ]
-        "https://github.com/justinwoo/purescript-chirashi.git"
-        "v1.0.0"
-    , sijidou =
-        mkPackage
-        [ "prelude", "record", "typelevel-prelude" ]
-        "https://github.com/justinwoo/purescript-sijidou.git"
-        "v1.0.0"
-    , kishimen =
-        mkPackage
-        [ "generics-rep", "prelude", "typelevel-prelude", "variant" ]
-        "https://github.com/justinwoo/purescript-kishimen.git"
-        "v1.0.1"
-    , motsunabe =
-        mkPackage
-        [ "lists", "strings" ]
-        "https://github.com/justinwoo/purescript-motsunabe.git"
-        "v2.0.0"
-    , simple-json-utils =
-        mkPackage
-        [ "motsunabe", "simple-json" ]
-        "https://github.com/justinwoo/purescript-simple-json-utils.git"
-        "v0.1.0"
-    , format-nix =
-        mkPackage
-        [ "generics-rep", "motsunabe", "prelude" ]
-        "https://github.com/justinwoo/format-nix.git"
-        "v0.3.0"
     }
+, type-isequal =
+    { dependencies =
+        [ "typelevel-prelude" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-type-isequal.git"
+    , version =
+        "v0.1.0"
+    }
+, xiaomian =
+    { dependencies =
+        [ "naporitan" ]
+    , repo =
+        "https://github.com/justinwoo/purescript-xiaomian.git"
+    , version =
+        "v0.1.0"
+    }
+}

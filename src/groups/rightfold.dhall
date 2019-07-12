@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { bytestrings =
-        mkPackage
+{ bytestrings =
+    { dependencies =
         [ "arrays"
         , "effect"
         , "exceptions"
@@ -16,11 +14,17 @@ in  { bytestrings =
         , "quotient"
         , "unsafe-coerce"
         ]
+    , repo =
         "https://github.com/rightfold/purescript-bytestrings.git"
+    , version =
         "v7.0.0"
-    , quotient =
-        mkPackage
+    }
+, quotient =
+    { dependencies =
         [ "prelude", "proxy", "quickcheck" ]
+    , repo =
         "https://github.com/rightfold/purescript-quotient.git"
+    , version =
         "v3.0.0"
     }
+}

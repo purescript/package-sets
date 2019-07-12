@@ -1,25 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { event =
-        mkPackage
-        [ "console"
-        , "effect"
-        , "filterable"
-        , "js-timers"
-        , "now"
-        , "nullable"
-        , "prelude"
-        , "unsafe-reference"
-        ]
-        "https://github.com/paf31/purescript-event.git"
-        "v1.2.4"
-    , yargs =
-        mkPackage
-        [ "console", "either", "exceptions", "foreign", "unsafe-coerce" ]
-        "https://github.com/paf31/purescript-yargs.git"
-        "v4.0.0"
-    , behaviors =
-        mkPackage
+{ behaviors =
+    { dependencies =
         [ "effect"
         , "event"
         , "filterable"
@@ -30,10 +10,37 @@ in  { event =
         , "web-html"
         , "web-uievents"
         ]
+    , repo =
         "https://github.com/paf31/purescript-behaviors.git"
+    , version =
         "v7.0.0"
-    , foreign-generic =
-        mkPackage
+    }
+, event =
+    { dependencies =
+        [ "console"
+        , "effect"
+        , "filterable"
+        , "js-timers"
+        , "now"
+        , "nullable"
+        , "prelude"
+        , "unsafe-reference"
+        ]
+    , repo =
+        "https://github.com/paf31/purescript-event.git"
+    , version =
+        "v1.2.4"
+    }
+, folds =
+    { dependencies =
+        [ "control", "ordered-collections", "profunctor" ]
+    , repo =
+        "https://github.com/paf31/purescript-folds.git"
+    , version =
+        "v5.2.0"
+    }
+, foreign-generic =
+    { dependencies =
         [ "effect"
         , "exceptions"
         , "foreign"
@@ -44,10 +51,21 @@ in  { event =
         , "proxy"
         , "record"
         ]
+    , repo =
         "https://github.com/paf31/purescript-foreign-generic.git"
+    , version =
         "v10.0.0"
-    , memoize =
-        mkPackage
+    }
+, leibniz =
+    { dependencies =
+        [ "prelude", "unsafe-coerce" ]
+    , repo =
+        "https://github.com/paf31/purescript-leibniz.git"
+    , version =
+        "v5.0.0"
+    }
+, memoize =
+    { dependencies =
         [ "either"
         , "generics-rep"
         , "integers"
@@ -57,15 +75,29 @@ in  { event =
         , "strings"
         , "tuples"
         ]
+    , repo =
         "https://github.com/paf31/purescript-memoize.git"
+    , version =
         "v5.0.0"
-    , safely =
-        mkPackage
+    }
+, pairing =
+    { dependencies =
+        [ "free", "functors", "transformers" ]
+    , repo =
+        "https://github.com/paf31/purescript-pairing.git"
+    , version =
+        "v5.1.0"
+    }
+, safely =
+    { dependencies =
         [ "freet", "lists" ]
+    , repo =
         "https://github.com/paf31/purescript-safely.git"
+    , version =
         "v4.0.0"
-    , string-parsers =
-        mkPackage
+    }
+, string-parsers =
+    { dependencies =
         [ "arrays"
         , "bifunctors"
         , "control"
@@ -77,21 +109,17 @@ in  { event =
         , "strings"
         , "tailrec"
         ]
+    , repo =
         "https://github.com/paf31/purescript-string-parsers.git"
+    , version =
         "v5.0.0"
-    , pairing =
-        mkPackage
-        [ "free", "functors", "transformers" ]
-        "https://github.com/paf31/purescript-pairing.git"
-        "v5.1.0"
-    , leibniz =
-        mkPackage
-        [ "prelude", "unsafe-coerce" ]
-        "https://github.com/paf31/purescript-leibniz.git"
-        "v5.0.0"
-    , folds =
-        mkPackage
-        [ "control", "ordered-collections", "profunctor" ]
-        "https://github.com/paf31/purescript-folds.git"
-        "v5.2.0"
     }
+, yargs =
+    { dependencies =
+        [ "console", "either", "exceptions", "foreign", "unsafe-coerce" ]
+    , repo =
+        "https://github.com/paf31/purescript-yargs.git"
+    , version =
+        "v4.0.0"
+    }
+}

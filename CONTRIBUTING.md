@@ -94,9 +94,6 @@ The files in this package-set are structured as such:
 -- Package type definition
 src/Package.dhall
 
--- function to define packages
-src/mkPackage.dhall
-
 -- packages to be included when building package set
 src/packages.dhall
 
@@ -114,16 +111,6 @@ So a given package is nothing more than:
 - a list of dependencies
 - the git url for the repository
 - and the tag or branch that it can be pulled from.
-
-The `mkPackage.dhall` contains a function for creating `Package` values easily:
-
-```hs
-   \(dependencies : List Text)
--> \(repo : Text)
--> \(version : Text)
-->    { dependencies = dependencies, repo = repo, version = version }
-   : ./Package.dhall
-```
 
 The `packages.dhall` is the actual "package-set": a record from package names to package definitions.  
 It is defined by taking package definitions from the groups and joining them with a right-sided merge.  
@@ -148,24 +135,22 @@ In order to hack on this project, you should have installed:
 
 ### 1. Adding a new package
 
-To add a new package to the package set, you should create a package definition with `mkPackage`, and put it in the group file corresponding to the author's username.
+To add a new package to the package set, you should create a package definition matching the Package type, and put it in the group file corresponding to the author's username.
 
 For example, if I wish to add to the package-set the version `v4.2.0` of the package `unicorns` from `someauthor`, I will create the file `src/groups/someauthor.dhall`.
 
 Its content would look something like this:
 
 ```hs
-    let mkPackage = ./../mkPackage.dhall
-
-in  { unicorns =
-        mkPackage
-        [ "prelude"
-        , "console"
-        , "simple-json"
-        ]
-        "https://github.com/someauthor/purescript-unicorns.git"
-        "v4.2.0"
+{ some-food =
+    { dependencies =
+        [ "event", "prelude", "record", "typelevel-prelude" ]
+    , repo =
+        "https://github.com/someauthor/purescript-some-food.git"
+    , version =
+        "v5.0.0"
     }
+}
 ```
 
 Then add a new line containing a reference to the new group to the `src/packages.dhall` file.

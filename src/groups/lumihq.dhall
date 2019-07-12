@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { react-basic =
-        mkPackage
+{ react-basic =
+    { dependencies =
         [ "aff"
         , "console"
         , "effect"
@@ -14,6 +12,9 @@ in  { react-basic =
         , "web-events"
         , "web-html"
         ]
+    , repo =
         "https://github.com/lumihq/purescript-react-basic.git"
+    , version =
         "v9.0.1"
     }
+}

@@ -1,8 +1,9 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { remotedata =
-        mkPackage
+{ remotedata =
+    { dependencies =
         [ "bifunctors", "either", "generics-rep", "profunctor-lenses" ]
+    , repo =
         "https://github.com/krisajenkins/purescript-remotedata.git"
+    , version =
         "v4.2.0"
     }
+}

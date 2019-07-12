@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { rave =
-        mkPackage
+{ rave =
+    { dependencies =
         [ "aff"
         , "checked-exceptions"
         , "console"
@@ -11,10 +9,13 @@ in  { rave =
         , "record"
         , "variant"
         ]
+    , repo =
         "https://github.com/reactormonk/purescript-rave.git"
+    , version =
         "v0.1.1"
-    , simple-timestamp =
-        mkPackage
+    }
+, simple-timestamp =
+    { dependencies =
         [ "console"
         , "datetime"
         , "effect"
@@ -25,6 +26,9 @@ in  { rave =
         , "simple-json"
         , "spec"
         ]
+    , repo =
         "https://github.com/reactormonk/purescript-simple-timestamp.git"
+    , version =
         "v1.1.0"
     }
+}

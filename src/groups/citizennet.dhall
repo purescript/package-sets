@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { fuzzy =
-        mkPackage
+{ fuzzy =
+    { dependencies =
         [ "foldable-traversable"
         , "foreign-object"
         , "generics-rep"
@@ -13,6 +11,9 @@ in  { fuzzy =
         , "strongcheck"
         , "tuples"
         ]
+    , repo =
         "https://github.com/citizennet/purescript-fuzzy.git"
+    , version =
         "v0.2.1"
     }
+}

@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { node-postgres =
-        mkPackage
+{ node-postgres =
+    { dependencies =
         [ "aff"
         , "arrays"
         , "datetime"
@@ -14,6 +12,9 @@ in  { node-postgres =
         , "transformers"
         , "unsafe-coerce"
         ]
+    , repo =
         "https://github.com/epost/purescript-node-postgres.git"
+    , version =
         "v5.0.0"
     }
+}

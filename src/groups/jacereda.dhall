@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { arraybuffer =
-        mkPackage
+{ arraybuffer =
+    { dependencies =
         [ "arraybuffer-types"
         , "effect"
         , "float32"
@@ -13,6 +11,9 @@ in  { arraybuffer =
         , "typelevel"
         , "uint"
         ]
+    , repo =
         "https://github.com/jacereda/purescript-arraybuffer.git"
+    , version =
         "v10.0.0"
     }
+}

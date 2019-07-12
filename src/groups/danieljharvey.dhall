@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { refined =
-        mkPackage
+{ refined =
+    { dependencies =
         [ "argonaut"
         , "console"
         , "effect"
@@ -9,6 +7,9 @@ in  { refined =
         , "prelude"
         , "typelevel"
         ]
+    , repo =
         "https://github.com/danieljharvey/purescript-refined.git"
+    , version =
         "v0.1.2"
     }
+}

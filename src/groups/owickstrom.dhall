@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { hyper =
-        mkPackage
+{ hyper =
+    { dependencies =
         [ "aff"
         , "avar"
         , "argonaut"
@@ -27,20 +25,29 @@ in  { hyper =
         , "record-extra"
         , "typelevel-prelude"
         ]
+    , repo =
         "https://github.com/owickstrom/hyper.git"
+    , version =
         "v0.10.0"
-    , spec-discovery =
-        mkPackage
+    }
+, spec-discovery =
+    { dependencies =
         [ "arrays", "effect", "node-fs", "prelude", "spec" ]
+    , repo =
         "https://github.com/owickstrom/purescript-spec-discovery.git"
+    , version =
         "v4.0.0"
-    , spec-quickcheck =
-        mkPackage
+    }
+, spec-quickcheck =
+    { dependencies =
         [ "aff", "prelude", "quickcheck", "random", "spec" ]
+    , repo =
         "https://github.com/owickstrom/purescript-spec-quickcheck.git"
+    , version =
         "v3.1.0"
-    , trout =
-        mkPackage
+    }
+, trout =
+    { dependencies =
         [ "argonaut"
         , "media-types"
         , "prelude"
@@ -49,6 +56,9 @@ in  { hyper =
         , "spec-discovery"
         , "uri"
         ]
+    , repo =
         "https://github.com/owickstrom/purescript-trout.git"
+    , version =
         "v0.12.0"
     }
+}

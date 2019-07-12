@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { text-encoding =
-        mkPackage
+{ text-encoding =
+    { dependencies =
         [ "arraybuffer-types"
         , "either"
         , "exceptions"
@@ -9,6 +7,9 @@ in  { text-encoding =
         , "prelude"
         , "strings"
         ]
+    , repo =
         "https://github.com/AlexaDeWit/purescript-text-encoding.git"
+    , version =
         "v0.0.9"
     }
+}

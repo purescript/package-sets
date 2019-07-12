@@ -1,18 +1,25 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { debug =
-        mkPackage
+{ debug =
+    { dependencies =
         [ "prelude" ]
+    , repo =
         "https://github.com/garyb/purescript-debug.git"
+    , version =
         "v4.0.0"
-    , quickcheck-laws =
-        mkPackage
-        [ "enums", "proxy", "quickcheck" ]
-        "https://github.com/garyb/purescript-quickcheck-laws.git"
-        "v5.0.1"
-    , indexed-monad =
-        mkPackage
+    }
+, indexed-monad =
+    { dependencies =
         [ "control", "newtype" ]
+    , repo =
         "https://github.com/garyb/purescript-indexed-monad.git"
+    , version =
         "v1.0.0"
     }
+, quickcheck-laws =
+    { dependencies =
+        [ "enums", "proxy", "quickcheck" ]
+    , repo =
+        "https://github.com/garyb/purescript-quickcheck-laws.git"
+    , version =
+        "v5.0.1"
+    }
+}

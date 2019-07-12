@@ -1,12 +1,21 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { aff-coroutines =
-        mkPackage
+{ aff-coroutines =
+    { dependencies =
         [ "aff", "avar", "console", "coroutines" ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-aff-coroutines.git"
+    , version =
         "v7.0.0"
-    , argonaut-codecs =
-        mkPackage
+    }
+, argonaut =
+    { dependencies =
+        [ "argonaut-codecs", "argonaut-core", "argonaut-traversals" ]
+    , repo =
+        "https://github.com/purescript-contrib/purescript-argonaut.git"
+    , version =
+        "v6.0.0"
+    }
+, argonaut-codecs =
+    { dependencies =
         [ "argonaut-core"
         , "arrays"
         , "foreign-object"
@@ -16,10 +25,13 @@ in  { aff-coroutines =
         , "ordered-collections"
         , "record"
         ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
+    , version =
         "v6.0.2"
-    , argonaut-core =
-        mkPackage
+    }
+, argonaut-core =
+    { dependencies =
         [ "arrays"
         , "control"
         , "either"
@@ -32,25 +44,53 @@ in  { aff-coroutines =
         , "strings"
         , "tailrec"
         ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-argonaut-core.git"
+    , version =
         "v5.0.0"
-    , arraybuffer-types =
-        mkPackage
-        ([] : List Text)
+    }
+, argonaut-generic =
+    { dependencies =
+        [ "argonaut-codecs", "argonaut-core", "generics-rep", "record" ]
+    , repo =
+        "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
+    , version =
+        "v5.0.0"
+    }
+, argonaut-traversals =
+    { dependencies =
+        [ "argonaut-codecs", "argonaut-core", "profunctor-lenses" ]
+    , repo =
+        "https://github.com/purescript-contrib/purescript-argonaut-traversals.git"
+    , version =
+        "v7.0.0"
+    }
+, arraybuffer-types =
+    { dependencies =
+        [] : List Text
+    , repo =
         "https://github.com/purescript-contrib/purescript-arraybuffer-types.git"
+    , version =
         "v2.0.0"
-    , coroutines =
-        mkPackage
+    }
+, coroutines =
+    { dependencies =
         [ "freet", "parallel", "profunctor" ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-coroutines.git"
+    , version =
         "v5.0.0"
-    , form-urlencoded =
-        mkPackage
+    }
+, form-urlencoded =
+    { dependencies =
         [ "globals", "maybe", "newtype", "prelude", "strings", "tuples" ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-form-urlencoded.git"
+    , version =
         "v4.0.1"
-    , freet =
-        mkPackage
+    }
+, freet =
+    { dependencies =
         [ "bifunctors"
         , "effect"
         , "either"
@@ -59,25 +99,37 @@ in  { aff-coroutines =
         , "tailrec"
         , "transformers"
         ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-freet.git"
+    , version =
         "v4.0.0"
-    , http-methods =
-        mkPackage
+    }
+, http-methods =
+    { dependencies =
         [ "either", "prelude", "strings" ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-http-methods.git"
+    , version =
         "v4.0.2"
-    , js-date =
-        mkPackage
+    }
+, js-date =
+    { dependencies =
         [ "datetime", "exceptions", "foreign", "integers", "now" ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-js-date.git"
+    , version =
         "v6.0.0"
-    , js-timers =
-        mkPackage
+    }
+, js-timers =
+    { dependencies =
         [ "effect" ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-js-timers.git"
+    , version =
         "v4.0.1"
-    , machines =
-        mkPackage
+    }
+, machines =
+    { dependencies =
         [ "arrays"
         , "control"
         , "effect"
@@ -88,30 +140,63 @@ in  { aff-coroutines =
         , "tuples"
         , "unfoldable"
         ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-machines.git"
+    , version =
         "v5.1.0"
-    , media-types =
-        mkPackage
+    }
+, media-types =
+    { dependencies =
         [ "newtype", "prelude" ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-media-types.git"
+    , version =
         "v4.0.1"
-    , now =
-        mkPackage
+    }
+, now =
+    { dependencies =
         [ "datetime", "effect" ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-now.git"
+    , version =
         "v4.0.0"
-    , nullable =
-        mkPackage
+    }
+, nullable =
+    { dependencies =
         [ "functions", "maybe" ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-nullable.git"
+    , version =
         "v4.1.1"
-    , options =
-        mkPackage
+    }
+, options =
+    { dependencies =
         [ "contravariant", "foreign", "foreign-object", "maybe", "tuples" ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-options.git"
+    , version =
         "v5.0.0"
-    , profunctor-lenses =
-        mkPackage
+    }
+, parsing =
+    { dependencies =
+        [ "arrays"
+        , "either"
+        , "foldable-traversable"
+        , "identity"
+        , "integers"
+        , "lists"
+        , "maybe"
+        , "strings"
+        , "transformers"
+        , "unicode"
+        ]
+    , repo =
+        "https://github.com/purescript-contrib/purescript-parsing.git"
+    , version =
+        "v5.0.3"
+    }
+, profunctor-lenses =
+    { dependencies =
         [ "arrays"
         , "bifunctors"
         , "const"
@@ -133,10 +218,13 @@ in  { aff-coroutines =
         , "transformers"
         , "tuples"
         ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
+    , version =
         "v6.2.0"
-    , react =
-        mkPackage
+    }
+, react =
+    { dependencies =
         [ "effect"
         , "exceptions"
         , "maybe"
@@ -145,55 +233,21 @@ in  { aff-coroutines =
         , "typelevel-prelude"
         , "unsafe-coerce"
         ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-react.git"
+    , version =
         "v7.0.1"
-    , react-dom =
-        mkPackage
+    }
+, react-dom =
+    { dependencies =
         [ "effect", "react", "web-dom" ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-react-dom.git"
+    , version =
         "v6.1.0"
-    , these =
-        mkPackage
-        [ "gen", "tuples" ]
-        "https://github.com/purescript-contrib/purescript-these.git"
-        "v4.0.0"
-    , unicode =
-        mkPackage
-        [ "foldable-traversable", "maybe", "strings" ]
-        "https://github.com/purescript-contrib/purescript-unicode.git"
-        "v4.0.1"
-    , unsafe-reference =
-        mkPackage
-        ([] : List Text)
-        "https://github.com/purescript-contrib/purescript-unsafe-reference"
-        "v3.0.1"
-    , argonaut =
-        mkPackage
-        [ "argonaut-codecs", "argonaut-core", "argonaut-traversals" ]
-        "https://github.com/purescript-contrib/purescript-argonaut.git"
-        "v6.0.0"
-    , argonaut-traversals =
-        mkPackage
-        [ "argonaut-codecs", "argonaut-core", "profunctor-lenses" ]
-        "https://github.com/purescript-contrib/purescript-argonaut-traversals.git"
-        "v7.0.0"
-    , parsing =
-        mkPackage
-        [ "arrays"
-        , "either"
-        , "foldable-traversable"
-        , "identity"
-        , "integers"
-        , "lists"
-        , "maybe"
-        , "strings"
-        , "transformers"
-        , "unicode"
-        ]
-        "https://github.com/purescript-contrib/purescript-parsing.git"
-        "v5.0.3"
-    , strongcheck =
-        mkPackage
+    }
+, strongcheck =
+    { dependencies =
         [ "arrays"
         , "console"
         , "control"
@@ -222,11 +276,33 @@ in  { aff-coroutines =
         , "transformers"
         , "tuples"
         ]
+    , repo =
         "https://github.com/purescript-contrib/purescript-strongcheck.git"
+    , version =
         "v4.1.1"
-    , argonaut-generic =
-        mkPackage
-        [ "argonaut-codecs", "argonaut-core", "generics-rep", "record" ]
-        "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
-        "v5.0.0"
     }
+, these =
+    { dependencies =
+        [ "gen", "tuples" ]
+    , repo =
+        "https://github.com/purescript-contrib/purescript-these.git"
+    , version =
+        "v4.0.0"
+    }
+, unicode =
+    { dependencies =
+        [ "foldable-traversable", "maybe", "strings" ]
+    , repo =
+        "https://github.com/purescript-contrib/purescript-unicode.git"
+    , version =
+        "v4.0.1"
+    }
+, unsafe-reference =
+    { dependencies =
+        [] : List Text
+    , repo =
+        "https://github.com/purescript-contrib/purescript-unsafe-reference"
+    , version =
+        "v3.0.1"
+    }
+}
