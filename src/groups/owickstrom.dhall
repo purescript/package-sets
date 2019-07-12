@@ -1,6 +1,35 @@
 let mkPackage = ./../mkPackage.dhall
 
-in  { spec-discovery =
+in  { hyper =
+        mkPackage
+        [ "aff"
+        , "avar"
+        , "argonaut"
+        , "arrays"
+        , "control"
+        , "effect"
+        , "foldable-traversable"
+        , "generics-rep"
+        , "http-methods"
+        , "indexed-monad"
+        , "media-types"
+        , "node-fs-aff"
+        , "node-http"
+        , "ordered-collections"
+        , "proxy"
+        , "psci-support"
+        , "random"
+        , "smolder"
+        , "spec"
+        , "spec-discovery"
+        , "strings"
+        , "transformers"
+        , "record-extra"
+        , "typelevel-prelude"
+        ]
+        "https://github.com/owickstrom/hyper.git"
+        "v0.10.0"
+    , spec-discovery =
         mkPackage
         [ "arrays", "effect", "node-fs", "prelude", "spec" ]
         "https://github.com/owickstrom/purescript-spec-discovery.git"
