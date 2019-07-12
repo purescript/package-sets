@@ -339,11 +339,12 @@
   "bucketchain-simple-api": {
     "dependencies": [
       "bucketchain",
+      "freet",
       "media-types",
       "simple-json"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git",
-    "version": "v0.4.2"
+    "version": "v0.5.0"
   },
   "bucketchain-sslify": {
     "dependencies": [

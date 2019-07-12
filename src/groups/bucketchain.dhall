@@ -52,9 +52,9 @@ in  { bucketchain =
         "v0.1.0"
     , bucketchain-simple-api =
         mkPackage
-        [ "bucketchain", "media-types", "simple-json" ]
+        [ "bucketchain", "media-types", "simple-json", "freet" ]
         "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git"
-        "v0.4.2"
+        "v0.5.0"
     , bucketchain-sslify =
         mkPackage
         [ "bucketchain" ]
