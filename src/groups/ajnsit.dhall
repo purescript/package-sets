@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { concur-react =
-        mkPackage
+{ concur-react =
+    { dependencies =
         [ "aff"
         , "arrays"
         , "avar"
@@ -15,6 +13,9 @@ in  { concur-react =
         , "web-dom"
         , "web-html"
         ]
+    , repo =
         "https://github.com/ajnsit/purescript-concur.git"
+    , version =
         "v0.3.8"
     }
+}

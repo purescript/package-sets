@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { server-sent-events =
-        mkPackage
+{ server-sent-events =
+    { dependencies =
         [ "effect"
         , "functions"
         , "generics-rep"
@@ -9,6 +7,9 @@ in  { server-sent-events =
         , "prelude"
         , "web-events"
         ]
+    , repo =
         "https://github.com/MichaelXavier/purescript-server-sent-events.git"
+    , version =
         "v0.2.0"
     }
+}

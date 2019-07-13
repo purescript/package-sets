@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { optparse =
-        mkPackage
+{ optparse =
+    { dependencies =
         [ "arrays"
         , "console"
         , "effect"
@@ -15,6 +13,9 @@ in  { optparse =
         , "strings"
         , "transformers"
         ]
+    , repo =
         "https://github.com/f-o-a-m/purescript-optparse.git"
+    , version =
         "v3.0.1"
     }
+}

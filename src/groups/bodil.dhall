@@ -1,7 +1,44 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { test-unit =
-        mkPackage
+{ signal =
+    { dependencies =
+        [ "aff", "foldable-traversable", "js-timers", "maybe", "prelude" ]
+    , repo =
+        "https://github.com/bodil/purescript-signal.git"
+    , version =
+        "v10.1.0"
+    }
+, sized-vectors =
+    { dependencies =
+        [ "arrays"
+        , "distributive"
+        , "foldable-traversable"
+        , "maybe"
+        , "prelude"
+        , "typelevel"
+        , "unfoldable"
+        ]
+    , repo =
+        "https://github.com/bodil/purescript-sized-vectors.git"
+    , version =
+        "v3.1.0"
+    }
+, smolder =
+    { dependencies =
+        [ "bifunctors"
+        , "catenable-lists"
+        , "free"
+        , "globals"
+        , "ordered-collections"
+        , "strings"
+        , "transformers"
+        , "tuples"
+        ]
+    , repo =
+        "https://github.com/bodil/purescript-smolder.git"
+    , version =
+        "v12.0.0"
+    }
+, test-unit =
+    { dependencies =
         [ "aff"
         , "avar"
         , "effect"
@@ -13,41 +50,17 @@ in  { test-unit =
         , "quickcheck"
         , "strings"
         ]
+    , repo =
         "https://github.com/bodil/purescript-test-unit.git"
+    , version =
         "v15.0.0"
-    , typelevel =
-        mkPackage
-        [ "partial", "prelude", "tuples", "typelevel-prelude", "unsafe-coerce" ]
-        "https://github.com/bodil/purescript-typelevel.git"
-        "v5.0.0"
-    , signal =
-        mkPackage
-        [ "aff", "foldable-traversable", "js-timers", "maybe", "prelude" ]
-        "https://github.com/bodil/purescript-signal.git"
-        "v10.1.0"
-    , smolder =
-        mkPackage
-        [ "bifunctors"
-        , "catenable-lists"
-        , "free"
-        , "globals"
-        , "ordered-collections"
-        , "strings"
-        , "transformers"
-        , "tuples"
-        ]
-        "https://github.com/bodil/purescript-smolder.git"
-        "v12.0.0"
-    , sized-vectors =
-        mkPackage
-        [ "arrays"
-        , "distributive"
-        , "foldable-traversable"
-        , "maybe"
-        , "prelude"
-        , "typelevel"
-        , "unfoldable"
-        ]
-        "https://github.com/bodil/purescript-sized-vectors.git"
-        "v3.1.0"
     }
+, typelevel =
+    { dependencies =
+        [ "partial", "prelude", "tuples", "typelevel-prelude", "unsafe-coerce" ]
+    , repo =
+        "https://github.com/bodil/purescript-typelevel.git"
+    , version =
+        "v5.0.0"
+    }
+}

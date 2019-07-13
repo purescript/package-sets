@@ -1,13 +1,17 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { svg-parser-halogen =
-        mkPackage
-        [ "halogen", "prelude", "svg-parser" ]
-        "https://github.com/rnons/purescript-svg-parser-halogen.git"
-        "v1.0.0"
-    , svg-parser =
-        mkPackage
+{ svg-parser =
+    { dependencies =
         [ "generics-rep", "prelude", "string-parsers" ]
+    , repo =
         "https://github.com/rnons/purescript-svg-parser.git"
+    , version =
         "v1.0.0"
     }
+, svg-parser-halogen =
+    { dependencies =
+        [ "halogen", "prelude", "svg-parser" ]
+    , repo =
+        "https://github.com/rnons/purescript-svg-parser-halogen.git"
+    , version =
+        "v1.0.0"
+    }
+}

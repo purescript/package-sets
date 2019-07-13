@@ -1,63 +1,94 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { web-clipboard =
-        mkPackage
+{ canvas =
+    { dependencies =
+        [ "arraybuffer-types", "effect", "exceptions", "functions", "maybe" ]
+    , repo =
+        "https://github.com/purescript-web/purescript-canvas.git"
+    , version =
+        "v4.0.0"
+    }
+, web-clipboard =
+    { dependencies =
         [ "web-html" ]
+    , repo =
         "https://github.com/purescript-web/purescript-web-clipboard.git"
+    , version =
         "v2.0.0"
-    , web-dom =
-        mkPackage
+    }
+, web-dom =
+    { dependencies =
         [ "web-events" ]
+    , repo =
         "https://github.com/purescript-web/purescript-web-dom.git"
+    , version =
         "v3.0.0"
-    , web-events =
-        mkPackage
+    }
+, web-events =
+    { dependencies =
         [ "datetime", "enums", "nullable" ]
+    , repo =
         "https://github.com/purescript-web/purescript-web-events.git"
+    , version =
         "v2.0.1"
-    , web-file =
-        mkPackage
+    }
+, web-file =
+    { dependencies =
         [ "foreign", "media-types", "web-dom" ]
+    , repo =
         "https://github.com/purescript-web/purescript-web-file.git"
+    , version =
         "v2.1.1"
-    , web-html =
-        mkPackage
+    }
+, web-html =
+    { dependencies =
         [ "js-date", "web-dom", "web-file", "web-storage" ]
+    , repo =
         "https://github.com/purescript-web/purescript-web-html.git"
+    , version =
         "v2.2.1"
-    , web-storage =
-        mkPackage
+    }
+, web-socket =
+    { dependencies =
+        [ "arraybuffer-types", "web-file" ]
+    , repo =
+        "https://github.com/purescript-web/purescript-web-socket.git"
+    , version =
+        "v2.0.0"
+    }
+, web-storage =
+    { dependencies =
         [ "nullable", "web-events" ]
+    , repo =
         "https://github.com/purescript-web/purescript-web-storage.git"
+    , version =
         "v3.0.0"
-    , web-touchevents =
-        mkPackage
+    }
+, web-touchevents =
+    { dependencies =
         [ "web-uievents" ]
+    , repo =
         "https://github.com/purescript-web/purescript-web-touchevents.git"
+    , version =
         "v2.0.0"
-    , web-uievents =
-        mkPackage
+    }
+, web-uievents =
+    { dependencies =
         [ "web-html" ]
+    , repo =
         "https://github.com/purescript-web/purescript-web-uievents.git"
+    , version =
         "v2.0.0"
-    , web-xhr =
-        mkPackage
+    }
+, web-xhr =
+    { dependencies =
         [ "arraybuffer-types"
         , "datetime"
         , "http-methods"
         , "web-dom"
         , "web-file"
         ]
+    , repo =
         "https://github.com/purescript-web/purescript-web-xhr.git"
+    , version =
         "v3.0.1"
-    , canvas =
-        mkPackage
-        [ "arraybuffer-types", "effect", "exceptions", "functions", "maybe" ]
-        "https://github.com/purescript-web/purescript-canvas.git"
-        "v4.0.0"
-    , web-socket =
-        mkPackage
-        [ "arraybuffer-types", "web-file" ]
-        "https://github.com/purescript-web/purescript-web-socket.git"
-        "v2.0.0"
     }
+}

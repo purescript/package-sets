@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { dotenv =
-        mkPackage
+{ dotenv =
+    { dependencies =
         [ "console"
         , "node-fs-aff"
         , "node-process"
@@ -12,6 +10,9 @@ in  { dotenv =
         , "spec"
         , "sunde"
         ]
+    , repo =
         "https://github.com/nsaunders/purescript-dotenv.git"
+    , version =
         "v1.0.0"
     }
+}

@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { freedom =
-        mkPackage
+{ freedom =
+    { dependencies =
         [ "aff"
         , "console"
         , "foreign-object"
@@ -10,31 +8,49 @@ in  { freedom =
         , "simple-emitter"
         , "web-html"
         ]
+    , repo =
         "https://github.com/purescript-freedom/purescript-freedom.git"
+    , version =
         "v1.1.2"
-    , freedom-portal =
-        mkPackage
+    }
+, freedom-portal =
+    { dependencies =
         [ "freedom" ]
+    , repo =
         "https://github.com/purescript-freedom/purescript-freedom-portal.git"
-        "v1.0.0"
-    , freedom-router =
-        mkPackage
-        [ "freedom", "profunctor" ]
-        "https://github.com/purescript-freedom/purescript-freedom-router.git"
-        "v1.0.0"
-    , freedom-transition =
-        mkPackage
-        [ "freedom", "js-timers" ]
-        "https://github.com/purescript-freedom/purescript-freedom-transition.git"
-        "v1.0.0"
-    , freedom-virtualized =
-        mkPackage
-        [ "freedom" ]
-        "https://github.com/purescript-freedom/purescript-freedom-virtualized.git"
-        "v1.0.0"
-    , freedom-window-resize =
-        mkPackage
-        [ "freedom" ]
-        "https://github.com/purescript-freedom/purescript-freedom-window-resize.git"
+    , version =
         "v1.0.0"
     }
+, freedom-router =
+    { dependencies =
+        [ "freedom", "profunctor" ]
+    , repo =
+        "https://github.com/purescript-freedom/purescript-freedom-router.git"
+    , version =
+        "v1.0.0"
+    }
+, freedom-transition =
+    { dependencies =
+        [ "freedom", "js-timers" ]
+    , repo =
+        "https://github.com/purescript-freedom/purescript-freedom-transition.git"
+    , version =
+        "v1.0.0"
+    }
+, freedom-virtualized =
+    { dependencies =
+        [ "freedom" ]
+    , repo =
+        "https://github.com/purescript-freedom/purescript-freedom-virtualized.git"
+    , version =
+        "v1.0.0"
+    }
+, freedom-window-resize =
+    { dependencies =
+        [ "freedom" ]
+    , repo =
+        "https://github.com/purescript-freedom/purescript-freedom-window-resize.git"
+    , version =
+        "v1.0.0"
+    }
+}

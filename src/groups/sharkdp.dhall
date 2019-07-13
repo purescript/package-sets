@@ -1,32 +1,29 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { colors =
-        mkPackage
-        [ "arrays", "integers", "lists", "partial", "strings" ]
-        "https://github.com/sharkdp/purescript-colors.git"
-        "v5.0.0"
-    , numbers =
-        mkPackage
-        [ "globals", "math", "maybe" ]
-        "https://github.com/sharkdp/purescript-numbers.git"
-        "v7.0.0"
-    , bigints =
-        mkPackage
+{ bigints =
+    { dependencies =
         [ "integers", "maybe", "strings" ]
+    , repo =
         "https://github.com/sharkdp/purescript-bigints.git"
+    , version =
         "v4.0.0"
-    , decimals =
-        mkPackage
-        [ "maybe" ]
-        "https://github.com/sharkdp/purescript-decimals.git"
+    }
+, colors =
+    { dependencies =
+        [ "arrays", "integers", "lists", "partial", "strings" ]
+    , repo =
+        "https://github.com/sharkdp/purescript-colors.git"
+    , version =
         "v5.0.0"
-    , pairs =
-        mkPackage
-        [ "console", "distributive", "foldable-traversable", "quickcheck" ]
-        "https://github.com/sharkdp/purescript-pairs.git"
-        "v7.0.0"
-    , format =
-        mkPackage
+    }
+, decimals =
+    { dependencies =
+        [ "maybe" ]
+    , repo =
+        "https://github.com/sharkdp/purescript-decimals.git"
+    , version =
+        "v5.0.0"
+    }
+, format =
+    { dependencies =
         [ "arrays"
         , "effect"
         , "integers"
@@ -35,6 +32,25 @@ in  { colors =
         , "strings"
         , "unfoldable"
         ]
+    , repo =
         "https://github.com/sharkdp/purescript-format.git"
+    , version =
         "v4.0.0"
     }
+, numbers =
+    { dependencies =
+        [ "globals", "math", "maybe" ]
+    , repo =
+        "https://github.com/sharkdp/purescript-numbers.git"
+    , version =
+        "v7.0.0"
+    }
+, pairs =
+    { dependencies =
+        [ "console", "distributive", "foldable-traversable", "quickcheck" ]
+    , repo =
+        "https://github.com/sharkdp/purescript-pairs.git"
+    , version =
+        "v7.0.0"
+    }
+}

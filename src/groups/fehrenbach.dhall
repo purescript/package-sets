@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { unordered-collections =
-        mkPackage
+{ unordered-collections =
+    { dependencies =
         [ "enums"
         , "functions"
         , "integers"
@@ -11,6 +9,9 @@ in  { unordered-collections =
         , "tuples"
         , "typelevel-prelude"
         ]
+    , repo =
         "https://github.com/fehrenbach/purescript-unordered-collections.git"
+    , version =
         "v1.8.2"
     }
+}

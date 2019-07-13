@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { httpure =
-        mkPackage
+{ httpure =
+    { dependencies =
         [ "aff"
         , "arrays"
         , "bifunctors"
@@ -33,10 +31,13 @@ in  { httpure =
         , "type-equality"
         , "unsafe-coerce"
         ]
+    , repo =
         "https://github.com/cprussin/purescript-httpure.git"
+    , version =
         "v0.8.3"
-    , monad-logger =
-        mkPackage
+    }
+, monad-logger =
+    { dependencies =
         [ "aff"
         , "ansi"
         , "argonaut"
@@ -56,10 +57,13 @@ in  { httpure =
         , "transformers"
         , "tuples"
         ]
+    , repo =
         "https://github.com/cprussin/purescript-monad-logger.git"
+    , version =
         "v1.2.0"
-    , node-electron =
-        mkPackage
+    }
+, node-electron =
+    { dependencies =
         [ "effect"
         , "foreign"
         , "halogen"
@@ -72,6 +76,9 @@ in  { httpure =
         , "web-events"
         , "web-html"
         ]
+    , repo =
         "https://github.com/cprussin/purescript-node-electron.git"
+    , version =
         "v0.0.2"
     }
+}

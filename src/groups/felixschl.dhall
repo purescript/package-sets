@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { pipes =
-        mkPackage
+{ pipes =
+    { dependencies =
         [ "aff"
         , "lists"
         , "mmorph"
@@ -10,6 +8,9 @@ in  { pipes =
         , "transformers"
         , "tuples"
         ]
+    , repo =
         "https://github.com/felixSchl/purescript-pipes.git"
+    , version =
         "v6.0.0"
     }
+}

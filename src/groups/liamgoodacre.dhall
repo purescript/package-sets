@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { filterable =
-        mkPackage
+{ filterable =
+    { dependencies =
         [ "arrays"
         , "either"
         , "foldable-traversable"
@@ -9,6 +7,9 @@ in  { filterable =
         , "lists"
         , "ordered-collections"
         ]
+    , repo =
         "https://github.com/LiamGoodacre/purescript-filterable.git"
+    , version =
         "v3.0.2"
     }
+}

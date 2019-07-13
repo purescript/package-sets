@@ -1,8 +1,9 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { halogen-bootstrap4 =
-        mkPackage
+{ halogen-bootstrap4 =
+    { dependencies =
         [ "halogen" ]
+    , repo =
         "https://github.com/mschristiansen/purescript-halogen-bootstrap4.git"
+    , version =
         "v0.1.4"
     }
+}

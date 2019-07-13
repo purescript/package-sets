@@ -1,7 +1,5 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { array-views =
-        mkPackage
+{ array-views =
+    { dependencies =
         [ "arrays"
         , "control"
         , "foldable-traversable"
@@ -13,10 +11,13 @@ in  { array-views =
         , "tuples"
         , "unfoldable"
         ]
+    , repo =
         "https://github.com/klntsky/purescript-array-views.git"
+    , version =
         "v0.0.2"
-    , search-trie =
-        mkPackage
+    }
+, search-trie =
+    { dependencies =
         [ "prelude"
         , "arrays"
         , "ordered-collections"
@@ -24,6 +25,9 @@ in  { array-views =
         , "foldable-traversable"
         , "bifunctors"
         ]
+    , repo =
         "https://github.com/klntsky/purescript-search-trie.git"
+    , version =
         "v1.0.0"
     }
+}
