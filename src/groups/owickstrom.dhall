@@ -30,6 +30,22 @@
     , version =
         "v0.10.0"
     }
+, hypertrout =
+    { dependencies =
+        [ "argonaut-generic"
+        , "console"
+        , "hyper"
+        , "prelude"
+        , "psci-support"
+        , "spec"
+        , "spec-discovery"
+        , "trout"
+        ]
+    , repo =
+        "https://github.com/owickstrom/purescript-hypertrout.git"
+    , version =
+        "v0.11.0"
+    }
 , spec-discovery =
     { dependencies =
         [ "arrays", "effect", "node-fs", "prelude", "spec" ]
