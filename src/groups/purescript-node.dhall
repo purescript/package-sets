@@ -47,7 +47,7 @@
     , repo =
         "https://github.com/purescript-node/purescript-node-fs.git"
     , version =
-        "v5.0.0"
+        "v5.0.1"
     }
 , node-fs-aff =
     { dependencies =
