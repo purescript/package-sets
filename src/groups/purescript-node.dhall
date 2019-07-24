@@ -76,7 +76,7 @@
     , repo =
         "https://github.com/purescript-node/purescript-node-http.git"
     , version =
-        "v5.0.1"
+        "v5.0.2"
     }
 , node-net =
     { dependencies =
