@@ -1741,7 +1741,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-streams.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "node-telegram-bot-api": {
     "dependencies": [
