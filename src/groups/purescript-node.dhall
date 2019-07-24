@@ -140,7 +140,7 @@
     , repo =
         "https://github.com/purescript-node/purescript-node-streams.git"
     , version =
-        "v4.0.0"
+        "v4.0.1"
     }
 , node-url =
     { dependencies =
