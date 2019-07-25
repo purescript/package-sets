@@ -12,7 +12,7 @@
     , repo =
         "https://github.com/oreshinya/purescript-crypto.git"
     , version =
-        "v2.0.0"
+        "v2.0.1"
     }
 , identy =
     { dependencies =
