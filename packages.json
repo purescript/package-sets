@@ -541,7 +541,6 @@
   },
   "cssom": {
     "dependencies": [
-      "console",
       "effect"
     ],
     "repo": "https://github.com/danieljharvey/purescript-cssom.git",
@@ -2176,7 +2175,6 @@
   },
   "radox": {
     "dependencies": [
-      "console",
       "effect",
       "prelude",
       "refs",
@@ -2281,7 +2279,6 @@
   },
   "react-radox": {
     "dependencies": [
-      "console",
       "effect",
       "prelude",
       "radox",
@@ -2292,10 +2289,8 @@
   },
   "react-stylesheet": {
     "dependencies": [
-      "console",
       "cssom",
       "effect",
-      "psci-support",
       "react",
       "stylesheet"
     ],
@@ -2354,7 +2349,6 @@
   "refined": {
     "dependencies": [
       "argonaut",
-      "console",
       "effect",
       "generics-rep",
       "prelude",
@@ -2798,15 +2792,12 @@
   },
   "stylesheet": {
     "dependencies": [
-      "console",
       "cssom",
-      "debug",
       "effect",
       "foreign",
       "generics-rep",
       "ordered-collections",
       "prelude",
-      "psci-support",
       "refs",
       "test-unit",
       "unordered-collections"

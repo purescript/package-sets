@@ -1,7 +1,6 @@
 { refined =
     { dependencies =
         [ "argonaut"
-        , "console"
         , "effect"
         , "generics-rep"
         , "prelude"
@@ -15,7 +14,7 @@
     }
 , radox =
     { dependencies =
-        [ "prelude", "console", "effect", "variant", "refs" ]
+        [ "prelude", "effect", "variant", "refs" ]
     , repo =
         "https://github.com/danieljharvey/purescript-radox.git"
     , version =
@@ -23,7 +22,7 @@
     }
 , react-radox =
     { dependencies =
-        [ "prelude", "console", "effect", "radox", "react" ]
+        [ "prelude", "effect", "radox", "react" ]
     , repo =
         "https://github.com/danieljharvey/purescript-react-radox.git"
     , version =
@@ -31,7 +30,7 @@
     }
 , cssom =
     { dependencies =
-        [ "effect", "console" ]
+        [ "effect" ]
     , repo =
         "https://github.com/danieljharvey/purescript-cssom.git"
     , version =
@@ -39,14 +38,11 @@
     }
 , stylesheet =
     { dependencies =
-        [ "console"
-        , "debug"
-        , "effect"
+        [ "effect"
         , "foreign"
         , "generics-rep"
         , "ordered-collections"
         , "prelude"
-        , "psci-support"
         , "refs"
         , "test-unit"
         , "unordered-collections"
@@ -59,7 +55,7 @@
     }
 , react-stylesheet =
     { dependencies =
-        [ "effect", "console", "psci-support", "react", "cssom", "stylesheet" ]
+        [ "effect", "react", "cssom", "stylesheet" ]
     , repo =
         "https://github.com/danieljharvey/purescript-react-stylesheet.git"
     , version =
