@@ -1288,6 +1288,16 @@
     "repo": "https://github.com/justinwoo/purescript-jajanmen.git",
     "version": "v1.0.0"
   },
+  "jquery": {
+    "dependencies": [
+      "console",
+      "effect",
+      "foreign",
+      "web-dom"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-jquery.git",
+    "version": "v5.0.0"
+  },
   "js-date": {
     "dependencies": [
       "datetime",
