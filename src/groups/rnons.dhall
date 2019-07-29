@@ -14,4 +14,12 @@
     , version =
         "v1.0.0"
     }
+, halogen-storybook =
+    { dependencies =
+        [ "halogen", "routing" ]
+    , repo =
+        "https://github.com/rnons/purescript-halogen-storybook.git"
+    , version =
+        "master"
+    }
 }
