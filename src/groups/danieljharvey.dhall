@@ -39,12 +39,12 @@
 , stylesheet =
     { dependencies =
         [ "effect"
+        , "console"
         , "foreign"
         , "generics-rep"
         , "ordered-collections"
         , "prelude"
         , "refs"
-        , "test-unit"
         , "unordered-collections"
         , "cssom"
         ]
