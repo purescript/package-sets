@@ -61,7 +61,7 @@
     { dependencies =
         [ "effect", "console", "psci-support", "react", "cssom", "stylesheet" ]
     , repo =
-        "../purescript-react-stylesheet"
+        "https://github.com/danieljharvey/purescript-react-stylesheet.git"
     , version =
         "v0.0.2"
     }

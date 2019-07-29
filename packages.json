@@ -2299,7 +2299,7 @@
       "react",
       "stylesheet"
     ],
-    "repo": "../purescript-react-stylesheet",
+    "repo": "https://github.com/danieljharvey/purescript-react-stylesheet.git",
     "version": "v0.0.2"
   },
   "read": {
