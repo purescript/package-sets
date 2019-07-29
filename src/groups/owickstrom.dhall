@@ -77,4 +77,21 @@
     , version =
         "v0.12.0"
     }
+, trout-client =
+    { dependencies =
+        [ "affjax"
+        , "argonaut-generic"
+        , "hyper"
+        , "hypertrout"
+        , "jquery"
+        , "node-http"
+        , "prelude"
+        , "psci-support"
+        , "trout"
+        ]
+    , repo =
+        "https://github.com/owickstrom/purescript-trout-client.git"
+    , version =
+        "v0.11.0"
+    }
 }
