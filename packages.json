@@ -1220,7 +1220,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/owickstrom/hyper.git",
-    "version": "v0.10.0"
+    "version": "v0.10.1"
   },
   "hypertrout": {
     "dependencies": [
