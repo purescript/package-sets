@@ -39,7 +39,6 @@
 , stylesheet =
     { dependencies =
         [ "effect"
-        , "console"
         , "foreign"
         , "generics-rep"
         , "ordered-collections"
@@ -51,7 +50,7 @@
     , repo =
         "https://github.com/danieljharvey/purescript-stylesheet.git"
     , version =
-        "v0.0.2"
+        "v0.0.3"
     }
 , react-stylesheet =
     { dependencies =

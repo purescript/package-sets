@@ -2792,7 +2792,6 @@
   },
   "stylesheet": {
     "dependencies": [
-      "console",
       "cssom",
       "effect",
       "foreign",
@@ -2803,7 +2802,7 @@
       "unordered-collections"
     ],
     "repo": "https://github.com/danieljharvey/purescript-stylesheet.git",
-    "version": "v0.0.2"
+    "version": "v0.0.3"
   },
   "suggest": {
     "dependencies": [
