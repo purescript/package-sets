@@ -2384,7 +2384,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/natefaubion/purescript-routing-duplex.git",
-    "version": "v0.3.0"
+    "version": "v0.4.0"
   },
   "run": {
     "dependencies": [
