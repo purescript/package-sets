@@ -55,7 +55,7 @@
     , repo =
         "https://github.com/natefaubion/purescript-routing-duplex.git"
     , version =
-        "v0.3.0"
+        "v0.4.0"
     }
 , run =
     { dependencies =
