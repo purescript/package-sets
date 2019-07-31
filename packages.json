@@ -539,6 +539,13 @@
     "repo": "https://github.com/slamdata/purescript-css.git",
     "version": "v4.0.0"
   },
+  "cssom": {
+    "dependencies": [
+      "effect"
+    ],
+    "repo": "https://github.com/danieljharvey/purescript-cssom.git",
+    "version": "v0.0.2"
+  },
   "data-algebrae": {
     "dependencies": [
       "arrays",
@@ -2166,6 +2173,16 @@
     "repo": "https://github.com/rightfold/purescript-quotient.git",
     "version": "v3.0.0"
   },
+  "radox": {
+    "dependencies": [
+      "effect",
+      "prelude",
+      "refs",
+      "variant"
+    ],
+    "repo": "https://github.com/danieljharvey/purescript-radox.git",
+    "version": "v0.0.8"
+  },
   "random": {
     "dependencies": [
       "effect",
@@ -2260,6 +2277,26 @@
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v6.1.0"
   },
+  "react-radox": {
+    "dependencies": [
+      "effect",
+      "prelude",
+      "radox",
+      "react"
+    ],
+    "repo": "https://github.com/danieljharvey/purescript-react-radox.git",
+    "version": "v0.0.5"
+  },
+  "react-stylesheet": {
+    "dependencies": [
+      "cssom",
+      "effect",
+      "react",
+      "stylesheet"
+    ],
+    "repo": "https://github.com/danieljharvey/purescript-react-stylesheet.git",
+    "version": "v0.0.2"
+  },
   "read": {
     "dependencies": [
       "maybe",
@@ -2312,14 +2349,14 @@
   "refined": {
     "dependencies": [
       "argonaut",
-      "console",
       "effect",
       "generics-rep",
       "prelude",
+      "quickcheck",
       "typelevel"
     ],
     "repo": "https://github.com/danieljharvey/purescript-refined.git",
-    "version": "v0.1.2"
+    "version": "v0.2.0"
   },
   "refs": {
     "dependencies": [
@@ -2752,6 +2789,20 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-strongcheck.git",
     "version": "v4.1.1"
+  },
+  "stylesheet": {
+    "dependencies": [
+      "cssom",
+      "effect",
+      "foreign",
+      "generics-rep",
+      "ordered-collections",
+      "prelude",
+      "refs",
+      "unordered-collections"
+    ],
+    "repo": "https://github.com/danieljharvey/purescript-stylesheet.git",
+    "version": "v0.0.3"
   },
   "suggest": {
     "dependencies": [
