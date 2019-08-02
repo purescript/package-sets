@@ -131,7 +131,7 @@
     , repo =
         "https://github.com/slamdata/purescript-halogen.git"
     , version =
-        "v5.0.0-rc.5"
+        "v5.0.0-rc.6"
     }
 , halogen-bootstrap =
     { dependencies =
