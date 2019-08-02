@@ -4,6 +4,6 @@
     , repo =
         "https://github.com/morganthomas/purescript-group.git"
     , version =
-        "v4.0.0"
+        "v4.1.1"
     }
 }
