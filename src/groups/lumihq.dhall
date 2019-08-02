@@ -15,6 +15,6 @@
     , repo =
         "https://github.com/lumihq/purescript-react-basic.git"
     , version =
-        "v9.0.1"
+        "v11.0.0"
     }
 }
