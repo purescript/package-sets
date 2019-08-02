@@ -1076,7 +1076,7 @@
       "lists"
     ],
     "repo": "https://github.com/morganthomas/purescript-group.git",
-    "version": "v4.0.0"
+    "version": "v4.1.1"
   },
   "halogen": {
     "dependencies": [
