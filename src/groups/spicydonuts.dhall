@@ -11,6 +11,6 @@
     , repo =
         "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
     , version =
-        "v0.7.1"
+        "v1.0.1"
     }
 }
