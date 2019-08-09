@@ -30,4 +30,19 @@
     , version =
         "v1.0.0"
     }
+, bower-json =
+    { dependencies =
+        [ "prelude"
+        , "generics-rep"
+        , "maybe"
+        , "either"
+        , "foldable-traversable"
+        , "argonaut-codecs"
+        , "foreign-object"
+        ]
+    , repo =
+        "https://github.com/klntsky/purescript-bower-json.git"
+    , version =
+        "v0.0.1"
+    }
 }
