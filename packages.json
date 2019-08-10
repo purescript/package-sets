@@ -259,15 +259,18 @@
   "bower-json": {
     "dependencies": [
       "argonaut-codecs",
+      "arrays",
       "either",
       "foldable-traversable",
       "foreign-object",
       "generics-rep",
       "maybe",
-      "prelude"
+      "newtype",
+      "prelude",
+      "tuples"
     ],
     "repo": "https://github.com/klntsky/purescript-bower-json.git",
-    "version": "v0.0.1"
+    "version": "v0.1.0"
   },
   "bucketchain": {
     "dependencies": [
