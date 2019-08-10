@@ -256,6 +256,22 @@
     "repo": "https://github.com/sharkdp/purescript-bigints.git",
     "version": "v4.0.0"
   },
+  "bower-json": {
+    "dependencies": [
+      "argonaut-codecs",
+      "arrays",
+      "either",
+      "foldable-traversable",
+      "foreign-object",
+      "generics-rep",
+      "maybe",
+      "newtype",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/klntsky/purescript-bower-json.git",
+    "version": "v0.1.0"
+  },
   "bucketchain": {
     "dependencies": [
       "aff",
