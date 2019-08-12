@@ -621,6 +621,16 @@
     "repo": "https://github.com/purescript/purescript-distributive.git",
     "version": "v4.0.0"
   },
+  "dom-filereader": {
+    "dependencies": [
+      "aff",
+      "arraybuffer-types",
+      "web-file",
+      "web-html"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-dom-filereader.git",
+    "version": "v4.0.0"
+  },
   "dom-indexed": {
     "dependencies": [
       "media-types",
@@ -1560,6 +1570,32 @@
     "repo": "https://github.com/cprussin/purescript-monad-logger.git",
     "version": "v1.2.0"
   },
+  "monad-loops": {
+    "dependencies": [
+      "lists",
+      "maybe",
+      "prelude",
+      "tailrec",
+      "tuples"
+    ],
+    "repo": "https://github.com/mlang/purescript-monad-loops.git",
+    "version": "v0.5.0"
+  },
+  "money": {
+    "dependencies": [
+      "foldable-traversable",
+      "globals",
+      "integers",
+      "lists",
+      "math",
+      "newtype",
+      "prelude",
+      "rationals",
+      "ring-modules"
+    ],
+    "repo": "https://github.com/i-am-tom/purescript-money.git",
+    "version": "v8.0.0"
+  },
   "motsunabe": {
     "dependencies": [
       "lists",
@@ -1584,6 +1620,15 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-naporitan.git",
     "version": "v1.0.0"
+  },
+  "naturals": {
+    "dependencies": [
+      "enums",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/LiamGoodacre/purescript-naturals.git",
+    "version": "v3.0.0"
   },
   "newtype": {
     "dependencies": [
@@ -2401,6 +2446,13 @@
     "repo": "https://github.com/ad-si/purescript-result.git",
     "version": "v1.0.3"
   },
+  "ring-modules": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-ring-modules.git",
+    "version": "v5.0.1"
+  },
   "routing": {
     "dependencies": [
       "aff",
@@ -2485,6 +2537,16 @@
     ],
     "repo": "https://github.com/klntsky/purescript-search-trie.git",
     "version": "v1.0.0"
+  },
+  "selection-foldable": {
+    "dependencies": [
+      "filterable",
+      "foldable-traversable",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/jamieyung/purescript-selection-foldable.git",
+    "version": "v0.2.0"
   },
   "semirings": {
     "dependencies": [
@@ -2759,6 +2821,20 @@
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "v4.0.1"
+  },
+  "strings-extra": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "foldable-traversable",
+      "maybe",
+      "partial",
+      "prelude",
+      "strings",
+      "unicode"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-strings-extra.git",
+    "version": "v2.0.0"
   },
   "stringutils": {
     "dependencies": [
@@ -3111,6 +3187,14 @@
     ],
     "repo": "https://github.com/slamdata/purescript-uri.git",
     "version": "v7.0.0"
+  },
+  "uuid": {
+    "dependencies": [
+      "effect",
+      "maybe"
+    ],
+    "repo": "https://github.com/spicydonuts/purescript-uuid.git",
+    "version": "v6.0.0"
   },
   "validation": {
     "dependencies": [

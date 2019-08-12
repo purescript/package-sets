@@ -254,6 +254,22 @@
     , version =
         "v6.1.0"
     }
+, strings-extra =
+    { dependencies =
+        [ "arrays"
+        , "either"
+        , "foldable-traversable"
+        , "maybe"
+        , "partial"
+        , "prelude"
+        , "strings"
+        , "unicode"
+        ]
+    , repo =
+        "https://github.com/purescript-contrib/purescript-strings-extra.git"
+    , version =
+        "v2.0.0"
+    }
 , strongcheck =
     { dependencies =
         [ "arrays"
