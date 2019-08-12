@@ -6,6 +6,14 @@
     , version =
         "v2.1.0"
     }
+, dom-filereader =
+    { dependencies =
+        [ "aff", "arraybuffer-types", "web-file", "web-html" ]
+    , repo =
+        "https://github.com/nwolverson/purescript-dom-filereader.git"
+    , version =
+        "v4.0.0"
+    }
 , suggest =
     { dependencies =
         [ "console"

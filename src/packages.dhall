@@ -31,6 +31,7 @@ let packages =
       ⫽ ./groups/i-am-tom.dhall
       ⫽ ./groups/icyrockcom.dhall
       ⫽ ./groups/jacereda.dhall
+      ⫽ ./groups/jamieyung.dhall
       ⫽ ./groups/juspay.dhall
       ⫽ ./groups/justinwoo.dhall
       ⫽ ./groups/kcsongor.dhall
@@ -39,6 +40,7 @@ let packages =
       ⫽ ./groups/kritzcreek.dhall
       ⫽ ./groups/lumihq.dhall
       ⫽ ./groups/menelaos.dhall
+      ⫽ ./groups/mlang.dhall
       ⫽ ./groups/morganthomas.dhall
       ⫽ ./groups/mschristiansen.dhall
       ⫽ ./groups/natefaubion.dhall
