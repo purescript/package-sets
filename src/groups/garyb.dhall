@@ -12,7 +12,7 @@
     , repo =
         "https://github.com/garyb/purescript-indexed-monad.git"
     , version =
-        "v1.0.0"
+        "v1.1.0"
     }
 , quickcheck-laws =
     { dependencies =
