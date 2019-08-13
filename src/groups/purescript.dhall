@@ -295,11 +295,11 @@
     }
 , globals =
     { dependencies =
-        [] : List Text
+        [ "functions", "maybe" ] : List Text
     , repo =
         "https://github.com/purescript/purescript-globals.git"
     , version =
-        "v4.0.0"
+        "v4.1.0"
     }
 , identity =
     { dependencies =
