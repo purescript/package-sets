@@ -1521,7 +1521,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
-    "version": "v7.2.0"
+    "version": "v7.2.1"
   },
   "minibench": {
     "dependencies": [

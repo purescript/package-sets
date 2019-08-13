@@ -89,7 +89,7 @@
     , repo =
         "https://github.com/justinwoo/purescript-milkis.git"
     , version =
-        "v7.2.0"
+        "v7.2.1"
     }
 , motsunabe =
     { dependencies =
