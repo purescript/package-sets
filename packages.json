@@ -1293,7 +1293,7 @@
       "newtype"
     ],
     "repo": "https://github.com/garyb/purescript-indexed-monad.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "integers": {
     "dependencies": [
