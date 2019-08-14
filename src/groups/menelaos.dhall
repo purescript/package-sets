@@ -23,6 +23,23 @@
     , version =
         "v0.0.5"
     }
+, jwt =
+    { dependencies =
+        [ "argonaut-core"
+        , "arrays"
+        , "b64"
+        , "either"
+        , "errors"
+        , "exceptions"
+        , "prelude"
+        , "profunctor-lenses"
+        , "strings"
+        ]
+    , repo =
+        "https://github.com/menelaos/purescript-jwt.git"
+    , version =
+        "v0.0.6"
+    }
 , stringutils =
     { dependencies =
         [ "strings"
