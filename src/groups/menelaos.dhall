@@ -42,13 +42,13 @@
     }
 , stringutils =
     { dependencies =
-        [ "strings"
-        , "partial"
-        , "arrays"
+        [ "arrays"
         , "either"
-        , "maybe"
-        , "prelude"
         , "integers"
+        , "maybe"
+        , "partial"
+        , "prelude"
+        , "strings"
         ]
     , repo =
         "https://github.com/menelaos/purescript-stringutils.git"
