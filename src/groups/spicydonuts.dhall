@@ -11,7 +11,7 @@
     , repo =
         "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
     , version =
-        "v1.0.1"
+        "v2.0.1"
     }
 , uuid =
     { dependencies =
