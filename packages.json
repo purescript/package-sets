@@ -885,7 +885,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-form-urlencoded.git",
-    "version": "v4.0.1"
+    "version": "v5.0.0"
   },
   "format": {
     "dependencies": [

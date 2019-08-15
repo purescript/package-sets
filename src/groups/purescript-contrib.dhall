@@ -87,7 +87,7 @@
     , repo =
         "https://github.com/purescript-contrib/purescript-form-urlencoded.git"
     , version =
-        "v4.0.1"
+        "v5.0.0"
     }
 , freet =
     { dependencies =
