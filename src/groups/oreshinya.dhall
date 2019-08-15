@@ -4,7 +4,7 @@
     , repo =
         "https://github.com/oreshinya/purescript-basic-auth.git"
     , version =
-        "v1.0.2"
+        "v1.0.3"
     }
 , crypto =
     { dependencies =
