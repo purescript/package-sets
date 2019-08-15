@@ -629,7 +629,7 @@
       "web-html"
     ],
     "repo": "https://github.com/nwolverson/purescript-dom-filereader.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "dom-indexed": {
     "dependencies": [

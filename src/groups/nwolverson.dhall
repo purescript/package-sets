@@ -12,7 +12,7 @@
     , repo =
         "https://github.com/nwolverson/purescript-dom-filereader.git"
     , version =
-        "v4.0.0"
+        "v5.0.0"
     }
 , suggest =
     { dependencies =
