@@ -20,7 +20,7 @@
     , repo =
         "https://github.com/purescript-web/purescript-web-dom.git"
     , version =
-        "v3.0.0"
+        "v3.1.0"
     }
 , web-events =
     { dependencies =
