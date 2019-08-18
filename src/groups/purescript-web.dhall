@@ -44,7 +44,7 @@
     , repo =
         "https://github.com/purescript-web/purescript-web-html.git"
     , version =
-        "v2.2.1"
+        "v2.2.2"
     }
 , web-socket =
     { dependencies =
