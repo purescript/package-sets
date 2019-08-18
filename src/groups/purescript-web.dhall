@@ -89,6 +89,6 @@
     , repo =
         "https://github.com/purescript-web/purescript-web-xhr.git"
     , version =
-        "v3.0.1"
+        "v3.0.2"
     }
 }
