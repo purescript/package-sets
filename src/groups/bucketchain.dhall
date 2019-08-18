@@ -60,7 +60,7 @@
     , repo =
         "https://github.com/Bucketchain/purescript-bucketchain-history-api-fallback.git"
     , version =
-        "v0.2.0"
+        "v0.3.0"
     }
 , bucketchain-logger =
     { dependencies =
