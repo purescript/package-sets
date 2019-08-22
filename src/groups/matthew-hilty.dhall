@@ -52,6 +52,8 @@
         [ "prelude"
         , "profunctor"
         , "record"
+        , "proxy"
+        , "typelevel-prelude"
         ]
     , repo =
         "https://github.com/matthew-hilty/purescript-subcategory.git"
