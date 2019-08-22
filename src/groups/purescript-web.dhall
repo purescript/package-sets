@@ -36,7 +36,7 @@
     , repo =
         "https://github.com/purescript-web/purescript-web-file.git"
     , version =
-        "v2.1.1"
+        "v2.1.2"
     }
 , web-html =
     { dependencies =
