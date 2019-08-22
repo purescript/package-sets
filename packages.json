@@ -1179,9 +1179,6 @@
   },
   "halogen-select": {
     "dependencies": [
-      "affjax",
-      "argonaut",
-      "debug",
       "halogen",
       "record"
     ],
@@ -2228,11 +2225,9 @@
   },
   "proxying": {
     "dependencies": [
-      "console",
       "effect",
       "generics-rep",
       "prelude",
-      "test-unit",
       "typelevel-prelude"
     ],
     "repo": "https://github.com/matthew-hilty/purescript-proxying.git",
@@ -3000,13 +2995,11 @@
     "dependencies": [
       "argonaut",
       "argonaut-codecs",
-      "console",
       "effect",
       "proxying",
       "record",
       "record-extra",
       "subcategory",
-      "test-unit",
       "variant"
     ],
     "repo": "https://github.com/matthew-hilty/purescript-struct.git",
@@ -3133,11 +3126,9 @@
       "argonaut-codecs",
       "argonaut-core",
       "arrays",
-      "console",
       "effect",
       "higher-order",
       "lists",
-      "psci-support",
       "record",
       "struct",
       "typelevel-prelude"

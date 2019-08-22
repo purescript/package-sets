@@ -17,11 +17,9 @@
     }
 , proxying =
     { dependencies = 
-        [ "console"
-        , "effect"
+        [ "effect"
         , "generics-rep"
         , "prelude"
-        , "test-unit"
         , "typelevel-prelude"
         ]
     , repo =
@@ -33,13 +31,11 @@
     { dependencies =
         [ "argonaut"
         , "argonaut-codecs"
-        , "console"
         , "effect"
         , "proxying"
         , "record"
         , "record-extra"
         , "subcategory"
-        , "test-unit"
         , "variant"
         ]
     , repo =
@@ -65,11 +61,9 @@
         [ "argonaut-codecs"
         , "argonaut-core"
         , "arrays"
-        , "console"
         , "effect"
         , "higher-order"
         , "lists"
-        , "psci-support"
         , "record"
         , "struct"
         , "typelevel-prelude"
