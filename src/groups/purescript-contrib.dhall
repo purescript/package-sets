@@ -244,7 +244,7 @@
     , repo =
         "https://github.com/purescript-contrib/purescript-react.git"
     , version =
-        "v7.0.1"
+        "v8.0.0"
     }
 , react-dom =
     { dependencies =

@@ -16,6 +16,6 @@
     , repo =
         "https://github.com/ajnsit/purescript-concur.git"
     , version =
-        "v0.3.8"
+        "v0.3.9"
     }
 }
