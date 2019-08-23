@@ -5,11 +5,14 @@ let packages =
       ⫽ ./groups/purescript-node.dhall
       ⫽ ./groups/ad-si.dhall
       ⫽ ./groups/alexadewit.dhall
+      ⫽ ./groups/awakesecurity.dhall
       ⫽ ./groups/liamgoodacre.dhall
       ⫽ ./groups/lukajcb.dhall
       ⫽ ./groups/michaelxavier.dhall
+      ⫽ ./groups/matthew-hilty.dhall
       ⫽ ./groups/sodiumfrp.dhall
       ⫽ ./groups/thimoteus.dhall
+      ⫽ ./groups/thomashoneyman.dhall
       ⫽ ./groups/ajnsit.dhall
       ⫽ ./groups/athanclark.dhall
       ⫽ ./groups/anttih.dhall

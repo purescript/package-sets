@@ -1166,6 +1166,25 @@
     "repo": "https://github.com/slamdata/purescript-halogen-css.git",
     "version": "v8.0.0"
   },
+  "halogen-formless": {
+    "dependencies": [
+      "generics-rep",
+      "halogen",
+      "heterogeneous",
+      "profunctor-lenses",
+      "variant"
+    ],
+    "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
+    "version": "v1.0.0-rc.1"
+  },
+  "halogen-select": {
+    "dependencies": [
+      "halogen",
+      "record"
+    ],
+    "repo": "https://github.com/citizennet/purescript-halogen-select.git",
+    "version": "v5.0.0-rc.3"
+  },
   "halogen-vdom": {
     "dependencies": [
       "bifunctors",
@@ -1193,6 +1212,21 @@
     ],
     "repo": "https://github.com/natefaubion/purescript-heterogeneous.git",
     "version": "v0.4.1"
+  },
+  "higher-order": {
+    "dependencies": [
+      "catenable-lists",
+      "const",
+      "effect",
+      "errors",
+      "generics-rep",
+      "lists",
+      "ordered-collections",
+      "orders",
+      "profunctor"
+    ],
+    "repo": "https://github.com/matthew-hilty/purescript-higher-order.git",
+    "version": "v0.2.0"
   },
   "http-methods": {
     "dependencies": [
@@ -2092,6 +2126,30 @@
     "repo": "https://github.com/purescript-node/purescript-posix-types.git",
     "version": "v4.0.0"
   },
+  "precise-datetime": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "datetime",
+      "decimals",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "formatters",
+      "integers",
+      "js-date",
+      "lists",
+      "maybe",
+      "newtype",
+      "numbers",
+      "prelude",
+      "strings",
+      "tuples",
+      "unicode"
+    ],
+    "repo": "https://github.com/awakesecurity/purescript-precise-datetime.git",
+    "version": "v5.1.1"
+  },
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
@@ -2164,6 +2222,16 @@
     ],
     "repo": "https://github.com/purescript/purescript-proxy.git",
     "version": "v3.0.0"
+  },
+  "proxying": {
+    "dependencies": [
+      "effect",
+      "generics-rep",
+      "prelude",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/matthew-hilty/purescript-proxying.git",
+    "version": "v1.1.0"
   },
   "psa-utils": {
     "dependencies": [
@@ -2704,6 +2772,18 @@
     "repo": "https://github.com/bodil/purescript-sized-vectors.git",
     "version": "v3.1.0"
   },
+  "slug": {
+    "dependencies": [
+      "argonaut-codecs",
+      "generics-rep",
+      "maybe",
+      "prelude",
+      "strings",
+      "unicode"
+    ],
+    "repo": "https://github.com/thomashoneyman/purescript-slug.git",
+    "version": "v1.0.0"
+  },
   "smolder": {
     "dependencies": [
       "bifunctors",
@@ -2911,6 +2991,20 @@
     "repo": "https://github.com/purescript-contrib/purescript-strongcheck.git",
     "version": "v4.1.1"
   },
+  "struct": {
+    "dependencies": [
+      "argonaut",
+      "argonaut-codecs",
+      "effect",
+      "proxying",
+      "record",
+      "record-extra",
+      "subcategory",
+      "variant"
+    ],
+    "repo": "https://github.com/matthew-hilty/purescript-struct.git",
+    "version": "v1.1.0"
+  },
   "stylesheet": {
     "dependencies": [
       "cssom",
@@ -2924,6 +3018,17 @@
     ],
     "repo": "https://github.com/danieljharvey/purescript-stylesheet.git",
     "version": "v0.0.3"
+  },
+  "subcategory": {
+    "dependencies": [
+      "prelude",
+      "profunctor",
+      "proxy",
+      "record",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/matthew-hilty/purescript-subcategory.git",
+    "version": "v0.2.0"
   },
   "suggest": {
     "dependencies": [
@@ -3015,6 +3120,21 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-these.git",
     "version": "v4.0.0"
+  },
+  "tolerant-argonaut": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "arrays",
+      "effect",
+      "higher-order",
+      "lists",
+      "record",
+      "struct",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/matthew-hilty/purescript-tolerant-argonaut.git",
+    "version": "v1.1.0"
   },
   "toppokki": {
     "dependencies": [
