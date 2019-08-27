@@ -27,7 +27,7 @@
     , repo =
         "https://github.com/purescript-freedom/purescript-freedom-router.git"
     , version =
-        "v1.0.0"
+        "v1.0.1"
     }
 , freedom-transition =
     { dependencies =

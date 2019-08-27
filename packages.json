@@ -989,7 +989,7 @@
       "profunctor"
     ],
     "repo": "https://github.com/purescript-freedom/purescript-freedom-router.git",
-    "version": "v1.0.0"
+    "version": "v1.0.1"
   },
   "freedom-transition": {
     "dependencies": [
