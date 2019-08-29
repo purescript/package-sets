@@ -13,6 +13,14 @@
     , version =
         "v1.1.2"
     }
+, freedom-now =
+    { dependencies =
+        [ "freedom", "js-timers" ]
+    , repo =
+        "https://github.com/purescript-freedom/purescript-freedom-now.git"
+    , version =
+        "v1.0.0"
+    }
 , freedom-portal =
     { dependencies =
         [ "freedom" ]
