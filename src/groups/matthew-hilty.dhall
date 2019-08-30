@@ -16,12 +16,8 @@
         "v0.2.0"
     }
 , proxying =
-    { dependencies = 
-        [ "effect"
-        , "generics-rep"
-        , "prelude"
-        , "typelevel-prelude"
-        ]
+    { dependencies =
+        [ "effect", "generics-rep", "prelude", "typelevel-prelude" ]
     , repo =
         "https://github.com/matthew-hilty/purescript-proxying.git"
     , version =
@@ -45,12 +41,7 @@
     }
 , subcategory =
     { dependencies =
-        [ "prelude"
-        , "profunctor"
-        , "record"
-        , "proxy"
-        , "typelevel-prelude"
-        ]
+        [ "prelude", "profunctor", "record", "proxy", "typelevel-prelude" ]
     , repo =
         "https://github.com/matthew-hilty/purescript-subcategory.git"
     , version =
