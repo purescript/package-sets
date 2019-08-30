@@ -270,7 +270,7 @@
       "tuples"
     ],
     "repo": "https://github.com/klntsky/purescript-bower-json.git",
-    "version": "v0.1.0"
+    "version": "v1.0.0"
   },
   "bucketchain": {
     "dependencies": [
