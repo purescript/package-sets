@@ -1,5 +1,5 @@
 { precise-datetime =
-    { dependencies = 
+    { dependencies =
         [ "arrays"
         , "console"
         , "datetime"
