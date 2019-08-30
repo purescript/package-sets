@@ -46,6 +46,6 @@
     , repo =
         "https://github.com/klntsky/purescript-bower-json.git"
     , version =
-        "v0.1.0"
+        "v1.0.0"
     }
 }
