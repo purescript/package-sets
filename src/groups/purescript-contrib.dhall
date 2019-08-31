@@ -98,11 +98,12 @@
         , "prelude"
         , "tailrec"
         , "transformers"
+        , "aff"
         ]
     , repo =
         "https://github.com/purescript-contrib/purescript-freet.git"
     , version =
-        "v4.0.0"
+        "v5.0.0"
     }
 , http-methods =
     { dependencies =

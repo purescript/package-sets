@@ -1023,6 +1023,7 @@
   },
   "freet": {
     "dependencies": [
+      "aff",
       "bifunctors",
       "effect",
       "either",
@@ -1032,7 +1033,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-freet.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "functions": {
     "dependencies": [
