@@ -11,7 +11,7 @@
     , repo =
         "https://github.com/purescript-freedom/purescript-freedom.git"
     , version =
-        "v1.1.2"
+        "v1.2.0"
     }
 , freedom-now =
     { dependencies =
