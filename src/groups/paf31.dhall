@@ -94,7 +94,7 @@
     , repo =
         "https://github.com/paf31/purescript-safely.git"
     , version =
-        "v4.0.0"
+        "v4.0.1"
     }
 , string-parsers =
     { dependencies =
