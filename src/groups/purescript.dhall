@@ -631,7 +631,7 @@
     , repo =
         "https://github.com/purescript/purescript-tailrec.git"
     , version =
-        "v4.0.0"
+        "v4.1.0"
     }
 , transformers =
     { dependencies =
