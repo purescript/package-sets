@@ -3092,7 +3092,7 @@
       "refs"
     ],
     "repo": "https://github.com/purescript/purescript-tailrec.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "test-unit": {
     "dependencies": [
