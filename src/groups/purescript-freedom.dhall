@@ -19,7 +19,7 @@
     , repo =
         "https://github.com/purescript-freedom/purescript-freedom-now.git"
     , version =
-        "v1.0.0"
+        "v2.0.0"
     }
 , freedom-portal =
     { dependencies =
