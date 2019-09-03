@@ -47,7 +47,7 @@
     , repo =
         "https://github.com/purescript-contrib/purescript-argonaut-core.git"
     , version =
-        "v5.0.0"
+        "v5.0.1"
     }
 , argonaut-generic =
     { dependencies =
