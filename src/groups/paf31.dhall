@@ -13,7 +13,7 @@
     , repo =
         "https://github.com/paf31/purescript-behaviors.git"
     , version =
-        "v7.0.0"
+        "v8.0.0"
     }
 , event =
     { dependencies =
