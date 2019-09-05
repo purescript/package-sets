@@ -61,6 +61,6 @@
     , repo =
         "https://github.com/bodil/purescript-typelevel.git"
     , version =
-        "v5.0.0"
+        "v6.0.0"
     }
 }
