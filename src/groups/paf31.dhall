@@ -29,7 +29,7 @@
     , repo =
         "https://github.com/paf31/purescript-event.git"
     , version =
-        "v1.2.4"
+        "v1.3.0"
     }
 , folds =
     { dependencies =
