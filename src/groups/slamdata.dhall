@@ -21,27 +21,6 @@
     , version =
         "v4.0.0"
     }
-, affjax =
-    { dependencies =
-        [ "aff"
-        , "argonaut-core"
-        , "arraybuffer-types"
-        , "foreign"
-        , "form-urlencoded"
-        , "http-methods"
-        , "integers"
-        , "math"
-        , "media-types"
-        , "nullable"
-        , "refs"
-        , "unsafe-coerce"
-        , "web-xhr"
-        ]
-    , repo =
-        "https://github.com/slamdata/purescript-affjax.git"
-    , version =
-        "v9.0.0"
-    }
 , avar =
     { dependencies =
         [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]
