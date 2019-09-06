@@ -79,7 +79,7 @@
     , repo =
         "https://github.com/purescript-contrib/purescript-coroutines.git"
     , version =
-        "v5.0.0"
+        "v5.0.1"
     }
 , form-urlencoded =
     { dependencies =
