@@ -817,6 +817,22 @@
     "repo": "https://github.com/slamdata/purescript-fixed-points.git",
     "version": "v5.1.0"
   },
+  "flare": {
+    "dependencies": [
+      "canvas",
+      "datetime",
+      "drawing",
+      "foldable-traversable",
+      "nonempty",
+      "prelude",
+      "signal",
+      "smolder",
+      "tuples",
+      "web-dom"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-flare.git",
+    "version": "v6.0.0"
+  },
   "float32": {
     "dependencies": [
       "generics-rep",

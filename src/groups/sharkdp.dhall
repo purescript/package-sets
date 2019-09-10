@@ -22,6 +22,24 @@
     , version =
         "v5.0.0"
     }
+, flare =
+    { dependencies =
+        [ "canvas"
+        , "datetime"
+        , "drawing"
+        , "foldable-traversable"
+        , "nonempty"
+        , "prelude"
+        , "signal"
+        , "smolder"
+        , "tuples"
+        , "web-dom"
+        ]
+    , repo =
+        "https://github.com/sharkdp/purescript-flare.git"
+    , version =
+        "v6.0.0"
+    }
 , format =
     { dependencies =
         [ "arrays"
