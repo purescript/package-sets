@@ -11,7 +11,7 @@
     , repo =
         "https://github.com/slamdata/purescript-aff.git"
     , version =
-        "v5.1.1"
+        "v5.1.2"
     }
 , aff-bus =
     { dependencies =
