@@ -17,6 +17,6 @@
     , repo =
         "https://github.com/purescript-spec/purescript-spec.git"
     , version =
-        "v4.0.0"
+        "v4.0.1"
     }
 }
