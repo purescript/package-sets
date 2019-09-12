@@ -677,6 +677,18 @@
     "repo": "https://github.com/nsaunders/purescript-dotenv.git",
     "version": "v1.0.0"
   },
+  "drawing": {
+    "dependencies": [
+      "canvas",
+      "colors",
+      "integers",
+      "lists",
+      "math",
+      "prelude"
+    ],
+    "repo": "https://github.com/paf31/purescript-drawing.git",
+    "version": "v4.0.0"
+  },
   "effect": {
     "dependencies": [
       "prelude"
@@ -822,6 +834,22 @@
     ],
     "repo": "https://github.com/slamdata/purescript-fixed-points.git",
     "version": "v5.1.0"
+  },
+  "flare": {
+    "dependencies": [
+      "canvas",
+      "datetime",
+      "drawing",
+      "foldable-traversable",
+      "nonempty",
+      "prelude",
+      "signal",
+      "smolder",
+      "tuples",
+      "web-dom"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-flare.git",
+    "version": "v6.0.0"
   },
   "float32": {
     "dependencies": [

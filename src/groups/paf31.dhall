@@ -15,6 +15,14 @@
     , version =
         "v8.0.0"
     }
+, drawing =
+    { dependencies =
+        [ "canvas", "colors", "integers", "lists", "math", "prelude" ]
+    , repo =
+        "https://github.com/paf31/purescript-drawing.git"
+    , version =
+        "v4.0.0"
+    }
 , event =
     { dependencies =
         [ "console"
