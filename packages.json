@@ -2894,7 +2894,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purescript-spec/purescript-spec.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "spec-discovery": {
     "dependencies": [
