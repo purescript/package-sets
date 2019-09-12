@@ -22,4 +22,24 @@
     , version =
         "v0.1.0"
     }
+, biscotti-session =
+    { dependencies =
+        [ "aff"
+        , "argonaut"
+        , "biscotti-cookie"
+        , "effect"
+        , "newtype"
+        , "ordered-collections"
+        , "prelude"
+        , "profunctor-lenses"
+        , "psci-support"
+        , "refs"
+        , "test-unit"
+        , "uuid"
+        ]
+    , repo =
+        "https://github.com/drewolson/purescript-biscotti-session.git"
+    , version =
+        "v0.1.0"
+    }
 }
