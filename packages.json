@@ -1686,7 +1686,7 @@
       "simple-json"
     ],
     "repo": "https://github.com/oreshinya/purescript-mysql.git",
-    "version": "v3.0.1"
+    "version": "v3.1.0"
   },
   "naporitan": {
     "dependencies": [
