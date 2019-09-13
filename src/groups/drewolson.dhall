@@ -20,7 +20,7 @@
     , repo =
         "https://github.com/drewolson/purescript-biscotti-cookie.git"
     , version =
-        "v0.1.0"
+        "v0.2.0"
     }
 , biscotti-session =
     { dependencies =
@@ -40,6 +40,28 @@
     , repo =
         "https://github.com/drewolson/purescript-biscotti-session.git"
     , version =
-        "v0.1.0"
+        "v0.1.1"
+    }
+, httpure-contrib-biscotti =
+    { dependencies =
+        [ "aff"
+        , "argonaut"
+        , "biscotti-cookie"
+        , "biscotti-session"
+        , "effect"
+        , "either"
+        , "generics-rep"
+        , "httpure"
+        , "maybe"
+        , "profunctor-lenses"
+        , "psci-support"
+        , "test-unit"
+        , "tuples"
+        , "type-equality"
+        ]
+    , repo =
+        "https://github.com/drewolson/purescript-httpure-contrib-biscotti.git"
+    , version =
+        "v0.1.1"
     }
 }
