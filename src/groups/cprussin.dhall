@@ -60,7 +60,7 @@
     , repo =
         "https://github.com/cprussin/purescript-monad-logger.git"
     , version =
-        "v1.2.0"
+        "v1.3.0"
     }
 , node-electron =
     { dependencies =

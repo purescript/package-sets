@@ -1689,7 +1689,7 @@
       "tuples"
     ],
     "repo": "https://github.com/cprussin/purescript-monad-logger.git",
-    "version": "v1.2.0"
+    "version": "v1.3.0"
   },
   "monad-loops": {
     "dependencies": [
