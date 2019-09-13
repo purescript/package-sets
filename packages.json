@@ -275,7 +275,7 @@
       "uuid"
     ],
     "repo": "https://github.com/drewolson/purescript-biscotti-session.git",
-    "version": "v0.1.0"
+    "version": "v0.1.1"
   },
   "bower-json": {
     "dependencies": [

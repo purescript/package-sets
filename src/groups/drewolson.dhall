@@ -40,6 +40,6 @@
     , repo =
         "https://github.com/drewolson/purescript-biscotti-session.git"
     , version =
-        "v0.1.0"
+        "v0.1.1"
     }
 }
