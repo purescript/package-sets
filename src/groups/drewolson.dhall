@@ -62,6 +62,6 @@
     , repo =
         "https://github.com/drewolson/purescript-httpure-contrib-biscotti.git"
     , version =
-        "v0.1.0"
+        "v0.1.1"
     }
 }
