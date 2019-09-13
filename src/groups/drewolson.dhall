@@ -20,7 +20,7 @@
     , repo =
         "https://github.com/drewolson/purescript-biscotti-cookie.git"
     , version =
-        "v0.1.0"
+        "v0.2.0"
     }
 , biscotti-session =
     { dependencies =
