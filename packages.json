@@ -1200,7 +1200,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen.git",
-    "version": "v5.0.0-rc.6"
+    "version": "v5.0.0-rc.7"
   },
   "halogen-bootstrap": {
     "dependencies": [
