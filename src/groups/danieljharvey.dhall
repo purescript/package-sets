@@ -14,11 +14,11 @@
     }
 , radox =
     { dependencies =
-        [ "prelude", "effect", "variant", "refs" ]
+        [ "prelude", "effect", "variant", "refs", "aff" ]
     , repo =
         "https://github.com/danieljharvey/purescript-radox.git"
     , version =
-        "v0.0.8"
+        "v1.0.0"
     }
 , react-radox =
     { dependencies =
