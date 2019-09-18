@@ -84,7 +84,7 @@
     , repo =
         "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git"
     , version =
-        "v0.5.1"
+        "v1.0.0"
     }
 , bucketchain-sslify =
     { dependencies =
