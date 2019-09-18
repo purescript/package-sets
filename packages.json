@@ -2411,13 +2411,14 @@
   },
   "radox": {
     "dependencies": [
+      "aff",
       "effect",
       "prelude",
       "refs",
       "variant"
     ],
     "repo": "https://github.com/danieljharvey/purescript-radox.git",
-    "version": "v0.0.8"
+    "version": "v1.0.0"
   },
   "random": {
     "dependencies": [
