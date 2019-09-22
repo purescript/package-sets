@@ -137,7 +137,7 @@
     , repo =
         "https://github.com/justinwoo/purescript-record-extra.git"
     , version =
-        "v3.0.0"
+        "v3.0.1"
     }
 , redux-devtools =
     { dependencies =
