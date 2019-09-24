@@ -2686,6 +2686,17 @@
     "repo": "https://github.com/natefaubion/purescript-run.git",
     "version": "v3.0.1"
   },
+  "run-profunctor-lenses": {
+    "dependencies": [
+      "console",
+      "effect",
+      "profunctor-lenses",
+      "psci-support",
+      "run"
+    ],
+    "repo": "https://github.com/sigilion/purescript-run-profunctor-lenses.git",
+    "version": "v0.1.0"
+  },
   "run-streaming": {
     "dependencies": [
       "prelude",
