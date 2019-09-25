@@ -28,7 +28,7 @@
     , repo =
         "https://github.com/owickstrom/hyper.git"
     , version =
-        "v0.10.1"
+        "v0.11.0"
     }
 , hypertrout =
     { dependencies =
