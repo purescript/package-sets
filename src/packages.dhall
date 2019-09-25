@@ -61,6 +61,7 @@ let packages =
       ⫽ ./groups/rightfold.dhall
       ⫽ ./groups/rnons.dhall
       ⫽ ./groups/sharkdp.dhall
+      ⫽ ./groups/sigilion.dhall
       ⫽ ./groups/slamdata.dhall
       ⫽ ./groups/spacchetti.dhall
       ⫽ ./groups/spicydonuts.dhall
