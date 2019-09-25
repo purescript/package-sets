@@ -2793,6 +2793,14 @@
     "repo": "https://github.com/oreshinya/purescript-simple-emitter.git",
     "version": "v1.0.0"
   },
+  "simple-i18n": {
+    "dependencies": [
+      "foreign-object",
+      "record-extra"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-simple-i18n.git",
+    "version": "v0.1.0"
+  },
   "simple-json": {
     "dependencies": [
       "arrays",
