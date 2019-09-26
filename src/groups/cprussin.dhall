@@ -34,7 +34,7 @@
     , repo =
         "https://github.com/cprussin/purescript-httpure.git"
     , version =
-        "v0.8.3"
+        "v0.9.0"
     }
 , monad-logger =
     { dependencies =
