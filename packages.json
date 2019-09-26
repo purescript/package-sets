@@ -1782,10 +1782,12 @@
     "dependencies": [
       "arraybuffer-types",
       "effect",
-      "maybe"
+      "maybe",
+      "st",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-buffer.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "node-child-process": {
     "dependencies": [
