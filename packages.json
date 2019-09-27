@@ -2359,6 +2359,27 @@
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "v4.0.0"
   },
+  "querydsl": {
+    "dependencies": [
+      "arrays",
+      "datetime",
+      "effect",
+      "either",
+      "formatters",
+      "lists",
+      "node-buffer",
+      "node-sqlite3",
+      "nullable",
+      "prelude",
+      "record",
+      "strings",
+      "transformers",
+      "tuples",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/Dretch/purescript-querydsl.git",
+    "version": "v0.10.0"
+  },
   "quickcheck": {
     "dependencies": [
       "arrays",
