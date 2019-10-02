@@ -57,6 +57,7 @@ let packages =
       ⫽ ./groups/paluh.dhall
       ⫽ ./groups/passy.dhall
       ⫽ ./groups/purescript-freedom.dhall
+      ⫽ ./groups/purescript-hyper.dhall
       ⫽ ./groups/purescript-spec.dhall
       ⫽ ./groups/reactormonk.dhall
       ⫽ ./groups/rightfold.dhall

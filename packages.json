@@ -1357,6 +1357,7 @@
       "argonaut",
       "arrays",
       "avar",
+      "console",
       "control",
       "effect",
       "foldable-traversable",
@@ -1368,17 +1369,14 @@
       "node-http",
       "ordered-collections",
       "proxy",
-      "psci-support",
       "random",
       "record-extra",
       "smolder",
-      "spec",
-      "spec-discovery",
       "strings",
       "transformers",
       "typelevel-prelude"
     ],
-    "repo": "https://github.com/owickstrom/hyper.git",
+    "repo": "https://github.com/purescript-hyper/hyper.git",
     "version": "v0.11.0"
   },
   "hypertrout": {
@@ -1387,12 +1385,9 @@
       "console",
       "hyper",
       "prelude",
-      "psci-support",
-      "spec",
-      "spec-discovery",
       "trout"
     ],
-    "repo": "https://github.com/owickstrom/purescript-hypertrout.git",
+    "repo": "https://github.com/purescript-hyper/purescript-hypertrout.git",
     "version": "v0.11.0"
   },
   "identity": {
@@ -3300,12 +3295,10 @@
       "media-types",
       "prelude",
       "smolder",
-      "spec",
-      "spec-discovery",
       "uri"
     ],
-    "repo": "https://github.com/owickstrom/purescript-trout.git",
-    "version": "v0.12.0"
+    "repo": "https://github.com/purescript-hyper/purescript-trout.git",
+    "version": "v0.12.1"
   },
   "tuples": {
     "dependencies": [
