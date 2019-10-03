@@ -326,7 +326,7 @@
     { dependencies =
         [] : List Text
     , repo =
-        "https://github.com/purescript-contrib/purescript-unsafe-reference"
+        "https://github.com/purescript-contrib/purescript-unsafe-reference.git"
     , version =
         "v3.0.1"
     }
