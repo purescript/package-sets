@@ -19,6 +19,6 @@
     , repo =
         "https://github.com/Dretch/purescript-querydsl.git"
     , version =
-        "v0.10.0"
+        "v0.10.1"
     }
 }

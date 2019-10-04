@@ -2373,7 +2373,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/Dretch/purescript-querydsl.git",
-    "version": "v0.10.0"
+    "version": "v0.10.1"
   },
   "quickcheck": {
     "dependencies": [
