@@ -17,7 +17,7 @@
     , repo =
         "https://github.com/rightfold/purescript-bytestrings.git"
     , version =
-        "v7.0.0"
+        "v8.0.0"
     }
 , quotient =
     { dependencies =
