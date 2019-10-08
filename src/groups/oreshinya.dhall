@@ -28,7 +28,7 @@
     , repo =
         "https://github.com/oreshinya/purescript-mysql.git"
     , version =
-        "v3.4.1"
+        "v4.0.0"
     }
 , nodemailer =
     { dependencies =
