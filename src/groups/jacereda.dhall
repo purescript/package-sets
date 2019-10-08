@@ -14,6 +14,6 @@
     , repo =
         "https://github.com/jacereda/purescript-arraybuffer.git"
     , version =
-        "v10.0.0"
+        "v10.0.1"
     }
 }
