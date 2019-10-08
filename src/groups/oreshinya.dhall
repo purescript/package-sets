@@ -60,6 +60,6 @@
     , repo =
         "https://github.com/oreshinya/purescript-simple-jwt.git"
     , version =
-        "v1.1.1"
+        "v2.0.0"
     }
 }
