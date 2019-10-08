@@ -29,6 +29,6 @@
     , repo =
         "https://github.com/reactormonk/purescript-simple-timestamp.git"
     , version =
-        "v1.3.0"
+        "v2.0.0"
     }
 }
