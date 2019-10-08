@@ -2858,7 +2858,7 @@
       "strings"
     ],
     "repo": "https://github.com/oreshinya/purescript-simple-jwt.git",
-    "version": "v1.1.1"
+    "version": "v2.0.0"
   },
   "simple-timestamp": {
     "dependencies": [
