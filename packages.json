@@ -2873,7 +2873,7 @@
       "spec"
     ],
     "repo": "https://github.com/reactormonk/purescript-simple-timestamp.git",
-    "version": "v1.3.0"
+    "version": "v2.0.0"
   },
   "sized-vectors": {
     "dependencies": [
