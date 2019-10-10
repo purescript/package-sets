@@ -2997,7 +2997,7 @@
       "web-html",
       "web-uievents"
     ],
-    "repo": "https://github.com/natefaubion/purescript-spork",
+    "repo": "https://github.com/natefaubion/purescript-spork.git",
     "version": "v1.0.0"
   },
   "st": {
