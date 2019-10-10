@@ -108,7 +108,7 @@
         , "ordered-collections"
         ]
     , repo =
-        "https://github.com/natefaubion/purescript-spork"
+        "https://github.com/natefaubion/purescript-spork.git"
     , version =
         "v1.0.0"
     }
