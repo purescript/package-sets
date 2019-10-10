@@ -44,7 +44,7 @@
     , repo =
         "https://github.com/Bucketchain/purescript-bucketchain-header-utils.git"
     , version =
-        "v0.1.0"
+        "v0.2.0"
     }
 , bucketchain-health =
     { dependencies =
