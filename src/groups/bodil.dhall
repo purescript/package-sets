@@ -35,7 +35,7 @@
     , repo =
         "https://github.com/bodil/purescript-smolder.git"
     , version =
-        "v12.2.0"
+        "v12.3.0"
     }
 , test-unit =
     { dependencies =
