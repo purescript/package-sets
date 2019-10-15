@@ -19,7 +19,7 @@
     , repo =
         "https://github.com/bodil/purescript-sized-vectors.git"
     , version =
-        "v3.1.0"
+        "v4.0.0"
     }
 , smolder =
     { dependencies =
