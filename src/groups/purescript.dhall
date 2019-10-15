@@ -16,7 +16,7 @@
     , repo =
         "https://github.com/purescript/purescript-arrays.git"
     , version =
-        "v5.3.0"
+        "v5.3.1"
     }
 , assert =
     { dependencies =
