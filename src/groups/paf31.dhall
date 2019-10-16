@@ -120,7 +120,7 @@
     , repo =
         "https://github.com/paf31/purescript-string-parsers.git"
     , version =
-        "v5.0.0"
+        "v5.0.1"
     }
 , yargs =
     { dependencies =
