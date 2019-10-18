@@ -195,7 +195,7 @@
       "strings"
     ],
     "repo": "https://github.com/menelaos/purescript-b64.git",
-    "version": "v0.0.5"
+    "version": "v0.0.6"
   },
   "basic-auth": {
     "dependencies": [
