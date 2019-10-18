@@ -21,7 +21,7 @@
     , repo =
         "https://github.com/menelaos/purescript-encoding.git"
     , version =
-        "v0.0.5"
+        "v0.0.6"
     }
 , jwt =
     { dependencies =
