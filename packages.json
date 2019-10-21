@@ -3406,6 +3406,11 @@
     "repo": "https://github.com/ethul/purescript-undefinable.git",
     "version": "v4.0.0"
   },
+  "undefined": {
+    "dependencies": [],
+    "repo": "https://github.com/bklaric/purescript-undefined.git",
+    "version": "v1.0.2"
+  },
   "unfoldable": {
     "dependencies": [
       "foldable-traversable",
