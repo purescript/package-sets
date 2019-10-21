@@ -874,6 +874,14 @@
     "repo": "https://github.com/athanclark/purescript-float32.git",
     "version": "v0.1.1"
   },
+  "flow-id": {
+    "dependencies": [
+      "prelude",
+      "simple-json"
+    ],
+    "repo": "https://github.com/i-am-the-slime/purescript-flow-id.git",
+    "version": "v1.0.0"
+  },
   "foldable-traversable": {
     "dependencies": [
       "bifunctors",
