@@ -13,7 +13,7 @@
     , repo =
         "https://github.com/menelaos/purescript-b64.git"
     , version =
-        "v0.0.5"
+        "v0.0.6"
     }
 , encoding =
     { dependencies =
