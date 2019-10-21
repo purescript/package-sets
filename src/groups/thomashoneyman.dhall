@@ -6,10 +6,8 @@
         , "generics-rep"
         , "profunctor-lenses"
         ]
-    , repo =
-        "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-    , version =
-        "v1.0.0-rc.1"
+    , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
+    , version = "v1.0.0-rc.1"
     }
 , slug =
     { dependencies =
@@ -20,9 +18,7 @@
         , "generics-rep"
         , "argonaut-codecs"
         ]
-    , repo =
-        "https://github.com/thomashoneyman/purescript-slug.git"
-    , version =
-        "v1.0.0"
+    , repo = "https://github.com/thomashoneyman/purescript-slug.git"
+    , version = "v1.0.0"
     }
 }

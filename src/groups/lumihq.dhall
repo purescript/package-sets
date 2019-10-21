@@ -12,9 +12,7 @@
         , "web-events"
         , "web-html"
         ]
-    , repo =
-        "https://github.com/lumihq/purescript-react-basic.git"
-    , version =
-        "v11.0.0"
+    , repo = "https://github.com/lumihq/purescript-react-basic.git"
+    , version = "v11.0.0"
     }
 }

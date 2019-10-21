@@ -1,10 +1,7 @@
 { mmorph =
-    { dependencies =
-        [ "free", "functors", "transformers" ]
-    , repo =
-        "https://github.com/Thimoteus/purescript-mmorph.git"
-    , version =
-        "v5.1.0"
+    { dependencies = [ "free", "functors", "transformers" ]
+    , repo = "https://github.com/Thimoteus/purescript-mmorph.git"
+    , version = "v5.1.0"
     }
 , promises =
     { dependencies =
@@ -15,9 +12,7 @@
         , "prelude"
         , "transformers"
         ]
-    , repo =
-        "https://github.com/thimoteus/purescript-promises.git"
-    , version =
-        "v3.1.1"
+    , repo = "https://github.com/thimoteus/purescript-promises.git"
+    , version = "v3.1.1"
     }
 }

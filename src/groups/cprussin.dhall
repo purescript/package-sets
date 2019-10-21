@@ -31,10 +31,8 @@
         , "type-equality"
         , "unsafe-coerce"
         ]
-    , repo =
-        "https://github.com/cprussin/purescript-httpure.git"
-    , version =
-        "v0.9.0"
+    , repo = "https://github.com/cprussin/purescript-httpure.git"
+    , version = "v0.9.0"
     }
 , monad-logger =
     { dependencies =
@@ -57,10 +55,8 @@
         , "transformers"
         , "tuples"
         ]
-    , repo =
-        "https://github.com/cprussin/purescript-monad-logger.git"
-    , version =
-        "v1.3.1"
+    , repo = "https://github.com/cprussin/purescript-monad-logger.git"
+    , version = "v1.3.1"
     }
 , node-electron =
     { dependencies =
@@ -76,9 +72,7 @@
         , "web-events"
         , "web-html"
         ]
-    , repo =
-        "https://github.com/cprussin/purescript-node-electron.git"
-    , version =
-        "v0.0.2"
+    , repo = "https://github.com/cprussin/purescript-node-electron.git"
+    , version = "v0.0.2"
     }
 }

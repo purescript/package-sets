@@ -11,10 +11,8 @@
         , "tuples"
         , "unfoldable"
         ]
-    , repo =
-        "https://github.com/klntsky/purescript-array-views.git"
-    , version =
-        "v0.0.2"
+    , repo = "https://github.com/klntsky/purescript-array-views.git"
+    , version = "v0.0.2"
     }
 , search-trie =
     { dependencies =
@@ -25,10 +23,8 @@
         , "foldable-traversable"
         , "bifunctors"
         ]
-    , repo =
-        "https://github.com/klntsky/purescript-search-trie.git"
-    , version =
-        "v1.0.0"
+    , repo = "https://github.com/klntsky/purescript-search-trie.git"
+    , version = "v1.0.0"
     }
 , bower-json =
     { dependencies =
@@ -43,9 +39,7 @@
         , "argonaut-codecs"
         , "foreign-object"
         ]
-    , repo =
-        "https://github.com/klntsky/purescript-bower-json.git"
-    , version =
-        "v1.0.0"
+    , repo = "https://github.com/klntsky/purescript-bower-json.git"
+    , version = "v1.0.0"
     }
 }

@@ -17,10 +17,8 @@
         , "strings"
         , "test-unit"
         ]
-    , repo =
-        "https://github.com/drewolson/purescript-biscotti-cookie.git"
-    , version =
-        "v0.2.0"
+    , repo = "https://github.com/drewolson/purescript-biscotti-cookie.git"
+    , version = "v0.2.0"
     }
 , biscotti-session =
     { dependencies =
@@ -37,10 +35,8 @@
         , "test-unit"
         , "uuid"
         ]
-    , repo =
-        "https://github.com/drewolson/purescript-biscotti-session.git"
-    , version =
-        "v0.1.1"
+    , repo = "https://github.com/drewolson/purescript-biscotti-session.git"
+    , version = "v0.1.1"
     }
 , httpure-contrib-biscotti =
     { dependencies =
@@ -61,7 +57,6 @@
         ]
     , repo =
         "https://github.com/drewolson/purescript-httpure-contrib-biscotti.git"
-    , version =
-        "v0.1.1"
+    , version = "v0.1.1"
     }
 }

@@ -8,9 +8,7 @@
         , "transformers"
         , "tuples"
         ]
-    , repo =
-        "https://github.com/felixSchl/purescript-pipes.git"
-    , version =
-        "v6.0.0"
+    , repo = "https://github.com/felixSchl/purescript-pipes.git"
+    , version = "v6.0.0"
     }
 }

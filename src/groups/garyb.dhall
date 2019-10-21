@@ -1,25 +1,16 @@
 { debug =
-    { dependencies =
-        [ "prelude" ]
-    , repo =
-        "https://github.com/garyb/purescript-debug.git"
-    , version =
-        "v4.0.0"
+    { dependencies = [ "prelude" ]
+    , repo = "https://github.com/garyb/purescript-debug.git"
+    , version = "v4.0.0"
     }
 , indexed-monad =
-    { dependencies =
-        [ "control", "newtype" ]
-    , repo =
-        "https://github.com/garyb/purescript-indexed-monad.git"
-    , version =
-        "v1.1.0"
+    { dependencies = [ "control", "newtype" ]
+    , repo = "https://github.com/garyb/purescript-indexed-monad.git"
+    , version = "v1.1.0"
     }
 , quickcheck-laws =
-    { dependencies =
-        [ "enums", "proxy", "quickcheck" ]
-    , repo =
-        "https://github.com/garyb/purescript-quickcheck-laws.git"
-    , version =
-        "v5.0.1"
+    { dependencies = [ "enums", "proxy", "quickcheck" ]
+    , repo = "https://github.com/garyb/purescript-quickcheck-laws.git"
+    , version = "v5.0.1"
     }
 }

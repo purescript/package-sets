@@ -1,10 +1,7 @@
 { pointed-list =
-    { dependencies =
-        [ "lists", "prelude" ]
-    , repo =
-        "https://github.com/paluh/purescript-pointed-list.git"
-    , version =
-        "v0.4.0"
+    { dependencies = [ "lists", "prelude" ]
+    , repo = "https://github.com/paluh/purescript-pointed-list.git"
+    , version = "v0.4.0"
     }
 , polyform =
     { dependencies =
@@ -19,9 +16,7 @@
         , "transformers"
         , "variant"
         ]
-    , repo =
-        "https://github.com/paluh/purescript-polyform.git"
-    , version =
-        "v0.8.0"
+    , repo = "https://github.com/paluh/purescript-polyform.git"
+    , version = "v0.8.0"
     }
 }

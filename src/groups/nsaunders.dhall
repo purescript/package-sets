@@ -10,10 +10,8 @@
         , "spec"
         , "sunde"
         ]
-    , repo =
-        "https://github.com/nsaunders/purescript-dotenv.git"
-    , version =
-        "v1.0.0"
+    , repo = "https://github.com/nsaunders/purescript-dotenv.git"
+    , version = "v1.0.0"
     }
 , typedenv =
     { dependencies =
@@ -25,9 +23,7 @@
         , "strings"
         , "typelevel-prelude"
         ]
-    , repo =
-        "https://github.com/nsaunders/purescript-typedenv.git"
-    , version =
-        "v0.0.1"
+    , repo = "https://github.com/nsaunders/purescript-typedenv.git"
+    , version = "v0.0.1"
     }
 }

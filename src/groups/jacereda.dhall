@@ -11,9 +11,7 @@
         , "typelevel"
         , "uint"
         ]
-    , repo =
-        "https://github.com/jacereda/purescript-arraybuffer.git"
-    , version =
-        "v10.0.1"
+    , repo = "https://github.com/jacereda/purescript-arraybuffer.git"
+    , version = "v10.0.1"
     }
 }
