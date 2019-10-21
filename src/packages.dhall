@@ -72,5 +72,6 @@ let packages =
       ⫽ ./groups/dwhitney.dhall
       ⫽ ./groups/f-o-a-m.dhall
       ⫽ ./groups/risto-stevcev.dhall
+      ⫽ ./groups/unisay.dhall
 
 in  packages

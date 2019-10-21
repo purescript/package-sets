@@ -38,6 +38,21 @@
     "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
     "version": "v2.1.0"
   },
+  "aff-retry": {
+    "dependencies": [
+      "aff",
+      "console",
+      "datetime",
+      "exceptions",
+      "prelude",
+      "psci-support",
+      "random",
+      "test-unit",
+      "transformers"
+    ],
+    "repo": "https://github.com/Unisay/purescript-aff-retry.git",
+    "version": "v1.2.1"
+  },
   "ansi": {
     "dependencies": [
       "foldable-traversable",
