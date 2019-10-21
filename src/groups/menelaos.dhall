@@ -38,7 +38,7 @@
     , repo =
         "https://github.com/menelaos/purescript-jwt.git"
     , version =
-        "v0.0.6"
+        "v0.0.7"
     }
 , stringutils =
     { dependencies =
