@@ -23,25 +23,18 @@
         , "record-extra"
         , "typelevel-prelude"
         ]
-    , repo =
-        "https://github.com/purescript-hyper/hyper.git"
-    , version =
-        "v0.11.0"
+    , repo = "https://github.com/purescript-hyper/hyper.git"
+    , version = "v0.11.0"
     }
 , hypertrout =
     { dependencies =
         [ "argonaut-generic", "console", "hyper", "prelude", "trout" ]
-    , repo =
-        "https://github.com/purescript-hyper/purescript-hypertrout.git"
-    , version =
-        "v0.11.0"
+    , repo = "https://github.com/purescript-hyper/purescript-hypertrout.git"
+    , version = "v0.11.0"
     }
 , trout =
-    { dependencies =
-        [ "argonaut", "media-types", "prelude", "smolder", "uri" ]
-    , repo =
-        "https://github.com/purescript-hyper/purescript-trout.git"
-    , version =
-        "v0.12.1"
+    { dependencies = [ "argonaut", "media-types", "prelude", "smolder", "uri" ]
+    , repo = "https://github.com/purescript-hyper/purescript-trout.git"
+    , version = "v0.12.1"
     }
 }

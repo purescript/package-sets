@@ -10,18 +10,14 @@
         , "prelude"
         , "strings"
         ]
-    , repo =
-        "https://github.com/menelaos/purescript-b64.git"
-    , version =
-        "v0.0.6"
+    , repo = "https://github.com/menelaos/purescript-b64.git"
+    , version = "v0.0.6"
     }
 , encoding =
     { dependencies =
         [ "arraybuffer-types", "either", "exceptions", "functions", "prelude" ]
-    , repo =
-        "https://github.com/menelaos/purescript-encoding.git"
-    , version =
-        "v0.0.6"
+    , repo = "https://github.com/menelaos/purescript-encoding.git"
+    , version = "v0.0.6"
     }
 , jwt =
     { dependencies =
@@ -35,10 +31,8 @@
         , "profunctor-lenses"
         , "strings"
         ]
-    , repo =
-        "https://github.com/menelaos/purescript-jwt.git"
-    , version =
-        "v0.0.7"
+    , repo = "https://github.com/menelaos/purescript-jwt.git"
+    , version = "v0.0.7"
     }
 , stringutils =
     { dependencies =
@@ -50,9 +44,7 @@
         , "prelude"
         , "strings"
         ]
-    , repo =
-        "https://github.com/menelaos/purescript-stringutils.git"
-    , version =
-        "v0.0.10"
+    , repo = "https://github.com/menelaos/purescript-stringutils.git"
+    , version = "v0.0.10"
     }
 }

@@ -8,17 +8,12 @@
         , "react-basic"
         , "unsafe-reference"
         ]
-    , repo =
-        "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
-    , version =
-        "v2.0.3"
+    , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
+    , version = "v2.0.3"
     }
 , uuid =
-    { dependencies =
-        [ "effect", "maybe" ]
-    , repo =
-        "https://github.com/spicydonuts/purescript-uuid.git"
-    , version =
-        "v6.0.0"
+    { dependencies = [ "effect", "maybe" ]
+    , repo = "https://github.com/spicydonuts/purescript-uuid.git"
+    , version = "v6.0.0"
     }
 }

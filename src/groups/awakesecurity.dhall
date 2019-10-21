@@ -19,9 +19,7 @@
         , "numbers"
         , "decimals"
         ]
-    , repo =
-        "https://github.com/awakesecurity/purescript-precise-datetime.git"
-    , version =
-        "v5.1.1"
+    , repo = "https://github.com/awakesecurity/purescript-precise-datetime.git"
+    , version = "v5.1.1"
     }
 }

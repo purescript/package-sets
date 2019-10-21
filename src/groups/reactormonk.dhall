@@ -9,10 +9,8 @@
         , "record"
         , "variant"
         ]
-    , repo =
-        "https://github.com/reactormonk/purescript-rave.git"
-    , version =
-        "v0.1.1"
+    , repo = "https://github.com/reactormonk/purescript-rave.git"
+    , version = "v0.1.1"
     }
 , simple-timestamp =
     { dependencies =
@@ -26,9 +24,7 @@
         , "simple-json"
         , "spec"
         ]
-    , repo =
-        "https://github.com/reactormonk/purescript-simple-timestamp.git"
-    , version =
-        "v3.0.0"
+    , repo = "https://github.com/reactormonk/purescript-simple-timestamp.git"
+    , version = "v3.0.0"
     }
 }

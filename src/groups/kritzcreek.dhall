@@ -1,10 +1,7 @@
 { matrices =
-    { dependencies =
-        [ "arrays", "strings" ]
-    , repo =
-        "https://github.com/kritzcreek/purescript-matrices.git"
-    , version =
-        "v4.0.0"
+    { dependencies = [ "arrays", "strings" ]
+    , repo = "https://github.com/kritzcreek/purescript-matrices.git"
+    , version = "v4.0.0"
     }
 , psc-ide =
     { dependencies =
@@ -18,9 +15,7 @@
         , "parallel"
         , "random"
         ]
-    , repo =
-        "https://github.com/kRITZCREEK/purescript-psc-ide.git"
-    , version =
-        "v15.0.1"
+    , repo = "https://github.com/kRITZCREEK/purescript-psc-ide.git"
+    , version = "v15.0.1"
     }
 }

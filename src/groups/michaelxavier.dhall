@@ -9,7 +9,6 @@
         ]
     , repo =
         "https://github.com/MichaelXavier/purescript-server-sent-events.git"
-    , version =
-        "v0.2.0"
+    , version = "v0.2.0"
     }
 }

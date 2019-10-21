@@ -8,26 +8,19 @@
         , "transformers"
         , "unsafe-coerce"
         ]
-    , repo =
-        "https://github.com/slamdata/purescript-aff.git"
-    , version =
-        "v5.1.2"
+    , repo = "https://github.com/slamdata/purescript-aff.git"
+    , version = "v5.1.2"
     }
 , aff-bus =
-    { dependencies =
-        [ "avar", "prelude" ]
-    , repo =
-        "https://github.com/slamdata/purescript-aff-bus.git"
-    , version =
-        "v4.0.0"
+    { dependencies = [ "avar", "prelude" ]
+    , repo = "https://github.com/slamdata/purescript-aff-bus.git"
+    , version = "v4.0.0"
     }
 , avar =
     { dependencies =
         [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]
-    , repo =
-        "https://github.com/slamdata/purescript-avar.git"
-    , version =
-        "v3.0.0"
+    , repo = "https://github.com/slamdata/purescript-avar.git"
+    , version = "v3.0.0"
     }
 , css =
     { dependencies =
@@ -40,34 +33,24 @@
         , "these"
         , "transformers"
         ]
-    , repo =
-        "https://github.com/slamdata/purescript-css.git"
-    , version =
-        "v4.0.0"
+    , repo = "https://github.com/slamdata/purescript-css.git"
+    , version = "v4.0.0"
     }
 , dom-indexed =
     { dependencies =
         [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
-    , repo =
-        "https://github.com/slamdata/purescript-dom-indexed.git"
-    , version =
-        "v7.0.0"
+    , repo = "https://github.com/slamdata/purescript-dom-indexed.git"
+    , version = "v7.0.0"
     }
 , fixed-points =
-    { dependencies =
-        [ "exists", "newtype", "prelude", "transformers" ]
-    , repo =
-        "https://github.com/slamdata/purescript-fixed-points.git"
-    , version =
-        "v5.1.0"
+    { dependencies = [ "exists", "newtype", "prelude", "transformers" ]
+    , repo = "https://github.com/slamdata/purescript-fixed-points.git"
+    , version = "v5.1.0"
     }
 , fork =
-    { dependencies =
-        [ "aff" ]
-    , repo =
-        "https://github.com/slamdata/purescript-fork.git"
-    , version =
-        "v4.0.0"
+    { dependencies = [ "aff" ]
+    , repo = "https://github.com/slamdata/purescript-fork.git"
+    , version = "v4.0.0"
     }
 , formatters =
     { dependencies =
@@ -79,10 +62,8 @@
         , "prelude"
         , "transformers"
         ]
-    , repo =
-        "https://github.com/slamdata/purescript-formatters.git"
-    , version =
-        "v4.0.1"
+    , repo = "https://github.com/slamdata/purescript-formatters.git"
+    , version = "v4.0.1"
     }
 , halogen =
     { dependencies =
@@ -107,26 +88,18 @@
         , "unsafe-reference"
         , "web-uievents"
         ]
-    , repo =
-        "https://github.com/slamdata/purescript-halogen.git"
-    , version =
-        "v5.0.0-rc.7"
+    , repo = "https://github.com/slamdata/purescript-halogen.git"
+    , version = "v5.0.0-rc.7"
     }
 , halogen-bootstrap =
-    { dependencies =
-        [ "halogen" ]
-    , repo =
-        "https://github.com/slamdata/purescript-halogen-bootstrap.git"
-    , version =
-        "v8.0.0"
+    { dependencies = [ "halogen" ]
+    , repo = "https://github.com/slamdata/purescript-halogen-bootstrap.git"
+    , version = "v8.0.0"
     }
 , halogen-css =
-    { dependencies =
-        [ "css", "halogen" ]
-    , repo =
-        "https://github.com/slamdata/purescript-halogen-css.git"
-    , version =
-        "v8.0.0"
+    { dependencies = [ "css", "halogen" ]
+    , repo = "https://github.com/slamdata/purescript-halogen-css.git"
+    , version = "v8.0.0"
     }
 , halogen-vdom =
     { dependencies =
@@ -141,10 +114,8 @@
         , "unsafe-coerce"
         , "web-html"
         ]
-    , repo =
-        "https://github.com/slamdata/purescript-halogen-vdom.git"
-    , version =
-        "v6.1.0"
+    , repo = "https://github.com/slamdata/purescript-halogen-vdom.git"
+    , version = "v6.1.0"
     }
 , pathy =
     { dependencies =
@@ -159,10 +130,8 @@
         , "unsafe-coerce"
         , "typelevel-prelude"
         ]
-    , repo =
-        "https://github.com/slamdata/purescript-pathy.git"
-    , version =
-        "v7.0.1"
+    , repo = "https://github.com/slamdata/purescript-pathy.git"
+    , version = "v7.0.1"
     }
 , routing =
     { dependencies =
@@ -182,10 +151,8 @@
         , "validation"
         , "web-html"
         ]
-    , repo =
-        "https://github.com/slamdata/purescript-routing.git"
-    , version =
-        "v9.0.0"
+    , repo = "https://github.com/slamdata/purescript-routing.git"
+    , version = "v9.0.0"
     }
 , uri =
     { dependencies =
@@ -200,9 +167,7 @@
         , "unfoldable"
         , "these"
         ]
-    , repo =
-        "https://github.com/slamdata/purescript-uri.git"
-    , version =
-        "v7.0.0"
+    , repo = "https://github.com/slamdata/purescript-uri.git"
+    , version = "v7.0.0"
     }
 }

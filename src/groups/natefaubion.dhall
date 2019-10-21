@@ -1,18 +1,13 @@
 { checked-exceptions =
-    { dependencies =
-        [ "prelude", "transformers", "variant" ]
-    , repo =
-        "https://github.com/natefaubion/purescript-checked-exceptions.git"
-    , version =
-        "v3.1.0"
+    { dependencies = [ "prelude", "transformers", "variant" ]
+    , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
+    , version = "v3.1.0"
     }
 , heterogeneous =
     { dependencies =
         [ "either", "functors", "prelude", "record", "tuples", "variant" ]
-    , repo =
-        "https://github.com/natefaubion/purescript-heterogeneous.git"
-    , version =
-        "v0.4.1"
+    , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
+    , version = "v0.4.1"
     }
 , psa-utils =
     { dependencies =
@@ -33,10 +28,8 @@
         , "tuples"
         , "unsafe-coerce"
         ]
-    , repo =
-        "https://github.com/natefaubion/purescript-psa-utils.git"
-    , version =
-        "v6.0.0"
+    , repo = "https://github.com/natefaubion/purescript-psa-utils.git"
+    , version = "v6.0.0"
     }
 , routing-duplex =
     { dependencies =
@@ -52,10 +45,8 @@
         , "strings"
         , "typelevel-prelude"
         ]
-    , repo =
-        "https://github.com/natefaubion/purescript-routing-duplex.git"
-    , version =
-        "v0.4.0"
+    , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
+    , version = "v0.4.0"
     }
 , run =
     { dependencies =
@@ -73,18 +64,13 @@
         , "unsafe-coerce"
         , "variant"
         ]
-    , repo =
-        "https://github.com/natefaubion/purescript-run.git"
-    , version =
-        "v3.0.1"
+    , repo = "https://github.com/natefaubion/purescript-run.git"
+    , version = "v3.0.1"
     }
 , run-streaming =
-    { dependencies =
-        [ "prelude", "run" ]
-    , repo =
-        "https://github.com/natefaubion/purescript-run-streaming.git"
-    , version =
-        "v2.0.0"
+    { dependencies = [ "prelude", "run" ]
+    , repo = "https://github.com/natefaubion/purescript-run-streaming.git"
+    , version = "v2.0.0"
     }
 , spork =
     { dependencies =
@@ -107,10 +93,8 @@
         , "foreign"
         , "ordered-collections"
         ]
-    , repo =
-        "https://github.com/natefaubion/purescript-spork.git"
-    , version =
-        "v1.0.0"
+    , repo = "https://github.com/natefaubion/purescript-spork.git"
+    , version = "v1.0.0"
     }
 , variant =
     { dependencies =
@@ -124,9 +108,7 @@
         , "tuples"
         , "unsafe-coerce"
         ]
-    , repo =
-        "https://github.com/natefaubion/purescript-variant.git"
-    , version =
-        "v6.0.1"
+    , repo = "https://github.com/natefaubion/purescript-variant.git"
+    , version = "v6.0.1"
     }
 }

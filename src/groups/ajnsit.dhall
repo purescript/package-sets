@@ -13,9 +13,7 @@
         , "web-dom"
         , "web-html"
         ]
-    , repo =
-        "https://github.com/ajnsit/purescript-concur.git"
-    , version =
-        "v0.3.9"
+    , repo = "https://github.com/ajnsit/purescript-concur.git"
+    , version = "v0.3.9"
     }
 }

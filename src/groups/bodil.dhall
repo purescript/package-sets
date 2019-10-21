@@ -1,10 +1,8 @@
 { signal =
     { dependencies =
         [ "aff", "foldable-traversable", "js-timers", "maybe", "prelude" ]
-    , repo =
-        "https://github.com/bodil/purescript-signal.git"
-    , version =
-        "v10.1.0"
+    , repo = "https://github.com/bodil/purescript-signal.git"
+    , version = "v10.1.0"
     }
 , sized-vectors =
     { dependencies =
@@ -16,10 +14,8 @@
         , "typelevel"
         , "unfoldable"
         ]
-    , repo =
-        "https://github.com/bodil/purescript-sized-vectors.git"
-    , version =
-        "v4.0.0"
+    , repo = "https://github.com/bodil/purescript-sized-vectors.git"
+    , version = "v4.0.0"
     }
 , smolder =
     { dependencies =
@@ -32,10 +28,8 @@
         , "transformers"
         , "tuples"
         ]
-    , repo =
-        "https://github.com/bodil/purescript-smolder.git"
-    , version =
-        "v12.3.0"
+    , repo = "https://github.com/bodil/purescript-smolder.git"
+    , version = "v12.3.0"
     }
 , test-unit =
     { dependencies =
@@ -50,17 +44,13 @@
         , "quickcheck"
         , "strings"
         ]
-    , repo =
-        "https://github.com/bodil/purescript-test-unit.git"
-    , version =
-        "v15.0.0"
+    , repo = "https://github.com/bodil/purescript-test-unit.git"
+    , version = "v15.0.0"
     }
 , typelevel =
     { dependencies =
         [ "partial", "prelude", "tuples", "typelevel-prelude", "unsafe-coerce" ]
-    , repo =
-        "https://github.com/bodil/purescript-typelevel.git"
-    , version =
-        "v6.0.0"
+    , repo = "https://github.com/bodil/purescript-typelevel.git"
+    , version = "v6.0.0"
     }
 }
