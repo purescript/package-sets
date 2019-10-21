@@ -1470,6 +1470,20 @@
     "repo": "https://github.com/purescript-contrib/purescript-js-timers.git",
     "version": "v4.0.1"
   },
+  "json-pointer": {
+    "dependencies": [
+      "console",
+      "effect",
+      "foreign",
+      "generics-rep",
+      "prelude",
+      "psci-support",
+      "spec-quickcheck",
+      "strings"
+    ],
+    "repo": "https://github.com/reactormonk/purescript-json-pointer.git",
+    "version": "v0.1.0"
+  },
   "json-schema": {
     "dependencies": [
       "generics-rep",
