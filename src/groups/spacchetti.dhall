@@ -4,6 +4,6 @@
     , repo =
         "https://github.com/spacchetti/purescript-metadata.git"
     , version =
-        "v0.13.3"
+        "v0.13.4"
     }
 }
