@@ -38,9 +38,7 @@
         , "spec-quickcheck"
         , "strings"
         ]
-    , repo =
-        "https://github.com/reactormonk/purescript-json-pointer.git"
-    , version =
-        "v0.1.0"
+    , repo = "https://github.com/reactormonk/purescript-json-pointer.git"
+    , version = "v0.1.0"
     }
 }
