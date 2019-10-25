@@ -27,4 +27,18 @@
     , repo = "https://github.com/reactormonk/purescript-simple-timestamp.git"
     , version = "v3.0.0"
     }
+, json-pointer =
+    { dependencies =
+        [ "console"
+        , "effect"
+        , "foreign"
+        , "generics-rep"
+        , "prelude"
+        , "psci-support"
+        , "spec-quickcheck"
+        , "strings"
+        ]
+    , repo = "https://github.com/reactormonk/purescript-json-pointer.git"
+    , version = "v0.1.0"
+    }
 }
