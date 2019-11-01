@@ -151,7 +151,7 @@
       "uint"
     ],
     "repo": "https://github.com/jacereda/purescript-arraybuffer.git",
-    "version": "v10.0.1"
+    "version": "v10.0.2"
   },
   "arraybuffer-types": {
     "dependencies": [],
@@ -559,7 +559,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-control.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "coroutines": {
     "dependencies": [
@@ -1046,7 +1046,7 @@
       "web-html"
     ],
     "repo": "https://github.com/purescript-freedom/purescript-freedom.git",
-    "version": "v1.4.0"
+    "version": "v1.4.1"
   },
   "freedom-now": {
     "dependencies": [
@@ -1077,7 +1077,7 @@
       "js-timers"
     ],
     "repo": "https://github.com/purescript-freedom/purescript-freedom-transition.git",
-    "version": "v1.0.0"
+    "version": "v1.0.1"
   },
   "freedom-virtualized": {
     "dependencies": [
@@ -2534,7 +2534,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v11.0.0"
+    "version": "v13.0.0"
   },
   "react-basic-hooks": {
     "dependencies": [
@@ -3404,7 +3404,7 @@
       "maybe"
     ],
     "repo": "https://github.com/zaquest/purescript-uint.git",
-    "version": "v5.1.1"
+    "version": "v5.1.2"
   },
   "undefinable": {
     "dependencies": [

@@ -63,7 +63,7 @@
 , control =
     { dependencies = [ "prelude" ]
     , repo = "https://github.com/purescript/purescript-control.git"
-    , version = "v4.1.0"
+    , version = "v4.2.0"
     }
 , datetime =
     { dependencies =

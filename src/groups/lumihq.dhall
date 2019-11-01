@@ -13,6 +13,6 @@
         , "web-html"
         ]
     , repo = "https://github.com/lumihq/purescript-react-basic.git"
-    , version = "v11.0.0"
+    , version = "v13.0.0"
     }
 }
