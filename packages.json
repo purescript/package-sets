@@ -151,7 +151,7 @@
       "uint"
     ],
     "repo": "https://github.com/jacereda/purescript-arraybuffer.git",
-    "version": "v10.0.1"
+    "version": "v10.0.2"
   },
   "arraybuffer-types": {
     "dependencies": [],
@@ -474,7 +474,7 @@
       "test-unit"
     ],
     "repo": "https://github.com/icyrockcom/purescript-cheerio.git",
-    "version": "v0.2.0"
+    "version": "v0.2.1"
   },
   "chirashi": {
     "dependencies": [
@@ -556,10 +556,11 @@
   },
   "control": {
     "dependencies": [
+      "newtype",
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-control.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "coroutines": {
     "dependencies": [
@@ -2525,6 +2526,7 @@
       "console",
       "effect",
       "exceptions",
+      "foreign-object",
       "functions",
       "nullable",
       "record",
@@ -2534,7 +2536,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v11.0.0"
+    "version": "v13.0.0"
   },
   "react-basic-hooks": {
     "dependencies": [
@@ -3044,7 +3046,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript/purescript-st.git",
-    "version": "v4.0.0"
+    "version": "v4.0.2"
   },
   "string-parsers": {
     "dependencies": [
@@ -3395,16 +3397,17 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "uint": {
     "dependencies": [
       "generics-rep",
       "math",
-      "maybe"
+      "maybe",
+      "quickcheck"
     ],
     "repo": "https://github.com/zaquest/purescript-uint.git",
-    "version": "v5.1.1"
+    "version": "v5.1.2"
   },
   "undefinable": {
     "dependencies": [

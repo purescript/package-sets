@@ -61,9 +61,9 @@
     , version = "v4.0.1"
     }
 , control =
-    { dependencies = [ "prelude" ]
+    { dependencies = [ "prelude", "newtype" ]
     , repo = "https://github.com/purescript/purescript-control.git"
-    , version = "v4.1.0"
+    , version = "v4.2.0"
     }
 , datetime =
     { dependencies =
@@ -467,7 +467,7 @@
 , st =
     { dependencies = [ "partial", "prelude", "tailrec" ]
     , repo = "https://github.com/purescript/purescript-st.git"
-    , version = "v4.0.0"
+    , version = "v4.0.2"
     }
 , strings =
     { dependencies =
@@ -548,7 +548,7 @@
 , typelevel-prelude =
     { dependencies = [ "prelude", "proxy", "type-equality" ]
     , repo = "https://github.com/purescript/purescript-typelevel-prelude.git"
-    , version = "v5.0.0"
+    , version = "v5.0.1"
     }
 , unfoldable =
     { dependencies =
