@@ -9,7 +9,7 @@
         , "web-html"
         ]
     , repo = "https://github.com/purescript-freedom/purescript-freedom.git"
-    , version = "v1.4.0"
+    , version = "v1.4.1"
     }
 , freedom-now =
     { dependencies = [ "freedom", "js-timers" ]
@@ -33,7 +33,7 @@
         [ "freedom", "js-timers" ]
     , repo =
         "https://github.com/purescript-freedom/purescript-freedom-transition.git"
-    , version = "v1.0.0"
+    , version = "v1.0.1"
     }
 , freedom-virtualized =
     { dependencies =
