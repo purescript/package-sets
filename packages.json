@@ -556,6 +556,7 @@
   },
   "control": {
     "dependencies": [
+      "newtype",
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-control.git",

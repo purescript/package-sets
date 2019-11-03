@@ -61,7 +61,7 @@
     , version = "v4.0.1"
     }
 , control =
-    { dependencies = [ "prelude" ]
+    { dependencies = [ "prelude", "newtype" ]
     , repo = "https://github.com/purescript/purescript-control.git"
     , version = "v4.2.0"
     }
