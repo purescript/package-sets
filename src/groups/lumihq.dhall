@@ -4,6 +4,7 @@
         , "console"
         , "effect"
         , "exceptions"
+        , "foreign-object"
         , "functions"
         , "nullable"
         , "record"
