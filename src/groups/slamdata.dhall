@@ -22,6 +22,27 @@
     , repo = "https://github.com/slamdata/purescript-avar.git"
     , version = "v3.0.0"
     }
+, affjax =
+    { dependencies =
+        [ "aff"
+        , "argonaut-core"
+        , "arraybuffer-types"
+        , "foreign"
+        , "form-urlencoded"
+        , "http-methods"
+        , "integers"
+        , "math"
+        , "media-types"
+        , "nullable"
+        , "refs"
+        , "unsafe-coerce"
+        , "web-xhr"
+        ]
+    , repo =
+        "https://github.com/slamdata/purescript-affjax.git"
+    , version =
+        "v10.0.0"
+    }
 , css =
     { dependencies =
         [ "colors"
