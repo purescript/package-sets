@@ -9,7 +9,7 @@
         , "unsafe-reference"
         ]
     , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
-    , version = "v2.0.3"
+    , version = "v3.0.0"
     }
 , uuid =
     { dependencies = [ "effect", "maybe" ]
