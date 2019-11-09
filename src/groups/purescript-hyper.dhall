@@ -35,6 +35,6 @@
 , trout =
     { dependencies = [ "argonaut", "media-types", "prelude", "smolder", "uri" ]
     , repo = "https://github.com/purescript-hyper/purescript-trout.git"
-    , version = "v0.12.1"
+    , version = "v0.12.2"
     }
 }
