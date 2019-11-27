@@ -12,7 +12,6 @@ let packages =
       ⫽ ./groups/sodiumfrp.dhall
       ⫽ ./groups/thimoteus.dhall
       ⫽ ./groups/thomashoneyman.dhall
-      ⫽ ./groups/ajnsit.dhall
       ⫽ ./groups/athanclark.dhall
       ⫽ ./groups/anttih.dhall
       ⫽ ./groups/bodil.dhall
@@ -76,5 +75,6 @@ let packages =
       ⫽ ./groups/bklaric.dhall
       ⫽ ./groups/i-am-the-slime.dhall
       ⫽ ./groups/ebmtranceboy.dhall
+      ⫽ ./groups/purescript-concur.dhall
 
 in  packages
