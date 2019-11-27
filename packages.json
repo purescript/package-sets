@@ -536,11 +536,27 @@
     "repo": "https://github.com/sharkdp/purescript-colors.git",
     "version": "v5.0.0"
   },
+  "concur-core": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "avar",
+      "console",
+      "foldable-traversable",
+      "free",
+      "nonempty",
+      "profunctor-lenses",
+      "tailrec"
+    ],
+    "repo": "https://github.com/purescript-concur/purescript-concur-core.git",
+    "version": "v0.4.1"
+  },
   "concur-react": {
     "dependencies": [
       "aff",
       "arrays",
       "avar",
+      "concur-core",
       "console",
       "foldable-traversable",
       "free",
@@ -551,8 +567,8 @@
       "web-dom",
       "web-html"
     ],
-    "repo": "https://github.com/ajnsit/purescript-concur.git",
-    "version": "v0.3.9"
+    "repo": "https://github.com/purescript-concur/purescript-concur-react.git",
+    "version": "v0.4.1"
   },
   "console": {
     "dependencies": [
