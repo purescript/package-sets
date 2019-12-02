@@ -147,7 +147,7 @@
         , "record"
         ]
     , repo = "https://github.com/justinwoo/purescript-toppokki.git"
-    , version = "v2.0.0"
+    , version = "v2.2.0"
     }
 , tortellini =
     { dependencies =
