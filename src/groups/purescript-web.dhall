@@ -22,7 +22,7 @@
 , web-file =
     { dependencies = [ "foreign", "media-types", "web-dom" ]
     , repo = "https://github.com/purescript-web/purescript-web-file.git"
-    , version = "v2.2.0"
+    , version = "v2.3.0"
     }
 , web-html =
     { dependencies = [ "js-date", "web-dom", "web-file", "web-storage" ]
