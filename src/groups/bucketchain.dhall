@@ -20,7 +20,7 @@
     { dependencies =
         [ "bucketchain", "bucketchain-header-utils", "http-methods" ]
     , repo = "https://github.com/Bucketchain/purescript-bucketchain-cors.git"
-    , version = "v0.2.0"
+    , version = "v0.3.0"
     }
 , bucketchain-csrf =
     { dependencies = [ "bucketchain" ]
@@ -31,7 +31,7 @@
     { dependencies = [ "bucketchain" ]
     , repo =
         "https://github.com/Bucketchain/purescript-bucketchain-header-utils.git"
-    , version = "v0.2.0"
+    , version = "v0.3.0"
     }
 , bucketchain-health =
     { dependencies = [ "bucketchain" ]

@@ -42,7 +42,7 @@
 , console =
     { dependencies = [ "effect", "prelude" ]
     , repo = "https://github.com/purescript/purescript-console.git"
-    , version = "v4.2.0"
+    , version = "v4.3.0"
     }
 , const =
     { dependencies =
