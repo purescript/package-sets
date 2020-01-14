@@ -35,7 +35,7 @@
     }
 , kishimen =
     { dependencies =
-        [ "generics-rep", "prelude", "typelevel-prelude", "variant" ]
+      [ "generics-rep", "prelude", "typelevel-prelude", "variant" ]
     , repo = "https://github.com/justinwoo/purescript-kishimen.git"
     , version = "v1.0.1"
     }
@@ -51,12 +51,12 @@
     }
 , milkis =
     { dependencies =
-        [ "aff-promise"
-        , "arraybuffer-types"
-        , "foreign-object"
-        , "prelude"
-        , "typelevel-prelude"
-        ]
+      [ "aff-promise"
+      , "arraybuffer-types"
+      , "foreign-object"
+      , "prelude"
+      , "typelevel-prelude"
+      ]
     , repo = "https://github.com/justinwoo/purescript-milkis.git"
     , version = "v7.2.1"
     }
@@ -87,7 +87,7 @@
     }
 , record-extra =
     { dependencies =
-        [ "arrays", "functions", "lists", "record", "typelevel-prelude" ]
+      [ "arrays", "functions", "lists", "record", "typelevel-prelude" ]
     , repo = "https://github.com/justinwoo/purescript-record-extra.git"
     , version = "v3.0.1"
     }
@@ -108,17 +108,17 @@
     }
 , simple-json =
     { dependencies =
-        [ "arrays"
-        , "exceptions"
-        , "foreign"
-        , "foreign-object"
-        , "globals"
-        , "nullable"
-        , "prelude"
-        , "record"
-        , "typelevel-prelude"
-        , "variant"
-        ]
+      [ "arrays"
+      , "exceptions"
+      , "foreign"
+      , "foreign-object"
+      , "globals"
+      , "nullable"
+      , "prelude"
+      , "record"
+      , "typelevel-prelude"
+      , "variant"
+      ]
     , repo = "https://github.com/justinwoo/purescript-simple-json.git"
     , version = "v7.0.0"
     }
@@ -139,30 +139,30 @@
     }
 , toppokki =
     { dependencies =
-        [ "aff-promise"
-        , "functions"
-        , "node-buffer"
-        , "node-http"
-        , "prelude"
-        , "record"
-        ]
+      [ "aff-promise"
+      , "functions"
+      , "node-buffer"
+      , "node-http"
+      , "prelude"
+      , "record"
+      ]
     , repo = "https://github.com/justinwoo/purescript-toppokki.git"
     , version = "v2.3.0"
     }
 , tortellini =
     { dependencies =
-        [ "foreign-object"
-        , "integers"
-        , "lists"
-        , "motsunabe"
-        , "numbers"
-        , "prelude"
-        , "record"
-        , "string-parsers"
-        , "strings"
-        , "transformers"
-        , "typelevel-prelude"
-        ]
+      [ "foreign-object"
+      , "integers"
+      , "lists"
+      , "motsunabe"
+      , "numbers"
+      , "prelude"
+      , "record"
+      , "string-parsers"
+      , "strings"
+      , "transformers"
+      , "typelevel-prelude"
+      ]
     , repo = "https://github.com/justinwoo/purescript-tortellini.git"
     , version = "v5.1.0"
     }

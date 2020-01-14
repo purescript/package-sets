@@ -1,12 +1,12 @@
 { refined =
     { dependencies =
-        [ "argonaut"
-        , "effect"
-        , "generics-rep"
-        , "prelude"
-        , "quickcheck"
-        , "typelevel"
-        ]
+      [ "argonaut"
+      , "effect"
+      , "generics-rep"
+      , "prelude"
+      , "quickcheck"
+      , "typelevel"
+      ]
     , repo = "https://github.com/danieljharvey/purescript-refined.git"
     , version = "v0.2.0"
     }
@@ -27,15 +27,15 @@
     }
 , stylesheet =
     { dependencies =
-        [ "effect"
-        , "foreign"
-        , "generics-rep"
-        , "ordered-collections"
-        , "prelude"
-        , "refs"
-        , "unordered-collections"
-        , "cssom"
-        ]
+      [ "effect"
+      , "foreign"
+      , "generics-rep"
+      , "ordered-collections"
+      , "prelude"
+      , "refs"
+      , "unordered-collections"
+      , "cssom"
+      ]
     , repo = "https://github.com/danieljharvey/purescript-stylesheet.git"
     , version = "v0.0.3"
     }

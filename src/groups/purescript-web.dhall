@@ -1,6 +1,6 @@
 { canvas =
     { dependencies =
-        [ "arraybuffer-types", "effect", "exceptions", "functions", "maybe" ]
+      [ "arraybuffer-types", "effect", "exceptions", "functions", "maybe" ]
     , repo = "https://github.com/purescript-web/purescript-canvas.git"
     , version = "v4.0.0"
     }
@@ -51,12 +51,7 @@
     }
 , web-xhr =
     { dependencies =
-        [ "arraybuffer-types"
-        , "datetime"
-        , "http-methods"
-        , "web-dom"
-        , "web-file"
-        ]
+      [ "arraybuffer-types", "datetime", "http-methods", "web-dom", "web-file" ]
     , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
     , version = "v3.0.2"
     }
