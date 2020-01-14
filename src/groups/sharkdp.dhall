@@ -15,30 +15,30 @@
     }
 , flare =
     { dependencies =
-        [ "canvas"
-        , "datetime"
-        , "drawing"
-        , "foldable-traversable"
-        , "nonempty"
-        , "prelude"
-        , "signal"
-        , "smolder"
-        , "tuples"
-        , "web-dom"
-        ]
+      [ "canvas"
+      , "datetime"
+      , "drawing"
+      , "foldable-traversable"
+      , "nonempty"
+      , "prelude"
+      , "signal"
+      , "smolder"
+      , "tuples"
+      , "web-dom"
+      ]
     , repo = "https://github.com/sharkdp/purescript-flare.git"
     , version = "v6.0.0"
     }
 , format =
     { dependencies =
-        [ "arrays"
-        , "effect"
-        , "integers"
-        , "math"
-        , "prelude"
-        , "strings"
-        , "unfoldable"
-        ]
+      [ "arrays"
+      , "effect"
+      , "integers"
+      , "math"
+      , "prelude"
+      , "strings"
+      , "unfoldable"
+      ]
     , repo = "https://github.com/sharkdp/purescript-format.git"
     , version = "v4.0.0"
     }
@@ -49,7 +49,7 @@
     }
 , pairs =
     { dependencies =
-        [ "console", "distributive", "foldable-traversable", "quickcheck" ]
+      [ "console", "distributive", "foldable-traversable", "quickcheck" ]
     , repo = "https://github.com/sharkdp/purescript-pairs.git"
     , version = "v7.0.0"
     }

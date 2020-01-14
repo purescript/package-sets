@@ -6,53 +6,52 @@
     }
 , argonaut =
     { dependencies =
-        [ "argonaut-codecs", "argonaut-core", "argonaut-traversals" ]
+      [ "argonaut-codecs", "argonaut-core", "argonaut-traversals" ]
     , repo = "https://github.com/purescript-contrib/purescript-argonaut.git"
     , version = "v6.0.0"
     }
 , argonaut-codecs =
     { dependencies =
-        [ "argonaut-core"
-        , "arrays"
-        , "foreign-object"
-        , "integers"
-        , "maybe"
-        , "nonempty"
-        , "ordered-collections"
-        , "record"
-        ]
+      [ "argonaut-core"
+      , "arrays"
+      , "foreign-object"
+      , "integers"
+      , "maybe"
+      , "nonempty"
+      , "ordered-collections"
+      , "record"
+      ]
     , repo =
         "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
     , version = "v6.0.2"
     }
 , argonaut-core =
     { dependencies =
-        [ "arrays"
-        , "control"
-        , "either"
-        , "foreign-object"
-        , "functions"
-        , "gen"
-        , "maybe"
-        , "nonempty"
-        , "prelude"
-        , "strings"
-        , "tailrec"
-        ]
+      [ "arrays"
+      , "control"
+      , "either"
+      , "foreign-object"
+      , "functions"
+      , "gen"
+      , "maybe"
+      , "nonempty"
+      , "prelude"
+      , "strings"
+      , "tailrec"
+      ]
     , repo =
         "https://github.com/purescript-contrib/purescript-argonaut-core.git"
     , version = "v5.0.1"
     }
 , argonaut-generic =
     { dependencies =
-        [ "argonaut-codecs", "argonaut-core", "generics-rep", "record" ]
+      [ "argonaut-codecs", "argonaut-core", "generics-rep", "record" ]
     , repo =
         "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
     , version = "v5.0.0"
     }
 , argonaut-traversals =
-    { dependencies =
-        [ "argonaut-codecs", "argonaut-core", "profunctor-lenses" ]
+    { dependencies = [ "argonaut-codecs", "argonaut-core", "profunctor-lenses" ]
     , repo =
         "https://github.com/purescript-contrib/purescript-argonaut-traversals.git"
     , version = "v7.0.0"
@@ -70,22 +69,22 @@
     }
 , form-urlencoded =
     { dependencies =
-        [ "globals", "maybe", "newtype", "prelude", "strings", "tuples" ]
+      [ "globals", "maybe", "newtype", "prelude", "strings", "tuples" ]
     , repo =
         "https://github.com/purescript-contrib/purescript-form-urlencoded.git"
     , version = "v5.0.0"
     }
 , freet =
     { dependencies =
-        [ "bifunctors"
-        , "effect"
-        , "either"
-        , "exists"
-        , "prelude"
-        , "tailrec"
-        , "transformers"
-        , "aff"
-        ]
+      [ "bifunctors"
+      , "effect"
+      , "either"
+      , "exists"
+      , "prelude"
+      , "tailrec"
+      , "transformers"
+      , "aff"
+      ]
     , repo = "https://github.com/purescript-contrib/purescript-freet.git"
     , version = "v5.0.0"
     }
@@ -111,16 +110,16 @@
     }
 , machines =
     { dependencies =
-        [ "arrays"
-        , "control"
-        , "effect"
-        , "lists"
-        , "maybe"
-        , "prelude"
-        , "profunctor"
-        , "tuples"
-        , "unfoldable"
-        ]
+      [ "arrays"
+      , "control"
+      , "effect"
+      , "lists"
+      , "maybe"
+      , "prelude"
+      , "profunctor"
+      , "tuples"
+      , "unfoldable"
+      ]
     , repo = "https://github.com/purescript-contrib/purescript-machines.git"
     , version = "v5.1.0"
     }
@@ -141,63 +140,63 @@
     }
 , options =
     { dependencies =
-        [ "contravariant", "foreign", "foreign-object", "maybe", "tuples" ]
+      [ "contravariant", "foreign", "foreign-object", "maybe", "tuples" ]
     , repo = "https://github.com/purescript-contrib/purescript-options.git"
     , version = "v5.0.0"
     }
 , parsing =
     { dependencies =
-        [ "arrays"
-        , "either"
-        , "foldable-traversable"
-        , "identity"
-        , "integers"
-        , "lists"
-        , "maybe"
-        , "strings"
-        , "transformers"
-        , "unicode"
-        ]
+      [ "arrays"
+      , "either"
+      , "foldable-traversable"
+      , "identity"
+      , "integers"
+      , "lists"
+      , "maybe"
+      , "strings"
+      , "transformers"
+      , "unicode"
+      ]
     , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
     , version = "v5.0.3"
     }
 , profunctor-lenses =
     { dependencies =
-        [ "arrays"
-        , "bifunctors"
-        , "const"
-        , "control"
-        , "distributive"
-        , "either"
-        , "foldable-traversable"
-        , "foreign-object"
-        , "functors"
-        , "identity"
-        , "lists"
-        , "maybe"
-        , "newtype"
-        , "ordered-collections"
-        , "partial"
-        , "prelude"
-        , "profunctor"
-        , "record"
-        , "transformers"
-        , "tuples"
-        ]
+      [ "arrays"
+      , "bifunctors"
+      , "const"
+      , "control"
+      , "distributive"
+      , "either"
+      , "foldable-traversable"
+      , "foreign-object"
+      , "functors"
+      , "identity"
+      , "lists"
+      , "maybe"
+      , "newtype"
+      , "ordered-collections"
+      , "partial"
+      , "prelude"
+      , "profunctor"
+      , "record"
+      , "transformers"
+      , "tuples"
+      ]
     , repo =
         "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
     , version = "v6.2.0"
     }
 , react =
     { dependencies =
-        [ "effect"
-        , "exceptions"
-        , "maybe"
-        , "nullable"
-        , "prelude"
-        , "typelevel-prelude"
-        , "unsafe-coerce"
-        ]
+      [ "effect"
+      , "exceptions"
+      , "maybe"
+      , "nullable"
+      , "prelude"
+      , "typelevel-prelude"
+      , "unsafe-coerce"
+      ]
     , repo = "https://github.com/purescript-contrib/purescript-react.git"
     , version = "v8.0.0"
     }
@@ -208,49 +207,49 @@
     }
 , strings-extra =
     { dependencies =
-        [ "arrays"
-        , "either"
-        , "foldable-traversable"
-        , "maybe"
-        , "partial"
-        , "prelude"
-        , "strings"
-        , "unicode"
-        ]
+      [ "arrays"
+      , "either"
+      , "foldable-traversable"
+      , "maybe"
+      , "partial"
+      , "prelude"
+      , "strings"
+      , "unicode"
+      ]
     , repo =
         "https://github.com/purescript-contrib/purescript-strings-extra.git"
     , version = "v2.0.0"
     }
 , strongcheck =
     { dependencies =
-        [ "arrays"
-        , "console"
-        , "control"
-        , "datetime"
-        , "effect"
-        , "either"
-        , "enums"
-        , "exceptions"
-        , "foldable-traversable"
-        , "free"
-        , "gen"
-        , "identity"
-        , "integers"
-        , "invariant"
-        , "lazy"
-        , "lists"
-        , "machines"
-        , "math"
-        , "newtype"
-        , "partial"
-        , "prelude"
-        , "profunctor"
-        , "random"
-        , "strings"
-        , "tailrec"
-        , "transformers"
-        , "tuples"
-        ]
+      [ "arrays"
+      , "console"
+      , "control"
+      , "datetime"
+      , "effect"
+      , "either"
+      , "enums"
+      , "exceptions"
+      , "foldable-traversable"
+      , "free"
+      , "gen"
+      , "identity"
+      , "integers"
+      , "invariant"
+      , "lazy"
+      , "lists"
+      , "machines"
+      , "math"
+      , "newtype"
+      , "partial"
+      , "prelude"
+      , "profunctor"
+      , "random"
+      , "strings"
+      , "tailrec"
+      , "transformers"
+      , "tuples"
+      ]
     , repo = "https://github.com/purescript-contrib/purescript-strongcheck.git"
     , version = "v4.1.1"
     }

@@ -5,13 +5,13 @@
     }
 , promises =
     { dependencies =
-        [ "console"
-        , "datetime"
-        , "exceptions"
-        , "functions"
-        , "prelude"
-        , "transformers"
-        ]
+      [ "console"
+      , "datetime"
+      , "exceptions"
+      , "functions"
+      , "prelude"
+      , "transformers"
+      ]
     , repo = "https://github.com/thimoteus/purescript-promises.git"
     , version = "v3.1.1"
     }

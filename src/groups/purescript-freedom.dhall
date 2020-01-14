@@ -1,13 +1,13 @@
 { freedom =
     { dependencies =
-        [ "aff"
-        , "console"
-        , "foreign-object"
-        , "freet"
-        , "safely"
-        , "simple-emitter"
-        , "web-html"
-        ]
+      [ "aff"
+      , "console"
+      , "foreign-object"
+      , "freet"
+      , "safely"
+      , "simple-emitter"
+      , "web-html"
+      ]
     , repo = "https://github.com/purescript-freedom/purescript-freedom.git"
     , version = "v1.4.1"
     }
@@ -29,22 +29,19 @@
     , version = "v1.0.1"
     }
 , freedom-transition =
-    { dependencies =
-        [ "freedom", "js-timers" ]
+    { dependencies = [ "freedom", "js-timers" ]
     , repo =
         "https://github.com/purescript-freedom/purescript-freedom-transition.git"
     , version = "v1.0.1"
     }
 , freedom-virtualized =
-    { dependencies =
-        [ "freedom" ]
+    { dependencies = [ "freedom" ]
     , repo =
         "https://github.com/purescript-freedom/purescript-freedom-virtualized.git"
     , version = "v1.0.0"
     }
 , freedom-window-resize =
-    { dependencies =
-        [ "freedom" ]
+    { dependencies = [ "freedom" ]
     , repo =
         "https://github.com/purescript-freedom/purescript-freedom-window-resize.git"
     , version = "v1.0.0"

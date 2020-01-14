@@ -1,6 +1,6 @@
 { bucketchain =
     { dependencies =
-        [ "aff", "console", "node-http", "node-streams", "transformers" ]
+      [ "aff", "console", "node-http", "node-streams", "transformers" ]
     , repo = "https://github.com/Bucketchain/purescript-bucketchain.git"
     , version = "v0.3.0"
     }
@@ -18,7 +18,7 @@
     }
 , bucketchain-cors =
     { dependencies =
-        [ "bucketchain", "bucketchain-header-utils", "http-methods" ]
+      [ "bucketchain", "bucketchain-header-utils", "http-methods" ]
     , repo = "https://github.com/Bucketchain/purescript-bucketchain-cors.git"
     , version = "v0.3.0"
     }
@@ -39,8 +39,7 @@
     , version = "v0.2.0"
     }
 , bucketchain-history-api-fallback =
-    { dependencies =
-        [ "bucketchain" ]
+    { dependencies = [ "bucketchain" ]
     , repo =
         "https://github.com/Bucketchain/purescript-bucketchain-history-api-fallback.git"
     , version = "v0.3.0"
