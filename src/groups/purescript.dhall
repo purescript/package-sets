@@ -541,7 +541,7 @@
 , typelevel-prelude =
     { dependencies = [ "prelude", "proxy", "type-equality" ]
     , repo = "https://github.com/purescript/purescript-typelevel-prelude.git"
-    , version = "v5.0.1"
+    , version = "v5.0.2"
     }
 , unfoldable =
     { dependencies =
