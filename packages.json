@@ -2448,6 +2448,17 @@
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "v4.0.0"
   },
+  "quantities": {
+    "dependencies": [
+      "decimals",
+      "foldable-traversable",
+      "lists",
+      "numbers",
+      "pairs"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-quantities.git",
+    "version": "v10.0.0"
+  },
   "querydsl": {
     "dependencies": [
       "arrays",

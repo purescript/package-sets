@@ -53,4 +53,10 @@
     , repo = "https://github.com/sharkdp/purescript-pairs.git"
     , version = "v7.0.0"
     }
+, quantities =
+    { dependencies =
+      [ "lists", "foldable-traversable", "numbers", "pairs", "decimals" ]
+    , repo = "https://github.com/sharkdp/purescript-quantities.git"
+    , version = "v10.0.0"
+    }
 }
