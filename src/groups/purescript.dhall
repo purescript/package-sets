@@ -42,7 +42,7 @@
 , console =
     { dependencies = [ "effect", "prelude" ]
     , repo = "https://github.com/purescript/purescript-console.git"
-    , version = "v4.3.0"
+    , version = "v4.4.0"
     }
 , const =
     { dependencies =
@@ -547,7 +547,7 @@
     { dependencies =
       [ "foldable-traversable", "maybe", "partial", "prelude", "tuples" ]
     , repo = "https://github.com/purescript/purescript-unfoldable.git"
-    , version = "v4.0.2"
+    , version = "v4.1.0"
     }
 , unsafe-coerce =
     { dependencies = [] : List Text
