@@ -6,7 +6,7 @@
 , indexed-monad =
     { dependencies = [ "control", "newtype" ]
     , repo = "https://github.com/garyb/purescript-indexed-monad.git"
-    , version = "v1.1.0"
+    , version = "v1.2.0"
     }
 , quickcheck-laws =
     { dependencies = [ "enums", "proxy", "quickcheck" ]
