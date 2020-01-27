@@ -2981,6 +2981,22 @@
     "repo": "https://github.com/reactormonk/purescript-simple-timestamp.git",
     "version": "v3.0.0"
   },
+  "sized-matrices": {
+    "dependencies": [
+      "arrays",
+      "distributive",
+      "foldable-traversable",
+      "maybe",
+      "prelude",
+      "sized-vectors",
+      "strings",
+      "typelevel",
+      "unfoldable",
+      "vectorfield"
+    ],
+    "repo": "https://github.com/csicar/purescript-sized-matrices",
+    "version": "v0.2.1"
+  },
   "sized-vectors": {
     "dependencies": [
       "arrays",
@@ -3593,6 +3609,17 @@
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v6.0.1"
+  },
+  "vectorfield": {
+    "dependencies": [
+      "console",
+      "effect",
+      "group",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/csicar/purescript-vectorfield.git",
+    "version": "v1.0.1"
   },
   "web-clipboard": {
     "dependencies": [
