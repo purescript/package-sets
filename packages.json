@@ -2541,7 +2541,7 @@
       "quickcheck"
     ],
     "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
-    "version": "v5.0.1"
+    "version": "v5.1.0"
   },
   "quotient": {
     "dependencies": [
@@ -3601,7 +3601,7 @@
       "maybe"
     ],
     "repo": "https://github.com/spicydonuts/purescript-uuid.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "validation": {
     "dependencies": [
