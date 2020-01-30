@@ -1312,6 +1312,16 @@
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
     "version": "v5.0.0-rc.4"
   },
+  "halogen-storybook": {
+    "dependencies": [
+      "foreign-object",
+      "halogen",
+      "prelude",
+      "routing"
+    ],
+    "repo": "https://github.com/rnons/purescript-halogen-storybook.git",
+    "version": "v1.0.0-rc.1"
+  },
   "halogen-vdom": {
     "dependencies": [
       "bifunctors",
@@ -1354,6 +1364,16 @@
     ],
     "repo": "https://github.com/matthew-hilty/purescript-higher-order.git",
     "version": "v0.2.0"
+  },
+  "html-parser-halogen": {
+    "dependencies": [
+      "generics-rep",
+      "halogen",
+      "prelude",
+      "string-parsers"
+    ],
+    "repo": "https://github.com/rnons/purescript-html-parser-halogen.git",
+    "version": "v1.0.0-rc.1"
   },
   "http-methods": {
     "dependencies": [
@@ -3307,7 +3327,7 @@
       "svg-parser"
     ],
     "repo": "https://github.com/rnons/purescript-svg-parser-halogen.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0-rc.1"
   },
   "tailrec": {
     "dependencies": [
