@@ -11,6 +11,6 @@
 , quickcheck-laws =
     { dependencies = [ "enums", "proxy", "quickcheck" ]
     , repo = "https://github.com/garyb/purescript-quickcheck-laws.git"
-    , version = "v5.0.1"
+    , version = "v5.1.0"
     }
 }
