@@ -13,6 +13,8 @@
       , "prelude"
       , "typelevel"
       , "unfoldable"
+      , "quickcheck"
+      , "argonaut"
       ]
     , repo = "https://github.com/bodil/purescript-sized-vectors.git"
     , version = "v5.0.0"

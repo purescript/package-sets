@@ -3019,11 +3019,13 @@
   },
   "sized-vectors": {
     "dependencies": [
+      "argonaut",
       "arrays",
       "distributive",
       "foldable-traversable",
       "maybe",
       "prelude",
+      "quickcheck",
       "typelevel",
       "unfoldable"
     ],
