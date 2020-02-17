@@ -6,7 +6,7 @@
 , html-parser-halogen =
     { dependencies = [ "generics-rep", "halogen", "prelude", "string-parsers" ]
     , repo = "https://github.com/rnons/purescript-html-parser-halogen.git"
-    , version = "v1.0.0-rc.1"
+    , version = "v1.0.0-rc.2"
     }
 , svg-parser =
     { dependencies = [ "generics-rep", "prelude", "string-parsers" ]
