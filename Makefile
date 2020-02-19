@@ -28,4 +28,4 @@ psc-package2nix: setup
 ci: generate setup-only
 	echo "Checking if packages.json has changed..."
 	git diff --exit-code packages.json
-	psc-package verify
+	cd src && spago verify-set

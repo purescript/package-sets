@@ -15,6 +15,6 @@ let
 in
 pkgs.runCommand "easy-ps-test" {
   buildInputs = builtins.attrValues {
-    inherit (easy-ps) purescript psc-package dhall-simple dhall-json-simple;
+    inherit (easy-ps) purescript psc-package dhall-simple dhall-json-simple spago;
   } ++ [ pkgs.git ];
 } ""
