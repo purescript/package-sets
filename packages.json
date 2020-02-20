@@ -736,7 +736,7 @@
       "sunde"
     ],
     "repo": "https://github.com/nsaunders/purescript-dotenv.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "drawing": {
     "dependencies": [
@@ -1336,7 +1336,7 @@
       "web-html"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
-    "version": "v6.1.0"
+    "version": "v6.1.2"
   },
   "heterogeneous": {
     "dependencies": [
@@ -1373,7 +1373,7 @@
       "string-parsers"
     ],
     "repo": "https://github.com/rnons/purescript-html-parser-halogen.git",
-    "version": "v1.0.0-rc.1"
+    "version": "v1.0.0-rc.2"
   },
   "http-methods": {
     "dependencies": [
@@ -2391,7 +2391,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-profunctor-lenses.git",
-    "version": "v6.2.0"
+    "version": "v6.3.0"
   },
   "promises": {
     "dependencies": [
@@ -2792,7 +2792,7 @@
       "web-html"
     ],
     "repo": "https://github.com/slamdata/purescript-routing.git",
-    "version": "v9.0.0"
+    "version": "v9.0.1"
   },
   "routing-duplex": {
     "dependencies": [
@@ -3001,34 +3001,20 @@
     "repo": "https://github.com/reactormonk/purescript-simple-timestamp.git",
     "version": "v3.0.0"
   },
-  "sized-matrices": {
-    "dependencies": [
-      "arrays",
-      "distributive",
-      "foldable-traversable",
-      "maybe",
-      "prelude",
-      "sized-vectors",
-      "strings",
-      "typelevel",
-      "unfoldable",
-      "vectorfield"
-    ],
-    "repo": "https://github.com/csicar/purescript-sized-matrices",
-    "version": "v0.2.1"
-  },
   "sized-vectors": {
     "dependencies": [
+      "argonaut",
       "arrays",
       "distributive",
       "foldable-traversable",
       "maybe",
       "prelude",
+      "quickcheck",
       "typelevel",
       "unfoldable"
     ],
     "repo": "https://github.com/bodil/purescript-sized-vectors.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "slug": {
     "dependencies": [
@@ -3567,7 +3553,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
-    "version": "v1.8.2"
+    "version": "v1.8.3"
   },
   "unsafe-coerce": {
     "dependencies": [],

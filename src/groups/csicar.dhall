@@ -1,4 +1,4 @@
-{ sized-matrices =
+{- sized-matrices =
     { dependencies =
       [ "sized-vectors"
       , "prelude"
@@ -14,7 +14,8 @@
     , repo = "https://github.com/csicar/purescript-sized-matrices"
     , version = "v0.2.1"
     }
-, vectorfield =
+, -}
+{ vectorfield =
     { dependencies = [ "console", "effect", "group", "prelude", "psci-support" ]
     , repo = "https://github.com/csicar/purescript-vectorfield.git"
     , version = "v1.0.1"

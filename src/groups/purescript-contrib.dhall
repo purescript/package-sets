@@ -185,7 +185,7 @@
       ]
     , repo =
         "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
-    , version = "v6.2.0"
+    , version = "v6.3.0"
     }
 , react =
     { dependencies =

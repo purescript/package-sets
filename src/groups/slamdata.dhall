@@ -134,7 +134,7 @@
       , "web-html"
       ]
     , repo = "https://github.com/slamdata/purescript-halogen-vdom.git"
-    , version = "v6.1.0"
+    , version = "v6.1.2"
     }
 , pathy =
     { dependencies =
@@ -171,7 +171,7 @@
       , "web-html"
       ]
     , repo = "https://github.com/slamdata/purescript-routing.git"
-    , version = "v9.0.0"
+    , version = "v9.0.1"
     }
 , uri =
     { dependencies =
