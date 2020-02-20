@@ -3001,29 +3001,15 @@
     "repo": "https://github.com/reactormonk/purescript-simple-timestamp.git",
     "version": "v3.0.0"
   },
-  "sized-matrices": {
-    "dependencies": [
-      "arrays",
-      "distributive",
-      "foldable-traversable",
-      "maybe",
-      "prelude",
-      "sized-vectors",
-      "strings",
-      "typelevel",
-      "unfoldable",
-      "vectorfield"
-    ],
-    "repo": "https://github.com/csicar/purescript-sized-matrices",
-    "version": "v0.2.1"
-  },
   "sized-vectors": {
     "dependencies": [
+      "argonaut",
       "arrays",
       "distributive",
       "foldable-traversable",
       "maybe",
       "prelude",
+      "quickcheck",
       "typelevel",
       "unfoldable"
     ],

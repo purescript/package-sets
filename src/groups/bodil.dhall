@@ -6,11 +6,13 @@
     }
 , sized-vectors =
     { dependencies =
-      [ "arrays"
+      [ "argonaut"
+      , "arrays"
       , "distributive"
       , "foldable-traversable"
       , "maybe"
       , "prelude"
+      , "quickcheck"
       , "typelevel"
       , "unfoldable"
       ]
