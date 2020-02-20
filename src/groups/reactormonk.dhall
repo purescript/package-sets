@@ -39,6 +39,6 @@
       , "strings"
       ]
     , repo = "https://github.com/reactormonk/purescript-json-pointer.git"
-    , version = "v0.1.0"
+    , version = "v1.1.0"
     }
 }
