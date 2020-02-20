@@ -169,7 +169,7 @@ For our example:
 After adding your package to the Dhall files, you should check that the package-set is still consistent.
 
 In order to verify the addition (or change), you should follow these steps:
-- `make setup`: this will setup a test project based on the new package-set
+- `nix-shell --command "make setup"`: this will setup a test project based on the new package-set
 - `psc-package verify ${your-new-package-name}`
 
 Once it verifies correctly check in both the Dhall files and the `packages.json` file.
