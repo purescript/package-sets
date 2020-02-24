@@ -451,6 +451,17 @@
     "repo": "https://github.com/rightfold/purescript-bytestrings.git",
     "version": "v8.0.0"
   },
+  "call-by-name": {
+    "dependencies": [
+      "control",
+      "either",
+      "lazy",
+      "maybe",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-call-by-name.git",
+    "version": "v2.0.0"
+  },
   "canvas": {
     "dependencies": [
       "arraybuffer-types",
