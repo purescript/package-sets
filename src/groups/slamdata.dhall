@@ -39,7 +39,7 @@
       , "web-xhr"
       ]
     , repo = "https://github.com/slamdata/purescript-affjax.git"
-    , version = "v10.0.0"
+    , version = "v9.0.1"
     }
 , css =
     { dependencies =

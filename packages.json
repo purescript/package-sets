@@ -70,7 +70,7 @@
       "web-xhr"
     ],
     "repo": "https://github.com/slamdata/purescript-affjax.git",
-    "version": "v10.0.0"
+    "version": "v9.0.1"
   },
   "ansi": {
     "dependencies": [
@@ -170,7 +170,7 @@
       "uint"
     ],
     "repo": "https://github.com/jacereda/purescript-arraybuffer.git",
-    "version": "v10.0.2"
+    "version": "v9.0.0"
   },
   "arraybuffer-types": {
     "dependencies": [],
@@ -988,7 +988,7 @@
       "record"
     ],
     "repo": "https://github.com/paf31/purescript-foreign-generic.git",
-    "version": "v10.0.0"
+    "version": "v9.0.0"
   },
   "foreign-object": {
     "dependencies": [
@@ -1429,7 +1429,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/cprussin/purescript-httpure.git",
-    "version": "v0.10.0"
+    "version": "v0.9.0"
   },
   "httpure-contrib-biscotti": {
     "dependencies": [
@@ -1477,7 +1477,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/purescript-hyper/hyper.git",
-    "version": "v0.11.0"
+    "version": "v0.9.1"
   },
   "hypertrout": {
     "dependencies": [
@@ -1488,7 +1488,7 @@
       "trout"
     ],
     "repo": "https://github.com/purescript-hyper/purescript-hypertrout.git",
-    "version": "v0.11.0"
+    "version": "v0.9.0"
   },
   "identity": {
     "dependencies": [
@@ -2468,7 +2468,7 @@
       "random"
     ],
     "repo": "https://github.com/kRITZCREEK/purescript-psc-ide.git",
-    "version": "v15.0.1"
+    "version": "v9.0.1"
   },
   "psci-support": {
     "dependencies": [
@@ -2488,7 +2488,7 @@
       "pairs"
     ],
     "repo": "https://github.com/sharkdp/purescript-quantities.git",
-    "version": "v10.0.0"
+    "version": "v9.0.0"
   },
   "querydsl": {
     "dependencies": [
@@ -2509,7 +2509,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/Dretch/purescript-querydsl.git",
-    "version": "v0.10.1"
+    "version": "v0.9.6"
   },
   "quickcheck": {
     "dependencies": [
@@ -2634,7 +2634,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v13.0.0"
+    "version": "v9.0.1"
   },
   "react-basic-hooks": {
     "dependencies": [
@@ -2929,7 +2929,7 @@
       "prelude"
     ],
     "repo": "https://github.com/bodil/purescript-signal.git",
-    "version": "v10.1.0"
+    "version": "v9.0.0"
   },
   "sijidou": {
     "dependencies": [
@@ -3067,7 +3067,7 @@
       "tuples"
     ],
     "repo": "https://github.com/bodil/purescript-smolder.git",
-    "version": "v12.3.0"
+    "version": "v9.0.0"
   },
   "snabbdom": {
     "dependencies": [
@@ -3227,7 +3227,7 @@
       "strings"
     ],
     "repo": "https://github.com/menelaos/purescript-stringutils.git",
-    "version": "v0.0.10"
+    "version": "v0.0.9"
   },
   "strongcheck": {
     "dependencies": [
@@ -3370,7 +3370,7 @@
       "strings"
     ],
     "repo": "https://github.com/bodil/purescript-test-unit.git",
-    "version": "v15.0.0"
+    "version": "v9.1.0"
   },
   "these": {
     "dependencies": [
@@ -3453,7 +3453,7 @@
       "uri"
     ],
     "repo": "https://github.com/purescript-hyper/purescript-trout.git",
-    "version": "v0.12.2"
+    "version": "v0.9.1"
   },
   "trout-client": {
     "dependencies": [
@@ -3463,7 +3463,7 @@
       "trout"
     ],
     "repo": "https://github.com/purescript-hyper/purescript-trout-client.git",
-    "version": "v0.12.0"
+    "version": "v0.8.0"
   },
   "tuples": {
     "dependencies": [

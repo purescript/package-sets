@@ -45,6 +45,6 @@
       , "strings"
       ]
     , repo = "https://github.com/menelaos/purescript-stringutils.git"
-    , version = "v0.0.10"
+    , version = "v0.0.9"
     }
 }

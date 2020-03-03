@@ -2,7 +2,7 @@
     { dependencies =
       [ "aff", "foldable-traversable", "js-timers", "maybe", "prelude" ]
     , repo = "https://github.com/bodil/purescript-signal.git"
-    , version = "v10.1.0"
+    , version = "v9.0.0"
     }
 , sized-vectors =
     { dependencies =
@@ -31,7 +31,7 @@
       , "tuples"
       ]
     , repo = "https://github.com/bodil/purescript-smolder.git"
-    , version = "v12.3.0"
+    , version = "v9.0.0"
     }
 , test-unit =
     { dependencies =
@@ -47,7 +47,7 @@
       , "strings"
       ]
     , repo = "https://github.com/bodil/purescript-test-unit.git"
-    , version = "v15.0.0"
+    , version = "v9.1.0"
     }
 , typelevel =
     { dependencies =

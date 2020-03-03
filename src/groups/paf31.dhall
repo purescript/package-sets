@@ -51,7 +51,7 @@
       , "record"
       ]
     , repo = "https://github.com/paf31/purescript-foreign-generic.git"
-    , version = "v10.0.0"
+    , version = "v9.0.0"
     }
 , leibniz =
     { dependencies = [ "prelude", "unsafe-coerce" ]
