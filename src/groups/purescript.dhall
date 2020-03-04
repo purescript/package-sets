@@ -460,7 +460,7 @@
 , st =
     { dependencies = [ "partial", "prelude", "tailrec" ]
     , repo = "https://github.com/purescript/purescript-st.git"
-    , version = "v4.0.2"
+    , version = "v4.1.0"
     }
 , strings =
     { dependencies =
