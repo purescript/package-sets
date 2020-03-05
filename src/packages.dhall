@@ -60,6 +60,7 @@ let packages =
       ⫽ ./groups/purescript-spec.dhall
       ⫽ ./groups/reactormonk.dhall
       ⫽ ./groups/rightfold.dhall
+      ⫽ ./groups/rgrempel.dhall
       ⫽ ./groups/rnons.dhall
       ⫽ ./groups/sharkdp.dhall
       ⫽ ./groups/sigilion.dhall

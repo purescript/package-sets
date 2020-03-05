@@ -19,4 +19,37 @@
     , repo = "https://github.com/paluh/purescript-polyform.git"
     , version = "v0.8.0"
     }
+, redis-client =
+    { dependencies =
+      [ "aff"
+      , "arrays"
+      , "bytestrings"
+      , "console"
+      , "effect"
+      , "either"
+      , "int-53"
+      , "maybe"
+      , "nullable"
+      , "prelude"
+      , "psci-support"
+      , "test-unit"
+      , "transformers"
+      ]
+    , repo = "https://github.com/paluh/purescript-redis-client.git"
+    , version = "v1.0.1"
+    }
+, redis-hotqueue =
+    { dependencies =
+      [ "console"
+      , "debug"
+      , "effect"
+      , "prelude"
+      , "psci-support"
+      , "redis-client"
+      , "simple-json"
+      , "sunde"
+      ]
+    , repo = "https://github.com/paluh/purescript-redis-hotqueue.git"
+    , version = "v0.2.1"
+    }
 }
