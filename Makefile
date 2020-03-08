@@ -10,22 +10,12 @@ generate:
 	@psc-package format
 	@echo generated to packages.json
 
-setup: all setup-only
+test-psc-package:
+	@echo '{ "name": "test-package", "set": "testing", "source": "packages.json", "depends": ["effect"] }' > psc-package.json
+	@echo testing package set with psc-package
+	@psc-package install
 
-setup-only:
-	@echo '{ "name": "test-package", "set": "testing", "source": "", "depends": [] }' > psc-package.json
-	@mkdir -p .psc-package/testing/.set
-	@cp packages.json .psc-package/testing/.set/packages.json
-	@echo setup testing package set
-
-psc-package2nix: setup
-	@echo '{ "name": "test-package", "set": "testing", "source": "", "depends": ' > psc-package.json
-	@jq 'keys' packages.json >> psc-package.json
-	@echo '}' >> psc-package.json
-	psc-package2nix
-	nix-shell install-deps.nix --run "echo installation complete."
-
-ci: generate setup-only
+ci: generate test-psc-package
 	echo "Checking if packages.json has changed..."
 	git diff --exit-code packages.json
 	cd src && spago verify-set

@@ -4,3 +4,4 @@ output
 psc-package.json
 bower-info
 packages.nix
+src/.spago
