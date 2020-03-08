@@ -1696,6 +1696,28 @@
     "repo": "https://github.com/purescript/purescript-lists.git",
     "version": "v5.4.1"
   },
+  "logging": {
+    "dependencies": [
+      "console",
+      "contravariant",
+      "effect",
+      "either",
+      "prelude",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/rightfold/purescript-logging.git",
+    "version": "v3.0.0"
+  },
+  "logging-journald": {
+    "dependencies": [
+      "generics-rep",
+      "logging",
+      "systemd-journald"
+    ],
+    "repo": "https://github.com/paluh/purescript-logging-journald.git",
+    "version": "v0.3.2"
+  },
   "machines": {
     "dependencies": [
       "arrays",
@@ -2325,7 +2347,21 @@
       "variant"
     ],
     "repo": "https://github.com/paluh/purescript-polyform.git",
-    "version": "v0.8.0"
+    "version": "v0.8.2"
+  },
+  "polyform-validators": {
+    "dependencies": [
+      "affjax",
+      "argonaut",
+      "debug",
+      "numbers",
+      "polyform",
+      "prelude",
+      "record-extra",
+      "test-unit"
+    ],
+    "repo": "https://github.com/lambdaterms/purescript-polyform-validators.git",
+    "version": "v0.0.6"
   },
   "posix-types": {
     "dependencies": [
@@ -3383,6 +3419,15 @@
     ],
     "repo": "https://github.com/rnons/purescript-svg-parser-halogen.git",
     "version": "v2.0.0-rc.1"
+  },
+  "systemd-journald": {
+    "dependencies": [
+      "console",
+      "functions",
+      "prelude"
+    ],
+    "repo": "https://github.com/paluh/purescript-systemd-journald.git",
+    "version": "v0.2.1"
   },
   "tailrec": {
     "dependencies": [
