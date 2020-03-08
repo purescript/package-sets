@@ -12,8 +12,10 @@
       , "newtype"
       , "ordered-collections"
       , "profunctor"
+      , "quickcheck-laws"
       , "run"
       , "transformers"
+      , "validation"
       , "variant"
       ]
     , repo = "https://github.com/paluh/purescript-polyform.git"
