@@ -119,7 +119,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-core.git",
-    "version": "v5.0.1"
+    "version": "v5.0.2"
   },
   "argonaut-generic": {
     "dependencies": [
@@ -2316,7 +2316,7 @@
       "variant"
     ],
     "repo": "https://github.com/paluh/purescript-polyform.git",
-    "version": "v0.8.0"
+    "version": "v0.8.2"
   },
   "posix-types": {
     "dependencies": [
@@ -3162,7 +3162,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript/purescript-st.git",
-    "version": "v4.1.0"
+    "version": "v4.1.1"
   },
   "string-parsers": {
     "dependencies": [

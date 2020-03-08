@@ -17,6 +17,6 @@
       , "variant"
       ]
     , repo = "https://github.com/paluh/purescript-polyform.git"
-    , version = "v0.8.0"
+    , version = "v0.8.2"
     }
 }
