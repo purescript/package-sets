@@ -458,7 +458,7 @@
     , version = "v5.0.0"
     }
 , st =
-    { dependencies = [ "partial", "prelude", "tailrec" ]
+    { dependencies = [ "partial", "prelude", "tailrec", "unsafe-coerce" ]
     , repo = "https://github.com/purescript/purescript-st.git"
     , version = "v4.1.1"
     }
