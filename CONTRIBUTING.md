@@ -27,7 +27,7 @@ All packages that are included in the set must be either:
 - or listed in the [new-packages] in the `registry` repo.
 
 The bottom line is that we need to prevent divergence in the ecosystem - e.g. having two different codebases for a package called "prelude" - and this means having a "central registry of package names".
-The Bower registry used to be that, but [recently it has stopped accepting package submissions][no-bower], which let to the current situation. This will change in the near future, as we move to a PureScript-only registry.
+The Bower registry used to be that, but [recently it has stopped accepting package submissions][no-bower], which led to the current situation. This will change hopefully soon, as we move to a PureScript-only registry.
 
 Packages must comply with the following criteria. The `pulp` commands listed below are used because they handle most of the work for you:
 - `bower i -p` must run successfully.
