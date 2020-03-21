@@ -34,9 +34,10 @@ Packages must comply with the following criteria. The `pulp` commands listed bel
   This command installs your dependencies and excludes any 'devDependencies'.
 - _You must use `pulp version` to version your package._
   This guarantees that the tag will start with the `v` prefix.
+- _Your package should be included in the [`purescript/registry`][registry] repo._
+  It should be listed either in [`new-packages.json`][new-packages], or in `bower-packages.json` (for legacy packages).
 - _You must use `pulp publish` to publish your package._
-  This command will handle all of the publishing work for you.
-  Note: if you're publishing a new package and the Bower registry doesn't accept it, then you should manually add it to the [new-packages] list.
+  This command will check that everything is in order, and publish your documentation to Pursuit.
 
 ## Releases
 
@@ -195,3 +196,4 @@ You're now ready to commit! 🙂
 [pulp]: https://github.com/purescript-contrib/pulp
 [no-bower]: https://discourse.purescript.org/t/the-bower-registry-is-no-longer-accepting-package-submissions/1103
 [new-packages]: https://github.com/purescript/registry/blob/master/bower-packages.json
+[registry]: https://github.com/purescript/registry
