@@ -119,7 +119,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-core.git",
-    "version": "v5.0.1"
+    "version": "v5.0.2"
   },
   "argonaut-generic": {
     "dependencies": [
@@ -1516,6 +1516,15 @@
     "repo": "https://github.com/garyb/purescript-indexed-monad.git",
     "version": "v1.2.0"
   },
+  "int-53": {
+    "dependencies": [
+      "integers",
+      "math",
+      "strings"
+    ],
+    "repo": "https://github.com/rgrempel/purescript-int-53.git",
+    "version": "v4.0.0"
+  },
   "integers": {
     "dependencies": [
       "globals",
@@ -1686,6 +1695,28 @@
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
     "version": "v5.4.1"
+  },
+  "logging": {
+    "dependencies": [
+      "console",
+      "contravariant",
+      "effect",
+      "either",
+      "prelude",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/rightfold/purescript-logging.git",
+    "version": "v3.0.0"
+  },
+  "logging-journald": {
+    "dependencies": [
+      "generics-rep",
+      "logging",
+      "systemd-journald"
+    ],
+    "repo": "https://github.com/paluh/purescript-logging-journald.git",
+    "version": "v0.3.2"
   },
   "machines": {
     "dependencies": [
@@ -2311,12 +2342,28 @@
       "newtype",
       "ordered-collections",
       "profunctor",
+      "quickcheck-laws",
       "run",
       "transformers",
+      "validation",
       "variant"
     ],
     "repo": "https://github.com/paluh/purescript-polyform.git",
-    "version": "v0.8.0"
+    "version": "v0.8.2"
+  },
+  "polyform-validators": {
+    "dependencies": [
+      "affjax",
+      "argonaut",
+      "debug",
+      "numbers",
+      "polyform",
+      "prelude",
+      "record-extra",
+      "test-unit"
+    ],
+    "repo": "https://github.com/lambdaterms/purescript-polyform-validators.git",
+    "version": "v0.0.6"
   },
   "posix-types": {
     "dependencies": [
@@ -2727,6 +2774,39 @@
     ],
     "repo": "https://github.com/kcsongor/purescript-record-format.git",
     "version": "v2.0.0"
+  },
+  "redis-client": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "bytestrings",
+      "console",
+      "effect",
+      "either",
+      "int-53",
+      "maybe",
+      "nullable",
+      "prelude",
+      "psci-support",
+      "test-unit",
+      "transformers"
+    ],
+    "repo": "https://github.com/paluh/purescript-redis-client.git",
+    "version": "v1.0.1"
+  },
+  "redis-hotqueue": {
+    "dependencies": [
+      "console",
+      "debug",
+      "effect",
+      "prelude",
+      "psci-support",
+      "redis-client",
+      "simple-json",
+      "sunde"
+    ],
+    "repo": "https://github.com/paluh/purescript-redis-hotqueue.git",
+    "version": "v0.2.1"
   },
   "redux-devtools": {
     "dependencies": [
@@ -3159,10 +3239,11 @@
     "dependencies": [
       "partial",
       "prelude",
-      "tailrec"
+      "tailrec",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-st.git",
-    "version": "v4.0.2"
+    "version": "v4.1.1"
   },
   "string-parsers": {
     "dependencies": [
@@ -3342,6 +3423,15 @@
     "repo": "https://github.com/rnons/purescript-svg-parser-halogen.git",
     "version": "v2.0.0-rc.1"
   },
+  "systemd-journald": {
+    "dependencies": [
+      "console",
+      "functions",
+      "prelude"
+    ],
+    "repo": "https://github.com/paluh/purescript-systemd-journald.git",
+    "version": "v0.2.1"
+  },
   "tailrec": {
     "dependencies": [
       "bifunctors",
@@ -3354,7 +3444,7 @@
       "refs"
     ],
     "repo": "https://github.com/purescript/purescript-tailrec.git",
-    "version": "v4.1.0"
+    "version": "v4.1.1"
   },
   "test-unit": {
     "dependencies": [
