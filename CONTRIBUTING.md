@@ -22,21 +22,28 @@ It defines some policies that are applied, and details how to add new packages a
 
 All changes go through pull requests.
 
-All packages that are included here must first be published via `bower` with no exceptions. Since there are two distribution methods for packages (the Bower registry and the package sets), we rely on the Bower registry to act as a "central registry of package names" for both methods. This prevents divergence in the ecosystem - e.g. having two different codebases for a package called "prelude".
+All packages that are included in the set must be either:
+- on the `bower` registry, i.e. `bower i $your-package` must run successfully
+- or listed in the [new-packages] in the `registry` repo.
+
+The bottom line is that we need to prevent divergence in the ecosystem - e.g. having two different codebases for a package called "prelude" - and this means having a "central registry of package names".
+The Bower registry used to be that, but [recently it has stopped accepting package submissions][no-bower], which led to the current situation. This will change hopefully soon, as we move to a PureScript-only registry.
 
 Packages must comply with the following criteria. The `pulp` commands listed below are used because they handle most of the work for you:
-- `bower i -p` must run successfully.  
+- `bower i -p` must run successfully.
   This command installs your dependencies and excludes any 'devDependencies'.
-- _You must use `pulp version` to version your package._  
+- _You must use `pulp version` to version your package._
   This guarantees that the tag will start with the `v` prefix.
-- _You must use `pulp publish` to publish your package._  
-  This command will handle all of the publishing work for you. 
+- _Your package should be included in the [`purescript/registry`][registry] repo._
+  It should be listed either in [`new-packages.json`][new-packages], or in `bower-packages.json` (for packages living on the Bower registry).
+- _You must use `pulp publish` to publish your package._
+  This command will check that everything is in order, and publish your documentation to Pursuit.
 
 ## Releases
 
 A "release" of the package set consists in a *git tag* (i.e. what GitHub calls a release).
 
-Releases happen quite often (look at the [release history][releases]), and anyone can request a new release at any time, by just [opening an issue][issues].  
+Releases happen quite often (look at the [release history][releases]), and anyone can request a new release at any time, by just [opening an issue][issues].
 This implies that the `master` branch should always be "release ready".
 
 Releases have the following naming convention:
@@ -61,7 +68,7 @@ Once a package version introduces breakage, the upstream will be notified (via i
 
 ## Package-sets maintenance
 
-Once one displays sustained interest in the project, they can ask to help maintaining it.  
+Once one displays sustained interest in the project, they can ask to help maintaining it.
 You can do so by [opening an issue][issues]
 
 ## How to add a package to the set
@@ -71,7 +78,7 @@ The following section will detail how to add a package to the package-set.
 The *TL;DR* about it is:
 - add the Dhall package definition in some `src/groups/${username}.dhall` (where `username` is the one of the author of the package)
 - if adding a new group file, also add a new line containing `⫽ ./groups/${username}.dhall` to `src/packages.dhall`
-- run `make setup` and `psc-package verify ${your-new-package-name}`
+- run `make` and `cd src && spago verify ${your-new-package-name}`
 
 ### 0. Background knowledge
 
@@ -112,8 +119,8 @@ So a given package is nothing more than:
 - the git url for the repository
 - and the tag or branch that it can be pulled from.
 
-The `packages.dhall` is the actual "package-set": a record from package names to package definitions.  
-It is defined by taking package definitions from the groups and joining them with a right-sided merge.  
+The `packages.dhall` is the actual "package-set": a record from package names to package definitions.
+It is defined by taking package definitions from the groups and joining them with a right-sided merge.
 This is the file used to generate the `packages.json`.
 
 
@@ -129,15 +136,16 @@ This is the file used to generate the `packages.json`.
 #### Prerequisites
 
 In order to hack on this project, you should have installed:
-- [dhall][dhall]
-- [psc-package][psc-package]
-- [jq][jq]
+- [dhall]
+- [dhall-to-json][dhall]
+- [spago]
+- [psc-package]
 
 ### 1. Adding a new package
 
 To add a new package to the package set, you should create a package definition matching the Package type, and put it in the group file corresponding to the author's username.
 
-For example, if I wish to add to the package-set the version `v4.2.0` of the package `unicorns` from `someauthor`, I will create the file `src/groups/someauthor.dhall`.
+For example, if I wish to add to the package-set the version `v4.2.0` of the package `some-food` from `someauthor`, I will create the file `src/groups/someauthor.dhall`.
 
 Its content would look something like this:
 
@@ -148,20 +156,20 @@ Its content would look something like this:
     , repo =
         "https://github.com/someauthor/purescript-some-food.git"
     , version =
-        "v5.0.0"
+        "v4.2.0"
     }
 }
 ```
 
 Then add a new line containing a reference to the new group to the `src/packages.dhall` file.
 
-For our example: 
+For our example:
 
 ```hs
 …
       ⫽ ./groups/someauthor.dhall
 …
-``` 
+```
 
 
 ### 2. Verifying a package
@@ -169,8 +177,10 @@ For our example:
 After adding your package to the Dhall files, you should check that the package-set is still consistent.
 
 In order to verify the addition (or change), you should follow these steps:
-- `nix-shell --command "make setup"`: this will setup a test project based on the new package-set
-- `psc-package verify ${your-new-package-name}`
+- `make`: this will format the files with `dhall` and generate the new `packages.json`
+- `cd src && spago verify ${your-new-package-name}`
+
+Note: if you have `nix` installed, then you should run `nix-shell` and then run these commands inside, for better reproducibility.
 
 Once it verifies correctly check in both the Dhall files and the `packages.json` file.
 
@@ -181,7 +191,9 @@ You're now ready to commit! 🙂
 [dhall]: https://github.com/dhall-lang/dhall-haskell
 [releases]: https://github.com/purescript/package-sets/releases
 [issues]: https://github.com/purescript/package-sets/issues
-[local-setup]: https://github.com/spacchetti/spago#i-still-want-to-use-psc-package-can-this-help-me-in-some-way
 [spago]: https://github.com/spacchetti/spago
 [bower]: https://bower.io/
 [pulp]: https://github.com/purescript-contrib/pulp
+[no-bower]: https://discourse.purescript.org/t/the-bower-registry-is-no-longer-accepting-package-submissions/1103
+[new-packages]: https://github.com/purescript/registry/blob/master/bower-packages.json
+[registry]: https://github.com/purescript/registry
