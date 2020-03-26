@@ -35,7 +35,7 @@ Packages must comply with the following criteria. The `pulp` commands listed bel
 - _You must use `pulp version` to version your package._
   This guarantees that the tag will start with the `v` prefix.
 - _Your package should be included in the [`purescript/registry`][registry] repo._
-  It should be listed either in [`new-packages.json`][new-packages], or in `bower-packages.json` (for legacy packages).
+  It should be listed either in [`new-packages.json`][new-packages], or in `bower-packages.json` (for packages living on the Bower registry).
 - _You must use `pulp publish` to publish your package._
   This command will check that everything is in order, and publish your documentation to Pursuit.
 
