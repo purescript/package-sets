@@ -445,7 +445,7 @@
 , record =
     { dependencies = [ "functions", "prelude", "st", "unsafe-coerce" ]
     , repo = "https://github.com/purescript/purescript-record.git"
-    , version = "v2.0.1"
+    , version = "v2.0.2"
     }
 , refs =
     { dependencies = [ "effect", "prelude" ]
