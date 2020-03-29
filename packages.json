@@ -2760,7 +2760,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-record.git",
-    "version": "v2.0.1"
+    "version": "v2.0.2"
   },
   "record-extra": {
     "dependencies": [
@@ -3763,7 +3763,7 @@
       "web-events"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-dom.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "web-events": {
     "dependencies": [

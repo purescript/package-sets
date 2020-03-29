@@ -12,7 +12,7 @@
 , web-dom =
     { dependencies = [ "web-events" ]
     , repo = "https://github.com/purescript-web/purescript-web-dom.git"
-    , version = "v4.0.0"
+    , version = "v4.0.1"
     }
 , web-events =
     { dependencies = [ "datetime", "enums", "nullable" ]
