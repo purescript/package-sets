@@ -89,7 +89,7 @@
     { dependencies =
       [ "arrays", "functions", "lists", "record", "typelevel-prelude" ]
     , repo = "https://github.com/justinwoo/purescript-record-extra.git"
-    , version = "v3.0.1"
+    , version = "ps-0.14"
     }
 , redux-devtools =
     { dependencies = [ "effect", "foreign", "nullable", "prelude" ]
@@ -120,7 +120,7 @@
       , "variant"
       ]
     , repo = "https://github.com/justinwoo/purescript-simple-json.git"
-    , version = "v7.0.0"
+    , version = "ps-0.14"
     }
 , simple-json-generics =
     { dependencies = [ "generics-rep", "simple-json" ]
@@ -169,7 +169,7 @@
 , type-isequal =
     { dependencies = [ "typelevel-prelude" ]
     , repo = "https://github.com/justinwoo/purescript-type-isequal.git"
-    , version = "v0.1.0"
+    , version = "ps-0.14"
     }
 , xiaomian =
     { dependencies = [ "naporitan" ]

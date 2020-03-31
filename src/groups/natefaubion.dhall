@@ -11,8 +11,8 @@
 , heterogeneous =
     { dependencies =
       [ "either", "functors", "prelude", "record", "tuples", "variant" ]
-    , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
-    , version = "v0.4.1"
+    , repo = "https://github.com/jordanmartinez/purescript-heterogeneous.git"
+    , version = "polykindsUpdate"
     }
 , psa-utils =
     { dependencies =
@@ -50,8 +50,8 @@
       , "strings"
       , "typelevel-prelude"
       ]
-    , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
-    , version = "v0.4.1"
+    , repo = "https://github.com/jordanmartinez/purescript-routing-duplex.git"
+    , version = "polykindsUpdate"
     }
 , run =
     { dependencies =
@@ -113,7 +113,7 @@
       , "tuples"
       , "unsafe-coerce"
       ]
-    , repo = "https://github.com/natefaubion/purescript-variant.git"
-    , version = "v6.0.1"
+    , repo = "https://github.com/jordanmartinez/purescript-variant.git"
+    , version = "polykindsUpdate"
     }
 }

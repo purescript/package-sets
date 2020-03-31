@@ -23,8 +23,8 @@
       , "validation"
       , "variant"
       ]
-    , repo = "https://github.com/paluh/purescript-polyform.git"
-    , version = "v0.8.2"
+    , repo = "https://github.com/jordanmartinez/purescript-polyform.git"
+    , version = "master"
     }
 , polyform-validators =
     { dependencies =
@@ -37,8 +37,8 @@
       , "record-extra"
       , "test-unit"
       ]
-    , repo = "https://github.com/lambdaterms/purescript-polyform-validators.git"
-    , version = "v0.0.6"
+    , repo = "https://github.com/jordanmartinez/purescript-polyform-validators.git"
+    , version = "master"
     }
 , redis-client =
     { dependencies =

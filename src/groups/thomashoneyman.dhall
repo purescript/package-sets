@@ -6,8 +6,8 @@
       , "generics-rep"
       , "profunctor-lenses"
       ]
-    , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-    , version = "v1.0.0-rc.1"
+    , repo = "https://github.com/jordanmartinez/purescript-halogen-formless.git"
+    , version = "polykindsUpdate"
     }
 , slug =
     { dependencies =

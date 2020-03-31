@@ -10,8 +10,8 @@
     }
 , identy =
     { dependencies = [ "simple-json" ]
-    , repo = "https://github.com/oreshinya/purescript-identy.git"
-    , version = "v2.1.0"
+    , repo = "https://github.com/jordanmartinez/purescript-identy.git"
+    , version = "polykindsUpdate"
     }
 , mysql =
     { dependencies = [ "aff", "js-date", "simple-json" ]

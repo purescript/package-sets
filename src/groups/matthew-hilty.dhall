@@ -16,8 +16,8 @@
 , proxying =
     { dependencies =
       [ "effect", "generics-rep", "prelude", "typelevel-prelude" ]
-    , repo = "https://github.com/matthew-hilty/purescript-proxying.git"
-    , version = "v1.1.0"
+    , repo = "https://github.com/jordanmartinez/purescript-proxying.git"
+    , version = "polykindsUpdate"
     }
 , struct =
     { dependencies =
@@ -30,8 +30,8 @@
       , "subcategory"
       , "variant"
       ]
-    , repo = "https://github.com/matthew-hilty/purescript-struct.git"
-    , version = "v1.1.0"
+    , repo = "https://github.com/jordanmartinez/purescript-struct.git"
+    , version = "polykindsUpdate"
     }
 , subcategory =
     { dependencies =
@@ -51,7 +51,7 @@
       , "struct"
       , "typelevel-prelude"
       ]
-    , repo = "https://github.com/matthew-hilty/purescript-tolerant-argonaut.git"
-    , version = "v1.1.0"
+    , repo = "https://github.com/jordanmartinez/purescript-tolerant-argonaut.git"
+    , version = "polykindsUpdate"
     }
 }

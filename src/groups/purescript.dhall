@@ -376,7 +376,7 @@
 , prelude =
     { dependencies = [] : List Text
     , repo = "https://github.com/purescript/purescript-prelude.git"
-    , version = "v4.1.1"
+    , version = "ps-0.14"
     }
 , profunctor =
     { dependencies =
@@ -445,7 +445,7 @@
 , record =
     { dependencies = [ "functions", "prelude", "st", "unsafe-coerce" ]
     , repo = "https://github.com/purescript/purescript-record.git"
-    , version = "v2.0.2"
+    , version = "ps-0.14"
     }
 , refs =
     { dependencies = [ "effect", "prelude" ]
@@ -541,7 +541,7 @@
 , typelevel-prelude =
     { dependencies = [ "prelude", "proxy", "type-equality" ]
     , repo = "https://github.com/purescript/purescript-typelevel-prelude.git"
-    , version = "v5.0.2"
+    , version = "ps-0.14"
     }
 , unfoldable =
     { dependencies =

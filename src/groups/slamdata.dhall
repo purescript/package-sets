@@ -150,7 +150,7 @@
       , "typelevel-prelude"
       ]
     , repo = "https://github.com/slamdata/purescript-pathy.git"
-    , version = "v7.0.1"
+    , version = "ps-0.14"
     }
 , routing =
     { dependencies =

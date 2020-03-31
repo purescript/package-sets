@@ -29,7 +29,7 @@
       , "strings"
       , "typelevel-prelude"
       ]
-    , repo = "https://github.com/nsaunders/purescript-typedenv.git"
-    , version = "v0.0.1"
+    , repo = "https://github.com/jordanmartinez/purescript-typedenv.git"
+    , version = "master"
     }
 }
