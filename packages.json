@@ -2558,6 +2558,17 @@
     "repo": "https://github.com/Dretch/purescript-querydsl.git",
     "version": "v0.10.1"
   },
+  "queue": {
+    "dependencies": [
+      "aff",
+      "avar",
+      "console",
+      "foreign-object",
+      "refs"
+    ],
+    "repo": "https://github.com/athanclark/purescript-queue.git",
+    "version": "v8.0.1"
+  },
   "quickcheck": {
     "dependencies": [
       "arrays",
