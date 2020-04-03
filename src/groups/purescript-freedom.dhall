@@ -44,6 +44,6 @@
     { dependencies = [ "freedom" ]
     , repo =
         "https://github.com/purescript-freedom/purescript-freedom-window-resize.git"
-    , version = "v1.0.0"
+    , version = "v2.0.0"
     }
 }
