@@ -108,7 +108,7 @@
       , "web-uievents"
       ]
     , repo = "https://github.com/slamdata/purescript-halogen.git"
-    , version = "v5.0.0-rc.7"
+    , version = "v5.0.0-rc.8"
     }
 , halogen-bootstrap =
     { dependencies = [ "halogen" ]
