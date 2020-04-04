@@ -19,4 +19,17 @@
     , repo = "https://github.com/csicar/purescript-vectorfield.git"
     , version = "v1.0.1"
     }
+, typelevel-peano =
+    { dependencies =
+      [ "unsafe-coerce"
+      , "arrays"
+      , "console"
+      , "effect"
+      , "typelevel-prelude"
+      , "prelude"
+      , "psci-support"
+      ]
+    , repo = "https://github.com/csicar/purescript-typelevel-peano.git"
+    , version = "v0.1.8"
+    }
 }

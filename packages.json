@@ -3619,6 +3619,19 @@
     "repo": "https://github.com/bodil/purescript-typelevel.git",
     "version": "v6.0.0"
   },
+  "typelevel-peano": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "prelude",
+      "psci-support",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/csicar/purescript-typelevel-peano.git",
+    "version": "v0.1.8"
+  },
   "typelevel-prelude": {
     "dependencies": [
       "prelude",
