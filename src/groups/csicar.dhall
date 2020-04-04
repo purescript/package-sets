@@ -30,6 +30,6 @@
       , "psci-support"
       ]
     , repo = "https://github.com/csicar/purescript-typelevel-peano.git"
-    , version = "v0.1.6"
+    , version = "v0.1.8"
     }
 }
