@@ -3652,6 +3652,13 @@
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
     "version": "v5.0.2"
   },
+  "typelevel-rowlist-limits": {
+    "dependencies": [
+      "typelevel-peano"
+    ],
+    "repo": "https://github.com/mwalkerwells/purescript-typelevel-rowlist-limits.git",
+    "version": "v0.0.3"
+  },
   "uint": {
     "dependencies": [
       "generics-rep",

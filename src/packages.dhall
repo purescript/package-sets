@@ -46,6 +46,7 @@ let packages =
       ⫽ ./groups/mlang.dhall
       ⫽ ./groups/morganthomas.dhall
       ⫽ ./groups/mschristiansen.dhall
+      ⫽ ./groups/mwalkerwells.dhall
       ⫽ ./groups/natefaubion.dhall
       ⫽ ./groups/nkly.dhall
       ⫽ ./groups/nsaunders.dhall
