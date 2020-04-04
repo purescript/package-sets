@@ -3715,8 +3715,11 @@
   },
   "uuid": {
     "dependencies": [
+      "console",
       "effect",
-      "maybe"
+      "foreign-generic",
+      "maybe",
+      "spec"
     ],
     "repo": "https://github.com/spicydonuts/purescript-uuid.git",
     "version": "v6.1.0"
