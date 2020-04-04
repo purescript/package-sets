@@ -1,11 +1,6 @@
 { freedom =
     { dependencies =
-      [ "console"
-      , "foreign-object"
-      , "safely"
-      , "simple-emitter"
-      , "web-html"
-      ]
+      [ "console", "foreign-object", "safely", "simple-emitter", "web-html" ]
     , repo = "https://github.com/purescript-freedom/purescript-freedom.git"
     , version = "v2.0.0"
     }
