@@ -73,6 +73,16 @@ You can do so by [opening an issue][issues]
 
 ## How to add a package to the set
 
+### Prerequisites
+
+In order to hack on this project, you should have installed:
+- [dhall]
+- [dhall-to-json][dhall]
+- [spago]
+- [psc-package]
+
+### TL;DR
+
 The following section will detail how to add a package to the package-set.
 
 The *TL;DR* about it is:
@@ -132,14 +142,6 @@ This is the file used to generate the `packages.json`.
 // ...
 // ./groups/justinwoo.dhall
 ```
-
-#### Prerequisites
-
-In order to hack on this project, you should have installed:
-- [dhall]
-- [dhall-to-json][dhall]
-- [spago]
-- [psc-package]
 
 ### 1. Adding a new package
 
