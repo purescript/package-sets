@@ -75,7 +75,12 @@ You can do so by [opening an issue][issues]
 
 ### Prerequisites
 
-In order to hack on this project, you should have installed:
+To hack on this project, it should be enough to have [nix](https://nixos.org/nix/download.html) installed. You can verify your changes with
+
+    nix-shell --command make
+
+
+If you're unable to run Nix, then you should have the following installed:
 - [dhall]
 - [dhall-to-json][dhall]
 - [spago]
