@@ -73,6 +73,21 @@ You can do so by [opening an issue][issues]
 
 ## How to add a package to the set
 
+### Prerequisites
+
+To hack on this project, it should be enough to have [nix](https://nixos.org/nix/download.html) installed. You can verify your changes with
+
+    nix-shell --command make
+
+
+If you're unable to run Nix, then you should have the following installed:
+- [dhall]
+- [dhall-to-json][dhall]
+- [spago]
+- [psc-package]
+
+### TL;DR
+
 The following section will detail how to add a package to the package-set.
 
 The *TL;DR* about it is:
@@ -132,14 +147,6 @@ This is the file used to generate the `packages.json`.
 // ...
 // ./groups/justinwoo.dhall
 ```
-
-#### Prerequisites
-
-In order to hack on this project, you should have installed:
-- [dhall]
-- [dhall-to-json][dhall]
-- [spago]
-- [psc-package]
 
 ### 1. Adding a new package
 
