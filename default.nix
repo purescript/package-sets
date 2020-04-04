@@ -11,10 +11,25 @@ let
   ) {
     inherit pkgs;
   };
+  easy-dhall = import (
+    pkgs.fetchFromGitHub {
+      owner = "justinwoo";
+      repo = "easy-dhall-nix";
+      rev = "35bca5ba56b7b3f8684aa0afbb65608159beb5ce";
+      sha256 = "16l71qzzfkv4sbxl03r291nswsrkr3g13viqkma2s8r5vy9la3al";
+    }
+  ) {
+    inherit pkgs;
+  };
 
 in
 pkgs.runCommand "easy-ps-test" {
-  buildInputs = builtins.attrValues {
-    inherit (easy-ps) purescript psc-package dhall-simple dhall-json-simple spago;
-  } ++ [ pkgs.git ];
+  buildInputs =
+    builtins.attrValues {
+      inherit (easy-ps) purescript psc-package spago;
+    } ++
+    builtins.attrValues {
+      inherit (easy-dhall) dhall-simple dhall-json-simple;
+    } ++
+    [ pkgs.git ];
 } ""
