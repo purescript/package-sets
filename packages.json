@@ -1278,7 +1278,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen.git",
-    "version": "v5.0.0-rc.7"
+    "version": "v5.0.0-rc.8"
   },
   "halogen-bootstrap": {
     "dependencies": [
@@ -3713,11 +3713,14 @@
   },
   "uuid": {
     "dependencies": [
+      "console",
       "effect",
-      "maybe"
+      "foreign-generic",
+      "maybe",
+      "spec"
     ],
     "repo": "https://github.com/spicydonuts/purescript-uuid.git",
-    "version": "v6.0.1"
+    "version": "v6.1.0"
   },
   "validation": {
     "dependencies": [

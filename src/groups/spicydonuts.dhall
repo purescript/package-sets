@@ -12,8 +12,8 @@
     , version = "v4.2.2"
     }
 , uuid =
-    { dependencies = [ "effect", "maybe" ]
+    { dependencies = [ "effect", "maybe", "foreign-generic", "console", "spec" ]
     , repo = "https://github.com/spicydonuts/purescript-uuid.git"
-    , version = "v6.0.1"
+    , version = "v6.1.0"
     }
 }
