@@ -202,5 +202,5 @@ You're now ready to commit! 🙂
 [bower]: https://bower.io/
 [pulp]: https://github.com/purescript-contrib/pulp
 [no-bower]: https://discourse.purescript.org/t/the-bower-registry-is-no-longer-accepting-package-submissions/1103
-[new-packages]: https://github.com/purescript/registry/blob/master/bower-packages.json
+[new-packages]: https://github.com/purescript/registry/blob/master/new-packages.json
 [registry]: https://github.com/purescript/registry
