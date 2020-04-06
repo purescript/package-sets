@@ -2994,6 +2994,18 @@
     "repo": "https://github.com/jamieyung/purescript-selection-foldable.git",
     "version": "v0.2.0"
   },
+  "selective": {
+    "dependencies": [
+      "effect",
+      "either",
+      "generics-rep",
+      "prelude",
+      "psci-support",
+      "validation"
+    ],
+    "repo": "https://github.com/anttih/purescript-selective.git",
+    "version": "v0.1.1"
+  },
   "semirings": {
     "dependencies": [
       "foldable-traversable",
