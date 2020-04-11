@@ -198,7 +198,7 @@
       , "unsafe-coerce"
       ]
     , repo = "https://github.com/jordanmartinez/purescript-react.git"
-    , version = "polykindsupdate"
+    , version = "polykindsUpdate"
     }
 , react-dom =
     { dependencies = [ "effect", "react", "web-dom" ]
