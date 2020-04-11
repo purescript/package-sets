@@ -39,11 +39,6 @@
     , repo = "https://github.com/justinwoo/purescript-motsunabe.git"
     , version = "v2.0.0"
     }
-, naporitan =
-    { dependencies = [ "record", "typelevel-prelude" ]
-    , repo = "https://github.com/justinwoo/purescript-naporitan.git"
-    , version = "v1.0.0"
-    }
 , node-he =
     { dependencies = [] : List Text
     , repo = "https://github.com/justinwoo/purescript-node-he.git"
