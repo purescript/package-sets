@@ -14,7 +14,7 @@
       , "unsafe-coerce"
       ]
     , repo = "https://github.com/purescript/purescript-arrays.git"
-    , version = "v5.3.1"
+    , version = "ps-0.14"
     }
 , assert =
     { dependencies = [ "console", "effect", "prelude" ]
@@ -172,7 +172,7 @@
       , "unfoldable"
       ]
     , repo = "https://github.com/purescript/purescript-foreign-object.git"
-    , version = "v2.0.3"
+    , version = "ps-0.14"
     }
 , free =
     { dependencies =
@@ -460,7 +460,7 @@
 , st =
     { dependencies = [ "partial", "prelude", "tailrec", "unsafe-coerce" ]
     , repo = "https://github.com/purescript/purescript-st.git"
-    , version = "v4.1.1"
+    , version = "ps-0.14"
     }
 , strings =
     { dependencies =

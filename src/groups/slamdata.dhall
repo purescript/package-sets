@@ -14,7 +14,7 @@
 , aff-bus =
     { dependencies = [ "avar", "prelude" ]
     , repo = "https://github.com/slamdata/purescript-aff-bus.git"
-    , version = "v4.0.0"
+    , version = "ps-0.14"
     }
 , avar =
     { dependencies =
@@ -108,7 +108,7 @@
       , "web-uievents"
       ]
     , repo = "https://github.com/slamdata/purescript-halogen.git"
-    , version = "v5.0.0-rc.7"
+    , version = "ps-0.14"
     }
 , halogen-bootstrap =
     { dependencies = [ "halogen" ]

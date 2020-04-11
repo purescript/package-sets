@@ -60,7 +60,7 @@
     { dependencies = [] : List Text
     , repo =
         "https://github.com/purescript-contrib/purescript-arraybuffer-types.git"
-    , version = "v2.0.0"
+    , version = "ps-0.14"
     }
 , coroutines =
     { dependencies = [ "freet", "parallel", "profunctor" ]
@@ -197,8 +197,8 @@
       , "typelevel-prelude"
       , "unsafe-coerce"
       ]
-    , repo = "https://github.com/purescript-contrib/purescript-react.git"
-    , version = "v8.0.0"
+    , repo = "https://github.com/jordanmartinez/purescript-react.git"
+    , version = "polykindsupdate"
     }
 , react-dom =
     { dependencies = [ "effect", "react", "web-dom" ]
