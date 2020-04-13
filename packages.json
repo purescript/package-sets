@@ -1321,6 +1321,13 @@
     "repo": "https://github.com/thomashoneyman/purescript-halogen-hooks.git",
     "version": "v0.1.0"
   },
+  "halogen-hooks-extra": {
+    "dependencies": [
+      "halogen-hooks"
+    ],
+    "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
+    "version": "v0.3.0"
+  },
   "halogen-select": {
     "dependencies": [
       "halogen",
