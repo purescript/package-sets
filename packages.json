@@ -1101,7 +1101,7 @@
       "web-html"
     ],
     "repo": "https://github.com/purescript-freedom/purescript-freedom.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
   },
   "freedom-now": {
     "dependencies": [
@@ -1912,7 +1912,7 @@
       "simple-json"
     ],
     "repo": "https://github.com/oreshinya/purescript-mysql.git",
-    "version": "v4.1.0"
+    "version": "v4.1.1"
   },
   "naporitan": {
     "dependencies": [
@@ -2717,6 +2717,7 @@
   "react-basic-hooks": {
     "dependencies": [
       "aff",
+      "aff-promise",
       "console",
       "effect",
       "indexed-monad",
@@ -2725,7 +2726,7 @@
       "unsafe-reference"
     ],
     "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
-    "version": "v4.2.2"
+    "version": "v5.0.0"
   },
   "react-basic-native": {
     "dependencies": [
@@ -3338,7 +3339,7 @@
       "unicode"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-strings-extra.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
   },
   "stringutils": {
     "dependencies": [
@@ -3676,7 +3677,7 @@
       "typelevel-peano"
     ],
     "repo": "https://github.com/mwalkerwells/purescript-typelevel-rowlist-limits.git",
-    "version": "v0.0.3"
+    "version": "v0.0.6"
   },
   "uint": {
     "dependencies": [
