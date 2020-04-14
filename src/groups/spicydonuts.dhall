@@ -1,6 +1,7 @@
 { react-basic-hooks =
   { dependencies =
     [ "aff"
+    , "aff-promise"
     , "console"
     , "effect"
     , "indexed-monad"
