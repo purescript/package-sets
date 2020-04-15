@@ -1,7 +1,7 @@
 { ordered-set =
   { dependencies =
-    [ "arrays", "console", "effect", "nonempty", "psci-support", "unfoldable" ]
+    [ "argonaut-codecs", "arrays", "partial", "prelude", "unfoldable" ]
   , repo = "https://github.com/flip111/purescript-ordered-set.git"
-  , version = "v0.2.0"
+  , version = "v0.4.0"
   }
 }
