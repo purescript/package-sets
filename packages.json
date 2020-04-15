@@ -2245,6 +2245,18 @@
     "repo": "https://github.com/purescript/purescript-ordered-collections.git",
     "version": "v1.6.1"
   },
+  "ordered-set": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "nonempty",
+      "psci-support",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/flip111/purescript-ordered-set.git",
+    "version": "v0.2.0"
+  },
   "orders": {
     "dependencies": [
       "newtype",
