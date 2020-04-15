@@ -28,6 +28,7 @@ let packages =
       ⫽ ./groups/fehrenbach.dhall
       ⫽ ./groups/felixschl.dhall
       ⫽ ./groups/felixmulder.dhall
+      ⫽ ./groups/flip111.dhall
       ⫽ ./groups/garyb.dhall
       ⫽ ./groups/gcanti.dhall
       ⫽ ./groups/hdgarrood.dhall
