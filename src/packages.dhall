@@ -81,5 +81,6 @@ let packages =
       ⫽ ./groups/purescript-concur.dhall
       ⫽ ./groups/csicar.dhall
       ⫽ ./groups/jordanmartinez.dhall
+      ⫽ ./groups/d86leader.dhall
 
 in  packages
