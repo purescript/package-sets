@@ -3713,6 +3713,13 @@
     "repo": "https://github.com/bklaric/purescript-undefined.git",
     "version": "v1.0.2"
   },
+  "undefined-or": {
+    "dependencies": [
+      "maybe"
+    ],
+    "repo": "https://github.com/d86leader/purescript-undefined-or.git",
+    "version": "v1.0.1"
+  },
   "unfoldable": {
     "dependencies": [
       "foldable-traversable",
