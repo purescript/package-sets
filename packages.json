@@ -3947,5 +3947,28 @@
     ],
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v4.0.0"
+  },
+  "zeta": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "datetime",
+      "exceptions",
+      "exists",
+      "foldable-traversable",
+      "js-timers",
+      "lcg",
+      "node-buffer",
+      "node-fs",
+      "node-readline",
+      "now",
+      "prelude",
+      "profunctor",
+      "quickcheck",
+      "strings",
+      "transformers"
+    ],
+    "repo": "https://github.com/athanclark/purescript-zeta.git",
+    "version": "v5.0.3"
   }
 }
