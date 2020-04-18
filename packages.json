@@ -172,6 +172,24 @@
     "repo": "https://github.com/jacereda/purescript-arraybuffer.git",
     "version": "v10.0.2"
   },
+  "arraybuffer-class": {
+    "dependencies": [
+      "arraybuffer",
+      "console",
+      "effect",
+      "exceptions",
+      "foreign-object",
+      "ordered-collections",
+      "prelude",
+      "psci-support",
+      "quickcheck",
+      "sized-vectors",
+      "strings",
+      "unordered-collections"
+    ],
+    "repo": "https://github.com/athanclark/purescript-arraybuffer-class.git",
+    "version": "v0.2.5"
+  },
   "arraybuffer-types": {
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
