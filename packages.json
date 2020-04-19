@@ -3716,7 +3716,7 @@
       "quickcheck"
     ],
     "repo": "https://github.com/zaquest/purescript-uint.git",
-    "version": "v5.1.3"
+    "version": "v5.1.4"
   },
   "undefinable": {
     "dependencies": [
