@@ -3964,6 +3964,17 @@
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v4.0.0"
   },
+  "z85": {
+    "dependencies": [
+      "arraybuffer",
+      "numbers",
+      "prelude",
+      "sized-vectors",
+      "stringutils"
+    ],
+    "repo": "https://github.com/athanclark/purescript-z85.git",
+    "version": "v0.0.2"
+  },
   "zeta": {
     "dependencies": [
       "aff",
