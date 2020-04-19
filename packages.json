@@ -1865,6 +1865,22 @@
     "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
     "version": "v5.1.0"
   },
+  "monad-control": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "either",
+      "freet",
+      "functors",
+      "identity",
+      "lists",
+      "prelude",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/athanclark/purescript-monad-control.git",
+    "version": "v5.0.0"
+  },
   "monad-logger": {
     "dependencies": [
       "aff",
