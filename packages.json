@@ -172,6 +172,19 @@
     "repo": "https://github.com/jacereda/purescript-arraybuffer.git",
     "version": "v10.0.2"
   },
+  "arraybuffer-class": {
+    "dependencies": [
+      "arraybuffer",
+      "exceptions",
+      "foreign-object",
+      "ordered-collections",
+      "sized-vectors",
+      "strings",
+      "unordered-collections"
+    ],
+    "repo": "https://github.com/athanclark/purescript-arraybuffer-class.git",
+    "version": "v0.2.5"
+  },
   "arraybuffer-types": {
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
@@ -1847,6 +1860,16 @@
     "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
     "version": "v5.1.0"
   },
+  "monad-control": {
+    "dependencies": [
+      "aff",
+      "freet",
+      "identity",
+      "lists"
+    ],
+    "repo": "https://github.com/athanclark/purescript-monad-control.git",
+    "version": "v5.0.0"
+  },
   "monad-logger": {
     "dependencies": [
       "aff",
@@ -2593,7 +2616,6 @@
     "dependencies": [
       "aff",
       "avar",
-      "console",
       "foreign-object",
       "refs"
     ],
@@ -3929,5 +3951,15 @@
     ],
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v4.0.0"
+  },
+  "z85": {
+    "dependencies": [
+      "arraybuffer",
+      "numbers",
+      "sized-vectors",
+      "stringutils"
+    ],
+    "repo": "https://github.com/athanclark/purescript-z85.git",
+    "version": "v0.0.2"
   }
 }
