@@ -31,4 +31,9 @@
   , repo = "https://github.com/athanclark/purescript-z85.git"
   , version = "v0.0.2"
   }
+, zeta =
+  { dependencies = [ "refs", "aff", "foreign-object", "arrays" ]
+  , repo = "https://github.com/athanclark/purescript-zeta.git"
+  , version = "v6.0.0"
+  }
 }
