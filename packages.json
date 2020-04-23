@@ -204,7 +204,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-contravariant.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "control": {
     "dependencies": [
