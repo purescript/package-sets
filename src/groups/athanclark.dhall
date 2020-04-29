@@ -72,6 +72,11 @@
   , repo = "https://github.com/athanclark/purescript-tuples-native.git"
   , version = "v2.0.2"
   }
+, uint-instances =
+  { dependencies = [ "uint", "unordered-collections", "argonaut", "quickcheck" ]
+  , repo = "https://github.com/athanclark/purescript-uint-instances.git"
+  , version = "v0.0.1"
+  }
 , z85 =
   { dependencies = [ "arraybuffer", "sized-vectors", "numbers", "stringutils" ]
   , repo = "https://github.com/athanclark/purescript-z85.git"

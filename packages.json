@@ -3814,6 +3814,16 @@
     "repo": "https://github.com/zaquest/purescript-uint.git",
     "version": "v5.1.4"
   },
+  "uint-instances": {
+    "dependencies": [
+      "argonaut",
+      "quickcheck",
+      "uint",
+      "unordered-collections"
+    ],
+    "repo": "https://github.com/athanclark/purescript-uint-instances.git",
+    "version": "v0.0.1"
+  },
   "undefinable": {
     "dependencies": [
       "functions",
