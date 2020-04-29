@@ -31,6 +31,11 @@
   , repo = "https://github.com/athanclark/purescript-monad-control.git"
   , version = "v5.0.0"
   }
+, monad-unlift =
+  { dependencies = [ "monad-control" ]
+  , repo = "https://github.com/athanclark/purescript-monad-unlift.git"
+  , version = "v1.0.1"
+  }
 , parseint =
   { dependencies = [ "functions", "globals", "integers" ]
   , repo = "https://github.com/athanclark/purescript-parseint.git"
