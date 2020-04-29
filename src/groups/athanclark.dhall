@@ -41,6 +41,11 @@
   , repo = "https://github.com/athanclark/purescript-row-extra.git"
   , version = "v0.0.1"
   }
+, tuples-native =
+  { dependencies = [ "generics-rep", "typelevel", "unsafe-coerce" ]
+  , repo = "https://github.com/athanclark/purescript-tuples-native.git"
+  , version = "v2.0.2"
+  }
 , z85 =
   { dependencies = [ "arraybuffer", "sized-vectors", "numbers", "stringutils" ]
   , repo = "https://github.com/athanclark/purescript-z85.git"
