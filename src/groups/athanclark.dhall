@@ -26,6 +26,11 @@
   , repo = "https://github.com/athanclark/purescript-queue.git"
   , version = "v8.0.2"
   }
+, row-extra =
+  { dependencies = [] : List Text
+  , repo = "https://github.com/athanclark/purescript-row-extra.git"
+  , version = "v0.0.1"
+  }
 , z85 =
   { dependencies = [ "arraybuffer", "sized-vectors", "numbers", "stringutils" ]
   , repo = "https://github.com/athanclark/purescript-z85.git"

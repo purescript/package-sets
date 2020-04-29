@@ -2967,6 +2967,11 @@
     "repo": "https://github.com/natefaubion/purescript-routing-duplex.git",
     "version": "v0.4.1"
   },
+  "row-extra": {
+    "dependencies": [],
+    "repo": "https://github.com/athanclark/purescript-row-extra.git",
+    "version": "v0.0.1"
+  },
   "run": {
     "dependencies": [
       "aff",
@@ -3538,6 +3543,17 @@
     ],
     "repo": "https://github.com/bodil/purescript-test-unit.git",
     "version": "v15.0.0"
+  },
+  "text-encoding": {
+    "dependencies": [
+      "arraybuffer-types",
+      "either",
+      "exceptions",
+      "functions",
+      "strings"
+    ],
+    "repo": "https://github.com/AlexaDeWit/purescript-text-encoding.git",
+    "version": "v1.0.0"
   },
   "these": {
     "dependencies": [

@@ -82,5 +82,6 @@ let packages =
       ⫽ ./groups/csicar.dhall
       ⫽ ./groups/jordanmartinez.dhall
       ⫽ ./groups/d86leader.dhall
+      ⫽ ./groups/AlexaDeWit.dhall
 
 in  packages
