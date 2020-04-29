@@ -41,6 +41,11 @@
   , repo = "https://github.com/athanclark/purescript-row-extra.git"
   , version = "v0.0.1"
   }
+, thermite-dom =
+  { dependencies = [ "thermite", "react", "react-dom", "web-html" ]
+  , repo = "https://github.com/athanclark/purescript-thermite-dom.git"
+  , version = "v0.3.1"
+  }
 , tuples-native =
   { dependencies = [ "generics-rep", "typelevel", "unsafe-coerce" ]
   , repo = "https://github.com/athanclark/purescript-tuples-native.git"
