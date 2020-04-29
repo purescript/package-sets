@@ -292,6 +292,14 @@
     "repo": "https://github.com/sharkdp/purescript-bigints.git",
     "version": "v4.0.0"
   },
+  "bip39": {
+    "dependencies": [
+      "arraybuffer-types",
+      "nullable"
+    ],
+    "repo": "https://github.com/athanclark/purescript-bip39.git",
+    "version": "v1.0.1"
+  },
   "biscotti-cookie": {
     "dependencies": [
       "datetime",

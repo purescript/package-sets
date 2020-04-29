@@ -16,6 +16,11 @@
   , repo = "https://github.com/athanclark/purescript-arraybuffer-class.git"
   , version = "v0.2.5"
   }
+, bip39 =
+  { dependencies = [ "arraybuffer-types", "nullable" ]
+  , repo = "https://github.com/athanclark/purescript-bip39.git"
+  , version = "v1.0.1"
+  }
 , byte-codec =
   { dependencies = [ "generics-rep", "integers", "sized-vectors" ]
   , repo = "https://github.com/athanclark/purescript-byte-codec.git"
