@@ -1,4 +1,12 @@
 {
+  "abides": {
+    "dependencies": [
+      "enums",
+      "foldable-traversable"
+    ],
+    "repo": "https://github.com/athanclark/purescript-abides.git",
+    "version": "v0.0.1"
+  },
   "aff": {
     "dependencies": [
       "datetime",
@@ -2655,6 +2663,14 @@
     ],
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
     "version": "v6.1.0"
+  },
+  "quickcheck-combinators": {
+    "dependencies": [
+      "quickcheck",
+      "typelevel"
+    ],
+    "repo": "https://github.com/athanclark/purescript-quickcheck-combinators.git",
+    "version": "v0.1.3"
   },
   "quickcheck-laws": {
     "dependencies": [

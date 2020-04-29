@@ -1,4 +1,9 @@
-{ arraybuffer-class =
+{ abides =
+  { dependencies = [ "enums", "foldable-traversable" ]
+  , repo = "https://github.com/athanclark/purescript-abides.git"
+  , version = "v0.0.1"
+  }
+, arraybuffer-class =
   { dependencies =
     [ "arraybuffer"
     , "exceptions"
@@ -25,6 +30,11 @@
   { dependencies = [ "refs", "aff", "foreign-object", "avar" ]
   , repo = "https://github.com/athanclark/purescript-queue.git"
   , version = "v8.0.2"
+  }
+, quickcheck-combinators =
+  { dependencies = [ "quickcheck", "typelevel" ]
+  , repo = "https://github.com/athanclark/purescript-quickcheck-combinators.git"
+  , version = "v0.1.3"
   }
 , row-extra =
   { dependencies = [] : List Text
