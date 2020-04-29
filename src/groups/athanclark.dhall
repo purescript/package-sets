@@ -36,6 +36,11 @@
   , repo = "https://github.com/athanclark/purescript-monad-unlift.git"
   , version = "v1.0.1"
   }
+, unorm =
+  { dependencies = [] : List Text
+  , repo = "https://github.com/athanclark/purescript-unorm.git"
+  , version = "v1.0.1"
+  }
 , parseint =
   { dependencies = [ "functions", "globals", "integers" ]
   , repo = "https://github.com/athanclark/purescript-parseint.git"

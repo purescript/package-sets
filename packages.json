@@ -3894,6 +3894,11 @@
     "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
     "version": "v1.8.3"
   },
+  "unorm": {
+    "dependencies": [],
+    "repo": "https://github.com/athanclark/purescript-unorm.git",
+    "version": "v1.0.1"
+  },
   "unsafe-coerce": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-unsafe-coerce.git",
