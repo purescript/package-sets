@@ -57,6 +57,11 @@
   , repo = "https://github.com/athanclark/purescript-sjcl.git"
   , version = "v0.0.1"
   }
+, subtlecrypto =
+  { dependencies = [ "aff", "arraybuffer-types", "foreign", "promises" ]
+  , repo = "https://github.com/athanclark/purescript-subtlecrypto.git"
+  , version = "v0.0.1"
+  }
 , thermite-dom =
   { dependencies = [ "thermite", "react", "react-dom", "web-html" ]
   , repo = "https://github.com/athanclark/purescript-thermite-dom.git"

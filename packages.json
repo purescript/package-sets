@@ -3500,6 +3500,16 @@
     "repo": "https://github.com/matthew-hilty/purescript-subcategory.git",
     "version": "v0.2.0"
   },
+  "subtlecrypto": {
+    "dependencies": [
+      "aff",
+      "arraybuffer-types",
+      "foreign",
+      "promises"
+    ],
+    "repo": "https://github.com/athanclark/purescript-subtlecrypto.git",
+    "version": "v0.0.1"
+  },
   "suggest": {
     "dependencies": [
       "console",
