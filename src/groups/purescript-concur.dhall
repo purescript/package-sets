@@ -11,7 +11,7 @@
     , "tailrec"
     ]
   , repo = "https://github.com/purescript-concur/purescript-concur-core.git"
-  , version = "v0.4.1"
+  , version = "v0.4.2"
   }
 , concur-react =
   { dependencies =
@@ -30,6 +30,6 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-concur/purescript-concur-react.git"
-  , version = "v0.4.1"
+  , version = "v0.4.2"
   }
 }
