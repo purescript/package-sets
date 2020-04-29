@@ -2967,6 +2967,11 @@
     "repo": "https://github.com/natefaubion/purescript-routing-duplex.git",
     "version": "v0.4.1"
   },
+  "row-extra": {
+    "dependencies": [],
+    "repo": "https://github.com/athanclark/purescript-row-extra.git",
+    "version": "v0.0.1"
+  },
   "run": {
     "dependencies": [
       "aff",
