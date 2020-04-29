@@ -66,6 +66,11 @@
   , repo = "https://github.com/athanclark/purescript-row-extra.git"
   , version = "v0.0.1"
   }
+, scrypt =
+  { dependencies = [ "aff", "arraybuffer-types" ]
+  , repo = "https://github.com/athanclark/purescript-scrypt.git"
+  , version = "v1.0.1"
+  }
 , sjcl =
   { dependencies =
     [ "arraybuffer-types"
