@@ -16,6 +16,11 @@
   , repo = "https://github.com/athanclark/purescript-arraybuffer-class.git"
   , version = "v0.2.5"
   }
+, byte-codec =
+  { dependencies = [ "generics-rep", "integers", "sized-vectors" ]
+  , repo = "https://github.com/athanclark/purescript-byte-codec.git"
+  , version = "v0.0.1"
+  }
 , float32 =
   { dependencies = [ "generics-rep", "prelude" ]
   , repo = "https://github.com/athanclark/purescript-float32.git"

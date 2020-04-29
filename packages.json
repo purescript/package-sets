@@ -453,6 +453,15 @@
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-static.git",
     "version": "v0.3.0"
   },
+  "byte-codec": {
+    "dependencies": [
+      "generics-rep",
+      "integers",
+      "sized-vectors"
+    ],
+    "repo": "https://github.com/athanclark/purescript-byte-codec.git",
+    "version": "v0.0.1"
+  },
   "bytestrings": {
     "dependencies": [
       "arrays",
