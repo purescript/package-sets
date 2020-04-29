@@ -3230,6 +3230,17 @@
     "repo": "https://github.com/bodil/purescript-sized-vectors.git",
     "version": "v5.0.0"
   },
+  "sjcl": {
+    "dependencies": [
+      "arraybuffer-types",
+      "exceptions",
+      "nullable",
+      "sized-vectors",
+      "tuples-native"
+    ],
+    "repo": "https://github.com/athanclark/purescript-sjcl.git",
+    "version": "v0.0.1"
+  },
   "slug": {
     "dependencies": [
       "argonaut-codecs",

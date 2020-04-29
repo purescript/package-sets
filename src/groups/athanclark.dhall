@@ -46,6 +46,17 @@
   , repo = "https://github.com/athanclark/purescript-row-extra.git"
   , version = "v0.0.1"
   }
+, sjcl =
+  { dependencies =
+    [ "arraybuffer-types"
+    , "exceptions"
+    , "nullable"
+    , "sized-vectors"
+    , "tuples-native"
+    ]
+  , repo = "https://github.com/athanclark/purescript-sjcl.git"
+  , version = "v0.0.1"
+  }
 , thermite-dom =
   { dependencies = [ "thermite", "react", "react-dom", "web-html" ]
   , repo = "https://github.com/athanclark/purescript-thermite-dom.git"
