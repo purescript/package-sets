@@ -2339,6 +2339,15 @@
     "repo": "https://github.com/purescript/purescript-parallel.git",
     "version": "v4.0.0"
   },
+  "parseint": {
+    "dependencies": [
+      "functions",
+      "globals",
+      "integers"
+    ],
+    "repo": "https://github.com/athanclark/purescript-parseint.git",
+    "version": "v1.1.1"
+  },
   "parsing": {
     "dependencies": [
       "arrays",

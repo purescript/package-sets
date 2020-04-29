@@ -31,6 +31,11 @@
   , repo = "https://github.com/athanclark/purescript-monad-control.git"
   , version = "v5.0.0"
   }
+, parseint =
+  { dependencies = [ "functions", "globals", "integers" ]
+  , repo = "https://github.com/athanclark/purescript-parseint.git"
+  , version = "v1.1.1"
+  }
 , queue =
   { dependencies = [ "refs", "aff", "foreign-object", "avar" ]
   , repo = "https://github.com/athanclark/purescript-queue.git"
