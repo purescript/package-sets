@@ -573,7 +573,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript-concur/purescript-concur-core.git",
-    "version": "v0.4.1"
+    "version": "v0.4.2"
   },
   "concur-react": {
     "dependencies": [
@@ -592,7 +592,7 @@
       "web-html"
     ],
     "repo": "https://github.com/purescript-concur/purescript-concur-react.git",
-    "version": "v0.4.1"
+    "version": "v0.4.2"
   },
   "console": {
     "dependencies": [
@@ -2759,7 +2759,7 @@
       "unsafe-reference"
     ],
     "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "react-basic-native": {
     "dependencies": [
