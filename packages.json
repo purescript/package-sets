@@ -2837,6 +2837,16 @@
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v6.1.0"
   },
+  "react-queue": {
+    "dependencies": [
+      "exceptions",
+      "queue",
+      "react",
+      "zeta"
+    ],
+    "repo": "https://github.com/athanclark/purescript-react-queue.git",
+    "version": "v1.3.2"
+  },
   "react-radox": {
     "dependencies": [
       "effect",

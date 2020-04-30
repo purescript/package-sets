@@ -66,6 +66,11 @@
   , repo = "https://github.com/athanclark/purescript-quickcheck-combinators.git"
   , version = "v0.1.3"
   }
+, react-queue =
+  { dependencies = [ "exceptions", "queue", "react", "zeta" ]
+  , repo = "https://github.com/athanclark/purescript-react-queue.git"
+  , version = "v1.3.2"
+  }
 , row-extra =
   { dependencies = [] : List Text
   , repo = "https://github.com/athanclark/purescript-row-extra.git"
