@@ -4088,6 +4088,19 @@
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v3.0.2"
   },
+  "websocket-moderate": {
+    "dependencies": [
+      "argonaut",
+      "arraybuffer",
+      "exceptions",
+      "monad-control",
+      "nullable",
+      "text-encoding",
+      "web-file"
+    ],
+    "repo": "https://github.com/athanclark/purescript-websocket-moderate.git",
+    "version": "v7.0.1"
+  },
   "xiaomian": {
     "dependencies": [
       "naporitan"

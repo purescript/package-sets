@@ -112,6 +112,19 @@
   , repo = "https://github.com/athanclark/purescript-uint-instances.git"
   , version = "v0.0.1"
   }
+, websocket-moderate =
+  { dependencies =
+    [ "argonaut"
+    , "arraybuffer"
+    , "exceptions"
+    , "monad-control"
+    , "nullable"
+    , "text-encoding"
+    , "web-file"
+    ]
+  , repo = "https://github.com/athanclark/purescript-websocket-moderate.git"
+  , version = "v7.0.1"
+  }
 , z85 =
   { dependencies = [ "arraybuffer", "sized-vectors", "numbers", "stringutils" ]
   , repo = "https://github.com/athanclark/purescript-z85.git"
