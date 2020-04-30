@@ -3116,7 +3116,7 @@
       "record-extra"
     ],
     "repo": "https://github.com/oreshinya/purescript-simple-i18n.git",
-    "version": "v0.1.0"
+    "version": "v0.1.1"
   },
   "simple-json": {
     "dependencies": [
