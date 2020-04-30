@@ -31,6 +31,11 @@
   , repo = "https://github.com/athanclark/purescript-float32.git"
   , version = "v0.1.1"
   }
+, inflection =
+  { dependencies = [ "functions" ]
+  , repo = "https://github.com/athanclark/purescript-inflection.git"
+  , version = "v1.0.1"
+  }
 , monad-control =
   { dependencies = [ "aff", "freet", "identity", "lists" ]
   , repo = "https://github.com/athanclark/purescript-monad-control.git"
@@ -70,6 +75,11 @@
   { dependencies = [ "aff", "arraybuffer-types" ]
   , repo = "https://github.com/athanclark/purescript-scrypt.git"
   , version = "v1.0.1"
+  }
+, setimmediate =
+  { dependencies = [ "effect", "functions" ]
+  , repo = "https://github.com/athanclark/purescript-setimmediate.git"
+  , version = "v1.0.2"
   }
 , sjcl =
   { dependencies =

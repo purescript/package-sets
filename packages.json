@@ -1567,6 +1567,13 @@
     "repo": "https://github.com/garyb/purescript-indexed-monad.git",
     "version": "v1.2.0"
   },
+  "inflection": {
+    "dependencies": [
+      "functions"
+    ],
+    "repo": "https://github.com/athanclark/purescript-inflection.git",
+    "version": "v1.0.1"
+  },
   "int-53": {
     "dependencies": [
       "integers",
@@ -3130,6 +3137,14 @@
     ],
     "repo": "https://github.com/MichaelXavier/purescript-server-sent-events.git",
     "version": "v0.2.0"
+  },
+  "setimmediate": {
+    "dependencies": [
+      "effect",
+      "functions"
+    ],
+    "repo": "https://github.com/athanclark/purescript-setimmediate.git",
+    "version": "v1.0.2"
   },
   "shoronpo": {
     "dependencies": [
