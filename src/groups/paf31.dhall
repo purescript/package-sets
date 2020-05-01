@@ -98,6 +98,12 @@
   , repo = "https://github.com/paf31/purescript-string-parsers.git"
   , version = "v5.0.1"
   }
+, thermite =
+  { dependencies =
+    [ "aff", "coroutines", "freet", "profunctor-lenses", "react" ]
+  , repo = "https://github.com/paf31/purescript-thermite.git"
+  , version = "v6.3.1"
+  }
 , yargs =
   { dependencies =
     [ "console", "either", "exceptions", "foreign", "unsafe-coerce" ]
