@@ -247,7 +247,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-strongcheck.git"
-  , version = "v4.1.1"
+  , version = "v5.0.0"
   }
 , these =
   { dependencies = [ "gen", "tuples" ]
