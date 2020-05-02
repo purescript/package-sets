@@ -574,6 +574,26 @@
     "repo": "https://github.com/justinwoo/purescript-chocopie.git",
     "version": "v5.0.0"
   },
+  "codec": {
+    "dependencies": [
+      "profunctor",
+      "transformers"
+    ],
+    "repo": "https://github.com/garyb/purescript-codec.git",
+    "version": "v3.0.0"
+  },
+  "codec-argonaut": {
+    "dependencies": [
+      "argonaut-core",
+      "codec",
+      "generics-rep",
+      "ordered-collections",
+      "type-equality",
+      "variant"
+    ],
+    "repo": "https://github.com/garyb/purescript-codec-argonaut.git",
+    "version": "v7.1.0"
+  },
   "colors": {
     "dependencies": [
       "arrays",
@@ -2258,6 +2278,29 @@
     ],
     "repo": "https://github.com/sharkdp/purescript-numbers.git",
     "version": "v7.0.0"
+  },
+  "option": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "codec",
+      "codec-argonaut",
+      "either",
+      "foreign",
+      "foreign-object",
+      "lists",
+      "maybe",
+      "prelude",
+      "profunctor",
+      "record",
+      "simple-json",
+      "transformers",
+      "tuples",
+      "type-equality",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/joneshf/purescript-option.git",
+    "version": "v1.0.0"
   },
   "options": {
     "dependencies": [
