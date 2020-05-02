@@ -16,4 +16,9 @@
   , repo = "https://github.com/lumihq/purescript-react-basic.git"
   , version = "v14.0.0"
   }
+, fixed-precision =
+  { dependencies = [ "integers", "maybe", "bigints", "strings", "math" ]
+  , repo = "https://github.com/lumihq/purescript-fixed-precision.git"
+  , version = "v4.3.1"
+  }
 }
