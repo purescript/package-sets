@@ -2843,7 +2843,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v13.0.0"
+    "version": "v14.0.0"
   },
   "react-basic-hooks": {
     "dependencies": [
