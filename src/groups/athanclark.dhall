@@ -140,4 +140,9 @@
   , repo = "https://github.com/athanclark/purescript-zeta.git"
   , version = "v6.0.0"
   }
+, zeta-extra =
+  { dependencies = [ "js-timers", "web-html", "zeta" ]
+  , repo = "https://github.com/athanclark/purescript-zeta-extra.git"
+  , version = "v0.0.1"
+  }
 }

@@ -965,6 +965,17 @@
     "repo": "https://github.com/slamdata/purescript-fixed-points.git",
     "version": "v5.1.0"
   },
+  "fixed-precision": {
+    "dependencies": [
+      "bigints",
+      "integers",
+      "math",
+      "maybe",
+      "strings"
+    ],
+    "repo": "https://github.com/lumihq/purescript-fixed-precision.git",
+    "version": "v4.3.1"
+  },
   "flare": {
     "dependencies": [
       "canvas",
@@ -4157,5 +4168,14 @@
     ],
     "repo": "https://github.com/athanclark/purescript-zeta.git",
     "version": "v6.0.0"
+  },
+  "zeta-extra": {
+    "dependencies": [
+      "js-timers",
+      "web-html",
+      "zeta"
+    ],
+    "repo": "https://github.com/athanclark/purescript-zeta-extra.git",
+    "version": "v0.0.1"
   }
 }
