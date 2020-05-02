@@ -1233,11 +1233,10 @@
       "prelude",
       "rationals",
       "strings",
-      "strongcheck",
       "tuples"
     ],
     "repo": "https://github.com/citizennet/purescript-fuzzy.git",
-    "version": "v0.2.1"
+    "version": "v0.3.0"
   },
   "gen": {
     "dependencies": [
@@ -1357,14 +1356,14 @@
       "indexed-monad"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-hooks.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "halogen-hooks-extra": {
     "dependencies": [
       "halogen-hooks"
     ],
     "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
-    "version": "v0.3.0"
+    "version": "v0.4.0"
   },
   "halogen-select": {
     "dependencies": [
@@ -2815,7 +2814,7 @@
       "unsafe-reference"
     ],
     "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
-    "version": "v5.1.0"
+    "version": "v5.2.0"
   },
   "react-basic-native": {
     "dependencies": [
@@ -3198,7 +3197,7 @@
       "record-extra"
     ],
     "repo": "https://github.com/oreshinya/purescript-simple-i18n.git",
-    "version": "v0.1.1"
+    "version": "v0.1.2"
   },
   "simple-json": {
     "dependencies": [
@@ -3484,39 +3483,6 @@
     ],
     "repo": "https://github.com/menelaos/purescript-stringutils.git",
     "version": "v0.0.10"
-  },
-  "strongcheck": {
-    "dependencies": [
-      "arrays",
-      "console",
-      "control",
-      "datetime",
-      "effect",
-      "either",
-      "enums",
-      "exceptions",
-      "foldable-traversable",
-      "free",
-      "gen",
-      "identity",
-      "integers",
-      "invariant",
-      "lazy",
-      "lists",
-      "machines",
-      "math",
-      "newtype",
-      "partial",
-      "prelude",
-      "profunctor",
-      "random",
-      "strings",
-      "tailrec",
-      "transformers",
-      "tuples"
-    ],
-    "repo": "https://github.com/purescript-contrib/purescript-strongcheck.git",
-    "version": "v4.1.1"
   },
   "struct": {
     "dependencies": [

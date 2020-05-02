@@ -31,7 +31,7 @@
 , simple-i18n =
   { dependencies = [ "record-extra", "foreign-object" ]
   , repo = "https://github.com/oreshinya/purescript-simple-i18n.git"
-  , version = "v0.1.1"
+  , version = "v0.1.2"
   }
 , simple-jwt =
   { dependencies = [ "crypto", "simple-json", "strings" ]
