@@ -216,39 +216,6 @@
   , repo = "https://github.com/purescript-contrib/purescript-strings-extra.git"
   , version = "v2.1.0"
   }
-, strongcheck =
-  { dependencies =
-    [ "arrays"
-    , "console"
-    , "control"
-    , "datetime"
-    , "effect"
-    , "either"
-    , "enums"
-    , "exceptions"
-    , "foldable-traversable"
-    , "free"
-    , "gen"
-    , "identity"
-    , "integers"
-    , "invariant"
-    , "lazy"
-    , "lists"
-    , "machines"
-    , "math"
-    , "newtype"
-    , "partial"
-    , "prelude"
-    , "profunctor"
-    , "random"
-    , "strings"
-    , "tailrec"
-    , "transformers"
-    , "tuples"
-    ]
-  , repo = "https://github.com/purescript-contrib/purescript-strongcheck.git"
-  , version = "v5.0.0"
-  }
 , these =
   { dependencies = [ "gen", "tuples" ]
   , repo = "https://github.com/purescript-contrib/purescript-these.git"

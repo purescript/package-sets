@@ -8,11 +8,10 @@
     , "prelude"
     , "rationals"
     , "strings"
-    , "strongcheck"
     , "tuples"
     ]
   , repo = "https://github.com/citizennet/purescript-fuzzy.git"
-  , version = "v0.2.1"
+  , version = "v0.3.0"
   }
 , halogen-select =
   { dependencies = [ "halogen", "record" ]
