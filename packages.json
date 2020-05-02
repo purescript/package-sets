@@ -1334,6 +1334,13 @@
     "repo": "https://github.com/thomashoneyman/purescript-halogen-hooks.git",
     "version": "v0.2.0"
   },
+  "halogen-hooks-extra": {
+    "dependencies": [
+      "halogen-hooks"
+    ],
+    "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
+    "version": "v0.3.0"
+  },
   "halogen-select": {
     "dependencies": [
       "halogen",
@@ -3384,6 +3391,39 @@
     ],
     "repo": "https://github.com/menelaos/purescript-stringutils.git",
     "version": "v0.0.10"
+  },
+  "strongcheck": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "enums",
+      "exceptions",
+      "foldable-traversable",
+      "free",
+      "gen",
+      "identity",
+      "integers",
+      "invariant",
+      "lazy",
+      "lists",
+      "machines",
+      "math",
+      "newtype",
+      "partial",
+      "prelude",
+      "profunctor",
+      "random",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-strongcheck.git",
+    "version": "v5.0.0"
   },
   "struct": {
     "dependencies": [
