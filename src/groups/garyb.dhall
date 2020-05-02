@@ -3,6 +3,18 @@
   , repo = "https://github.com/garyb/purescript-codec.git"
   , version = "v3.0.0"
   }
+, codec-argonaut =
+  { dependencies =
+    [ "argonaut-core"
+    , "codec"
+    , "generics-rep"
+    , "ordered-collections"
+    , "type-equality"
+    , "variant"
+    ]
+  , repo = "https://github.com/garyb/purescript-codec-argonaut.git"
+  , version = "v7.1.0"
+  }
 , debug =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/garyb/purescript-debug.git"
