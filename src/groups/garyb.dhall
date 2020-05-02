@@ -1,4 +1,9 @@
-{ debug =
+{ codec =
+  { dependencies = [ "transformers", "profunctor" ]
+  , repo = "https://github.com/garyb/purescript-codec.git"
+  , version = "v3.0.0"
+  }
+, debug =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/garyb/purescript-debug.git"
   , version = "v4.0.0"

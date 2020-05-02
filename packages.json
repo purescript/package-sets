@@ -574,6 +574,14 @@
     "repo": "https://github.com/justinwoo/purescript-chocopie.git",
     "version": "v5.0.0"
   },
+  "codec": {
+    "dependencies": [
+      "profunctor",
+      "transformers"
+    ],
+    "repo": "https://github.com/garyb/purescript-codec.git",
+    "version": "v3.0.0"
+  },
   "colors": {
     "dependencies": [
       "arrays",
