@@ -1387,7 +1387,7 @@
       "indexed-monad"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-hooks.git",
-    "version": "v0.2.0"
+    "version": "v0.2.1"
   },
   "halogen-hooks-extra": {
     "dependencies": [
