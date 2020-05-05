@@ -7,7 +7,7 @@
     , "profunctor-lenses"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-  , version = "v1.0.0-rc.1"
+  , version = "v1.0.0-rc.2"
   }
 , halogen-hooks =
   { dependencies = [ "halogen", "indexed-monad" ]
