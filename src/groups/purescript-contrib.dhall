@@ -21,7 +21,7 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-  , version = "v6.0.2"
+  , version = "v6.1.0"
   }
 , argonaut-core =
   { dependencies =
