@@ -29,7 +29,7 @@
   { dependencies = [ "freedom" ]
   , repo =
       "https://github.com/purescript-freedom/purescript-freedom-virtualized.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , freedom-window-resize =
   { dependencies = [ "freedom" ]
