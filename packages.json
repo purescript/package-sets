@@ -110,7 +110,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v6.0.2"
+    "version": "v6.1.0"
   },
   "argonaut-core": {
     "dependencies": [
@@ -1208,7 +1208,7 @@
       "freedom"
     ],
     "repo": "https://github.com/purescript-freedom/purescript-freedom-virtualized.git",
-    "version": "v3.0.0"
+    "version": "v3.0.1"
   },
   "freedom-window-resize": {
     "dependencies": [
@@ -1379,7 +1379,7 @@
       "variant"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
-    "version": "v1.0.0-rc.1"
+    "version": "v1.0.0-rc.2"
   },
   "halogen-hooks": {
     "dependencies": [
@@ -1387,14 +1387,14 @@
       "indexed-monad"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-hooks.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "halogen-hooks-extra": {
     "dependencies": [
       "halogen-hooks"
     ],
     "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
-    "version": "v0.4.0"
+    "version": "v0.5.0"
   },
   "halogen-select": {
     "dependencies": [
@@ -2311,7 +2311,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/joneshf/purescript-option.git",
-    "version": "v1.0.0"
+    "version": "v1.0.2"
   },
   "options": {
     "dependencies": [
