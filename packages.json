@@ -2563,7 +2563,7 @@
       "prelude"
     ],
     "repo": "https://github.com/gcanti/purescript-prettier.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "profunctor": {
     "dependencies": [
