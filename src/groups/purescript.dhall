@@ -481,7 +481,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-strings.git"
-  , version = "v4.0.1"
+  , version = "v4.0.2"
   }
 , tailrec =
   { dependencies =
