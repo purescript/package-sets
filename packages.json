@@ -1387,14 +1387,14 @@
       "indexed-monad"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-hooks.git",
-    "version": "v0.3.0"
+    "version": "v0.4.0"
   },
   "halogen-hooks-extra": {
     "dependencies": [
       "halogen-hooks"
     ],
     "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
-    "version": "v0.5.1"
+    "version": "v0.6.0"
   },
   "halogen-select": {
     "dependencies": [
@@ -3509,7 +3509,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
-    "version": "v4.0.1"
+    "version": "v4.0.2"
   },
   "strings-extra": {
     "dependencies": [
