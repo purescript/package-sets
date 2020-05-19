@@ -1387,7 +1387,7 @@
       "indexed-monad"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-hooks.git",
-    "version": "v0.4.0"
+    "version": "v0.4.1"
   },
   "halogen-hooks-extra": {
     "dependencies": [
@@ -1402,7 +1402,7 @@
       "record"
     ],
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
-    "version": "v5.0.0-rc.4"
+    "version": "v5.0.0"
   },
   "halogen-storybook": {
     "dependencies": [
@@ -4047,7 +4047,7 @@
       "web-events"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-dom.git",
-    "version": "v4.0.1"
+    "version": "v4.0.2"
   },
   "web-events": {
     "dependencies": [
