@@ -12,7 +12,7 @@
 , halogen-hooks =
   { dependencies = [ "halogen", "indexed-monad" ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-hooks.git"
-  , version = "v0.4.0"
+  , version = "v0.4.1"
   }
 , slug =
   { dependencies =
