@@ -9,4 +9,9 @@
   , repo = "https://github.com/jordanmartinez/purescript-interpolate.git"
   , version = "v2.0.1"
   }
+, tree-rose =
+  { dependencies = [ "prelude", "lists", "free" ]
+  , repo = "https://github.com/jordanmartinez/purescript-tree-rose.git"
+  , version = "v2.0.0"
+  }
 }
