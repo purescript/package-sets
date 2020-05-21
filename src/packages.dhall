@@ -79,13 +79,10 @@ let packages =
       ⫽ ./groups/bklaric.dhall
       ⫽ ./groups/i-am-the-slime.dhall
       ⫽ ./groups/ebmtranceboy.dhall
-<<<<<<< HEAD
-=======
       ⫽ ./groups/purescript-concur.dhall
       ⫽ ./groups/csicar.dhall
       ⫽ ./groups/jordanmartinez.dhall
       ⫽ ./groups/d86leader.dhall
       ⫽ ./groups/AlexaDeWit.dhall
->>>>>>> upstream/master
 
 in  packages
