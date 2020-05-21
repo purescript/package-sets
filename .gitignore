@@ -1,6 +1,8 @@
 .psc-package
 .psc-package2nix
 output
+src/.spago
 psc-package.json
 bower-info
 packages.nix
+src/.spago

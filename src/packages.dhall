@@ -5,6 +5,7 @@ let packages =
       ⫽ ./groups/purescript-node.dhall
       ⫽ ./groups/ad-si.dhall
       ⫽ ./groups/awakesecurity.dhall
+      ⫽ ./groups/joneshf.dhall
       ⫽ ./groups/liamgoodacre.dhall
       ⫽ ./groups/lukajcb.dhall
       ⫽ ./groups/michaelxavier.dhall
@@ -12,7 +13,6 @@ let packages =
       ⫽ ./groups/sodiumfrp.dhall
       ⫽ ./groups/thimoteus.dhall
       ⫽ ./groups/thomashoneyman.dhall
-      ⫽ ./groups/ajnsit.dhall
       ⫽ ./groups/athanclark.dhall
       ⫽ ./groups/anttih.dhall
       ⫽ ./groups/bodil.dhall
@@ -29,6 +29,7 @@ let packages =
       ⫽ ./groups/fehrenbach.dhall
       ⫽ ./groups/felixschl.dhall
       ⫽ ./groups/felixmulder.dhall
+      ⫽ ./groups/flip111.dhall
       ⫽ ./groups/garyb.dhall
       ⫽ ./groups/gcanti.dhall
       ⫽ ./groups/hdgarrood.dhall
@@ -47,6 +48,7 @@ let packages =
       ⫽ ./groups/mlang.dhall
       ⫽ ./groups/morganthomas.dhall
       ⫽ ./groups/mschristiansen.dhall
+      ⫽ ./groups/mwalkerwells.dhall
       ⫽ ./groups/natefaubion.dhall
       ⫽ ./groups/nkly.dhall
       ⫽ ./groups/nsaunders.dhall
@@ -61,6 +63,7 @@ let packages =
       ⫽ ./groups/purescript-spec.dhall
       ⫽ ./groups/reactormonk.dhall
       ⫽ ./groups/rightfold.dhall
+      ⫽ ./groups/rgrempel.dhall
       ⫽ ./groups/rnons.dhall
       ⫽ ./groups/sharkdp.dhall
       ⫽ ./groups/sigilion.dhall
@@ -76,5 +79,13 @@ let packages =
       ⫽ ./groups/bklaric.dhall
       ⫽ ./groups/i-am-the-slime.dhall
       ⫽ ./groups/ebmtranceboy.dhall
+<<<<<<< HEAD
+=======
+      ⫽ ./groups/purescript-concur.dhall
+      ⫽ ./groups/csicar.dhall
+      ⫽ ./groups/jordanmartinez.dhall
+      ⫽ ./groups/d86leader.dhall
+      ⫽ ./groups/AlexaDeWit.dhall
+>>>>>>> upstream/master
 
 in  packages
