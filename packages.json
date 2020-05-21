@@ -3398,6 +3398,19 @@
     "repo": "https://github.com/SodiumFRP/purescript-sodium.git",
     "version": "v2.1.0"
   },
+  "sparse-polynomials": {
+    "dependencies": [
+      "cartesian",
+      "console",
+      "effect",
+      "ordered-collections",
+      "prelude",
+      "rationals",
+      "tuples"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git",
+    "version": "v1.0.3"
+  },
   "spec": {
     "dependencies": [
       "aff",
