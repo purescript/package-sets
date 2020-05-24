@@ -3784,6 +3784,15 @@
     "repo": "https://github.com/purescript/purescript-transformers.git",
     "version": "v4.2.0"
   },
+  "tree-rose": {
+    "dependencies": [
+      "free",
+      "lists",
+      "prelude"
+    ],
+    "repo": "https://github.com/jordanmartinez/purescript-tree-rose.git",
+    "version": "v2.0.0"
+  },
   "trout": {
     "dependencies": [
       "argonaut",
