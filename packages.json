@@ -1387,14 +1387,14 @@
       "indexed-monad"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-hooks.git",
-    "version": "v0.3.0"
+    "version": "v0.4.1"
   },
   "halogen-hooks-extra": {
     "dependencies": [
       "halogen-hooks"
     ],
     "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
-    "version": "v0.5.0"
+    "version": "v0.6.0"
   },
   "halogen-select": {
     "dependencies": [
@@ -1402,7 +1402,7 @@
       "record"
     ],
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
-    "version": "v5.0.0-rc.4"
+    "version": "v5.0.0"
   },
   "halogen-storybook": {
     "dependencies": [
@@ -2563,7 +2563,7 @@
       "prelude"
     ],
     "repo": "https://github.com/gcanti/purescript-prettier.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "profunctor": {
     "dependencies": [
@@ -3398,6 +3398,19 @@
     "repo": "https://github.com/SodiumFRP/purescript-sodium.git",
     "version": "v2.1.0"
   },
+  "sparse-polynomials": {
+    "dependencies": [
+      "cartesian",
+      "console",
+      "effect",
+      "ordered-collections",
+      "prelude",
+      "rationals",
+      "tuples"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git",
+    "version": "v1.0.3"
+  },
   "spec": {
     "dependencies": [
       "aff",
@@ -3509,7 +3522,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
-    "version": "v4.0.1"
+    "version": "v4.0.2"
   },
   "strings-extra": {
     "dependencies": [
@@ -3732,7 +3745,7 @@
       "record"
     ],
     "repo": "https://github.com/justinwoo/purescript-toppokki.git",
-    "version": "v2.3.0"
+    "version": "v2.4.0"
   },
   "tortellini": {
     "dependencies": [
@@ -3770,6 +3783,15 @@
     ],
     "repo": "https://github.com/purescript/purescript-transformers.git",
     "version": "v4.2.0"
+  },
+  "tree-rose": {
+    "dependencies": [
+      "free",
+      "lists",
+      "prelude"
+    ],
+    "repo": "https://github.com/jordanmartinez/purescript-tree-rose.git",
+    "version": "v2.0.0"
   },
   "trout": {
     "dependencies": [
@@ -4047,7 +4069,7 @@
       "web-events"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-dom.git",
-    "version": "v4.0.1"
+    "version": "v4.0.2"
   },
   "web-events": {
     "dependencies": [

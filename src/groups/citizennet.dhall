@@ -16,6 +16,6 @@
 , halogen-select =
   { dependencies = [ "halogen", "record" ]
   , repo = "https://github.com/citizennet/purescript-halogen-select.git"
-  , version = "v5.0.0-rc.4"
+  , version = "v5.0.0"
   }
 }
