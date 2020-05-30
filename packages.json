@@ -727,6 +727,15 @@
     "repo": "https://github.com/i-am-tom/purescript-data-algebrae.git",
     "version": "v4.0.0"
   },
+  "data-default": {
+    "dependencies": [
+      "lists",
+      "maybe",
+      "record"
+    ],
+    "repo": "https://github.com/thought2/purescript-data-default.git",
+    "version": "v0.3.2"
+  },
   "datetime": {
     "dependencies": [
       "bifunctors",
