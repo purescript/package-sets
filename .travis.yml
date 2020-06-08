@@ -1,11 +1,19 @@
 language: nix
-script: nix-shell --run 'make ci'
+
+script:
+  - |
+    curl https://nixos.org/nix/install | sh
+    . "$HOME"/.nix-profile/etc/profile.d/nix.sh
+    nix-shell --run 'make ci'
+
 cache:
   directories:
   - .psc-package
   - output
+
 before_deploy:
   - nix-shell --run '>packages.dhall dhall <<< ./src/packages.dhall'
+
 deploy:
   provider: releases
   api_key: $RELEASE_KEY
