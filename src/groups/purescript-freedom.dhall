@@ -2,7 +2,7 @@
   { dependencies =
     [ "console", "foreign-object", "safely", "simple-emitter", "web-html" ]
   , repo = "https://github.com/purescript-freedom/purescript-freedom.git"
-  , version = "v2.1.0"
+  , version = "v2.2.0"
   }
 , freedom-now =
   { dependencies = [ "freedom", "js-timers" ]

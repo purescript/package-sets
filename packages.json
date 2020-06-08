@@ -78,7 +78,7 @@
       "web-xhr"
     ],
     "repo": "https://github.com/slamdata/purescript-affjax.git",
-    "version": "v10.0.0"
+    "version": "v10.1.0"
   },
   "ansi": {
     "dependencies": [
@@ -1179,7 +1179,7 @@
       "web-html"
     ],
     "repo": "https://github.com/purescript-freedom/purescript-freedom.git",
-    "version": "v2.1.0"
+    "version": "v2.2.0"
   },
   "freedom-now": {
     "dependencies": [
@@ -1355,7 +1355,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen.git",
-    "version": "v5.0.0-rc.9"
+    "version": "v5.0.1"
   },
   "halogen-bootstrap": {
     "dependencies": [
@@ -1396,7 +1396,7 @@
       "indexed-monad"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-hooks.git",
-    "version": "v0.4.1"
+    "version": "v0.4.2"
   },
   "halogen-hooks-extra": {
     "dependencies": [
@@ -1895,7 +1895,7 @@
   "metadata": {
     "dependencies": [],
     "repo": "https://github.com/spacchetti/purescript-metadata.git",
-    "version": "v0.13.6"
+    "version": "v0.13.8"
   },
   "milkis": {
     "dependencies": [
@@ -2320,7 +2320,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/joneshf/purescript-option.git",
-    "version": "v1.0.2"
+    "version": "v2.1.0"
   },
   "options": {
     "dependencies": [
@@ -4078,7 +4078,7 @@
       "web-events"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-dom.git",
-    "version": "v4.0.2"
+    "version": "v4.1.0"
   },
   "web-events": {
     "dependencies": [
