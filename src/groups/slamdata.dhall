@@ -39,7 +39,7 @@
     , "web-xhr"
     ]
   , repo = "https://github.com/slamdata/purescript-affjax.git"
-  , version = "v10.0.0"
+  , version = "v10.1.0"
   }
 , css =
   { dependencies =
@@ -108,7 +108,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/slamdata/purescript-halogen.git"
-  , version = "v5.0.0-rc.9"
+  , version = "v5.0.1"
   }
 , halogen-bootstrap =
   { dependencies = [ "halogen" ]
