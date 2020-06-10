@@ -574,6 +574,15 @@
     "repo": "https://github.com/justinwoo/purescript-chocopie.git",
     "version": "v5.0.0"
   },
+  "clipboardy": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "effect"
+    ],
+    "repo": "https://github.com/hrajchert/purescript-clipboardy.git",
+    "version": "v1.0.3"
+  },
   "codec": {
     "dependencies": [
       "profunctor",
