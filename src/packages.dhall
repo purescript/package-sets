@@ -33,6 +33,7 @@ let packages =
       ⫽ ./groups/garyb.dhall
       ⫽ ./groups/gcanti.dhall
       ⫽ ./groups/hdgarrood.dhall
+      ⫽ ./groups/hrajchert.dhall
       ⫽ ./groups/i-am-tom.dhall
       ⫽ ./groups/icyrockcom.dhall
       ⫽ ./groups/jacereda.dhall
@@ -84,5 +85,6 @@ let packages =
       ⫽ ./groups/jordanmartinez.dhall
       ⫽ ./groups/d86leader.dhall
       ⫽ ./groups/AlexaDeWit.dhall
+      ⫽ ./groups/thought2.dhall
 
 in  packages
