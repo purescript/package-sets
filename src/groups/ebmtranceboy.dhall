@@ -16,4 +16,9 @@
   , repo = "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git"
   , version = "v1.0.3"
   }
+, sparse-matrices =
+  { dependencies = [ "prelude", "console", "effect", "sparse-polynomials" ]
+  , repo = "https://github.com/Ebmtranceboy/purescript-sparse-matrices.git"
+  , version = "v1.1.0"
+  }
 }
