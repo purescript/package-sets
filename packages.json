@@ -3416,6 +3416,16 @@
     "repo": "https://github.com/SodiumFRP/purescript-sodium.git",
     "version": "v2.1.0"
   },
+  "sparse-matrices": {
+    "dependencies": [
+      "console",
+      "effect",
+      "prelude",
+      "sparse-polynomials"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-sparse-matrices.git",
+    "version": "v1.1.0"
+  },
   "sparse-polynomials": {
     "dependencies": [
       "cartesian",
