@@ -86,5 +86,6 @@ let packages =
       ⫽ ./groups/d86leader.dhall
       ⫽ ./groups/AlexaDeWit.dhall
       ⫽ ./groups/thought2.dhall
+      ⫽ ./groups/purescript-grain.dhall
 
 in  packages
