@@ -1,8 +1,8 @@
 # Package Sets
 
-[![Build Status](https://travis-ci.org/purescript/package-sets.svg?branch=master)](https://travis-ci.org/purescript/package-sets)
+[![Build Status](https://github.com/purescript/package-sets/workflows/build/badge.svg)](https://github.com/purescript/package-sets/actions)
 
-A curated list of PureScript packages for Psc-Package and Spago 
+A curated list of PureScript packages for Psc-Package and Spago
 
 ![](https://i.imgur.com/roCuNQ9.png)
 
