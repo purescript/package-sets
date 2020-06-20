@@ -9,4 +9,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v9
+    - uses: actions/cache@v2
+      with:
+        path: |
+          output
+          .psc-package
+        key: ${{ runner.os }}-build-products
     - run: nix-shell --run 'make ci'
