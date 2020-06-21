@@ -87,5 +87,6 @@ let packages =
       ⫽ ./groups/AlexaDeWit.dhall
       ⫽ ./groups/thought2.dhall
       ⫽ ./groups/purescript-grain.dhall
+      ⫽ ./groups/mjepronk.dhall
 
 in  packages

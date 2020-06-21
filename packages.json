@@ -4182,6 +4182,18 @@
     "repo": "https://github.com/purescript-web/purescript-web-uievents.git",
     "version": "v2.0.0"
   },
+  "web-url": {
+    "dependencies": [
+      "maybe",
+      "partial",
+      "prelude",
+      "psci-support",
+      "spec",
+      "tuples"
+    ],
+    "repo": "https://github.com/mjepronk/purescript-web-url.git",
+    "version": "v1.0.2"
+  },
   "web-xhr": {
     "dependencies": [
       "arraybuffer-types",
