@@ -3280,6 +3280,15 @@
     "repo": "https://github.com/justinwoo/purescript-sijidou.git",
     "version": "v1.0.0"
   },
+  "simple-ajax": {
+    "dependencies": [
+      "affjax",
+      "prelude",
+      "simple-json"
+    ],
+    "repo": "https://github.com/dariooddenino/purescript-simple-ajax.git",
+    "version": "v2.0.0"
+  },
   "simple-emitter": {
     "dependencies": [
       "ordered-collections",
