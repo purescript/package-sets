@@ -1,4 +1,16 @@
-{ radox =
+{ refined =
+  { dependencies =
+    [ "argonaut"
+    , "effect"
+    , "generics-rep"
+    , "prelude"
+    , "quickcheck"
+    , "typelevel"
+    ]
+  , repo = "https://github.com/danieljharvey/purescript-refined.git"
+  , version = "v1.0.0"
+  }
+, radox =
   { dependencies = [ "prelude", "effect", "variant", "refs", "aff" ]
   , repo = "https://github.com/danieljharvey/purescript-radox.git"
   , version = "v1.0.0"
