@@ -38,19 +38,4 @@
   , repo = "https://github.com/matthew-hilty/purescript-subcategory.git"
   , version = "v0.2.0"
   }
-, tolerant-argonaut =
-  { dependencies =
-    [ "argonaut-codecs"
-    , "argonaut-core"
-    , "arrays"
-    , "effect"
-    , "higher-order"
-    , "lists"
-    , "record"
-    , "struct"
-    , "typelevel-prelude"
-    ]
-  , repo = "https://github.com/matthew-hilty/purescript-tolerant-argonaut.git"
-  , version = "v1.1.0"
-  }
 }

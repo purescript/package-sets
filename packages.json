@@ -96,13 +96,16 @@
       "argonaut-traversals"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "argonaut-codecs": {
     "dependencies": [
       "argonaut-core",
       "arrays",
+      "effect",
       "foreign-object",
+      "generics-rep",
+      "identity",
       "integers",
       "maybe",
       "nonempty",
@@ -110,7 +113,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v6.1.0"
+    "version": "v7.0.0"
   },
   "argonaut-core": {
     "dependencies": [
@@ -137,7 +140,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "argonaut-traversals": {
     "dependencies": [
@@ -146,7 +149,7 @@
       "profunctor-lenses"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
-    "version": "v7.0.0"
+    "version": "v8.0.0"
   },
   "array-views": {
     "dependencies": [
@@ -338,7 +341,7 @@
       "uuid"
     ],
     "repo": "https://github.com/drewolson/purescript-biscotti-session.git",
-    "version": "v0.1.1"
+    "version": "v0.1.2"
   },
   "bower-json": {
     "dependencies": [
@@ -354,7 +357,7 @@
       "tuples"
     ],
     "repo": "https://github.com/klntsky/purescript-bower-json.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "bucketchain": {
     "dependencies": [
@@ -1573,7 +1576,7 @@
       "type-equality"
     ],
     "repo": "https://github.com/drewolson/purescript-httpure-contrib-biscotti.git",
-    "version": "v0.1.1"
+    "version": "v0.1.2"
   },
   "hyper": {
     "dependencies": [
@@ -2333,29 +2336,6 @@
     "repo": "https://github.com/sharkdp/purescript-numbers.git",
     "version": "v7.0.0"
   },
-  "option": {
-    "dependencies": [
-      "argonaut-codecs",
-      "argonaut-core",
-      "codec",
-      "codec-argonaut",
-      "either",
-      "foreign",
-      "foreign-object",
-      "lists",
-      "maybe",
-      "prelude",
-      "profunctor",
-      "record",
-      "simple-json",
-      "transformers",
-      "tuples",
-      "type-equality",
-      "unsafe-coerce"
-    ],
-    "repo": "https://github.com/joneshf/purescript-option.git",
-    "version": "v2.1.0"
-  },
   "options": {
     "dependencies": [
       "contravariant",
@@ -2549,20 +2529,6 @@
     "repo": "https://github.com/paluh/purescript-polyform.git",
     "version": "v0.8.2"
   },
-  "polyform-validators": {
-    "dependencies": [
-      "affjax",
-      "argonaut",
-      "debug",
-      "numbers",
-      "polyform",
-      "prelude",
-      "record-extra",
-      "test-unit"
-    ],
-    "repo": "https://github.com/lambdaterms/purescript-polyform-validators.git",
-    "version": "v0.0.6"
-  },
   "posix-types": {
     "dependencies": [
       "maybe",
@@ -2698,7 +2664,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-psa-utils.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "psc-ide": {
     "dependencies": [
@@ -2713,7 +2679,7 @@
       "random"
     ],
     "repo": "https://github.com/kRITZCREEK/purescript-psc-ide.git",
-    "version": "v15.0.1"
+    "version": "v16.0.0"
   },
   "psci-support": {
     "dependencies": [
@@ -3044,18 +3010,6 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-redux-devtools.git",
     "version": "v0.1.0"
-  },
-  "refined": {
-    "dependencies": [
-      "argonaut",
-      "effect",
-      "generics-rep",
-      "prelude",
-      "quickcheck",
-      "typelevel"
-    ],
-    "repo": "https://github.com/danieljharvey/purescript-refined.git",
-    "version": "v0.2.0"
   },
   "refs": {
     "dependencies": [
@@ -3390,7 +3344,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/bodil/purescript-sized-vectors.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "sjcl": {
     "dependencies": [
@@ -3413,7 +3367,7 @@
       "unicode"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-slug.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "smolder": {
     "dependencies": [
@@ -3782,21 +3736,6 @@
     "repo": "https://github.com/purescript-contrib/purescript-these.git",
     "version": "v4.0.0"
   },
-  "tolerant-argonaut": {
-    "dependencies": [
-      "argonaut-codecs",
-      "argonaut-core",
-      "arrays",
-      "effect",
-      "higher-order",
-      "lists",
-      "record",
-      "struct",
-      "typelevel-prelude"
-    ],
-    "repo": "https://github.com/matthew-hilty/purescript-tolerant-argonaut.git",
-    "version": "v1.1.0"
-  },
   "toppokki": {
     "dependencies": [
       "aff-promise",
@@ -3864,17 +3803,7 @@
       "uri"
     ],
     "repo": "https://github.com/purescript-hyper/purescript-trout.git",
-    "version": "v0.12.2"
-  },
-  "trout-client": {
-    "dependencies": [
-      "affjax",
-      "argonaut-generic",
-      "prelude",
-      "trout"
-    ],
-    "repo": "https://github.com/purescript-hyper/purescript-trout-client.git",
-    "version": "v0.12.0"
+    "version": "v0.12.3"
   },
   "tuples": {
     "dependencies": [
@@ -3983,7 +3912,7 @@
       "unordered-collections"
     ],
     "repo": "https://github.com/athanclark/purescript-uint-instances.git",
-    "version": "v0.0.1"
+    "version": "v0.0.2"
   },
   "undefinable": {
     "dependencies": [
@@ -4225,7 +4154,7 @@
       "web-file"
     ],
     "repo": "https://github.com/athanclark/purescript-websocket-moderate.git",
-    "version": "v7.0.1"
+    "version": "v7.0.2"
   },
   "xiaomian": {
     "dependencies": [
