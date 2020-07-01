@@ -3011,6 +3011,18 @@
     "repo": "https://github.com/justinwoo/purescript-redux-devtools.git",
     "version": "v0.1.0"
   },
+  "refined": {
+    "dependencies": [
+      "argonaut",
+      "effect",
+      "generics-rep",
+      "prelude",
+      "quickcheck",
+      "typelevel"
+    ],
+    "repo": "https://github.com/danieljharvey/purescript-refined.git",
+    "version": "v1.0.0"
+  },
   "refs": {
     "dependencies": [
       "effect",
