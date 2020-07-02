@@ -1,20 +1,28 @@
 { react-basic-hooks =
-  { dependencies =
-    [ "aff"
-    , "aff-promise"
-    , "console"
-    , "effect"
-    , "indexed-monad"
-    , "prelude"
-    , "react-basic"
-    , "unsafe-reference"
-    ]
-  , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
-  , version = "v5.2.0"
-  }
+    { dependencies =
+      [ "prelude"
+      , "aff-promise"
+      , "aff"
+      , "console"
+      , "datetime"
+      , "effect"
+      , "either"
+      , "indexed-monad"
+      , "maybe"
+      , "newtype"
+      , "numbers"
+      , "react-basic"
+      , "type-equality"
+      , "unsafe-coerce"
+      , "unsafe-reference"
+      , "web-html"
+      ]
+    , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
+    , version = "v6.0.0"
+    }
 , uuid =
-  { dependencies = [ "effect", "maybe", "foreign-generic", "console", "spec" ]
-  , repo = "https://github.com/spicydonuts/purescript-uuid.git"
-  , version = "v6.1.0"
-  }
+    { dependencies = [ "effect", "maybe", "foreign-generic", "console", "spec" ]
+    , repo = "https://github.com/spicydonuts/purescript-uuid.git"
+    , version = "v6.1.0"
+    }
 }
