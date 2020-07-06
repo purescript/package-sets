@@ -1457,6 +1457,17 @@
     "repo": "https://github.com/rnons/purescript-halogen-storybook.git",
     "version": "v1.0.0-rc.1"
   },
+  "halogen-svg-elems": {
+    "dependencies": [
+      "effect",
+      "halogen",
+      "prelude",
+      "strings",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git",
+    "version": "v2.0.1"
+  },
   "halogen-vdom": {
     "dependencies": [
       "bifunctors",
