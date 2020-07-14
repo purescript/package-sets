@@ -2911,6 +2911,25 @@
     "repo": "https://github.com/lumihq/purescript-react-basic-classic.git",
     "version": "v1.0.1"
   },
+  "react-basic-compat": {
+    "dependencies": [
+      "effect",
+      "react-basic-classic"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-basic-compat.git",
+    "version": "v1.0.1"
+  },
+  "react-basic-dnd": {
+    "dependencies": [
+      "nullable",
+      "prelude",
+      "promises",
+      "react-basic-hooks",
+      "web-dom"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-dnd-basic.git",
+    "version": "v7.0.0"
+  },
   "react-basic-dom": {
     "dependencies": [
       "effect",
