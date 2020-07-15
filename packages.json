@@ -7,6 +7,19 @@
     "repo": "https://github.com/athanclark/purescript-abides.git",
     "version": "v0.0.1"
   },
+  "ace": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "foreign",
+      "nullable",
+      "prelude",
+      "web-html",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-ace.git",
+    "version": "v7.0.0"
+  },
   "aff": {
     "dependencies": [
       "datetime",
