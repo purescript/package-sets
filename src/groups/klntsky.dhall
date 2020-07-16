@@ -40,6 +40,6 @@
     , "foreign-object"
     ]
   , repo = "https://github.com/klntsky/purescript-bower-json.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 }

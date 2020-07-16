@@ -6,13 +6,16 @@
 , argonaut =
   { dependencies = [ "argonaut-codecs", "argonaut-core", "argonaut-traversals" ]
   , repo = "https://github.com/purescript-contrib/purescript-argonaut.git"
-  , version = "v6.0.0"
+  , version = "v7.0.0"
   }
 , argonaut-codecs =
   { dependencies =
     [ "argonaut-core"
     , "arrays"
+    , "effect"
     , "foreign-object"
+    , "generics-rep"
+    , "identity"
     , "integers"
     , "maybe"
     , "nonempty"
@@ -21,7 +24,7 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-  , version = "v6.1.0"
+  , version = "v7.0.0"
   }
 , argonaut-core =
   { dependencies =
@@ -45,13 +48,13 @@
     [ "argonaut-codecs", "argonaut-core", "generics-rep", "record" ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
-  , version = "v5.0.0"
+  , version = "v6.0.0"
   }
 , argonaut-traversals =
   { dependencies = [ "argonaut-codecs", "argonaut-core", "profunctor-lenses" ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-traversals.git"
-  , version = "v7.0.0"
+  , version = "v8.0.0"
   }
 , arraybuffer-types =
   { dependencies = [] : List Text

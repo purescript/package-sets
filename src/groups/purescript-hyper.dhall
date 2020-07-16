@@ -30,16 +30,16 @@
   { dependencies =
     [ "argonaut-generic", "console", "hyper", "prelude", "trout" ]
   , repo = "https://github.com/purescript-hyper/purescript-hypertrout.git"
-  , version = "v0.11.0"
+  , version = "v0.11.1"
   }
 , trout =
   { dependencies = [ "argonaut", "media-types", "prelude", "smolder", "uri" ]
   , repo = "https://github.com/purescript-hyper/purescript-trout.git"
-  , version = "v0.12.2"
+  , version = "v0.12.3"
   }
 , trout-client =
   { dependencies = [ "affjax", "argonaut-generic", "prelude", "trout" ]
   , repo = "https://github.com/purescript-hyper/purescript-trout-client.git"
-  , version = "v0.12.0"
+  , version = "v0.12.1"
   }
 }
