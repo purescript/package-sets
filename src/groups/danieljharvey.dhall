@@ -8,7 +8,7 @@
     , "typelevel"
     ]
   , repo = "https://github.com/danieljharvey/purescript-refined.git"
-  , version = "v0.2.0"
+  , version = "v1.0.0"
   }
 , radox =
   { dependencies = [ "prelude", "effect", "variant", "refs", "aff" ]

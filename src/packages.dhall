@@ -5,7 +5,6 @@ let packages =
       ⫽ ./groups/purescript-node.dhall
       ⫽ ./groups/ad-si.dhall
       ⫽ ./groups/awakesecurity.dhall
-      ⫽ ./groups/joneshf.dhall
       ⫽ ./groups/liamgoodacre.dhall
       ⫽ ./groups/lukajcb.dhall
       ⫽ ./groups/michaelxavier.dhall

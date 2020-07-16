@@ -36,7 +36,7 @@
     , "uuid"
     ]
   , repo = "https://github.com/drewolson/purescript-biscotti-session.git"
-  , version = "v0.1.1"
+  , version = "v0.1.2"
   }
 , httpure-contrib-biscotti =
   { dependencies =
@@ -57,6 +57,6 @@
     ]
   , repo =
       "https://github.com/drewolson/purescript-httpure-contrib-biscotti.git"
-  , version = "v0.1.1"
+  , version = "v0.1.2"
   }
 }
