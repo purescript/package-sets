@@ -1,4 +1,17 @@
-{ aff =
+{ ace =
+  { dependencies =
+    [ "effect"
+    , "web-html"
+    , "web-uievents"
+    , "arrays"
+    , "foreign"
+    , "nullable"
+    , "prelude"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-ace.git"
+  , version = "v7.0.0"
+  }
+, aff =
   { dependencies =
     [ "datetime"
     , "effect"

@@ -7,6 +7,19 @@
     "repo": "https://github.com/athanclark/purescript-abides.git",
     "version": "v0.0.1"
   },
+  "ace": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "foreign",
+      "nullable",
+      "prelude",
+      "web-html",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-ace.git",
+    "version": "v7.0.0"
+  },
   "aff": {
     "dependencies": [
       "datetime",
@@ -1338,11 +1351,10 @@
   },
   "grain": {
     "dependencies": [
-      "unsafe-reference",
       "web-html"
     ],
     "repo": "https://github.com/purescript-grain/purescript-grain.git",
-    "version": "v0.4.0"
+    "version": "v0.7.0"
   },
   "grain-router": {
     "dependencies": [
@@ -1350,14 +1362,14 @@
       "profunctor"
     ],
     "repo": "https://github.com/purescript-grain/purescript-grain-router.git",
-    "version": "v0.4.0"
+    "version": "v0.7.0"
   },
   "grain-virtualized": {
     "dependencies": [
       "grain"
     ],
     "repo": "https://github.com/purescript-grain/purescript-grain-virtualized.git",
-    "version": "v0.4.0"
+    "version": "v0.7.0"
   },
   "group": {
     "dependencies": [
@@ -2877,6 +2889,25 @@
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic-classic.git",
     "version": "v1.0.1"
+  },
+  "react-basic-compat": {
+    "dependencies": [
+      "effect",
+      "react-basic-classic"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-basic-compat.git",
+    "version": "v1.0.1"
+  },
+  "react-basic-dnd": {
+    "dependencies": [
+      "nullable",
+      "prelude",
+      "promises",
+      "react-basic-hooks",
+      "web-dom"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-dnd-basic.git",
+    "version": "v7.0.0"
   },
   "react-basic-dom": {
     "dependencies": [
