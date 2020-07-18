@@ -232,6 +232,13 @@
     "repo": "https://github.com/purescript/purescript-arrays.git",
     "version": "v5.3.1"
   },
+  "arrays-zipper": {
+    "dependencies": [
+      "arrays"
+    ],
+    "repo": "https://github.com/JordanMartinez/purescript-arrays-zipper.git",
+    "version": "v1.0.0"
+  },
   "assert": {
     "dependencies": [
       "console",
