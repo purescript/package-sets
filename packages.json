@@ -3953,7 +3953,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/athanclark/purescript-tuples-native.git",
-    "version": "v2.0.2"
+    "version": "v2.1.0"
   },
   "type-equality": {
     "dependencies": [],
