@@ -1704,6 +1704,14 @@
     "repo": "https://github.com/jordanmartinez/purescript-interpolate.git",
     "version": "v2.0.1"
   },
+  "intmap": {
+    "dependencies": [
+      "arraybuffer-class",
+      "parseint"
+    ],
+    "repo": "https://github.com/openchronology/purescript-intmap.git",
+    "version": "v0.0.0"
+  },
   "invariant": {
     "dependencies": [
       "prelude"
