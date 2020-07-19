@@ -51,6 +51,6 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/matthew-hilty/purescript-tolerant-argonaut.git"
-  , version = "v1.1.0"
+  , version = "v2.0.0"
   }
 }

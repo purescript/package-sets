@@ -5,7 +5,6 @@ let packages =
       ⫽ ./groups/purescript-node.dhall
       ⫽ ./groups/ad-si.dhall
       ⫽ ./groups/awakesecurity.dhall
-      ⫽ ./groups/joneshf.dhall
       ⫽ ./groups/liamgoodacre.dhall
       ⫽ ./groups/lukajcb.dhall
       ⫽ ./groups/michaelxavier.dhall
@@ -33,6 +32,7 @@ let packages =
       ⫽ ./groups/garyb.dhall
       ⫽ ./groups/gcanti.dhall
       ⫽ ./groups/hdgarrood.dhall
+      ⫽ ./groups/hrajchert.dhall
       ⫽ ./groups/i-am-tom.dhall
       ⫽ ./groups/icyrockcom.dhall
       ⫽ ./groups/jacereda.dhall
@@ -85,5 +85,8 @@ let packages =
       ⫽ ./groups/d86leader.dhall
       ⫽ ./groups/AlexaDeWit.dhall
       ⫽ ./groups/thought2.dhall
+      ⫽ ./groups/purescript-grain.dhall
+      ⫽ ./groups/mjepronk.dhall
+      ⫽ ./groups/dariooddenino.dhall
 
 in  packages

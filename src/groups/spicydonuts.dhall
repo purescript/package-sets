@@ -1,16 +1,24 @@
 { react-basic-hooks =
   { dependencies =
-    [ "aff"
+    [ "prelude"
     , "aff-promise"
+    , "aff"
     , "console"
+    , "datetime"
     , "effect"
+    , "either"
     , "indexed-monad"
-    , "prelude"
+    , "maybe"
+    , "newtype"
+    , "numbers"
     , "react-basic"
+    , "type-equality"
+    , "unsafe-coerce"
     , "unsafe-reference"
+    , "web-html"
     ]
   , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
-  , version = "v5.2.0"
+  , version = "v6.0.0"
   }
 , uuid =
   { dependencies = [ "effect", "maybe", "foreign-generic", "console", "spec" ]

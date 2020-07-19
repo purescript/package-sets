@@ -16,6 +16,6 @@
     , "random"
     ]
   , repo = "https://github.com/kRITZCREEK/purescript-psc-ide.git"
-  , version = "v15.0.1"
+  , version = "v16.0.0"
   }
 }

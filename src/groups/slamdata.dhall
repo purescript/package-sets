@@ -1,4 +1,17 @@
-{ aff =
+{ ace =
+  { dependencies =
+    [ "effect"
+    , "web-html"
+    , "web-uievents"
+    , "arrays"
+    , "foreign"
+    , "nullable"
+    , "prelude"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-ace.git"
+  , version = "v7.0.0"
+  }
+, aff =
   { dependencies =
     [ "datetime"
     , "effect"
@@ -39,7 +52,7 @@
     , "web-xhr"
     ]
   , repo = "https://github.com/slamdata/purescript-affjax.git"
-  , version = "v10.0.0"
+  , version = "v10.1.0"
   }
 , css =
   { dependencies =
@@ -108,7 +121,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/slamdata/purescript-halogen.git"
-  , version = "v5.0.0-rc.9"
+  , version = "v5.0.1"
   }
 , halogen-bootstrap =
   { dependencies = [ "halogen" ]

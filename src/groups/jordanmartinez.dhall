@@ -1,4 +1,14 @@
-{ halogen-hooks-extra =
+{ arrays-zipper =
+  { dependencies = [ "arrays" ]
+  , repo = "https://github.com/JordanMartinez/purescript-arrays-zipper.git"
+  , version = "v1.0.0"
+  }
+, halogen-svg-elems =
+  { dependencies = [ "effect", "halogen", "prelude", "strings", "web-uievents" ]
+  , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
+  , version = "v2.0.1"
+  }
+, halogen-hooks-extra =
   { dependencies = [ "halogen-hooks" ]
   , repo =
       "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git"
