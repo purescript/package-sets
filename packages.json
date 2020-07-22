@@ -1704,6 +1704,14 @@
     "repo": "https://github.com/jordanmartinez/purescript-interpolate.git",
     "version": "v2.0.1"
   },
+  "intmap": {
+    "dependencies": [
+      "arraybuffer-class",
+      "parseint"
+    ],
+    "repo": "https://github.com/openchronology/purescript-intmap.git",
+    "version": "v0.0.0"
+  },
   "invariant": {
     "dependencies": [
       "prelude"
@@ -2810,6 +2818,13 @@
     ],
     "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
     "version": "v5.1.0"
+  },
+  "quickcheck-utf8": {
+    "dependencies": [
+      "quickcheck"
+    ],
+    "repo": "https://github.com/openchronology/purescript-quickcheck-utf8.git",
+    "version": "v0.0.0"
   },
   "quotient": {
     "dependencies": [
@@ -3953,7 +3968,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/athanclark/purescript-tuples-native.git",
-    "version": "v2.0.2"
+    "version": "v2.1.0"
   },
   "type-equality": {
     "dependencies": [],

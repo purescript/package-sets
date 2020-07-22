@@ -88,5 +88,6 @@ let packages =
       ⫽ ./groups/purescript-grain.dhall
       ⫽ ./groups/mjepronk.dhall
       ⫽ ./groups/dariooddenino.dhall
+      ⫽ ./groups/openchronology.dhall
 
 in  packages

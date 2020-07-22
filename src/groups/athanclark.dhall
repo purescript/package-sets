@@ -110,7 +110,7 @@
 , tuples-native =
   { dependencies = [ "generics-rep", "typelevel", "unsafe-coerce" ]
   , repo = "https://github.com/athanclark/purescript-tuples-native.git"
-  , version = "v2.0.2"
+  , version = "v2.1.0"
   }
 , uint-instances =
   { dependencies = [ "uint", "unordered-collections", "argonaut", "quickcheck" ]
