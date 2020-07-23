@@ -1873,6 +1873,21 @@
     "repo": "https://github.com/purescript/purescript-lists.git",
     "version": "v5.4.1"
   },
+  "literals": {
+    "dependencies": [
+      "assert",
+      "console",
+      "effect",
+      "integers",
+      "numbers",
+      "partial",
+      "psci-support",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/jvliwanag/purescript-literals.git",
+    "version": "v0.1.1"
+  },
   "logging": {
     "dependencies": [
       "console",
