@@ -1,7 +1,7 @@
 { bigints =
   { dependencies = [ "integers", "maybe", "strings" ]
   , repo = "https://github.com/sharkdp/purescript-bigints.git"
-  , version = "v4.0.0"
+  , version = "master"
   }
 , colors =
   { dependencies = [ "arrays", "integers", "lists", "partial", "strings" ]
@@ -11,7 +11,7 @@
 , decimals =
   { dependencies = [ "maybe" ]
   , repo = "https://github.com/sharkdp/purescript-decimals.git"
-  , version = "v5.0.0"
+  , version = "master"
   }
 , flare =
   { dependencies =

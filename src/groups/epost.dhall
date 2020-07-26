@@ -13,6 +13,6 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/epost/purescript-node-postgres.git"
-  , version = "v5.0.0"
+  , version = "master"
   }
 }

@@ -10,13 +10,13 @@
   }
 , identy =
   { dependencies = [ "simple-json" ]
-  , repo = "https://github.com/oreshinya/purescript-identy.git"
-  , version = "v2.1.0"
+  , repo = "https://github.com/jordanmartinez/purescript-identy.git"
+  , version = "polykindsUpdate"
   }
 , mysql =
   { dependencies = [ "aff", "js-date", "simple-json" ]
   , repo = "https://github.com/oreshinya/purescript-mysql.git"
-  , version = "v4.1.1"
+  , version = "master"
   }
 , nodemailer =
   { dependencies = [ "aff", "node-streams", "simple-json" ]
@@ -30,8 +30,8 @@
   }
 , simple-i18n =
   { dependencies = [ "record-extra", "foreign-object" ]
-  , repo = "https://github.com/oreshinya/purescript-simple-i18n.git"
-  , version = "v0.1.2"
+  , repo = "https://github.com/jordanmartinez/purescript-simple-i18n.git"
+  , version = "polykindsUpdate"
   }
 , simple-jwt =
   { dependencies = [ "crypto", "simple-json", "strings" ]

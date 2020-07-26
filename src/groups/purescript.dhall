@@ -14,12 +14,12 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-arrays.git"
-  , version = "v5.3.1"
+  , version = "master"
   }
 , assert =
   { dependencies = [ "console", "effect", "prelude" ]
-  , repo = "https://github.com/purescript/purescript-assert.git"
-  , version = "v4.1.0"
+  , repo = "https://github.com/kl0tl/purescript-assert.git"
+  , version = "no-foreign-primes"
   }
 , bifunctors =
   { dependencies = [ "newtype", "prelude" ]
@@ -172,7 +172,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-foreign-object.git"
-  , version = "v2.0.3"
+  , version = "ps-0.14"
   }
 , free =
   { dependencies =
@@ -375,7 +375,7 @@
 , prelude =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-prelude.git"
-  , version = "v4.1.1"
+  , version = "ps-0.14"
   }
 , profunctor =
   { dependencies =
@@ -443,13 +443,13 @@
   }
 , record =
   { dependencies = [ "functions", "prelude", "st", "unsafe-coerce" ]
-  , repo = "https://github.com/purescript/purescript-record.git"
-  , version = "v2.0.2"
+  , repo = "https://github.com/kl0tl/purescript-record.git"
+  , version = "psc-0.14.0"
   }
 , refs =
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-refs.git"
-  , version = "v4.1.0"
+  , version = "master"
   }
 , semirings =
   { dependencies = [ "foldable-traversable", "lists", "newtype", "prelude" ]
@@ -458,8 +458,8 @@
   }
 , st =
   { dependencies = [ "partial", "prelude", "tailrec", "unsafe-coerce" ]
-  , repo = "https://github.com/purescript/purescript-st.git"
-  , version = "v4.1.1"
+  , repo = "https://github.com/kl0tl/purescript-st.git"
+  , version = "no-foreign-primes"
   }
 , strings =
   { dependencies =
@@ -481,7 +481,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-strings.git"
-  , version = "v4.0.2"
+  , version = "master"
   }
 , tailrec =
   { dependencies =
@@ -540,7 +540,7 @@
 , typelevel-prelude =
   { dependencies = [ "prelude", "proxy", "type-equality" ]
   , repo = "https://github.com/purescript/purescript-typelevel-prelude.git"
-  , version = "v5.0.2"
+  , version = "ps-0.14"
   }
 , unfoldable =
   { dependencies =

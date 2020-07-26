@@ -26,8 +26,8 @@
   }
 , aff-bus =
   { dependencies = [ "avar", "prelude" ]
-  , repo = "https://github.com/slamdata/purescript-aff-bus.git"
-  , version = "v4.0.0"
+  , repo = "https://github.com/kl0tl/purescript-aff-bus.git"
+  , version = "roles-declarations"
   }
 , avar =
   { dependencies =
@@ -121,7 +121,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/slamdata/purescript-halogen.git"
-  , version = "v5.0.1"
+  , version = "master"
   }
 , halogen-bootstrap =
   { dependencies = [ "halogen" ]
@@ -163,7 +163,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/slamdata/purescript-pathy.git"
-  , version = "v7.0.1"
+  , version = "ps-0.14"
   }
 , routing =
   { dependencies =

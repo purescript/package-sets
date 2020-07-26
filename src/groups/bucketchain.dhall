@@ -56,8 +56,8 @@
 , bucketchain-simple-api =
   { dependencies = [ "bucketchain", "media-types", "simple-json", "freet" ]
   , repo =
-      "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git"
-  , version = "v3.0.0"
+      "https://github.com/jordanmartinez/purescript-bucketchain-simple-api.git"
+  , version = "polykindsUpdate"
   }
 , bucketchain-sslify =
   { dependencies = [ "bucketchain" ]

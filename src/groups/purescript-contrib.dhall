@@ -60,7 +60,7 @@
   { dependencies = [] : List Text
   , repo =
       "https://github.com/purescript-contrib/purescript-arraybuffer-types.git"
-  , version = "v2.0.0"
+  , version = "ps-0.14"
   }
 , coroutines =
   { dependencies = [ "freet", "parallel", "profunctor" ]
@@ -106,7 +106,7 @@
 , jquery =
   { dependencies = [ "console", "effect", "foreign", "web-dom" ]
   , repo = "https://github.com/purescript-contrib/purescript-jquery.git"
-  , version = "v5.0.0"
+  , version = "master"
   }
 , machines =
   { dependencies =
@@ -197,8 +197,8 @@
     , "typelevel-prelude"
     , "unsafe-coerce"
     ]
-  , repo = "https://github.com/purescript-contrib/purescript-react.git"
-  , version = "v8.0.0"
+  , repo = "https://github.com/kl0tl/purescript-react.git"
+  , version = "roles-declarations"
   }
 , react-dom =
   { dependencies = [ "effect", "react", "web-dom" ]

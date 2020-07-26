@@ -2,7 +2,7 @@
   { dependencies =
     [ "arraybuffer-types", "effect", "maybe", "st", "unsafe-coerce" ]
   , repo = "https://github.com/purescript-node/purescript-node-buffer.git"
-  , version = "v6.0.0"
+  , version = "master"
   }
 , node-child-process =
   { dependencies =

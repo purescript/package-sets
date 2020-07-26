@@ -12,6 +12,6 @@
     , "uint"
     ]
   , repo = "https://github.com/jacereda/purescript-arraybuffer.git"
-  , version = "v10.0.2"
+  , version = "polykindsupdate"
   }
 }

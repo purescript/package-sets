@@ -17,6 +17,6 @@
     , "nullable"
     ]
   , repo = "https://github.com/Dretch/purescript-querydsl.git"
-  , version = "v0.10.1"
+  , version = "ps-0.14"
   }
 }

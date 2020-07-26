@@ -27,7 +27,7 @@
 , web-html =
   { dependencies = [ "js-date", "web-dom", "web-file", "web-storage" ]
   , repo = "https://github.com/purescript-web/purescript-web-html.git"
-  , version = "v2.3.0"
+  , version = "master"
   }
 , web-socket =
   { dependencies = [ "arraybuffer-types", "web-file" ]
