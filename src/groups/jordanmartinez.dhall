@@ -12,7 +12,7 @@
   { dependencies = [ "halogen-hooks" ]
   , repo =
       "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git"
-  , version = "v0.6.0"
+  , version = "v0.7.1"
   }
 , interpolate =
   { dependencies = [ "prelude" ]
