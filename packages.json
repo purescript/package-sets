@@ -3255,6 +3255,17 @@
     "repo": "https://github.com/natefaubion/purescript-run.git",
     "version": "v3.0.1"
   },
+  "run-halogen": {
+    "dependencies": [
+      "console",
+      "effect",
+      "halogen",
+      "psci-support",
+      "run"
+    ],
+    "repo": "https://github.com/sigilion/purescript-run-halogen.git",
+    "version": "v0.1.0"
+  },
   "run-profunctor-lenses": {
     "dependencies": [
       "console",
