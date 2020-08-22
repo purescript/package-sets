@@ -196,6 +196,14 @@
     "repo": "https://github.com/jacereda/purescript-arraybuffer.git",
     "version": "v10.0.2"
   },
+  "arraybuffer-builder": {
+    "dependencies": [
+      "arraybuffer",
+      "arraybuffer-types"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git",
+    "version": "v1.0.0"
+  },
   "arraybuffer-class": {
     "dependencies": [
       "arraybuffer",
@@ -1457,7 +1465,7 @@
       "halogen-hooks"
     ],
     "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
-    "version": "v0.6.0"
+    "version": "v0.7.1"
   },
   "halogen-select": {
     "dependencies": [
@@ -2019,6 +2027,23 @@
     "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
     "version": "v5.1.0"
   },
+  "mol-draw": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "either",
+      "integers",
+      "math",
+      "numbers",
+      "ordered-collections",
+      "strings",
+      "stringutils",
+      "validated-molecule"
+    ],
+    "repo": "https://github.com/lukasturcani/mol-draw.git",
+    "version": "v1.0.16"
+  },
   "monad-control": {
     "dependencies": [
       "aff",
@@ -2523,6 +2548,15 @@
     ],
     "repo": "https://github.com/markfarrell/purescript-parsing-expect.git",
     "version": "v0.0.3"
+  },
+  "parsing-dataview": {
+    "dependencies": [
+      "arraybuffer",
+      "arraybuffer-types",
+      "parsing"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-parsing-dataview.git",
+    "version": "v1.1.1"
   },
   "partial": {
     "dependencies": [],
@@ -3249,6 +3283,17 @@
     "repo": "https://github.com/natefaubion/purescript-run.git",
     "version": "v3.0.1"
   },
+  "run-halogen": {
+    "dependencies": [
+      "console",
+      "effect",
+      "halogen",
+      "psci-support",
+      "run"
+    ],
+    "repo": "https://github.com/sigilion/purescript-run-halogen.git",
+    "version": "v0.1.0"
+  },
   "run-profunctor-lenses": {
     "dependencies": [
       "console",
@@ -3970,7 +4015,7 @@
       "trout"
     ],
     "repo": "https://github.com/purescript-hyper/purescript-trout-client.git",
-    "version": "v0.12.1"
+    "version": "v0.13.0"
   },
   "tuples": {
     "dependencies": [
@@ -4176,6 +4221,17 @@
     ],
     "repo": "https://github.com/spicydonuts/purescript-uuid.git",
     "version": "v6.1.0"
+  },
+  "validated-molecule": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "lists",
+      "psci-support"
+    ],
+    "repo": "https://github.com/lukasturcani/validated-molecule.git",
+    "version": "v1.0.5"
   },
   "validation": {
     "dependencies": [

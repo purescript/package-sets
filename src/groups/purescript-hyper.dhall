@@ -40,6 +40,6 @@
 , trout-client =
   { dependencies = [ "affjax", "argonaut-generic", "prelude", "trout" ]
   , repo = "https://github.com/purescript-hyper/purescript-trout-client.git"
-  , version = "v0.12.1"
+  , version = "v0.13.0"
   }
 }
