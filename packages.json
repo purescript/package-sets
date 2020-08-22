@@ -2513,6 +2513,17 @@
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
     "version": "v5.0.3"
   },
+  "parsing-expect": {
+    "dependencies": [
+      "console",
+      "effect",
+      "parsing",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/markfarrell/purescript-parsing-expect.git",
+    "version": "v0.0.3"
+  },
   "partial": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-partial.git",
