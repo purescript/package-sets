@@ -31,5 +31,5 @@ pkgs.runCommand "easy-ps-test" {
     builtins.attrValues {
       inherit (easy-dhall) dhall-simple dhall-json-simple;
     } ++
-    [ pkgs.git ];
+    [ pkgs.git pkgs.wget pkgs.jq ];
 } ""
