@@ -32,6 +32,7 @@ let packages =
       ⫽ ./groups/garyb.dhall
       ⫽ ./groups/gcanti.dhall
       ⫽ ./groups/hdgarrood.dhall
+      ⫽ ./groups/hoodunit.dhall
       ⫽ ./groups/hrajchert.dhall
       ⫽ ./groups/i-am-tom.dhall
       ⫽ ./groups/icyrockcom.dhall
