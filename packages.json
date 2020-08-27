@@ -268,6 +268,17 @@
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v3.0.0"
   },
+  "axios": {
+    "dependencies": [
+      "aff",
+      "console",
+      "effect",
+      "foreign-generic",
+      "prelude"
+    ],
+    "repo": "https://github.com/iarthstar/purescript-axios.git",
+    "version": "v1.1.2"
+  },
   "b64": {
     "dependencies": [
       "arraybuffer-types",
