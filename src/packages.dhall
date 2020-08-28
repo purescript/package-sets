@@ -32,6 +32,7 @@ let packages =
       ⫽ ./groups/garyb.dhall
       ⫽ ./groups/gcanti.dhall
       ⫽ ./groups/hdgarrood.dhall
+      ⫽ ./groups/hoodunit.dhall
       ⫽ ./groups/hrajchert.dhall
       ⫽ ./groups/i-am-tom.dhall
       ⫽ ./groups/icyrockcom.dhall
@@ -93,5 +94,6 @@ let packages =
       ⫽ ./groups/openchronology.dhall
       ⫽ ./groups/markfarrell.dhall
       ⫽ ./groups/lukasturcani.dhall
+      ⫽ ./groups/iarthstar.dhall
 
 in  packages

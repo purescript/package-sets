@@ -268,6 +268,17 @@
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v3.0.0"
   },
+  "axios": {
+    "dependencies": [
+      "aff",
+      "console",
+      "effect",
+      "foreign-generic",
+      "prelude"
+    ],
+    "repo": "https://github.com/iarthstar/purescript-axios.git",
+    "version": "v1.1.2"
+  },
   "b64": {
     "dependencies": [
       "arraybuffer-types",
@@ -2024,7 +2035,7 @@
       "functors",
       "transformers"
     ],
-    "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
+    "repo": "https://github.com/thimoteus/purescript-mmorph.git",
     "version": "v5.1.0"
   },
   "mol-draw": {
@@ -2423,6 +2434,17 @@
     "repo": "https://github.com/purescript-contrib/purescript-options.git",
     "version": "v5.0.0"
   },
+  "optlicative": {
+    "dependencies": [
+      "console",
+      "foreign",
+      "node-process",
+      "record",
+      "validation"
+    ],
+    "repo": "https://github.com/thimoteus/purescript-optlicative.git",
+    "version": "v6.0.1"
+  },
   "optparse": {
     "dependencies": [
       "arrays",
@@ -2578,6 +2600,28 @@
     ],
     "repo": "https://github.com/slamdata/purescript-pathy.git",
     "version": "v7.0.1"
+  },
+  "payload": {
+    "dependencies": [
+      "aff",
+      "affjax",
+      "console",
+      "debug",
+      "effect",
+      "foreign-generic",
+      "node-fs",
+      "node-fs-aff",
+      "node-http",
+      "prelude",
+      "psci-support",
+      "record",
+      "simple-json",
+      "stringutils",
+      "test-unit",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/hoodunit/purescript-payload",
+    "version": "v0.3.0"
   },
   "phoenix": {
     "dependencies": [
