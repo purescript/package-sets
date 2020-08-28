@@ -2560,6 +2560,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
     "version": "v5.0.3"
   },
+  "parsing-dataview": {
+    "dependencies": [
+      "arraybuffer",
+      "arraybuffer-types",
+      "parsing"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-parsing-dataview.git",
+    "version": "v1.1.1"
+  },
   "parsing-expect": {
     "dependencies": [
       "console",
@@ -2570,15 +2579,6 @@
     ],
     "repo": "https://github.com/markfarrell/purescript-parsing-expect.git",
     "version": "v0.0.3"
-  },
-  "parsing-dataview": {
-    "dependencies": [
-      "arraybuffer",
-      "arraybuffer-types",
-      "parsing"
-    ],
-    "repo": "https://github.com/jamesdbrock/purescript-parsing-dataview.git",
-    "version": "v1.1.1"
   },
   "partial": {
     "dependencies": [],
