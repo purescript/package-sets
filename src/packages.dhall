@@ -92,6 +92,7 @@ let packages =
       ⫽ ./groups/mjepronk.dhall
       ⫽ ./groups/dariooddenino.dhall
       ⫽ ./groups/openchronology.dhall
+      ⫽ ./groups/markfarrell.dhall
       ⫽ ./groups/lukasturcani.dhall
       ⫽ ./groups/iarthstar.dhall
 

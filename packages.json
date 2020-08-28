@@ -2569,6 +2569,17 @@
     "repo": "https://github.com/jamesdbrock/purescript-parsing-dataview.git",
     "version": "v1.1.1"
   },
+  "parsing-expect": {
+    "dependencies": [
+      "console",
+      "effect",
+      "parsing",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/markfarrell/purescript-parsing-expect.git",
+    "version": "v0.0.3"
+  },
   "partial": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-partial.git",
