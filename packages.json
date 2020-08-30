@@ -4289,6 +4289,15 @@
     "repo": "https://github.com/purescript/purescript-validation.git",
     "version": "v4.2.0"
   },
+  "var": {
+    "dependencies": [
+      "contravariant",
+      "effect",
+      "invariant"
+    ],
+    "repo": "https://github.com/zudov/purescript-var.git",
+    "version": "v3.0.0"
+  },
   "variant": {
     "dependencies": [
       "enums",
@@ -4422,6 +4431,18 @@
     ],
     "repo": "https://github.com/athanclark/purescript-websocket-moderate.git",
     "version": "v7.0.2"
+  },
+  "websocket-simple": {
+    "dependencies": [
+      "effect",
+      "exceptions",
+      "generics-rep",
+      "var",
+      "web-events",
+      "web-socket"
+    ],
+    "repo": "https://github.com/zudov/purescript-websocket-simple.git",
+    "version": "v3.0.1"
   },
   "xiaomian": {
     "dependencies": [
