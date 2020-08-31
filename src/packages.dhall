@@ -95,5 +95,6 @@ let packages =
       ⫽ ./groups/markfarrell.dhall
       ⫽ ./groups/lukasturcani.dhall
       ⫽ ./groups/iarthstar.dhall
+      ⫽ ./groups/dirkz.dhall
 
 in  packages
