@@ -1356,6 +1356,18 @@
     "repo": "https://github.com/purescript/purescript-generics-rep.git",
     "version": "v6.1.1"
   },
+  "gl-matrix": {
+    "dependencies": [
+      "console",
+      "effect",
+      "functions",
+      "partial",
+      "psci-support",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/dirkz/purescript-gl-matrix",
+    "version": "v2.0.0"
+  },
   "globals": {
     "dependencies": [
       "functions",
