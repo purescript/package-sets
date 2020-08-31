@@ -1,13 +1,15 @@
 { gl-matrix =
   { dependencies =
-    [ "console"
+    [ "arrays"
     , "effect"
+    , "foldable-traversable"
     , "functions"
+    , "math"
     , "partial"
+    , "prelude"
     , "psci-support"
-    , "quickcheck"
     ]
   , repo = "https://github.com/dirkz/purescript-gl-matrix"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 }
