@@ -10,7 +10,7 @@
     , "psci-support"
     ]
   , repo = "https://github.com/3ddyy/purescript-polymorphic-vectors.git"
-  , version = "v1.1.1"
+  , version = "v1.1.2"
   }
 , canvas-action =
   { dependencies =
@@ -37,6 +37,43 @@
     , "web-html"
     ]
   , repo = "https://github.com/3ddyy/purescript-canvas-action.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
+  }
+, game =
+  { dependencies =
+    [ "aff"
+    , "canvas-action"
+    , "console"
+    , "control"
+    , "datetime"
+    , "effect"
+    , "filterable"
+    , "foldable-traversable"
+    , "fork"
+    , "free"
+    , "functors"
+    , "identity"
+    , "js-timers"
+    , "monad-loops"
+    , "newtype"
+    , "now"
+    , "parallel"
+    , "partial"
+    , "polymorphic-vectors"
+    , "prelude"
+    , "psci-support"
+    , "record"
+    , "record-extra"
+    , "refs"
+    , "run"
+    , "tailrec"
+    , "typelevel-prelude"
+    , "undefined"
+    , "variant"
+    , "web-html"
+    , "web-uievents"
+    ]
+  , repo = "https://github.com/3ddyy/purescript-game.git"
+  , version = "v2.0.0"
   }
 }
