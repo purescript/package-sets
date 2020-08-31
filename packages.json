@@ -553,6 +553,33 @@
     "repo": "https://github.com/purescript-web/purescript-canvas.git",
     "version": "v4.0.0"
   },
+  "canvas-action": {
+    "dependencies": [
+      "aff",
+      "canvas",
+      "colors",
+      "console",
+      "effect",
+      "exceptions",
+      "foldable-traversable",
+      "free",
+      "lists",
+      "math",
+      "maybe",
+      "newtype",
+      "partial",
+      "polymorphic-vectors",
+      "prelude",
+      "psci-support",
+      "run",
+      "transformers",
+      "tuples",
+      "typelevel-prelude",
+      "web-html"
+    ],
+    "repo": "https://github.com/3ddyy/purescript-canvas-action.git",
+    "version": "v5.0.1"
+  },
   "cartesian": {
     "dependencies": [
       "console",
@@ -1328,6 +1355,43 @@
     ],
     "repo": "https://github.com/citizennet/purescript-fuzzy.git",
     "version": "v0.3.0"
+  },
+  "game": {
+    "dependencies": [
+      "aff",
+      "canvas-action",
+      "console",
+      "control",
+      "datetime",
+      "effect",
+      "filterable",
+      "foldable-traversable",
+      "fork",
+      "free",
+      "functors",
+      "identity",
+      "js-timers",
+      "monad-loops",
+      "newtype",
+      "now",
+      "parallel",
+      "partial",
+      "polymorphic-vectors",
+      "prelude",
+      "psci-support",
+      "record",
+      "record-extra",
+      "refs",
+      "run",
+      "tailrec",
+      "typelevel-prelude",
+      "undefined",
+      "variant",
+      "web-html",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/3ddyy/purescript-game.git",
+    "version": "v2.0.0"
   },
   "gen": {
     "dependencies": [
@@ -2682,6 +2746,20 @@
     ],
     "repo": "https://github.com/paluh/purescript-polyform.git",
     "version": "v0.8.2"
+  },
+  "polymorphic-vectors": {
+    "dependencies": [
+      "canvas",
+      "console",
+      "distributive",
+      "effect",
+      "foldable-traversable",
+      "math",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/3ddyy/purescript-polymorphic-vectors.git",
+    "version": "v1.1.2"
   },
   "posix-types": {
     "dependencies": [
