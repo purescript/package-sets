@@ -1,7 +1,7 @@
 { arrays-zipper =
   { dependencies = [ "arrays" ]
   , repo = "https://github.com/JordanMartinez/purescript-arrays-zipper.git"
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , halogen-svg-elems =
   { dependencies = [ "effect", "halogen", "prelude", "strings", "web-uievents" ]
