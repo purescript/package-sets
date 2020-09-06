@@ -237,7 +237,7 @@
       "arrays"
     ],
     "repo": "https://github.com/JordanMartinez/purescript-arrays-zipper.git",
-    "version": "v1.0.0"
+    "version": "v1.0.1"
   },
   "assert": {
     "dependencies": [
