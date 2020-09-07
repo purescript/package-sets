@@ -15,7 +15,10 @@ test-psc-package:
 	@echo testing package set with psc-package
 	@psc-package install
 
-ci: generate test-psc-package
+verify-registry:
+	@./verify-packages-in-registry.sh
+
+ci: generate verify-registry test-psc-package
 	echo "Checking if packages.json has changed..."
 	git diff --exit-code packages.json
 	cd src && spago verify-set

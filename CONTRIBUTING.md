@@ -80,11 +80,10 @@ To hack on this project, it should be enough to have [nix](https://nixos.org/nix
     nix-shell --command make
 
 
-If you're unable to run Nix, then you should have the following installed:
-- [dhall]
-- [dhall-to-json][dhall]
-- [spago]
-- [psc-package]
+If you're unable to run Nix but able to run `docker`, then you can achieve the same result with the following:
+
+    docker run -t --mount type=bind,source="$(pwd)",target=/package-sets nixos/nix /bin/sh -c 'cd /package-sets; nix-shell --run "make"'
+
 
 ### TL;DR
 

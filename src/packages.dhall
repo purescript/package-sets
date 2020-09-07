@@ -5,7 +5,6 @@ let packages =
       ⫽ ./groups/purescript-node.dhall
       ⫽ ./groups/ad-si.dhall
       ⫽ ./groups/awakesecurity.dhall
-      ⫽ ./groups/joneshf.dhall
       ⫽ ./groups/liamgoodacre.dhall
       ⫽ ./groups/lukajcb.dhall
       ⫽ ./groups/michaelxavier.dhall
@@ -33,13 +32,16 @@ let packages =
       ⫽ ./groups/garyb.dhall
       ⫽ ./groups/gcanti.dhall
       ⫽ ./groups/hdgarrood.dhall
+      ⫽ ./groups/hoodunit.dhall
       ⫽ ./groups/hrajchert.dhall
       ⫽ ./groups/i-am-tom.dhall
       ⫽ ./groups/icyrockcom.dhall
       ⫽ ./groups/jacereda.dhall
+      ⫽ ./groups/jamesdbrock.dhall
       ⫽ ./groups/jamieyung.dhall
       ⫽ ./groups/juspay.dhall
       ⫽ ./groups/justinwoo.dhall
+      ⫽ ./groups/jvliwanag.dhall
       ⫽ ./groups/kcsongor.dhall
       ⫽ ./groups/klntsky.dhall
       ⫽ ./groups/krisajenkins.dhall
@@ -86,5 +88,15 @@ let packages =
       ⫽ ./groups/d86leader.dhall
       ⫽ ./groups/AlexaDeWit.dhall
       ⫽ ./groups/thought2.dhall
+      ⫽ ./groups/purescript-grain.dhall
+      ⫽ ./groups/mjepronk.dhall
+      ⫽ ./groups/dariooddenino.dhall
+      ⫽ ./groups/openchronology.dhall
+      ⫽ ./groups/markfarrell.dhall
+      ⫽ ./groups/lukasturcani.dhall
+      ⫽ ./groups/iarthstar.dhall
+      ⫽ ./groups/3ddyy.dhall
+      ⫽ ./groups/dirkz.dhall
+      ⫽ ./groups/pelotom.dhall
 
 in  packages

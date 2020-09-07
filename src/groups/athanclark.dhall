@@ -110,12 +110,12 @@
 , tuples-native =
   { dependencies = [ "generics-rep", "typelevel", "unsafe-coerce" ]
   , repo = "https://github.com/athanclark/purescript-tuples-native.git"
-  , version = "v2.0.2"
+  , version = "v2.1.0"
   }
 , uint-instances =
   { dependencies = [ "uint", "unordered-collections", "argonaut", "quickcheck" ]
   , repo = "https://github.com/athanclark/purescript-uint-instances.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , websocket-moderate =
   { dependencies =
@@ -128,7 +128,7 @@
     , "web-file"
     ]
   , repo = "https://github.com/athanclark/purescript-websocket-moderate.git"
-  , version = "v7.0.1"
+  , version = "v7.0.2"
   }
 , z85 =
   { dependencies = [ "arraybuffer", "sized-vectors", "numbers", "stringutils" ]
