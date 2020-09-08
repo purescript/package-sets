@@ -18,7 +18,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
-  , version = "v6.0.0"
+  , version = "v6.1.1"
   }
 , uuid =
   { dependencies = [ "effect", "maybe", "foreign-generic", "console", "spec" ]

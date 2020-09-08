@@ -16,7 +16,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/lumihq/purescript-react-basic-dom.git"
-  , version = "v2.0.0"
+  , version = "v3.1.0"
   }
 , react-basic-classic =
   { dependencies =
@@ -43,7 +43,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/lumihq/purescript-react-basic-emotion.git"
-  , version = "v4.2.2"
+  , version = "v5.0.0"
   }
 , react-basic-compat =
   { dependencies = [ "effect", "react-basic-classic" ]
