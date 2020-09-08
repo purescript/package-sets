@@ -643,6 +643,14 @@
     "repo": "https://github.com/justinwoo/purescript-chocopie.git",
     "version": "v5.0.0"
   },
+  "classnames": {
+    "dependencies": [
+      "record",
+      "strings"
+    ],
+    "repo": "https://github.com/dewey92/purescript-classnames",
+    "version": "v0.1.1"
+  },
   "clipboardy": {
     "dependencies": [
       "aff",
