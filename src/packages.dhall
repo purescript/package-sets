@@ -32,10 +32,12 @@ let packages =
       ⫽ ./groups/garyb.dhall
       ⫽ ./groups/gcanti.dhall
       ⫽ ./groups/hdgarrood.dhall
+      ⫽ ./groups/hoodunit.dhall
       ⫽ ./groups/hrajchert.dhall
       ⫽ ./groups/i-am-tom.dhall
       ⫽ ./groups/icyrockcom.dhall
       ⫽ ./groups/jacereda.dhall
+      ⫽ ./groups/jamesdbrock.dhall
       ⫽ ./groups/jamieyung.dhall
       ⫽ ./groups/juspay.dhall
       ⫽ ./groups/justinwoo.dhall
@@ -90,5 +92,11 @@ let packages =
       ⫽ ./groups/mjepronk.dhall
       ⫽ ./groups/dariooddenino.dhall
       ⫽ ./groups/openchronology.dhall
+      ⫽ ./groups/markfarrell.dhall
+      ⫽ ./groups/lukasturcani.dhall
+      ⫽ ./groups/iarthstar.dhall
+      ⫽ ./groups/3ddyy.dhall
+      ⫽ ./groups/dirkz.dhall
+      ⫽ ./groups/pelotom.dhall
 
 in  packages

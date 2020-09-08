@@ -196,6 +196,14 @@
     "repo": "https://github.com/jacereda/purescript-arraybuffer.git",
     "version": "v10.0.2"
   },
+  "arraybuffer-builder": {
+    "dependencies": [
+      "arraybuffer",
+      "arraybuffer-types"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git",
+    "version": "v1.0.0"
+  },
   "arraybuffer-class": {
     "dependencies": [
       "arraybuffer",
@@ -261,6 +269,17 @@
     ],
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v3.0.0"
+  },
+  "axios": {
+    "dependencies": [
+      "aff",
+      "console",
+      "effect",
+      "foreign-generic",
+      "prelude"
+    ],
+    "repo": "https://github.com/iarthstar/purescript-axios.git",
+    "version": "v1.1.2"
   },
   "b64": {
     "dependencies": [
@@ -535,6 +554,33 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-canvas.git",
     "version": "v4.0.0"
+  },
+  "canvas-action": {
+    "dependencies": [
+      "aff",
+      "canvas",
+      "colors",
+      "console",
+      "effect",
+      "exceptions",
+      "foldable-traversable",
+      "free",
+      "lists",
+      "math",
+      "maybe",
+      "newtype",
+      "partial",
+      "polymorphic-vectors",
+      "prelude",
+      "psci-support",
+      "run",
+      "transformers",
+      "tuples",
+      "typelevel-prelude",
+      "web-html"
+    ],
+    "repo": "https://github.com/3ddyy/purescript-canvas-action.git",
+    "version": "v5.0.1"
   },
   "cartesian": {
     "dependencies": [
@@ -861,6 +907,13 @@
     ],
     "repo": "https://github.com/paf31/purescript-drawing.git",
     "version": "v4.0.0"
+  },
+  "easy-ffi": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/pelotom/purescript-easy-ffi",
+    "version": "v2.1.2"
   },
   "effect": {
     "dependencies": [
@@ -1312,6 +1365,43 @@
     "repo": "https://github.com/citizennet/purescript-fuzzy.git",
     "version": "v0.3.0"
   },
+  "game": {
+    "dependencies": [
+      "aff",
+      "canvas-action",
+      "console",
+      "control",
+      "datetime",
+      "effect",
+      "filterable",
+      "foldable-traversable",
+      "fork",
+      "free",
+      "functors",
+      "identity",
+      "js-timers",
+      "monad-loops",
+      "newtype",
+      "now",
+      "parallel",
+      "partial",
+      "polymorphic-vectors",
+      "prelude",
+      "psci-support",
+      "record",
+      "record-extra",
+      "refs",
+      "run",
+      "tailrec",
+      "typelevel-prelude",
+      "undefined",
+      "variant",
+      "web-html",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/3ddyy/purescript-game.git",
+    "version": "v2.0.0"
+  },
   "gen": {
     "dependencies": [
       "either",
@@ -1338,6 +1428,20 @@
     ],
     "repo": "https://github.com/purescript/purescript-generics-rep.git",
     "version": "v6.1.1"
+  },
+  "gl-matrix": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "foldable-traversable",
+      "functions",
+      "math",
+      "partial",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/dirkz/purescript-gl-matrix",
+    "version": "v2.0.1"
   },
   "globals": {
     "dependencies": [
@@ -1459,7 +1563,7 @@
       "halogen-hooks"
     ],
     "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
-    "version": "v0.6.0"
+    "version": "v0.7.1"
   },
   "halogen-select": {
     "dependencies": [
@@ -2018,8 +2122,25 @@
       "functors",
       "transformers"
     ],
-    "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
+    "repo": "https://github.com/thimoteus/purescript-mmorph.git",
     "version": "v5.1.0"
+  },
+  "mol-draw": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "either",
+      "integers",
+      "math",
+      "numbers",
+      "ordered-collections",
+      "strings",
+      "stringutils",
+      "validated-molecule"
+    ],
+    "repo": "https://github.com/lukasturcani/mol-draw.git",
+    "version": "v1.0.16"
   },
   "monad-control": {
     "dependencies": [
@@ -2400,6 +2521,17 @@
     "repo": "https://github.com/purescript-contrib/purescript-options.git",
     "version": "v5.0.0"
   },
+  "optlicative": {
+    "dependencies": [
+      "console",
+      "foreign",
+      "node-process",
+      "record",
+      "validation"
+    ],
+    "repo": "https://github.com/thimoteus/purescript-optlicative.git",
+    "version": "v6.0.1"
+  },
   "optparse": {
     "dependencies": [
       "arrays",
@@ -2515,6 +2647,38 @@
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
     "version": "v5.0.3"
   },
+  "parsing-dataview": {
+    "dependencies": [
+      "arraybuffer",
+      "arraybuffer-types",
+      "parsing"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-parsing-dataview.git",
+    "version": "v1.1.1"
+  },
+  "parsing-expect": {
+    "dependencies": [
+      "console",
+      "effect",
+      "parsing",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/markfarrell/purescript-parsing-expect.git",
+    "version": "v0.0.3"
+  },
+  "parsing-repetition": {
+    "dependencies": [
+      "console",
+      "effect",
+      "parsing",
+      "parsing-expect",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/markfarrell/purescript-parsing-repetition.git",
+    "version": "v0.0.6"
+  },
   "partial": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-partial.git",
@@ -2535,6 +2699,28 @@
     ],
     "repo": "https://github.com/slamdata/purescript-pathy.git",
     "version": "v7.0.1"
+  },
+  "payload": {
+    "dependencies": [
+      "aff",
+      "affjax",
+      "console",
+      "debug",
+      "effect",
+      "foreign-generic",
+      "node-fs",
+      "node-fs-aff",
+      "node-http",
+      "prelude",
+      "psci-support",
+      "record",
+      "simple-json",
+      "stringutils",
+      "test-unit",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/hoodunit/purescript-payload",
+    "version": "v0.3.0"
   },
   "phoenix": {
     "dependencies": [
@@ -2581,6 +2767,20 @@
     ],
     "repo": "https://github.com/paluh/purescript-polyform.git",
     "version": "v0.8.2"
+  },
+  "polymorphic-vectors": {
+    "dependencies": [
+      "canvas",
+      "console",
+      "distributive",
+      "effect",
+      "foldable-traversable",
+      "math",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/3ddyy/purescript-polymorphic-vectors.git",
+    "version": "v1.1.2"
   },
   "posix-types": {
     "dependencies": [
@@ -3239,6 +3439,17 @@
     ],
     "repo": "https://github.com/natefaubion/purescript-run.git",
     "version": "v3.0.1"
+  },
+  "run-halogen": {
+    "dependencies": [
+      "console",
+      "effect",
+      "halogen",
+      "psci-support",
+      "run"
+    ],
+    "repo": "https://github.com/sigilion/purescript-run-halogen.git",
+    "version": "v0.1.0"
   },
   "run-profunctor-lenses": {
     "dependencies": [
@@ -3961,7 +4172,7 @@
       "trout"
     ],
     "repo": "https://github.com/purescript-hyper/purescript-trout-client.git",
-    "version": "v0.12.1"
+    "version": "v0.13.0"
   },
   "tuples": {
     "dependencies": [
@@ -4141,6 +4352,24 @@
     "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference.git",
     "version": "v3.0.1"
   },
+  "untagged-union": {
+    "dependencies": [
+      "assert",
+      "console",
+      "effect",
+      "foreign",
+      "foreign-object",
+      "literals",
+      "maybe",
+      "newtype",
+      "proxy",
+      "psci-support",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/jvliwanag/purescript-untagged-union.git",
+    "version": "v0.1.1"
+  },
   "uri": {
     "dependencies": [
       "arrays",
@@ -4167,6 +4396,17 @@
     ],
     "repo": "https://github.com/spicydonuts/purescript-uuid.git",
     "version": "v6.1.0"
+  },
+  "validated-molecule": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "lists",
+      "psci-support"
+    ],
+    "repo": "https://github.com/lukasturcani/validated-molecule.git",
+    "version": "v1.0.5"
   },
   "validation": {
     "dependencies": [
