@@ -643,6 +643,14 @@
     "repo": "https://github.com/justinwoo/purescript-chocopie.git",
     "version": "v5.0.0"
   },
+  "classnames": {
+    "dependencies": [
+      "record",
+      "strings"
+    ],
+    "repo": "https://github.com/dewey92/purescript-classnames",
+    "version": "v0.1.1"
+  },
   "clipboardy": {
     "dependencies": [
       "aff",
@@ -3159,7 +3167,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic-dom.git",
-    "version": "v2.0.0"
+    "version": "v3.1.0"
   },
   "react-basic-emotion": {
     "dependencies": [
@@ -3173,7 +3181,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic-emotion.git",
-    "version": "v4.2.2"
+    "version": "v5.0.0"
   },
   "react-basic-hooks": {
     "dependencies": [
@@ -3195,7 +3203,7 @@
       "web-html"
     ],
     "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
-    "version": "v6.0.0"
+    "version": "v6.1.1"
   },
   "react-basic-native": {
     "dependencies": [
