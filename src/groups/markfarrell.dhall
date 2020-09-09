@@ -15,4 +15,9 @@
   , repo = "https://github.com/markfarrell/purescript-parsing-repetition.git"
   , version = "v0.0.6"
   }
+, parsing-validation =
+  { dependencies = [ "console", "effect", "parsing", "prelude", "psci-support" ]
+  , repo = "https://github.com/markfarrell/purescript-parsing-validation.git"
+  , version = "v0.1.2"
+  }
 }
