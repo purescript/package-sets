@@ -1435,6 +1435,16 @@
     "repo": "https://github.com/purescript/purescript-generics-rep.git",
     "version": "v6.1.1"
   },
+  "geometry-plane": {
+    "dependencies": [
+      "console",
+      "effect",
+      "psci-support",
+      "sparse-polynomials"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-geometry-plane.git",
+    "version": "v1.0.1"
+  },
   "gl-matrix": {
     "dependencies": [
       "arrays",
