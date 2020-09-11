@@ -16,7 +16,7 @@
   , repo = "https://github.com/purescript/purescript-arrays.git"
   , version = "v5.3.1"
   }
-, assert =
+, `assert` =
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-assert.git"
   , version = "v4.1.0"
