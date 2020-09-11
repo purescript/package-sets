@@ -15,8 +15,8 @@ let
     pkgs.fetchFromGitHub {
       owner = "justinwoo";
       repo = "easy-dhall-nix";
-      rev = "62f6ab3eec5a2c0bf62f604f48cd15465b10023a";
-      sha256 = "07lvvc3yvjy6ji3z320f467n485hzwwa9ldwi6zylxcb6a2jb7i0";
+      rev = "3e9101c5dfd69a9fc28fe4998aff378f91bfcb64";
+      sha256 = "1nsn1n4sx4za6jipcid1293rdw8lqgj9097s0khiij3fz0bzhrg9";
     }
   ) {
     inherit pkgs;
