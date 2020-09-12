@@ -20,4 +20,16 @@
   , repo = "https://github.com/markfarrell/purescript-parsing-validation.git"
   , version = "v0.1.2"
   }
+, parsing-hexadecimal =
+  { dependencies =
+    [ "console"
+    , "effect"
+    , "parsing"
+    , "prelude"
+    , "psci-support"
+    , "parsing-expect"
+    ]
+  , repo = "https://github.com/markfarrell/purescript-parsing-hexadecimal.git"
+  , version = "v0.0.2"
+  }
 }

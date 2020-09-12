@@ -2700,6 +2700,18 @@
     "repo": "https://github.com/markfarrell/purescript-parsing-expect.git",
     "version": "v0.0.3"
   },
+  "parsing-hexadecimal": {
+    "dependencies": [
+      "console",
+      "effect",
+      "parsing",
+      "parsing-expect",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/markfarrell/purescript-parsing-hexadecimal.git",
+    "version": "v0.0.2"
+  },
   "parsing-repetition": {
     "dependencies": [
       "console",
