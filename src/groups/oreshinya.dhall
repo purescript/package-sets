@@ -11,7 +11,7 @@
 , identy =
   { dependencies = [ "simple-json" ]
   , repo = "https://github.com/oreshinya/purescript-identy.git"
-  , version = "v2.1.0"
+  , version = "v2.2.0"
   }
 , mysql =
   { dependencies = [ "aff", "js-date", "simple-json" ]
