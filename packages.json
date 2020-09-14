@@ -1047,6 +1047,17 @@
     "repo": "https://github.com/nkly/purescript-express.git",
     "version": "v0.8.0"
   },
+  "ffi-foreign": {
+    "dependencies": [
+      "console",
+      "effect",
+      "foreign",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/markfarrell/purescript-ffi-foreign.git",
+    "version": "v0.0.2"
+  },
   "filterable": {
     "dependencies": [
       "arrays",
