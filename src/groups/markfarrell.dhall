@@ -32,4 +32,9 @@
   , repo = "https://github.com/markfarrell/purescript-parsing-hexadecimal.git"
   , version = "v0.0.2"
   }
+, ffi-foreign =
+  { dependencies = [ "console", "effect", "foreign", "prelude", "psci-support" ]
+  , repo = "https://github.com/markfarrell/purescript-ffi-foreign.git"
+  , version = "v0.0.2"
+  }
 }
