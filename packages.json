@@ -319,6 +319,29 @@
     "repo": "https://github.com/paf31/purescript-behaviors.git",
     "version": "v8.0.0"
   },
+  "benchotron": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "datetime",
+      "effect",
+      "exceptions",
+      "exists",
+      "foldable-traversable",
+      "identity",
+      "lcg",
+      "node-buffer",
+      "node-fs",
+      "node-readline",
+      "now",
+      "profunctor",
+      "quickcheck",
+      "strings",
+      "transformers"
+    ],
+    "repo": "https://github.com/hdgarrood/purescript-benchotron.git",
+    "version": "v7.0.1"
+  },
   "bifunctors": {
     "dependencies": [
       "newtype",
