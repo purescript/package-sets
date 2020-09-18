@@ -34,3 +34,15 @@ jobs:
           asset_path: ./packages.dhall
           asset_name: packages.dhall
           asset_content_type: application/x-dhall
+        # Now checkout master in order to update the latest-compatible-sets.json file
+      - uses: actions/checkout@v2
+        with:
+          ref: 'master'
+      - name: Update latest-compatible-sets.json
+        run: |
+          nix-shell --run './update-latest-compatible-sets.sh ${{ github.ref }}'
+      - name: Commit changes to latest-compatible-sets.json
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update latest-compatible-sets.json for ${{ github.ref }}
+          file_pattern: latest-compatible-sets.json
