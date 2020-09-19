@@ -2758,6 +2758,20 @@
     "repo": "https://github.com/markfarrell/purescript-parsing-repetition.git",
     "version": "v0.0.6"
   },
+  "parsing-uuid": {
+    "dependencies": [
+      "console",
+      "effect",
+      "parsing",
+      "parsing-expect",
+      "parsing-hexadecimal",
+      "parsing-repetition",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/markfarrell/purescript-parsing-uuid.git",
+    "version": "v0.0.3"
+  },
   "parsing-validation": {
     "dependencies": [
       "console",

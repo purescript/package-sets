@@ -37,4 +37,18 @@
   , repo = "https://github.com/markfarrell/purescript-ffi-foreign.git"
   , version = "v0.0.2"
   }
+, parsing-uuid =
+  { dependencies =
+    [ "console"
+    , "effect"
+    , "parsing"
+    , "prelude"
+    , "psci-support"
+    , "parsing-expect"
+    , "parsing-repetition"
+    , "parsing-hexadecimal"
+    ]
+  , repo = "https://github.com/markfarrell/purescript-parsing-uuid.git"
+  , version = "v0.0.3"
+  }
 }
