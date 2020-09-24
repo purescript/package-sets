@@ -2135,6 +2135,17 @@
     "repo": "https://github.com/kritzcreek/purescript-matrices.git",
     "version": "v5.0.1"
   },
+  "matryoshka": {
+    "dependencies": [
+      "fixed-points",
+      "free",
+      "prelude",
+      "profunctor",
+      "transformers"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-matryoshka.git",
+    "version": "v0.4.0"
+  },
   "maybe": {
     "dependencies": [
       "control",
