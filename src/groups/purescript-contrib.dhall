@@ -123,6 +123,12 @@
   , repo = "https://github.com/purescript-contrib/purescript-machines.git"
   , version = "v5.1.0"
   }
+, matryoshka =
+  { dependencies =
+    [ "free", "fixed-points", "profunctor", "prelude", "transformers" ]
+  , repo = "https://github.com/purescript-contrib/purescript-matryoshka.git"
+  , version = "v0.4.0"
+  }
 , media-types =
   { dependencies = [ "newtype", "prelude" ]
   , repo = "https://github.com/purescript-contrib/purescript-media-types.git"
