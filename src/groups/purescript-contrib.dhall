@@ -24,6 +24,7 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
+  {- TODO: make repo compatible again; too many changes since last attempt -}
   , version = "v7.0.0"
   }
 , argonaut-core =
@@ -60,6 +61,7 @@
   { dependencies = [] : List Text
   , repo =
       "https://github.com/purescript-contrib/purescript-arraybuffer-types.git"
+  {- TODO: merge the ps-0.14 branch into master branch -}
   , version = "v2.0.0"
   }
 , coroutines =
@@ -204,6 +206,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-react.git"
+  {- TODO: merge kl0tli's roles-declarations branch into master -}
   , version = "v8.0.0"
   }
 , react-dom =

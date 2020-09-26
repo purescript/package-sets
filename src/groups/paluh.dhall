@@ -24,6 +24,7 @@
     , "variant"
     ]
   , repo = "https://github.com/paluh/purescript-polyform.git"
+  { TODO: need to manually make library compatible again. Too many changes since last attempt -}
   , version = "v0.8.2"
   }
 , redis-client =

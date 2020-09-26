@@ -30,6 +30,6 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/nsaunders/purescript-typedenv.git"
-  , version = "v0.0.1"
+  , version = "ps-0.14"
   }
 }

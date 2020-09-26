@@ -12,6 +12,7 @@
   { dependencies =
     [ "either", "functors", "prelude", "record", "tuples", "variant" ]
   , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
+  {- TODO: my fork's polykindsupdate can be merged into master -}
   , version = "v0.4.1"
   }
 , psa-utils =
@@ -51,6 +52,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
+  {- TODO: my fork's polykindsupdate can be merged into master -}
   , version = "v0.4.1"
   }
 , run =
@@ -114,6 +116,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/natefaubion/purescript-variant.git"
+  {- TODO: kl0tli's psc-0.14.0 branch should be merged into master -}
   , version = "v6.0.1"
   }
 }

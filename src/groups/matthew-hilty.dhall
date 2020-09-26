@@ -16,6 +16,7 @@
 , proxying =
   { dependencies = [ "effect", "generics-rep", "prelude", "typelevel-prelude" ]
   , repo = "https://github.com/matthew-hilty/purescript-proxying.git"
+  {- TODO: my fork's polykindsupdate can be merged into master -}
   , version = "v1.1.0"
   }
 , struct =
@@ -30,6 +31,7 @@
     , "variant"
     ]
   , repo = "https://github.com/matthew-hilty/purescript-struct.git"
+  {- TODO: my fork's polykindsupdate can be merged into master -}
   , version = "v1.1.0"
   }
 , subcategory =
@@ -51,6 +53,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/matthew-hilty/purescript-tolerant-argonaut.git"
+  {- TODO: my fork's polykindsupdate can be merged into master -}
   , version = "v2.0.0"
   }
 }

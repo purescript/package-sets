@@ -27,6 +27,7 @@
 , aff-bus =
   { dependencies = [ "avar", "prelude" ]
   , repo = "https://github.com/slamdata/purescript-aff-bus.git"
+  {- merge kl0tli's roles-declarations into master -}
   , version = "v4.0.0"
   }
 , avar =
@@ -121,6 +122,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/slamdata/purescript-halogen.git"
+  {- TODO: make this repo compatible again; too many changes since original attempt -}
   , version = "v5.0.1"
   }
 , halogen-bootstrap =
@@ -163,6 +165,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/slamdata/purescript-pathy.git"
+  {- TODO: merge ps-0.14 branch into master -}
   , version = "v7.0.1"
   }
 , routing =

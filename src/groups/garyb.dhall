@@ -21,10 +21,14 @@
   , version = "v4.0.0"
   }
 , indexed-monad =
-  { dependencies = [ "control", "newtype" ]
-  , repo = "https://github.com/garyb/purescript-indexed-monad.git"
-  , version = "v1.2.0"
-  }
+    { dependencies = [ "control", "newtype" ]
+    , repo = "https://github.com/garyb/purescript-indexed-monad.git"
+    {- TODO: this repo will need to updated for PS v0.14 by merging
+      its ps-0.14 branch into master, which includes a few extra commits
+      that ps-0.14 does not include.
+    -}
+    , version = "master"
+    }
 , quickcheck-laws =
   { dependencies = [ "enums", "proxy", "quickcheck" ]
   , repo = "https://github.com/garyb/purescript-quickcheck-laws.git"
