@@ -11,7 +11,7 @@
 , identy =
   { dependencies = [ "simple-json" ]
   , repo = "https://github.com/oreshinya/purescript-identy.git"
-  { TODO: merge kl0tli's psc-0.14.0 branch into master -}
+  {- TODO: merge kl0tli's psc-0.14.0 branch into master -}
   , version = "v2.2.0"
   }
 , mysql =
