@@ -2335,6 +2335,14 @@
     "repo": "https://github.com/LiamGoodacre/purescript-naturals.git",
     "version": "v3.0.0"
   },
+  "nested-functor": {
+    "dependencies": [
+      "prelude",
+      "type-equality"
+    ],
+    "repo": "https://github.com/acple/purescript-nested-functor.git",
+    "version": "v0.2.0"
+  },
   "newtype": {
     "dependencies": [
       "prelude"
