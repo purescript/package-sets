@@ -38,6 +38,6 @@
     , "parsing-dataview"
     ]
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
-  , version = "v1.1.1"
+  , version = "v1.2.0"
   }
 }
