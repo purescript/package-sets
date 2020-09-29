@@ -1677,6 +1677,18 @@
     "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
     "version": "v6.1.3"
   },
+  "heckin": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "foldable-traversable",
+      "psci-support",
+      "unicode"
+    ],
+    "repo": "https://github.com/maxdeviant/purescript-heckin.git",
+    "version": "v1.0.3"
+  },
   "heterogeneous": {
     "dependencies": [
       "either",
@@ -2592,6 +2604,16 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-now.git",
     "version": "v4.0.0"
+  },
+  "npm-package-json": {
+    "dependencies": [
+      "argonaut",
+      "console",
+      "effect",
+      "psci-support"
+    ],
+    "repo": "https://github.com/maxdeviant/purescript-npm-package-json.git",
+    "version": "v1.1.0"
   },
   "nullable": {
     "dependencies": [
@@ -4723,6 +4745,17 @@
     ],
     "repo": "https://github.com/athanclark/purescript-websocket-moderate.git",
     "version": "v7.0.2"
+  },
+  "which": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "nullable",
+      "psci-support"
+    ],
+    "repo": "https://github.com/maxdeviant/purescript-which.git",
+    "version": "v0.1.0"
   },
   "xiaomian": {
     "dependencies": [
