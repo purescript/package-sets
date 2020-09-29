@@ -2347,6 +2347,14 @@
     "repo": "https://github.com/LiamGoodacre/purescript-naturals.git",
     "version": "v3.0.0"
   },
+  "nested-functor": {
+    "dependencies": [
+      "prelude",
+      "type-equality"
+    ],
+    "repo": "https://github.com/acple/purescript-nested-functor.git",
+    "version": "v0.2.0"
+  },
   "newtype": {
     "dependencies": [
       "prelude"
@@ -2781,6 +2789,21 @@
     "repo": "https://github.com/markfarrell/purescript-parsing-expect.git",
     "version": "v0.0.3"
   },
+  "parsing-foreign": {
+    "dependencies": [
+      "console",
+      "effect",
+      "ffi-foreign",
+      "foreign",
+      "parsing",
+      "parsing-expect",
+      "parsing-validation",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/markfarrell/purescript-parsing-foreign.git",
+    "version": "v0.0.2"
+  },
   "parsing-hexadecimal": {
     "dependencies": [
       "console",
@@ -3047,7 +3070,7 @@
       "uint"
     ],
     "repo": "https://github.com/xc-jp/purescript-protobuf.git",
-    "version": "v1.1.1"
+    "version": "v1.2.0"
   },
   "proxy": {
     "dependencies": [
