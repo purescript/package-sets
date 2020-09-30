@@ -6,7 +6,7 @@
 , crypto =
   { dependencies = [ "node-buffer" ]
   , repo = "https://github.com/oreshinya/purescript-crypto.git"
-  , version = "v2.0.1"
+  , version = "v2.1.0"
   }
 , identy =
   { dependencies = [ "simple-json" ]
