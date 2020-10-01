@@ -5,7 +5,7 @@ on the latest release candidate for PureScript v0.14.0
 -}
 { name = "package-sets"
 , packages = ./packages.dhall
-, sources = []
+, sources = [] : List Text
 , dependencies =
   [ "prelude"
   ]
