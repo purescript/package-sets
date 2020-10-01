@@ -25,4 +25,6 @@ jobs:
     - name: Enter src directory
       run: cd src/
     - name: Test whether updated libraries build correctly
-      run: export PATH=$HOME/purescript:$PATH spago build
+      run: |
+        export PATH=$HOME/purescript:$PATH
+        spago build
