@@ -9,11 +9,11 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-    - name: `git clone` this repo
+    - name: Clone this repo
       uses: actions/checkout@v2
     - name: Enable npm
       uses: actions/setup-node@v1
-    - name: Install PureScript v0.14.0 Release Candidate
+    - name: Install latest PureScript Release Candidate
       env:
         TAG: v0.14.0-rc2
       run: |
