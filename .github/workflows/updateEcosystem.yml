@@ -1,0 +1,30 @@
+name: Test packages currently updated for v0.14.0
+
+on:
+  pull_request:
+    branches: [ prepare-0.14 ]
+  push:
+    branches: [ prepare-0.14 ]
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+    - name: `git clone` this repo
+      uses: actions/checkout@v2
+    - name: Enable npm
+      uses: actions/setup-node@v1
+    - name: Install PureScript v0.14.0 Release Candidate
+      env:
+        TAG: v0.14.0-rc2
+      run: |
+        curl --location --output $HOME/purescript.tar.gz https://github.com/purescript/purescript/releases/download/$TAG/linux64.tar.gz
+        tar -xvf $HOME/purescript.tar.gz -C $HOME/
+        chmod a+x $HOME/purescript
+    - name: Install Spago
+      run: npm i -g spago
+    - name: Test whether updated libraries build correctly
+      env:
+        PATH: $HOME/purescript:$PATH
+      run: |
+        cd src/
+        spago build
