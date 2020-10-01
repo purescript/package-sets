@@ -23,8 +23,6 @@ jobs:
     - name: Install Spago
       run: npm i -g spago
     - name: Test whether updated libraries build correctly
-      env:
-        PATH: $HOME/purescript:$PATH
       run: |
         cd src/
-        spago build
+        export PATH=$HOME/purescript:$PATH spago build
