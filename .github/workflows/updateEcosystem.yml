@@ -28,4 +28,6 @@ jobs:
       run: |
         cd src/
         export PATH=$HOME/purescript:$PATH
-        spago build -u "--strict"
+        spago -x updatedLibs.dhall install
+        mv .spago/ src/
+        spago -x usePsa.dhall build -u "--strict"
