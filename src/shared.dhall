@@ -8,5 +8,5 @@ here.
 { name = "package-sets"
 , packages = (./packages.dhall with metadata.version = "v0.14.0-rc2")
 , sources = [] : List Text
-, dependencies = []
+, dependencies = [] : List Text
 }
