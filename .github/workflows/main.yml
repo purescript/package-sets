@@ -2,7 +2,11 @@ name: build
 
 on:
   pull_request:
+    branches-ignore:
+      - prepare-0.14
   push:
+    branches-ignore:
+      - prepare-0.14
 jobs:
   tests:
     runs-on: ubuntu-latest
