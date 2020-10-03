@@ -7,4 +7,5 @@ let shared = ./shared.dhall
 in shared
   with dependencies =
     [ "prelude"
+    , "effect"
     ]

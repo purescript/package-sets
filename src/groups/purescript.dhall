@@ -97,7 +97,7 @@
 , effect =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/purescript/purescript-effect.git"
-  , version = "v2.0.1"
+  , version = "master"
   }
 , either =
   { dependencies =
