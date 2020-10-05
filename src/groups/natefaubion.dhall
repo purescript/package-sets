@@ -118,20 +118,7 @@
   }
 , dodo-printer =
   { dependencies =
-    [ "aff"
-    , "ansi"
-    , "avar"
-    , "console"
-    , "effect"
-    , "foldable-traversable"
-    , "lists"
-    , "maybe"
-    , "minibench"
-    , "node-child-process"
-    , "node-fs-aff"
-    , "node-process"
-    , "strings"
-    ]
+    [ "ansi", "foldable-traversable", "lists", "maybe", "prelude", "strings" ]
   , repo = "https://github.com/natefaubion/purescript-dodo-printer/"
   , version = "v1.0.8"
   }

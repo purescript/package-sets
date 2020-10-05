@@ -894,18 +894,11 @@
   },
   "dodo-printer": {
     "dependencies": [
-      "aff",
       "ansi",
-      "avar",
-      "console",
-      "effect",
       "foldable-traversable",
       "lists",
       "maybe",
-      "minibench",
-      "node-child-process",
-      "node-fs-aff",
-      "node-process",
+      "prelude",
       "strings"
     ],
     "repo": "https://github.com/natefaubion/purescript-dodo-printer/",
