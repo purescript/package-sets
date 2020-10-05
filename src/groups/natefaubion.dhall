@@ -116,4 +116,23 @@
   , repo = "https://github.com/natefaubion/purescript-variant.git"
   , version = "v6.0.1"
   }
+, dodo-printer =
+  { dependencies =
+    [ "aff"
+    , "ansi"
+    , "avar"
+    , "console"
+    , "effect"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "minibench"
+    , "node-child-process"
+    , "node-fs-aff"
+    , "node-process"
+    , "strings"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-dodo-printer/"
+  , version = "v1.0.8"
+  }
 }
