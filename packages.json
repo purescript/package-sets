@@ -2632,6 +2632,29 @@
     "repo": "https://github.com/sharkdp/purescript-numbers.git",
     "version": "v7.0.0"
   },
+  "option": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "codec",
+      "codec-argonaut",
+      "either",
+      "foreign",
+      "foreign-object",
+      "lists",
+      "maybe",
+      "prelude",
+      "profunctor",
+      "record",
+      "simple-json",
+      "transformers",
+      "tuples",
+      "type-equality",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/joneshf/purescript-option.git",
+    "version": "v6.0.0"
+  },
   "options": {
     "dependencies": [
       "contravariant",
