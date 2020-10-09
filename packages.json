@@ -2951,6 +2951,17 @@
     "repo": "https://github.com/felixSchl/purescript-pipes.git",
     "version": "v6.0.0"
   },
+  "pointed": {
+    "dependencies": [
+      "bifunctors",
+      "foldable-traversable",
+      "generics-rep",
+      "lists",
+      "maybe"
+    ],
+    "repo": "https://github.com/vladciobanu/purescript-pointed.git",
+    "version": "v0.1.0"
+  },
   "pointed-list": {
     "dependencies": [
       "lists",
