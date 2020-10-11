@@ -164,7 +164,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "v5.0.3"
+  , version = "v5.1.0"
   }
 , profunctor-lenses =
   { dependencies =
@@ -223,7 +223,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-strings-extra.git"
-  , version = "v2.1.0"
+  , version = "v2.2.1"
   }
 , these =
   { dependencies = [ "gen", "tuples" ]
@@ -236,9 +236,9 @@
   , version = "v4.0.1"
   }
 , unsafe-reference =
-  { dependencies = [] : List Text
+  { dependencies = [ "effect", "exceptions" ]
   , repo =
       "https://github.com/purescript-contrib/purescript-unsafe-reference.git"
-  , version = "v3.0.1"
+  , version = "v3.1.0"
   }
 }
