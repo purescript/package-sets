@@ -18,6 +18,6 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/hoodunit/purescript-payload"
-  , version = "v0.3.0"
+  , version = "v0.3.1"
   }
 }

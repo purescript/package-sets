@@ -6,7 +6,7 @@
 , checked-exceptions =
   { dependencies = [ "prelude", "transformers", "variant" ]
   , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
-  , version = "v3.1.0"
+  , version = "v3.1.1"
   }
 , heterogeneous =
   { dependencies =
