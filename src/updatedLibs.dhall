@@ -7,4 +7,12 @@ let shared = ./shared.dhall
 in shared
   with dependencies =
     [ "prelude"
+    , "effect"
+    , "functions"
+    , "console"
+    , "refs"
+    , "assert"
+    , "newtype"
+    , "bifunctors"
+    , "control"
     ]
