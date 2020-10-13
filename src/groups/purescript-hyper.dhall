@@ -12,6 +12,7 @@
     , "http-methods"
     , "indexed-monad"
     , "media-types"
+    , "node-buffer"
     , "node-fs-aff"
     , "node-http"
     , "ordered-collections"
@@ -24,7 +25,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/purescript-hyper/hyper.git"
-  , version = "v0.11.0"
+  , version = "v0.11.1"
   }
 , hypertrout =
   { dependencies =

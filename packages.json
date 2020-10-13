@@ -14,11 +14,12 @@
       "foreign",
       "nullable",
       "prelude",
+      "refs",
       "web-html",
       "web-uievents"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-ace.git",
-    "version": "v7.0.0"
+    "version": "v7.1.0"
   },
   "aff": {
     "dependencies": [
@@ -79,6 +80,7 @@
       "aff",
       "argonaut-core",
       "arraybuffer-types",
+      "effect",
       "foreign",
       "form-urlencoded",
       "http-methods",
@@ -91,7 +93,7 @@
       "web-xhr"
     ],
     "repo": "https://github.com/slamdata/purescript-affjax.git",
-    "version": "v10.1.0"
+    "version": "v11.0.0"
   },
   "ansi": {
     "dependencies": [
@@ -215,7 +217,7 @@
       "unordered-collections"
     ],
     "repo": "https://github.com/athanclark/purescript-arraybuffer-class.git",
-    "version": "v0.2.5"
+    "version": "v0.2.6"
   },
   "arraybuffer-types": {
     "dependencies": [],
@@ -635,7 +637,7 @@
       "variant"
     ],
     "repo": "https://github.com/natefaubion/purescript-checked-exceptions.git",
-    "version": "v3.1.0"
+    "version": "v3.1.1"
   },
   "cheerio": {
     "dependencies": [
@@ -691,7 +693,7 @@
       "transformers"
     ],
     "repo": "https://github.com/garyb/purescript-codec.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "codec-argonaut": {
     "dependencies": [
@@ -874,7 +876,7 @@
       "prelude"
     ],
     "repo": "https://github.com/garyb/purescript-debug.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "decimals": {
     "dependencies": [
@@ -1578,6 +1580,7 @@
       "const",
       "coroutines",
       "dom-indexed",
+      "effect",
       "foreign",
       "fork",
       "free",
@@ -1591,10 +1594,11 @@
       "transformers",
       "unsafe-coerce",
       "unsafe-reference",
+      "web-file",
       "web-uievents"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen.git",
-    "version": "v5.0.1"
+    "version": "v5.1.0"
   },
   "halogen-bootstrap": {
     "dependencies": [
@@ -1627,7 +1631,7 @@
       "variant"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
-    "version": "v1.0.0-rc.2"
+    "version": "v1.0.0"
   },
   "halogen-hooks": {
     "dependencies": [
@@ -1635,7 +1639,7 @@
       "indexed-monad"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-hooks.git",
-    "version": "v0.4.2"
+    "version": "v0.4.3"
   },
   "halogen-hooks-extra": {
     "dependencies": [
@@ -1671,7 +1675,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git",
-    "version": "v2.0.1"
+    "version": "v2.0.2"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -1699,7 +1703,7 @@
       "unicode"
     ],
     "repo": "https://github.com/maxdeviant/purescript-heckin.git",
-    "version": "v1.0.3"
+    "version": "v1.1.0"
   },
   "heterogeneous": {
     "dependencies": [
@@ -1817,6 +1821,7 @@
       "http-methods",
       "indexed-monad",
       "media-types",
+      "node-buffer",
       "node-fs-aff",
       "node-http",
       "ordered-collections",
@@ -1829,7 +1834,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/purescript-hyper/hyper.git",
-    "version": "v0.11.0"
+    "version": "v0.11.1"
   },
   "hypertrout": {
     "dependencies": [
@@ -2625,7 +2630,7 @@
       "psci-support"
     ],
     "repo": "https://github.com/maxdeviant/purescript-npm-package-json.git",
-    "version": "v1.1.0"
+    "version": "v1.2.0"
   },
   "nullable": {
     "dependencies": [
@@ -2665,7 +2670,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/joneshf/purescript-option.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "options": {
     "dependencies": [
@@ -2802,7 +2807,7 @@
       "unicode"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
-    "version": "v5.0.3"
+    "version": "v5.1.0"
   },
   "parsing-dataview": {
     "dependencies": [
@@ -2929,7 +2934,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/hoodunit/purescript-payload",
-    "version": "v0.3.0"
+    "version": "v0.3.1"
   },
   "phoenix": {
     "dependencies": [
@@ -2950,6 +2955,13 @@
     ],
     "repo": "https://github.com/felixSchl/purescript-pipes.git",
     "version": "v6.0.0"
+  },
+  "point-free": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/ursi/purescript-point-free.git",
+    "version": "v0.1.1"
   },
   "pointed": {
     "dependencies": [
@@ -3435,7 +3447,7 @@
       "web-html"
     ],
     "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
-    "version": "v6.1.1"
+    "version": "v6.2.0"
   },
   "react-basic-native": {
     "dependencies": [
@@ -3823,7 +3835,7 @@
       "simple-json"
     ],
     "repo": "https://github.com/dariooddenino/purescript-simple-ajax.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "simple-emitter": {
     "dependencies": [
@@ -4134,7 +4146,7 @@
       "unicode"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-strings-extra.git",
-    "version": "v2.1.0"
+    "version": "v2.2.1"
   },
   "stringutils": {
     "dependencies": [
@@ -4586,9 +4598,12 @@
     "version": "v4.0.0"
   },
   "unsafe-reference": {
-    "dependencies": [],
+    "dependencies": [
+      "effect",
+      "exceptions"
+    ],
     "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference.git",
-    "version": "v3.0.1"
+    "version": "v3.1.0"
   },
   "untagged-union": {
     "dependencies": [

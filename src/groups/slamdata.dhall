@@ -1,15 +1,16 @@
 { ace =
   { dependencies =
-    [ "effect"
-    , "web-html"
-    , "web-uievents"
-    , "arrays"
+    [ "arrays"
+    , "effect"
     , "foreign"
     , "nullable"
     , "prelude"
+    , "refs"
+    , "web-html"
+    , "web-uievents"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-ace.git"
-  , version = "v7.0.0"
+  , version = "v7.1.0"
   }
 , aff =
   { dependencies =
@@ -40,6 +41,7 @@
     [ "aff"
     , "argonaut-core"
     , "arraybuffer-types"
+    , "effect"
     , "foreign"
     , "form-urlencoded"
     , "http-methods"
@@ -52,7 +54,7 @@
     , "web-xhr"
     ]
   , repo = "https://github.com/slamdata/purescript-affjax.git"
-  , version = "v10.1.0"
+  , version = "v11.0.0"
   }
 , css =
   { dependencies =
@@ -105,6 +107,7 @@
     , "const"
     , "coroutines"
     , "dom-indexed"
+    , "effect"
     , "foreign"
     , "fork"
     , "free"
@@ -118,10 +121,11 @@
     , "transformers"
     , "unsafe-coerce"
     , "unsafe-reference"
+    , "web-file"
     , "web-uievents"
     ]
   , repo = "https://github.com/slamdata/purescript-halogen.git"
-  , version = "v5.0.1"
+  , version = "v5.1.0"
   }
 , halogen-bootstrap =
   { dependencies = [ "halogen" ]
