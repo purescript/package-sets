@@ -21,12 +21,12 @@
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-assert.git"
   {- TODO: merge kl0tli's no-foreign-primes into master -}
-  , version = "v4.1.0"
+  , version = "master"
   }
 , bifunctors =
   { dependencies = [ "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-bifunctors.git"
-  , version = "v4.0.0"
+  , version = "master"
   }
 , catenable-lists =
   { dependencies =
@@ -44,7 +44,7 @@
 , console =
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-console.git"
-  , version = "v4.4.0"
+  , version = "master"
   }
 , const =
   { dependencies =
@@ -65,7 +65,7 @@
 , control =
   { dependencies = [ "prelude", "newtype" ]
   , repo = "https://github.com/purescript/purescript-control.git"
-  , version = "v4.2.0"
+  , version = "master"
   }
 , datetime =
   { dependencies =
@@ -200,7 +200,7 @@
 , functions =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/purescript/purescript-functions.git"
-  , version = "v4.0.0"
+  , version = "master"
   }
 , functors =
   { dependencies =
@@ -317,7 +317,7 @@
 , newtype =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/purescript/purescript-newtype.git"
-  , version = "v3.0.0"
+  , version = "master"
   }
 , nonempty =
   { dependencies =
@@ -453,7 +453,7 @@
 , refs =
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-refs.git"
-  , version = "v4.1.0"
+  , version = "master"
   }
 , semirings =
   { dependencies = [ "foldable-traversable", "lists", "newtype", "prelude" ]
