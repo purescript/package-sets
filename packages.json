@@ -93,7 +93,7 @@
       "web-xhr"
     ],
     "repo": "https://github.com/slamdata/purescript-affjax.git",
-    "version": "v10.1.0"
+    "version": "v11.0.0"
   },
   "ansi": {
     "dependencies": [
@@ -3835,7 +3835,7 @@
       "simple-json"
     ],
     "repo": "https://github.com/dariooddenino/purescript-simple-ajax.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "simple-emitter": {
     "dependencies": [
