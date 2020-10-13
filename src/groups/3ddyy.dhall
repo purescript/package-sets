@@ -10,7 +10,7 @@
     , "psci-support"
     ]
   , repo = "https://github.com/3ddyy/purescript-polymorphic-vectors.git"
-  , version = "v1.1.2"
+  , version = "v2.0.0"
   }
 , canvas-action =
   { dependencies =
