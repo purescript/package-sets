@@ -2956,6 +2956,13 @@
     "repo": "https://github.com/felixSchl/purescript-pipes.git",
     "version": "v6.0.0"
   },
+  "point-free": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/ursi/purescript-point-free.git",
+    "version": "v0.1.1"
+  },
   "pointed": {
     "dependencies": [
       "bifunctors",
