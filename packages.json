@@ -3828,7 +3828,7 @@
       "simple-json"
     ],
     "repo": "https://github.com/dariooddenino/purescript-simple-ajax.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "simple-emitter": {
     "dependencies": [
