@@ -105,5 +105,6 @@ let packages =
       ⫽ ./groups/acple.dhall
       ⫽ ./groups/vladciobanu.dhall
       ⫽ ./groups/ursi.dhall
+      ⫽ ./groups/chekoopa.dhall
 
 in  packages
