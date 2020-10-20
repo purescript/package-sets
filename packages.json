@@ -2171,6 +2171,25 @@
     "repo": "https://github.com/justinwoo/purescript-makkori.git",
     "version": "v1.0.0"
   },
+  "mason-prelude": {
+    "dependencies": [
+      "arrays",
+      "debuggest",
+      "either",
+      "functions",
+      "generics-rep",
+      "integers",
+      "lists",
+      "math",
+      "parallel",
+      "point-free",
+      "prelude",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/ursi/purescript-mason-prelude.git",
+    "version": "v0.3.0"
+  },
   "math": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-math.git",
