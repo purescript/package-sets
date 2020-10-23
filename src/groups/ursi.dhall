@@ -6,6 +6,7 @@
 , mason-prelude =
   { dependencies =
     [ "arrays"
+    , "console"
     , "debuggest"
     , "either"
     , "functions"
@@ -20,7 +21,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/ursi/purescript-mason-prelude.git"
-  , version = "v0.3.0"
+  , version = "v0.4.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
