@@ -70,6 +70,7 @@ let packages =
       ⫽ ./groups/rightfold.dhall
       ⫽ ./groups/rgrempel.dhall
       ⫽ ./groups/rnons.dhall
+      ⫽ ./groups/robertdp.dhall
       ⫽ ./groups/sharkdp.dhall
       ⫽ ./groups/sigilion.dhall
       ⫽ ./groups/slamdata.dhall
