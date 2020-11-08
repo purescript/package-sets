@@ -973,6 +973,15 @@
     "repo": "https://github.com/paf31/purescript-drawing.git",
     "version": "v4.0.0"
   },
+  "dynamic-buffer": {
+    "dependencies": [
+      "arraybuffer-types",
+      "effect",
+      "refs"
+    ],
+    "repo": "https://github.com/kritzcreek/purescript-dynamic-buffer.git",
+    "version": "v1.0.1"
+  },
   "easy-ffi": {
     "dependencies": [
       "prelude"
