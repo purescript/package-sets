@@ -247,7 +247,7 @@
   , version = "master"
   }
 , integers =
-  { dependencies = [ "globals", "math", "maybe", "prelude" ]
+  { dependencies = [ "numbers", "math", "maybe", "prelude" ]
   , repo = "https://github.com/purescript/purescript-integers.git"
   , version = "master"
   }
@@ -299,7 +299,7 @@
   { dependencies =
     [ "console"
     , "effect"
-    , "globals"
+    , "numbers"
     , "integers"
     , "math"
     , "partial"
