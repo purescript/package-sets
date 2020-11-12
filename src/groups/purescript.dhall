@@ -240,11 +240,6 @@
   , repo = "https://github.com/purescript/purescript-generics-rep.git"
   , version = "master"
   }
-, globals =
-  { dependencies = [ "functions", "maybe" ] : List Text
-  , repo = "https://github.com/purescript/purescript-globals.git"
-  , version = "master"
-  }
 , identity =
   { dependencies =
     [ "control", "foldable-traversable", "invariant", "newtype", "prelude" ]
@@ -329,6 +324,14 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-nonempty.git"
+  , version = "master"
+  }
+, numbers =
+  { dependencies =
+    [ "math"
+    , "maybe"
+    ]
+  , repo = "https://github.com/purescript/purescript-numbers.git"
   , version = "master"
   }
 , ordered-collections =
