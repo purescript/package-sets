@@ -28,7 +28,6 @@ in shared
     , "math"
     , "partial"
     , "proxy"
-    , "metadata"
     , "exists"
     , "type-equality"
     , "tailrec"
