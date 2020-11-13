@@ -27,7 +27,6 @@ in shared
     , "integers"
     , "math"
     , "partial"
-    , "proxy"
     , "exists"
     , "type-equality"
     , "tailrec"
