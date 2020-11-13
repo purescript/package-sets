@@ -398,11 +398,6 @@
   , repo = "https://github.com/purescript/purescript-profunctor.git"
   , version = "master"
   }
-, proxy =
-  { dependencies = [ "prelude" ]
-  , repo = "https://github.com/purescript/purescript-proxy.git"
-  , version = "master"
-  }
 , psci-support =
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-psci-support.git"
