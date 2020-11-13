@@ -48,4 +48,5 @@ in shared
     , “transformers“
     , “arrays“
     , “parallel“
+    , "minibench"
     ]
