@@ -24,7 +24,7 @@
     [ "bifunctors"
     , "catenable-lists"
     , "free"
-    , "globals"
+    , "numbers"
     , "ordered-collections"
     , "strings"
     , "transformers"

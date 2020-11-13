@@ -52,7 +52,7 @@
   , version = "v1.0.1"
   }
 , parseint =
-  { dependencies = [ "functions", "globals", "integers" ]
+  { dependencies = [ "functions", "numbers", "integers" ]
   , repo = "https://github.com/athanclark/purescript-parseint.git"
   , version = "v1.1.1"
   }

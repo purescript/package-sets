@@ -28,7 +28,7 @@
     , "enums"
     , "exceptions"
     , "functions"
-    , "globals"
+    , "numbers"
     , "integers"
     , "js-date"
     , "maybe"

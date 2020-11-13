@@ -43,7 +43,7 @@
     , "control"
     , "either"
     , "generics-rep"
-    , "globals"
+    , "numbers"
     , "lazy"
     , "prelude"
     , "profunctor"

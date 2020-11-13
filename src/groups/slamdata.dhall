@@ -176,7 +176,7 @@
     , "effect"
     , "either"
     , "foldable-traversable"
-    , "globals"
+    , "numbers"
     , "integers"
     , "lists"
     , "maybe"
@@ -193,7 +193,7 @@
   { dependencies =
     [ "arrays"
     , "generics-rep"
-    , "globals"
+    , "numbers"
     , "integers"
     , "parsing"
     , "profunctor-lenses"

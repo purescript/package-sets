@@ -15,7 +15,7 @@
 , money =
   { dependencies =
     [ "foldable-traversable"
-    , "globals"
+    , "numbers"
     , "integers"
     , "lists"
     , "math"

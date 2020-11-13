@@ -135,7 +135,7 @@
     , "exceptions"
     , "foreign"
     , "foreign-object"
-    , "globals"
+    , "numbers"
     , "nullable"
     , "prelude"
     , "record"
