@@ -42,11 +42,6 @@
   , repo = "https://github.com/sharkdp/purescript-format.git"
   , version = "v4.0.0"
   }
-, numbers =
-  { dependencies = [ "globals", "math", "maybe" ]
-  , repo = "https://github.com/sharkdp/purescript-numbers.git"
-  , version = "v7.0.0"
-  }
 , pairs =
   { dependencies =
     [ "console", "distributive", "foldable-traversable", "quickcheck" ]
