@@ -15,7 +15,6 @@
     , "node-fs-aff"
     , "node-http"
     , "ordered-collections"
-    , "proxy"
     , "random"
     , "smolder"
     , "strings"

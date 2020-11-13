@@ -23,7 +23,6 @@
     , "literals"
     , "maybe"
     , "newtype"
-    , "proxy"
     , "psci-support"
     , "tuples"
     , "unsafe-coerce"

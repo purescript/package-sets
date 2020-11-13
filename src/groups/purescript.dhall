@@ -541,7 +541,7 @@
   , version = "master"
   }
 , typelevel-prelude =
-  { dependencies = [ "prelude", "proxy", "type-equality" ]
+  { dependencies = [ "prelude", "type-equality" ]
   , repo = "https://github.com/purescript/purescript-typelevel-prelude.git"
   {- TODO: merge my fok's ps-0.14 branch into master -}
   , version = "master"

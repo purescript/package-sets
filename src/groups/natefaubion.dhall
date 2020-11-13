@@ -110,7 +110,6 @@
     , "maybe"
     , "partial"
     , "prelude"
-    , "proxy"
     , "record"
     , "tuples"
     , "unsafe-coerce"

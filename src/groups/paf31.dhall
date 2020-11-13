@@ -47,7 +47,6 @@
     , "generics-rep"
     , "identity"
     , "ordered-collections"
-    , "proxy"
     , "record"
     ]
   , repo = "https://github.com/paf31/purescript-foreign-generic.git"

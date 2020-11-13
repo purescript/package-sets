@@ -31,7 +31,7 @@
   , version = "v3.0.0"
   }
 , quotient =
-  { dependencies = [ "prelude", "proxy", "quickcheck" ]
+  { dependencies = [ "prelude", "quickcheck" ]
   , repo = "https://github.com/rightfold/purescript-quotient.git"
   , version = "v3.0.0"
   }

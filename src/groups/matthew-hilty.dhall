@@ -36,7 +36,7 @@
   }
 , subcategory =
   { dependencies =
-    [ "prelude", "profunctor", "record", "proxy", "typelevel-prelude" ]
+    [ "prelude", "profunctor", "record", "typelevel-prelude" ]
   , repo = "https://github.com/matthew-hilty/purescript-subcategory.git"
   , version = "v0.2.0"
   }
