@@ -47,4 +47,5 @@ in shared
     , "arrays"
     , "parallel"
     , "minibench"
+    , "lcg"
     ]
