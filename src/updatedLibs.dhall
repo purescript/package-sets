@@ -60,4 +60,6 @@ in shared
     , "quickcheck"
     , "ordered-collections"
     , "foreign-object"
+    , "validation"
+    , "datetime"
     ]
