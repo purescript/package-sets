@@ -59,4 +59,5 @@ in shared
     , "free"
     , "quickcheck"
     , "ordered-collections"
+    , "foreign-object"
     ]
