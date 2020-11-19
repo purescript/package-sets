@@ -62,4 +62,5 @@ in shared
     , "foreign-object"
     , "validation"
     , "datetime"
+    , "numbers"
     ]
