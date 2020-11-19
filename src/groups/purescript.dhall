@@ -14,13 +14,11 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-arrays.git"
-  {- TODO: merge kl0tli's roles-declarations into master -}
   , version = "master"
   }
 , `assert` =
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-assert.git"
-  {- TODO: merge kl0tli's no-foreign-primes into master -}
   , version = "master"
   }
 , bifunctors =
@@ -174,7 +172,6 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-foreign-object.git"
-  {- TODO: merge kl0tli's roles-declarations into master -}
   , version = "master"
   }
 , free =
@@ -445,7 +442,6 @@
 , record =
   { dependencies = [ "functions", "prelude", "st", "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-record.git"
-  {- TODO: merge kl0tli's psc-0.14.0 branch into master -}
   , version = "master"
   }
 , refs =
@@ -461,7 +457,6 @@
 , st =
   { dependencies = [ "partial", "prelude", "tailrec", "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-st.git"
-  {- TODO: merge kl0tli's no-foreign-primes AND roles-declarations into master -}
   , version = "master"
   }
 , strings =
@@ -543,7 +538,6 @@
 , typelevel-prelude =
   { dependencies = [ "prelude", "type-equality" ]
   , repo = "https://github.com/purescript/purescript-typelevel-prelude.git"
-  {- TODO: merge my fok's ps-0.14 branch into master -}
   , version = "master"
   }
 , unfoldable =
