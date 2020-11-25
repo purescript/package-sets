@@ -2261,6 +2261,19 @@
     "repo": "https://github.com/spacchetti/purescript-metadata.git",
     "version": "v0.13.8"
   },
+  "midi": {
+    "dependencies": [
+      "effect",
+      "generics-rep",
+      "integers",
+      "lists",
+      "prelude",
+      "signal",
+      "string-parsers"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-midi.git",
+    "version": "v2.3.2"
+  },
   "milkis": {
     "dependencies": [
       "aff-promise",
