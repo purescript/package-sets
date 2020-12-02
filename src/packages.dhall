@@ -98,7 +98,7 @@ let packages =
       ⫽ ./groups/markfarrell.dhall
       ⫽ ./groups/lukasturcani.dhall
       ⫽ ./groups/iarthstar.dhall
-      ⫽ ./groups/3ddyy.dhall
+      ⫽ ./groups/artemisSystem.dhall
       ⫽ ./groups/dirkz.dhall
       ⫽ ./groups/dewey92.dhall
       ⫽ ./groups/pelotom.dhall
