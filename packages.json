@@ -585,7 +585,6 @@
       "aff",
       "canvas",
       "colors",
-      "console",
       "effect",
       "exceptions",
       "foldable-traversable",
@@ -597,15 +596,14 @@
       "partial",
       "polymorphic-vectors",
       "prelude",
-      "psci-support",
       "run",
       "transformers",
       "tuples",
       "typelevel-prelude",
       "web-html"
     ],
-    "repo": "https://github.com/3ddyy/purescript-canvas-action.git",
-    "version": "v5.0.1"
+    "repo": "https://github.com/artemisSystem/purescript-canvas-action.git",
+    "version": "v6.0.1"
   },
   "cartesian": {
     "dependencies": [
@@ -1454,38 +1452,28 @@
     "dependencies": [
       "aff",
       "canvas-action",
-      "console",
       "control",
       "datetime",
       "effect",
       "filterable",
       "foldable-traversable",
       "fork",
-      "free",
-      "functors",
-      "identity",
       "js-timers",
-      "monad-loops",
       "newtype",
       "now",
       "parallel",
-      "partial",
       "polymorphic-vectors",
       "prelude",
-      "psci-support",
-      "record",
-      "record-extra",
       "refs",
       "run",
       "tailrec",
       "typelevel-prelude",
-      "undefined",
       "variant",
       "web-html",
       "web-uievents"
     ],
-    "repo": "https://github.com/3ddyy/purescript-game.git",
-    "version": "v2.0.0"
+    "repo": "https://github.com/artemisSystem/purescript-game.git",
+    "version": "v2.0.1"
   },
   "gen": {
     "dependencies": [
@@ -3065,16 +3053,13 @@
   "polymorphic-vectors": {
     "dependencies": [
       "canvas",
-      "console",
       "distributive",
-      "effect",
       "foldable-traversable",
       "math",
-      "prelude",
-      "psci-support"
+      "prelude"
     ],
-    "repo": "https://github.com/3ddyy/purescript-polymorphic-vectors.git",
-    "version": "v2.0.0"
+    "repo": "https://github.com/artemisSystem/purescript-polymorphic-vectors.git",
+    "version": "v2.0.1"
   },
   "posix-types": {
     "dependencies": [
