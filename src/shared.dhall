@@ -6,7 +6,7 @@ If PureScript releases a new candidate, we will update the `metadata` version
 here.
 -}
 { name = "package-sets"
-, packages = (./packages.dhall with metadata.version = "v0.14.0-rc3")
+, packages = ./packages.dhall
 , sources = [] : List Text
 , dependencies = [] : List Text
 }

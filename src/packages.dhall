@@ -102,3 +102,4 @@ let packages =
       ⫽ ./groups/colinwahl.dhall
 
 in  packages
+      with metadata.version = "v0.14.0-rc3"
