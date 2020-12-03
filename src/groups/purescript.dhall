@@ -327,7 +327,7 @@
   { dependencies =
     [ "math"
     , "maybe"
-    , functions
+    , "functions"
     ]
   , repo = "https://github.com/purescript/purescript-numbers.git"
   , version = "master"
