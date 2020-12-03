@@ -30,4 +30,4 @@ jobs:
         export PATH=$HOME/purescript:$PATH
         spago -x updatedLibs.dhall install
         mv .spago/ src/
-        spago -x usePsa.dhall build -u "--strict"
+        spago -x usePsa.dhall build -u "--strict --censor-codes=UserDefinedWarning"
