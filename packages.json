@@ -1,4 +1,24 @@
 {
+  "abc-parser": {
+    "dependencies": [
+      "bifunctors",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "generics-rep",
+      "maybe",
+      "midi",
+      "ordered-collections",
+      "rationals",
+      "string-parsers",
+      "strings",
+      "stringutils",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-abc-parser.git",
+    "version": "v1.8.0"
+  },
   "abides": {
     "dependencies": [
       "enums",
