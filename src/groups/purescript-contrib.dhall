@@ -64,6 +64,11 @@
   {- TODO: merge the ps-0.14 branch into master branch -}
   , version = "main"
   }
+, concurrent-queues =
+  { dependencies = [ "aff", "avar", "console", "effect", "psci-support", "test-unit" ]
+  , repo = "https://github.com/purescript-contrib/purescript-concurrent-queues.git"
+  , verison = "main"
+  }
 , coroutines =
   { dependencies = [ "freet", "parallel", "profunctor" ]
   , repo = "https://github.com/purescript-contrib/purescript-coroutines.git"
