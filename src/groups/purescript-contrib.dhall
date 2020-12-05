@@ -67,7 +67,7 @@
 , concurrent-queues =
   { dependencies = [ "aff", "avar", "console", "effect", "psci-support", "test-unit" ]
   , repo = "https://github.com/purescript-contrib/purescript-concurrent-queues.git"
-  , verison = "main"
+  , version = "main"
   }
 , coroutines =
   { dependencies = [ "freet", "parallel", "profunctor" ]
