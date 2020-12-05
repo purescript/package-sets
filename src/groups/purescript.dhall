@@ -237,6 +237,11 @@
   , repo = "https://github.com/purescript/purescript-generics-rep.git"
   , version = "master"
   }
+, graphs =
+  { dependencies = [ "ordered-collections", "catenable-lists" ]
+  , repo = "https://github.com/purescript/purescript-graphs.git"
+  , version = "master"
+  }
 , identity =
   { dependencies =
     [ "control", "foldable-traversable", "invariant", "newtype", "prelude" ]
