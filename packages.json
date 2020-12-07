@@ -844,6 +844,15 @@
     "repo": "https://github.com/danieljharvey/purescript-cssom.git",
     "version": "v0.0.2"
   },
+  "csv": {
+    "dependencies": [
+      "arrays",
+      "ordered-collections",
+      "parsing"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-csv.git",
+    "version": "v3.0.0"
+  },
   "data-algebrae": {
     "dependencies": [
       "arrays",
