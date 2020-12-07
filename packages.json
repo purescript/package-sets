@@ -1988,6 +1988,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
     "version": "v6.0.0"
   },
+  "js-fileio": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-js-fileio.git",
+    "version": "v2.1.0"
+  },
   "js-timers": {
     "dependencies": [
       "effect"
