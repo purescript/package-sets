@@ -1997,6 +1997,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
     "version": "v6.0.0"
   },
+  "js-fileio": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-js-fileio.git",
+    "version": "v2.1.0"
+  },
   "js-timers": {
     "dependencies": [
       "effect"
@@ -3814,6 +3823,17 @@
     ],
     "repo": "https://github.com/paf31/purescript-safely.git",
     "version": "v4.0.1"
+  },
+  "school-of-music": {
+    "dependencies": [
+      "effect",
+      "foldable-traversable",
+      "math",
+      "midi",
+      "rationals"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-school-of-music.git",
+    "version": "v1.2.4"
   },
   "scrypt": {
     "dependencies": [
