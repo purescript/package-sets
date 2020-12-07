@@ -3,6 +3,11 @@
   , repo = "https://github.com/nwolverson/purescript-aff-promise.git"
   , version = "v2.1.0"
   }
+, csv =
+  { dependencies = [ "ordered-collections", "arrays", "parsing" ]
+  , repo = "https://github.com/nwolverson/purescript-csv.git"
+  , version = "v3.0.0"
+  }
 , dom-filereader =
   { dependencies = [ "aff", "arraybuffer-types", "web-file", "web-html" ]
   , repo = "https://github.com/nwolverson/purescript-dom-filereader.git"
