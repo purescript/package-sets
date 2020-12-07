@@ -18,6 +18,11 @@
   , repo = "https://github.com/newlandsvalley/purescript-abc-parser.git"
   , version = "v1.8.0"
   }
+, js-fileio =
+  { dependencies = [ "aff", "effect", "prelude" ]
+  , repo = "https://github.com/newlandsvalley/purescript-js-fileio.git"
+  , version = "v2.1.0"
+  }
 , midi =
   { dependencies =
     [ "effect"
