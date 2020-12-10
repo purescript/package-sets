@@ -119,7 +119,7 @@
 , dodo-printer =
   { dependencies =
     [ "ansi", "foldable-traversable", "lists", "maybe", "prelude", "strings" ]
-  , repo = "https://github.com/natefaubion/purescript-dodo-printer/"
-  , version = "v1.0.8"
+  , repo = "https://github.com/natefaubion/purescript-dodo-printer.git"
+  , version = "v1.0.9"
   }
 }
