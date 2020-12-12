@@ -370,6 +370,7 @@
     , "maybe"
     , "newtype"
     , "prelude"
+    , "profunctor"
     , "refs"
     , "transformers"
     ]
