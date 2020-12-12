@@ -234,7 +234,7 @@
   , version = "main"
   }
 , these =
-  { dependencies = [ "arrays", "gen", "lists", "tuples" ]
+  { dependencies = [ "arrays", "gen", "lists", "quickcheck", "quickcheck-laws", "tuples" ]
   , repo = "https://github.com/purescript-contrib/purescript-these.git"
   , version = "main"
   }
