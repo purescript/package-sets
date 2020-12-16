@@ -11,19 +11,6 @@
   , repo = "https://github.com/purescript-contrib/purescript-ace.git"
   , version = "v7.0.0"
   }
-, aff =
-  { dependencies =
-    [ "datetime"
-    , "effect"
-    , "exceptions"
-    , "functions"
-    , "parallel"
-    , "transformers"
-    , "unsafe-coerce"
-    ]
-  , repo = "https://github.com/slamdata/purescript-aff.git"
-  , version = "v5.1.2"
-  }
 , aff-bus =
   { dependencies = [ "avar", "prelude" ]
   , repo = "https://github.com/slamdata/purescript-aff-bus.git"

@@ -1,4 +1,17 @@
-{ aff-coroutines =
+{ aff =
+  { dependencies =
+    [ "datetime"
+    , "effect"
+    , "exceptions"
+    , "functions"
+    , "parallel"
+    , "transformers"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-aff.git"
+  , version = "main"
+  }
+, aff-coroutines =
   { dependencies = [ "aff", "avar", "console", "coroutines" ]
   , repo = "https://github.com/purescript-contrib/purescript-aff-coroutines.git"
   , version = "main"
