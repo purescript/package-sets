@@ -47,19 +47,6 @@
   , repo = "https://github.com/slamdata/purescript-fork.git"
   , version = "v4.0.0"
   }
-, formatters =
-  { dependencies =
-    [ "datetime"
-    , "fixed-points"
-    , "generics-rep"
-    , "lists"
-    , "parsing"
-    , "prelude"
-    , "transformers"
-    ]
-  , repo = "https://github.com/slamdata/purescript-formatters.git"
-  , version = "v4.0.1"
-  }
 , halogen =
   { dependencies =
     [ "aff"

@@ -112,6 +112,19 @@
   , repo = "https://github.com/purescript-contrib/purescript-fixed-points.git"
   , version = "main"
   }
+, formatters =
+  { dependencies =
+    [ "datetime"
+    , "fixed-points"
+    , "generics-rep"
+    , "lists"
+    , "parsing"
+    , "prelude"
+    , "transformers"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-formatters.git"
+  , version = "main"
+  }
 , form-urlencoded =
   { dependencies =
     [ "numbers", "maybe", "newtype", "prelude", "strings", "tuples" ]
