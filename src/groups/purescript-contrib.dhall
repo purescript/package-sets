@@ -242,6 +242,22 @@
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
   , version = "main"
   }
+, pathy =
+  { dependencies =
+    [ "console"
+    , "exceptions"
+    , "lists"
+    , "partial"
+    , "profunctor"
+    , "quickcheck"
+    , "strings"
+    , "transformers"
+    , "unsafe-coerce"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-pathy.git"
+  , version = "main"
+  }
 , precise =
   { dependencies =
     [ "arrays"

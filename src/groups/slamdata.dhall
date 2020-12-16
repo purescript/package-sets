@@ -87,23 +87,6 @@
   , repo = "https://github.com/slamdata/purescript-halogen-vdom.git"
   , version = "v6.1.3"
   }
-, pathy =
-  { dependencies =
-    [ "console"
-    , "exceptions"
-    , "lists"
-    , "partial"
-    , "profunctor"
-    , "quickcheck"
-    , "strings"
-    , "transformers"
-    , "unsafe-coerce"
-    , "typelevel-prelude"
-    ]
-  , repo = "https://github.com/slamdata/purescript-pathy.git"
-  {- TODO: merge ps-0.14 branch into master -}
-  , version = "v7.0.1"
-  }
 , routing =
   { dependencies =
     [ "aff"
