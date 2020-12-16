@@ -55,20 +55,6 @@
   , repo = "https://github.com/slamdata/purescript-affjax.git"
   , version = "v10.1.0"
   }
-, css =
-  { dependencies =
-    [ "colors"
-    , "console"
-    , "generics-rep"
-    , "nonempty"
-    , "profunctor"
-    , "strings"
-    , "these"
-    , "transformers"
-    ]
-  , repo = "https://github.com/slamdata/purescript-css.git"
-  , version = "v4.0.0"
-  }
 , dom-indexed =
   { dependencies =
     [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
