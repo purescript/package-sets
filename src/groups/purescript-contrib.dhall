@@ -169,7 +169,7 @@
   }
 , form-urlencoded =
   { dependencies =
-    [ "numbers", "maybe", "newtype", "prelude", "strings", "tuples" ]
+    [ "numbers", "maybe", "newtype", "prelude", "strings", "tuples", "js-uri" ]
   , repo =
       "https://github.com/purescript-contrib/purescript-form-urlencoded.git"
   , version = "main"
