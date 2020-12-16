@@ -21,6 +21,6 @@
 , dynamic-buffer =
   { dependencies = [ "arraybuffer-types", "effect", "refs" ]
   , repo = "https://github.com/kritzcreek/purescript-dynamic-buffer.git"
-  , version = "v1.0.1"
+  , version = "v2.0.0"
   }
 }
