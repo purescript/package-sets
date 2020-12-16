@@ -70,6 +70,7 @@ let packages =
       ⫽ ./groups/rightfold.dhall
       ⫽ ./groups/rgrempel.dhall
       ⫽ ./groups/rnons.dhall
+      ⫽ ./groups/robertdp.dhall
       ⫽ ./groups/sharkdp.dhall
       ⫽ ./groups/sigilion.dhall
       ⫽ ./groups/slamdata.dhall
@@ -97,7 +98,7 @@ let packages =
       ⫽ ./groups/markfarrell.dhall
       ⫽ ./groups/lukasturcani.dhall
       ⫽ ./groups/iarthstar.dhall
-      ⫽ ./groups/3ddyy.dhall
+      ⫽ ./groups/artemisSystem.dhall
       ⫽ ./groups/dirkz.dhall
       ⫽ ./groups/dewey92.dhall
       ⫽ ./groups/pelotom.dhall
@@ -106,5 +107,6 @@ let packages =
       ⫽ ./groups/vladciobanu.dhall
       ⫽ ./groups/ursi.dhall
       ⫽ ./groups/chekoopa.dhall
+      ⫽ ./groups/newlandsvalley.dhall
 
 in  packages

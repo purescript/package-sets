@@ -1,4 +1,24 @@
 {
+  "abc-parser": {
+    "dependencies": [
+      "bifunctors",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "generics-rep",
+      "maybe",
+      "midi",
+      "ordered-collections",
+      "rationals",
+      "string-parsers",
+      "strings",
+      "stringutils",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-abc-parser.git",
+    "version": "v1.8.0"
+  },
   "abides": {
     "dependencies": [
       "enums",
@@ -585,7 +605,6 @@
       "aff",
       "canvas",
       "colors",
-      "console",
       "effect",
       "exceptions",
       "foldable-traversable",
@@ -597,15 +616,14 @@
       "partial",
       "polymorphic-vectors",
       "prelude",
-      "psci-support",
       "run",
       "transformers",
       "tuples",
       "typelevel-prelude",
       "web-html"
     ],
-    "repo": "https://github.com/3ddyy/purescript-canvas-action.git",
-    "version": "v5.0.1"
+    "repo": "https://github.com/artemisSystem/purescript-canvas-action.git",
+    "version": "v6.0.1"
   },
   "cartesian": {
     "dependencies": [
@@ -826,6 +844,15 @@
     "repo": "https://github.com/danieljharvey/purescript-cssom.git",
     "version": "v0.0.2"
   },
+  "csv": {
+    "dependencies": [
+      "arrays",
+      "ordered-collections",
+      "parsing"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-csv.git",
+    "version": "v3.0.0"
+  },
   "data-algebrae": {
     "dependencies": [
       "arrays",
@@ -884,7 +911,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/ursi/purescript-debuggest.git",
-    "version": "v0.3.1"
+    "version": "v0.4.0"
   },
   "decimals": {
     "dependencies": [
@@ -972,6 +999,15 @@
     ],
     "repo": "https://github.com/paf31/purescript-drawing.git",
     "version": "v4.0.0"
+  },
+  "dynamic-buffer": {
+    "dependencies": [
+      "arraybuffer-types",
+      "effect",
+      "refs"
+    ],
+    "repo": "https://github.com/kritzcreek/purescript-dynamic-buffer.git",
+    "version": "v1.0.1"
   },
   "easy-ffi": {
     "dependencies": [
@@ -1445,38 +1481,28 @@
     "dependencies": [
       "aff",
       "canvas-action",
-      "console",
       "control",
       "datetime",
       "effect",
       "filterable",
       "foldable-traversable",
       "fork",
-      "free",
-      "functors",
-      "identity",
       "js-timers",
-      "monad-loops",
       "newtype",
       "now",
       "parallel",
-      "partial",
       "polymorphic-vectors",
       "prelude",
-      "psci-support",
-      "record",
-      "record-extra",
       "refs",
       "run",
       "tailrec",
       "typelevel-prelude",
-      "undefined",
       "variant",
       "web-html",
       "web-uievents"
     ],
-    "repo": "https://github.com/3ddyy/purescript-game.git",
-    "version": "v2.0.0"
+    "repo": "https://github.com/artemisSystem/purescript-game.git",
+    "version": "v2.0.1"
   },
   "gen": {
     "dependencies": [
@@ -1568,7 +1594,7 @@
       "web-html"
     ],
     "repo": "https://github.com/purescript-grain/purescript-grain.git",
-    "version": "v0.9.0"
+    "version": "v1.0.0"
   },
   "grain-router": {
     "dependencies": [
@@ -1576,14 +1602,14 @@
       "profunctor"
     ],
     "repo": "https://github.com/purescript-grain/purescript-grain-router.git",
-    "version": "v0.9.0"
+    "version": "v1.0.0"
   },
   "grain-virtualized": {
     "dependencies": [
       "grain"
     ],
     "repo": "https://github.com/purescript-grain/purescript-grain-virtualized.git",
-    "version": "v0.9.0"
+    "version": "v1.0.0"
   },
   "group": {
     "dependencies": [
@@ -1971,6 +1997,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
     "version": "v6.0.0"
   },
+  "js-fileio": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-js-fileio.git",
+    "version": "v2.1.0"
+  },
   "js-timers": {
     "dependencies": [
       "effect"
@@ -2251,6 +2286,19 @@
     "dependencies": [],
     "repo": "https://github.com/spacchetti/purescript-metadata.git",
     "version": "v0.13.8"
+  },
+  "midi": {
+    "dependencies": [
+      "effect",
+      "generics-rep",
+      "integers",
+      "lists",
+      "prelude",
+      "signal",
+      "string-parsers"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-midi.git",
+    "version": "v2.3.2"
   },
   "milkis": {
     "dependencies": [
@@ -3043,16 +3091,13 @@
   "polymorphic-vectors": {
     "dependencies": [
       "canvas",
-      "console",
       "distributive",
-      "effect",
       "foldable-traversable",
       "math",
-      "prelude",
-      "psci-support"
+      "prelude"
     ],
-    "repo": "https://github.com/3ddyy/purescript-polymorphic-vectors.git",
-    "version": "v2.0.0"
+    "repo": "https://github.com/artemisSystem/purescript-polymorphic-vectors.git",
+    "version": "v2.0.1"
   },
   "posix-types": {
     "dependencies": [
@@ -3510,6 +3555,17 @@
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v6.1.0"
   },
+  "react-halo": {
+    "dependencies": [
+      "aff",
+      "free",
+      "freeap",
+      "react-basic-hooks",
+      "wire"
+    ],
+    "repo": "https://github.com/robertdp/purescript-react-halo.git",
+    "version": "v0.2.3"
+  },
   "react-queue": {
     "dependencies": [
       "exceptions",
@@ -3767,6 +3823,17 @@
     ],
     "repo": "https://github.com/paf31/purescript-safely.git",
     "version": "v4.0.1"
+  },
+  "school-of-music": {
+    "dependencies": [
+      "effect",
+      "foldable-traversable",
+      "math",
+      "midi",
+      "rationals"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-school-of-music.git",
+    "version": "v1.2.4"
   },
   "scrypt": {
     "dependencies": [
@@ -4037,6 +4104,21 @@
     ],
     "repo": "https://github.com/SodiumFRP/purescript-sodium.git",
     "version": "v2.1.0"
+  },
+  "soundfonts": {
+    "dependencies": [
+      "affjax",
+      "argonaut-core",
+      "b64",
+      "console",
+      "effect",
+      "http-methods",
+      "midi",
+      "parallel",
+      "prelude"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-soundfonts.git",
+    "version": "v3.1.1"
   },
   "sparse-matrices": {
     "dependencies": [
@@ -4319,7 +4401,7 @@
       "mason-prelude"
     ],
     "repo": "https://github.com/ursi/purescript-task.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "test-unit": {
     "dependencies": [
@@ -4668,7 +4750,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/jvliwanag/purescript-untagged-union.git",
-    "version": "v0.1.1"
+    "version": "v0.2.0"
   },
   "uri": {
     "dependencies": [
@@ -4864,6 +4946,16 @@
     ],
     "repo": "https://github.com/maxdeviant/purescript-which.git",
     "version": "v0.1.0"
+  },
+  "wire": {
+    "dependencies": [
+      "aff",
+      "filterable",
+      "refs",
+      "unsafe-reference"
+    ],
+    "repo": "https://github.com/robertdp/purescript-wire.git",
+    "version": "v0.5.0"
   },
   "xiaomian": {
     "dependencies": [
