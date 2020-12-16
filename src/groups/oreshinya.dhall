@@ -38,4 +38,9 @@
   , repo = "https://github.com/oreshinya/purescript-simple-jwt.git"
   , version = "v2.0.0"
   }
+, simple-ulid =
+  { dependencies = [ "exceptions", "now", "strings" ]
+  , repo = "https://github.com/oreshinya/purescript-simple-ulid.git"
+  , version = "v1.0.0"
+  }
 }

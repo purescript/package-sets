@@ -4016,6 +4016,15 @@
     "repo": "https://github.com/reactormonk/purescript-simple-timestamp.git",
     "version": "v3.0.0"
   },
+  "simple-ulid": {
+    "dependencies": [
+      "exceptions",
+      "now",
+      "strings"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-simple-ulid.git",
+    "version": "v1.0.0"
+  },
   "sized-matrices": {
     "dependencies": [
       "arrays",
