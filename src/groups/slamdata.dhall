@@ -68,27 +68,6 @@
   , repo = "https://github.com/slamdata/purescript-halogen-vdom.git"
   , version = "v6.1.3"
   }
-, routing =
-  { dependencies =
-    [ "aff"
-    , "console"
-    , "control"
-    , "effect"
-    , "either"
-    , "foldable-traversable"
-    , "numbers"
-    , "integers"
-    , "lists"
-    , "maybe"
-    , "prelude"
-    , "semirings"
-    , "tuples"
-    , "validation"
-    , "web-html"
-    ]
-  , repo = "https://github.com/slamdata/purescript-routing.git"
-  , version = "v9.0.1"
-  }
 , uri =
   { dependencies =
     [ "arrays"

@@ -342,6 +342,27 @@
   , repo = "https://github.com/purescript-contrib/purescript-react-dom.git"
   , version = "main"
   }
+, routing =
+  { dependencies =
+    [ "aff"
+    , "console"
+    , "control"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "numbers"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "prelude"
+    , "semirings"
+    , "tuples"
+    , "validation"
+    , "web-html"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-routing.git"
+  , version = "main"
+  }
 , strings-extra =
   { dependencies =
     [ "arrays"
