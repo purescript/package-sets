@@ -173,6 +173,25 @@
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
   , version = "main"
   }
+, precise =
+  { dependencies =
+    [ "arrays"
+    , "console"
+    , "effect"
+    , "exceptions"
+    , "gen"
+    , "generics-rep"
+    , "numbers"
+    , "integers"
+    , "lists"
+    , "psci-support"
+    , "quickcheck"
+    , "quickcheck-laws"
+    , "strings"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-precise.git"
+  , version = "main"
+  }
 , profunctor-lenses =
   { dependencies =
     [ "arrays"
