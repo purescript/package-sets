@@ -2,17 +2,17 @@
   { dependencies =
     [ "arraybuffer-types", "effect", "exceptions", "functions", "maybe" ]
   , repo = "https://github.com/purescript-web/purescript-canvas.git"
-  , version = "v4.0.0"
+  , version = "master"
   }
 , web-clipboard =
   { dependencies = [ "web-html" ]
   , repo = "https://github.com/purescript-web/purescript-web-clipboard.git"
-  , version = "v2.0.0"
+  , version = "master"
   }
 , web-dom =
   { dependencies = [ "web-events" ]
   , repo = "https://github.com/purescript-web/purescript-web-dom.git"
-  , version = "v4.1.0"
+  , version = "master"
   }
 , web-dom-parser =
   { dependencies =
@@ -44,7 +44,7 @@
 , web-events =
   { dependencies = [ "datetime", "enums", "nullable" ]
   , repo = "https://github.com/purescript-web/purescript-web-events.git"
-  , version = "v2.0.1"
+  , version = "master"
   }
 , web-fetch =
   { dependencies =
@@ -64,12 +64,12 @@
 , web-file =
   { dependencies = [ "foreign", "media-types", "web-dom" ]
   , repo = "https://github.com/purescript-web/purescript-web-file.git"
-  , version = "v2.3.0"
+  , version = "master"
   }
 , web-html =
   { dependencies = [ "js-date", "web-dom", "web-file", "web-storage" ]
   , repo = "https://github.com/purescript-web/purescript-web-html.git"
-  , version = "v2.3.0"
+  , version = "master"
   }
 , web-promise =
   { dependencies =
@@ -85,12 +85,12 @@
 , web-socket =
   { dependencies = [ "arraybuffer-types", "web-file" ]
   , repo = "https://github.com/purescript-web/purescript-web-socket.git"
-  , version = "v2.0.0"
+  , version = "master"
   }
 , web-storage =
   { dependencies = [ "nullable", "web-events" ]
   , repo = "https://github.com/purescript-web/purescript-web-storage.git"
-  , version = "v3.0.0"
+  , version = "master"
   }
 , web-streams =
   { dependencies =
@@ -108,17 +108,17 @@
 , web-touchevents =
   { dependencies = [ "web-uievents" ]
   , repo = "https://github.com/purescript-web/purescript-web-touchevents.git"
-  , version = "v2.0.0"
+  , version = "master"
   }
 , web-uievents =
   { dependencies = [ "web-html" ]
   , repo = "https://github.com/purescript-web/purescript-web-uievents.git"
-  , version = "v2.0.0"
+  , version = "master"
   }
 , web-xhr =
   { dependencies =
     [ "arraybuffer-types", "datetime", "http-methods", "web-dom", "web-file" ]
   , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
-  , version = "v3.0.2"
+  , version = "master"
   }
 }
