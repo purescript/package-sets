@@ -162,6 +162,11 @@
   , repo = "https://github.com/purescript-contrib/purescript-formatters.git"
   , version = "main"
   }
+, fork =
+  { dependencies = [ "aff" ]
+  , repo = "https://github.com/purescript-contrib/purescript-fork.git"
+  , version = "main"
+  }
 , form-urlencoded =
   { dependencies =
     [ "numbers", "maybe", "newtype", "prelude", "strings", "tuples" ]

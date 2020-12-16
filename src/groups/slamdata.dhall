@@ -4,11 +4,6 @@
   , repo = "https://github.com/slamdata/purescript-dom-indexed.git"
   , version = "v7.0.0"
   }
-, fork =
-  { dependencies = [ "aff" ]
-  , repo = "https://github.com/slamdata/purescript-fork.git"
-  , version = "v4.0.0"
-  }
 , halogen =
   { dependencies =
     [ "aff"
