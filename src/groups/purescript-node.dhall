@@ -41,8 +41,8 @@
     , "strings"
     , "unsafe-coerce"
     ]
-  , repo = "https://github.com/purescript-node/purescript-node-fs.git"
-  , version = "master"
+  , repo = "https://github.com/jordanmartinez/purescript-node-fs.git"
+  , version = "fixGlobalDep"
   }
 , node-fs-aff =
   { dependencies = [ "aff", "either", "node-fs", "node-path" ]
