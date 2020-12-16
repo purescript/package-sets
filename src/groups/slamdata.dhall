@@ -61,11 +61,6 @@
   , repo = "https://github.com/slamdata/purescript-dom-indexed.git"
   , version = "v7.0.0"
   }
-, fixed-points =
-  { dependencies = [ "exists", "newtype", "prelude", "transformers" ]
-  , repo = "https://github.com/slamdata/purescript-fixed-points.git"
-  , version = "v5.1.0"
-  }
 , fork =
   { dependencies = [ "aff" ]
   , repo = "https://github.com/slamdata/purescript-fork.git"
