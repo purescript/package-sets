@@ -77,6 +77,12 @@
   {- TODO: merge the ps-0.14 branch into master branch -}
   , version = "main"
   }
+, avar =
+  { dependencies =
+    [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]
+  , repo = "https://github.com/purescript-contrib/purescript-avar.git"
+  , version = "main"
+  }
 , concurrent-queues =
   { dependencies = [ "aff", "avar", "console", "effect", "psci-support", "test-unit" ]
   , repo = "https://github.com/purescript-contrib/purescript-concurrent-queues.git"

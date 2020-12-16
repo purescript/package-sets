@@ -17,12 +17,6 @@
   {- merge kl0tli's roles-declarations into master -}
   , version = "v4.0.0"
   }
-, avar =
-  { dependencies =
-    [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]
-  , repo = "https://github.com/slamdata/purescript-avar.git"
-  , version = "v3.0.0"
-  }
 , affjax =
   { dependencies =
     [ "aff"
