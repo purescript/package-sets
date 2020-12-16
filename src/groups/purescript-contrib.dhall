@@ -387,6 +387,22 @@
   , repo = "https://github.com/purescript-contrib/purescript-unicode.git"
   , version = "main"
   }
+, uri =
+  { dependencies =
+    [ "arrays"
+    , "generics-rep"
+    , "numbers"
+    , "integers"
+    , "parsing"
+    , "profunctor-lenses"
+    , "quickcheck"
+    , "spec"
+    , "unfoldable"
+    , "these"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-uri.git"
+  , version = "main"
+  }
 , unsafe-reference =
   { dependencies = [] : List Text
   , repo =

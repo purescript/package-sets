@@ -68,20 +68,4 @@
   , repo = "https://github.com/slamdata/purescript-halogen-vdom.git"
   , version = "v6.1.3"
   }
-, uri =
-  { dependencies =
-    [ "arrays"
-    , "generics-rep"
-    , "numbers"
-    , "integers"
-    , "parsing"
-    , "profunctor-lenses"
-    , "quickcheck"
-    , "spec"
-    , "unfoldable"
-    , "these"
-    ]
-  , repo = "https://github.com/slamdata/purescript-uri.git"
-  , version = "v7.0.0"
-  }
 }
