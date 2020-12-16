@@ -15,7 +15,7 @@ jobs:
       uses: actions/setup-node@v1
     - name: Install latest PureScript Release Candidate
       env:
-        TAG: v0.14.0-rc2
+        TAG: v0.14.0-rc4
       run: |
         curl --location --output $HOME/purescript.tar.gz https://github.com/purescript/purescript/releases/download/$TAG/linux64.tar.gz
         tar -xvf $HOME/purescript.tar.gz -C $HOME/
