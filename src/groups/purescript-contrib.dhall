@@ -74,6 +74,25 @@
   , repo = "https://github.com/purescript-contrib/purescript-coroutines.git"
   , version = "main"
   }
+, css =
+  { dependencies =
+    [ "colors"
+    , "console"
+    , "generics-rep"
+    , "nonempty"
+    , "profunctor"
+    , "strings"
+    , "these"
+    , "transformers"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-css.git"
+  , version = "main"
+  }
+, fixed-points =
+  { dependencies = [ "exists", "newtype", "prelude", "transformers" ]
+  , repo = "https://github.com/purescript-contrib/purescript-fixed-points.git"
+  , version = "main"
+  }
 , form-urlencoded =
   { dependencies =
     [ "numbers", "maybe", "newtype", "prelude", "strings", "tuples" ]

@@ -55,30 +55,11 @@
   , repo = "https://github.com/slamdata/purescript-affjax.git"
   , version = "v10.1.0"
   }
-, css =
-  { dependencies =
-    [ "colors"
-    , "console"
-    , "generics-rep"
-    , "nonempty"
-    , "profunctor"
-    , "strings"
-    , "these"
-    , "transformers"
-    ]
-  , repo = "https://github.com/slamdata/purescript-css.git"
-  , version = "v4.0.0"
-  }
 , dom-indexed =
   { dependencies =
     [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
   , repo = "https://github.com/slamdata/purescript-dom-indexed.git"
   , version = "v7.0.0"
-  }
-, fixed-points =
-  { dependencies = [ "exists", "newtype", "prelude", "transformers" ]
-  , repo = "https://github.com/slamdata/purescript-fixed-points.git"
-  , version = "v5.1.0"
   }
 , fork =
   { dependencies = [ "aff" ]
