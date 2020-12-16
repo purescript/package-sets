@@ -4,25 +4,6 @@
   {- merge kl0tli's roles-declarations into master -}
   , version = "v4.0.0"
   }
-, affjax =
-  { dependencies =
-    [ "aff"
-    , "argonaut-core"
-    , "arraybuffer-types"
-    , "foreign"
-    , "form-urlencoded"
-    , "http-methods"
-    , "integers"
-    , "math"
-    , "media-types"
-    , "nullable"
-    , "refs"
-    , "unsafe-coerce"
-    , "web-xhr"
-    ]
-  , repo = "https://github.com/slamdata/purescript-affjax.git"
-  , version = "v10.1.0"
-  }
 , dom-indexed =
   { dependencies =
     [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]

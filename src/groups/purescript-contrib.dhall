@@ -24,6 +24,25 @@
   , repo = "https://github.com/purescript-contrib/purescript-aff.git"
   , version = "main"
   }
+, affjax =
+  { dependencies =
+    [ "aff"
+    , "argonaut-core"
+    , "arraybuffer-types"
+    , "foreign"
+    , "form-urlencoded"
+    , "http-methods"
+    , "integers"
+    , "math"
+    , "media-types"
+    , "nullable"
+    , "refs"
+    , "unsafe-coerce"
+    , "web-xhr"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-affjax.git"
+  , version = "main"
+  }
 , aff-coroutines =
   { dependencies = [ "aff", "avar", "console", "coroutines" ]
   , repo = "https://github.com/purescript-contrib/purescript-aff-coroutines.git"
