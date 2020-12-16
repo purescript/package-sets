@@ -43,6 +43,11 @@
   , repo = "https://github.com/purescript-contrib/purescript-affjax.git"
   , version = "main"
   }
+, aff-bus =
+  { dependencies = [ "avar", "prelude" ]
+  , repo = "https://github.com/slamdata/purescript-aff-bus.git"
+  , version = "main"
+  }
 , aff-coroutines =
   { dependencies = [ "aff", "avar", "console", "coroutines" ]
   , repo = "https://github.com/purescript-contrib/purescript-aff-coroutines.git"
