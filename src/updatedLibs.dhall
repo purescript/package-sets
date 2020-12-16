@@ -127,4 +127,5 @@ in shared
     , "web-dom-parser"
     , "node-fs-aff"
     , "node-net"
+    , "js-uri"
     ]

@@ -129,6 +129,11 @@
   , repo = "https://github.com/purescript-contrib/purescript-js-timers.git"
   , version = "main"
   }
+, js-uri =
+  { dependencies = [ "functions", "maybe" ]
+  , repo = "https://github.com/purescript-contrib/purescript-js-uri.git"
+  , version = "main"
+  }
 , jquery =
   { dependencies = [ "console", "effect", "foreign", "web-dom" ]
   , repo = "https://github.com/purescript-contrib/purescript-jquery.git"
