@@ -124,7 +124,7 @@ in shared
     , "naturals"
     , "node-net"
     , "css"
-    , "web-dom-xparser"
+    , "web-dom-parser"
     , "node-fs-aff"
     , "node-net"
     ]
