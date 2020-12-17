@@ -131,7 +131,6 @@ in shared
     , "routing"
     , "affjax"
     , "uri"
-    , "ace"
     , "form-urlencoded"
     , "react"
     , "react-dom"
