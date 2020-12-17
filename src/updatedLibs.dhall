@@ -133,7 +133,6 @@ in shared
     , "uri"
     , "ace"
     , "form-urlencoded"
-    , "jquery"
     , "react"
     , "react-dom"
     ]
