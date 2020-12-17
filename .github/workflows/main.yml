@@ -5,7 +5,7 @@ on:
   push:
 
 jobs:
-  tests:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -29,8 +29,8 @@ jobs:
           nix-shell --run 'make test-psc-package'
 
       - name: Check for and commit modified files
-          id: git-check
-          run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)
+        id: git-check
+        run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)
 
       - name: Push changes
         if: steps.git-check.outputs.modified == 'true'
