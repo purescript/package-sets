@@ -19,7 +19,7 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-20.09
 
-      - name: Update tooling versions
+      - name: Generate packages.json file from the package set
         run: |
           # Set Git configuration to the GitHub Action user, which won't trigger
           # subsequent runs of this Action.
@@ -45,6 +45,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
   tests:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
