@@ -128,4 +128,12 @@ in shared
     , "node-fs-aff"
     , "node-net"
     , "js-uri"
+    , "routing"
+    , "affjax"
+    , "uri"
+    , "ace"
+    , "form-urlencoded"
+    , "jquery"
+    , "react"
+    , "react-dom"
     ]
