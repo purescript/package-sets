@@ -10,9 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          # Otherwise the token used is the GITHUB_TOKEN instead of personal
+          ref: ${{ github.event.pull_request.head.ref }}
           persist-credentials: false
-          # Otherwise will fail to push refs to destination repo
           fetch-depth: 0
 
       - uses: cachix/install-nix-action@v12
