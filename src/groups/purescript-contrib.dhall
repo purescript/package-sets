@@ -9,7 +9,7 @@
     , "prelude"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-ace.git"
-  , version = "v7.0.0"
+  , version = "main"
   }
 , aff =
   { dependencies =

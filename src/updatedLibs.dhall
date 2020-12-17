@@ -134,4 +134,5 @@ in shared
     , "form-urlencoded"
     , "react"
     , "react-dom"
+    , "ace"
     ]
