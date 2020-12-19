@@ -240,7 +240,7 @@
 , globals =
   { dependencies = [ "functions", "maybe" ] : List Text
   , repo = "https://github.com/purescript/purescript-globals.git"
-  , version = "v4.1.0"
+  , version = "v5.0.0"
   }
 , identity =
   { dependencies =
@@ -395,7 +395,7 @@
 , proxy =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/purescript/purescript-proxy.git"
-  , version = "v3.0.0"
+  , version = "v3.0.2"
   }
 , psci-support =
   { dependencies = [ "console", "effect", "prelude" ]

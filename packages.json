@@ -1576,7 +1576,7 @@
       "maybe"
     ],
     "repo": "https://github.com/purescript/purescript-globals.git",
-    "version": "v4.1.0"
+    "version": "v5.0.0"
   },
   "gomtang-basic": {
     "dependencies": [
@@ -2759,7 +2759,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/joneshf/purescript-option.git",
-    "version": "v6.0.1"
+    "version": "v6.1.0"
   },
   "options": {
     "dependencies": [
@@ -3050,7 +3050,7 @@
       "prelude"
     ],
     "repo": "https://github.com/ursi/purescript-point-free.git",
-    "version": "v0.1.1"
+    "version": "v0.1.3"
   },
   "pointed": {
     "dependencies": [
@@ -3221,7 +3221,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-proxy.git",
-    "version": "v3.0.0"
+    "version": "v3.0.2"
   },
   "proxying": {
     "dependencies": [
@@ -3925,7 +3925,7 @@
       "prelude"
     ],
     "repo": "https://github.com/bodil/purescript-signal.git",
-    "version": "v10.1.0"
+    "version": "v11.0.3"
   },
   "sijidou": {
     "dependencies": [
@@ -4715,6 +4715,7 @@
   },
   "unordered-collections": {
     "dependencies": [
+      "arrays",
       "enums",
       "functions",
       "integers",
@@ -4725,7 +4726,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
-    "version": "v1.8.3"
+    "version": "v1.9.2"
   },
   "unorm": {
     "dependencies": [],

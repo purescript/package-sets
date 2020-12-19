@@ -28,16 +28,16 @@ jobs:
           nix-shell --run 'make verify-registry'
           nix-shell --run 'make test-psc-package'
 
-      - name: Check for and commit modified files
+      - name: Check for modified files
         id: git-check
         run: echo ::set-output name=modified::$(if git diff --quiet; then echo "false"; else echo "true"; fi)
 
-      - name: Push changes
+      - name: Commit and push modified files
         if: steps.git-check.outputs.modified == 'true'
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'actions@github.com'
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git remote set-url origin https://x-access-token:${{ secrets.PACKAGE_SETS_TOKEN }}@github.com/${{ github.repository }}
           git pull --ff-only
           git commit -am "Update packages.json file"
           git push
@@ -49,4 +49,6 @@ jobs:
             .psc-package
           key: ${{ runner.os }}-build-products
 
-      - run: nix-shell --run 'cd src && spago verify-set'
+      - name: Run tests
+        if: steps.git-check.outputs.modified == 'false'
+        run: nix-shell --run 'cd src && spago verify-set'

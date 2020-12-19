@@ -1,6 +1,7 @@
 { unordered-collections =
   { dependencies =
-    [ "enums"
+    [ "arrays"
+    , "enums"
     , "functions"
     , "integers"
     , "lists"
@@ -10,6 +11,6 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/fehrenbach/purescript-unordered-collections.git"
-  , version = "v1.8.3"
+  , version = "v1.9.2"
   }
 }
