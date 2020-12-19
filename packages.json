@@ -4715,6 +4715,7 @@
   },
   "unordered-collections": {
     "dependencies": [
+      "arrays",
       "enums",
       "functions",
       "integers",
