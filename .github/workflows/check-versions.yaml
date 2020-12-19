@@ -1,0 +1,23 @@
+name: Compare package versions
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+
+jobs:
+  compare-package-versions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - uses: actions/cache@v2
+        with:
+          key: ${{ runner.os }}-spago-${{hashFiles('ci/*.dhall')}}-${{hashFiles('ci/package-lock.json')}}
+          path: |
+            ci/node_modules
+            ci/.spago
+            ci/output
+      - run: npm --prefix ci ci
+      - run: npm --prefix ci run build
+      - name: Compare package versions
+        run: npm --prefix ci start ${{ secrets.GITHUB_TOKEN }}
