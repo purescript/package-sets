@@ -939,7 +939,7 @@
       "strings"
     ],
     "repo": "https://github.com/natefaubion/purescript-dodo-printer.git",
-    "version": "v1.0.9"
+    "version": "v1.0.8"
   },
   "dom-filereader": {
     "dependencies": [
