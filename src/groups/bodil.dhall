@@ -2,7 +2,7 @@
   { dependencies =
     [ "aff", "foldable-traversable", "js-timers", "maybe", "prelude" ]
   , repo = "https://github.com/bodil/purescript-signal.git"
-  , version = "v10.1.0"
+  , version = "v11.0.3"
   }
 , sized-vectors =
   { dependencies =
