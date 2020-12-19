@@ -1,6 +1,7 @@
 { unordered-collections =
   { dependencies =
-    [ "enums"
+    [ "arrays"
+    , "enums"
     , "functions"
     , "integers"
     , "lists"
