@@ -25,6 +25,10 @@ jobs:
       - name: Verify all packages are compatible with psc-package
         run: nix-shell --run 'make test-psc-package'
 
+      - name: Check for modified files
+        id: git-check
+        run: echo ::set-output name=modified::$(if git diff --quiet; then echo "false"; else echo "true"; fi)
+
       - uses: actions/cache@v2
         with:
           path: |
@@ -33,4 +37,8 @@ jobs:
           key: ${{ runner.os }}-build-products
 
       - name: Verify all packages in the set build together
+        # This verification step is expensive, and we can skip the check if the
+        # package set is unchanged (e.g. generating a new packages.json file did
+        # not produce any changes to the package set).
+        if: steps.git-check.outputs.modified == 'true'
         run: nix-shell --run 'cd src && spago verify-set'
