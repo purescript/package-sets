@@ -6,6 +6,8 @@ on:
 
 jobs:
   compare-package-versions:
+    # Skip comparison on forks
+    if: github.repository_owner == 'purescript'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
