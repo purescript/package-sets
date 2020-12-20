@@ -41,7 +41,7 @@ jobs:
         # This verification step is expensive, and we can skip the check if the
         # package set is unchanged (e.g. generating a new packages.json file did
         # not produce any changes to the package set).
-        if: steps.generate-packages.outputs.modified == 'false'
+        if: steps.generate-packages.outputs.modified == 'true'
         run: nix-shell --run 'cd src && spago verify-set'
 
       - name: Commit and push modified files
