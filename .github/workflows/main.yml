@@ -1,4 +1,4 @@
-name: build
+name: Build the package set
 
 on:
   pull_request:
@@ -11,36 +11,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
-          persist-credentials: false
 
       - uses: cachix/install-nix-action@v12
         with:
           nix_path: nixpkgs=channel:nixos-20.09
 
-      - name: Generate packages.json file from the package set
-        run: |
-          # Generate the new packages.json file
-          nix-shell --run 'make generate'
+      - name: Check we can generate a new packages.json file
+        run: nix-shell --run 'make generate'
 
-          # Run verification steps
-          nix-shell --run 'make verify-registry'
-          nix-shell --run 'make test-psc-package'
+      - name: Verify all packages are in the registry
+        run: nix-shell --run 'make verify-registry'
+
+      - name: Verify all packages are compatible with psc-package
+        run: nix-shell --run 'make test-psc-package'
 
       - name: Check for modified files
         id: git-check
         run: echo ::set-output name=modified::$(if git diff --quiet; then echo "false"; else echo "true"; fi)
-
-      - name: Commit and push modified files
-        if: steps.git-check.outputs.modified == 'true'
-        run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'actions@github.com'
-          git remote set-url origin https://x-access-token:${{ secrets.PACKAGE_SETS_TOKEN }}@github.com/${{ github.repository }}
-          git pull --ff-only
-          git commit -am "Update packages.json file"
-          git push
 
       - uses: actions/cache@v2
         with:
@@ -49,6 +36,9 @@ jobs:
             .psc-package
           key: ${{ runner.os }}-build-products
 
-      - name: Run tests
-        if: steps.git-check.outputs.modified == 'false'
+      - name: Verify all packages in the set build together
+        # This verification step is expensive, and we can skip the check if the
+        # package set is unchanged (e.g. generating a new packages.json file did
+        # not produce any changes to the package set).
+        if: steps.git-check.outputs.modified == 'true'
         run: nix-shell --run 'cd src && spago verify-set'
