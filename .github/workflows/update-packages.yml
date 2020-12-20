@@ -15,14 +15,13 @@ jobs:
           nix_path: nixpkgs=channel:nixos-20.09
 
       - name: Generate packages.json file from the package set
-        run: nix-shell --run 'make generate'
-
-      - name: Check for modified files
-        id: git-check
-        run: echo ::set-output name=modified::$(if git diff --quiet; then echo "false"; else echo "true"; fi)
+        id: generate-packages
+        run: |
+          nix-shell --run 'make generate'
+          echo ::set-output name=modified::$(if git diff --quiet; then echo "false"; else echo "true"; fi)
 
       - name: Commit and push modified files
-        if: steps.git-check.outputs.modified == 'true'
+        if: steps.generate-packages.outputs.modified == 'true'
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
