@@ -4383,6 +4383,18 @@
     "repo": "https://github.com/justinwoo/purescript-sunde.git",
     "version": "v2.0.0"
   },
+  "supply": {
+    "dependencies": [
+      "console",
+      "effect",
+      "lazy",
+      "newtype",
+      "refs",
+      "tuples"
+    ],
+    "repo": "https://github.com/ajnsit/purescript-supply.git",
+    "version": "v0.1.0"
+  },
   "svg-parser": {
     "dependencies": [
       "generics-rep",
