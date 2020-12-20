@@ -1,9 +1,9 @@
-name: release
+name: Create GitHub Release
 
 on:
   push:
     tags:
-    - 'psc-*'
+      - "psc-*"
 
 jobs:
   build:
