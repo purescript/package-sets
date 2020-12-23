@@ -1,4 +1,4 @@
-name: Update the package set
+name: Update
 
 on:
   pull_request:
@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: ${{github.event.pull_request.head.ref}}
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - uses: cachix/install-nix-action@v12
         with:
