@@ -3613,7 +3613,7 @@
       "spec"
     ],
     "repo": "https://github.com/i-am-the-slime/purescript-react-testing-library.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "read": {
     "dependencies": [
