@@ -5,10 +5,8 @@ on:
     branches: [master]
   # see ./update-packages.yml
   workflow_run:
-    workflows: ["Update the package set"]
-    branches: [master]
-    types:
-      - completed
+    workflows:
+      - Update
 
 jobs:
   tests:
