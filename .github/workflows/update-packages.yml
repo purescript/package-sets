@@ -1,6 +1,7 @@
 name: Update the package set
 
 on: pull_request_target
+    types: [opened, synchronize, reopened]
 
 jobs:
   build:
