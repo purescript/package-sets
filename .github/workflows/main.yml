@@ -1,12 +1,10 @@
-name: Build the package set
+name: build
 
 on:
   push:
-    branches: [master]
-  # see ./update-packages.yml
-  workflow_run:
-    workflows:
-      - Update
+    branches: master
+  pull_request:
+    branches: master
 
 jobs:
   tests:
@@ -18,15 +16,6 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-20.09
 
-      - name: Generate packages.json file from the package set
-        run: nix-shell --run 'make generate'
-
-      - name: Verify all packages are in the registry
-        run: nix-shell --run 'make verify-registry'
-
-      - name: Verify all packages are compatible with psc-package
-        run: nix-shell --run 'make test-psc-package'
-
       - uses: actions/cache@v2
         with:
           path: |
@@ -34,5 +23,4 @@ jobs:
             .psc-package
           key: ${{ runner.os }}-build-products
 
-      - name: Verify all packages in the set build together
-        run: nix-shell --run 'cd src && spago verify-set'
+      - run: nix-shell --run 'make ci'
