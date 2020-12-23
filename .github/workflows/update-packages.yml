@@ -1,9 +1,6 @@
 name: Update the package set
 
-on:
-  pull_request_target:
-    branches: master
-    paths: "src/**/**.dhall"
+on: pull_request_target
 
 jobs:
   build:
