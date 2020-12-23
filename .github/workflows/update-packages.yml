@@ -32,9 +32,3 @@ jobs:
           git pull --ff-only
           git commit -am "Update packages.json file"
           git push
-
-      - name: Verify all packages are in the registry
-        run: nix-shell --run 'make verify-registry'
-
-      - name: Verify all packages are compatible with psc-package
-        run: nix-shell --run 'make test-psc-package'
