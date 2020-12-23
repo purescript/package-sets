@@ -3736,6 +3736,13 @@
     "repo": "https://github.com/ad-si/purescript-result.git",
     "version": "v1.0.3"
   },
+  "return": {
+    "dependencies": [
+      "mason-prelude"
+    ],
+    "repo": "https://github.com/ursi/purescript-return.git",
+    "version": "v0.1.0"
+  },
   "ring-modules": {
     "dependencies": [
       "prelude"
@@ -4349,6 +4356,15 @@
     ],
     "repo": "https://github.com/matthew-hilty/purescript-subcategory.git",
     "version": "v0.2.0"
+  },
+  "substitute": {
+    "dependencies": [
+      "foreign-object",
+      "mason-prelude",
+      "return"
+    ],
+    "repo": "https://github.com/ursi/purescript-substitute.git",
+    "version": "v0.1.1"
   },
   "subtlecrypto": {
     "dependencies": [
