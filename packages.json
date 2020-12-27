@@ -2337,7 +2337,8 @@
   },
   "newtype": {
     "dependencies": [
-      "prelude"
+      "prelude",
+      "safe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-newtype.git",
     "version": "v3.0.0"
@@ -3616,6 +3617,13 @@
     ],
     "repo": "https://github.com/natefaubion/purescript-run-streaming.git",
     "version": "v2.0.0"
+  },
+  "safe-coerce": {
+    "dependencies": [
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript/purescript-safe-coerce.git",
+    "version": "master"
   },
   "safely": {
     "dependencies": [
