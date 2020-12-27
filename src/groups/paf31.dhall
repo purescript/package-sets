@@ -44,7 +44,6 @@
     , "exceptions"
     , "foreign"
     , "foreign-object"
-    , "generics-rep"
     , "identity"
     , "ordered-collections"
     , "record"
@@ -60,7 +59,6 @@
 , memoize =
   { dependencies =
     [ "either"
-    , "generics-rep"
     , "integers"
     , "lazy"
     , "lists"

@@ -32,7 +32,6 @@
     [ "console"
     , "effect"
     , "foreign"
-    , "generics-rep"
     , "prelude"
     , "psci-support"
     , "spec-quickcheck"

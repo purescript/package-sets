@@ -46,7 +46,6 @@
     , "biscotti-session"
     , "effect"
     , "either"
-    , "generics-rep"
     , "httpure"
     , "maybe"
     , "profunctor-lenses"

@@ -2,7 +2,6 @@
   { dependencies =
     [ "argonaut"
     , "effect"
-    , "generics-rep"
     , "prelude"
     , "quickcheck"
     , "typelevel"
@@ -29,7 +28,6 @@
   { dependencies =
     [ "effect"
     , "foreign"
-    , "generics-rep"
     , "ordered-collections"
     , "prelude"
     , "refs"

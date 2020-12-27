@@ -22,7 +22,6 @@
 , typedenv =
   { dependencies =
     [ "foreign-object"
-    , "generics-rep"
     , "integers"
     , "numbers"
     , "record"

@@ -64,8 +64,6 @@
     , "arrays"
     , "effect"
     , "foreign-object"
-    , "generics-rep"
-    , "identity"
     , "integers"
     , "maybe"
     , "nonempty"
@@ -96,7 +94,7 @@
   }
 , argonaut-generic =
   { dependencies =
-    [ "argonaut-codecs", "argonaut-core", "generics-rep", "record" ]
+    [ "argonaut-codecs", "argonaut-core", "record" ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
   , version = "main"
@@ -134,7 +132,6 @@
   { dependencies =
     [ "colors"
     , "console"
-    , "generics-rep"
     , "nonempty"
     , "profunctor"
     , "strings"
@@ -153,7 +150,6 @@
   { dependencies =
     [ "datetime"
     , "fixed-points"
-    , "generics-rep"
     , "lists"
     , "parsing"
     , "prelude"
@@ -294,7 +290,6 @@
     , "effect"
     , "exceptions"
     , "gen"
-    , "generics-rep"
     , "numbers"
     , "integers"
     , "lists"
@@ -401,7 +396,6 @@
 , uri =
   { dependencies =
     [ "arrays"
-    , "generics-rep"
     , "numbers"
     , "integers"
     , "js-uri"

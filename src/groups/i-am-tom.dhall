@@ -2,7 +2,6 @@
   { dependencies =
     [ "arrays"
     , "foreign-object"
-    , "generics-rep"
     , "maybe"
     , "ordered-collections"
     , "prelude"

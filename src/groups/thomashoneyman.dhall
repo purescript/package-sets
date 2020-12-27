@@ -3,7 +3,6 @@
     [ "halogen"
     , "variant"
     , "heterogeneous"
-    , "generics-rep"
     , "profunctor-lenses"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
@@ -22,7 +21,6 @@
     , "maybe"
     , "strings"
     , "unicode"
-    , "generics-rep"
     , "argonaut-codecs"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-slug.git"

@@ -20,7 +20,7 @@
   , version = "v2.0.0"
   }
 , format-nix =
-  { dependencies = [ "generics-rep", "motsunabe", "prelude" ]
+  { dependencies = [ "motsunabe", "prelude" ]
   , repo = "https://github.com/justinwoo/format-nix.git"
   , version = "v0.3.0"
   }
@@ -44,13 +44,13 @@
   , version = "v2.0.0"
   }
 , kishimen =
-  { dependencies = [ "generics-rep", "prelude", "typelevel-prelude", "variant" ]
+  { dependencies = [ "prelude", "typelevel-prelude", "variant" ]
   , repo = "https://github.com/justinwoo/purescript-kishimen.git"
   , version = "v1.0.1"
   }
 -}
 , lenient-html-parser =
-  { dependencies = [ "console", "generics-rep", "prelude", "string-parsers" ]
+  { dependencies = [ "console", "prelude", "string-parsers" ]
   , repo = "https://github.com/justinwoo/purescript-lenient-html-parser.git"
   , version = "v4.0.0"
   }
@@ -149,7 +149,7 @@
   , version = "master"
   }
 , simple-json-generics =
-  { dependencies = [ "generics-rep", "simple-json" ]
+  { dependencies = [ "simple-json" ]
   , repo = "https://github.com/justinwoo/purescript-simple-json-generics.git"
   , version = "v0.1.0"
   }
