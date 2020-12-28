@@ -306,7 +306,7 @@
   , version = "master"
   }
 , newtype =
-  { dependencies = [ "prelude" ]
+  { dependencies = [ "prelude", "safe-coerce" ]
   , repo = "https://github.com/purescript/purescript-newtype.git"
   , version = "master"
   }
