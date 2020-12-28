@@ -54,7 +54,6 @@ in shared
     , "enums"
     , "semirings"
     , "strings"
-    , "generics-rep"
     , "foreign"
     , "free"
     , "quickcheck"

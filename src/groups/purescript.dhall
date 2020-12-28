@@ -231,12 +231,6 @@
   , repo = "https://github.com/purescript/purescript-gen.git"
   , version = "master"
   }
-, generics-rep =
-  { dependencies =
-    [ "enums", "foldable-traversable", "maybe", "newtype", "prelude" ]
-  , repo = "https://github.com/purescript/purescript-generics-rep.git"
-  , version = "master"
-  }
 , graphs =
   { dependencies = [ "ordered-collections", "catenable-lists" ]
   , repo = "https://github.com/purescript/purescript-graphs.git"
@@ -418,7 +412,6 @@
     , "exceptions"
     , "foldable-traversable"
     , "gen"
-    , "generics-rep"
     , "identity"
     , "integers"
     , "lazy"
