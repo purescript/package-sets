@@ -4232,8 +4232,8 @@
       "prelude",
       "spec"
     ],
-    "repo": "https://github.com/owickstrom/purescript-spec-discovery.git",
-    "version": "v4.0.0"
+    "repo": "https://github.com/purescript-spec/purescript-spec-discovery.git",
+    "version": "v5.0.0"
   },
   "spec-quickcheck": {
     "dependencies": [
