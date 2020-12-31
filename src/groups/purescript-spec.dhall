@@ -17,4 +17,9 @@
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
   , version = "v4.0.1"
   }
+, spec-discovery =
+  { dependencies = [ "prelude", "effect", "arrays", "spec", "node-fs" ]
+  , repo = "https://github.com/purescript-spec/purescript-spec-discovery.git"
+  , version = "v5.0.0"
+  }
 }
