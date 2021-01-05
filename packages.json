@@ -3594,6 +3594,15 @@
     "repo": "https://github.com/robertdp/purescript-react-halo.git",
     "version": "v0.2.3"
   },
+  "react-markdown": {
+    "dependencies": [
+      "react",
+      "row-extra",
+      "undefinable"
+    ],
+    "repo": "https://github.com/openchronology/purescript-react-markdown.git",
+    "version": "v0.0.0"
+  },
   "react-queue": {
     "dependencies": [
       "exceptions",
@@ -5096,6 +5105,14 @@
     "repo": "https://github.com/athanclark/purescript-zeta.git",
     "version": "v6.0.0"
   },
+  "zeta-array": {
+    "dependencies": [
+      "queue",
+      "zeta"
+    ],
+    "repo": "https://github.com/openchronology/purescript-zeta-array.git",
+    "version": "v0.0.0"
+  },
   "zeta-extra": {
     "dependencies": [
       "js-timers",
@@ -5104,5 +5121,15 @@
     ],
     "repo": "https://github.com/athanclark/purescript-zeta-extra.git",
     "version": "v0.0.1"
+  },
+  "zeta-mapping": {
+    "dependencies": [
+      "generics-rep",
+      "profunctor",
+      "queue",
+      "zeta"
+    ],
+    "repo": "https://github.com/openchronology/purescript-zeta-mapping.git",
+    "version": "v0.0.0"
   }
 }
