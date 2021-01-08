@@ -24,7 +24,7 @@
 , bucketchain-csrf =
   { dependencies = [ "bucketchain" ]
   , repo = "https://github.com/Bucketchain/purescript-bucketchain-csrf.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , bucketchain-header-utils =
   { dependencies = [ "bucketchain" ]
