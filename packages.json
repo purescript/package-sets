@@ -1671,7 +1671,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen.git",
-    "version": "v5.1.0"
+    "version": "v5.1.1"
   },
   "halogen-bootstrap": {
     "dependencies": [
@@ -3592,7 +3592,7 @@
       "wire"
     ],
     "repo": "https://github.com/robertdp/purescript-react-halo.git",
-    "version": "v0.2.3"
+    "version": "v1.0.0"
   },
   "react-keybind": {
     "dependencies": [
@@ -4115,7 +4115,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/bodil/purescript-sized-vectors.git",
-    "version": "v5.0.1"
+    "version": "v5.0.2"
   },
   "sjcl": {
     "dependencies": [
@@ -4781,7 +4781,7 @@
       "variant"
     ],
     "repo": "https://github.com/paluh/purescript-undefined-is-not-a-problem.git",
-    "version": "v0.1.0"
+    "version": "v0.1.2"
   },
   "undefined-or": {
     "dependencies": [
@@ -4823,7 +4823,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
-    "version": "v1.9.2"
+    "version": "v1.10.0"
   },
   "unorm": {
     "dependencies": [],
