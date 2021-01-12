@@ -11,6 +11,6 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/fehrenbach/purescript-unordered-collections.git"
-  , version = "v1.9.2"
+  , version = "v1.10.0"
   }
 }

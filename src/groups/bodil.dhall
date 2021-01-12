@@ -17,7 +17,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/bodil/purescript-sized-vectors.git"
-  , version = "v5.0.1"
+  , version = "v5.0.2"
   }
 , smolder =
   { dependencies =
