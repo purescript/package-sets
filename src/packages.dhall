@@ -24,6 +24,7 @@ let packages =
       ⫽ ./groups/danieljharvey.dhall
       ⫽ ./groups/dretch.dhall
       ⫽ ./groups/drewolson.dhall
+      ⫽ ./groups/epicorange.dhall
       ⫽ ./groups/epost.dhall
       ⫽ ./groups/ethul.dhall
       ⫽ ./groups/fehrenbach.dhall
