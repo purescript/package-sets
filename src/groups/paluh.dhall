@@ -78,6 +78,6 @@
     , "variant"
     ]
   , repo = "https://github.com/paluh/purescript-undefined-is-not-a-problem.git"
-  , version = "v0.1.0"
+  , version = "v0.1.2"
   }
 }
