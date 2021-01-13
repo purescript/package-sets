@@ -64,6 +64,7 @@ let packages =
       ⫽ ./groups/paf31.dhall
       ⫽ ./groups/paluh.dhall
       ⫽ ./groups/passy.dhall
+      ⫽ ./groups/purefunctor.dhall
       ⫽ ./groups/purescript-freedom.dhall
       ⫽ ./groups/purescript-hyper.dhall
       ⫽ ./groups/purescript-spec.dhall
