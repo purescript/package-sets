@@ -1659,7 +1659,7 @@
       "typelevel",
       "variant"
     ],
-    "repo": "https://github.com/OxfordAbstracts/purescript-graphql-client",
+    "repo": "https://github.com/OxfordAbstracts/purescript-graphql-client.git",
     "version": "v0.2.0"
   },
   "graphql-parser": {
@@ -1671,7 +1671,7 @@
       "parsing",
       "psci-support"
     ],
-    "repo": "https://github.com/meeshkan/purescript-graphql-parser",
+    "repo": "https://github.com/meeshkan/purescript-graphql-parser.git",
     "version": "v0.0.11"
   },
   "group": {
