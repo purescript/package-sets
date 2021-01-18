@@ -8,7 +8,6 @@
     , "effect"
     , "foreign-generic"
     , "foreign-object"
-    , "graphql-parser"
     , "heterogeneous"
     , "parsing"
     , "psci-support"
@@ -20,6 +19,6 @@
     , "variant"
     ]
   , repo = "https://github.com/OxfordAbstracts/purescript-graphql-client"
-  , version = "v0.0.1"
+  , version = "v0.1.1"
   }
 }
