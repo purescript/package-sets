@@ -50,6 +50,7 @@ let packages =
       ⫽ ./groups/kritzcreek.dhall
       ⫽ ./groups/lumihq.dhall
       ⫽ ./groups/maxdeviant.dhall
+      ⫽ ./groups/meeshkan.dhall
       ⫽ ./groups/menelaos.dhall
       ⫽ ./groups/mlang.dhall
       ⫽ ./groups/morganthomas.dhall
