@@ -8,6 +8,7 @@
     , "effect"
     , "foreign-generic"
     , "foreign-object"
+    , "graphql-parser"
     , "heterogeneous"
     , "parsing"
     , "psci-support"
