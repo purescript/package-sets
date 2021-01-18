@@ -60,6 +60,7 @@ let packages =
       ⫽ ./groups/nsaunders.dhall
       ⫽ ./groups/nwolverson.dhall
       ⫽ ./groups/oreshinya.dhall
+      ⫽ ./groups/oxford-abstracts.dhall
       ⫽ ./groups/owickstrom.dhall
       ⫽ ./groups/paf31.dhall
       ⫽ ./groups/paluh.dhall
