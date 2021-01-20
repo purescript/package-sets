@@ -3628,6 +3628,18 @@
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v6.1.0"
   },
+  "react-enzyme": {
+    "dependencies": [
+      "aff",
+      "console",
+      "effect",
+      "foreign",
+      "psci-support",
+      "react"
+    ],
+    "repo": "https://github.com/alvart/purescript-react-enzyme.git",
+    "version": "v1.1.1"
+  },
   "react-halo": {
     "dependencies": [
       "aff",
