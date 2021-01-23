@@ -102,4 +102,5 @@ let packages =
       ⫽ ./groups/colinwahl.dhall
 
 in  packages
+      {- If we update the compiler, we need to update this line, too -}
       with metadata.version = "v0.14.0-rc5"
