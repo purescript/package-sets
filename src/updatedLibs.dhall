@@ -204,7 +204,6 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "maybe"
     , "media-types"
     , "memoize"
-    , "metadata"
     , "milkis"
     , "minibench"
     , "mmorph"
