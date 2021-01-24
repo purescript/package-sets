@@ -60,7 +60,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "bucketchain-history-api-fallback"
     , "bucketchain-logger"
     , "bucketchain-secure"
-    , "bucketchain-simple-api"
+    {- , "bucketchain-simple-api" -}
     , "bucketchain-sslify"
     , "bucketchain-static"
     , "byte-codec"
@@ -115,9 +115,9 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "filterable"
     , "fixed-points"
     , "fixed-precision"
-    , "flare"
+    {- , "flare" -}
     , "float32"
-    , "flow-id"
+    {- , "flow-id" -}
     , "foldable-traversable"
     , "folds"
     , "foreign"
@@ -171,7 +171,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "httpure-contrib-biscotti" -}
     {- , "hyper" -}
     {- , "hypertrout" -}
-    , "identity"
+    {- , "identity" -}
     , "identy"
     , "indexed-monad"
     , "inflection"
@@ -231,10 +231,10 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "node-readline"
     , "node-sqlite3"
     , "node-streams"
-    , "node-telegram-bot-api"
+    {- , "node-telegram-bot-api" -}
     , "node-url"
-    , "nodemailer"
-    , "nodetrout"
+    {- , "nodemailer" -}
+    {- , "nodetrout" -}
     , "nonempty"
     , "now"
     , "nullable"
@@ -258,7 +258,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "parsing-validation"
     , "partial"
     , "pathy"
-    , "payload"
+    {- , "payload" -}
     , "phoenix"
     , "pipes"
     , "pointed-list"
@@ -307,7 +307,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "record-extra"
     , "record-format"
     , "redis-client"
-    , "redis-hotqueue"
+    {- , "redis-hotqueue" -}
     , "redux-devtools"
     , "refined"
     , "refs"
@@ -331,13 +331,13 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "server-sent-events" -}
     , "setimmediate"
     , "signal"
-    , "simple-ajax"
+    {- , "simple-ajax" -}
     , "simple-emitter"
     , "simple-i18n"
     {- , "simple-json" -}
     {- , "simple-json-generics" -}
     {- , "simple-json-utils" -}
-    , "simple-jwt"
+    {- , "simple-jwt" -}
     {- , "simple-timestamp" -}
     , "sized-matrices"
     , "sized-vectors"
@@ -377,8 +377,8 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "tortellini" -}
     , "transformers"
     , "tree-rose"
-    , "trout"
-    , "trout-client"
+    {- , "trout" -}
+    {- , "trout-client" -}
     , "tuples"
     , "tuples-native"
     , "type-equality"
