@@ -357,7 +357,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "strings"
     , "strings-extra"
     , "stringutils"
-    , "struct"
+    {- , "struct" -}
     , "stylesheet"
     , "subcategory"
     , "subtlecrypto"
@@ -372,7 +372,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "thermite"
     , "thermite-dom"
     , "these"
-    , "tolerant-argonaut"
+    {- , "tolerant-argonaut" -}
     , "toppokki"
     {- , "tortellini" -}
     , "transformers"
