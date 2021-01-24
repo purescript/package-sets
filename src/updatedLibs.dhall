@@ -271,7 +271,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "prettier"
     {- , "profunctor" -}
     , "profunctor-lenses"
-    , "promises"
+    {- , "promises" -}
     {- , "protobuf" -}
     {- , "proxying" -}
     {- , "psa-utils" -}
@@ -360,7 +360,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "struct" -}
     , "stylesheet"
     {- , "subcategory" -}
-    , "subtlecrypto"
+    {- , "subtlecrypto" -}
     {- , "suggest" -}
     , "sunde"
     {- , "svg-parser" -}
