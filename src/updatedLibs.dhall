@@ -293,7 +293,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "react-basic" -}
     {- , "react-basic-classic" -}
     {- , "react-basic-compat" -}
-    {- , "react-basic-dnd" - }
+    {- , "react-basic-dnd" -}
     {- , "react-basic-dom" -}
     {- , "react-basic-emotion" -}
     {- , "react-basic-hooks" -}
