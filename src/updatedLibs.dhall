@@ -42,7 +42,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "axios" -}
     {- , "b64" -}
     , "basic-auth"
-    , "behaviors"
+    {- , "behaviors" -}
     {- , "benchotron" -}
     , "bifunctors"
     {- , "bigints" -}
@@ -67,10 +67,10 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "bytestrings" -}
     {- , "call-by-name" -}
     , "canvas"
-    , "canvas-action"
+    {- , "canvas-action" -}
     , "cartesian"
     , "catenable-lists"
-    , "checked-exceptions"
+    {- , "checked-exceptions" -}
     , "cheerio"
     {- , "classnames" -}
     , "clipboardy"
@@ -149,7 +149,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "gomtang-basic"
     {- , "grain" -}
     {- , "grain-router" -}
-    , "grain-virtualized"
+    {- , "grain-virtualized" -}
     , "graphs"
     , "group"
     {- , "halogen" -}
@@ -186,7 +186,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "js-uri"
     {- , "json-pointer" -}
     {- , "json-schema" -}
-    , "jwt"
+    {- , "jwt" -}
     , "lazy"
     , "lcg"
     {- , "leibniz" -}
@@ -207,7 +207,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "milkis"
     , "minibench"
     {- , "mmorph" -}
-    , "mol-draw"
+    {- , "mol-draw" -}
     , "monad-control"
     , "monad-logger"
     , "monad-loops"
@@ -250,7 +250,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "parallel"
     {- , "parseint" -}
     , "parsing"
-    , "parsing-dataview"
+    {- , "parsing-dataview" -}
     , "parsing-expect"
     , "parsing-hexadecimal"
     , "parsing-repetition"
@@ -260,13 +260,13 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "pathy"
     {- , "payload" -}
     , "phoenix"
-    , "pipes"
+    {- , "pipes" -}
     {- , "pointed-list" -}
     {- , "polyform" -}
     {- , "polymorphic-vectors" -}
     , "posix-types"
     , "precise"
-    , "precise-datetime"
+    {- , "precise-datetime" -}
     , "prelude"
     , "prettier"
     {- , "profunctor" -}
@@ -288,7 +288,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "radox" -}
     , "random"
     , "rationals"
-    , "rave"
+    {- , "rave" -}
     , "react"
     {- , "react-basic" -}
     {- , "react-basic-classic" -}
@@ -299,8 +299,8 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "react-basic-hooks" -}
     {- , "react-basic-native" -}
     , "react-dom"
-    , "react-queue"
-    , "react-radox"
+    {- , "react-queue" -}
+    {- , "react-radox" -}
     , "react-stylesheet"
     , "read"
     , "record"
@@ -317,10 +317,10 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "routing"
     {- , "routing-duplex" -}
     {- , "row-extra" -}
-    , "run"
-    , "run-halogen"
-    , "run-profunctor-lenses"
-    , "run-streaming"
+    {- , "run" -}
+    {- , "run-halogen" -}
+    {- , "run-profunctor-lenses" -}
+    {- , "run-streaming" -}
     , "safe-coerce"
     , "safely"
     , "scrypt"
@@ -341,7 +341,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "simple-timestamp" -}
     {- , "sized-matrices" -}
     {- , "sized-vectors" -}
-    , "sjcl"
+    {- , "sjcl" -}
     {- , "slug" -}
     {- , "smolder" -}
     , "snabbdom"
@@ -361,7 +361,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "stylesheet"
     {- , "subcategory" -}
     , "subtlecrypto"
-    , "suggest"
+    {- , "suggest" -}
     , "sunde"
     {- , "svg-parser" -}
     {- , "svg-parser-halogen" -}
@@ -382,7 +382,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "tuples"
     {- , "tuples-native" -}
     , "type-equality"
-    , "type-isequal"
+    {- , "type-isequal" -}
     {- , "typedenv" -}
     {- , "typelevel" -}
     {- , "typelevel-peano" -}
