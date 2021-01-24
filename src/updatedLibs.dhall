@@ -96,7 +96,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "distributive"
     , "dom-filereader"
     , "dom-indexed"
-    , "dotenv"
+    {- , "dotenv" -}
     , "drawing"
     , "easy-ffi"
     , "effect"
@@ -421,7 +421,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "web-streams"
     , "web-touchevents"
     , "web-uievents"
-    , "web-url"
+    {- , "web-url" -}
     , "web-xhr"
     , "websocket-moderate"
     , "yargs"
