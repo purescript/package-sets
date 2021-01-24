@@ -272,7 +272,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "profunctor" -}
     , "profunctor-lenses"
     , "promises"
-    , "protobuf"
+    {- , "protobuf" -}
     , "proxying"
     , "psa-utils"
     {- , "psc-ide" -}
