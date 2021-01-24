@@ -42,7 +42,7 @@
     [ "arrays"
     , "control"
     , "either"
-    , "generics-rep"
+    {- , "generics-rep" -}
     , "numbers"
     , "lazy"
     , "prelude"

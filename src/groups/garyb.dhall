@@ -7,7 +7,7 @@
   { dependencies =
     [ "argonaut-core"
     , "codec"
-    , "generics-rep"
+    {- , "generics-rep" -}
     , "ordered-collections"
     , "type-equality"
     , "variant"

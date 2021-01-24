@@ -3,7 +3,7 @@
     [ "arrays"
     , "control"
     , "foldable-traversable"
-    , "generics-rep"
+    {- , "generics-rep" -}
     , "maybe"
     , "nonempty"
     , "prelude"
@@ -29,7 +29,7 @@
 , bower-json =
   { dependencies =
     [ "prelude"
-    , "generics-rep"
+    {- , "generics-rep" -}
     , "maybe"
     , "arrays"
     , "either"

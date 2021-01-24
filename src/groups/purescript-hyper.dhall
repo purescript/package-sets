@@ -8,7 +8,7 @@
     , "control"
     , "effect"
     , "foldable-traversable"
-    , "generics-rep"
+    {- , "generics-rep" -}
     , "http-methods"
     , "indexed-monad"
     , "media-types"

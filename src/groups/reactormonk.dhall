@@ -32,7 +32,7 @@
     [ "console"
     , "effect"
     , "foreign"
-    , "generics-rep"
+    {- , "generics-rep" -}
     , "prelude"
     , "psci-support"
     , "spec-quickcheck"

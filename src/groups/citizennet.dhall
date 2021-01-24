@@ -2,7 +2,7 @@
   { dependencies =
     [ "foldable-traversable"
     , "foreign-object"
-    , "generics-rep"
+    {- , "generics-rep" -}
     , "newtype"
     , "ordered-collections"
     , "prelude"

@@ -1,5 +1,5 @@
 { logging-journald =
-  { dependencies = [ "generics-rep", "logging", "systemd-journald" ]
+  { dependencies = [ {- "generics-rep", -} "logging", "systemd-journald" ]
   , repo = "https://github.com/paluh/purescript-logging-journald.git"
   , version = "v0.3.2"
   }
@@ -12,7 +12,7 @@
   { dependencies =
     [ "foreign"
     , "foreign-object"
-    , "generics-rep"
+    {- , "generics-rep" -}
     , "invariant"
     , "newtype"
     , "ordered-collections"
