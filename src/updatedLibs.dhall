@@ -43,13 +43,13 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "b64"
     , "basic-auth"
     , "behaviors"
-    , "benchotron"
+    {- , "benchotron" -}
     , "bifunctors"
     , "bigints"
     , "bip39"
     , "biscotti-cookie"
     , "biscotti-session"
-    , "bower-json"
+    {- , "bower-json" -}
     , "bucketchain"
     , "bucketchain-basic-auth"
     , "bucketchain-conditional"
@@ -88,7 +88,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "crypto"
     , "css"
     , "cssom"
-    , "data-algebrae"
+    {- , "data-algebrae" -}
     , "data-default"
     , "datetime"
     , "debug"
@@ -101,7 +101,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "easy-ffi"
     , "effect"
     , "either"
-    , "email-validate"
+    {- , "email-validate" -}
     , "encoding"
     , "enums"
     , "errors"
@@ -121,26 +121,26 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "foldable-traversable"
     , "folds"
     , "foreign"
-    , "foreign-generic"
+    {- , "foreign-generic" -}
     , "foreign-object"
     , "fork"
     , "form-urlencoded"
     , "format"
-    , "format-nix"
+    {- , "format-nix" -}
     , "formatters"
     , "free"
     , "freeap"
     , "freedom"
     , "freedom-now"
     , "freedom-portal"
-    , "freedom-router"
+    {- , "freedom-router" -}
     , "freedom-transition"
     , "freedom-virtualized"
     , "freedom-window-resize"
     , "freet"
     , "functions"
     , "functors"
-    , "fuzzy"
+    {- , "fuzzy" -}
     , "game"
     , "gen"
     , "geometry-plane"
@@ -148,7 +148,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "gl-matrix"
     , "gomtang-basic"
     , "grain"
-    , "grain-router"
+    {- , "grain-router" -}
     , "grain-virtualized"
     , "graphs"
     , "group"
@@ -156,26 +156,26 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "halogen-bootstrap"
     , "halogen-bootstrap4"
     , "halogen-css"
-    , "halogen-formless"
+    {- , "halogen-formless" -}
     , "halogen-hooks"
     , "halogen-hooks-extra"
     , "halogen-select"
-    , "halogen-storybook"
+    {- , "halogen-storybook" -}
     , "halogen-svg-elems"
     , "halogen-vdom"
     , "heterogeneous"
     , "higher-order"
     , "html-parser-halogen"
     , "http-methods"
-    , "httpure"
-    , "httpure-contrib-biscotti"
-    , "hyper"
-    , "hypertrout"
+    {- , "httpure" -}
+    {- , "httpure-contrib-biscotti" -}
+    {- , "hyper" -}
+    {- , "hypertrout" -}
     , "identity"
     , "identy"
     , "indexed-monad"
     , "inflection"
-    , "int-53"
+    {- , "int-53" -}
     , "integers"
     , "interpolate"
     , "intmap"
@@ -184,17 +184,17 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "js-date"
     , "js-timers"
     , "js-uri"
-    , "json-pointer"
-    , "json-schema"
+    {- , "json-pointer" -}
+    {- , "json-schema" -}
     , "jwt"
     , "lazy"
     , "lcg"
     , "leibniz"
-    , "lenient-html-parser"
+    {- , "lenient-html-parser" -}
     , "lists"
     , "literals"
     , "logging"
-    , "logging-journald"
+    {- , "logging-journald" -}
     , "longs"
     , "machines"
     , "makkori"
@@ -212,7 +212,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "monad-logger"
     , "monad-loops"
     , "monad-unlift"
-    , "money"
+    {- , "money" -}
     , "motsunabe"
     , "mysql"
     , "naturals"
@@ -240,15 +240,15 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "nullable"
     , "numbers"
     , "options"
-    , "optlicative"
-    , "optparse"
+    {- , "optlicative" -}
+    {- , "optparse" -}
     , "ordered-collections"
     , "ordered-set"
     , "orders"
     , "pairing"
     , "pairs"
     , "parallel"
-    , "parseint"
+    {- , "parseint" -}
     , "parsing"
     , "parsing-dataview"
     , "parsing-expect"
@@ -262,20 +262,20 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "phoenix"
     , "pipes"
     , "pointed-list"
-    , "polyform"
+    {- , "polyform" -}
     , "polymorphic-vectors"
     , "posix-types"
     , "precise"
     , "precise-datetime"
     , "prelude"
     , "prettier"
-    , "profunctor"
+    {- , "profunctor" -}
     , "profunctor-lenses"
     , "promises"
     , "protobuf"
     , "proxying"
     , "psa-utils"
-    , "psc-ide"
+    {- , "psc-ide" -}
     , "psci-support"
     , "quantities"
     , "querydsl"
@@ -315,7 +315,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "result"
     , "ring-modules"
     , "routing"
-    , "routing-duplex"
+    {- , "routing-duplex" -}
     , "row-extra"
     , "run"
     , "run-halogen"
@@ -328,29 +328,29 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "selection-foldable"
     , "selective"
     , "semirings"
-    , "server-sent-events"
+    {- , "server-sent-events" -}
     , "setimmediate"
     , "signal"
     , "simple-ajax"
     , "simple-emitter"
     , "simple-i18n"
-    , "simple-json"
-    , "simple-json-generics"
-    , "simple-json-utils"
+    {- , "simple-json" -}
+    {- , "simple-json-generics" -}
+    {- , "simple-json-utils" -}
     , "simple-jwt"
-    , "simple-timestamp"
+    {- , "simple-timestamp" -}
     , "sized-matrices"
     , "sized-vectors"
     , "sjcl"
-    , "slug"
-    , "smolder"
+    {- , "slug" -}
+    {- , "smolder" -}
     , "snabbdom"
     , "sodium"
     , "sparse-matrices"
     , "sparse-polynomials"
-    , "spec"
-    , "spec-discovery"
-    , "spec-quickcheck"
+    {- , "spec" -}
+    {- , "spec-discovery" -}
+    {- , "spec-quickcheck" -}
     , "spork"
     , "st"
     , "string-parsers"
@@ -363,8 +363,8 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "subtlecrypto"
     , "suggest"
     , "sunde"
-    , "svg-parser"
-    , "svg-parser-halogen"
+    {- , "svg-parser" -}
+    {- , "svg-parser-halogen" -}
     , "systemd-journald"
     , "tailrec"
     , "test-unit"
@@ -374,7 +374,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "these"
     , "tolerant-argonaut"
     , "toppokki"
-    , "tortellini"
+    {- , "tortellini" -}
     , "transformers"
     , "tree-rose"
     , "trout"
@@ -383,7 +383,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "tuples-native"
     , "type-equality"
     , "type-isequal"
-    , "typedenv"
+    {- , "typedenv" -}
     , "typelevel"
     , "typelevel-peano"
     , "typelevel-prelude"
@@ -425,7 +425,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "web-xhr"
     , "websocket-moderate"
     , "yargs"
-    , "z85"
+    {- , "z85" -}
     , "zeta"
     , "zeta-extra"
     ]
