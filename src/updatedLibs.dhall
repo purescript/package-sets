@@ -30,24 +30,24 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "argonaut-core"
     , "argonaut-generic"
     , "argonaut-traversals"
-    , "array-views"
-    , "arraybuffer"
-    , "arraybuffer-builder"
-    , "arraybuffer-class"
-    , "arraybuffer-types"
+    {- , "array-views" -}
+    {- , "arraybuffer" -}
+    {- , "arraybuffer-builder" -}
+    {- , "arraybuffer-class" -}
+    {- , "arraybuffer-types" -}
     , "arrays"
     , "arrays-zipper"
     , "assert"
     , "avar"
     {- , "axios" -}
-    , "b64"
+    {- , "b64" -}
     , "basic-auth"
     , "behaviors"
     {- , "benchotron" -}
     , "bifunctors"
-    , "bigints"
+    {- , "bigints" -}
     , "bip39"
-    , "biscotti-cookie"
+    {- , "biscotti-cookie" -}
     {- , "biscotti-session" -}
     {- , "bower-json" -}
     , "bucketchain"
@@ -63,22 +63,22 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "bucketchain-simple-api" -}
     , "bucketchain-sslify"
     , "bucketchain-static"
-    , "byte-codec"
-    , "bytestrings"
-    , "call-by-name"
+    {- , "byte-codec" -}
+    {- , "bytestrings" -}
+    {- , "call-by-name" -}
     , "canvas"
     , "canvas-action"
     , "cartesian"
     , "catenable-lists"
     , "checked-exceptions"
     , "cheerio"
-    , "classnames"
+    {- , "classnames" -}
     , "clipboardy"
-    , "codec"
-    , "codec-argonaut"
+    {- , "codec" -}
+    {- , "codec-argonaut" -}
     , "colors"
-    , "concur-core"
-    , "concur-react"
+    {- , "concur-core" -}
+    {- , "concur-react" -}
     , "concurrent-queues"
     , "console"
     , "const"
@@ -89,10 +89,10 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "css"
     , "cssom"
     {- , "data-algebrae" -}
-    , "data-default"
+    {- , "data-default" -}
     , "datetime"
-    , "debug"
-    , "decimals"
+    {- , "debug" -}
+    {- , "decimals" -}
     , "distributive"
     , "dom-filereader"
     , "dom-indexed"
@@ -105,18 +105,18 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "encoding"
     , "enums"
     , "errors"
-    , "event"
+    {- , "event" -}
     , "exceptions"
     , "exists"
     , "exitcodes"
-    , "expect-inferred"
+    {- , "expect-inferred" -}
     {- , "express" -}
     , "ffi-foreign"
     , "filterable"
     , "fixed-points"
-    , "fixed-precision"
+    {- , "fixed-precision" -}
     {- , "flare" -}
-    , "float32"
+    {- , "float32" -}
     {- , "flow-id" -}
     , "foldable-traversable"
     , "folds"
@@ -130,41 +130,41 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "formatters"
     , "free"
     , "freeap"
-    , "freedom"
-    , "freedom-now"
-    , "freedom-portal"
+    {- , "freedom" -}
+    {- , "freedom-now" -}
+    {- , "freedom-portal" -}
     {- , "freedom-router" -}
-    , "freedom-transition"
-    , "freedom-virtualized"
-    , "freedom-window-resize"
+    {- , "freedom-transition" -}
+    {- , "freedom-virtualized" -}
+    {- , "freedom-window-resize" -}
     , "freet"
     , "functions"
     , "functors"
     {- , "fuzzy" -}
-    , "game"
+    {- , "game" -}
     , "gen"
     , "geometry-plane"
     , "github-actions-toolkit"
     , "gl-matrix"
     , "gomtang-basic"
-    , "grain"
+    {- , "grain" -}
     {- , "grain-router" -}
     , "grain-virtualized"
     , "graphs"
     , "group"
-    , "halogen"
-    , "halogen-bootstrap"
-    , "halogen-bootstrap4"
-    , "halogen-css"
+    {- , "halogen" -}
+    {- , "halogen-bootstrap" -}
+    {- , "halogen-bootstrap4" -}
+    {- , "halogen-css" -}
     {- , "halogen-formless" -}
-    , "halogen-hooks"
-    , "halogen-hooks-extra"
-    , "halogen-select"
+    {- , "halogen-hooks" -}
+    {- , "halogen-hooks-extra" -}
+    {- , "halogen-select" -}
     {- , "halogen-storybook" -}
-    , "halogen-svg-elems"
-    , "halogen-vdom"
-    , "heterogeneous"
-    , "higher-order"
+    {- , "halogen-svg-elems" -}
+    {- , "halogen-vdom" -}
+    {- , "heterogeneous" -}
+    {- , "higher-order" -}
     , "html-parser-halogen"
     , "http-methods"
     {- , "httpure" -}
@@ -189,15 +189,15 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "jwt"
     , "lazy"
     , "lcg"
-    , "leibniz"
+    {- , "leibniz" -}
     {- , "lenient-html-parser" -}
     , "lists"
-    , "literals"
+    {- , "literals" -}
     , "logging"
     {- , "logging-journald" -}
-    , "longs"
+    {- , "longs" -}
     , "machines"
-    , "makkori"
+    {- , "makkori" -}
     , "math"
     , "matrices"
     , "matryoshka"
@@ -206,12 +206,12 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "memoize"
     , "milkis"
     , "minibench"
-    , "mmorph"
+    {- , "mmorph" -}
     , "mol-draw"
     , "monad-control"
     , "monad-logger"
     , "monad-loops"
-    , "monad-unlift"
+    {- , "monad-unlift" -}
     {- , "money" -}
     , "motsunabe"
     {- , "mysql" -}
@@ -222,11 +222,11 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "node-electron"
     , "node-fs"
     , "node-fs-aff"
-    , "node-he"
+    {- , "node-he" -}
     , "node-http"
     , "node-net"
     , "node-path"
-    , "node-postgres"
+    {- , "node-postgres" -}
     , "node-process"
     , "node-readline"
     , "node-sqlite3"
@@ -245,7 +245,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "ordered-collections"
     , "ordered-set"
     , "orders"
-    , "pairing"
+    {- , "pairing" -}
     , "pairs"
     , "parallel"
     {- , "parseint" -}
@@ -261,9 +261,9 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "payload" -}
     , "phoenix"
     , "pipes"
-    , "pointed-list"
+    {- , "pointed-list" -}
     {- , "polyform" -}
-    , "polymorphic-vectors"
+    {- , "polymorphic-vectors" -}
     , "posix-types"
     , "precise"
     , "precise-datetime"
@@ -273,31 +273,31 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "profunctor-lenses"
     , "promises"
     {- , "protobuf" -}
-    , "proxying"
-    , "psa-utils"
+    {- , "proxying" -}
+    {- , "psa-utils" -}
     {- , "psc-ide" -}
     , "psci-support"
-    , "quantities"
-    , "querydsl"
-    , "queue"
+    {- , "quantities" -}
+    {- , "querydsl" -}
+    {- , "queue" -}
     , "quickcheck"
-    , "quickcheck-combinators"
+    {- , "quickcheck-combinators" -}
     , "quickcheck-laws"
     , "quickcheck-utf8"
-    , "quotient"
-    , "radox"
+    {- , "quotient" -}
+    {- , "radox" -}
     , "random"
     , "rationals"
     , "rave"
     , "react"
-    , "react-basic"
-    , "react-basic-classic"
-    , "react-basic-compat"
-    , "react-basic-dnd"
-    , "react-basic-dom"
-    , "react-basic-emotion"
-    , "react-basic-hooks"
-    , "react-basic-native"
+    {- , "react-basic" -}
+    {- , "react-basic-classic" -}
+    {- , "react-basic-compat" -}
+    {- , "react-basic-dnd" - }
+    {- , "react-basic-dom" -}
+    {- , "react-basic-emotion" -}
+    {- , "react-basic-hooks" -}
+    {- , "react-basic-native" -}
     , "react-dom"
     , "react-queue"
     , "react-radox"
@@ -305,18 +305,18 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "read"
     , "record"
     , "record-extra"
-    , "record-format"
+    {- , "record-format" -}
     {- , "redis-client" -}
     {- , "redis-hotqueue" -}
     , "redux-devtools"
-    , "refined"
+    {- , "refined" -}
     , "refs"
     , "remotedata"
     , "result"
     , "ring-modules"
     , "routing"
     {- , "routing-duplex" -}
-    , "row-extra"
+    {- , "row-extra" -}
     , "run"
     , "run-halogen"
     , "run-profunctor-lenses"
@@ -330,36 +330,36 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "semirings"
     {- , "server-sent-events" -}
     , "setimmediate"
-    , "signal"
+    {- , "signal" -}
     {- , "simple-ajax" -}
     , "simple-emitter"
-    , "simple-i18n"
+    {- , "simple-i18n" -}
     {- , "simple-json" -}
     {- , "simple-json-generics" -}
     {- , "simple-json-utils" -}
     {- , "simple-jwt" -}
     {- , "simple-timestamp" -}
-    , "sized-matrices"
-    , "sized-vectors"
+    {- , "sized-matrices" -}
+    {- , "sized-vectors" -}
     , "sjcl"
     {- , "slug" -}
     {- , "smolder" -}
     , "snabbdom"
-    , "sodium"
+    {- , "sodium" -}
     , "sparse-matrices"
     , "sparse-polynomials"
     {- , "spec" -}
     {- , "spec-discovery" -}
     {- , "spec-quickcheck" -}
-    , "spork"
+    {- , "spork" -}
     , "st"
     , "string-parsers"
     , "strings"
     , "strings-extra"
-    , "stringutils"
+    {- , "stringutils" -}
     {- , "struct" -}
     , "stylesheet"
-    , "subcategory"
+    {- , "subcategory" -}
     , "subtlecrypto"
     , "suggest"
     , "sunde"
@@ -380,16 +380,16 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "trout" -}
     {- , "trout-client" -}
     , "tuples"
-    , "tuples-native"
+    {- , "tuples-native" -}
     , "type-equality"
     , "type-isequal"
     {- , "typedenv" -}
-    , "typelevel"
-    , "typelevel-peano"
-    , "typelevel-prelude"
-    , "typelevel-rowlist-limits"
-    , "uint"
-    , "uint-instances"
+    {- , "typelevel" -}
+    {- , "typelevel-peano" -}
+    {- , "typelevel-prelude" -}
+    {- , "typelevel-rowlist-limits" -}
+    {- , "uint" -}
+    {- , "uint-instances" -}
     , "undefinable"
     , "undefined"
     , "undefined-or"
@@ -399,12 +399,12 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "unorm"
     , "unsafe-coerce"
     , "unsafe-reference"
-    , "untagged-union"
+    {- , "untagged-union" -}
     , "uri"
     {- , "uuid" -}
     , "validated-molecule"
     , "validation"
-    , "variant"
+    {- , "variant" -}
     , "vectorfield"
     , "web-clipboard"
     , "web-dom"
@@ -423,7 +423,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "web-uievents"
     {- , "web-url" -}
     , "web-xhr"
-    , "websocket-moderate"
+    {- , "websocket-moderate" -}
     , "yargs"
     {- , "z85" -}
     {- , "zeta" -}
