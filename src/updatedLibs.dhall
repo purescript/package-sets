@@ -178,7 +178,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "int-53" -}
     , "integers"
     , "interpolate"
-    , "intmap"
+    {- , "intmap" -}
     , "invariant"
     {- , "jquery" -}
     , "js-date"
@@ -306,7 +306,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "record"
     , "record-extra"
     , "record-format"
-    , "redis-client"
+    {- , "redis-client" -}
     {- , "redis-hotqueue" -}
     , "redux-devtools"
     , "refined"
