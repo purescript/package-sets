@@ -39,7 +39,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "arrays-zipper"
     , "assert"
     , "avar"
-    , "axios"
+    {- , "axios" -}
     , "b64"
     , "basic-auth"
     , "behaviors"
@@ -48,7 +48,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "bigints"
     , "bip39"
     , "biscotti-cookie"
-    , "biscotti-session"
+    {- , "biscotti-session" -}
     {- , "bower-json" -}
     , "bucketchain"
     , "bucketchain-basic-auth"
@@ -110,7 +110,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "exists"
     , "exitcodes"
     , "expect-inferred"
-    , "express"
+    {- , "express" -}
     , "ffi-foreign"
     , "filterable"
     , "fixed-points"
@@ -401,7 +401,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "unsafe-reference"
     , "untagged-union"
     , "uri"
-    , "uuid"
+    {- , "uuid" -}
     , "validated-molecule"
     , "validation"
     , "variant"
