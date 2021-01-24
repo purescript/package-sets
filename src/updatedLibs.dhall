@@ -180,7 +180,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "interpolate"
     , "intmap"
     , "invariant"
-    , "jquery"
+    {- , "jquery" -}
     , "js-date"
     , "js-timers"
     , "js-uri"
