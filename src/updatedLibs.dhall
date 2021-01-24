@@ -171,8 +171,8 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "httpure-contrib-biscotti" -}
     {- , "hyper" -}
     {- , "hypertrout" -}
-    {- , "identity" -}
-    , "identy"
+    , "identity"
+    {- , "identy" -}
     , "indexed-monad"
     , "inflection"
     {- , "int-53" -}
@@ -214,7 +214,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "monad-unlift"
     {- , "money" -}
     , "motsunabe"
-    , "mysql"
+    {- , "mysql" -}
     , "naturals"
     , "newtype"
     , "node-buffer"
