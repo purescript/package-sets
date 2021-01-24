@@ -165,7 +165,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     {- , "halogen-vdom" -}
     {- , "heterogeneous" -}
     {- , "higher-order" -}
-    , "html-parser-halogen"
+    {- , "html-parser-halogen" -}
     , "http-methods"
     {- , "httpure" -}
     {- , "httpure-contrib-biscotti" -}
@@ -219,7 +219,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "newtype"
     , "node-buffer"
     , "node-child-process"
-    , "node-electron"
+    {- , "node-electron" -}
     , "node-fs"
     , "node-fs-aff"
     {- , "node-he" -}
