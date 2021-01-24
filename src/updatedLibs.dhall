@@ -426,7 +426,7 @@ errors or warnings on the latest release candidate for PureScript v0.14.0
     , "websocket-moderate"
     , "yargs"
     {- , "z85" -}
-    , "zeta"
-    , "zeta-extra"
+    {- , "zeta" -}
+    {- , "zeta-extra" -}
     ]
 }
