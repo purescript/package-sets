@@ -22,9 +22,9 @@
   , version = "master"
   }
 , bifunctors =
-  { dependencies = [ "newtype", "prelude" ]
-  , repo = "https://github.com/purescript/purescript-bifunctors.git"
-  , version = "master"
+  { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
+  , repo = "https://github.com/rhendric/purescript-bifunctors.git"
+  , version = "rhendric/refunctoring"
   }
 , catenable-lists =
   { dependencies =
@@ -45,20 +45,14 @@
   , version = "master"
   }
 , const =
-  { dependencies =
-    [ "contravariant"
-    , "foldable-traversable"
-    , "invariant"
-    , "newtype"
-    , "prelude"
-    ]
-  , repo = "https://github.com/purescript/purescript-const.git"
-  , version = "master"
+  { dependencies = [ "invariant", "newtype", "prelude" ]
+  , repo = "https://github.com/rhendric/purescript-const.git"
+  , version = "rhendric/refunctoring"
   }
 , contravariant =
-  { dependencies = [ "either", "newtype", "prelude", "tuples" ]
-  , repo = "https://github.com/purescript/purescript-contravariant.git"
-  , version = "master"
+  { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
+  , repo = "https://github.com/rhendric/purescript-contravariant.git"
+  , version = "rhendric/refunctoring"
   }
 , control =
   { dependencies = [ "prelude", "newtype" ]
@@ -88,9 +82,10 @@
   , version = "master"
   }
 , distributive =
-  { dependencies = [ "identity", "newtype", "prelude" ]
-  , repo = "https://github.com/purescript/purescript-distributive.git"
-  , version = "master"
+  { dependencies =
+    [ "identity", "newtype", "prelude", "tuples", "type-equality" ]
+  , repo = "https://github.com/rhendric/purescript-distributive.git"
+  , version = "rhendric/refunctoring"
   }
 , effect =
   { dependencies = [ "prelude" ]
@@ -98,16 +93,9 @@
   , version = "master"
   }
 , either =
-  { dependencies =
-    [ "bifunctors"
-    , "control"
-    , "foldable-traversable"
-    , "invariant"
-    , "maybe"
-    , "prelude"
-    ]
-  , repo = "https://github.com/purescript/purescript-either.git"
-  , version = "master"
+  { dependencies = [ "control", "invariant", "maybe", "prelude" ]
+  , repo = "https://github.com/rhendric/purescript-either.git"
+  , version = "rhendric/refunctoring"
   }
 , enums =
   { dependencies =
@@ -137,9 +125,20 @@
   }
 , foldable-traversable =
   { dependencies =
-    [ "bifunctors", "control", "maybe", "newtype", "orders", "prelude" ]
-  , repo = "https://github.com/purescript/purescript-foldable-traversable.git"
-  , version = "master"
+    [ "bifunctors"
+    , "const"
+    , "control"
+    , "either"
+    , "functors"
+    , "identity"
+    , "maybe"
+    , "newtype"
+    , "orders"
+    , "prelude"
+    , "tuples"
+    ]
+  , repo = "https://github.com/rhendric/purescript-foldable-traversable.git"
+  , version = "rhendric/refunctoring"
   }
 , foreign =
   { dependencies =
@@ -203,17 +202,20 @@
   { dependencies =
     [ "bifunctors"
     , "const"
+    , "contravariant"
     , "control"
+    , "distributive"
     , "either"
-    , "foldable-traversable"
+    , "invariant"
     , "maybe"
     , "newtype"
     , "prelude"
+    , "profunctor"
     , "tuples"
     , "unsafe-coerce"
     ]
-  , repo = "https://github.com/purescript/purescript-functors.git"
-  , version = "master"
+  , repo = "https://github.com/rhendric/purescript-functors.git"
+  , version = "rhendric/refunctoring"
   }
 , gen =
   { dependencies =
@@ -237,10 +239,9 @@
   , version = "master"
   }
 , identity =
-  { dependencies =
-    [ "control", "foldable-traversable", "invariant", "newtype", "prelude" ]
-  , repo = "https://github.com/purescript/purescript-identity.git"
-  , version = "master"
+  { dependencies = [ "control", "invariant", "newtype", "prelude" ]
+  , repo = "https://github.com/rhendric/purescript-identity.git"
+  , version = "rhendric/refunctoring"
   }
 , integers =
   { dependencies = [ "numbers", "math", "maybe", "prelude" ]
@@ -323,11 +324,7 @@
   , version = "master"
   }
 , numbers =
-  { dependencies =
-    [ "math"
-    , "maybe"
-    , "functions"
-    ]
+  { dependencies = [ "math", "maybe", "functions" ]
   , repo = "https://github.com/purescript/purescript-numbers.git"
   , version = "master"
   }
@@ -368,8 +365,8 @@
     , "refs"
     , "transformers"
     ]
-  , repo = "https://github.com/purescript/purescript-parallel.git"
-  , version = "master"
+  , repo = "https://github.com/rhendric/purescript-parallel.git"
+  , version = "rhendric/refunctoring"
   }
 , partial =
   { dependencies = [] : List Text
@@ -383,9 +380,7 @@
   }
 , profunctor =
   { dependencies =
-    [ "contravariant"
-    , "control"
-    , "distributive"
+    [ "control"
     , "either"
     , "exists"
     , "invariant"
@@ -393,8 +388,8 @@
     , "prelude"
     , "tuples"
     ]
-  , repo = "https://github.com/purescript/purescript-profunctor.git"
-  , version = "master"
+  , repo = "https://github.com/rhendric/purescript-profunctor.git"
+  , version = "rhendric/refunctoring"
   }
 , psci-support =
   { dependencies = [ "console", "effect", "prelude" ]
@@ -521,19 +516,9 @@
   , version = "master"
   }
 , tuples =
-  { dependencies =
-    [ "bifunctors"
-    , "control"
-    , "distributive"
-    , "foldable-traversable"
-    , "invariant"
-    , "maybe"
-    , "newtype"
-    , "prelude"
-    , "type-equality"
-    ]
-  , repo = "https://github.com/purescript/purescript-tuples.git"
-  , version = "master"
+  { dependencies = [ "control", "invariant", "prelude" ]
+  , repo = "https://github.com/rhendric/purescript-tuples.git"
+  , version = "rhendric/refunctoring"
   }
 , type-equality =
   { dependencies = [] : List Text
