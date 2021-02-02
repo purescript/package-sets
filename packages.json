@@ -3351,6 +3351,23 @@
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "v4.0.0"
   },
+  "purescript-aws-sdk-basic": {
+    "dependencies": [
+      "aff-promise",
+      "console",
+      "datetime",
+      "effect",
+      "formatters",
+      "js-date",
+      "justifill",
+      "monad-control",
+      "node-buffer",
+      "numbers",
+      "simple-json"
+    ],
+    "repo": "https://github.com/HivemindTechnologies/purescript-aws-sdk.git",
+    "version": "v0.12.1"
+  },
   "quantities": {
     "dependencies": [
       "decimals",

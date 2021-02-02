@@ -115,5 +115,6 @@ let packages =
       ⫽ ./groups/newlandsvalley.dhall
       ⫽ ./groups/ajnsit.dhall
       ⫽ ./groups/collegevine.dhall
+      ⫽ ./groups/hivemindtechnologies.dhall
 
 in  packages
