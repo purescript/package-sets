@@ -1,4 +1,4 @@
-{ purescript-aws-sdk-basic =
+{ aws-sdk-basic =
   { dependencies =
     [ "aff-promise"
     , "console"
