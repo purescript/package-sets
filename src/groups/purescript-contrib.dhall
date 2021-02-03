@@ -1,15 +1,15 @@
 { ace =
   { dependencies =
-    [ "effect"
-    , "web-html"
-    , "web-uievents"
-    , "arrays"
+    [ "arrays"
+    , "effect"
     , "foreign"
     , "nullable"
     , "prelude"
+    , "web-html"
+    , "web-uievents"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-ace.git"
-  , version = "main"
+  , version = "v8.0.0"
   }
 , aff =
   { dependencies =
@@ -22,7 +22,17 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-aff.git"
-  , version = "main"
+  , version = "v6.0.0"
+  }
+, aff-bus =
+  { dependencies = [ "avar", "effect", "prelude" ]
+  , repo = "https://github.com/purescript-contrib/purescript-aff-bus.git"
+  , version = "v5.0.0"
+  }
+, aff-coroutines =
+  { dependencies = [ "aff", "avar", "coroutines", "effect" ]
+  , repo = "https://github.com/purescript-contrib/purescript-aff-coroutines.git"
+  , version = "v8.0.0"
   }
 , affjax =
   { dependencies =
@@ -41,22 +51,12 @@
     , "web-xhr"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-affjax.git"
-  , version = "main"
-  }
-, aff-bus =
-  { dependencies = [ "avar", "prelude" ]
-  , repo = "https://github.com/slamdata/purescript-aff-bus.git"
-  , version = "main"
-  }
-, aff-coroutines =
-  { dependencies = [ "aff", "avar", "console", "coroutines" ]
-  , repo = "https://github.com/purescript-contrib/purescript-aff-coroutines.git"
-  , version = "main"
+  , version = "v12.0.0"
   }
 , argonaut =
   { dependencies = [ "argonaut-codecs", "argonaut-core", "argonaut-traversals" ]
   , repo = "https://github.com/purescript-contrib/purescript-argonaut.git"
-  , version = "main"
+  , version = "v8.0.0"
   }
 , argonaut-codecs =
   { dependencies =
@@ -74,8 +74,7 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-  {- TODO: make repo compatible again; too many changes since last attempt -}
-  , version = "main"
+  , version = "v8.0.0"
   }
 , argonaut-core =
   { dependencies =
@@ -92,48 +91,48 @@
     , "tailrec"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-argonaut-core.git"
-  , version = "main"
+  , version = "v6.0.0"
   }
 , argonaut-generic =
-  { dependencies =
-    [ "argonaut-codecs", "argonaut-core", "prelude", "record" ]
+  { dependencies = [ "argonaut-codecs", "argonaut-core", "prelude", "record" ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
-  , version = "main"
+  , version = "v7.0.0"
   }
 , argonaut-traversals =
   { dependencies = [ "argonaut-codecs", "argonaut-core", "profunctor-lenses" ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-traversals.git"
-  , version = "main"
+  , version = "v9.0.0"
   }
 , arraybuffer-types =
   { dependencies = [] : List Text
   , repo =
       "https://github.com/purescript-contrib/purescript-arraybuffer-types.git"
-  {- TODO: merge the ps-0.14 branch into master branch -}
-  , version = "main"
+  , version = "v3.0.0"
   }
 , avar =
   { dependencies =
     [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]
   , repo = "https://github.com/purescript-contrib/purescript-avar.git"
-  , version = "main"
+  , version = "v4.0.0"
   }
 , concurrent-queues =
-  { dependencies = [ "aff", "avar", "console", "effect", "psci-support", "test-unit" ]
-  , repo = "https://github.com/purescript-contrib/purescript-concurrent-queues.git"
-  , version = "main"
+  { dependencies = [ "aff", "avar", "effect" ]
+  , repo =
+      "https://github.com/purescript-contrib/purescript-concurrent-queues.git"
+  , version = "v2.0.0"
   }
 , coroutines =
   { dependencies = [ "freet", "parallel", "profunctor" ]
   , repo = "https://github.com/purescript-contrib/purescript-coroutines.git"
-  , version = "main"
+  , version = "v6.0.0"
   }
 , css =
   { dependencies =
     [ "colors"
     , "console"
+    , "effect"
     , "nonempty"
     , "profunctor"
     , "strings"
@@ -141,75 +140,81 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-css.git"
-  , version = "main"
+  , version = "v5.0.0"
   }
 , fixed-points =
   { dependencies = [ "exists", "newtype", "prelude", "transformers" ]
   , repo = "https://github.com/purescript-contrib/purescript-fixed-points.git"
-  , version = "main"
+  , version = "v6.0.0"
+  }
+, fork =
+  { dependencies = [ "aff" ]
+  , repo = "https://github.com/purescript-contrib/purescript-fork.git"
+  , version = "v5.0.0"
+  }
+, form-urlencoded =
+  { dependencies =
+    [ "foldable-traversable"
+    , "js-uri"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    ]
+  , repo =
+      "https://github.com/purescript-contrib/purescript-form-urlencoded.git"
+  , version = "v6.0.0"
   }
 , formatters =
   { dependencies =
     [ "datetime"
     , "fixed-points"
     , "lists"
+    , "numbers"
     , "parsing"
     , "prelude"
     , "transformers"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-formatters.git"
-  , version = "main"
-  }
-, fork =
-  { dependencies = [ "aff" ]
-  , repo = "https://github.com/purescript-contrib/purescript-fork.git"
-  , version = "main"
-  }
-, form-urlencoded =
-  { dependencies =
-    [ "numbers", "maybe", "newtype", "prelude", "strings", "tuples", "js-uri" ]
-  , repo =
-      "https://github.com/purescript-contrib/purescript-form-urlencoded.git"
-  , version = "main"
+  , version = "v5.0.0"
   }
 , freet =
   { dependencies =
-    [ "bifunctors"
+    [ "aff"
+    , "bifunctors"
     , "effect"
     , "either"
     , "exists"
+    , "free"
     , "prelude"
     , "tailrec"
     , "transformers"
-    , "aff"
+    , "tuples"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-freet.git"
-  , version = "main"
+  , version = "v6.0.0"
   }
 , http-methods =
   { dependencies = [ "either", "prelude", "strings" ]
   , repo = "https://github.com/purescript-contrib/purescript-http-methods.git"
-  , version = "main"
+  , version = "v5.0.0"
   }
 , js-date =
-  { dependencies = [ "datetime", "exceptions", "foreign", "integers", "now" ]
+  { dependencies =
+    [ "datetime", "effect", "exceptions", "foreign", "integers", "now" ]
   , repo = "https://github.com/purescript-contrib/purescript-js-date.git"
-  , version = "main"
+  , version = "v7.0.0"
   }
 , js-timers =
   { dependencies = [ "effect" ]
   , repo = "https://github.com/purescript-contrib/purescript-js-timers.git"
-  , version = "main"
+  , version = "v5.0.0"
   }
 , js-uri =
   { dependencies = [ "functions", "maybe" ]
   , repo = "https://github.com/purescript-contrib/purescript-js-uri.git"
-  , version = "main"
-  }
-, jquery =
-  { dependencies = [ "console", "effect", "foreign", "web-dom" ]
-  , repo = "https://github.com/purescript-contrib/purescript-jquery.git"
-  , version = "main"
+  , version = "v2.0.0"
   }
 , machines =
   { dependencies =
@@ -224,34 +229,34 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-machines.git"
-  , version = "main"
+  , version = "v6.0.0"
   }
 , matryoshka =
   { dependencies =
-    [ "free", "fixed-points", "profunctor", "prelude", "transformers" ]
+    [ "fixed-points", "free", "prelude", "profunctor", "transformers" ]
   , repo = "https://github.com/purescript-contrib/purescript-matryoshka.git"
-  , version = "main"
+  , version = "v0.5.0"
   }
 , media-types =
   { dependencies = [ "newtype", "prelude" ]
   , repo = "https://github.com/purescript-contrib/purescript-media-types.git"
-  , version = "main"
+  , version = "v5.0.0"
   }
 , now =
   { dependencies = [ "datetime", "effect" ]
   , repo = "https://github.com/purescript-contrib/purescript-now.git"
-  , version = "main"
+  , version = "v5.0.0"
   }
 , nullable =
-  { dependencies = [ "functions", "maybe" ]
+  { dependencies = [ "effect", "functions", "maybe" ]
   , repo = "https://github.com/purescript-contrib/purescript-nullable.git"
-  , version = "main"
+  , version = "v5.0.0"
   }
 , options =
   { dependencies =
     [ "contravariant", "foreign", "foreign-object", "maybe", "tuples" ]
   , repo = "https://github.com/purescript-contrib/purescript-options.git"
-  , version = "main"
+  , version = "v6.0.0"
   }
 , parsing =
   { dependencies =
@@ -262,12 +267,13 @@
     , "integers"
     , "lists"
     , "maybe"
+    , "prelude"
     , "strings"
     , "transformers"
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "main"
+  , version = "v6.0.0"
   }
 , pathy =
   { dependencies =
@@ -276,14 +282,13 @@
     , "lists"
     , "partial"
     , "profunctor"
-    , "quickcheck"
     , "strings"
     , "transformers"
-    , "unsafe-coerce"
     , "typelevel-prelude"
+    , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-pathy.git"
-  , version = "main"
+  , version = "v8.0.0"
   }
 , precise =
   { dependencies =
@@ -292,17 +297,14 @@
     , "effect"
     , "exceptions"
     , "gen"
-    , "numbers"
     , "integers"
     , "lists"
+    , "numbers"
     , "prelude"
-    , "psci-support"
-    , "quickcheck"
-    , "quickcheck-laws"
     , "strings"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-precise.git"
-  , version = "main"
+  , version = "v5.0.0"
   }
 , profunctor-lenses =
   { dependencies =
@@ -329,7 +331,7 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
-  , version = "main"
+  , version = "v7.0.0"
   }
 , react =
   { dependencies =
@@ -342,13 +344,12 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-react.git"
-  {- TODO: merge kl0tli's roles-declarations branch into master -}
-  , version = "main"
+  , version = "v9.0.0"
   }
 , react-dom =
   { dependencies = [ "effect", "react", "web-dom" ]
   , repo = "https://github.com/purescript-contrib/purescript-react-dom.git"
-  , version = "main"
+  , version = "v7.0.0"
   }
 , routing =
   { dependencies =
@@ -358,11 +359,12 @@
     , "effect"
     , "either"
     , "foldable-traversable"
-    , "numbers"
     , "integers"
     , "js-uri"
     , "lists"
     , "maybe"
+    , "numbers"
+    , "partial"
     , "prelude"
     , "semirings"
     , "tuples"
@@ -370,51 +372,51 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-routing.git"
-  , version = "main"
+  , version = "v10.0.0"
   }
 , strings-extra =
   { dependencies =
     [ "arrays"
-    , "either"
     , "foldable-traversable"
     , "maybe"
-    , "partial"
     , "prelude"
     , "strings"
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-strings-extra.git"
-  , version = "main"
+  , version = "v3.0.0"
   }
 , these =
-  { dependencies = [ "arrays", "gen", "lists", "quickcheck", "quickcheck-laws", "tuples" ]
+  { dependencies =
+    [ "arrays", "gen", "lists", "quickcheck", "quickcheck-laws", "tuples" ]
   , repo = "https://github.com/purescript-contrib/purescript-these.git"
-  , version = "main"
+  , version = "v5.0.0"
   }
 , unicode =
   { dependencies = [ "foldable-traversable", "maybe", "strings" ]
   , repo = "https://github.com/purescript-contrib/purescript-unicode.git"
-  , version = "main"
+  , version = "v5.0.0"
+  }
+, unsafe-reference =
+  { dependencies = [ "prelude" ]
+  , repo =
+      "https://github.com/purescript-contrib/purescript-unsafe-reference.git"
+  , version = "v4.0.0"
   }
 , uri =
   { dependencies =
     [ "arrays"
-    , "numbers"
     , "integers"
     , "js-uri"
+    , "numbers"
     , "parsing"
     , "prelude"
     , "profunctor-lenses"
-    , "unfoldable"
     , "these"
+    , "transformers"
+    , "unfoldable"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-uri.git"
-  , version = "main"
-  }
-, unsafe-reference =
-  { dependencies = [] : List Text
-  , repo =
-      "https://github.com/purescript-contrib/purescript-unsafe-reference.git"
-  , version = "main"
+  , version = "v8.0.0"
   }
 }

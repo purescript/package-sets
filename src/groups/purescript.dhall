@@ -14,17 +14,17 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-arrays.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , `assert` =
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-assert.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , bifunctors =
   { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
   , repo = "https://github.com/purescript/purescript-bifunctors.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , catenable-lists =
   { dependencies =
@@ -37,31 +37,27 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-catenable-lists.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , console =
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-console.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , const =
-  { dependencies =
-    [ "invariant"
-    , "newtype"
-    , "prelude"
-    ]
+  { dependencies = [ "invariant", "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-const.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , contravariant =
   { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
   , repo = "https://github.com/purescript/purescript-contravariant.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , control =
-  { dependencies = [ "prelude", "newtype" ]
+  { dependencies = [ "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-control.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , datetime =
   { dependencies =
@@ -83,27 +79,23 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript/purescript-datetime.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , distributive =
-  { dependencies = [ "identity", "newtype", "prelude", "tuples", "type-equality" ]
+  { dependencies =
+    [ "identity", "newtype", "prelude", "tuples", "type-equality" ]
   , repo = "https://github.com/purescript/purescript-distributive.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , effect =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/purescript/purescript-effect.git"
-  , version = "master"
+  , version = "v3.0.0"
   }
 , either =
-  { dependencies =
-    [ "control"
-    , "invariant"
-    , "maybe"
-    , "prelude"
-    ]
+  { dependencies = [ "control", "invariant", "maybe", "prelude" ]
   , repo = "https://github.com/purescript/purescript-either.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , enums =
   { dependencies =
@@ -119,17 +111,17 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-enums.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , exceptions =
   { dependencies = [ "effect", "either", "maybe", "prelude" ]
   , repo = "https://github.com/purescript/purescript-exceptions.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , exists =
   { dependencies = [ "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-exists.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , foldable-traversable =
   { dependencies =
@@ -146,7 +138,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript/purescript-foldable-traversable.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , foreign =
   { dependencies =
@@ -161,7 +153,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript/purescript-foreign.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , foreign-object =
   { dependencies =
@@ -179,7 +171,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-foreign-object.git"
-  , version = "master"
+  , version = "v3.0.0"
   }
 , free =
   { dependencies =
@@ -199,12 +191,12 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-free.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , functions =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/purescript/purescript-functions.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , functors =
   { dependencies =
@@ -223,7 +215,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-functors.git"
-  , version = "master"
+  , version = "v4.0.0"
   }
 , gen =
   { dependencies =
@@ -239,39 +231,38 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-gen.git"
-  , version = "master"
+  , version = "v3.0.0"
   }
 , graphs =
-  { dependencies = [ "ordered-collections", "catenable-lists" ]
+  { dependencies = [ "catenable-lists", "ordered-collections" ]
   , repo = "https://github.com/purescript/purescript-graphs.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , identity =
-  { dependencies =
-    [ "control", "invariant", "newtype", "prelude" ]
+  { dependencies = [ "control", "invariant", "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-identity.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , integers =
-  { dependencies = [ "numbers", "math", "maybe", "prelude" ]
+  { dependencies = [ "math", "maybe", "numbers", "prelude" ]
   , repo = "https://github.com/purescript/purescript-integers.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , invariant =
-  { dependencies = [ "prelude" ]
+  { dependencies = [ "control", "prelude" ]
   , repo = "https://github.com/purescript/purescript-invariant.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , lazy =
   { dependencies = [ "control", "foldable-traversable", "invariant", "prelude" ]
   , repo = "https://github.com/purescript/purescript-lazy.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , lcg =
   { dependencies =
     [ "effect", "integers", "math", "maybe", "partial", "prelude", "random" ]
   , repo = "https://github.com/purescript/purescript-lcg.git"
-  , version = "master"
+  , version = "v3.0.0"
   }
 , lists =
   { dependencies =
@@ -289,36 +280,36 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-lists.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , math =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-math.git"
-  , version = "master"
+  , version = "v3.0.0"
   }
 , maybe =
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-maybe.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , minibench =
   { dependencies =
     [ "console"
     , "effect"
-    , "numbers"
     , "integers"
     , "math"
+    , "numbers"
     , "partial"
     , "prelude"
     , "refs"
     ]
   , repo = "https://github.com/purescript/purescript-minibench.git"
-  , version = "master"
+  , version = "v3.0.0"
   }
 , newtype =
   { dependencies = [ "prelude", "safe-coerce" ]
   , repo = "https://github.com/purescript/purescript-newtype.git"
-  , version = "master"
+  , version = "v4.0.0"
   }
 , nonempty =
   { dependencies =
@@ -330,16 +321,12 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-nonempty.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , numbers =
-  { dependencies =
-    [ "math"
-    , "maybe"
-    , "functions"
-    ]
+  { dependencies = [ "functions", "math", "maybe" ]
   , repo = "https://github.com/purescript/purescript-numbers.git"
-  , version = "master"
+  , version = "v7.0.0"
   }
 , ordered-collections =
   { dependencies =
@@ -354,15 +341,14 @@
     , "tailrec"
     , "tuples"
     , "unfoldable"
-    , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-ordered-collections.git"
-  , version = "master"
+  , version = "v2.0.0"
   }
 , orders =
   { dependencies = [ "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-orders.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , parallel =
   { dependencies =
@@ -379,17 +365,17 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript/purescript-parallel.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , partial =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-partial.git"
-  , version = "master"
+  , version = "v3.0.0"
   }
 , prelude =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-prelude.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , profunctor =
   { dependencies =
@@ -403,12 +389,12 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript/purescript-profunctor.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , psci-support =
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-psci-support.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , quickcheck =
   { dependencies =
@@ -441,37 +427,37 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-quickcheck.git"
-  , version = "master"
+  , version = "v7.0.0"
   }
 , random =
   { dependencies = [ "effect", "integers", "math" ]
   , repo = "https://github.com/purescript/purescript-random.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , record =
   { dependencies = [ "functions", "prelude", "st", "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-record.git"
-  , version = "master"
+  , version = "v3.0.0"
   }
 , refs =
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-refs.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , safe-coerce =
   { dependencies = [ "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-safe-coerce.git"
-  , version = "master"
+  , version = "v1.0.0"
   }
 , semirings =
   { dependencies = [ "foldable-traversable", "lists", "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-semirings.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , st =
   { dependencies = [ "partial", "prelude", "tailrec", "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-st.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , strings =
   { dependencies =
@@ -493,7 +479,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-strings.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , tailrec =
   { dependencies =
@@ -507,7 +493,7 @@
     , "refs"
     ]
   , repo = "https://github.com/purescript/purescript-tailrec.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , transformers =
   { dependencies =
@@ -527,37 +513,33 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-transformers.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , tuples =
-  { dependencies =
-    [ "control"
-    , "invariant"
-    , "prelude"
-    ]
+  { dependencies = [ "control", "invariant", "prelude" ]
   , repo = "https://github.com/purescript/purescript-tuples.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , type-equality =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-type-equality.git"
-  , version = "master"
+  , version = "v4.0.0"
   }
 , typelevel-prelude =
   { dependencies = [ "prelude", "type-equality" ]
   , repo = "https://github.com/purescript/purescript-typelevel-prelude.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , unfoldable =
   { dependencies =
     [ "foldable-traversable", "maybe", "partial", "prelude", "tuples" ]
   , repo = "https://github.com/purescript/purescript-unfoldable.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , unsafe-coerce =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-unsafe-coerce.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , validation =
   { dependencies =
@@ -569,6 +551,6 @@
     , "prelude"
     ]
   , repo = "https://github.com/purescript/purescript-validation.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 }
