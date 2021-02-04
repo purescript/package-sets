@@ -42,7 +42,6 @@
     [ "arrays"
     , "control"
     , "either"
-    , "generics-rep"
     , "numbers"
     , "lazy"
     , "prelude"

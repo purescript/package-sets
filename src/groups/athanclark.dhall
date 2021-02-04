@@ -22,12 +22,12 @@
   , version = "v1.0.1"
   }
 , byte-codec =
-  { dependencies = [ "generics-rep", "integers", "sized-vectors" ]
+  { dependencies = [ "integers", "sized-vectors" ]
   , repo = "https://github.com/athanclark/purescript-byte-codec.git"
   , version = "v0.0.1"
   }
 , float32 =
-  { dependencies = [ "generics-rep", "prelude" ]
+  { dependencies = [ "prelude" ]
   , repo = "https://github.com/athanclark/purescript-float32.git"
   , version = "v0.2.0"
   }
@@ -108,7 +108,7 @@
   , version = "v0.3.1"
   }
 , tuples-native =
-  { dependencies = [ "generics-rep", "typelevel", "unsafe-coerce" ]
+  { dependencies = [ "typelevel", "unsafe-coerce" ]
   , repo = "https://github.com/athanclark/purescript-tuples-native.git"
   , version = "v2.1.0"
   }

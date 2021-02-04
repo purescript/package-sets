@@ -4,7 +4,6 @@
     , "const"
     , "effect"
     , "errors"
-    , "generics-rep"
     , "lists"
     , "ordered-collections"
     , "orders"
@@ -14,7 +13,7 @@
   , version = "v0.2.0"
   }
 , proxying =
-  { dependencies = [ "effect", "generics-rep", "prelude", "typelevel-prelude" ]
+  { dependencies = [ "effect", "prelude", "typelevel-prelude" ]
   , repo = "https://github.com/matthew-hilty/purescript-proxying.git"
   {- TODO: my fork's polykindsupdate can be merged into master -}
   , version = "v1.1.0"

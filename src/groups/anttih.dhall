@@ -5,8 +5,7 @@
   }
 , selective =
   { dependencies =
-    [ "generics-rep"
-    , "validation"
+    [ "validation"
     , "psci-support"
     , "effect"
     , "either"

@@ -7,7 +7,6 @@
     , "exceptions"
     , "foldable-traversable"
     , "fork"
-    , "generics-rep"
     , "now"
     , "pipes"
     , "prelude"
