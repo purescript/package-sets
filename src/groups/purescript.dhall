@@ -393,8 +393,7 @@
   }
 , profunctor =
   { dependencies =
-    [ "contravariant"
-    , "control"
+    [ "control"
     , "distributive"
     , "either"
     , "exists"
