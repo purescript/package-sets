@@ -22,7 +22,7 @@
   , version = "master"
   }
 , bifunctors =
-  { dependencies = [ "newtype", "prelude" ]
+  { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
   , repo = "https://github.com/purescript/purescript-bifunctors.git"
   , version = "master"
   }
@@ -46,9 +46,7 @@
   }
 , const =
   { dependencies =
-    [ "contravariant"
-    , "foldable-traversable"
-    , "invariant"
+    [ "invariant"
     , "newtype"
     , "prelude"
     ]
@@ -56,7 +54,7 @@
   , version = "master"
   }
 , contravariant =
-  { dependencies = [ "either", "newtype", "prelude", "tuples" ]
+  { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
   , repo = "https://github.com/purescript/purescript-contravariant.git"
   , version = "master"
   }
@@ -88,7 +86,7 @@
   , version = "master"
   }
 , distributive =
-  { dependencies = [ "identity", "newtype", "prelude" ]
+  { dependencies = [ "identity", "newtype", "prelude", "tuples", "type-equality" ]
   , repo = "https://github.com/purescript/purescript-distributive.git"
   , version = "master"
   }
@@ -99,9 +97,7 @@
   }
 , either =
   { dependencies =
-    [ "bifunctors"
-    , "control"
-    , "foldable-traversable"
+    [ "control"
     , "invariant"
     , "maybe"
     , "prelude"
@@ -137,7 +133,18 @@
   }
 , foldable-traversable =
   { dependencies =
-    [ "bifunctors", "control", "maybe", "newtype", "orders", "prelude" ]
+    [ "bifunctors"
+    , "const"
+    , "control"
+    , "either"
+    , "functors"
+    , "identity"
+    , "maybe"
+    , "newtype"
+    , "orders"
+    , "prelude"
+    , "tuples"
+    ]
   , repo = "https://github.com/purescript/purescript-foldable-traversable.git"
   , version = "master"
   }
@@ -203,12 +210,15 @@
   { dependencies =
     [ "bifunctors"
     , "const"
+    , "contravariant"
     , "control"
+    , "distributive"
     , "either"
-    , "foldable-traversable"
+    , "invariant"
     , "maybe"
     , "newtype"
     , "prelude"
+    , "profunctor"
     , "tuples"
     , "unsafe-coerce"
     ]
@@ -238,7 +248,7 @@
   }
 , identity =
   { dependencies =
-    [ "control", "foldable-traversable", "invariant", "newtype", "prelude" ]
+    [ "control", "invariant", "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-identity.git"
   , version = "master"
   }
@@ -522,15 +532,9 @@
   }
 , tuples =
   { dependencies =
-    [ "bifunctors"
-    , "control"
-    , "distributive"
-    , "foldable-traversable"
+    [ "control"
     , "invariant"
-    , "maybe"
-    , "newtype"
     , "prelude"
-    , "type-equality"
     ]
   , repo = "https://github.com/purescript/purescript-tuples.git"
   , version = "master"
