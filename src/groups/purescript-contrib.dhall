@@ -140,8 +140,8 @@
     , "these"
     , "transformers"
     ]
-  , repo = "https://github.com/purescript-contrib/purescript-css.git"
-  , version = "main"
+  , repo = "https://github.com/jordanmartinez/purescript-css.git"
+  , version = "accountForFunctorMigration"
   }
 , fixed-points =
   { dependencies = [ "exists", "newtype", "prelude", "transformers" ]
