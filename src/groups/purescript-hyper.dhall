@@ -15,7 +15,6 @@
     , "node-http"
     , "ordered-collections"
     , "random"
-    , "smolder"
     , "strings"
     , "transformers"
     , "record-extra"
@@ -31,7 +30,7 @@
   , version = "v0.11.1"
   }
 , trout =
-  { dependencies = [ "argonaut", "media-types", "prelude", "smolder", "uri" ]
+  { dependencies = [ "argonaut", "media-types", "prelude", "uri" ]
   , repo = "https://github.com/purescript-hyper/purescript-trout.git"
   , version = "v0.12.3"
   }
