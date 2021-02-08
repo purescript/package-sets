@@ -117,7 +117,7 @@
   }
 , web-xhr =
   { dependencies =
-    [ "arraybuffer-types", "datetime", "http-methods", "web-dom", "web-file" ]
+    [ "arraybuffer-types", "datetime", "http-methods", "web-dom", "web-file", "web-html" ]
   , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
   , version = "master"
   }

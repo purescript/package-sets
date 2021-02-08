@@ -60,6 +60,7 @@
     , "node-buffer"
     , "node-streams"
     , "node-url"
+    , "node-net"
     , "nullable"
     , "options"
     , "prelude"
