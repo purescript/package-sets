@@ -374,6 +374,22 @@
   , repo = "https://github.com/purescript-contrib/purescript-routing.git"
   , version = "v10.0.0"
   }
+, string-parsers =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "control"
+    , "either"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "prelude"
+    , "strings"
+    , "tailrec"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-string-parsers.git"
+  , version = "v6.0.0"
+  }
 , strings-extra =
   { dependencies =
     [ "arrays"
