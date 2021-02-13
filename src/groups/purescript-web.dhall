@@ -9,6 +9,11 @@
   , repo = "https://github.com/purescript-web/purescript-web-clipboard.git"
   , version = "v3.0.0"
   }
+, web-cssom =
+  { dependencies = [ "web-dom", "web-html", "web-uievents" ]
+  , repo = "https://github.com/purescript-web/purescript-web-cssom.git"
+  , version = "v1.0.0"
+  }
 , web-dom =
   { dependencies = [ "web-events" ]
   , repo = "https://github.com/purescript-web/purescript-web-dom.git"
