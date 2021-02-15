@@ -3046,6 +3046,13 @@
     "repo": "https://github.com/markfarrell/purescript-parsing-repetition.git",
     "version": "v0.0.6"
   },
+  "parsing-replace": {
+    "dependencies": [
+      "parsing"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-parsing-replace.git",
+    "version": "v1.0.1"
+  },
   "parsing-uuid": {
     "dependencies": [
       "console",
