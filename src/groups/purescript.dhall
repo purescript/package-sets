@@ -435,7 +435,7 @@
   , version = "v5.0.0"
   }
 , record =
-  { dependencies = [ "functions", "prelude", "st", "unsafe-coerce" ]
+  { dependencies = [ "functions", "prelude", "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-record.git"
   , version = "v3.0.0"
   }
