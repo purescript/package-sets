@@ -100,6 +100,7 @@ let packages =
       ⫽ ./groups/dewey92.dhall
       ⫽ ./groups/pelotom.dhall
       ⫽ ./groups/colinwahl.dhall
+      ⫽ ./groups/purescript-halogen.dhall
 
 in  packages
       {- If a new compiler release occurs, we need to update this -}
