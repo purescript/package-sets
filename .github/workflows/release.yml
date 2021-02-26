@@ -1,16 +1,18 @@
-name: release
+name: Create GitHub Release
 
 on:
   push:
     tags:
-    - 'psc-*'
+      - "psc-*"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: cachix/install-nix-action@v9
+      - uses: cachix/install-nix-action@v12
+        with:
+          nix_path: nixpkgs=channel:nixos-20.09
       - name: Render packages.dhall
         run: |
           nix-shell --run '>packages.dhall dhall <<< ./src/packages.dhall'
@@ -34,15 +36,3 @@ jobs:
           asset_path: ./packages.dhall
           asset_name: packages.dhall
           asset_content_type: application/x-dhall
-        # Now checkout master in order to update the latest-compatible-sets.json file
-      - uses: actions/checkout@v2
-        with:
-          ref: 'master'
-      - name: Update latest-compatible-sets.json
-        run: |
-          nix-shell --run './update-latest-compatible-sets.sh ${{ github.ref }}'
-      - name: Commit changes to latest-compatible-sets.json
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update latest-compatible-sets.json for ${{ github.ref }}
-          file_pattern: latest-compatible-sets.json

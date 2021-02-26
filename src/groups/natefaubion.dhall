@@ -6,7 +6,7 @@
 , checked-exceptions =
   { dependencies = [ "prelude", "transformers", "variant" ]
   , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
-  , version = "v3.1.0"
+  , version = "v3.1.1"
   }
 , heterogeneous =
   { dependencies =
@@ -117,5 +117,11 @@
   , repo = "https://github.com/natefaubion/purescript-variant.git"
   {- TODO: kl0tli's psc-0.14.0 branch should be merged into master -}
   , version = "v6.0.1"
+  }
+, dodo-printer =
+  { dependencies =
+    [ "ansi", "foldable-traversable", "lists", "maybe", "prelude", "strings" ]
+  , repo = "https://github.com/natefaubion/purescript-dodo-printer.git"
+  , version = "v1.0.9"
   }
 }

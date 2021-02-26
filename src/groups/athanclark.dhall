@@ -14,7 +14,7 @@
     , "unordered-collections"
     ]
   , repo = "https://github.com/athanclark/purescript-arraybuffer-class.git"
-  , version = "v0.2.5"
+  , version = "v0.2.6"
   }
 , bip39 =
   { dependencies = [ "arraybuffer-types", "nullable" ]

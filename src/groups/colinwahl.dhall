@@ -12,6 +12,6 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-github-actions-toolkit"
-  , version = "v0.2.0"
+  , version = "v0.2.2"
   }
 }

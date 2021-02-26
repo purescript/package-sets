@@ -38,6 +38,11 @@
     , "parsing-dataview"
     ]
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
-  , version = "v1.1.1"
+  , version = "v1.4.0"
+  }
+, parsing-replace =
+  { dependencies = [ "parsing" ]
+  , repo = "https://github.com/jamesdbrock/purescript-parsing-replace.git"
+  , version = "v1.0.2"
   }
 }

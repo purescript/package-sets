@@ -28,6 +28,6 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/jvliwanag/purescript-untagged-union.git"
-  , version = "v0.1.1"
+  , version = "v0.2.0"
   }
 }

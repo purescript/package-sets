@@ -65,4 +65,20 @@
   , repo = "https://github.com/paluh/purescript-systemd-journald.git"
   , version = "v0.2.1"
   }
+, undefined-is-not-a-problem =
+  { dependencies =
+    [ "assert"
+    , "console"
+    , "effect"
+    , "foreign"
+    , "prelude"
+    , "psci-support"
+    , "random"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "variant"
+    ]
+  , repo = "https://github.com/paluh/purescript-undefined-is-not-a-problem.git"
+  , version = "v0.1.2"
+  }
 }

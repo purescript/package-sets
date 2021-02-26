@@ -18,4 +18,9 @@
   , repo = "https://github.com/kRITZCREEK/purescript-psc-ide.git"
   , version = "v16.0.0"
   }
+, dynamic-buffer =
+  { dependencies = [ "arraybuffer-types", "effect", "refs" ]
+  , repo = "https://github.com/kritzcreek/purescript-dynamic-buffer.git"
+  , version = "v2.0.0"
+  }
 }

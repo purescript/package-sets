@@ -1,7 +1,7 @@
 { codec =
   { dependencies = [ "transformers", "profunctor" ]
   , repo = "https://github.com/garyb/purescript-codec.git"
-  , version = "v3.0.0"
+  , version = "v3.1.0"
   }
 , codec-argonaut =
   { dependencies =
@@ -18,7 +18,7 @@
 , debug =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/garyb/purescript-debug.git"
-  , version = "v4.0.0"
+  , version = "v4.0.1"
   }
 , indexed-monad =
     { dependencies = [ "control", "newtype" ]
