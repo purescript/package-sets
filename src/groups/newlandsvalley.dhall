@@ -16,7 +16,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/newlandsvalley/purescript-abc-parser.git"
-  , version = "v1.8.0"
+  , version = "v1.9.3"
   }
 , js-fileio =
   { dependencies = [ "aff", "effect", "prelude" ]

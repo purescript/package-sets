@@ -20,6 +20,6 @@
     , "variant"
     ]
   , repo = "https://github.com/OxfordAbstracts/purescript-graphql-client.git"
-  , version = "v0.2.0"
+  , version = "v2.0.14"
   }
 }
