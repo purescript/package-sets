@@ -30,7 +30,7 @@ let packages =
       ⫽ ./groups/felixmulder.dhall
       ⫽ ./groups/flip111.dhall
       ⫽ ./groups/garyb.dhall
-      ⫽ ./groups/gcanti.dhall
+      ⫽ ./groups/epicallan.dhall
       ⫽ ./groups/hdgarrood.dhall
       ⫽ ./groups/hoodunit.dhall
       ⫽ ./groups/hrajchert.dhall
@@ -53,11 +53,9 @@ let packages =
       ⫽ ./groups/mschristiansen.dhall
       ⫽ ./groups/mwalkerwells.dhall
       ⫽ ./groups/natefaubion.dhall
-      ⫽ ./groups/nkly.dhall
       ⫽ ./groups/nsaunders.dhall
       ⫽ ./groups/nwolverson.dhall
       ⫽ ./groups/oreshinya.dhall
-      ⫽ ./groups/owickstrom.dhall
       ⫽ ./groups/paf31.dhall
       ⫽ ./groups/paluh.dhall
       ⫽ ./groups/passy.dhall
@@ -75,7 +73,7 @@ let packages =
       ⫽ ./groups/spicydonuts.dhall
       ⫽ ./groups/truqu.dhall
       ⫽ ./groups/zaquest.dhall
-      ⫽ ./groups/dwhitney.dhall
+      ⫽ ./groups/f-f.dhall
       ⫽ ./groups/f-o-a-m.dhall
       ⫽ ./groups/risto-stevcev.dhall
       ⫽ ./groups/unisay.dhall
@@ -100,6 +98,10 @@ let packages =
       ⫽ ./groups/dewey92.dhall
       ⫽ ./groups/pelotom.dhall
       ⫽ ./groups/colinwahl.dhall
+      ⫽ ./groups/purescript-halogen.dhall
+      ⫽ ./groups/purescript-express.dhall
+      ⫽ ./groups/purescript-polyform.dhall
+      ⫽ ./groups/purescript-node-contrib.dhall
 
 in  packages
       {- If a new compiler release occurs, we need to update this -}
