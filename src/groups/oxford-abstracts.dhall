@@ -1,11 +1,13 @@
 { graphql-client =
   { dependencies =
     [ "aff"
+    , "aff-promise"
     , "affjax"
     , "argonaut-codecs"
     , "argonaut-core"
     , "console"
     , "effect"
+    , "event"
     , "foreign-generic"
     , "foreign-object"
     , "graphql-parser"
