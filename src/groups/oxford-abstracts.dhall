@@ -1,11 +1,13 @@
 { graphql-client =
   { dependencies =
     [ "aff"
+    , "aff-promise"
     , "affjax"
     , "argonaut-codecs"
     , "argonaut-core"
     , "console"
     , "effect"
+    , "event"
     , "foreign-generic"
     , "foreign-object"
     , "graphql-parser"
@@ -20,6 +22,6 @@
     , "variant"
     ]
   , repo = "https://github.com/OxfordAbstracts/purescript-graphql-client.git"
-  , version = "v0.2.0"
+  , version = "v2.0.14"
   }
 }

@@ -19,6 +19,6 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/joneshf/purescript-option.git"
-  , version = "v6.1.0"
+  , version = "v8.0.0"
   }
 }

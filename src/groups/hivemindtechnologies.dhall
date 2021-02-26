@@ -13,6 +13,6 @@
     , "node-buffer"
     ]
   , repo = "https://github.com/HivemindTechnologies/purescript-aws-sdk.git"
-  , version = "v0.12.1"
+  , version = "v0.14.1"
   }
 }

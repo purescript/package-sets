@@ -235,7 +235,7 @@
   { dependencies =
     [ "enums", "foldable-traversable", "maybe", "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-generics-rep.git"
-  , version = "v6.1.1"
+  , version = "v6.1.3"
   }
 , globals =
   { dependencies = [ "functions", "maybe" ] : List Text
