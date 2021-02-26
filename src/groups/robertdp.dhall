@@ -1,5 +1,6 @@
 { react-halo =
-  { dependencies = [ "aff", "free", "freeap", "react-basic-hooks", "wire" ]
+  { dependencies =
+    [ "aff", "event", "free", "freeap", "react-basic-hooks", "refs" ]
   , repo = "https://github.com/robertdp/purescript-react-halo.git"
   , version = "v1.2.0"
   }
