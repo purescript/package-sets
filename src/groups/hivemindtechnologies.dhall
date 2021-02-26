@@ -1,4 +1,5 @@
-{ aws-sdk-basic =
+{-
+, aws-sdk-basic =
   { dependencies =
     [ "aff-promise"
     , "console"
@@ -15,4 +16,5 @@
   , repo = "https://github.com/HivemindTechnologies/purescript-aws-sdk.git"
   , version = "v0.14.1"
   }
-}
+-}
+{=}

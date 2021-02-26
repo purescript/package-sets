@@ -1,4 +1,5 @@
-{ spec =
+{-
+, spec =
   { dependencies =
     [ "aff"
     , "ansi"
@@ -7,7 +8,6 @@
     , "exceptions"
     , "foldable-traversable"
     , "fork"
-    {- , "generics-rep" -}
     , "now"
     , "pipes"
     , "prelude"
@@ -27,4 +27,5 @@
   , repo = "https://github.com/purescript-spec/purescript-spec-quickcheck.git"
   , version = "v3.1.0"
   }
-}
+-}
+{=}

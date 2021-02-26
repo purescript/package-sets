@@ -1,7 +1,36 @@
-{ abides =
-  { dependencies = [ "enums", "foldable-traversable" ]
-  , repo = "https://github.com/athanclark/purescript-abides.git"
+{-
+, byte-codec =
+  { dependencies = [ "integers", "sized-vectors" ]
+  , repo = "https://github.com/athanclark/purescript-byte-codec.git"
   , version = "v0.0.1"
+  }
+, float32 =
+  { dependencies = [ "prelude" ]
+  , repo = "https://github.com/athanclark/purescript-float32.git"
+  , version = "v0.2.0"
+  }
+, tuples-native =
+  { dependencies = [ "typelevel", "unsafe-coerce" ]
+  , repo = "https://github.com/athanclark/purescript-tuples-native.git"
+  , version = "v2.1.0"
+  }
+, websocket-moderate =
+  { dependencies =
+    [ "argonaut"
+    , "arraybuffer"
+    , "exceptions"
+    , "monad-control"
+    , "nullable"
+    , "text-encoding"
+    , "web-file"
+    ]
+  , repo = "https://github.com/athanclark/purescript-websocket-moderate.git"
+  , version = "v7.0.2"
+  }
+, z85 =
+  { dependencies = [ "arraybuffer", "sized-vectors", "numbers", "stringutils" ]
+  , repo = "https://github.com/athanclark/purescript-z85.git"
+  , version = "v0.0.2"
   }
 , arraybuffer-class =
   { dependencies =
@@ -16,20 +45,16 @@
   , repo = "https://github.com/athanclark/purescript-arraybuffer-class.git"
   , version = "v0.2.6"
   }
+-}
+{ abides =
+  { dependencies = [ "enums", "foldable-traversable" ]
+  , repo = "https://github.com/athanclark/purescript-abides.git"
+  , version = "v0.0.1"
+  }
 , bip39 =
   { dependencies = [ "arraybuffer-types", "nullable" ]
   , repo = "https://github.com/athanclark/purescript-bip39.git"
   , version = "v1.0.1"
-  }
-, byte-codec =
-  { dependencies = [ {- "generics-rep", -} "integers", "sized-vectors" ]
-  , repo = "https://github.com/athanclark/purescript-byte-codec.git"
-  , version = "v0.0.1"
-  }
-, float32 =
-  { dependencies = [ {- "generics-rep", -} "prelude" ]
-  , repo = "https://github.com/athanclark/purescript-float32.git"
-  , version = "v0.2.0"
   }
 , inflection =
   { dependencies = [ "functions" ]
@@ -107,32 +132,9 @@
   , repo = "https://github.com/athanclark/purescript-thermite-dom.git"
   , version = "v0.3.1"
   }
-, tuples-native =
-  { dependencies = [ {- "generics-rep", -} "typelevel", "unsafe-coerce" ]
-  , repo = "https://github.com/athanclark/purescript-tuples-native.git"
-  , version = "v2.1.0"
-  }
 , uint-instances =
   { dependencies = [ "uint", "unordered-collections", "argonaut", "quickcheck" ]
   , repo = "https://github.com/athanclark/purescript-uint-instances.git"
-  , version = "v0.0.2"
-  }
-, websocket-moderate =
-  { dependencies =
-    [ "argonaut"
-    , "arraybuffer"
-    , "exceptions"
-    , "monad-control"
-    , "nullable"
-    , "text-encoding"
-    , "web-file"
-    ]
-  , repo = "https://github.com/athanclark/purescript-websocket-moderate.git"
-  , version = "v7.0.2"
-  }
-, z85 =
-  { dependencies = [ "arraybuffer", "sized-vectors", "numbers", "stringutils" ]
-  , repo = "https://github.com/athanclark/purescript-z85.git"
   , version = "v0.0.2"
   }
 , zeta =

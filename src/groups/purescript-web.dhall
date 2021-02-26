@@ -65,7 +65,14 @@
   , version = "v3.0.0"
   }
 , web-promise =
-  { dependencies = [ "effect", "exceptions", "functions", "maybe", "prelude" ]
+  { dependencies =
+    [ "effect"
+    , "foldable-traversable"
+    , "exceptions"
+    , "functions"
+    , "maybe"
+    , "prelude"
+    ]
   , repo = "https://github.com/purescript-web/purescript-web-promise.git"
   , version = "v2.0.0"
   }

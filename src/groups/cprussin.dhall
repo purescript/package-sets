@@ -1,4 +1,5 @@
-{ httpure =
+{-
+, httpure =
   { dependencies =
     [ "aff"
     , "arrays"
@@ -34,6 +35,8 @@
   , repo = "https://github.com/cprussin/purescript-httpure.git"
   , version = "v0.10.0"
   }
+-}
+{
 , monad-logger =
   { dependencies =
     [ "aff"

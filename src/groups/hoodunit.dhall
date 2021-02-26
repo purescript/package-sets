@@ -1,4 +1,5 @@
-{ payload =
+{-
+, payload =
   { dependencies =
     [ "aff"
     , "affjax"
@@ -20,4 +21,5 @@
   , repo = "https://github.com/hoodunit/purescript-payload"
   , version = "v0.3.1"
   }
-}
+-}
+{=}

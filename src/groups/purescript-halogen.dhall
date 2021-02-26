@@ -1,9 +1,4 @@
-{ dom-indexed =
-  { dependencies =
-    [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
-  , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
-  , version = "v7.0.0"
-  }
+{-
 , halogen =
   { dependencies =
     [ "aff"
@@ -28,8 +23,14 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen.git"
-  {- TODO: make this repo compatible again; too many changes since original attempt -}
   , version = "v5.0.1"
+  }
+-}
+{ dom-indexed =
+  { dependencies =
+    [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
+  , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
+  , version = "v7.0.0"
   }
 , halogen-css =
   { dependencies = [ "css", "halogen" ]

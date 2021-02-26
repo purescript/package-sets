@@ -1,4 +1,5 @@
-{ b64 =
+{-
+, b64 =
   { dependencies =
     [ "arraybuffer-types"
     , "either"
@@ -11,12 +12,6 @@
     , "strings"
     ]
   , repo = "https://github.com/menelaos/purescript-b64.git"
-  , version = "v0.0.6"
-  }
-, encoding =
-  { dependencies =
-    [ "arraybuffer-types", "either", "exceptions", "functions", "prelude" ]
-  , repo = "https://github.com/menelaos/purescript-encoding.git"
   , version = "v0.0.6"
   }
 , jwt =
@@ -33,6 +28,14 @@
     ]
   , repo = "https://github.com/menelaos/purescript-jwt.git"
   , version = "v0.0.7"
+  }
+-}
+{
+, encoding =
+  { dependencies =
+    [ "arraybuffer-types", "either", "exceptions", "functions", "prelude" ]
+  , repo = "https://github.com/menelaos/purescript-encoding.git"
+  , version = "v0.0.6"
   }
 , stringutils =
   { dependencies =

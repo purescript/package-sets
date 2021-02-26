@@ -1,3 +1,10 @@
+{-
+, uuid =
+  { dependencies = [ "effect", "maybe", "foreign-generic", "console", "spec" ]
+  , repo = "https://github.com/spicydonuts/purescript-uuid.git"
+  , version = "v7.0.0"
+  }
+-}
 { react-basic-hooks =
   { dependencies =
     [ "prelude"
@@ -19,10 +26,5 @@
     ]
   , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
   , version = "v6.3.0"
-  }
-, uuid =
-  { dependencies = [ "effect", "maybe", "foreign-generic", "console", "spec" ]
-  , repo = "https://github.com/spicydonuts/purescript-uuid.git"
-  , version = "v7.0.0"
   }
 }

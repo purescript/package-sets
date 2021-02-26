@@ -1,6 +1,3 @@
-{- TODO: These were broken up across multiple repos since my previous attempt 
-   I'll have to look at these later.
--}
 { react-basic =
   { dependencies = [ "prelude", "effect", "record" ]
   , repo = "https://github.com/lumihq/purescript-react-basic.git"

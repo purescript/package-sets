@@ -1,4 +1,5 @@
-{ hyper =
+{-
+, hyper =
   { dependencies =
     [ "aff"
     , "avar"
@@ -8,7 +9,6 @@
     , "control"
     , "effect"
     , "foldable-traversable"
-    {- , "generics-rep" -}
     , "http-methods"
     , "indexed-monad"
     , "media-types"
@@ -26,7 +26,8 @@
   , repo = "https://github.com/purescript-hyper/hyper.git"
   , version = "v0.11.1"
   }
-, hypertrout =
+-}
+{ hypertrout =
   { dependencies =
     [ "argonaut-generic", "console", "hyper", "prelude", "trout" ]
   , repo = "https://github.com/purescript-hyper/purescript-hypertrout.git"

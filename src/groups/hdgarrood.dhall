@@ -1,8 +1,4 @@
-{ ansi =
-  { dependencies = [ "foldable-traversable", "lists", "strings" ]
-  , repo = "https://github.com/hdgarrood/purescript-ansi.git"
-  , version = "v5.0.0"
-  }
+{-
 , benchotron =
   { dependencies =
     [ "arrays"
@@ -25,5 +21,11 @@
     ]
   , repo = "https://github.com/hdgarrood/purescript-benchotron.git"
   , version = "v7.0.1"
+  }
+-}
+{ ansi =
+  { dependencies = [ "foldable-traversable", "lists", "strings" ]
+  , repo = "https://github.com/hdgarrood/purescript-ansi.git"
+  , version = "v5.0.0"
   }
 }

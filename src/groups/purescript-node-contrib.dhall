@@ -11,7 +11,8 @@
     , "prelude"
     , "transformers"
     ]
-  , repo = "https://github.com/purescript-node-contrib/purescript-redis-client.git"
+  , repo =
+      "https://github.com/purescript-node-contrib/purescript-redis-client.git"
   , version = "v1.0.1"
   }
 }

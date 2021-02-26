@@ -1,8 +1,4 @@
-{ debuggest =
-  { dependencies = [ "prelude", "unsafe-coerce" ]
-  , repo = "https://github.com/ursi/purescript-debuggest.git"
-  , version = "v0.4.0"
-  }
+{-
 , mason-prelude =
   { dependencies =
     [ "arrays"
@@ -10,7 +6,6 @@
     , "debuggest"
     , "either"
     , "functions"
-    , "generics-rep"
     , "integers"
     , "lists"
     , "math"
@@ -23,6 +18,12 @@
     ]
   , repo = "https://github.com/ursi/purescript-mason-prelude.git"
   , version = "v0.5.0"
+  }
+-}
+{ debuggest =
+  { dependencies = [ "prelude", "unsafe-coerce" ]
+  , repo = "https://github.com/ursi/purescript-debuggest.git"
+  , version = "v0.4.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]

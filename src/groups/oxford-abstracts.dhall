@@ -1,4 +1,5 @@
-{ graphql-client =
+{-
+, graphql-client =
   { dependencies =
     [ "aff"
     , "aff-promise"
@@ -24,4 +25,5 @@
   , repo = "https://github.com/OxfordAbstracts/purescript-graphql-client.git"
   , version = "v2.0.14"
   }
-}
+-}
+{=}
