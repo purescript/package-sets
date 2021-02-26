@@ -2508,6 +2508,17 @@
     "repo": "https://github.com/i-am-tom/purescript-money.git",
     "version": "v8.0.0"
   },
+  "monoidal": {
+    "dependencies": [
+      "effect",
+      "either",
+      "profunctor",
+      "these",
+      "tuples"
+    ],
+    "repo": "https://github.com/mcneissue/purescript-monoidal.git",
+    "version": "v0.15.0"
+  },
   "motsunabe": {
     "dependencies": [
       "lists",
