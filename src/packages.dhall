@@ -30,7 +30,7 @@ let packages =
       ⫽ ./groups/felixmulder.dhall
       ⫽ ./groups/flip111.dhall
       ⫽ ./groups/garyb.dhall
-      ⫽ ./groups/gcanti.dhall
+      ⫽ ./groups/epicallan.dhall
       ⫽ ./groups/hdgarrood.dhall
       ⫽ ./groups/hoodunit.dhall
       ⫽ ./groups/hrajchert.dhall
