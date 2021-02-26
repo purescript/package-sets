@@ -1,5 +1,5 @@
 { logging-journald =
-  { dependencies = [ "generics-rep", "logging", "systemd-journald" ]
+  { dependencies = [ {- "generics-rep", -} "logging", "systemd-journald" ]
   , repo = "https://github.com/paluh/purescript-logging-journald.git"
   , version = "v0.3.2"
   }
@@ -7,6 +7,44 @@
   { dependencies = [ "lists", "prelude" ]
   , repo = "https://github.com/paluh/purescript-pointed-list.git"
   , version = "v0.4.0"
+  }
+, polyform =
+  { dependencies =
+    [ "foreign"
+    , "foreign-object"
+    {- , "generics-rep" -}
+    , "invariant"
+    , "newtype"
+    , "ordered-collections"
+    , "profunctor"
+    , "quickcheck-laws"
+    , "run"
+    , "transformers"
+    , "validation"
+    , "variant"
+    ]
+  , repo = "https://github.com/paluh/purescript-polyform.git"
+  {- TODO: need to manually make library compatible again. Too many changes since last attempt -}
+  , version = "v0.8.2"
+  }
+, redis-client =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "bytestrings"
+    , "console"
+    , "effect"
+    , "either"
+    , "int-53"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "psci-support"
+    , "test-unit"
+    , "transformers"
+    ]
+  , repo = "https://github.com/paluh/purescript-redis-client.git"
+  , version = "v1.0.1"
   }
 , redis-hotqueue =
   { dependencies =
