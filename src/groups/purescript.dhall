@@ -326,7 +326,7 @@
 , numbers =
   { dependencies = [ "functions", "math", "maybe" ]
   , repo = "https://github.com/purescript/purescript-numbers.git"
-  , version = "v7.0.0"
+  , version = "v8.0.0"
   }
 , ordered-collections =
   { dependencies =
