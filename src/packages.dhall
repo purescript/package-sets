@@ -53,7 +53,6 @@ let packages =
       ⫽ ./groups/mschristiansen.dhall
       ⫽ ./groups/mwalkerwells.dhall
       ⫽ ./groups/natefaubion.dhall
-      ⫽ ./groups/nkly.dhall
       ⫽ ./groups/nsaunders.dhall
       ⫽ ./groups/nwolverson.dhall
       ⫽ ./groups/oreshinya.dhall
@@ -101,6 +100,7 @@ let packages =
       ⫽ ./groups/pelotom.dhall
       ⫽ ./groups/colinwahl.dhall
       ⫽ ./groups/purescript-halogen.dhall
+      ⫽ ./groups/purescript-express.dhall
 
 in  packages
       {- If a new compiler release occurs, we need to update this -}
