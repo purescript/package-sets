@@ -102,6 +102,7 @@ let packages =
       ⫽ ./groups/purescript-halogen.dhall
       ⫽ ./groups/purescript-express.dhall
       ⫽ ./groups/purescript-polyform.dhall
+      ⫽ ./groups/purescript-node-contrib.dhall
 
 in  packages
       {- If a new compiler release occurs, we need to update this -}
