@@ -74,7 +74,7 @@ let packages =
       ⫽ ./groups/spicydonuts.dhall
       ⫽ ./groups/truqu.dhall
       ⫽ ./groups/zaquest.dhall
-      ⫽ ./groups/dwhitney.dhall
+      ⫽ ./groups/f-f.dhall
       ⫽ ./groups/f-o-a-m.dhall
       ⫽ ./groups/risto-stevcev.dhall
       ⫽ ./groups/unisay.dhall
