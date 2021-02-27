@@ -1,4 +1,25 @@
-{ biscotti-cookie =
+{-
+, httpure-contrib-biscotti =
+  { dependencies =
+    [ "aff"
+    , "argonaut"
+    , "biscotti-cookie"
+    , "biscotti-session"
+    , "effect"
+    , "either"
+    , "httpure"
+    , "maybe"
+    , "profunctor-lenses"
+    , "psci-support"
+    , "test-unit"
+    , "tuples"
+    , "type-equality"
+    ]
+  , repo =
+      "https://github.com/drewolson/purescript-httpure-contrib-biscotti.git"
+  , version = "v0.1.2"
+  }
+, biscotti-cookie =
   { dependencies =
     [ "datetime"
     , "effect"
@@ -38,25 +59,5 @@
   , repo = "https://github.com/drewolson/purescript-biscotti-session.git"
   , version = "v0.1.2"
   }
-, httpure-contrib-biscotti =
-  { dependencies =
-    [ "aff"
-    , "argonaut"
-    , "biscotti-cookie"
-    , "biscotti-session"
-    , "effect"
-    , "either"
-    , "generics-rep"
-    , "httpure"
-    , "maybe"
-    , "profunctor-lenses"
-    , "psci-support"
-    , "test-unit"
-    , "tuples"
-    , "type-equality"
-    ]
-  , repo =
-      "https://github.com/drewolson/purescript-httpure-contrib-biscotti.git"
-  , version = "v0.1.2"
-  }
-}
+-}
+{=}

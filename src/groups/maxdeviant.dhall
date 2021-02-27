@@ -1,4 +1,5 @@
-{ heckin =
+{-
+, heckin =
   { dependencies =
     [ "arrays"
     , "console"
@@ -15,7 +16,8 @@
   , repo = "https://github.com/maxdeviant/purescript-npm-package-json.git"
   , version = "v1.2.0"
   }
-, which =
+-}
+{ which =
   { dependencies = [ "arrays", "console", "effect", "nullable", "psci-support" ]
   , repo = "https://github.com/maxdeviant/purescript-which.git"
   , version = "v0.1.0"

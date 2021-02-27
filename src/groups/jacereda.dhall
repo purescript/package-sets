@@ -1,4 +1,5 @@
-{ arraybuffer =
+{-
+, arraybuffer =
   { dependencies =
     [ "arraybuffer-types"
     , "effect"
@@ -14,4 +15,5 @@
   , repo = "https://github.com/jacereda/purescript-arraybuffer.git"
   , version = "v10.0.2"
   }
-}
+-}
+{=}

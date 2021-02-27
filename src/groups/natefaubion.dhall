@@ -1,7 +1,52 @@
-{ call-by-name =
-  { dependencies = [ "unsafe-coerce", "lazy", "maybe", "either", "control" ]
-  , repo = "https://github.com/natefaubion/purescript-call-by-name.git"
-  , version = "v2.0.0"
+{-
+, routing-duplex =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "either"
+    , "numbers"
+    , "lazy"
+    , "prelude"
+    , "profunctor"
+    , "record"
+    , "strings"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
+  , version = "v0.4.1"
+  }
+, variant =
+  { dependencies =
+    [ "enums"
+    , "lists"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "record"
+    , "tuples"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-variant.git"
+  , version = "v6.0.1"
+  }
+, run =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "either"
+    , "free"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "profunctor"
+    , "tailrec"
+    , "tuples"
+    , "type-equality"
+    , "unsafe-coerce"
+    , "variant"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-run.git"
+  , version = "v3.0.1"
   }
 , checked-exceptions =
   { dependencies = [ "prelude", "transformers", "variant" ]
@@ -13,6 +58,23 @@
     [ "either", "functors", "prelude", "record", "tuples", "variant" ]
   , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
   , version = "v0.4.1"
+  }
+, run-streaming =
+  { dependencies = [ "prelude", "run" ]
+  , repo = "https://github.com/natefaubion/purescript-run-streaming.git"
+  , version = "v2.0.0"
+  }
+, dodo-printer =
+  { dependencies =
+    [ "ansi", "foldable-traversable", "lists", "maybe", "prelude", "strings" ]
+  , repo = "https://github.com/natefaubion/purescript-dodo-printer.git"
+  , version = "v1.0.9"
+  }
+-}
+{ call-by-name =
+  { dependencies = [ "unsafe-coerce", "lazy", "maybe", "either", "control" ]
+  , repo = "https://github.com/natefaubion/purescript-call-by-name.git"
+  , version = "v2.0.0"
   }
 , psa-utils =
   { dependencies =
@@ -35,47 +97,6 @@
     ]
   , repo = "https://github.com/natefaubion/purescript-psa-utils.git"
   , version = "v7.0.0"
-  }
-, routing-duplex =
-  { dependencies =
-    [ "arrays"
-    , "control"
-    , "either"
-    , "generics-rep"
-    , "globals"
-    , "lazy"
-    , "prelude"
-    , "profunctor"
-    , "record"
-    , "strings"
-    , "typelevel-prelude"
-    ]
-  , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
-  , version = "v0.4.1"
-  }
-, run =
-  { dependencies =
-    [ "aff"
-    , "effect"
-    , "either"
-    , "free"
-    , "maybe"
-    , "newtype"
-    , "prelude"
-    , "profunctor"
-    , "tailrec"
-    , "tuples"
-    , "type-equality"
-    , "unsafe-coerce"
-    , "variant"
-    ]
-  , repo = "https://github.com/natefaubion/purescript-run.git"
-  , version = "v3.0.1"
-  }
-, run-streaming =
-  { dependencies = [ "prelude", "run" ]
-  , repo = "https://github.com/natefaubion/purescript-run-streaming.git"
-  , version = "v2.0.0"
   }
 , spork =
   { dependencies =
@@ -100,26 +121,5 @@
     ]
   , repo = "https://github.com/natefaubion/purescript-spork.git"
   , version = "v1.0.0"
-  }
-, variant =
-  { dependencies =
-    [ "enums"
-    , "lists"
-    , "maybe"
-    , "partial"
-    , "prelude"
-    , "proxy"
-    , "record"
-    , "tuples"
-    , "unsafe-coerce"
-    ]
-  , repo = "https://github.com/natefaubion/purescript-variant.git"
-  , version = "v6.0.1"
-  }
-, dodo-printer =
-  { dependencies =
-    [ "ansi", "foldable-traversable", "lists", "maybe", "prelude", "strings" ]
-  , repo = "https://github.com/natefaubion/purescript-dodo-printer.git"
-  , version = "v1.0.9"
   }
 }
