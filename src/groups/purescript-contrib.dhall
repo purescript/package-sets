@@ -337,7 +337,8 @@
   }
 , quickcheck-laws =
   { dependencies = [ "enums", "quickcheck" ]
-  , repo = "https://github.com/purescript-contrib/purescript-quickcheck-laws.git"
+  , repo =
+      "https://github.com/purescript-contrib/purescript-quickcheck-laws.git"
   , version = "v6.0.0"
   }
 , react =
