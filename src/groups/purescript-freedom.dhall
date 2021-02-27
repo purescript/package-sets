@@ -1,4 +1,5 @@
-{ freedom =
+{-
+, freedom =
   { dependencies =
     [ "console", "foreign-object", "safely", "simple-emitter", "web-html" ]
   , repo = "https://github.com/purescript-freedom/purescript-freedom.git"
@@ -37,4 +38,5 @@
       "https://github.com/purescript-freedom/purescript-freedom-window-resize.git"
   , version = "v2.0.0"
   }
-}
+-}
+{=}

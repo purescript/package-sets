@@ -51,11 +51,11 @@
   , repo = "https://github.com/artemisSystem/purescript-canvas-action.git"
   , version = "v6.0.1"
   }
--}
-{ polymorphic-vectors =
+, polymorphic-vectors =
   { dependencies =
     [ "canvas", "distributive", "foldable-traversable", "math", "prelude" ]
   , repo = "https://github.com/artemisSystem/purescript-polymorphic-vectors.git"
   , version = "v2.0.1"
   }
-}
+-}
+{=}

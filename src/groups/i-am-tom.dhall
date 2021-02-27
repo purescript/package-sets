@@ -12,8 +12,7 @@
   , repo = "https://github.com/i-am-tom/purescript-data-algebrae.git"
   , version = "v4.0.0"
   }
--}
-{ money =
+, money =
   { dependencies =
     [ "foldable-traversable"
     , "numbers"
@@ -28,4 +27,5 @@
   , repo = "https://github.com/i-am-tom/purescript-money.git"
   , version = "v8.0.0"
   }
-}
+-}
+{=}

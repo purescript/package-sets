@@ -26,11 +26,11 @@
   , repo = "https://github.com/nsaunders/purescript-dotenv.git"
   , version = "v1.1.0"
   }
--}
-{ nodetrout =
+, nodetrout =
   { dependencies =
     [ "effect", "form-urlencoded", "http-methods", "node-http", "trout" ]
   , repo = "https://github.com/nsaunders/purescript-nodetrout.git"
   , version = "v0.0.1"
   }
-}
+-}
+{=}

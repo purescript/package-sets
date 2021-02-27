@@ -4,8 +4,7 @@
   , repo = "https://github.com/spicydonuts/purescript-uuid.git"
   , version = "v7.0.0"
   }
--}
-{ react-basic-hooks =
+, react-basic-hooks =
   { dependencies =
     [ "prelude"
     , "aff-promise"
@@ -27,4 +26,5 @@
   , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
   , version = "v6.3.0"
   }
-}
+-}
+{=}

@@ -29,8 +29,7 @@
   , repo = "https://github.com/klntsky/purescript-bower-json.git"
   , version = "v2.0.0"
   }
--}
-{ search-trie =
+, search-trie =
   { dependencies =
     [ "prelude"
     , "arrays"
@@ -42,4 +41,5 @@
   , repo = "https://github.com/klntsky/purescript-search-trie.git"
   , version = "v1.0.0"
   }
-}
+-}
+{=}

@@ -45,6 +45,27 @@
   , repo = "https://github.com/athanclark/purescript-arraybuffer-class.git"
   , version = "v0.2.6"
   }
+, parseint =
+  { dependencies = [ "functions", "numbers", "integers" ]
+  , repo = "https://github.com/athanclark/purescript-parseint.git"
+  , version = "v1.1.1"
+  }
+, sjcl =
+  { dependencies =
+    [ "arraybuffer-types"
+    , "exceptions"
+    , "nullable"
+    , "sized-vectors"
+    , "tuples-native"
+    ]
+  , repo = "https://github.com/athanclark/purescript-sjcl.git"
+  , version = "v0.0.1"
+  }
+, uint-instances =
+  { dependencies = [ "uint", "unordered-collections", "argonaut", "quickcheck" ]
+  , repo = "https://github.com/athanclark/purescript-uint-instances.git"
+  , version = "v0.0.2"
+  }
 -}
 { abides =
   { dependencies = [ "enums", "foldable-traversable" ]
@@ -76,11 +97,6 @@
   , repo = "https://github.com/athanclark/purescript-unorm.git"
   , version = "v1.0.1"
   }
-, parseint =
-  { dependencies = [ "functions", "numbers", "integers" ]
-  , repo = "https://github.com/athanclark/purescript-parseint.git"
-  , version = "v1.1.1"
-  }
 , queue =
   { dependencies = [ "refs", "aff", "foreign-object", "avar" ]
   , repo = "https://github.com/athanclark/purescript-queue.git"
@@ -111,17 +127,6 @@
   , repo = "https://github.com/athanclark/purescript-setimmediate.git"
   , version = "v1.0.2"
   }
-, sjcl =
-  { dependencies =
-    [ "arraybuffer-types"
-    , "exceptions"
-    , "nullable"
-    , "sized-vectors"
-    , "tuples-native"
-    ]
-  , repo = "https://github.com/athanclark/purescript-sjcl.git"
-  , version = "v0.0.1"
-  }
 , subtlecrypto =
   { dependencies = [ "aff", "arraybuffer-types", "foreign", "promises" ]
   , repo = "https://github.com/athanclark/purescript-subtlecrypto.git"
@@ -131,11 +136,6 @@
   { dependencies = [ "thermite", "react", "react-dom", "web-html" ]
   , repo = "https://github.com/athanclark/purescript-thermite-dom.git"
   , version = "v0.3.1"
-  }
-, uint-instances =
-  { dependencies = [ "uint", "unordered-collections", "argonaut", "quickcheck" ]
-  , repo = "https://github.com/athanclark/purescript-uint-instances.git"
-  , version = "v0.0.2"
   }
 , zeta =
   { dependencies = [ "refs", "aff", "foreign-object", "arrays" ]

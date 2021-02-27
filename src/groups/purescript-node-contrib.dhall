@@ -1,4 +1,5 @@
-{ redis-client =
+{-
+, redis-client =
   { dependencies =
     [ "aff"
     , "arrays"
@@ -15,4 +16,5 @@
       "https://github.com/purescript-node-contrib/purescript-redis-client.git"
   , version = "v1.0.1"
   }
-}
+-}
+{=}

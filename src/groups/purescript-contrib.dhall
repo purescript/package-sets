@@ -1,3 +1,19 @@
+{-
+, css =
+  { dependencies =
+    [ "colors"
+    , "console"
+    , "effect"
+    , "nonempty"
+    , "profunctor"
+    , "strings"
+    , "these"
+    , "transformers"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-css.git"
+  , version = "v5.0.0"
+  }
+-}
 { ace =
   { dependencies =
     [ "arrays"
@@ -127,20 +143,6 @@
   { dependencies = [ "freet", "parallel", "profunctor" ]
   , repo = "https://github.com/purescript-contrib/purescript-coroutines.git"
   , version = "v6.0.0"
-  }
-, css =
-  { dependencies =
-    [ "colors"
-    , "console"
-    , "effect"
-    , "nonempty"
-    , "profunctor"
-    , "strings"
-    , "these"
-    , "transformers"
-    ]
-  , repo = "https://github.com/purescript-contrib/purescript-css.git"
-  , version = "v5.0.0"
   }
 , fixed-points =
   { dependencies = [ "exists", "newtype", "prelude", "transformers" ]
@@ -332,6 +334,11 @@
   , repo =
       "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
   , version = "v7.0.0"
+  }
+, quickcheck-laws =
+  { dependencies = [ "enums", "quickcheck" ]
+  , repo = "https://github.com/purescript-contrib/purescript-quickcheck-laws.git"
+  , version = "v6.0.0"
   }
 , react =
   { dependencies =

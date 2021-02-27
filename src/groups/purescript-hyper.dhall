@@ -26,8 +26,7 @@
   , repo = "https://github.com/purescript-hyper/hyper.git"
   , version = "v0.11.1"
   }
--}
-{ hypertrout =
+, hypertrout =
   { dependencies =
     [ "argonaut-generic", "console", "hyper", "prelude", "trout" ]
   , repo = "https://github.com/purescript-hyper/purescript-hypertrout.git"
@@ -43,4 +42,5 @@
   , repo = "https://github.com/purescript-hyper/purescript-trout-client.git"
   , version = "v0.13.0"
   }
-}
+-}
+{=}

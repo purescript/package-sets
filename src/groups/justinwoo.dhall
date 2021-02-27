@@ -86,16 +86,38 @@
   , repo = "https://github.com/justinwoo/purescript-node-telegram-bot-api.git"
   , version = "v4.0.0"
   }
+, format-nix =
+  { dependencies = [ "motsunabe", "prelude" ]
+  , repo = "https://github.com/justinwoo/format-nix.git"
+  , version = "v0.3.0"
+  }
+, tortellini =
+  { dependencies =
+    [ "foreign-object"
+    , "integers"
+    , "lists"
+    , "motsunabe"
+    , "numbers"
+    , "prelude"
+    , "record"
+    , "string-parsers"
+    , "strings"
+    , "transformers"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/justinwoo/purescript-tortellini.git"
+  , version = "v5.1.0"
+  }
+, type-isequal =
+  { dependencies = [ "typelevel-prelude" ]
+  , repo = "https://github.com/justinwoo/purescript-type-isequal.git"
+  , version = "v0.1.0"
+  }
 -}
 { expect-inferred =
   { dependencies = [ "prelude", "typelevel-prelude" ]
   , repo = "https://github.com/justinwoo/purescript-expect-inferred.git"
   , version = "v2.0.0"
-  }
-, format-nix =
-  { dependencies = [ "motsunabe", "prelude" ]
-  , repo = "https://github.com/justinwoo/format-nix.git"
-  , version = "v0.3.0"
   }
 , gomtang-basic =
   { dependencies = [ "console", "effect", "prelude", "record", "web-html" ]
@@ -154,27 +176,5 @@
     ]
   , repo = "https://github.com/justinwoo/purescript-toppokki.git"
   , version = "v2.4.0"
-  }
-, tortellini =
-  { dependencies =
-    [ "foreign-object"
-    , "integers"
-    , "lists"
-    , "motsunabe"
-    , "numbers"
-    , "prelude"
-    , "record"
-    , "string-parsers"
-    , "strings"
-    , "transformers"
-    , "typelevel-prelude"
-    ]
-  , repo = "https://github.com/justinwoo/purescript-tortellini.git"
-  , version = "v5.1.0"
-  }
-, type-isequal =
-  { dependencies = [ "typelevel-prelude" ]
-  , repo = "https://github.com/justinwoo/purescript-type-isequal.git"
-  , version = "v0.1.0"
   }
 }

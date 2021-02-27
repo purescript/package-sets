@@ -28,8 +28,7 @@
   , version = "v1.1.0"
   }
 -}
-{
-, longs =
+{ longs =
   { dependencies =
     [ "effect"
     , "console"

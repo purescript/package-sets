@@ -1,4 +1,4 @@
-{ react-basic-native =
+{- react-basic-native =
   { dependencies =
     [ "effect"
     , "foreign-object"
@@ -10,4 +10,5 @@
   , repo = "https://github.com/f-f/purescript-react-basic-native.git"
   , version = "v0.1.3"
   }
-}
+-}
+{=}

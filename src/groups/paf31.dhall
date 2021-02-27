@@ -54,28 +54,27 @@
   , repo = "https://github.com/paf31/purescript-event.git"
   , version = "v1.3.0"
   }
--}
-{
-, drawing =
-  { dependencies =
-    [ "canvas", "colors", "integers", "lists", "math", "prelude" ]
-  , repo = "https://github.com/paf31/purescript-drawing.git"
-  , version = "v4.0.0"
-  }
 , folds =
   { dependencies = [ "control", "ordered-collections", "profunctor" ]
   , repo = "https://github.com/paf31/purescript-folds.git"
   , version = "v5.2.0"
   }
-, leibniz =
-  { dependencies = [ "prelude", "unsafe-coerce" ]
-  , repo = "https://github.com/paf31/purescript-leibniz.git"
-  , version = "v5.0.0"
-  }
 , pairing =
   { dependencies = [ "free", "functors", "transformers" ]
   , repo = "https://github.com/paf31/purescript-pairing.git"
   , version = "v5.1.0"
+  }
+-}
+{ drawing =
+  { dependencies =
+    [ "canvas", "colors", "integers", "lists", "math", "prelude" ]
+  , repo = "https://github.com/paf31/purescript-drawing.git"
+  , version = "v4.0.0"
+  }
+, leibniz =
+  { dependencies = [ "prelude", "unsafe-coerce" ]
+  , repo = "https://github.com/paf31/purescript-leibniz.git"
+  , version = "v5.0.0"
   }
 , safely =
   { dependencies = [ "freet", "lists" ]
