@@ -1415,6 +1415,16 @@
     "repo": "https://github.com/athanclark/purescript-monad-unlift.git",
     "version": "v1.0.1"
   },
+  "monoidal": {
+    "dependencies": [
+      "either",
+      "profunctor",
+      "these",
+      "tuples"
+    ],
+    "repo": "https://github.com/mcneissue/purescript-monoidal.git",
+    "version": "v0.16.0"
+  },
   "motsunabe": {
     "dependencies": [
       "lists",
