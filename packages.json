@@ -2169,6 +2169,20 @@
     "repo": "https://github.com/purescript/purescript-refs.git",
     "version": "v5.0.0"
   },
+  "resource": {
+    "dependencies": [
+      "aff",
+      "console",
+      "control",
+      "effect",
+      "newtype",
+      "prelude",
+      "psci-support",
+      "refs"
+    ],
+    "repo": "https://github.com/joneshf/purescript-resource.git",
+    "version": "v2.0.0"
+  },
   "result": {
     "dependencies": [
       "either",

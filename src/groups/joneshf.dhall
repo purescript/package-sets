@@ -23,4 +23,18 @@
   , version = "v8.0.0"
   }
 -}
-{=}
+{ resource =
+  { dependencies =
+    [ "aff"
+    , "console"
+    , "control"
+    , "effect"
+    , "newtype"
+    , "prelude"
+    , "psci-support"
+    , "refs"
+    ]
+  , repo = "https://github.com/joneshf/purescript-resource.git"
+  , version = "v2.0.0"
+  }
+}
