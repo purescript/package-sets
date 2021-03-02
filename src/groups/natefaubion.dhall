@@ -15,20 +15,6 @@
   , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
   , version = "v0.4.1"
   }
-, variant =
-  { dependencies =
-    [ "enums"
-    , "lists"
-    , "maybe"
-    , "partial"
-    , "prelude"
-    , "record"
-    , "tuples"
-    , "unsafe-coerce"
-    ]
-  , repo = "https://github.com/natefaubion/purescript-variant.git"
-  , version = "v6.0.1"
-  }
 , run =
   { dependencies =
     [ "aff"
@@ -121,5 +107,19 @@
     ]
   , repo = "https://github.com/natefaubion/purescript-spork.git"
   , version = "v1.0.0"
+  }
+, variant =
+  { dependencies =
+    [ "enums"
+    , "lists"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "record"
+    , "tuples"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-variant.git"
+  , version = "v7.0.1"
   }
 }
