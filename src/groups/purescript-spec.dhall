@@ -10,7 +10,6 @@
   , version = "v3.1.0"
   }
 -}
-{=}
 { spec =
   { dependencies =
     [ "aff"
@@ -29,3 +28,4 @@
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
   , version = "v5.0.0"
   }
+}
