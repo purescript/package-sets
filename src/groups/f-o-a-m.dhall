@@ -1,4 +1,5 @@
-{ optparse =
+{-
+, optparse =
   { dependencies =
     [ "arrays"
     , "console"
@@ -16,7 +17,8 @@
   , repo = "https://github.com/f-o-a-m/purescript-optparse.git"
   , version = "v3.0.1"
   }
-, ring-modules =
+-}
+{ ring-modules =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/f-o-a-m/purescript-ring-modules.git"
   , version = "v5.0.1"

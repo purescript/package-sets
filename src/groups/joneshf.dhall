@@ -1,4 +1,5 @@
-{ option =
+{-
+, option =
   { dependencies =
     [ "argonaut-codecs"
     , "argonaut-core"
@@ -19,6 +20,21 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/joneshf/purescript-option.git"
-  , version = "v6.0.1"
+  , version = "v8.0.0"
+  }
+-}
+{ resource =
+  { dependencies =
+    [ "aff"
+    , "console"
+    , "control"
+    , "effect"
+    , "newtype"
+    , "prelude"
+    , "psci-support"
+    , "refs"
+    ]
+  , repo = "https://github.com/joneshf/purescript-resource.git"
+  , version = "v2.0.0"
   }
 }

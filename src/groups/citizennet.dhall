@@ -1,8 +1,8 @@
-{ fuzzy =
+{-
+, fuzzy =
   { dependencies =
     [ "foldable-traversable"
     , "foreign-object"
-    , "generics-rep"
     , "newtype"
     , "ordered-collections"
     , "prelude"
@@ -18,4 +18,5 @@
   , repo = "https://github.com/citizennet/purescript-halogen-select.git"
   , version = "v5.0.0"
   }
-}
+-}
+{=}

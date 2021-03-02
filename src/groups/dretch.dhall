@@ -1,4 +1,5 @@
-{ querydsl =
+{-
+, querydsl =
   { dependencies =
     [ "prelude"
     , "effect"
@@ -19,4 +20,5 @@
   , repo = "https://github.com/Dretch/purescript-querydsl.git"
   , version = "v0.10.1"
   }
-}
+-}
+{=}

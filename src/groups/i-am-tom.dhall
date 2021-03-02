@@ -1,8 +1,8 @@
-{ data-algebrae =
+{-
+, data-algebrae =
   { dependencies =
     [ "arrays"
     , "foreign-object"
-    , "generics-rep"
     , "maybe"
     , "ordered-collections"
     , "prelude"
@@ -15,7 +15,7 @@
 , money =
   { dependencies =
     [ "foldable-traversable"
-    , "globals"
+    , "numbers"
     , "integers"
     , "lists"
     , "math"
@@ -27,4 +27,5 @@
   , repo = "https://github.com/i-am-tom/purescript-money.git"
   , version = "v8.0.0"
   }
-}
+-}
+{=}

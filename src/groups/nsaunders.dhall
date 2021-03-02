@@ -1,4 +1,17 @@
-{ dotenv =
+{-
+, typedenv =
+  { dependencies =
+    [ "foreign-object"
+    , "integers"
+    , "numbers"
+    , "record"
+    , "strings"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/nsaunders/purescript-typedenv.git"
+  , version = "v0.0.1"
+  }
+, dotenv =
   { dependencies =
     [ "console"
     , "node-fs-aff"
@@ -19,17 +32,5 @@
   , repo = "https://github.com/nsaunders/purescript-nodetrout.git"
   , version = "v0.0.1"
   }
-, typedenv =
-  { dependencies =
-    [ "foreign-object"
-    , "generics-rep"
-    , "integers"
-    , "numbers"
-    , "record"
-    , "strings"
-    , "typelevel-prelude"
-    ]
-  , repo = "https://github.com/nsaunders/purescript-typedenv.git"
-  , version = "v0.0.1"
-  }
-}
+-}
+{=}

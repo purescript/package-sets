@@ -1,16 +1,16 @@
-{ rave =
+{-
+, json-pointer =
   { dependencies =
-    [ "aff"
-    , "checked-exceptions"
-    , "console"
+    [ "console"
     , "effect"
-    , "exceptions"
+    , "foreign"
     , "prelude"
-    , "record"
-    , "variant"
+    , "psci-support"
+    , "spec-quickcheck"
+    , "strings"
     ]
-  , repo = "https://github.com/reactormonk/purescript-rave.git"
-  , version = "v0.1.1"
+  , repo = "https://github.com/reactormonk/purescript-json-pointer.git"
+  , version = "v1.1.0"
   }
 , simple-timestamp =
   { dependencies =
@@ -27,18 +27,19 @@
   , repo = "https://github.com/reactormonk/purescript-simple-timestamp.git"
   , version = "v3.0.0"
   }
-, json-pointer =
+, rave =
   { dependencies =
-    [ "console"
+    [ "aff"
+    , "checked-exceptions"
+    , "console"
     , "effect"
-    , "foreign"
-    , "generics-rep"
+    , "exceptions"
     , "prelude"
-    , "psci-support"
-    , "spec-quickcheck"
-    , "strings"
+    , "record"
+    , "variant"
     ]
-  , repo = "https://github.com/reactormonk/purescript-json-pointer.git"
-  , version = "v1.1.0"
+  , repo = "https://github.com/reactormonk/purescript-rave.git"
+  , version = "v0.1.1"
   }
-}
+-}
+{=}

@@ -1,3 +1,11 @@
+{-
+, bucketchain-simple-api =
+  { dependencies = [ "bucketchain", "media-types", "simple-json", "freet" ]
+  , repo =
+      "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git"
+  , version = "v3.0.0"
+  }
+-}
 { bucketchain =
   { dependencies =
     [ "aff", "console", "node-http", "node-streams", "transformers" ]
@@ -24,7 +32,7 @@
 , bucketchain-csrf =
   { dependencies = [ "bucketchain" ]
   , repo = "https://github.com/Bucketchain/purescript-bucketchain-csrf.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , bucketchain-header-utils =
   { dependencies = [ "bucketchain" ]
@@ -52,12 +60,6 @@
   { dependencies = [ "bucketchain" ]
   , repo = "https://github.com/Bucketchain/purescript-bucketchain-secure.git"
   , version = "v0.1.0"
-  }
-, bucketchain-simple-api =
-  { dependencies = [ "bucketchain", "media-types", "simple-json", "freet" ]
-  , repo =
-      "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git"
-  , version = "v3.0.0"
   }
 , bucketchain-sslify =
   { dependencies = [ "bucketchain" ]

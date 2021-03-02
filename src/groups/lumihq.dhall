@@ -1,4 +1,5 @@
-{ react-basic =
+{-
+, react-basic =
   { dependencies = [ "prelude", "effect", "record" ]
   , repo = "https://github.com/lumihq/purescript-react-basic.git"
   , version = "v15.0.0"
@@ -56,7 +57,8 @@
   , repo = "https://github.com/lumihq/purescript-react-dnd-basic.git"
   , version = "v7.0.0"
   }
-, fixed-precision =
+-}
+{ fixed-precision =
   { dependencies = [ "integers", "maybe", "bigints", "strings", "math" ]
   , repo = "https://github.com/lumihq/purescript-fixed-precision.git"
   , version = "v4.3.1"

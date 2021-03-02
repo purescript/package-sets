@@ -1,4 +1,5 @@
-{ hyper =
+{-
+, hyper =
   { dependencies =
     [ "aff"
     , "avar"
@@ -8,7 +9,6 @@
     , "control"
     , "effect"
     , "foldable-traversable"
-    , "generics-rep"
     , "http-methods"
     , "indexed-monad"
     , "media-types"
@@ -16,7 +16,6 @@
     , "node-fs-aff"
     , "node-http"
     , "ordered-collections"
-    , "proxy"
     , "random"
     , "smolder"
     , "strings"
@@ -43,4 +42,5 @@
   , repo = "https://github.com/purescript-hyper/purescript-trout-client.git"
   , version = "v0.13.0"
   }
-}
+-}
+{=}

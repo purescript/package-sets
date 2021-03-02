@@ -1,3 +1,10 @@
+{-
+, csv =
+  { dependencies = [ "ordered-collections", "arrays", "parsing" ]
+  , repo = "https://github.com/nwolverson/purescript-csv.git"
+  , version = "v3.0.0"
+  }
+-}
 { aff-promise =
   { dependencies = [ "aff", "foreign" ]
   , repo = "https://github.com/nwolverson/purescript-aff-promise.git"

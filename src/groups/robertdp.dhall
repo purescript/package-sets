@@ -1,9 +1,12 @@
-{ react-halo =
-  { dependencies = [ "aff", "free", "freeap", "react-basic-hooks", "wire" ]
+{-
+, react-halo =
+  { dependencies =
+    [ "aff", "event", "free", "freeap", "react-basic-hooks", "refs" ]
   , repo = "https://github.com/robertdp/purescript-react-halo.git"
-  , version = "v0.2.3"
+  , version = "v1.2.0"
   }
-, wire =
+-}
+{ wire =
   { dependencies = [ "aff", "filterable", "refs", "unsafe-reference" ]
   , repo = "https://github.com/robertdp/purescript-wire.git"
   , version = "v0.5.0"

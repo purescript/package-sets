@@ -1,4 +1,10 @@
-{ react-basic-hooks =
+{-
+, uuid =
+  { dependencies = [ "effect", "maybe", "foreign-generic", "console", "spec" ]
+  , repo = "https://github.com/spicydonuts/purescript-uuid.git"
+  , version = "v7.0.0"
+  }
+, react-basic-hooks =
   { dependencies =
     [ "prelude"
     , "aff-promise"
@@ -18,11 +24,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
-  , version = "v6.2.0"
+  , version = "v6.3.0"
   }
-, uuid =
-  { dependencies = [ "effect", "maybe", "foreign-generic", "console", "spec" ]
-  , repo = "https://github.com/spicydonuts/purescript-uuid.git"
-  , version = "v7.0.0"
-  }
-}
+-}
+{=}
