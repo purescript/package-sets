@@ -2888,6 +2888,23 @@
     "repo": "https://github.com/csicar/purescript-vectorfield.git",
     "version": "v1.0.1"
   },
+  "versions": {
+    "dependencies": [
+      "control",
+      "either",
+      "foldable-traversable",
+      "functions",
+      "integers",
+      "lists",
+      "maybe",
+      "orders",
+      "parsing",
+      "partial",
+      "strings"
+    ],
+    "repo": "https://github.com/hdgarrood/purescript-versions.git",
+    "version": "v6.0.0"
+  },
   "web-clipboard": {
     "dependencies": [
       "web-html"
