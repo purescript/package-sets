@@ -27,7 +27,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/natefaubion/purescript-variant.git"
-  , version = "v6.0.1"
+  , version = "v7.0.1"
   }
 , run =
   { dependencies =
