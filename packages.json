@@ -226,6 +226,29 @@
     "repo": "https://github.com/oreshinya/purescript-basic-auth.git",
     "version": "v1.0.3"
   },
+  "benchotron": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "datetime",
+      "effect",
+      "exceptions",
+      "exists",
+      "foldable-traversable",
+      "identity",
+      "lcg",
+      "node-buffer",
+      "node-fs",
+      "node-readline",
+      "now",
+      "profunctor",
+      "quickcheck",
+      "strings",
+      "transformers"
+    ],
+    "repo": "https://github.com/hdgarrood/purescript-benchotron.git",
+    "version": "v7.0.1"
+  },
   "bifunctors": {
     "dependencies": [
       "const",
@@ -2877,6 +2900,23 @@
     ],
     "repo": "https://github.com/csicar/purescript-vectorfield.git",
     "version": "v1.0.1"
+  },
+  "versions": {
+    "dependencies": [
+      "control",
+      "either",
+      "foldable-traversable",
+      "functions",
+      "integers",
+      "lists",
+      "maybe",
+      "orders",
+      "parsing",
+      "partial",
+      "strings"
+    ],
+    "repo": "https://github.com/hdgarrood/purescript-versions.git",
+    "version": "v6.0.0"
   },
   "web-clipboard": {
     "dependencies": [
