@@ -101,7 +101,7 @@
       "strings"
     ],
     "repo": "https://github.com/hdgarrood/purescript-ansi.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "argonaut": {
     "dependencies": [
@@ -712,6 +712,15 @@
     ],
     "repo": "https://github.com/collegevine/purescript-elmish-html.git",
     "version": "v0.2.0"
+  },
+  "email-validate": {
+    "dependencies": [
+      "aff",
+      "string-parsers",
+      "transformers"
+    ],
+    "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
+    "version": "v6.0.0"
   },
   "encoding": {
     "dependencies": [
@@ -1400,7 +1409,7 @@
       "transformers"
     ],
     "repo": "https://github.com/thimoteus/purescript-mmorph.git",
-    "version": "v5.1.0"
+    "version": "v6.0.0"
   },
   "monad-control": {
     "dependencies": [
@@ -1907,7 +1916,7 @@
       "tuples"
     ],
     "repo": "https://github.com/felixSchl/purescript-pipes.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "point-free": {
     "dependencies": [
@@ -2429,6 +2438,24 @@
     ],
     "repo": "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git",
     "version": "v1.0.3"
+  },
+  "spec": {
+    "dependencies": [
+      "aff",
+      "ansi",
+      "avar",
+      "console",
+      "exceptions",
+      "foldable-traversable",
+      "fork",
+      "now",
+      "pipes",
+      "prelude",
+      "strings",
+      "transformers"
+    ],
+    "repo": "https://github.com/purescript-spec/purescript-spec.git",
+    "version": "v5.0.0"
   },
   "spork": {
     "dependencies": [
