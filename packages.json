@@ -2733,7 +2733,6 @@
     "dependencies": [
       "argonaut-codecs",
       "argonaut-core",
-      "effect",
       "foreign-object",
       "quickcheck"
     ],
