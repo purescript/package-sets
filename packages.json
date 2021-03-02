@@ -2814,6 +2814,20 @@
     "repo": "https://github.com/purescript/purescript-validation.git",
     "version": "v5.0.0"
   },
+  "variant": {
+    "dependencies": [
+      "enums",
+      "lists",
+      "maybe",
+      "partial",
+      "prelude",
+      "record",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-variant.git",
+    "version": "v7.0.1"
+  },
   "vectorfield": {
     "dependencies": [
       "console",
