@@ -2045,6 +2045,21 @@
     "repo": "https://github.com/natefaubion/purescript-psa-utils.git",
     "version": "v7.0.0"
   },
+  "psc-ide": {
+    "dependencies": [
+      "aff",
+      "argonaut",
+      "arrays",
+      "console",
+      "maybe",
+      "node-child-process",
+      "node-fs",
+      "parallel",
+      "random"
+    ],
+    "repo": "https://github.com/kRITZCREEK/purescript-psc-ide.git",
+    "version": "v18.0.0"
+  },
   "psci-support": {
     "dependencies": [
       "console",
