@@ -15,25 +15,6 @@
   , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
   , version = "v0.4.1"
   }
-, run =
-  { dependencies =
-    [ "aff"
-    , "effect"
-    , "either"
-    , "free"
-    , "maybe"
-    , "newtype"
-    , "prelude"
-    , "profunctor"
-    , "tailrec"
-    , "tuples"
-    , "type-equality"
-    , "unsafe-coerce"
-    , "variant"
-    ]
-  , repo = "https://github.com/natefaubion/purescript-run.git"
-  , version = "v3.0.1"
-  }
 , checked-exceptions =
   { dependencies = [ "prelude", "transformers", "variant" ]
   , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
@@ -121,5 +102,25 @@
     ]
   , repo = "https://github.com/natefaubion/purescript-variant.git"
   , version = "v7.0.1"
+  }
+, run =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "either"
+    , "free"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "profunctor"
+    , "tailrec"
+    , "tuples"
+    , "type-equality"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "variant"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-run.git"
+  , version = "v4.0.0"
   }
 }
