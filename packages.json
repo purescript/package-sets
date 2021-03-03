@@ -2285,6 +2285,26 @@
     "repo": "https://github.com/athanclark/purescript-row-extra.git",
     "version": "v0.0.1"
   },
+  "run": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "either",
+      "free",
+      "maybe",
+      "newtype",
+      "prelude",
+      "profunctor",
+      "tailrec",
+      "tuples",
+      "type-equality",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "variant"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-run.git",
+    "version": "v4.0.0"
+  },
   "safe-coerce": {
     "dependencies": [
       "unsafe-coerce"
