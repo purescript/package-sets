@@ -2285,6 +2285,7 @@
       "arrays",
       "control",
       "either",
+      "js-uri",
       "lazy",
       "numbers",
       "prelude",
