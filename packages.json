@@ -2280,6 +2280,22 @@
     "repo": "https://github.com/purescript-contrib/purescript-routing.git",
     "version": "v10.0.0"
   },
+  "routing-duplex": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "either",
+      "lazy",
+      "numbers",
+      "prelude",
+      "profunctor",
+      "record",
+      "strings",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-routing-duplex.git",
+    "version": "v0.5.0"
+  },
   "row-extra": {
     "dependencies": [],
     "repo": "https://github.com/athanclark/purescript-row-extra.git",

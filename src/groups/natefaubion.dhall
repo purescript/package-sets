@@ -1,20 +1,4 @@
 {-
-, routing-duplex =
-  { dependencies =
-    [ "arrays"
-    , "control"
-    , "either"
-    , "numbers"
-    , "lazy"
-    , "prelude"
-    , "profunctor"
-    , "record"
-    , "strings"
-    , "typelevel-prelude"
-    ]
-  , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
-  , version = "v0.4.1"
-  }
 , checked-exceptions =
   { dependencies = [ "prelude", "transformers", "variant" ]
   , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
@@ -122,5 +106,21 @@
     ]
   , repo = "https://github.com/natefaubion/purescript-run.git"
   , version = "v4.0.0"
+  }
+, routing-duplex =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "either"
+    , "numbers"
+    , "lazy"
+    , "prelude"
+    , "profunctor"
+    , "record"
+    , "strings"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
+  , version = "v0.5.0"
   }
 }
