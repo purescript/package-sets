@@ -439,7 +439,18 @@
       "transformers"
     ],
     "repo": "https://github.com/garyb/purescript-codec.git",
-    "version": "v3.1.0"
+    "version": "v4.0.0"
+  },
+  "codec-argonaut": {
+    "dependencies": [
+      "argonaut-core",
+      "codec",
+      "ordered-collections",
+      "type-equality",
+      "variant"
+    ],
+    "repo": "https://github.com/garyb/purescript-codec-argonaut.git",
+    "version": "v8.0.0"
   },
   "colors": {
     "dependencies": [
@@ -2012,6 +2023,7 @@
       "console",
       "lists",
       "prelude",
+      "strings",
       "tuples"
     ],
     "repo": "https://github.com/paulyoung/purescript-prettier-printer.git",
