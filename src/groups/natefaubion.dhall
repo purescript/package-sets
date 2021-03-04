@@ -4,12 +4,6 @@
   , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
   , version = "v3.1.1"
   }
-, heterogeneous =
-  { dependencies =
-    [ "either", "functors", "prelude", "record", "tuples", "variant" ]
-  , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
-  , version = "v0.4.1"
-  }
 , run-streaming =
   { dependencies = [ "prelude", "run" ]
   , repo = "https://github.com/natefaubion/purescript-run-streaming.git"
@@ -26,6 +20,12 @@
   { dependencies = [ "unsafe-coerce", "lazy", "maybe", "either", "control" ]
   , repo = "https://github.com/natefaubion/purescript-call-by-name.git"
   , version = "v2.0.0"
+  }
+, heterogeneous =
+  { dependencies =
+    [ "either", "functors", "prelude", "record", "tuples", "variant" ]
+  , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
+  , version = "v0.5.0"
   }
 , psa-utils =
   { dependencies =
