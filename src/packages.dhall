@@ -86,6 +86,7 @@ let packages =
       ⫽ ./groups/paf31.dhall
       ⫽ ./groups/paluh.dhall
       ⫽ ./groups/passy.dhall
+      ⫽ ./groups/paulyoung.dhall
       ⫽ ./groups/pelotom.dhall
       ⫽ ./groups/purefunctor.dhall
       ⫽ ./groups/purescript-concur.dhall

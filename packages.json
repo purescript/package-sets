@@ -244,7 +244,7 @@
       "strings"
     ],
     "repo": "https://github.com/sharkdp/purescript-bigints.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "bip39": {
     "dependencies": [
@@ -377,7 +377,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-call-by-name.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "canvas": {
     "dependencies": [
@@ -596,7 +596,7 @@
       "maybe"
     ],
     "repo": "https://github.com/sharkdp/purescript-decimals.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "distributive": {
     "dependencies": [
@@ -1970,6 +1970,30 @@
     "repo": "https://github.com/purescript-contrib/purescript-precise.git",
     "version": "v5.0.0"
   },
+  "precise-datetime": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "datetime",
+      "decimals",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "formatters",
+      "integers",
+      "js-date",
+      "lists",
+      "maybe",
+      "newtype",
+      "numbers",
+      "prelude",
+      "strings",
+      "tuples",
+      "unicode"
+    ],
+    "repo": "https://github.com/awakesecurity/purescript-precise-datetime.git",
+    "version": "v6.0.0"
+  },
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
@@ -1982,6 +2006,16 @@
     ],
     "repo": "https://github.com/epicallan/purescript-prettier.git",
     "version": "v0.3.0"
+  },
+  "prettier-printer": {
+    "dependencies": [
+      "console",
+      "lists",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/paulyoung/purescript-prettier-printer.git",
+    "version": "v3.0.0"
   },
   "profunctor": {
     "dependencies": [
@@ -2970,7 +3004,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v7.0.1"
+    "version": "v7.0.2"
   },
   "vectorfield": {
     "dependencies": [
