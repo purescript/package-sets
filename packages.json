@@ -224,7 +224,7 @@
       "node-http"
     ],
     "repo": "https://github.com/oreshinya/purescript-basic-auth.git",
-    "version": "v1.0.3"
+    "version": "v2.0.0"
   },
   "bifunctors": {
     "dependencies": [
@@ -263,7 +263,7 @@
       "transformers"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain.git",
-    "version": "v0.3.0"
+    "version": "v0.4.0"
   },
   "bucketchain-basic-auth": {
     "dependencies": [
@@ -271,7 +271,7 @@
       "bucketchain"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-basic-auth.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "bucketchain-conditional": {
     "dependencies": [
@@ -279,7 +279,7 @@
       "js-date"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-conditional.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "bucketchain-cors": {
     "dependencies": [
@@ -288,35 +288,35 @@
       "http-methods"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-cors.git",
-    "version": "v0.3.0"
+    "version": "v0.4.0"
   },
   "bucketchain-csrf": {
     "dependencies": [
       "bucketchain"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-csrf.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "bucketchain-header-utils": {
     "dependencies": [
       "bucketchain"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-header-utils.git",
-    "version": "v0.3.0"
+    "version": "v0.4.0"
   },
   "bucketchain-health": {
     "dependencies": [
       "bucketchain"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-health.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "bucketchain-history-api-fallback": {
     "dependencies": [
       "bucketchain"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-history-api-fallback.git",
-    "version": "v0.3.0"
+    "version": "v0.4.0"
   },
   "bucketchain-logger": {
     "dependencies": [
@@ -325,7 +325,7 @@
       "node-process"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-logger.git",
-    "version": "v0.3.0"
+    "version": "v0.4.0"
   },
   "bucketchain-secure": {
     "dependencies": [
@@ -339,7 +339,7 @@
       "bucketchain"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-sslify.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "bucketchain-static": {
     "dependencies": [
@@ -347,7 +347,7 @@
       "node-fs-aff"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-static.git",
-    "version": "v0.3.0"
+    "version": "v0.4.0"
   },
   "bytestrings": {
     "dependencies": [
@@ -545,7 +545,7 @@
       "node-buffer"
     ],
     "repo": "https://github.com/oreshinya/purescript-crypto.git",
-    "version": "v2.1.0"
+    "version": "v3.0.0"
   },
   "cssom": {
     "dependencies": [
@@ -904,7 +904,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-form-urlencoded.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "format": {
     "dependencies": [
@@ -1204,7 +1204,7 @@
       "effect"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-js-timers.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "js-uri": {
     "dependencies": [
@@ -2418,7 +2418,7 @@
       "prelude"
     ],
     "repo": "https://github.com/bodil/purescript-signal.git",
-    "version": "v11.0.3"
+    "version": "v12.0.1"
   },
   "simple-emitter": {
     "dependencies": [
@@ -2426,7 +2426,7 @@
       "refs"
     ],
     "repo": "https://github.com/oreshinya/purescript-simple-emitter.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "simple-ulid": {
     "dependencies": [
@@ -2435,7 +2435,7 @@
       "strings"
     ],
     "repo": "https://github.com/oreshinya/purescript-simple-ulid.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "sized-matrices": {
     "dependencies": [
