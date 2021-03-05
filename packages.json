@@ -1957,6 +1957,18 @@
     "repo": "https://github.com/ursi/purescript-point-free.git",
     "version": "v0.1.3"
   },
+  "polymorphic-vectors": {
+    "dependencies": [
+      "distributive",
+      "foldable-traversable",
+      "math",
+      "prelude",
+      "record",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/artemisSystem/purescript-polymorphic-vectors.git",
+    "version": "v3.0.0"
+  },
   "posix-types": {
     "dependencies": [
       "maybe",
