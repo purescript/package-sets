@@ -1527,6 +1527,22 @@
     "repo": "https://github.com/mcneissue/purescript-monoidal.git",
     "version": "v0.16.0"
   },
+  "morello": {
+    "dependencies": [
+      "console",
+      "debug",
+      "effect",
+      "heterogeneous",
+      "profunctor-lenses",
+      "psci-support",
+      "spec",
+      "spec-discovery",
+      "strings",
+      "validation"
+    ],
+    "repo": "https://github.com/sigma-andex/purescript-morello.git",
+    "version": "v0.1.0"
+  },
   "motsunabe": {
     "dependencies": [
       "lists",
