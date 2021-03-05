@@ -19,7 +19,7 @@
 { call-by-name =
   { dependencies = [ "unsafe-coerce", "lazy", "maybe", "either", "control" ]
   , repo = "https://github.com/natefaubion/purescript-call-by-name.git"
-  , version = "v2.0.0"
+  , version = "v3.0.0"
   }
 , heterogeneous =
   { dependencies =
@@ -85,7 +85,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/natefaubion/purescript-variant.git"
-  , version = "v7.0.1"
+  , version = "v7.0.2"
   }
 , run =
   { dependencies =
