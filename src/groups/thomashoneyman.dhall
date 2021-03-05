@@ -17,12 +17,7 @@
 -}
 { slug =
   { dependencies =
-    [ "prelude"
-    , "maybe"
-    , "strings"
-    , "unicode"
-    , "argonaut-codecs"
-    ]
+    [ "prelude", "maybe", "strings", "unicode", "argonaut-codecs" ]
   , repo = "https://github.com/thomashoneyman/purescript-slug.git"
   , version = "v3.0.0"
   }

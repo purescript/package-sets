@@ -1527,6 +1527,22 @@
     "repo": "https://github.com/mcneissue/purescript-monoidal.git",
     "version": "v0.16.0"
   },
+  "morello": {
+    "dependencies": [
+      "console",
+      "debug",
+      "effect",
+      "heterogeneous",
+      "profunctor-lenses",
+      "psci-support",
+      "spec",
+      "spec-discovery",
+      "strings",
+      "validation"
+    ],
+    "repo": "https://github.com/sigma-andex/purescript-morello.git",
+    "version": "v0.1.0"
+  },
   "motsunabe": {
     "dependencies": [
       "lists",
@@ -2726,6 +2742,19 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-strings-extra.git",
     "version": "v3.0.0"
+  },
+  "stringutils": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "integers",
+      "maybe",
+      "partial",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/menelaos/purescript-stringutils.git",
+    "version": "v0.0.11"
   },
   "subcategory": {
     "dependencies": [
