@@ -50,6 +50,7 @@ let packages =
       ⫽ ./groups/jacereda.dhall
       ⫽ ./groups/jamesdbrock.dhall
       ⫽ ./groups/jamieyung.dhall
+      ⫽ ./groups/jisantuc.dhall
       ⫽ ./groups/joneshf.dhall
       ⫽ ./groups/jordanmartinez.dhall
       ⫽ ./groups/juspay.dhall
@@ -85,6 +86,7 @@ let packages =
       ⫽ ./groups/paf31.dhall
       ⫽ ./groups/paluh.dhall
       ⫽ ./groups/passy.dhall
+      ⫽ ./groups/paulyoung.dhall
       ⫽ ./groups/pelotom.dhall
       ⫽ ./groups/purefunctor.dhall
       ⫽ ./groups/purescript-concur.dhall

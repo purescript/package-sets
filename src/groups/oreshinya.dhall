@@ -28,21 +28,21 @@
 { basic-auth =
   { dependencies = [ "crypto", "node-http" ]
   , repo = "https://github.com/oreshinya/purescript-basic-auth.git"
-  , version = "v1.0.3"
+  , version = "v2.0.0"
   }
 , crypto =
   { dependencies = [ "node-buffer" ]
   , repo = "https://github.com/oreshinya/purescript-crypto.git"
-  , version = "v2.1.0"
+  , version = "v3.0.0"
   }
 , simple-emitter =
   { dependencies = [ "ordered-collections", "refs" ]
   , repo = "https://github.com/oreshinya/purescript-simple-emitter.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , simple-ulid =
   { dependencies = [ "exceptions", "now", "strings" ]
   , repo = "https://github.com/oreshinya/purescript-simple-ulid.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 }

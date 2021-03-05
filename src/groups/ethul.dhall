@@ -1,7 +1,7 @@
 { freeap =
   { dependencies = [ "const", "exists", "gen", "lists" ]
   , repo = "https://github.com/ethul/purescript-freeap.git"
-  , version = "v5.0.1"
+  , version = "v6.0.0"
   }
 , undefinable =
   { dependencies = [ "functions", "maybe" ]
