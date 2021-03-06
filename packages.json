@@ -2388,6 +2388,15 @@
     "repo": "https://github.com/purescript/purescript-refs.git",
     "version": "v5.0.0"
   },
+  "remotedata": {
+    "dependencies": [
+      "bifunctors",
+      "either",
+      "profunctor-lenses"
+    ],
+    "repo": "https://github.com/krisajenkins/purescript-remotedata.git",
+    "version": "v4.2.0"
+  },
   "resource": {
     "dependencies": [
       "aff",
@@ -2877,7 +2886,7 @@
       "strings"
     ],
     "repo": "https://github.com/bodil/purescript-test-unit.git",
-    "version": "v15.0.0"
+    "version": "v16.0.0"
   },
   "text-encoding": {
     "dependencies": [
