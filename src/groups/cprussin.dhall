@@ -1,41 +1,5 @@
 {-
-, httpure =
-  { dependencies =
-    [ "aff"
-    , "arrays"
-    , "bifunctors"
-    , "console"
-    , "control"
-    , "effect"
-    , "either"
-    , "exceptions"
-    , "foldable-traversable"
-    , "foreign"
-    , "lists"
-    , "maybe"
-    , "newtype"
-    , "node-buffer"
-    , "node-child-process"
-    , "node-fs"
-    , "node-fs-aff"
-    , "node-http"
-    , "node-streams"
-    , "nullable"
-    , "options"
-    , "ordered-collections"
-    , "prelude"
-    , "psci-support"
-    , "refs"
-    , "spec"
-    , "strings"
-    , "tuples"
-    , "type-equality"
-    , "unsafe-coerce"
-    ]
-  , repo = "https://github.com/cprussin/purescript-httpure.git"
-  , version = "v0.10.0"
-  }
-, node-electron =
+  node-electron =
   { dependencies =
     [ "effect"
     , "foreign"
@@ -66,6 +30,7 @@
     , "foldable-traversable"
     , "foreign"
     , "lists"
+    , "js-uri"
     , "maybe"
     , "newtype"
     , "node-buffer"
@@ -78,7 +43,6 @@
     , "options"
     , "ordered-collections"
     , "prelude"
-    , "psci-support"
     , "refs"
     , "spec"
     , "strings"
