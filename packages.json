@@ -276,6 +276,21 @@
     "repo": "https://github.com/drewolson/purescript-biscotti-cookie.git",
     "version": "v0.3.0"
   },
+  "bower-json": {
+    "dependencies": [
+      "argonaut-codecs",
+      "arrays",
+      "either",
+      "foldable-traversable",
+      "foreign-object",
+      "maybe",
+      "newtype",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/klntsky/purescript-bower-json.git",
+    "version": "v3.0.0"
+  },
   "bucketchain": {
     "dependencies": [
       "aff",
