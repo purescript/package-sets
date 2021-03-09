@@ -17,4 +17,19 @@
   , version = "v0.14.1"
   }
 -}
-{=}
+{ aws-encryption-sdk =
+  { dependencies =
+    [ "aff-promise"
+    , "console"
+    , "debug"
+    , "effect"
+    , "node-buffer"
+    , "psci-support"
+    , "spec"
+    , "spec-discovery"
+    ]
+  , repo =
+      "https://github.com/HivemindTechnologies/purescript-aws-encryption-sdk.git"
+  , version = "v0.2.0"
+  }
+}
