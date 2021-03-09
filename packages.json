@@ -2366,6 +2366,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
     "version": "v9.0.0"
   },
+  "react-basic": {
+    "dependencies": [
+      "effect",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-basic.git",
+    "version": "v16.0.0"
+  },
   "react-dom": {
     "dependencies": [
       "effect",
