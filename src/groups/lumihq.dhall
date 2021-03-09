@@ -1,9 +1,4 @@
 {-
-, react-basic =
-  { dependencies = [ "prelude", "effect", "record" ]
-  , repo = "https://github.com/lumihq/purescript-react-basic.git"
-  , version = "v15.0.0"
-  }
 , react-basic-dom =
   { dependencies =
     [ "prelude"
@@ -62,5 +57,10 @@
   { dependencies = [ "integers", "maybe", "bigints", "strings", "math" ]
   , repo = "https://github.com/lumihq/purescript-fixed-precision.git"
   , version = "v4.3.1"
+  }
+, react-basic =
+  { dependencies = [ "prelude", "effect", "record" ]
+  , repo = "https://github.com/lumihq/purescript-react-basic.git"
+  , version = "v16.0.0"
   }
 }
