@@ -14,21 +14,6 @@
   , repo = "https://github.com/klntsky/purescript-array-views.git"
   , version = "v0.0.2"
   }
-, bower-json =
-  { dependencies =
-    [ "prelude"
-    , "maybe"
-    , "arrays"
-    , "either"
-    , "newtype"
-    , "tuples"
-    , "foldable-traversable"
-    , "argonaut-codecs"
-    , "foreign-object"
-    ]
-  , repo = "https://github.com/klntsky/purescript-bower-json.git"
-  , version = "v2.0.0"
-  }
 , search-trie =
   { dependencies =
     [ "prelude"
@@ -42,4 +27,19 @@
   , version = "v1.0.0"
   }
 -}
-{=}
+{ bower-json =
+  { dependencies =
+    [ "prelude"
+    , "maybe"
+    , "arrays"
+    , "either"
+    , "newtype"
+    , "tuples"
+    , "foldable-traversable"
+    , "argonaut-codecs"
+    , "foreign-object"
+    ]
+  , repo = "https://github.com/klntsky/purescript-bower-json.git"
+  , version = "v3.0.0"
+  }
+}

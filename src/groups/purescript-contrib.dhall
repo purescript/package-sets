@@ -166,7 +166,7 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-form-urlencoded.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , formatters =
   { dependencies =
@@ -211,7 +211,7 @@
 , js-timers =
   { dependencies = [ "effect" ]
   , repo = "https://github.com/purescript-contrib/purescript-js-timers.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , js-uri =
   { dependencies = [ "functions", "maybe" ]
