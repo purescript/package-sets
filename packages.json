@@ -1278,6 +1278,14 @@
     "repo": "https://github.com/purescript/purescript-identity.git",
     "version": "v5.0.0"
   },
+  "indexed-monad": {
+    "dependencies": [
+      "control",
+      "newtype"
+    ],
+    "repo": "https://github.com/garyb/purescript-indexed-monad.git",
+    "version": "v2.0.0"
+  },
   "inflection": {
     "dependencies": [
       "functions"
