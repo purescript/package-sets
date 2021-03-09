@@ -1,11 +1,9 @@
-{-
-, indexed-monad =
+{ indexed-monad =
   { dependencies = [ "control", "newtype" ]
   , repo = "https://github.com/garyb/purescript-indexed-monad.git"
-  , version = "v1.2.0"
+  , version = "v2.0.0"
   }
--}
-{ codec =
+, codec =
   { dependencies = [ "transformers", "profunctor" ]
   , repo = "https://github.com/garyb/purescript-codec.git"
   , version = "v4.0.0"
