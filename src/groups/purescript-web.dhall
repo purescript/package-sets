@@ -74,7 +74,7 @@
     , "prelude"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-promise.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , web-socket =
   { dependencies = [ "arraybuffer-types", "web-file" ]

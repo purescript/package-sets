@@ -47,7 +47,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/natefaubion/purescript-psa-utils.git"
-  , version = "v7.0.0"
+  , version = "v8.0.0"
   }
 , spork =
   { dependencies =

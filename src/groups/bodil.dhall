@@ -49,7 +49,7 @@
     , "strings"
     ]
   , repo = "https://github.com/bodil/purescript-test-unit.git"
-  , version = "v15.0.0"
+  , version = "v16.0.0"
   }
 , typelevel =
   { dependencies =
