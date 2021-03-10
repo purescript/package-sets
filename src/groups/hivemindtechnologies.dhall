@@ -1,23 +1,23 @@
-{-
-, aws-sdk-basic =
+{ aws-sdk-basic =
   { dependencies =
     [ "aff-promise"
+    , "argonaut"
     , "console"
     , "datetime"
     , "effect"
+    , "foreign"
     , "formatters"
     , "js-date"
     , "justifill"
     , "monad-control"
-    , "numbers"
-    , "simple-json"
     , "node-buffer"
+    , "nullable"
+    , "numbers"
     ]
   , repo = "https://github.com/HivemindTechnologies/purescript-aws-sdk.git"
-  , version = "v0.14.1"
+  , version = "v0.15.2"
   }
--}
-{ aws-encryption-sdk =
+, aws-encryption-sdk =
   { dependencies =
     [ "aff-promise"
     , "console"

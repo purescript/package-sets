@@ -232,6 +232,25 @@
     "repo": "https://github.com/HivemindTechnologies/purescript-aws-encryption-sdk.git",
     "version": "v0.2.0"
   },
+  "aws-sdk-basic": {
+    "dependencies": [
+      "aff-promise",
+      "argonaut",
+      "console",
+      "datetime",
+      "effect",
+      "foreign",
+      "formatters",
+      "js-date",
+      "justifill",
+      "monad-control",
+      "node-buffer",
+      "nullable",
+      "numbers"
+    ],
+    "repo": "https://github.com/HivemindTechnologies/purescript-aws-sdk.git",
+    "version": "v0.15.2"
+  },
   "basic-auth": {
     "dependencies": [
       "crypto",
