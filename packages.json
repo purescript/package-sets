@@ -1440,7 +1440,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/jvliwanag/purescript-literals.git",
-    "version": "v0.1.1"
+    "version": "v0.2.0"
   },
   "logging": {
     "dependencies": [
@@ -3189,6 +3189,23 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference.git",
     "version": "v4.0.0"
+  },
+  "untagged-union": {
+    "dependencies": [
+      "assert",
+      "console",
+      "effect",
+      "foreign",
+      "foreign-object",
+      "literals",
+      "maybe",
+      "newtype",
+      "psci-support",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/jvliwanag/purescript-untagged-union.git",
+    "version": "v0.3.0"
   },
   "uri": {
     "dependencies": [
