@@ -1682,7 +1682,7 @@
       "validation"
     ],
     "repo": "https://github.com/sigma-andex/purescript-morello.git",
-    "version": "v0.1.1"
+    "version": "v0.2.0"
   },
   "motsunabe": {
     "dependencies": [
