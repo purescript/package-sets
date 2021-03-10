@@ -1,30 +1,4 @@
 {-
-, halogen =
-  { dependencies =
-    [ "aff"
-    , "avar"
-    , "console"
-    , "const"
-    , "coroutines"
-    , "dom-indexed"
-    , "foreign"
-    , "fork"
-    , "free"
-    , "freeap"
-    , "halogen-vdom"
-    , "media-types"
-    , "nullable"
-    , "ordered-collections"
-    , "parallel"
-    , "profunctor"
-    , "transformers"
-    , "unsafe-coerce"
-    , "unsafe-reference"
-    , "web-uievents"
-    ]
-  , repo = "https://github.com/purescript-halogen/purescript-halogen.git"
-  , version = "v5.0.1"
-  }
 , halogen-css =
   { dependencies = [ "css", "halogen" ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen-css.git"
@@ -35,7 +9,49 @@
   { dependencies =
     [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
   , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
-  , version = "v7.0.0"
+  , version = "v8.0.0"
+  }
+, halogen =
+  { dependencies =
+    [ "aff"
+    , "avar"
+    , "console"
+    , "const"
+    , "dom-indexed"
+    , "effect"
+    , "foreign"
+    , "fork"
+    , "free"
+    , "freeap"
+    , "halogen-subscriptions"
+    , "halogen-vdom"
+    , "media-types"
+    , "nullable"
+    , "ordered-collections"
+    , "parallel"
+    , "profunctor"
+    , "transformers"
+    , "unsafe-coerce"
+    , "unsafe-reference"
+    , "web-file"
+    , "web-uievents"
+    ]
+  , repo = "https://github.com/purescript-halogen/purescript-halogen.git"
+  , version = "v6.0.0"
+  }
+, halogen-subscriptions =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "functors"
+    , "refs"
+    , "safe-coerce"
+    , "unsafe-reference"
+    ]
+  , repo =
+      "https://github.com/purescript-halogen/purescript-halogen-subscriptions.git"
+  , version = "v1.0.0"
   }
 , halogen-vdom =
   { dependencies =
@@ -51,6 +67,6 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen-vdom.git"
-  , version = "v6.1.3"
+  , version = "v7.0.0"
   }
 }

@@ -1,41 +1,5 @@
 {-
-, httpure =
-  { dependencies =
-    [ "aff"
-    , "arrays"
-    , "bifunctors"
-    , "console"
-    , "control"
-    , "effect"
-    , "either"
-    , "exceptions"
-    , "foldable-traversable"
-    , "foreign"
-    , "lists"
-    , "maybe"
-    , "newtype"
-    , "node-buffer"
-    , "node-child-process"
-    , "node-fs"
-    , "node-fs-aff"
-    , "node-http"
-    , "node-streams"
-    , "nullable"
-    , "options"
-    , "ordered-collections"
-    , "prelude"
-    , "psci-support"
-    , "refs"
-    , "spec"
-    , "strings"
-    , "tuples"
-    , "type-equality"
-    , "unsafe-coerce"
-    ]
-  , repo = "https://github.com/cprussin/purescript-httpure.git"
-  , version = "v0.10.0"
-  }
-, node-electron =
+  node-electron =
   { dependencies =
     [ "effect"
     , "foreign"
@@ -53,7 +17,36 @@
   , version = "v0.0.2"
   }
 -}
-{ monad-logger =
+{ httpure =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "bifunctors"
+    , "console"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "foreign"
+    , "js-uri"
+    , "maybe"
+    , "newtype"
+    , "node-buffer"
+    , "node-fs"
+    , "node-http"
+    , "node-streams"
+    , "nullable"
+    , "options"
+    , "ordered-collections"
+    , "prelude"
+    , "refs"
+    , "strings"
+    , "tuples"
+    , "type-equality"
+    ]
+  , repo = "https://github.com/cprussin/purescript-httpure.git"
+  , version = "v0.11.0"
+  }
+, monad-logger =
   { dependencies =
     [ "aff"
     , "ansi"
