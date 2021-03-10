@@ -58,7 +58,7 @@
       "foreign"
     ],
     "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
-    "version": "v2.1.0"
+    "version": "v3.0.0"
   },
   "aff-retry": {
     "dependencies": [

@@ -8,7 +8,7 @@
 { aff-promise =
   { dependencies = [ "aff", "foreign" ]
   , repo = "https://github.com/nwolverson/purescript-aff-promise.git"
-  , version = "v2.1.0"
+  , version = "v3.0.0"
   }
 , dom-filereader =
   { dependencies = [ "aff", "arraybuffer-types", "web-file", "web-html" ]
