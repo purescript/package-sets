@@ -12,6 +12,6 @@
     , "validation"
     ]
   , repo = "https://github.com/sigma-andex/purescript-morello.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 }
