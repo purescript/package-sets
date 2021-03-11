@@ -2532,6 +2532,19 @@
     "repo": "https://github.com/alvart/purescript-react-enzyme.git",
     "version": "v1.1.1"
   },
+  "react-halo": {
+    "dependencies": [
+      "aff",
+      "free",
+      "freeap",
+      "halogen-subscriptions",
+      "react-basic-hooks",
+      "refs",
+      "unsafe-reference"
+    ],
+    "repo": "https://github.com/robertdp/purescript-react-halo.git",
+    "version": "v2.0.0"
+  },
   "react-queue": {
     "dependencies": [
       "exceptions",
