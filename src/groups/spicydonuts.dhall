@@ -4,7 +4,8 @@
   , repo = "https://github.com/spicydonuts/purescript-uuid.git"
   , version = "v7.0.0"
   }
-, react-basic-hooks =
+-}
+{ react-basic-hooks =
   { dependencies =
     [ "prelude"
     , "aff-promise"
@@ -16,7 +17,7 @@
     , "indexed-monad"
     , "maybe"
     , "newtype"
-    , "numbers"
+    , "psci-support"
     , "react-basic"
     , "type-equality"
     , "unsafe-coerce"
@@ -24,7 +25,6 @@
     , "web-html"
     ]
   , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
-  , version = "v6.3.0"
+  , version = "v7.0.0"
   }
--}
-{=}
+}
