@@ -2431,6 +2431,86 @@
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
     "version": "v16.0.0"
   },
+  "react-basic-classic": {
+    "dependencies": [
+      "aff",
+      "console",
+      "effect",
+      "functions",
+      "maybe",
+      "nullable",
+      "prelude",
+      "psci-support",
+      "react-basic"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-basic-classic.git",
+    "version": "v2.0.0"
+  },
+  "react-basic-dnd": {
+    "dependencies": [
+      "nullable",
+      "prelude",
+      "promises",
+      "react-basic-dom",
+      "react-basic-hooks",
+      "web-dom"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-dnd-basic.git",
+    "version": "v7.0.0"
+  },
+  "react-basic-dom": {
+    "dependencies": [
+      "console",
+      "effect",
+      "foreign-object",
+      "prelude",
+      "psci-support",
+      "react-basic",
+      "unsafe-coerce",
+      "web-dom",
+      "web-events",
+      "web-file",
+      "web-html"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-basic-dom.git",
+    "version": "v4.0.1"
+  },
+  "react-basic-emotion": {
+    "dependencies": [
+      "colors",
+      "foreign",
+      "numbers",
+      "prelude",
+      "react-basic",
+      "typelevel-prelude",
+      "unsafe-reference",
+      "web-html"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-basic-emotion.git",
+    "version": "v5.0.0"
+  },
+  "react-basic-hooks": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "console",
+      "datetime",
+      "effect",
+      "either",
+      "indexed-monad",
+      "maybe",
+      "newtype",
+      "prelude",
+      "psci-support",
+      "react-basic",
+      "type-equality",
+      "unsafe-coerce",
+      "unsafe-reference",
+      "web-html"
+    ],
+    "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
+    "version": "v7.0.0"
+  },
   "react-dom": {
     "dependencies": [
       "effect",
