@@ -59,7 +59,7 @@
 , bucketchain-secure =
   { dependencies = [ "bucketchain" ]
   , repo = "https://github.com/Bucketchain/purescript-bucketchain-secure.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , bucketchain-sslify =
   { dependencies = [ "bucketchain" ]

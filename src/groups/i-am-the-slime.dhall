@@ -27,6 +27,6 @@
 { justifill =
   { dependencies = [ "record", "spec", "typelevel-prelude" ]
   , repo = "https://github.com/i-am-the-slime/purescript-justifill.git"
-  , version = "v0.2.0"
+  , version = "v0.2.1"
   }
 }

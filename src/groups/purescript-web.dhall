@@ -62,7 +62,7 @@
 , web-html =
   { dependencies = [ "js-date", "web-dom", "web-file", "web-storage" ]
   , repo = "https://github.com/purescript-web/purescript-web-html.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , web-promise =
   { dependencies =

@@ -1,7 +1,7 @@
 { indexed-monad =
   { dependencies = [ "control", "newtype" ]
   , repo = "https://github.com/garyb/purescript-indexed-monad.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , codec =
   { dependencies = [ "transformers", "profunctor" ]

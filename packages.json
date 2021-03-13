@@ -402,7 +402,7 @@
       "bucketchain"
     ],
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-secure.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "bucketchain-sslify": {
     "dependencies": [
@@ -812,7 +812,7 @@
       "prelude"
     ],
     "repo": "https://github.com/menelaos/purescript-encoding.git",
-    "version": "v0.0.6"
+    "version": "v0.0.7"
   },
   "enums": {
     "dependencies": [
@@ -1303,7 +1303,7 @@
       "newtype"
     ],
     "repo": "https://github.com/garyb/purescript-indexed-monad.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "inflection": {
     "dependencies": [
@@ -1380,7 +1380,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/i-am-the-slime/purescript-justifill.git",
-    "version": "v0.2.0"
+    "version": "v0.2.1"
   },
   "kafkajs": {
     "dependencies": [
@@ -2609,7 +2609,7 @@
       "profunctor-lenses"
     ],
     "repo": "https://github.com/krisajenkins/purescript-remotedata.git",
-    "version": "v4.2.0"
+    "version": "v5.0.0"
   },
   "resource": {
     "dependencies": [
@@ -3156,7 +3156,7 @@
       "record"
     ],
     "repo": "https://github.com/justinwoo/purescript-toppokki.git",
-    "version": "v2.4.0"
+    "version": "v2.5.0"
   },
   "transformers": {
     "dependencies": [
@@ -3480,7 +3480,7 @@
       "web-storage"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
-    "version": "v3.0.0"
+    "version": "v3.0.1"
   },
   "web-promise": {
     "dependencies": [
