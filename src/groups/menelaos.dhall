@@ -1,5 +1,4 @@
-{-
-, b64 =
+{ b64 =
   { dependencies =
     [ "arraybuffer-types"
     , "either"
@@ -12,8 +11,9 @@
     , "strings"
     ]
   , repo = "https://github.com/menelaos/purescript-b64.git"
-  , version = "v0.0.6"
+  , version = "v0.0.7"
   }
+{-
 , jwt =
   { dependencies =
     [ "argonaut-core"
@@ -30,7 +30,7 @@
   , version = "v0.0.7"
   }
 -}
-{ stringutils =
+, stringutils =
   { dependencies =
     [ "arrays", "either", "integers", "maybe", "partial", "prelude", "strings" ]
   , repo = "https://github.com/menelaos/purescript-stringutils.git"
