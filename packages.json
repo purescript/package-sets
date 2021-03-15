@@ -687,6 +687,7 @@
   },
   "debug": {
     "dependencies": [
+      "functions",
       "prelude"
     ],
     "repo": "https://github.com/garyb/purescript-debug.git",
