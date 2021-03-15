@@ -27,9 +27,4 @@
   , repo = "https://github.com/robertdp/purescript-resourcet.git"
   , version = "v1.0.0"
   }
-, wire =
-  { dependencies = [ "aff", "filterable", "refs", "unsafe-reference" ]
-  , repo = "https://github.com/robertdp/purescript-wire.git"
-  , version = "v0.5.0"
-  }
 }
