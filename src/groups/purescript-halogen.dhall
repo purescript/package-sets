@@ -37,7 +37,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , halogen-subscriptions =
   { dependencies =

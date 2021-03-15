@@ -545,7 +545,7 @@
       "strings"
     ],
     "repo": "https://github.com/sharkdp/purescript-colors.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "concur-core": {
     "dependencies": [
@@ -641,6 +641,20 @@
     ],
     "repo": "https://github.com/oreshinya/purescript-crypto.git",
     "version": "v3.0.0"
+  },
+  "css": {
+    "dependencies": [
+      "colors",
+      "console",
+      "effect",
+      "nonempty",
+      "profunctor",
+      "strings",
+      "these",
+      "transformers"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-css.git",
+    "version": "v5.0.0"
   },
   "cssom": {
     "dependencies": [
@@ -1097,7 +1111,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-functors.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "gen": {
     "dependencies": [
@@ -1220,7 +1234,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/purescript-halogen/purescript-halogen.git",
-    "version": "v6.0.0"
+    "version": "v6.1.0"
   },
   "halogen-subscriptions": {
     "dependencies": [
