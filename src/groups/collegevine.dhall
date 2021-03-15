@@ -15,11 +15,11 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.4.0"
+  , version = "v0.5.0"
   }
 , elmish-html =
   { dependencies = [ "elmish", "foreign-object" ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 }
