@@ -642,6 +642,20 @@
     "repo": "https://github.com/oreshinya/purescript-crypto.git",
     "version": "v3.0.0"
   },
+  "css": {
+    "dependencies": [
+      "colors",
+      "console",
+      "effect",
+      "nonempty",
+      "profunctor",
+      "strings",
+      "these",
+      "transformers"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-css.git",
+    "version": "v5.0.0"
+  },
   "cssom": {
     "dependencies": [
       "effect"
