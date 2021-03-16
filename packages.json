@@ -687,18 +687,11 @@
   },
   "debug": {
     "dependencies": [
+      "functions",
       "prelude"
     ],
     "repo": "https://github.com/garyb/purescript-debug.git",
-    "version": "v4.0.1"
-  },
-  "debuggest": {
-    "dependencies": [
-      "prelude",
-      "unsafe-coerce"
-    ],
-    "repo": "https://github.com/ursi/purescript-debuggest.git",
-    "version": "v0.4.0"
+    "version": "v5.0.0"
   },
   "decimals": {
     "dependencies": [
@@ -812,7 +805,7 @@
       "web-html"
     ],
     "repo": "https://github.com/collegevine/purescript-elmish.git",
-    "version": "v0.4.0"
+    "version": "v0.5.1"
   },
   "elmish-html": {
     "dependencies": [
@@ -820,7 +813,7 @@
       "foreign-object"
     ],
     "repo": "https://github.com/collegevine/purescript-elmish-html.git",
-    "version": "v0.2.0"
+    "version": "v0.3.1"
   },
   "email-validate": {
     "dependencies": [

@@ -9,9 +9,9 @@
   , version = "v4.0.0"
   }
 , debug =
-  { dependencies = [ "prelude" ]
+  { dependencies = [ "prelude", "functions" ]
   , repo = "https://github.com/garyb/purescript-debug.git"
-  , version = "v4.0.1"
+  , version = "v5.0.0"
   }
 , codec-argonaut =
   { dependencies =
