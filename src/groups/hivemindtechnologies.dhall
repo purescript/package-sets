@@ -1,4 +1,19 @@
-{ aws-sdk-basic =
+{ aws-encryption-sdk =
+  { dependencies =
+    [ "aff-promise"
+    , "console"
+    , "debug"
+    , "effect"
+    , "node-buffer"
+    , "psci-support"
+    , "spec"
+    , "spec-discovery"
+    ]
+  , repo =
+      "https://github.com/HivemindTechnologies/purescript-aws-encryption-sdk.git"
+  , version = "v0.2.0"
+  }
+, aws-sdk-basic =
   { dependencies =
     [ "aff-promise"
     , "argonaut"
@@ -15,22 +30,7 @@
     , "numbers"
     ]
   , repo = "https://github.com/HivemindTechnologies/purescript-aws-sdk.git"
-  , version = "v0.15.2"
-  }
-, aws-encryption-sdk =
-  { dependencies =
-    [ "aff-promise"
-    , "console"
-    , "debug"
-    , "effect"
-    , "node-buffer"
-    , "psci-support"
-    , "spec"
-    , "spec-discovery"
-    ]
-  , repo =
-      "https://github.com/HivemindTechnologies/purescript-aws-encryption-sdk.git"
-  , version = "v0.2.0"
+  , version = "v0.16.0"
   }
 , kafkajs =
   { dependencies =
