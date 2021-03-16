@@ -1243,6 +1243,13 @@
     "repo": "https://github.com/thomashoneyman/purescript-halogen-hooks.git",
     "version": "v0.5.0"
   },
+  "halogen-hooks-extra": {
+    "dependencies": [
+      "halogen-hooks"
+    ],
+    "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
+    "version": "v0.8.0"
+  },
   "halogen-subscriptions": {
     "dependencies": [
       "arrays",

@@ -4,17 +4,17 @@
   , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
   , version = "v2.0.2"
   }
-, halogen-hooks-extra =
-  { dependencies = [ "halogen-hooks" ]
-  , repo =
-      "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git"
-  , version = "v0.7.1"
-  }
 -}
 { arrays-zipper =
   { dependencies = [ "arrays", "control", "quickcheck" ]
   , repo = "https://github.com/JordanMartinez/purescript-arrays-zipper.git"
   , version = "v1.1.1"
+  }
+, halogen-hooks-extra =
+  { dependencies = [ "halogen-hooks" ]
+  , repo =
+      "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git"
+  , version = "v0.8.0"
   }
 , interpolate =
   { dependencies = [ "prelude" ]
