@@ -3273,6 +3273,13 @@
     "repo": "https://github.com/bodil/purescript-typelevel.git",
     "version": "v6.0.0"
   },
+  "typelevel-lists": {
+    "dependencies": [
+      "typelevel-peano"
+    ],
+    "repo": "https://github.com/PureFunctor/purescript-typelevel-lists",
+    "version": "v1.0.0"
+  },
   "typelevel-peano": {
     "dependencies": [
       "arrays",
