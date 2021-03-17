@@ -40,6 +40,6 @@
   { dependencies =
     [ "arraybuffer-types", "either", "exceptions", "functions", "prelude" ]
   , repo = "https://github.com/menelaos/purescript-encoding.git"
-  , version = "v0.0.6"
+  , version = "v0.0.7"
   }
 }

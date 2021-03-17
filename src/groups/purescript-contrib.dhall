@@ -1,19 +1,3 @@
-{-
-, css =
-  { dependencies =
-    [ "colors"
-    , "console"
-    , "effect"
-    , "nonempty"
-    , "profunctor"
-    , "strings"
-    , "these"
-    , "transformers"
-    ]
-  , repo = "https://github.com/purescript-contrib/purescript-css.git"
-  , version = "v5.0.0"
-  }
--}
 { ace =
   { dependencies =
     [ "arrays"
@@ -143,6 +127,20 @@
   { dependencies = [ "freet", "parallel", "profunctor" ]
   , repo = "https://github.com/purescript-contrib/purescript-coroutines.git"
   , version = "v6.0.0"
+  }
+, css =
+  { dependencies =
+    [ "colors"
+    , "console"
+    , "effect"
+    , "nonempty"
+    , "profunctor"
+    , "strings"
+    , "these"
+    , "transformers"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-css.git"
+  , version = "v5.0.0"
   }
 , fixed-points =
   { dependencies = [ "exists", "newtype", "prelude", "transformers" ]

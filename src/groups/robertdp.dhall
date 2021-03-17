@@ -1,14 +1,30 @@
-{-
-, react-halo =
+{ react-halo =
   { dependencies =
-    [ "aff", "event", "free", "freeap", "react-basic-hooks", "refs" ]
+    [ "aff"
+    , "free"
+    , "freeap"
+    , "halogen-subscriptions"
+    , "react-basic-hooks"
+    , "refs"
+    , "unsafe-reference"
+    ]
   , repo = "https://github.com/robertdp/purescript-react-halo.git"
-  , version = "v1.2.0"
+  , version = "v2.0.0"
   }
--}
-{ wire =
-  { dependencies = [ "aff", "filterable", "refs", "unsafe-reference" ]
-  , repo = "https://github.com/robertdp/purescript-wire.git"
-  , version = "v0.5.0"
+, resourcet =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foldable-traversable"
+    , "maybe"
+    , "ordered-collections"
+    , "parallel"
+    , "refs"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/robertdp/purescript-resourcet.git"
+  , version = "v1.0.0"
   }
 }
