@@ -195,6 +195,22 @@
   , repo = "https://github.com/purescript-contrib/purescript-freet.git"
   , version = "v6.0.0"
   }
+, github-actions-toolkit =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "effect"
+    , "foreign-object"
+    , "node-buffer"
+    , "node-path"
+    , "node-streams"
+    , "nullable"
+    , "transformers"
+    ]
+  , repo =
+      "https://github.com/purescript-contrib/purescript-github-actions-toolkit"
+  , version = "v0.3.0"
+  }
 , http-methods =
   { dependencies = [ "either", "prelude", "strings" ]
   , repo = "https://github.com/purescript-contrib/purescript-http-methods.git"

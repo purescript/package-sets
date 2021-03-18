@@ -1,16 +1,3 @@
-{ foreign-generic =
-  { dependencies =
-    [ "effect"
-    , "exceptions"
-    , "foreign"
-    , "foreign-object"
-    , "identity"
-    , "ordered-collections"
-    , "record"
-    ]
-  , repo = "https://github.com/paf31/purescript-foreign-generic.git"
-  , version = "v11.0.0"
-  }
 {-
 , memoize =
   { dependencies =
@@ -65,6 +52,19 @@
   , version = "v5.1.0"
   }
 -}
+{ foreign-generic =
+  { dependencies =
+    [ "effect"
+    , "exceptions"
+    , "foreign"
+    , "foreign-object"
+    , "identity"
+    , "ordered-collections"
+    , "record"
+    ]
+  , repo = "https://github.com/paf31/purescript-foreign-generic.git"
+  , version = "v11.0.0"
+  }
 , drawing =
   { dependencies =
     [ "canvas", "colors", "integers", "lists", "math", "prelude" ]
