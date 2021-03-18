@@ -3448,6 +3448,17 @@
     "repo": "https://github.com/purescript-contrib/purescript-uri.git",
     "version": "v8.0.0"
   },
+  "uuid": {
+    "dependencies": [
+      "console",
+      "effect",
+      "foreign-generic",
+      "maybe",
+      "spec"
+    ],
+    "repo": "https://github.com/spicydonuts/purescript-uuid.git",
+    "version": "v7.0.0"
+  },
   "validation": {
     "dependencies": [
       "bifunctors",
