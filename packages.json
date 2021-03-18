@@ -985,6 +985,19 @@
     "repo": "https://github.com/purescript/purescript-foreign.git",
     "version": "v6.0.0"
   },
+  "foreign-generic": {
+    "dependencies": [
+      "effect",
+      "exceptions",
+      "foreign",
+      "foreign-object",
+      "identity",
+      "ordered-collections",
+      "record"
+    ],
+    "repo": "https://github.com/paf31/purescript-foreign-generic.git",
+    "version": "v11.0.0"
+  },
   "foreign-object": {
     "dependencies": [
       "arrays",
@@ -3434,6 +3447,17 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-uri.git",
     "version": "v8.0.0"
+  },
+  "uuid": {
+    "dependencies": [
+      "console",
+      "effect",
+      "foreign-generic",
+      "maybe",
+      "spec"
+    ],
+    "repo": "https://github.com/spicydonuts/purescript-uuid.git",
+    "version": "v7.0.0"
   },
   "validation": {
     "dependencies": [

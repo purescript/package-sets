@@ -1,5 +1,4 @@
-{-
-, foreign-generic =
+{ foreign-generic =
   { dependencies =
     [ "effect"
     , "exceptions"
@@ -10,8 +9,9 @@
     , "record"
     ]
   , repo = "https://github.com/paf31/purescript-foreign-generic.git"
-  , version = "v10.0.0"
+  , version = "v11.0.0"
   }
+{-
 , memoize =
   { dependencies =
     [ "either"
@@ -65,7 +65,7 @@
   , version = "v5.1.0"
   }
 -}
-{ drawing =
+, drawing =
   { dependencies =
     [ "canvas", "colors", "integers", "lists", "math", "prelude" ]
   , repo = "https://github.com/paf31/purescript-drawing.git"
