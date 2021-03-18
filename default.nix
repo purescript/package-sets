@@ -1,6 +1,8 @@
-{ pkgs ? import <nixpkgs> {} }:
-
 let
+  pkgs = import (builtins.fetchTarball {
+    url = "https://github.com/NixOS/nixpkgs/archive/20.09.tar.gz";
+  }) {};
+
   easy-ps = import (
     pkgs.fetchFromGitHub {
       owner = "justinwoo";
@@ -11,6 +13,7 @@ let
   ) {
     inherit pkgs;
   };
+
   easy-dhall = import (
     pkgs.fetchFromGitHub {
       owner = "justinwoo";
