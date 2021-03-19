@@ -3731,6 +3731,19 @@
     "repo": "https://github.com/maxdeviant/purescript-which.git",
     "version": "v0.1.0"
   },
+  "yaml-next": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "effect",
+      "foreign",
+      "functions",
+      "ordered-collections",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/archaeron/purescript-yaml-next.git",
+    "version": "v3.0.0"
+  },
   "yargs": {
     "dependencies": [
       "console",
