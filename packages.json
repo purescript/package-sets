@@ -1459,6 +1459,21 @@
     "repo": "https://github.com/i-am-the-slime/purescript-justifill.git",
     "version": "v0.2.1"
   },
+  "jwt": {
+    "dependencies": [
+      "argonaut-core",
+      "arrays",
+      "b64",
+      "either",
+      "errors",
+      "exceptions",
+      "prelude",
+      "profunctor-lenses",
+      "strings"
+    ],
+    "repo": "https://github.com/menelaos/purescript-jwt.git",
+    "version": "v0.0.8"
+  },
   "kafkajs": {
     "dependencies": [
       "aff-promise",
