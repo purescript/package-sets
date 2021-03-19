@@ -10,7 +10,6 @@
     , "react-basic-hooks"
     , "remotedata"
     , "run"
-    , "simple-json"
     , "spec"
     ]
   , repo =
