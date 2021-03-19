@@ -1,5 +1,4 @@
-{-
-, jwt =
+{ jwt =
   { dependencies =
     [ "argonaut-core"
     , "arrays"
@@ -12,10 +11,9 @@
     , "strings"
     ]
   , repo = "https://github.com/menelaos/purescript-jwt.git"
-  , version = "v0.0.7"
+  , version = "v0.0.8"
   }
--}
-{ b64 =
+, b64 =
   { dependencies =
     [ "arraybuffer-types"
     , "either"
