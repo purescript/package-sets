@@ -2941,6 +2941,21 @@
     "repo": "https://github.com/SodiumFRP/purescript-sodium.git",
     "version": "v2.1.0"
   },
+  "soundfonts": {
+    "dependencies": [
+      "affjax",
+      "argonaut-core",
+      "b64",
+      "console",
+      "effect",
+      "http-methods",
+      "midi",
+      "parallel",
+      "prelude"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-soundfonts.git",
+    "version": "v3.2.0"
+  },
   "sparse-matrices": {
     "dependencies": [
       "console",

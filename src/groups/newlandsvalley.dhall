@@ -18,21 +18,31 @@
   , repo = "https://github.com/newlandsvalley/purescript-abc-parser.git"
   , version = "v1.9.3"
   }
-, js-fileio =
+-}
+{ js-fileio =
   { dependencies = [ "aff", "effect", "prelude" ]
   , repo = "https://github.com/newlandsvalley/purescript-js-fileio.git"
-  , version = "v2.1.0"
+  , version = "v2.2.0"
   }
--}
-{ midi =
+, midi =
   { dependencies =
     [ "effect", "integers", "lists", "prelude", "signal", "string-parsers" ]
   , repo = "https://github.com/newlandsvalley/purescript-midi.git"
   , version = "v3.0.0"
   }
-, js-fileio =
-  { dependencies = [ "aff", "effect", "prelude" ]
-  , repo = "https://github.com/newlandsvalley/purescript-js-fileio.git"
-  , version = "v2.2.0"
+, soundfonts =
+  { dependencies =
+    [ "affjax"
+    , "argonaut-core"
+    , "b64"
+    , "console"
+    , "effect"
+    , "http-methods"
+    , "midi"
+    , "parallel"
+    , "prelude"
+    ]
+  , repo = "https://github.com/newlandsvalley/purescript-soundfonts.git"
+  , version = "v3.2.0"
   }
 }
