@@ -7,13 +7,10 @@
   { dependencies =
     [ "argonaut-codecs"
     , "argonaut-core"
-    , "console"
     , "effect"
     , "foreign"
     , "functions"
     , "ordered-collections"
-    , "psci-support"
-    , "spec"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/archaeron/purescript-yaml-next.git"
