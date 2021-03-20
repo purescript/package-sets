@@ -60,22 +60,6 @@
   , repo = "https://github.com/justinwoo/purescript-xiaomian.git"
   , version = "v0.1.0"
   }
-, simple-json =
-  { dependencies =
-    [ "arrays"
-    , "exceptions"
-    , "foreign"
-    , "foreign-object"
-    , "numbers"
-    , "nullable"
-    , "prelude"
-    , "record"
-    , "typelevel-prelude"
-    , "variant"
-    ]
-  , repo = "https://github.com/justinwoo/purescript-simple-json.git"
-  , version = "v7.0.0"
-  }
 , simple-json-utils =
   { dependencies = [ "motsunabe", "simple-json" ]
   , repo = "https://github.com/justinwoo/purescript-simple-json-utils.git"
@@ -159,6 +143,21 @@
   { dependencies = [ "effect", "foreign", "nullable", "prelude" ]
   , repo = "https://github.com/justinwoo/purescript-redux-devtools.git"
   , version = "v0.1.0"
+  }
+, simple-json =
+  { dependencies =
+    [ "arrays"
+    , "exceptions"
+    , "foreign-object"
+    , "foreign"
+    , "nullable"
+    , "prelude"
+    , "record"
+    , "typelevel-prelude"
+    , "variant"
+    ]
+  , repo = "https://github.com/justinwoo/purescript-simple-json.git"
+  , version = "v8.0.0"
   }
 , sunde =
   { dependencies = [ "aff", "effect", "node-child-process", "prelude" ]
