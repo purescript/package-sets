@@ -2938,6 +2938,21 @@
     "repo": "https://github.com/oreshinya/purescript-simple-emitter.git",
     "version": "v2.0.0"
   },
+  "simple-json": {
+    "dependencies": [
+      "arrays",
+      "exceptions",
+      "foreign",
+      "foreign-object",
+      "nullable",
+      "prelude",
+      "record",
+      "typelevel-prelude",
+      "variant"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-simple-json.git",
+    "version": "v8.0.0"
+  },
   "simple-ulid": {
     "dependencies": [
       "exceptions",
