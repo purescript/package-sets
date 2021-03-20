@@ -1382,6 +1382,25 @@
     "repo": "https://github.com/cprussin/purescript-httpure.git",
     "version": "v0.11.0"
   },
+  "httpure-contrib-biscotti": {
+    "dependencies": [
+      "aff",
+      "argonaut",
+      "biscotti-cookie",
+      "biscotti-session",
+      "effect",
+      "either",
+      "httpure",
+      "maybe",
+      "profunctor-lenses",
+      "psci-support",
+      "test-unit",
+      "tuples",
+      "type-equality"
+    ],
+    "repo": "https://github.com/drewolson/purescript-httpure-contrib-biscotti.git",
+    "version": "v0.2.0"
+  },
   "identity": {
     "dependencies": [
       "control",
