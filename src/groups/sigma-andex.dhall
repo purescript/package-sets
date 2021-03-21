@@ -17,15 +17,12 @@
 , barlow-lens =
   { dependencies =
     [ "console"
-    , "debug"
     , "effect"
     , "profunctor-lenses"
-    , "psci-support"
-    , "spec"
-    , "spec-discovery"
     , "typelevel-prelude"
+    , "foldable-traversable"
     ]
   , repo = "https://github.com/sigma-andex/purescript-barlow-lens.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 }
