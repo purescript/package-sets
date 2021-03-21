@@ -101,7 +101,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-process.git"
-  , version = "v8.0.0"
+  , version = "v8.1.0"
   }
 , node-readline =
   { dependencies =

@@ -44,7 +44,7 @@
     , "type-equality"
     ]
   , repo = "https://github.com/cprussin/purescript-httpure.git"
-  , version = "v0.11.0"
+  , version = "v0.12.0"
   }
 , monad-logger =
   { dependencies =
