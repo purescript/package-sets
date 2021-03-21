@@ -14,6 +14,6 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/archaeron/purescript-yaml-next.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 }

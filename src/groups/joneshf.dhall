@@ -55,6 +55,6 @@
     , "refs"
     ]
   , repo = "https://github.com/joneshf/purescript-resource.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 }
