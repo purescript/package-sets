@@ -24,4 +24,20 @@
   , repo = "https://github.com/jordanmartinez/purescript-tree-rose.git"
   , version = "v2.0.0"
   }
+, veither =
+  { dependencies =
+    [ "control"
+    , "enums"
+    , "invariant"
+    , "maybe"
+    , "psci-support"
+    , "quickcheck"
+    , "quickcheck-laws"
+    , "spec"
+    , "transformers"
+    , "variant"
+    ]
+  , repo = "https://github.com/jordanmartinez/purescript-veither.git"
+  , version = "v1.0.0"
+  }
 }
