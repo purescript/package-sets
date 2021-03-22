@@ -3621,6 +3621,22 @@
     "repo": "https://github.com/csicar/purescript-vectorfield.git",
     "version": "v1.0.1"
   },
+  "veither": {
+    "dependencies": [
+      "control",
+      "enums",
+      "invariant",
+      "maybe",
+      "psci-support",
+      "quickcheck",
+      "quickcheck-laws",
+      "spec",
+      "transformers",
+      "variant"
+    ],
+    "repo": "https://github.com/jordanmartinez/purescript-veither.git",
+    "version": "v1.0.0"
+  },
   "versions": {
     "dependencies": [
       "control",
