@@ -30,7 +30,7 @@
     , "numbers"
     ]
   , repo = "https://github.com/HivemindTechnologies/purescript-aws-sdk.git"
-  , version = "v0.16.0"
+  , version = "v0.16.1"
   }
 , kafkajs =
   { dependencies =
