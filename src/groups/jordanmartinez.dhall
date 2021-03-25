@@ -36,6 +36,6 @@
     , "variant"
     ]
   , repo = "https://github.com/jordanmartinez/purescript-veither.git"
-  , version = "v1.0.2"
+  , version = "v1.0.3"
   }
 }
