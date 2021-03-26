@@ -3652,6 +3652,15 @@
     "repo": "https://github.com/hdgarrood/purescript-versions.git",
     "version": "v6.0.0"
   },
+  "vexceptt": {
+    "dependencies": [
+      "transformers",
+      "unsafe-coerce",
+      "veither"
+    ],
+    "repo": "https://github.com/jordanmartinez/purescript-vexceptt.git",
+    "version": "v1.0.0"
+  },
   "web-clipboard": {
     "dependencies": [
       "web-html"
