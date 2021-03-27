@@ -25,4 +25,10 @@
   , repo = "https://github.com/sigma-andex/purescript-barlow-lens.git"
   , version = "v0.3.0"
   }
+, heterogeneous-extrablatt =
+  { dependencies = [ "heterogeneous" ]
+  , repo =
+      "https://github.com/sigma-andex/purescript-heterogeneous-extrablatt.git"
+  , version = "v0.1.0"
+  }
 }
