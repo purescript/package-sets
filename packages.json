@@ -3448,6 +3448,18 @@
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "v4.0.0"
   },
+  "typedenv": {
+    "dependencies": [
+      "foreign-object",
+      "integers",
+      "numbers",
+      "record",
+      "strings",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/nsaunders/purescript-typedenv.git",
+    "version": "v1.0.0"
+  },
   "typelevel": {
     "dependencies": [
       "partial",
