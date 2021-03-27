@@ -770,6 +770,18 @@
     "repo": "https://github.com/purescript-halogen/purescript-dom-indexed.git",
     "version": "v8.0.0"
   },
+  "dotenv": {
+    "dependencies": [
+      "node-fs-aff",
+      "node-process",
+      "parsing",
+      "prelude",
+      "run",
+      "sunde"
+    ],
+    "repo": "https://github.com/nsaunders/purescript-dotenv.git",
+    "version": "v2.0.0"
+  },
   "downloadjs": {
     "dependencies": [
       "arraybuffer-types",
