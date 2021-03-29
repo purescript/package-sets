@@ -1314,6 +1314,16 @@
     "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
     "version": "v0.8.0"
   },
+  "halogen-storybook": {
+    "dependencies": [
+      "foreign-object",
+      "halogen",
+      "prelude",
+      "routing"
+    ],
+    "repo": "https://github.com/rnons/purescript-halogen-storybook.git",
+    "version": "v1.0.1"
+  },
   "halogen-subscriptions": {
     "dependencies": [
       "arrays",
