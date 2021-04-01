@@ -1314,6 +1314,16 @@
     "repo": "https://github.com/mschristiansen/purescript-halogen-bootstrap4.git",
     "version": "v0.2.0"
   },
+  "halogen-formless": {
+    "dependencies": [
+      "halogen",
+      "heterogeneous",
+      "profunctor-lenses",
+      "variant"
+    ],
+    "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
+    "version": "v2.0.0"
+  },
   "halogen-hooks": {
     "dependencies": [
       "halogen"
