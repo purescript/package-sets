@@ -1,5 +1,4 @@
-{-
-, fuzzy =
+{ fuzzy =
   { dependencies =
     [ "foldable-traversable"
     , "foreign-object"
@@ -11,12 +10,11 @@
     , "tuples"
     ]
   , repo = "https://github.com/citizennet/purescript-fuzzy.git"
-  , version = "v0.3.0"
+  , version = "v0.4.0"
   }
 , halogen-select =
   { dependencies = [ "halogen", "record" ]
   , repo = "https://github.com/citizennet/purescript-halogen-select.git"
-  , version = "v5.0.0"
+  , version = "v6.0.0"
   }
--}
-{=}
+}

@@ -1,16 +1,10 @@
-{-
-, halogen-formless =
+{ halogen-formless =
   { dependencies =
-    [ "halogen"
-    , "variant"
-    , "heterogeneous"
-    , "profunctor-lenses"
-    ]
+    [ "halogen", "variant", "heterogeneous", "profunctor-lenses" ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
--}
-{ halogen-hooks =
+, halogen-hooks =
   { dependencies = [ "halogen" ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-hooks.git"
   , version = "v0.5.0"

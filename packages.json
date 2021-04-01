@@ -1170,6 +1170,20 @@
     "repo": "https://github.com/purescript/purescript-functors.git",
     "version": "v4.1.0"
   },
+  "fuzzy": {
+    "dependencies": [
+      "foldable-traversable",
+      "foreign-object",
+      "newtype",
+      "ordered-collections",
+      "prelude",
+      "rationals",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/citizennet/purescript-fuzzy.git",
+    "version": "v0.4.0"
+  },
   "gen": {
     "dependencies": [
       "either",
@@ -1300,6 +1314,16 @@
     "repo": "https://github.com/mschristiansen/purescript-halogen-bootstrap4.git",
     "version": "v0.2.0"
   },
+  "halogen-formless": {
+    "dependencies": [
+      "halogen",
+      "heterogeneous",
+      "profunctor-lenses",
+      "variant"
+    ],
+    "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
+    "version": "v2.0.0"
+  },
   "halogen-hooks": {
     "dependencies": [
       "halogen"
@@ -1313,6 +1337,14 @@
     ],
     "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
     "version": "v0.8.0"
+  },
+  "halogen-select": {
+    "dependencies": [
+      "halogen",
+      "record"
+    ],
+    "repo": "https://github.com/citizennet/purescript-halogen-select.git",
+    "version": "v6.0.0"
   },
   "halogen-storybook": {
     "dependencies": [
