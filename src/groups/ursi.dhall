@@ -1,24 +1,4 @@
 {-
-, mason-prelude =
-  { dependencies =
-    [ "arrays"
-    , "console"
-    , "debuggest"
-    , "either"
-    , "functions"
-    , "integers"
-    , "lists"
-    , "math"
-    , "parallel"
-    , "point-free"
-    , "prelude"
-    , "strings"
-    , "tuples"
-    , "unfoldable"
-    ]
-  , repo = "https://github.com/ursi/purescript-mason-prelude.git"
-  , version = "v0.5.0"
-  }
 , return =
   { dependencies = [ "mason-prelude" ]
   , repo = "https://github.com/ursi/purescript-return.git"
@@ -40,7 +20,26 @@
   , version = "v0.4.0"
   }
 -}
-{ point-free =
+{ mason-prelude =
+  { dependencies =
+    [ "arrays"
+    , "console"
+    , "either"
+    , "functions"
+    , "integers"
+    , "lists"
+    , "math"
+    , "parallel"
+    , "point-free"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    , "unfoldable"
+    ]
+  , repo = "https://github.com/ursi/purescript-mason-prelude.git"
+  , version = "v0.6.0"
+  }
+, point-free =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/ursi/purescript-point-free.git"
   , version = "v0.1.3"
