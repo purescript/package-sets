@@ -24,4 +24,18 @@
   , repo = "https://github.com/nsaunders/purescript-typedenv.git"
   , version = "v1.0.0"
   }
+, web-resize-observer =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "either"
+    , "foldable-traversable"
+    , "foreign"
+    , "record"
+    , "transformers"
+    , "web-dom"
+    ]
+  , repo = "https://github.com/nsaunders/purescript-web-resize-observer.git"
+  , version = "v1.0.0"
+  }
 }
