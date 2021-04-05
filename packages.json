@@ -2912,6 +2912,13 @@
     "repo": "https://github.com/ad-si/purescript-result.git",
     "version": "v1.0.3"
   },
+  "return": {
+    "dependencies": [
+      "mason-prelude"
+    ],
+    "repo": "https://github.com/ursi/purescript-return.git",
+    "version": "v0.1.1"
+  },
   "ring-modules": {
     "dependencies": [
       "prelude"
