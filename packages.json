@@ -3590,6 +3590,22 @@
     "repo": "https://github.com/bklaric/purescript-undefined.git",
     "version": "v1.0.2"
   },
+  "undefined-is-not-a-problem": {
+    "dependencies": [
+      "assert",
+      "console",
+      "effect",
+      "foreign",
+      "prelude",
+      "psci-support",
+      "random",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "variant"
+    ],
+    "repo": "https://github.com/paluh/purescript-undefined-is-not-a-problem.git",
+    "version": "v0.2.0"
+  },
   "undefined-or": {
     "dependencies": [
       "maybe"
