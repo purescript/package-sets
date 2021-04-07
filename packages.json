@@ -3333,6 +3333,15 @@
     "repo": "https://github.com/matthew-hilty/purescript-subcategory.git",
     "version": "v0.2.0"
   },
+  "substitute": {
+    "dependencies": [
+      "foreign-object",
+      "mason-prelude",
+      "return"
+    ],
+    "repo": "https://github.com/ursi/purescript-substitute.git",
+    "version": "v0.2.0"
+  },
   "subtlecrypto": {
     "dependencies": [
       "aff",

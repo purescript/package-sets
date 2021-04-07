@@ -1,9 +1,4 @@
 {-
-, substitute =
-  { dependencies = [ "foreign-object", "mason-prelude", "return" ]
-  , repo = "https://github.com/ursi/purescript-substitute.git"
-  , version = "v0.1.1"
-  }
 , task =
   { dependencies = [ "mason-prelude", "js-timers" ]
   , repo = "https://github.com/ursi/purescript-task.git"
@@ -43,5 +38,10 @@
   { dependencies = [ "mason-prelude" ]
   , repo = "https://github.com/ursi/purescript-return.git"
   , version = "v0.1.1"
+  }
+, substitute =
+  { dependencies = [ "foreign-object", "mason-prelude", "return" ]
+  , repo = "https://github.com/ursi/purescript-substitute.git"
+  , version = "v0.2.0"
   }
 }
