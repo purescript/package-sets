@@ -26,7 +26,7 @@
 { ansi =
   { dependencies = [ "foldable-traversable", "lists", "strings" ]
   , repo = "https://github.com/hdgarrood/purescript-ansi.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , versions =
   { dependencies =

@@ -41,7 +41,7 @@
     , "strings"
     ]
   , repo = "https://github.com/joneshf/purescript-httpure-middleware.git"
-  , version = "v4.0.0"
+  , version = "v4.0.1"
   }
 , resource =
   { dependencies =

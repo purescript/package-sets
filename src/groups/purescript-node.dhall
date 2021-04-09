@@ -83,7 +83,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-net.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , node-path =
   { dependencies = [ "effect" ]
