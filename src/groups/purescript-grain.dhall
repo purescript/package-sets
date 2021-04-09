@@ -8,12 +8,12 @@
 { grain =
   { dependencies = [ "web-html" ]
   , repo = "https://github.com/purescript-grain/purescript-grain.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , grain-virtualized =
   { dependencies = [ "grain" ]
   , repo =
       "https://github.com/purescript-grain/purescript-grain-virtualized.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 }
