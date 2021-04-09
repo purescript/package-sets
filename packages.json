@@ -748,6 +748,26 @@
     "repo": "https://github.com/purescript/purescript-distributive.git",
     "version": "v5.0.0"
   },
+  "dodo-printer": {
+    "dependencies": [
+      "aff",
+      "ansi",
+      "avar",
+      "console",
+      "effect",
+      "foldable-traversable",
+      "lists",
+      "maybe",
+      "minibench",
+      "node-child-process",
+      "node-fs-aff",
+      "node-process",
+      "psci-support",
+      "strings"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-dodo-printer.git",
+    "version": "v2.0.0"
+  },
   "dom-filereader": {
     "dependencies": [
       "aff",

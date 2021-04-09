@@ -9,17 +9,31 @@
   , repo = "https://github.com/natefaubion/purescript-run-streaming.git"
   , version = "v2.0.0"
   }
-, dodo-printer =
-  { dependencies =
-    [ "ansi", "foldable-traversable", "lists", "maybe", "prelude", "strings" ]
-  , repo = "https://github.com/natefaubion/purescript-dodo-printer.git"
-  , version = "v1.0.9"
-  }
 -}
 { call-by-name =
   { dependencies = [ "unsafe-coerce", "lazy", "maybe", "either", "control" ]
   , repo = "https://github.com/natefaubion/purescript-call-by-name.git"
   , version = "v3.0.0"
+  }
+, dodo-printer =
+  { dependencies =
+    [ "aff"
+    , "ansi"
+    , "avar"
+    , "console"
+    , "effect"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "minibench"
+    , "node-child-process"
+    , "node-fs-aff"
+    , "node-process"
+    , "psci-support"
+    , "strings"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-dodo-printer.git"
+  , version = "v2.0.0"
   }
 , heterogeneous =
   { dependencies =
