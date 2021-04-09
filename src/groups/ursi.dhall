@@ -27,7 +27,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/ursi/purescript-mason-prelude.git"
-  , version = "v0.7.0"
+  , version = "v0.6.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
