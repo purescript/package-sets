@@ -44,14 +44,17 @@
   }
 , react-basic-emotion =
   { dependencies =
-    [ "prelude"
-    , "colors"
+    [ "colors"
+    , "console"
+    , "effect"
     , "foreign"
+    , "foreign-object"
     , "numbers"
+    , "prelude"
     , "react-basic"
+    , "react-basic-hooks"
     , "typelevel-prelude"
     , "unsafe-reference"
-    , "web-html"
     ]
   , repo = "https://github.com/lumihq/purescript-react-basic-emotion.git"
   , version = "v6.0.0"
@@ -63,7 +66,6 @@
     , "promises"
     , "react-basic-dom"
     , "react-basic-hooks"
-    , "web-dom"
     ]
   , repo = "https://github.com/lumihq/purescript-react-dnd-basic.git"
   , version = "v8.0.0"

@@ -2715,8 +2715,7 @@
       "prelude",
       "promises",
       "react-basic-dom",
-      "react-basic-hooks",
-      "web-dom"
+      "react-basic-hooks"
     ],
     "repo": "https://github.com/lumihq/purescript-react-dnd-basic.git",
     "version": "v8.0.0"
@@ -2741,13 +2740,16 @@
   "react-basic-emotion": {
     "dependencies": [
       "colors",
+      "console",
+      "effect",
       "foreign",
+      "foreign-object",
       "numbers",
       "prelude",
       "react-basic",
+      "react-basic-hooks",
       "typelevel-prelude",
-      "unsafe-reference",
-      "web-html"
+      "unsafe-reference"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic-emotion.git",
     "version": "v6.0.0"
