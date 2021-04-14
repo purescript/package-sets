@@ -525,6 +525,15 @@
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
     "version": "v6.0.0"
   },
+  "checked-exceptions": {
+    "dependencies": [
+      "prelude",
+      "transformers",
+      "variant"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-checked-exceptions.git",
+    "version": "v3.1.1"
+  },
   "cheerio": {
     "dependencies": [
       "console",
