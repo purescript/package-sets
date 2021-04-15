@@ -41,7 +41,19 @@
   , version = "v0.4.0"
   }
 -}
-{ systemd-journald =
+{ homogeneous =
+  { dependencies =
+    [ "assert"
+    , "console"
+    , "effect"
+    , "foreign-object"
+    , "psci-support"
+    , "variant"
+    ]
+  , repo = "https://github.com/paluh/purescript-homogeneous.git"
+  , version = "v0.3.0"
+  }
+, systemd-journald =
   { dependencies = [ "console", "functions", "prelude" ]
   , repo = "https://github.com/paluh/purescript-systemd-journald.git"
   , version = "v0.2.1"
