@@ -977,6 +977,17 @@
     "repo": "https://github.com/justinwoo/purescript-expect-inferred.git",
     "version": "v2.0.0"
   },
+  "express": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "foreign",
+      "foreign-generic",
+      "node-http"
+    ],
+    "repo": "https://github.com/purescript-express/purescript-express.git",
+    "version": "v0.9.0"
+  },
   "ffi-foreign": {
     "dependencies": [
       "console",
