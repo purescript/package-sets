@@ -13,7 +13,8 @@
     , "prelude"
     , "tuples"
     ]
-  , repo = "https://github.com/purescript-open-community/purescript-open-memoize.git"
+  , repo =
+      "https://github.com/purescript-open-community/purescript-open-memoize.git"
   , version = "v0.1.0"
   }
 , open-pairing =
@@ -31,7 +32,8 @@
     , "newtype"
     , "tuples"
     ]
-  , repo = "https://github.com/purescript-open-community/purescript-open-pairing.git"
+  , repo =
+      "https://github.com/purescript-open-community/purescript-open-pairing.git"
   , version = "v6.0.0"
   }
 , open-folds =
@@ -53,7 +55,8 @@
     , "psci-support"
     , "tuples"
     ]
-  , repo = "https://github.com/purescript-open-community/purescript-open-folds.git"
+  , repo =
+      "https://github.com/purescript-open-community/purescript-open-folds.git"
   , version = "v6.0.0"
   }
 }
