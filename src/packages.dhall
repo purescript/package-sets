@@ -95,6 +95,7 @@ let packages =
       ⫽ ./groups/purescript-express.dhall
       ⫽ ./groups/purescript-freedom.dhall
       ⫽ ./groups/purescript-grain.dhall
+      ⫽ ./groups/purescript-graphqlclient.dhall
       ⫽ ./groups/purescript-halogen.dhall
       ⫽ ./groups/purescript-hyper.dhall
       ⫽ ./groups/purescript-node-contrib.dhall

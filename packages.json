@@ -1361,6 +1361,36 @@
     "repo": "https://github.com/purescript-grain/purescript-grain-virtualized.git",
     "version": "v2.0.0"
   },
+  "graphqlclient": {
+    "dependencies": [
+      "aff",
+      "affjax",
+      "argonaut-codecs",
+      "argonaut-core",
+      "argonaut-generic",
+      "arrays",
+      "bifunctors",
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "foreign-object",
+      "http-methods",
+      "integers",
+      "lists",
+      "maybe",
+      "newtype",
+      "prelude",
+      "psci-support",
+      "record",
+      "strings",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-graphqlclient/purescript-graphqlclient.git",
+    "version": "v1.0.0"
+  },
   "graphs": {
     "dependencies": [
       "catenable-lists",
