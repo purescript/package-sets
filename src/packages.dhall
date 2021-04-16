@@ -89,6 +89,7 @@ let packages =
       ⫽ ./groups/paulyoung.dhall
       ⫽ ./groups/pelotom.dhall
       ⫽ ./groups/purefunctor.dhall
+      ⫽ ./groups/purescript-codegen.dhall
       ⫽ ./groups/purescript-concur.dhall
       ⫽ ./groups/purescript-contrib.dhall
       ⫽ ./groups/purescript-express.dhall

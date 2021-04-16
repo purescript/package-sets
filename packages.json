@@ -2728,6 +2728,22 @@
     "repo": "https://github.com/thimoteus/purescript-promises.git",
     "version": "v3.1.1"
   },
+  "ps-cst": {
+    "dependencies": [
+      "ansi",
+      "console",
+      "dodo-printer",
+      "effect",
+      "node-fs-aff",
+      "node-path",
+      "psci-support",
+      "record",
+      "spec",
+      "strings"
+    ],
+    "repo": "https://github.com/purescript-codegen/purescript-ps-cst.git",
+    "version": "v0.0.1"
+  },
   "psa-utils": {
     "dependencies": [
       "ansi",
