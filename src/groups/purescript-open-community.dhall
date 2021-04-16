@@ -15,7 +15,7 @@
     ]
   , repo =
       "https://github.com/purescript-open-community/purescript-open-memoize.git"
-  , version = "v0.1.0"
+  , version = "v6.0.0"
   }
 , open-pairing =
   { dependencies =
