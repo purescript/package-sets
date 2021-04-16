@@ -98,6 +98,7 @@ let packages =
       ⫽ ./groups/purescript-hyper.dhall
       ⫽ ./groups/purescript-node-contrib.dhall
       ⫽ ./groups/purescript-node.dhall
+      ⫽ ./groups/purescript-open-community.dhall
       ⫽ ./groups/purescript-polyform.dhall
       ⫽ ./groups/purescript-spec.dhall
       ⫽ ./groups/purescript-web.dhall
@@ -113,6 +114,7 @@ let packages =
       ⫽ ./groups/sodiumfrp.dhall
       ⫽ ./groups/spacchetti.dhall
       ⫽ ./groups/spicydonuts.dhall
+      ⫽ ./groups/srghma.dhall
       ⫽ ./groups/thimoteus.dhall
       ⫽ ./groups/thomashoneyman.dhall
       ⫽ ./groups/thought2.dhall
