@@ -1,7 +1,13 @@
 { typelevel-lists =
-  { dependencies = [ "typelevel-peano" ]
+  { dependencies =
+    [ "prelude"
+    , "tuples"
+    , "typelevel-peano"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    ]
   , repo = "https://github.com/PureFunctor/purescript-typelevel-lists"
-  , version = "v1.1.0"
+  , version = "v2.0.1"
   }
 , pretty-logs =
   { dependencies = [ "console", "effect", "newtype", "prelude" ]
