@@ -451,6 +451,16 @@
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-secure.git",
     "version": "v0.2.0"
   },
+  "bucketchain-simple-api": {
+    "dependencies": [
+      "bucketchain",
+      "freet",
+      "media-types",
+      "simple-json"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git",
+    "version": "v4.0.0"
+  },
   "bucketchain-sslify": {
     "dependencies": [
       "bucketchain"
@@ -1312,6 +1322,14 @@
     "repo": "https://github.com/purescript-grain/purescript-grain.git",
     "version": "v2.0.0"
   },
+  "grain-router": {
+    "dependencies": [
+      "grain",
+      "profunctor"
+    ],
+    "repo": "https://github.com/purescript-grain/purescript-grain-router.git",
+    "version": "v2.0.0"
+  },
   "grain-virtualized": {
     "dependencies": [
       "grain"
@@ -1564,6 +1582,13 @@
     ],
     "repo": "https://github.com/purescript/purescript-identity.git",
     "version": "v5.0.0"
+  },
+  "identy": {
+    "dependencies": [
+      "simple-json"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-identy.git",
+    "version": "v3.0.0"
   },
   "indexed-monad": {
     "dependencies": [
@@ -1994,6 +2019,15 @@
     "repo": "https://github.com/justinwoo/purescript-motsunabe.git",
     "version": "v2.0.0"
   },
+  "mysql": {
+    "dependencies": [
+      "aff",
+      "js-date",
+      "simple-json"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-mysql.git",
+    "version": "v5.0.0"
+  },
   "naturals": {
     "dependencies": [
       "enums",
@@ -2194,6 +2228,15 @@
     ],
     "repo": "https://github.com/purescript-node/purescript-node-url.git",
     "version": "v5.0.0"
+  },
+  "nodemailer": {
+    "dependencies": [
+      "aff",
+      "node-streams",
+      "simple-json"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-nodemailer.git",
+    "version": "v3.0.0"
   },
   "nonempty": {
     "dependencies": [
@@ -2918,6 +2961,17 @@
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "v3.0.0"
   },
+  "record-extra": {
+    "dependencies": [
+      "arrays",
+      "functions",
+      "lists",
+      "record",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-record-extra.git",
+    "version": "v4.0.0"
+  },
   "redux-devtools": {
     "dependencies": [
       "effect",
@@ -3167,6 +3221,14 @@
     "repo": "https://github.com/oreshinya/purescript-simple-emitter.git",
     "version": "v2.0.0"
   },
+  "simple-i18n": {
+    "dependencies": [
+      "foreign-object",
+      "record-extra"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-simple-i18n.git",
+    "version": "v1.0.0"
+  },
   "simple-json": {
     "dependencies": [
       "arrays",
@@ -3181,6 +3243,15 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
     "version": "v8.0.0"
+  },
+  "simple-jwt": {
+    "dependencies": [
+      "crypto",
+      "simple-json",
+      "strings"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-simple-jwt.git",
+    "version": "v3.0.0"
   },
   "simple-ulid": {
     "dependencies": [
