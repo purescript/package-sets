@@ -16,17 +16,18 @@
   }
 , barlow-lens =
   { dependencies =
-    [ "foldable-traversable"
-    , "profunctor-lenses"
-    , "typelevel-prelude"
-    , "either"
+    [ "either"
+    , "foldable-traversable"
     , "maybe"
     , "newtype"
     , "prelude"
     , "profunctor"
+    , "profunctor-lenses"
+    , "tuples"
+    , "typelevel-prelude"
     ]
   , repo = "https://github.com/sigma-andex/purescript-barlow-lens.git"
-  , version = "v0.5.0"
+  , version = "v0.6.0"
   }
 , heterogeneous-extrablatt =
   { dependencies = [ "heterogeneous" ]
