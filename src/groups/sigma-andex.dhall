@@ -27,7 +27,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/sigma-andex/purescript-barlow-lens.git"
-  , version = "v0.6.0"
+  , version = "v0.7.0"
   }
 , heterogeneous-extrablatt =
   { dependencies = [ "heterogeneous" ]
