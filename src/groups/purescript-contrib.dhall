@@ -140,7 +140,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-css.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , fixed-points =
   { dependencies = [ "exists", "newtype", "prelude", "transformers" ]
@@ -289,7 +289,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , pathy =
   { dependencies =
