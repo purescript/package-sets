@@ -541,6 +541,29 @@
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
     "version": "v6.0.0"
   },
+  "channel": {
+    "dependencies": [
+      "aff",
+      "assert",
+      "avar",
+      "console",
+      "contravariant",
+      "control",
+      "effect",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "lazy",
+      "maybe",
+      "newtype",
+      "prelude",
+      "tailrec",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/ConnorDillon/purescript-channel.git",
+    "version": "v1.0.0"
+  },
   "checked-exceptions": {
     "dependencies": [
       "prelude",
