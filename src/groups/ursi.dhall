@@ -27,7 +27,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/ursi/purescript-mason-prelude.git"
-  , version = "v0.6.0"
+  , version = "v0.7.1"
   }
 , point-free =
   { dependencies = [ "prelude" ]
@@ -37,11 +37,11 @@
 , return =
   { dependencies = [ "mason-prelude" ]
   , repo = "https://github.com/ursi/purescript-return.git"
-  , version = "v0.1.1"
+  , version = "v0.1.2"
   }
 , substitute =
   { dependencies = [ "foreign-object", "mason-prelude", "return" ]
   , repo = "https://github.com/ursi/purescript-substitute.git"
-  , version = "v0.2.0"
+  , version = "v0.2.1"
   }
 }
