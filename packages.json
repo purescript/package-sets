@@ -1361,6 +1361,36 @@
     "repo": "https://github.com/purescript-grain/purescript-grain-virtualized.git",
     "version": "v2.0.0"
   },
+  "graphqlclient": {
+    "dependencies": [
+      "aff",
+      "affjax",
+      "argonaut-codecs",
+      "argonaut-core",
+      "argonaut-generic",
+      "arrays",
+      "bifunctors",
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "foreign-object",
+      "http-methods",
+      "integers",
+      "lists",
+      "maybe",
+      "newtype",
+      "prelude",
+      "psci-support",
+      "record",
+      "strings",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-graphqlclient/purescript-graphqlclient.git",
+    "version": "v1.2.0"
+  },
   "graphs": {
     "dependencies": [
       "catenable-lists",
@@ -2281,6 +2311,78 @@
     "repo": "https://github.com/purescript/purescript-numbers.git",
     "version": "v8.0.0"
   },
+  "open-folds": {
+    "dependencies": [
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "maybe",
+      "newtype",
+      "ordered-collections",
+      "prelude",
+      "profunctor",
+      "psci-support",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-open-community/purescript-open-folds.git",
+    "version": "v6.3.0"
+  },
+  "open-memoize": {
+    "dependencies": [
+      "console",
+      "effect",
+      "either",
+      "integers",
+      "lazy",
+      "lists",
+      "maybe",
+      "partial",
+      "prelude",
+      "psci-support",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-open-community/purescript-open-memoize.git",
+    "version": "v6.1.0"
+  },
+  "open-mkdirp-aff": {
+    "dependencies": [
+      "aff",
+      "console",
+      "effect",
+      "exceptions",
+      "node-fs-aff",
+      "node-path",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/purescript-open-community/purescript-open-mkdirp-aff.git",
+    "version": "v1.1.0"
+  },
+  "open-pairing": {
+    "dependencies": [
+      "console",
+      "control",
+      "effect",
+      "either",
+      "free",
+      "functors",
+      "identity",
+      "newtype",
+      "prelude",
+      "psci-support",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-open-community/purescript-open-pairing.git",
+    "version": "v6.1.0"
+  },
   "options": {
     "dependencies": [
       "contravariant",
@@ -2291,6 +2393,44 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-options.git",
     "version": "v6.0.0"
+  },
+  "optparse": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "enums",
+      "exists",
+      "exitcodes",
+      "foldable-traversable",
+      "free",
+      "gen",
+      "integers",
+      "lazy",
+      "lists",
+      "maybe",
+      "newtype",
+      "node-buffer",
+      "node-process",
+      "node-streams",
+      "nonempty",
+      "numbers",
+      "open-memoize",
+      "partial",
+      "prelude",
+      "quickcheck",
+      "spec",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-optparse.git",
+    "version": "v4.1.0"
   },
   "ordered-collections": {
     "dependencies": [
@@ -2631,6 +2771,22 @@
     ],
     "repo": "https://github.com/thimoteus/purescript-promises.git",
     "version": "v3.1.1"
+  },
+  "ps-cst": {
+    "dependencies": [
+      "ansi",
+      "console",
+      "dodo-printer",
+      "effect",
+      "node-fs-aff",
+      "node-path",
+      "psci-support",
+      "record",
+      "spec",
+      "strings"
+    ],
+    "repo": "https://github.com/purescript-codegen/purescript-ps-cst.git",
+    "version": "v1.2.0"
   },
   "psa-utils": {
     "dependencies": [
@@ -2976,6 +3132,28 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-record-extra.git",
     "version": "v4.0.0"
+  },
+  "record-extra-srghma": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "console",
+      "control",
+      "effect",
+      "functions",
+      "js-timers",
+      "lists",
+      "maybe",
+      "parallel",
+      "prelude",
+      "record",
+      "transformers",
+      "tuples",
+      "typelevel-prelude",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/srghma/purescript-record-extra-srghma.git",
+    "version": "v0.1.0"
   },
   "redux-devtools": {
     "dependencies": [
@@ -3876,6 +4054,17 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-uri.git",
     "version": "v8.0.0"
+  },
+  "url-regex-safe": {
+    "dependencies": [
+      "console",
+      "effect",
+      "prelude",
+      "psci-support",
+      "strings"
+    ],
+    "repo": "https://github.com/srghma/purescript-url-regex-safe.git",
+    "version": "v0.1.0"
   },
   "uuid": {
     "dependencies": [
