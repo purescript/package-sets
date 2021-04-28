@@ -1389,7 +1389,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-graphqlclient/purescript-graphqlclient.git",
-    "version": "v1.0.0"
+    "version": "v1.2.0"
   },
   "graphs": {
     "dependencies": [
@@ -2331,7 +2331,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-open-community/purescript-open-folds.git",
-    "version": "v6.0.0"
+    "version": "v6.3.0"
   },
   "open-memoize": {
     "dependencies": [
@@ -2349,7 +2349,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-open-community/purescript-open-memoize.git",
-    "version": "v6.0.0"
+    "version": "v6.1.0"
   },
   "open-mkdirp-aff": {
     "dependencies": [
@@ -2363,7 +2363,7 @@
       "psci-support"
     ],
     "repo": "https://github.com/purescript-open-community/purescript-open-mkdirp-aff.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "open-pairing": {
     "dependencies": [
@@ -2381,7 +2381,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-open-community/purescript-open-pairing.git",
-    "version": "v6.0.0"
+    "version": "v6.1.0"
   },
   "options": {
     "dependencies": [
@@ -2786,7 +2786,7 @@
       "strings"
     ],
     "repo": "https://github.com/purescript-codegen/purescript-ps-cst.git",
-    "version": "v0.0.1"
+    "version": "v1.2.0"
   },
   "psa-utils": {
     "dependencies": [
@@ -3153,7 +3153,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/srghma/purescript-record-extra-srghma.git",
-    "version": "v0.0.1"
+    "version": "v0.1.0"
   },
   "redux-devtools": {
     "dependencies": [
@@ -4064,7 +4064,7 @@
       "strings"
     ],
     "repo": "https://github.com/srghma/purescript-url-regex-safe.git",
-    "version": "v0.0.1"
+    "version": "v0.1.0"
   },
   "uuid": {
     "dependencies": [

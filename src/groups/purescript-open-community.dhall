@@ -15,7 +15,7 @@
     ]
   , repo =
       "https://github.com/purescript-open-community/purescript-open-memoize.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , open-pairing =
   { dependencies =
@@ -34,7 +34,7 @@
     ]
   , repo =
       "https://github.com/purescript-open-community/purescript-open-pairing.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , open-folds =
   { dependencies =
@@ -57,7 +57,7 @@
     ]
   , repo =
       "https://github.com/purescript-open-community/purescript-open-folds.git"
-  , version = "v6.0.0"
+  , version = "v6.3.0"
   }
 , open-mkdirp-aff =
   { dependencies =
@@ -72,6 +72,6 @@
     ]
   , repo =
       "https://github.com/purescript-open-community/purescript-open-mkdirp-aff.git"
-  , version = "v1.0.0"
+  , version = "v1.1.0"
   }
 }

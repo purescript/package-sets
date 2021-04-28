@@ -12,6 +12,6 @@
     , "dodo-printer"
     ]
   , repo = "https://github.com/purescript-codegen/purescript-ps-cst.git"
-  , version = "v0.0.1"
+  , version = "v1.2.0"
   }
 }

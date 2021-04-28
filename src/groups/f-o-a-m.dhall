@@ -39,6 +39,6 @@
     , "tuples"
     ]
   , repo = "https://github.com/f-o-a-m/purescript-optparse.git"
-  , version = "v4.0.0"
+  , version = "v4.1.0"
   }
 }
