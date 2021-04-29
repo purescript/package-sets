@@ -824,7 +824,7 @@
       "web-html"
     ],
     "repo": "https://github.com/nwolverson/purescript-dom-filereader.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "dom-indexed": {
     "dependencies": [
@@ -1432,7 +1432,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/purescript-halogen/purescript-halogen.git",
-    "version": "v6.1.1"
+    "version": "v6.1.2"
   },
   "halogen-bootstrap4": {
     "dependencies": [
@@ -1449,7 +1449,7 @@
       "variant"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "halogen-hooks": {
     "dependencies": [
@@ -2875,7 +2875,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
-    "version": "v7.0.0"
+    "version": "v7.1.0"
   },
   "quickcheck-combinators": {
     "dependencies": [
@@ -3002,7 +3002,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic-dom.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "react-basic-emotion": {
     "dependencies": [
@@ -3611,7 +3611,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-st.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "string-parsers": {
     "dependencies": [
@@ -3752,7 +3752,7 @@
       "refs"
     ],
     "repo": "https://github.com/purescript/purescript-tailrec.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "test-unit": {
     "dependencies": [
@@ -3844,7 +3844,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-transformers.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "tree-rose": {
     "dependencies": [
@@ -3862,7 +3862,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-tuples.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "turf": {
     "dependencies": [
