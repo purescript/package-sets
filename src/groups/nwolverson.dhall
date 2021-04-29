@@ -13,7 +13,7 @@
 , dom-filereader =
   { dependencies = [ "aff", "arraybuffer-types", "web-file", "web-html" ]
   , repo = "https://github.com/nwolverson/purescript-dom-filereader.git"
-  , version = "v5.0.0"
+  , version = "v6.0.0"
   }
 , suggest =
   { dependencies =

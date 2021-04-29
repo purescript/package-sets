@@ -439,7 +439,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-quickcheck.git"
-  , version = "v7.0.0"
+  , version = "v7.1.0"
   }
 , random =
   { dependencies = [ "effect", "integers", "math" ]
@@ -469,7 +469,7 @@
 , st =
   { dependencies = [ "partial", "prelude", "tailrec", "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-st.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , strings =
   { dependencies =
@@ -505,7 +505,7 @@
     , "refs"
     ]
   , repo = "https://github.com/purescript/purescript-tailrec.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , transformers =
   { dependencies =
@@ -525,12 +525,12 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-transformers.git"
-  , version = "v5.0.0"
+  , version = "v5.1.0"
   }
 , tuples =
   { dependencies = [ "control", "invariant", "prelude" ]
   , repo = "https://github.com/purescript/purescript-tuples.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , type-equality =
   { dependencies = [] : List Text
