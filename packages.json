@@ -564,27 +564,22 @@
     "repo": "https://github.com/ConnorDillon/purescript-channel.git",
     "version": "v1.0.0"
   },
-  "channel": {
+  "channel-stream": {
     "dependencies": [
       "aff",
       "assert",
       "avar",
+      "channel",
       "console",
-      "contravariant",
-      "control",
       "effect",
-      "either",
-      "exceptions",
-      "foldable-traversable",
-      "lazy",
       "maybe",
-      "newtype",
+      "node-buffer",
+      "node-streams",
       "prelude",
-      "tailrec",
-      "transformers",
-      "tuples"
+      "psci-support",
+      "transformers"
     ],
-    "repo": "https://github.com/ConnorDillon/purescript-channel.git",
+    "repo": "https://github.com/ConnorDillon/purescript-channel-stream.git",
     "version": "v1.0.0"
   },
   "checked-exceptions": {
