@@ -2412,6 +2412,17 @@
     "repo": "https://github.com/purescript-contrib/purescript-options.git",
     "version": "v6.0.0"
   },
+  "options-extra": {
+    "dependencies": [
+      "contravariant",
+      "options",
+      "prelude",
+      "tuples",
+      "untagged-union"
+    ],
+    "repo": "https://github.com/PureFunctor/purescript-options-extra",
+    "version": "v0.2.0"
+  },
   "optparse": {
     "dependencies": [
       "aff",

@@ -14,4 +14,10 @@
   , repo = "https://github.com/PureFunctor/purescript-pretty-logs"
   , version = "v0.1.0"
   }
+, options-extra =
+  { dependencies =
+    [ "contravariant", "options", "prelude", "tuples", "untagged-union" ]
+  , repo = "https://github.com/PureFunctor/purescript-options-extra"
+  , version = "v0.2.0"
+  }
 }
