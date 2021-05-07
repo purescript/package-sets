@@ -14,7 +14,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-arrays.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , `assert` =
   { dependencies = [ "console", "effect", "prelude" ]
