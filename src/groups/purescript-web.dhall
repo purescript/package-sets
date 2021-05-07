@@ -7,7 +7,7 @@
 , web-clipboard =
   { dependencies = [ "web-html" ]
   , repo = "https://github.com/purescript-web/purescript-web-clipboard.git"
-  , version = "v3.0.0"
+  , version = "v3.1.0"
   }
 , web-cssom =
   { dependencies = [ "web-dom", "web-html", "web-uievents" ]
@@ -27,7 +27,7 @@
 , web-dom-xpath =
   { dependencies = [ "web-dom" ]
   , repo = "https://github.com/purescript-web/purescript-web-dom-xpath.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , web-encoding =
   { dependencies = [ "arraybuffer-types", "effect", "newtype", "prelude" ]
@@ -119,6 +119,6 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
-  , version = "v4.0.0"
+  , version = "v4.1.0"
   }
 }
