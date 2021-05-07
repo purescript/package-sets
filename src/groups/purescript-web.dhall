@@ -7,7 +7,7 @@
 , web-clipboard =
   { dependencies = [ "web-html" ]
   , repo = "https://github.com/purescript-web/purescript-web-clipboard.git"
-  , version = "v3.1.0"
+  , version = "v3.0.0"
   }
 , web-cssom =
   { dependencies = [ "web-dom", "web-html", "web-uievents" ]
@@ -62,7 +62,7 @@
 , web-html =
   { dependencies = [ "js-date", "web-dom", "web-file", "web-storage" ]
   , repo = "https://github.com/purescript-web/purescript-web-html.git"
-  , version = "v3.0.1"
+  , version = "v3.1.0"
   }
 , web-promise =
   { dependencies =
