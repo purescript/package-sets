@@ -1506,7 +1506,7 @@
       "unsafe-reference"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-store.git",
-    "version": "v0.1.0"
+    "version": "v0.1.1"
   },
   "halogen-storybook": {
     "dependencies": [
@@ -2735,7 +2735,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "prettier": {
     "dependencies": [
@@ -3673,7 +3673,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-string-parsers.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "strings": {
     "dependencies": [
