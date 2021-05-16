@@ -14,7 +14,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , spec-discovery =
   { dependencies = [ "arrays", "effect", "node-fs", "prelude", "spec" ]
