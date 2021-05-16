@@ -410,7 +410,7 @@
     , "tailrec"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-string-parsers.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , strings-extra =
   { dependencies =
