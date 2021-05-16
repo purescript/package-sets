@@ -1459,6 +1459,14 @@
     "repo": "https://github.com/mschristiansen/purescript-halogen-bootstrap4.git",
     "version": "v0.2.0"
   },
+  "halogen-css": {
+    "dependencies": [
+      "css",
+      "halogen"
+    ],
+    "repo": "https://github.com/purescript-halogen/purescript-halogen-css.git",
+    "version": "v9.0.0"
+  },
   "halogen-formless": {
     "dependencies": [
       "halogen",
