@@ -208,7 +208,7 @@
     , "transformers"
     ]
   , repo =
-      "https://github.com/purescript-contrib/purescript-github-actions-toolkit"
+      "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git"
   , version = "v0.3.0"
   }
 , http-methods =

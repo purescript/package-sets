@@ -9,7 +9,7 @@
     , "prelude"
     , "psci-support"
     ]
-  , repo = "https://github.com/dirkz/purescript-gl-matrix"
+  , repo = "https://github.com/dirkz/purescript-gl-matrix.git"
   , version = "v2.0.1"
   }
 }
