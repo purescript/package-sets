@@ -16,7 +16,7 @@ test-psc-package:
 	@psc-package install
 
 verify-registry:
-	@./verify-packages-in-registry.sh
+	@./verify-registry.sh
 
 ci: generate verify-registry test-psc-package
 	echo "Checking if packages.json has changed..."

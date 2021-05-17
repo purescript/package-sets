@@ -903,7 +903,7 @@
     "dependencies": [
       "prelude"
     ],
-    "repo": "https://github.com/pelotom/purescript-easy-ffi",
+    "repo": "https://github.com/pelotom/purescript-easy-ffi.git",
     "version": "v2.1.2"
   },
   "effect": {
@@ -1329,7 +1329,7 @@
       "nullable",
       "transformers"
     ],
-    "repo": "https://github.com/purescript-contrib/purescript-github-actions-toolkit",
+    "repo": "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git",
     "version": "v0.3.0"
   },
   "gl-matrix": {
@@ -1343,7 +1343,7 @@
       "prelude",
       "psci-support"
     ],
-    "repo": "https://github.com/dirkz/purescript-gl-matrix",
+    "repo": "https://github.com/dirkz/purescript-gl-matrix.git",
     "version": "v2.0.1"
   },
   "gomtang-basic": {
@@ -1928,7 +1928,7 @@
       "arrays",
       "strings"
     ],
-    "repo": "https://github.com/kritzcreek/purescript-matrices.git",
+    "repo": "https://github.com/kRITZCREEK/purescript-matrices.git",
     "version": "v5.0.1"
   },
   "matryoshka": {
@@ -2008,7 +2008,7 @@
       "functors",
       "transformers"
     ],
-    "repo": "https://github.com/thimoteus/purescript-mmorph.git",
+    "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
     "version": "v6.0.0"
   },
   "monad-control": {
@@ -2445,7 +2445,7 @@
       "tuples",
       "untagged-union"
     ],
-    "repo": "https://github.com/PureFunctor/purescript-options-extra",
+    "repo": "https://github.com/PureFunctor/purescript-options-extra.git",
     "version": "v0.2.0"
   },
   "optparse": {
@@ -2670,7 +2670,7 @@
       "transformers",
       "tuples"
     ],
-    "repo": "https://github.com/felixSchl/purescript-pipes.git",
+    "repo": "https://github.com/felixschl/purescript-pipes.git",
     "version": "v7.0.1"
   },
   "point-free": {
@@ -2771,7 +2771,7 @@
       "newtype",
       "prelude"
     ],
-    "repo": "https://github.com/PureFunctor/purescript-pretty-logs",
+    "repo": "https://github.com/PureFunctor/purescript-pretty-logs.git",
     "version": "v0.1.0"
   },
   "profunctor": {
@@ -3505,7 +3505,7 @@
       "unfoldable",
       "vectorfield"
     ],
-    "repo": "https://github.com/csicar/purescript-sized-matrices",
+    "repo": "https://github.com/csicar/purescript-sized-matrices.git",
     "version": "v1.0.0"
   },
   "sized-vectors": {
@@ -3964,7 +3964,7 @@
       "typelevel-prelude",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/PureFunctor/purescript-typelevel-lists",
+    "repo": "https://github.com/PureFunctor/purescript-typelevel-lists.git",
     "version": "v2.0.1"
   },
   "typelevel-peano": {
@@ -4179,7 +4179,7 @@
       "transformers",
       "variant"
     ],
-    "repo": "https://github.com/jordanmartinez/purescript-veither.git",
+    "repo": "https://github.com/JordanMartinez/purescript-veither.git",
     "version": "v1.0.4"
   },
   "versions": {
@@ -4205,7 +4205,7 @@
       "unsafe-coerce",
       "veither"
     ],
-    "repo": "https://github.com/jordanmartinez/purescript-vexceptt.git",
+    "repo": "https://github.com/JordanMartinez/purescript-vexceptt.git",
     "version": "v1.0.0"
   },
   "web-clipboard": {
