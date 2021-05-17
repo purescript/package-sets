@@ -47,4 +47,9 @@
   , repo = "https://github.com/jamesdbrock/purescript-parsing-replace.git"
   , version = "v1.0.2"
   }
+, float32 =
+  { dependencies = [ "effect", "gen", "maybe", "prelude", "psci-support" ]
+  , repo = "https://github.com/jamesdbrock/purescript-float32.git"
+  , version = "v0.3.0"
+  }
 }

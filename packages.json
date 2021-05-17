@@ -1096,6 +1096,17 @@
     "repo": "https://github.com/lumihq/purescript-fixed-precision.git",
     "version": "v4.3.1"
   },
+  "float32": {
+    "dependencies": [
+      "effect",
+      "gen",
+      "maybe",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-float32.git",
+    "version": "v0.3.0"
+  },
   "foldable-traversable": {
     "dependencies": [
       "bifunctors",
