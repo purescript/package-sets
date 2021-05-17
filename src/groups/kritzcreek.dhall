@@ -1,6 +1,6 @@
 { matrices =
   { dependencies = [ "arrays", "strings" ]
-  , repo = "https://github.com/kritzcreek/purescript-matrices.git"
+  , repo = "https://github.com/kRITZCREEK/purescript-matrices.git"
   , version = "v5.0.1"
   }
 , dynamic-buffer =

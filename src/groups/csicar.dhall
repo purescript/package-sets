@@ -11,7 +11,7 @@
     , "vectorfield"
     , "strings"
     ]
-  , repo = "https://github.com/csicar/purescript-sized-matrices"
+  , repo = "https://github.com/csicar/purescript-sized-matrices.git"
   , version = "v1.0.0"
   }
 , typelevel-peano =
