@@ -3988,6 +3988,21 @@
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
     "version": "v6.0.0"
   },
+  "uint": {
+    "dependencies": [
+      "effect",
+      "enums",
+      "gen",
+      "math",
+      "maybe",
+      "prelude",
+      "psci-support",
+      "quickcheck",
+      "quickcheck-laws"
+    ],
+    "repo": "https://github.com/zaquest/purescript-uint.git",
+    "version": "v6.0.0"
+  },
   "undefinable": {
     "dependencies": [
       "functions",
