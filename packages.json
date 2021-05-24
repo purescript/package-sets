@@ -923,6 +923,26 @@
     "repo": "https://github.com/purescript/purescript-either.git",
     "version": "v5.0.0"
   },
+  "elasticsearch": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "argonaut",
+      "assert",
+      "console",
+      "effect",
+      "foreign-object",
+      "literals",
+      "maybe",
+      "prelude",
+      "psci-support",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "untagged-union"
+    ],
+    "repo": "https://github.com/ConnorDillon/purescript-elasticsearch.git",
+    "version": "v0.1.0"
+  },
   "elmish": {
     "dependencies": [
       "aff",
