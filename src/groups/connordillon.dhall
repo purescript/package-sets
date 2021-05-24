@@ -39,4 +39,24 @@
     , "transformers"
     ]
   }
+, elasticsearch =
+  { repo = "https://github.com/ConnorDillon/purescript-elasticsearch.git"
+  , version = "v0.1.0"
+  , dependencies =
+    [ "console"
+    , "effect"
+    , "prelude"
+    , "psci-support"
+    , "aff-promise"
+    , "argonaut"
+    , "assert"
+    , "untagged-union"
+    , "literals"
+    , "aff"
+    , "foreign-object"
+    , "maybe"
+    , "unsafe-coerce"
+    , "typelevel-prelude"
+    ]
+  }
 }
