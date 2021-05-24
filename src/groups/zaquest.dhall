@@ -1,8 +1,16 @@
-{-
-, uint =
-  { dependencies = [ "math", "maybe", "quickcheck" ]
+{ uint =
+  { dependencies =
+    [ "prelude"
+    , "effect"
+    , "math"
+    , "maybe"
+    , "psci-support"
+    , "quickcheck"
+    , "quickcheck-laws"
+    , "enums"
+    , "gen"
+    ]
   , repo = "https://github.com/zaquest/purescript-uint.git"
-  , version = "v5.1.4"
+  , version = "v6.0.0"
   }
--}
-{=}
+}

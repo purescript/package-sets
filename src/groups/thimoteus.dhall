@@ -8,7 +8,7 @@
 -}
 { mmorph =
   { dependencies = [ "free", "functors", "transformers" ]
-  , repo = "https://github.com/thimoteus/purescript-mmorph.git"
+  , repo = "https://github.com/Thimoteus/purescript-mmorph.git"
   , version = "v6.0.0"
   }
 , promises =

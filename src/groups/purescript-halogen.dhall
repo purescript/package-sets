@@ -1,10 +1,3 @@
-{-
-, halogen-css =
-  { dependencies = [ "css", "halogen" ]
-  , repo = "https://github.com/purescript-halogen/purescript-halogen-css.git"
-  , version = "v8.0.0"
-  }
--}
 { dom-indexed =
   { dependencies =
     [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
@@ -38,6 +31,11 @@
     ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen.git"
   , version = "v6.1.2"
+  }
+, halogen-css =
+  { dependencies = [ "css", "halogen" ]
+  , repo = "https://github.com/purescript-halogen/purescript-halogen-css.git"
+  , version = "v9.0.0"
   }
 , halogen-subscriptions =
   { dependencies =

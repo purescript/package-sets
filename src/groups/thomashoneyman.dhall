@@ -9,6 +9,23 @@
   , repo = "https://github.com/thomashoneyman/purescript-halogen-hooks.git"
   , version = "v0.5.0"
   }
+, halogen-store =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foldable-traversable"
+    , "halogen"
+    , "halogen-subscriptions"
+    , "maybe"
+    , "prelude"
+    , "refs"
+    , "transformers"
+    , "unsafe-coerce"
+    , "unsafe-reference"
+    ]
+  , repo = "https://github.com/thomashoneyman/purescript-halogen-store.git"
+  , version = "v0.1.1"
+  }
 , slug =
   { dependencies =
     [ "prelude", "maybe", "strings", "unicode", "argonaut-codecs" ]
