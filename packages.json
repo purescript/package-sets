@@ -4001,6 +4001,21 @@
     "repo": "https://github.com/jisantuc/purescript-turf.git",
     "version": "v1.0.1"
   },
+  "two-or-more": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "foldable-traversable",
+      "maybe",
+      "partial",
+      "prelude",
+      "psci-support",
+      "tuples"
+    ],
+    "repo": "https://github.com/i-am-the-slime/purescript-two-or-more.git",
+    "version": "v0.3.0"
+  },
   "type-equality": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-type-equality.git",
