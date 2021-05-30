@@ -22,7 +22,7 @@
   , version = "v0.2.1"
   }
 , two-or-more =
-  { dependencies = 
+  { dependencies =
     [ "arrays"
     , "console"
     , "effect"
@@ -35,5 +35,38 @@
     ]
   , repo = "https://github.com/i-am-the-slime/purescript-two-or-more.git"
   , version = "v0.3.0"
+  }
+, framer-motion =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "arrays"
+    , "console"
+    , "effect"
+    , "foreign"
+    , "foreign-object"
+    , "functions"
+    , "heterogeneous"
+    , "literals"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "psci-support"
+    , "react-basic"
+    , "react-basic-dom"
+    , "react-basic-emotion"
+    , "react-basic-hooks"
+    , "record"
+    , "tuples"
+    , "two-or-more"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "untagged-union"
+    , "web-dom"
+    , "web-events"
+    , "web-uievents"
+    ]
+  , repo = "https://github.com/i-am-the-slime/purescript-framer-motion.git"
+  , version = "v0.0.5"
   }
 }

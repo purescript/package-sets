@@ -1225,6 +1225,39 @@
     "repo": "https://github.com/purescript-contrib/purescript-formatters.git",
     "version": "v5.0.1"
   },
+  "framer-motion": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "arrays",
+      "console",
+      "effect",
+      "foreign",
+      "foreign-object",
+      "functions",
+      "heterogeneous",
+      "literals",
+      "maybe",
+      "nullable",
+      "prelude",
+      "psci-support",
+      "react-basic",
+      "react-basic-dom",
+      "react-basic-emotion",
+      "react-basic-hooks",
+      "record",
+      "tuples",
+      "two-or-more",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "untagged-union",
+      "web-dom",
+      "web-events",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/i-am-the-slime/purescript-framer-motion.git",
+    "version": "v0.0.5"
+  },
   "free": {
     "dependencies": [
       "catenable-lists",

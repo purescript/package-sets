@@ -1,5 +1,4 @@
-{
-, graphql-client =
+{ graphql-client =
   { dependencies =
     [ "aff"
     , "aff-promise"
