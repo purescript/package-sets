@@ -45,7 +45,6 @@
     , "effect"
     , "foreign"
     , "foreign-object"
-    , "functions"
     , "heterogeneous"
     , "literals"
     , "maybe"
@@ -54,7 +53,6 @@
     , "psci-support"
     , "react-basic"
     , "react-basic-dom"
-    , "react-basic-emotion"
     , "react-basic-hooks"
     , "record"
     , "tuples"
@@ -67,6 +65,6 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/i-am-the-slime/purescript-framer-motion.git"
-  , version = "v0.0.5"
+  , version = "v0.1.0"
   }
 }
