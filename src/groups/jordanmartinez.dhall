@@ -24,6 +24,34 @@
   , repo = "https://github.com/jordanmartinez/purescript-tree-rose.git"
   , version = "v2.0.0"
   }
+, typelevel-codec-json =
+  { dependencies =
+    [ "argonaut-codecs"
+    , "argonaut-core"
+    , "bifunctors"
+    , "codec"
+    , "codec-argonaut"
+    , "effect"
+    , "either"
+    , "foreign"
+    , "foreign-object"
+    , "identity"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "ordered-collections"
+    , "prelude"
+    , "profunctor-lenses"
+    , "simple-json"
+    , "strings"
+    , "tuples"
+    , "unsafe-coerce"
+    , "variant"
+    ]
+  , repo =
+      "https://github.com/jordanmartinez/purescript-typelevel-codec-json.git"
+  , version = "v1.0.0"
+  }
 , veither =
   { dependencies =
     [ "control"
