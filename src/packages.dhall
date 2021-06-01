@@ -127,5 +127,6 @@ let packages =
       ⫽ ./groups/zaquest.dhall
       ⫽ ./groups/sigma-andex.dhall
       ⫽ ./groups/connordillon.dhall
+      ⫽ ./groups/joellefkowitz.dhall
 
 in  packages
