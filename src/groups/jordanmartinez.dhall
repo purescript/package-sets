@@ -49,7 +49,7 @@
     , "variant"
     ]
   , repo =
-      "https://github.com/jordanmartinez/purescript-typelevel-codec-json.git"
+      "https://github.com/JordanMartinez/purescript-typelevel-codec-json.git"
   , version = "v1.0.0"
   }
 , veither =
