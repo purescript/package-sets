@@ -64,11 +64,11 @@
     , "variant"
     ]
   , repo = "https://github.com/JordanMartinez/purescript-veither.git"
-  , version = "v1.0.4"
+  , version = "v1.0.5"
   }
 , vexceptt =
   { dependencies = [ "transformers", "unsafe-coerce", "veither" ]
   , repo = "https://github.com/JordanMartinez/purescript-vexceptt.git"
-  , version = "v1.0.0"
+  , version = "v1.0.2"
   }
 }
