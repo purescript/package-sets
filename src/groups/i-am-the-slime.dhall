@@ -34,7 +34,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/i-am-the-slime/purescript-two-or-more.git"
-  , version = "v0.4.0"
+  , version = "v1.0.0"
   }
 , framer-motion =
   { dependencies =
