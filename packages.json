@@ -3726,6 +3726,16 @@
     "repo": "https://github.com/purescript-spec/purescript-spec-discovery.git",
     "version": "v6.0.0"
   },
+  "spec-mocha": {
+    "dependencies": [
+      "console",
+      "exceptions",
+      "foldable-traversable",
+      "spec"
+    ],
+    "repo": "https://github.com/purescript-spec/purescript-spec-mocha.git",
+    "version": "v4.0.0"
+  },
   "spec-quickcheck": {
     "dependencies": [
       "aff",
@@ -4045,7 +4055,7 @@
       "tuples"
     ],
     "repo": "https://github.com/i-am-the-slime/purescript-two-or-more.git",
-    "version": "v0.4.0"
+    "version": "v1.0.0"
   },
   "type-equality": {
     "dependencies": [],
