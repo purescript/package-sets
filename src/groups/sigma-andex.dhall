@@ -24,10 +24,11 @@
     , "profunctor"
     , "profunctor-lenses"
     , "tuples"
+    , "lists"
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/sigma-andex/purescript-barlow-lens.git"
-  , version = "v0.7.2"
+  , version = "v0.8.0"
   }
 , heterogeneous-extrablatt =
   { dependencies = [ "heterogeneous" ]
