@@ -2067,7 +2067,7 @@
   "metadata": {
     "dependencies": [],
     "repo": "https://github.com/spacchetti/purescript-metadata.git",
-    "version": "v0.14.0"
+    "version": "v0.14.2"
   },
   "midi": {
     "dependencies": [
