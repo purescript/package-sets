@@ -2531,6 +2531,29 @@
     "repo": "https://github.com/purescript-open-community/purescript-open-pairing.git",
     "version": "v6.1.0"
   },
+  "option": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "codec",
+      "codec-argonaut",
+      "either",
+      "foreign",
+      "foreign-object",
+      "lists",
+      "maybe",
+      "prelude",
+      "profunctor",
+      "record",
+      "simple-json",
+      "transformers",
+      "tuples",
+      "type-equality",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/joneshf/purescript-option.git",
+    "version": "v9.0.0"
+  },
   "options": {
     "dependencies": [
       "contravariant",
