@@ -1,9 +1,4 @@
 {-
-, checked-exceptions =
-  { dependencies = [ "prelude", "transformers", "variant" ]
-  , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
-  , version = "v3.1.1"
-  }
 , run-streaming =
   { dependencies = [ "prelude", "run" ]
   , repo = "https://github.com/natefaubion/purescript-run-streaming.git"
@@ -137,5 +132,10 @@
     ]
   , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
   , version = "v0.5.0"
+  }
+, checked-exceptions =
+  { dependencies = [ "prelude", "transformers", "variant" ]
+  , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
+  , version = "v3.1.1"
   }
 }

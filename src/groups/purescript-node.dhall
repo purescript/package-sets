@@ -2,7 +2,7 @@
   { dependencies =
     [ "arraybuffer-types", "effect", "maybe", "st", "unsafe-coerce" ]
   , repo = "https://github.com/purescript-node/purescript-node-buffer.git"
-  , version = "v7.0.0"
+  , version = "v7.0.1"
   }
 , node-child-process =
   { dependencies =
@@ -41,7 +41,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-fs.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , node-fs-aff =
   { dependencies = [ "aff", "either", "node-fs", "node-path" ]
@@ -101,7 +101,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-process.git"
-  , version = "v8.1.0"
+  , version = "v8.2.0"
   }
 , node-readline =
   { dependencies =

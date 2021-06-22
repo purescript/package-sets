@@ -34,12 +34,6 @@
   , repo = "https://github.com/justinwoo/purescript-naporitan.git"
   , version = "v1.0.0"
   }
-, record-extra =
-  { dependencies =
-    [ "arrays", "functions", "lists", "record", "typelevel-prelude" ]
-  , repo = "https://github.com/justinwoo/purescript-record-extra.git"
-  , version = "v3.0.1"
-  }
 , shoronpo =
   { dependencies = [ "prelude", "record-format" ]
   , repo = "https://github.com/justinwoo/purescript-shoronpo.git"
@@ -138,6 +132,12 @@
   { dependencies = [ "aff", "foreign" ]
   , repo = "https://github.com/justinwoo/purescript-node-sqlite3.git"
   , version = "v6.0.0"
+  }
+, record-extra =
+  { dependencies =
+    [ "arrays", "functions", "lists", "record", "typelevel-prelude" ]
+  , repo = "https://github.com/justinwoo/purescript-record-extra.git"
+  , version = "v4.0.0"
   }
 , redux-devtools =
   { dependencies = [ "effect", "foreign", "nullable", "prelude" ]

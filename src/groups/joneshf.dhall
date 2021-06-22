@@ -1,4 +1,23 @@
-{-
+{ httpure-middleware =
+  { dependencies =
+    [ "ansi"
+    , "arrays"
+    , "console"
+    , "effect"
+    , "formatters"
+    , "foreign-object"
+    , "httpure"
+    , "integers"
+    , "maybe"
+    , "now"
+    , "options"
+    , "parallel"
+    , "prelude"
+    , "strings"
+    ]
+  , repo = "https://github.com/joneshf/purescript-httpure-middleware.git"
+  , version = "v4.0.1"
+  }
 , option =
   { dependencies =
     [ "argonaut-codecs"
@@ -20,28 +39,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/joneshf/purescript-option.git"
-  , version = "v8.0.0"
-  }
--}
-{ httpure-middleware =
-  { dependencies =
-    [ "ansi"
-    , "arrays"
-    , "console"
-    , "effect"
-    , "formatters"
-    , "foreign-object"
-    , "httpure"
-    , "integers"
-    , "maybe"
-    , "now"
-    , "options"
-    , "parallel"
-    , "prelude"
-    , "strings"
-    ]
-  , repo = "https://github.com/joneshf/purescript-httpure-middleware.git"
-  , version = "v4.0.1"
+  , version = "v9.0.0"
   }
 , resource =
   { dependencies =

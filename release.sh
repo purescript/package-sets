@@ -8,7 +8,7 @@ set -euxo pipefail
 
 # TODO: fail if there's a tag with this same name, as sometimes we publish more than one per day
 
-LATEST_PURS="0.14.0"
+LATEST_PURS="0.14.2"
 NEW_TAG="psc-${LATEST_PURS}-`date +'%Y%m%d'`"
 
 ./update-latest-compatible-sets.sh "${NEW_TAG}"

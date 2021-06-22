@@ -89,15 +89,18 @@ let packages =
       ⫽ ./groups/paulyoung.dhall
       ⫽ ./groups/pelotom.dhall
       ⫽ ./groups/purefunctor.dhall
+      ⫽ ./groups/purescript-codegen.dhall
       ⫽ ./groups/purescript-concur.dhall
       ⫽ ./groups/purescript-contrib.dhall
       ⫽ ./groups/purescript-express.dhall
       ⫽ ./groups/purescript-freedom.dhall
       ⫽ ./groups/purescript-grain.dhall
+      ⫽ ./groups/purescript-graphqlclient.dhall
       ⫽ ./groups/purescript-halogen.dhall
       ⫽ ./groups/purescript-hyper.dhall
       ⫽ ./groups/purescript-node-contrib.dhall
       ⫽ ./groups/purescript-node.dhall
+      ⫽ ./groups/purescript-open-community.dhall
       ⫽ ./groups/purescript-polyform.dhall
       ⫽ ./groups/purescript-spec.dhall
       ⫽ ./groups/purescript-web.dhall
@@ -113,6 +116,7 @@ let packages =
       ⫽ ./groups/sodiumfrp.dhall
       ⫽ ./groups/spacchetti.dhall
       ⫽ ./groups/spicydonuts.dhall
+      ⫽ ./groups/srghma.dhall
       ⫽ ./groups/thimoteus.dhall
       ⫽ ./groups/thomashoneyman.dhall
       ⫽ ./groups/thought2.dhall
@@ -122,5 +126,6 @@ let packages =
       ⫽ ./groups/vladciobanu.dhall
       ⫽ ./groups/zaquest.dhall
       ⫽ ./groups/sigma-andex.dhall
+      ⫽ ./groups/connordillon.dhall
 
 in  packages

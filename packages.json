@@ -154,7 +154,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic.git",
-    "version": "v7.0.0"
+    "version": "v7.0.1"
   },
   "argonaut-traversals": {
     "dependencies": [
@@ -186,7 +186,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "arrays-zipper": {
     "dependencies": [
@@ -268,12 +268,19 @@
   },
   "barlow-lens": {
     "dependencies": [
+      "either",
       "foldable-traversable",
+      "lists",
+      "maybe",
+      "newtype",
+      "prelude",
+      "profunctor",
       "profunctor-lenses",
+      "tuples",
       "typelevel-prelude"
     ],
     "repo": "https://github.com/sigma-andex/purescript-barlow-lens.git",
-    "version": "v0.4.0"
+    "version": "v0.8.0"
   },
   "basic-auth": {
     "dependencies": [
@@ -446,6 +453,16 @@
     "repo": "https://github.com/Bucketchain/purescript-bucketchain-secure.git",
     "version": "v0.2.0"
   },
+  "bucketchain-simple-api": {
+    "dependencies": [
+      "bucketchain",
+      "freet",
+      "media-types",
+      "simple-json"
+    ],
+    "repo": "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git",
+    "version": "v4.0.0"
+  },
   "bucketchain-sslify": {
     "dependencies": [
       "bucketchain"
@@ -523,7 +540,57 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
+  },
+  "channel": {
+    "dependencies": [
+      "aff",
+      "assert",
+      "avar",
+      "console",
+      "contravariant",
+      "control",
+      "effect",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "lazy",
+      "maybe",
+      "newtype",
+      "prelude",
+      "tailrec",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/ConnorDillon/purescript-channel.git",
+    "version": "v1.0.0"
+  },
+  "channel-stream": {
+    "dependencies": [
+      "aff",
+      "assert",
+      "avar",
+      "channel",
+      "console",
+      "effect",
+      "maybe",
+      "node-buffer",
+      "node-streams",
+      "prelude",
+      "psci-support",
+      "transformers"
+    ],
+    "repo": "https://github.com/ConnorDillon/purescript-channel-stream.git",
+    "version": "v1.0.0"
+  },
+  "checked-exceptions": {
+    "dependencies": [
+      "prelude",
+      "transformers",
+      "variant"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-checked-exceptions.git",
+    "version": "v3.1.1"
   },
   "cheerio": {
     "dependencies": [
@@ -560,7 +627,7 @@
       "transformers"
     ],
     "repo": "https://github.com/garyb/purescript-codec.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "codec-argonaut": {
     "dependencies": [
@@ -691,7 +758,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-css.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "cssom": {
     "dependencies": [
@@ -720,7 +787,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-datetime.git",
-    "version": "v5.0.0"
+    "version": "v5.0.2"
   },
   "debug": {
     "dependencies": [
@@ -776,7 +843,7 @@
       "web-html"
     ],
     "repo": "https://github.com/nwolverson/purescript-dom-filereader.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "dom-indexed": {
     "dependencies": [
@@ -837,7 +904,7 @@
     "dependencies": [
       "prelude"
     ],
-    "repo": "https://github.com/pelotom/purescript-easy-ffi",
+    "repo": "https://github.com/pelotom/purescript-easy-ffi.git",
     "version": "v2.1.2"
   },
   "effect": {
@@ -856,6 +923,26 @@
     ],
     "repo": "https://github.com/purescript/purescript-either.git",
     "version": "v5.0.0"
+  },
+  "elasticsearch": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "argonaut",
+      "assert",
+      "console",
+      "effect",
+      "foreign-object",
+      "literals",
+      "maybe",
+      "prelude",
+      "psci-support",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "untagged-union"
+    ],
+    "repo": "https://github.com/ConnorDillon/purescript-elasticsearch.git",
+    "version": "v0.1.0"
   },
   "elmish": {
     "dependencies": [
@@ -963,6 +1050,29 @@
     "repo": "https://github.com/justinwoo/purescript-expect-inferred.git",
     "version": "v2.0.0"
   },
+  "express": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "effect",
+      "either",
+      "exceptions",
+      "foreign",
+      "foreign-generic",
+      "foreign-object",
+      "functions",
+      "maybe",
+      "node-http",
+      "prelude",
+      "psci-support",
+      "strings",
+      "test-unit",
+      "transformers",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-express/purescript-express.git",
+    "version": "v0.9.0"
+  },
   "ffi-foreign": {
     "dependencies": [
       "console",
@@ -984,7 +1094,7 @@
       "ordered-collections"
     ],
     "repo": "https://github.com/purescript/purescript-filterable.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "fixed-points": {
     "dependencies": [
@@ -1022,7 +1132,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-foldable-traversable.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "foreign": {
     "dependencies": [
@@ -1037,7 +1147,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purescript/purescript-foreign.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "foreign-generic": {
     "dependencies": [
@@ -1114,7 +1224,38 @@
       "transformers"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-formatters.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
+  },
+  "framer-motion": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "arrays",
+      "console",
+      "effect",
+      "foreign",
+      "foreign-object",
+      "heterogeneous",
+      "literals",
+      "maybe",
+      "nullable",
+      "prelude",
+      "psci-support",
+      "react-basic",
+      "react-basic-dom",
+      "react-basic-hooks",
+      "record",
+      "tuples",
+      "two-or-more",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "untagged-union",
+      "web-dom",
+      "web-events",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/i-am-the-slime/purescript-framer-motion.git",
+    "version": "v0.1.0"
   },
   "free": {
     "dependencies": [
@@ -1134,7 +1275,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-free.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "freeap": {
     "dependencies": [
@@ -1186,7 +1327,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-functors.git",
-    "version": "v4.1.0"
+    "version": "v4.1.1"
   },
   "fuzzy": {
     "dependencies": [
@@ -1240,7 +1381,7 @@
       "nullable",
       "transformers"
     ],
-    "repo": "https://github.com/purescript-contrib/purescript-github-actions-toolkit",
+    "repo": "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git",
     "version": "v0.3.0"
   },
   "gl-matrix": {
@@ -1254,7 +1395,7 @@
       "prelude",
       "psci-support"
     ],
-    "repo": "https://github.com/dirkz/purescript-gl-matrix",
+    "repo": "https://github.com/dirkz/purescript-gl-matrix.git",
     "version": "v2.0.1"
   },
   "gomtang-basic": {
@@ -1275,12 +1416,103 @@
     "repo": "https://github.com/purescript-grain/purescript-grain.git",
     "version": "v2.0.0"
   },
+  "grain-router": {
+    "dependencies": [
+      "grain",
+      "profunctor"
+    ],
+    "repo": "https://github.com/purescript-grain/purescript-grain-router.git",
+    "version": "v2.0.0"
+  },
   "grain-virtualized": {
     "dependencies": [
       "grain"
     ],
     "repo": "https://github.com/purescript-grain/purescript-grain-virtualized.git",
     "version": "v2.0.0"
+  },
+  "graphql-client": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "affjax",
+      "argonaut-codecs",
+      "argonaut-core",
+      "arrays",
+      "bifunctors",
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "enums",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "foreign-generic",
+      "foreign-object",
+      "functions",
+      "halogen-subscriptions",
+      "heterogeneous",
+      "http-methods",
+      "integers",
+      "lists",
+      "maybe",
+      "media-types",
+      "newtype",
+      "node-buffer",
+      "node-fs",
+      "nullable",
+      "numbers",
+      "ordered-collections",
+      "parsing",
+      "prelude",
+      "profunctor",
+      "profunctor-lenses",
+      "psci-support",
+      "quickcheck",
+      "record",
+      "spec",
+      "spec-discovery",
+      "string-parsers",
+      "strings",
+      "strings-extra",
+      "transformers",
+      "tuples",
+      "typelevel-prelude",
+      "unicode"
+    ],
+    "repo": "https://github.com/OxfordAbstracts/purescript-graphql-client.git",
+    "version": "v4.0.12"
+  },
+  "graphqlclient": {
+    "dependencies": [
+      "aff",
+      "affjax",
+      "argonaut-codecs",
+      "argonaut-core",
+      "argonaut-generic",
+      "arrays",
+      "bifunctors",
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "foreign-object",
+      "http-methods",
+      "integers",
+      "lists",
+      "maybe",
+      "newtype",
+      "prelude",
+      "psci-support",
+      "record",
+      "strings",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-graphqlclient/purescript-graphqlclient.git",
+    "version": "v1.2.0"
   },
   "graphs": {
     "dependencies": [
@@ -1323,7 +1555,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/purescript-halogen/purescript-halogen.git",
-    "version": "v6.1.0"
+    "version": "v6.1.2"
   },
   "halogen-bootstrap4": {
     "dependencies": [
@@ -1331,6 +1563,14 @@
     ],
     "repo": "https://github.com/mschristiansen/purescript-halogen-bootstrap4.git",
     "version": "v0.2.0"
+  },
+  "halogen-css": {
+    "dependencies": [
+      "css",
+      "halogen"
+    ],
+    "repo": "https://github.com/purescript-halogen/purescript-halogen-css.git",
+    "version": "v9.0.0"
   },
   "halogen-formless": {
     "dependencies": [
@@ -1340,7 +1580,7 @@
       "variant"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "halogen-hooks": {
     "dependencies": [
@@ -1363,6 +1603,23 @@
     ],
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
     "version": "v6.0.0"
+  },
+  "halogen-store": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "foldable-traversable",
+      "halogen",
+      "halogen-subscriptions",
+      "maybe",
+      "prelude",
+      "refs",
+      "transformers",
+      "unsafe-coerce",
+      "unsafe-reference"
+    ],
+    "repo": "https://github.com/thomashoneyman/purescript-halogen-store.git",
+    "version": "v0.1.1"
   },
   "halogen-storybook": {
     "dependencies": [
@@ -1408,7 +1665,7 @@
       "web-html"
     ],
     "repo": "https://github.com/purescript-halogen/purescript-halogen-vdom.git",
-    "version": "v7.0.0"
+    "version": "v7.0.1"
   },
   "heterogeneous": {
     "dependencies": [
@@ -1428,6 +1685,18 @@
     ],
     "repo": "https://github.com/sigma-andex/purescript-heterogeneous-extrablatt.git",
     "version": "v0.1.0"
+  },
+  "homogeneous": {
+    "dependencies": [
+      "assert",
+      "console",
+      "effect",
+      "foreign-object",
+      "psci-support",
+      "variant"
+    ],
+    "repo": "https://github.com/paluh/purescript-homogeneous.git",
+    "version": "v0.3.0"
   },
   "http-methods": {
     "dependencies": [
@@ -1515,6 +1784,13 @@
     ],
     "repo": "https://github.com/purescript/purescript-identity.git",
     "version": "v5.0.0"
+  },
+  "identy": {
+    "dependencies": [
+      "simple-json"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-identy.git",
+    "version": "v3.0.0"
   },
   "indexed-monad": {
     "dependencies": [
@@ -1678,7 +1954,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "literals": {
     "dependencies": [
@@ -1735,7 +2011,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-machines.git",
-    "version": "v6.0.0"
+    "version": "v6.1.0"
   },
   "makkori": {
     "dependencies": [
@@ -1747,25 +2023,6 @@
     "repo": "https://github.com/justinwoo/purescript-makkori.git",
     "version": "v1.0.0"
   },
-  "mason-prelude": {
-    "dependencies": [
-      "arrays",
-      "console",
-      "either",
-      "functions",
-      "integers",
-      "lists",
-      "math",
-      "parallel",
-      "point-free",
-      "prelude",
-      "strings",
-      "tuples",
-      "unfoldable"
-    ],
-    "repo": "https://github.com/ursi/purescript-mason-prelude.git",
-    "version": "v0.6.0"
-  },
   "math": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-math.git",
@@ -1776,7 +2033,7 @@
       "arrays",
       "strings"
     ],
-    "repo": "https://github.com/kritzcreek/purescript-matrices.git",
+    "repo": "https://github.com/kRITZCREEK/purescript-matrices.git",
     "version": "v5.0.1"
   },
   "matryoshka": {
@@ -1811,7 +2068,7 @@
   "metadata": {
     "dependencies": [],
     "repo": "https://github.com/spacchetti/purescript-metadata.git",
-    "version": "v0.14.0"
+    "version": "v0.14.2"
   },
   "midi": {
     "dependencies": [
@@ -1856,7 +2113,7 @@
       "functors",
       "transformers"
     ],
-    "repo": "https://github.com/thimoteus/purescript-mmorph.git",
+    "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
     "version": "v6.0.0"
   },
   "monad-control": {
@@ -1945,6 +2202,15 @@
     "repo": "https://github.com/justinwoo/purescript-motsunabe.git",
     "version": "v2.0.0"
   },
+  "mysql": {
+    "dependencies": [
+      "aff",
+      "js-date",
+      "simple-json"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-mysql.git",
+    "version": "v5.0.0"
+  },
   "naturals": {
     "dependencies": [
       "enums",
@@ -1979,7 +2245,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-buffer.git",
-    "version": "v7.0.0"
+    "version": "v7.0.1"
   },
   "node-child-process": {
     "dependencies": [
@@ -2017,7 +2283,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-fs.git",
-    "version": "v6.0.0"
+    "version": "v6.1.0"
   },
   "node-fs-aff": {
     "dependencies": [
@@ -2106,7 +2372,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-process.git",
-    "version": "v8.1.0"
+    "version": "v8.2.0"
   },
   "node-readline": {
     "dependencies": [
@@ -2146,6 +2412,15 @@
     "repo": "https://github.com/purescript-node/purescript-node-url.git",
     "version": "v5.0.0"
   },
+  "nodemailer": {
+    "dependencies": [
+      "aff",
+      "node-streams",
+      "simple-json"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-nodemailer.git",
+    "version": "v3.0.0"
+  },
   "nonempty": {
     "dependencies": [
       "control",
@@ -2184,6 +2459,101 @@
     "repo": "https://github.com/purescript/purescript-numbers.git",
     "version": "v8.0.0"
   },
+  "open-folds": {
+    "dependencies": [
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "maybe",
+      "newtype",
+      "ordered-collections",
+      "prelude",
+      "profunctor",
+      "psci-support",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-open-community/purescript-open-folds.git",
+    "version": "v6.3.0"
+  },
+  "open-memoize": {
+    "dependencies": [
+      "console",
+      "effect",
+      "either",
+      "integers",
+      "lazy",
+      "lists",
+      "maybe",
+      "partial",
+      "prelude",
+      "psci-support",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-open-community/purescript-open-memoize.git",
+    "version": "v6.1.0"
+  },
+  "open-mkdirp-aff": {
+    "dependencies": [
+      "aff",
+      "console",
+      "effect",
+      "exceptions",
+      "node-fs-aff",
+      "node-path",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/purescript-open-community/purescript-open-mkdirp-aff.git",
+    "version": "v1.1.0"
+  },
+  "open-pairing": {
+    "dependencies": [
+      "console",
+      "control",
+      "effect",
+      "either",
+      "free",
+      "functors",
+      "identity",
+      "newtype",
+      "prelude",
+      "psci-support",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-open-community/purescript-open-pairing.git",
+    "version": "v6.1.0"
+  },
+  "option": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "codec",
+      "codec-argonaut",
+      "either",
+      "foreign",
+      "foreign-object",
+      "lists",
+      "maybe",
+      "prelude",
+      "profunctor",
+      "record",
+      "simple-json",
+      "transformers",
+      "tuples",
+      "type-equality",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/joneshf/purescript-option.git",
+    "version": "v9.0.0"
+  },
   "options": {
     "dependencies": [
       "contravariant",
@@ -2194,6 +2564,55 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-options.git",
     "version": "v6.0.0"
+  },
+  "options-extra": {
+    "dependencies": [
+      "contravariant",
+      "options",
+      "prelude",
+      "tuples",
+      "untagged-union"
+    ],
+    "repo": "https://github.com/PureFunctor/purescript-options-extra.git",
+    "version": "v0.2.0"
+  },
+  "optparse": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "enums",
+      "exists",
+      "exitcodes",
+      "foldable-traversable",
+      "free",
+      "gen",
+      "integers",
+      "lazy",
+      "lists",
+      "maybe",
+      "newtype",
+      "node-buffer",
+      "node-process",
+      "node-streams",
+      "nonempty",
+      "numbers",
+      "open-memoize",
+      "partial",
+      "prelude",
+      "quickcheck",
+      "spec",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-optparse.git",
+    "version": "v4.1.0"
   },
   "ordered-collections": {
     "dependencies": [
@@ -2210,7 +2629,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-ordered-collections.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "ordered-set": {
     "dependencies": [
@@ -2273,7 +2692,7 @@
       "unicode"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "parsing-expect": {
     "dependencies": [
@@ -2360,7 +2779,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-pathy.git",
-    "version": "v8.0.0"
+    "version": "v8.1.0"
   },
   "phoenix": {
     "dependencies": [
@@ -2379,8 +2798,8 @@
       "transformers",
       "tuples"
     ],
-    "repo": "https://github.com/felixSchl/purescript-pipes.git",
-    "version": "v7.0.0"
+    "repo": "https://github.com/felixschl/purescript-pipes.git",
+    "version": "v7.0.1"
   },
   "point-free": {
     "dependencies": [
@@ -2423,7 +2842,7 @@
       "strings"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-precise.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "precise-datetime": {
     "dependencies": [
@@ -2452,7 +2871,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "prettier": {
     "dependencies": [
@@ -2480,7 +2899,7 @@
       "newtype",
       "prelude"
     ],
-    "repo": "https://github.com/PureFunctor/purescript-pretty-logs",
+    "repo": "https://github.com/PureFunctor/purescript-pretty-logs.git",
     "version": "v0.1.0"
   },
   "profunctor": {
@@ -2521,7 +2940,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-profunctor-lenses.git",
-    "version": "v7.0.0"
+    "version": "v7.0.1"
   },
   "promises": {
     "dependencies": [
@@ -2534,6 +2953,22 @@
     ],
     "repo": "https://github.com/thimoteus/purescript-promises.git",
     "version": "v3.1.1"
+  },
+  "ps-cst": {
+    "dependencies": [
+      "ansi",
+      "console",
+      "dodo-printer",
+      "effect",
+      "node-fs-aff",
+      "node-path",
+      "psci-support",
+      "record",
+      "spec",
+      "strings"
+    ],
+    "repo": "https://github.com/purescript-codegen/purescript-ps-cst.git",
+    "version": "v1.2.0"
   },
   "psa-utils": {
     "dependencies": [
@@ -2622,7 +3057,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
-    "version": "v7.0.0"
+    "version": "v7.1.0"
   },
   "quickcheck-combinators": {
     "dependencies": [
@@ -2638,7 +3073,7 @@
       "quickcheck"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-quickcheck-laws.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "quickcheck-utf8": {
     "dependencies": [
@@ -2671,6 +3106,20 @@
     ],
     "repo": "https://github.com/anttih/purescript-rationals.git",
     "version": "v5.0.0"
+  },
+  "rave": {
+    "dependencies": [
+      "aff",
+      "checked-exceptions",
+      "console",
+      "effect",
+      "exceptions",
+      "prelude",
+      "record",
+      "variant"
+    ],
+    "repo": "https://github.com/reactormonk/purescript-rave.git",
+    "version": "v0.1.1"
   },
   "react": {
     "dependencies": [
@@ -2735,7 +3184,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic-dom.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "react-basic-emotion": {
     "dependencies": [
@@ -2882,6 +3331,39 @@
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "v3.0.0"
   },
+  "record-extra": {
+    "dependencies": [
+      "arrays",
+      "functions",
+      "lists",
+      "record",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-record-extra.git",
+    "version": "v4.0.0"
+  },
+  "record-extra-srghma": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "console",
+      "control",
+      "effect",
+      "functions",
+      "js-timers",
+      "lists",
+      "maybe",
+      "parallel",
+      "prelude",
+      "record",
+      "transformers",
+      "tuples",
+      "typelevel-prelude",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/srghma/purescript-record-extra-srghma.git",
+    "version": "v0.1.0"
+  },
   "redux-devtools": {
     "dependencies": [
       "effect",
@@ -2961,10 +3443,12 @@
   },
   "return": {
     "dependencies": [
-      "mason-prelude"
+      "foldable-traversable",
+      "point-free",
+      "prelude"
     ],
     "repo": "https://github.com/ursi/purescript-return.git",
-    "version": "v0.1.1"
+    "version": "v0.1.2"
   },
   "ring-modules": {
     "dependencies": [
@@ -2994,7 +3478,7 @@
       "web-html"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-routing.git",
-    "version": "v10.0.0"
+    "version": "v10.0.1"
   },
   "routing-duplex": {
     "dependencies": [
@@ -3081,6 +3565,19 @@
     "repo": "https://github.com/purescript/purescript-semirings.git",
     "version": "v6.0.0"
   },
+  "server-sent-events": {
+    "dependencies": [
+      "console",
+      "effect",
+      "functions",
+      "maybe",
+      "prelude",
+      "psci-support",
+      "web-events"
+    ],
+    "repo": "https://github.com/MichaelXavier/purescript-server-sent-events.git",
+    "version": "v0.3.1"
+  },
   "setimmediate": {
     "dependencies": [
       "effect",
@@ -3100,6 +3597,16 @@
     "repo": "https://github.com/bodil/purescript-signal.git",
     "version": "v12.0.1"
   },
+  "simple-ajax": {
+    "dependencies": [
+      "affjax",
+      "argonaut",
+      "prelude",
+      "variant"
+    ],
+    "repo": "https://github.com/dariooddenino/purescript-simple-ajax.git",
+    "version": "v4.0.0"
+  },
   "simple-emitter": {
     "dependencies": [
       "ordered-collections",
@@ -3107,6 +3614,14 @@
     ],
     "repo": "https://github.com/oreshinya/purescript-simple-emitter.git",
     "version": "v2.0.0"
+  },
+  "simple-i18n": {
+    "dependencies": [
+      "foreign-object",
+      "record-extra"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-simple-i18n.git",
+    "version": "v1.0.0"
   },
   "simple-json": {
     "dependencies": [
@@ -3122,6 +3637,15 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
     "version": "v8.0.0"
+  },
+  "simple-jwt": {
+    "dependencies": [
+      "crypto",
+      "simple-json",
+      "strings"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-simple-jwt.git",
+    "version": "v3.0.0"
   },
   "simple-ulid": {
     "dependencies": [
@@ -3145,7 +3669,7 @@
       "unfoldable",
       "vectorfield"
     ],
-    "repo": "https://github.com/csicar/purescript-sized-matrices",
+    "repo": "https://github.com/csicar/purescript-sized-matrices.git",
     "version": "v1.0.0"
   },
   "sized-vectors": {
@@ -3249,7 +3773,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purescript-spec/purescript-spec.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "spec-discovery": {
     "dependencies": [
@@ -3261,6 +3785,16 @@
     ],
     "repo": "https://github.com/purescript-spec/purescript-spec-discovery.git",
     "version": "v6.0.0"
+  },
+  "spec-mocha": {
+    "dependencies": [
+      "console",
+      "exceptions",
+      "foldable-traversable",
+      "spec"
+    ],
+    "repo": "https://github.com/purescript-spec/purescript-spec-mocha.git",
+    "version": "v4.0.0"
   },
   "spec-quickcheck": {
     "dependencies": [
@@ -3305,7 +3839,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-st.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "string-parsers": {
     "dependencies": [
@@ -3321,7 +3855,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-string-parsers.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "strings": {
     "dependencies": [
@@ -3355,7 +3889,7 @@
       "unicode"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-strings-extra.git",
-    "version": "v3.0.0"
+    "version": "v3.0.1"
   },
   "stringutils": {
     "dependencies": [
@@ -3382,12 +3916,15 @@
   },
   "substitute": {
     "dependencies": [
+      "foldable-traversable",
       "foreign-object",
-      "mason-prelude",
-      "return"
+      "maybe",
+      "prelude",
+      "return",
+      "strings"
     ],
     "repo": "https://github.com/ursi/purescript-substitute.git",
-    "version": "v0.2.0"
+    "version": "v0.2.3"
   },
   "subtlecrypto": {
     "dependencies": [
@@ -3455,7 +3992,7 @@
       "refs"
     ],
     "repo": "https://github.com/purescript/purescript-tailrec.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "test-unit": {
     "dependencies": [
@@ -3547,7 +4084,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-transformers.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "tree-rose": {
     "dependencies": [
@@ -3565,7 +4102,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-tuples.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "turf": {
     "dependencies": [
@@ -3575,6 +4112,21 @@
       "quickcheck"
     ],
     "repo": "https://github.com/jisantuc/purescript-turf.git",
+    "version": "v1.0.1"
+  },
+  "two-or-more": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "foldable-traversable",
+      "maybe",
+      "partial",
+      "prelude",
+      "psci-support",
+      "tuples"
+    ],
+    "repo": "https://github.com/i-am-the-slime/purescript-two-or-more.git",
     "version": "v1.0.0"
   },
   "type-equality": {
@@ -3607,10 +4159,14 @@
   },
   "typelevel-lists": {
     "dependencies": [
-      "typelevel-peano"
+      "prelude",
+      "tuples",
+      "typelevel-peano",
+      "typelevel-prelude",
+      "unsafe-coerce"
     ],
-    "repo": "https://github.com/PureFunctor/purescript-typelevel-lists",
-    "version": "v1.1.0"
+    "repo": "https://github.com/PureFunctor/purescript-typelevel-lists.git",
+    "version": "v2.0.1"
   },
   "typelevel-peano": {
     "dependencies": [
@@ -3631,6 +4187,21 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
+    "version": "v6.0.0"
+  },
+  "uint": {
+    "dependencies": [
+      "effect",
+      "enums",
+      "gen",
+      "math",
+      "maybe",
+      "prelude",
+      "psci-support",
+      "quickcheck",
+      "quickcheck-laws"
+    ],
+    "repo": "https://github.com/zaquest/purescript-uint.git",
     "version": "v6.0.0"
   },
   "undefinable": {
@@ -3752,7 +4323,18 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-uri.git",
-    "version": "v8.0.0"
+    "version": "v8.0.1"
+  },
+  "url-regex-safe": {
+    "dependencies": [
+      "console",
+      "effect",
+      "prelude",
+      "psci-support",
+      "strings"
+    ],
+    "repo": "https://github.com/srghma/purescript-url-regex-safe.git",
+    "version": "v0.1.0"
   },
   "uuid": {
     "dependencies": [
@@ -3813,8 +4395,8 @@
       "transformers",
       "variant"
     ],
-    "repo": "https://github.com/jordanmartinez/purescript-veither.git",
-    "version": "v1.0.3"
+    "repo": "https://github.com/JordanMartinez/purescript-veither.git",
+    "version": "v1.0.4"
   },
   "versions": {
     "dependencies": [
@@ -3839,7 +4421,7 @@
       "unsafe-coerce",
       "veither"
     ],
-    "repo": "https://github.com/jordanmartinez/purescript-vexceptt.git",
+    "repo": "https://github.com/JordanMartinez/purescript-vexceptt.git",
     "version": "v1.0.0"
   },
   "web-clipboard": {
@@ -3880,7 +4462,7 @@
       "web-dom"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-dom-xpath.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "web-encoding": {
     "dependencies": [
@@ -3933,7 +4515,7 @@
       "web-storage"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
-    "version": "v3.0.1"
+    "version": "v3.1.0"
   },
   "web-promise": {
     "dependencies": [
@@ -4014,7 +4596,7 @@
       "web-html"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "which": {
     "dependencies": [

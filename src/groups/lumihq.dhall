@@ -25,7 +25,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/lumihq/purescript-react-basic-dom.git"
-  , version = "v4.1.0"
+  , version = "v4.2.0"
   }
 , react-basic-classic =
   { dependencies =
