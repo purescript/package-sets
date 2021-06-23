@@ -26,21 +26,46 @@
   }
 , veither =
   { dependencies =
-    [ "control"
+    [ "aff"
+    , "arrays"
+    , "console"
+    , "control"
+    , "effect"
+    , "either"
     , "enums"
+    , "foldable-traversable"
     , "invariant"
+    , "lists"
     , "maybe"
-    , "psci-support"
+    , "newtype"
+    , "partial"
+    , "prelude"
     , "quickcheck"
-    , "transformers"
+    , "quickcheck-laws"
+    , "record"
+    , "spec"
+    , "tuples"
+    , "unsafe-coerce"
     , "variant"
     ]
   , repo = "https://github.com/JordanMartinez/purescript-veither.git"
-  , version = "v1.0.4"
+  , version = "v1.0.5"
   }
 , vexceptt =
-  { dependencies = [ "transformers", "unsafe-coerce", "veither" ]
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "newtype"
+    , "prelude"
+    , "spec"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    , "unsafe-coerce"
+    , "variant"
+    , "veither"
+    ]
   , repo = "https://github.com/JordanMartinez/purescript-vexceptt.git"
-  , version = "v1.0.0"
+  , version = "v1.0.2"
   }
 }
