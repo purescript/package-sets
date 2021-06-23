@@ -804,6 +804,25 @@
     "repo": "https://github.com/sharkdp/purescript-decimals.git",
     "version": "v6.0.0"
   },
+  "dexie": {
+    "dependencies": [
+      "aff",
+      "control",
+      "effect",
+      "either",
+      "exceptions",
+      "foreign",
+      "foreign-object",
+      "maybe",
+      "nullable",
+      "prelude",
+      "psci-support",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/mushishi78/purescript-dexie.git",
+    "version": "v0.1.0"
+  },
   "distributive": {
     "dependencies": [
       "identity",
