@@ -164,7 +164,7 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-form-urlencoded.git"
-  , version = "v6.0.1"
+  , version = "v6.0.2"
   }
 , formatters =
   { dependencies =
@@ -289,7 +289,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "v6.0.1"
+  , version = "v6.0.2"
   }
 , pathy =
   { dependencies =
