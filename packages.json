@@ -620,7 +620,7 @@
       "strings",
       "tuples"
     ],
-    "repo": "https://github.com/dewey92/purescript-classnames",
+    "repo": "https://github.com/dewey92/purescript-classnames.git",
     "version": "v1.0.0"
   },
   "clipboardy": {
@@ -2855,7 +2855,7 @@
       "unfoldable",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/hoodunit/purescript-payload",
+    "repo": "https://github.com/hoodunit/purescript-payload.git",
     "version": "v0.4.0"
   },
   "phoenix": {

@@ -42,7 +42,7 @@
     , "unfoldable"
     , "unsafe-coerce"
     ]
-  , repo = "https://github.com/hoodunit/purescript-payload"
+  , repo = "https://github.com/hoodunit/purescript-payload.git"
   , version = "v0.4.0"
   }
 }
