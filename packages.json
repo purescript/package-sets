@@ -612,6 +612,17 @@
     "repo": "https://github.com/Cirru/parser.purs.git",
     "version": "v0.0.5"
   },
+  "classnames": {
+    "dependencies": [
+      "maybe",
+      "prelude",
+      "record",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/dewey92/purescript-classnames.git",
+    "version": "v1.0.0"
+  },
   "clipboardy": {
     "dependencies": [
       "aff",
@@ -2800,6 +2811,53 @@
     "repo": "https://github.com/purescript-contrib/purescript-pathy.git",
     "version": "v8.1.0"
   },
+  "payload": {
+    "dependencies": [
+      "aff",
+      "affjax",
+      "arrays",
+      "bifunctors",
+      "console",
+      "datetime",
+      "effect",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "http-methods",
+      "integers",
+      "js-date",
+      "lists",
+      "maybe",
+      "media-types",
+      "newtype",
+      "node-buffer",
+      "node-fs",
+      "node-fs-aff",
+      "node-http",
+      "node-path",
+      "node-streams",
+      "node-url",
+      "nullable",
+      "ordered-collections",
+      "prelude",
+      "record",
+      "refs",
+      "simple-json",
+      "strings",
+      "stringutils",
+      "test-unit",
+      "transformers",
+      "tuples",
+      "type-equality",
+      "typelevel-prelude",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/hoodunit/purescript-payload.git",
+    "version": "v0.4.0"
+  },
   "phoenix": {
     "dependencies": [
       "options"
@@ -4625,6 +4683,18 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-uievents.git",
     "version": "v3.0.0"
+  },
+  "web-url": {
+    "dependencies": [
+      "maybe",
+      "partial",
+      "prelude",
+      "psci-support",
+      "spec",
+      "tuples"
+    ],
+    "repo": "https://github.com/mjepronk/purescript-web-url.git",
+    "version": "v1.0.2"
   },
   "web-xhr": {
     "dependencies": [
