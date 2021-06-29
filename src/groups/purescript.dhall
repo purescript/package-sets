@@ -121,7 +121,7 @@
 , exists =
   { dependencies = [ "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-exists.git"
-  , version = "v5.0.0"
+  , version = "v5.1.0"
   }
 , filterable =
   { dependencies =
