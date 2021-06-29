@@ -49,6 +49,6 @@
     , "unicode"
     ]
   , repo = "https://github.com/OxfordAbstracts/purescript-graphql-client.git"
-  , version = "v4.0.12"
+  , version = "v4.0.13"
   }
 }
