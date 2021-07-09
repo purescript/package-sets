@@ -27,6 +27,7 @@ let packages =
       ⫽ ./groups/dirkz.dhall
       ⫽ ./groups/dretch.dhall
       ⫽ ./groups/drewolson.dhall
+      ⫽ ./groups/easafe.dhall
       ⫽ ./groups/ebmtranceboy.dhall
       ⫽ ./groups/epicallan.dhall
       ⫽ ./groups/epicorange.dhall
