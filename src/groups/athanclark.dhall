@@ -4,11 +4,6 @@
   , repo = "https://github.com/athanclark/purescript-byte-codec.git"
   , version = "v0.0.1"
   }
-, float32 =
-  { dependencies = [ "prelude" ]
-  , repo = "https://github.com/athanclark/purescript-float32.git"
-  , version = "v0.2.0"
-  }
 , tuples-native =
   { dependencies = [ "typelevel", "unsafe-coerce" ]
   , repo = "https://github.com/athanclark/purescript-tuples-native.git"
