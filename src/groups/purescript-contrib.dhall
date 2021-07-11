@@ -147,6 +147,11 @@
   , repo = "https://github.com/purescript-contrib/purescript-fixed-points.git"
   , version = "v6.0.0"
   }
+, float32 =
+  { dependencies = [ "prelude", "maybe", "gen" ]
+  , repo = "https://github.com/purescript-contrib/purescript-float32.git"
+  , version = "v1.0.0"
+  }
 , fork =
   { dependencies = [ "aff" ]
   , repo = "https://github.com/purescript-contrib/purescript-fork.git"
@@ -429,6 +434,11 @@
     [ "arrays", "gen", "lists", "quickcheck", "quickcheck-laws", "tuples" ]
   , repo = "https://github.com/purescript-contrib/purescript-these.git"
   , version = "v5.0.0"
+  }
+, uint =
+  { dependencies = [ "prelude", "effect", "math", "maybe", "enums", "gen" ]
+  , repo = "https://github.com/purescript-contrib/purescript-uint.git"
+  , version = "v6.0.3"
   }
 , unicode =
   { dependencies = [ "foldable-traversable", "maybe", "strings" ]
