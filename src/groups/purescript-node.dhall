@@ -18,7 +18,7 @@
     ]
   , repo =
       "https://github.com/purescript-node/purescript-node-child-process.git"
-  , version = "v7.0.0"
+  , version = "v7.1.0"
   }
 , node-fs =
   { dependencies =
