@@ -308,7 +308,7 @@
       "strings"
     ],
     "repo": "https://github.com/sharkdp/purescript-bigints.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "bip39": {
     "dependencies": [
@@ -1558,7 +1558,7 @@
       "unicode"
     ],
     "repo": "https://github.com/OxfordAbstracts/purescript-graphql-client.git",
-    "version": "v4.0.13"
+    "version": "v4.0.16"
   },
   "graphqlclient": {
     "dependencies": [
@@ -2144,7 +2144,7 @@
   "metadata": {
     "dependencies": [],
     "repo": "https://github.com/spacchetti/purescript-metadata.git",
-    "version": "v0.14.2"
+    "version": "v0.14.3"
   },
   "midi": {
     "dependencies": [
@@ -2336,7 +2336,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-child-process.git",
-    "version": "v7.0.0"
+    "version": "v7.1.0"
   },
   "node-fs": {
     "dependencies": [
