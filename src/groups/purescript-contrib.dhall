@@ -105,6 +105,25 @@
       "https://github.com/purescript-contrib/purescript-argonaut-traversals.git"
   , version = "v9.0.0"
   }
+, arraybuffer =
+  { dependencies =
+        [ "effect"
+        , "arraybuffer-types"
+        , "arrays"
+        , "maybe"
+        , "unfoldable"
+        , "uint"
+        , "float32"
+        , "tailrec"
+        , "gen"
+        , "prelude"
+        , "nullable"
+        , "functions"
+        ]
+      : List Text
+  , repo = "https://github.com/purescript-contrib/purescript-arraybuffer.git"
+  , version = "v11.0.1"
+  }
 , arraybuffer-types =
   { dependencies = [] : List Text
   , repo =
