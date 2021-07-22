@@ -183,10 +183,24 @@
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer.git",
     "version": "v11.0.1"
   },
+  "arraybuffer-builder": {
+    "dependencies": [
+      "arraybuffer",
+      "arraybuffer-types",
+      "effect",
+      "float32",
+      "maybe",
+      "prelude",
+      "transformers",
+      "uint"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git",
+    "version": "v2.0.0"
+  },
   "arraybuffer-types": {
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
-    "version": "v3.0.0"
+    "version": "v3.0.1"
   },
   "arrays": {
     "dependencies": [
@@ -2787,6 +2801,22 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
     "version": "v6.0.2"
+  },
+  "parsing-dataview": {
+    "dependencies": [
+      "arraybuffer",
+      "arraybuffer-types",
+      "effect",
+      "float32",
+      "maybe",
+      "parsing",
+      "prelude",
+      "transformers",
+      "tuples",
+      "uint"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-parsing-dataview.git",
+    "version": "v2.0.0"
   },
   "parsing-expect": {
     "dependencies": [
