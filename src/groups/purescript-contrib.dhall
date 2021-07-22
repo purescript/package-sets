@@ -128,7 +128,7 @@
   { dependencies = [] : List Text
   , repo =
       "https://github.com/purescript-contrib/purescript-arraybuffer-types.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , avar =
   { dependencies =
