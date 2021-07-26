@@ -3125,6 +3125,37 @@
     "repo": "https://github.com/thimoteus/purescript-promises.git",
     "version": "v3.1.1"
   },
+  "protobuf": {
+    "dependencies": [
+      "arraybuffer",
+      "arraybuffer-builder",
+      "arraybuffer-types",
+      "arrays",
+      "control",
+      "effect",
+      "either",
+      "enums",
+      "float32",
+      "foldable-traversable",
+      "longs",
+      "maybe",
+      "newtype",
+      "parsing",
+      "parsing-dataview",
+      "partial",
+      "prelude",
+      "quickcheck",
+      "record",
+      "strings",
+      "tailrec",
+      "text-encoding",
+      "transformers",
+      "tuples",
+      "uint"
+    ],
+    "repo": "https://github.com/xc-jp/purescript-protobuf.git",
+    "version": "v2.1.1"
+  },
   "ps-cst": {
     "dependencies": [
       "ansi",
