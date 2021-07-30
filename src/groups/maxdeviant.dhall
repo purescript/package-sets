@@ -1,13 +1,9 @@
 { heckin =
   { dependencies =
-    [ "aff"
-    , "arrays"
-    , "effect"
+    [ "arrays"
     , "foldable-traversable"
     , "maybe"
     , "prelude"
-    , "psci-support"
-    , "spec"
     , "strings"
     , "transformers"
     , "tuples"
@@ -25,7 +21,6 @@
     , "maybe"
     , "ordered-collections"
     , "prelude"
-    , "psci-support"
     ]
   , repo = "https://github.com/maxdeviant/purescript-npm-package-json.git"
   , version = "v2.0.0"
