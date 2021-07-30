@@ -1775,6 +1775,24 @@
     "repo": "https://github.com/purescript-halogen/purescript-halogen-vdom.git",
     "version": "v7.0.1"
   },
+  "heckin": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "effect",
+      "foldable-traversable",
+      "maybe",
+      "prelude",
+      "psci-support",
+      "spec",
+      "strings",
+      "transformers",
+      "tuples",
+      "unicode"
+    ],
+    "repo": "https://github.com/maxdeviant/purescript-heckin.git",
+    "version": "v2.0.0"
+  },
   "heterogeneous": {
     "dependencies": [
       "either",
@@ -2548,6 +2566,20 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-now.git",
     "version": "v5.0.0"
+  },
+  "npm-package-json": {
+    "dependencies": [
+      "argonaut",
+      "control",
+      "either",
+      "foreign-object",
+      "maybe",
+      "ordered-collections",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/maxdeviant/purescript-npm-package-json.git",
+    "version": "v2.0.0"
   },
   "nullable": {
     "dependencies": [
