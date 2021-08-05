@@ -1,34 +1,65 @@
-{-
-, protobuf =
+{ protobuf =
   { dependencies =
-    [ "parsing"
-    , "arraybuffer-types"
-    , "arraybuffer"
-    , "uint"
-    , "text-encoding"
-    , "longs"
-    , "node-streams"
-    , "node-process"
-    , "node-buffer"
-    , "node-path"
+    [ "arraybuffer"
     , "arraybuffer-builder"
+    , "arraybuffer-types"
+    , "longs"
+    , "parsing"
     , "parsing-dataview"
+    , "text-encoding"
+    , "uint"
+    , "arrays"
+    , "control"
+    , "effect"
+    , "enums"
+    , "float32"
+    , "foldable-traversable"
+    , "maybe"
+    , "newtype"
+    , "partial"
+    , "prelude"
+    , "record"
+    , "strings"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    , "either"
+    , "quickcheck"
     ]
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
-  , version = "v1.4.0"
+  , version = "v2.1.1"
   }
 , parsing-dataview =
-  { dependencies = [ "parsing", "arraybuffer-types", "arraybuffer" ]
+  { dependencies =
+    [ "effect"
+    , "arraybuffer-types"
+    , "maybe"
+    , "parsing"
+    , "uint"
+    , "float32"
+    , "prelude"
+    , "transformers"
+    , "tuples"
+    , "arraybuffer"
+    ]
   , repo = "https://github.com/jamesdbrock/purescript-parsing-dataview.git"
-  , version = "v1.1.1"
+  , version = "v2.0.1"
   }
 , arraybuffer-builder =
-  { dependencies = [ "arraybuffer-types", "arraybuffer" ]
+  { dependencies =
+    [ "effect"
+    , "arraybuffer-types"
+    , "maybe"
+    , "uint"
+    , "float32"
+    , "prelude"
+    , "transformers"
+    , "arraybuffer"
+    ]
   , repo = "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git"
-  , version = "v1.1.0"
+  , version = "v2.1.0"
   }
--}
-{ longs =
+, longs =
   { dependencies =
     [ "effect"
     , "console"

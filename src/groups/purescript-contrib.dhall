@@ -105,11 +105,30 @@
       "https://github.com/purescript-contrib/purescript-argonaut-traversals.git"
   , version = "v9.0.0"
   }
+, arraybuffer =
+  { dependencies =
+        [ "effect"
+        , "arraybuffer-types"
+        , "arrays"
+        , "maybe"
+        , "unfoldable"
+        , "uint"
+        , "float32"
+        , "tailrec"
+        , "gen"
+        , "prelude"
+        , "nullable"
+        , "functions"
+        ]
+      : List Text
+  , repo = "https://github.com/purescript-contrib/purescript-arraybuffer.git"
+  , version = "v11.0.1"
+  }
 , arraybuffer-types =
   { dependencies = [] : List Text
   , repo =
       "https://github.com/purescript-contrib/purescript-arraybuffer-types.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , avar =
   { dependencies =
@@ -147,6 +166,11 @@
   , repo = "https://github.com/purescript-contrib/purescript-fixed-points.git"
   , version = "v6.0.0"
   }
+, float32 =
+  { dependencies = [ "prelude", "maybe", "gen" ]
+  , repo = "https://github.com/purescript-contrib/purescript-float32.git"
+  , version = "v1.0.0"
+  }
 , fork =
   { dependencies = [ "aff" ]
   , repo = "https://github.com/purescript-contrib/purescript-fork.git"
@@ -164,7 +188,7 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-form-urlencoded.git"
-  , version = "v6.0.1"
+  , version = "v6.0.2"
   }
 , formatters =
   { dependencies =
@@ -289,7 +313,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "v6.0.1"
+  , version = "v6.0.2"
   }
 , pathy =
   { dependencies =
@@ -429,6 +453,11 @@
     [ "arrays", "gen", "lists", "quickcheck", "quickcheck-laws", "tuples" ]
   , repo = "https://github.com/purescript-contrib/purescript-these.git"
   , version = "v5.0.0"
+  }
+, uint =
+  { dependencies = [ "prelude", "effect", "math", "maybe", "enums", "gen" ]
+  , repo = "https://github.com/purescript-contrib/purescript-uint.git"
+  , version = "v6.0.3"
   }
 , unicode =
   { dependencies = [ "foldable-traversable", "maybe", "strings" ]

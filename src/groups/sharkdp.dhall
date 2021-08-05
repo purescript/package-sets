@@ -25,7 +25,7 @@
 { bigints =
   { dependencies = [ "integers", "maybe", "strings" ]
   , repo = "https://github.com/sharkdp/purescript-bigints.git"
-  , version = "v5.0.0"
+  , version = "v6.0.0"
   }
 , colors =
   { dependencies = [ "arrays", "integers", "lists", "partial", "strings" ]
@@ -54,6 +54,6 @@
   { dependencies =
     [ "console", "distributive", "foldable-traversable", "quickcheck" ]
   , repo = "https://github.com/sharkdp/purescript-pairs.git"
-  , version = "v7.0.0"
+  , version = "v8.0.0"
   }
 }

@@ -27,6 +27,7 @@ let packages =
       ⫽ ./groups/dirkz.dhall
       ⫽ ./groups/dretch.dhall
       ⫽ ./groups/drewolson.dhall
+      ⫽ ./groups/easafe.dhall
       ⫽ ./groups/ebmtranceboy.dhall
       ⫽ ./groups/epicallan.dhall
       ⫽ ./groups/epicorange.dhall
@@ -75,6 +76,7 @@ let packages =
       ⫽ ./groups/mlang.dhall
       ⫽ ./groups/morganthomas.dhall
       ⫽ ./groups/mschristiansen.dhall
+      ⫽ ./groups/mushishi78.dhall
       ⫽ ./groups/mwalkerwells.dhall
       ⫽ ./groups/natefaubion.dhall
       ⫽ ./groups/newlandsvalley.dhall
@@ -124,7 +126,6 @@ let packages =
       ⫽ ./groups/unisay.dhall
       ⫽ ./groups/ursi.dhall
       ⫽ ./groups/vladciobanu.dhall
-      ⫽ ./groups/zaquest.dhall
       ⫽ ./groups/sigma-andex.dhall
       ⫽ ./groups/connordillon.dhall
 
