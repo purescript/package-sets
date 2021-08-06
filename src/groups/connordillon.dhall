@@ -41,7 +41,7 @@
   }
 , elasticsearch =
   { repo = "https://github.com/ConnorDillon/purescript-elasticsearch.git"
-  , version = "v0.1.0"
+  , version = "v0.1.1"
   , dependencies =
     [ "console"
     , "effect"
