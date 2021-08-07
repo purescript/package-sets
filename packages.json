@@ -4430,6 +4430,17 @@
     "repo": "https://github.com/purescript-contrib/purescript-uint.git",
     "version": "v6.0.3"
   },
+  "ulid": {
+    "dependencies": [
+      "effect",
+      "functions",
+      "maybe",
+      "nullable",
+      "prelude"
+    ],
+    "repo": "https://github.com/maxdeviant/purescript-ulid.git",
+    "version": "v2.0.0"
+  },
   "undefinable": {
     "dependencies": [
       "functions",
