@@ -28,7 +28,7 @@
 , ulid =
   { dependencies = [ "effect", "functions", "maybe", "nullable", "prelude" ]
   , repo = "https://github.com/maxdeviant/purescript-ulid.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , which =
   { dependencies = [ "arrays", "console", "effect", "nullable", "psci-support" ]
