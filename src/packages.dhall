@@ -128,5 +128,6 @@ let packages =
       ⫽ ./groups/vladciobanu.dhall
       ⫽ ./groups/sigma-andex.dhall
       ⫽ ./groups/connordillon.dhall
+      ⫽ ./groups/mateiadrielrafael.dhall
 
 in  packages
