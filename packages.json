@@ -4439,6 +4439,13 @@
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
     "version": "v6.0.0"
   },
+  "typelevel-rows": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/jordanmartinez/purescript-typelevel-rows.git",
+    "version": "v0.1.0"
+  },
   "uint": {
     "dependencies": [
       "effect",
