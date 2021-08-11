@@ -24,6 +24,11 @@
   , repo = "https://github.com/jordanmartinez/purescript-tree-rose.git"
   , version = "v2.0.0"
   }
+, typelevel-rows =
+  { dependencies = [ "prelude" ]
+  , repo = "https://github.com/jordanmartinez/purescript-typelevel-rows.git"
+  , version = "v0.1.0"
+  }
 , veither =
   { dependencies =
     [ "aff"
