@@ -4095,7 +4095,7 @@
     "dependencies": [
       "prelude"
     ],
-    "repo": "https://github.com/jamieyung/purescript-strictlypositiveint",
+    "repo": "https://github.com/jamieyung/purescript-strictlypositiveint.git",
     "version": "v1.0.1"
   },
   "string-parsers": {
@@ -4965,7 +4965,7 @@
       "prelude",
       "strictlypositiveint"
     ],
-    "repo": "https://github.com/jamieyung/purescript-zipperarray",
+    "repo": "https://github.com/jamieyung/purescript-zipperarray.git",
     "version": "v1.1.0"
   }
 }
