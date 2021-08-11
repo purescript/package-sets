@@ -30,4 +30,15 @@
   , repo = "https://github.com/jvliwanag/purescript-untagged-union.git"
   , version = "v0.3.0"
   }
+, strictlypositiveint =
+  { repo = "https://github.com/jamieyung/purescript-strictlypositiveint"
+  , version = "v1.0.1"
+  , dependencies = [ "prelude" ]
+  }
+, zipperarray =
+  { repo = "https://github.com/jamieyung/purescript-zipperarray"
+  , version = "v1.1.0"
+  , dependencies =
+    [ "arrays", "maybe", "prelude", "naturals", "strictlypositiveint" ]
+  }
 }
