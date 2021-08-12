@@ -29,7 +29,6 @@
     , "numbers"
     , "pairs"
     , "prelude"
-    , "psci-support"
     , "tuples"
     ]
   , repo = "https://github.com/sharkdp/purescript-quantities.git"
