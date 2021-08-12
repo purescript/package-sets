@@ -3252,6 +3252,24 @@
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "v5.0.0"
   },
+  "quantities": {
+    "dependencies": [
+      "decimals",
+      "either",
+      "foldable-traversable",
+      "lists",
+      "math",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "numbers",
+      "pairs",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-quantities.git",
+    "version": "v11.0.0"
+  },
   "queue": {
     "dependencies": [
       "aff",
