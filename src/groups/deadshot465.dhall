@@ -19,4 +19,5 @@
     ]
   , repo = "https://github.com/deadshot465/purescript-owoify.git"
   , version = "v1.1.2"
+  }
 }
