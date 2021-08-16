@@ -1142,6 +1142,16 @@
     "repo": "https://github.com/purescript-express/purescript-express.git",
     "version": "v0.9.0"
   },
+  "fast-vect": {
+    "dependencies": [
+      "arrays",
+      "partial",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/sigma-andex/purescript-fast-vect.git",
+    "version": "v0.1.2"
+  },
   "ffi-foreign": {
     "dependencies": [
       "console",
