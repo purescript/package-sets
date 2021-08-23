@@ -30,7 +30,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen.git"
-  , version = "v6.1.2"
+  , version = "v6.1.3"
   }
 , halogen-css =
   { dependencies = [ "css", "halogen" ]

@@ -15,6 +15,6 @@
     , "tuples"
     ]
   , repo = "https://github.com/mushishi78/purescript-dexie.git"
-  , version = "v0.1.2"
+  , version = "v0.3.0"
   }
 }

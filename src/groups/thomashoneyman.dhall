@@ -15,6 +15,7 @@
     , "effect"
     , "foldable-traversable"
     , "halogen"
+    , "halogen-hooks"
     , "halogen-subscriptions"
     , "maybe"
     , "prelude"
@@ -24,7 +25,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-store.git"
-  , version = "v0.1.1"
+  , version = "v0.2.0"
   }
 , slug =
   { dependencies =

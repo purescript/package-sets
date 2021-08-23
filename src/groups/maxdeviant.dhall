@@ -31,8 +31,9 @@
   , version = "v2.0.0"
   }
 , which =
-  { dependencies = [ "arrays", "console", "effect", "nullable", "psci-support" ]
+  { dependencies =
+    [ "arrays", "effect", "foreign", "maybe", "nullable", "options", "prelude" ]
   , repo = "https://github.com/maxdeviant/purescript-which.git"
-  , version = "v0.1.0"
+  , version = "v1.0.0"
   }
 }
