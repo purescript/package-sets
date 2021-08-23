@@ -525,7 +525,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-transformers.git"
-  , version = "v5.1.0"
+  , version = "v5.2.0"
   }
 , tuples =
   { dependencies = [ "control", "invariant", "prelude" ]
