@@ -640,7 +640,7 @@
       "test-unit"
     ],
     "repo": "https://github.com/icyrockcom/purescript-cheerio.git",
-    "version": "v0.2.3"
+    "version": "v0.2.4"
   },
   "cirru-parser": {
     "dependencies": [
@@ -871,7 +871,7 @@
       "tuples"
     ],
     "repo": "https://github.com/mushishi78/purescript-dexie.git",
-    "version": "v0.1.2"
+    "version": "v0.3.0"
   },
   "distributive": {
     "dependencies": [
@@ -902,7 +902,7 @@
       "strings"
     ],
     "repo": "https://github.com/natefaubion/purescript-dodo-printer.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
   },
   "dom-filereader": {
     "dependencies": [
@@ -1607,7 +1607,7 @@
       "unicode"
     ],
     "repo": "https://github.com/OxfordAbstracts/purescript-graphql-client.git",
-    "version": "v4.0.16"
+    "version": "v4.0.18"
   },
   "graphqlclient": {
     "dependencies": [
@@ -1680,7 +1680,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/purescript-halogen/purescript-halogen.git",
-    "version": "v6.1.2"
+    "version": "v6.1.3"
   },
   "halogen-bootstrap4": {
     "dependencies": [
@@ -1744,7 +1744,7 @@
       "unsafe-reference"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-store.git",
-    "version": "v0.1.1"
+    "version": "v0.1.2"
   },
   "halogen-storybook": {
     "dependencies": [
@@ -4391,7 +4391,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-transformers.git",
-    "version": "v5.1.0"
+    "version": "v5.2.0"
   },
   "tree-rose": {
     "dependencies": [
@@ -4956,13 +4956,15 @@
   "which": {
     "dependencies": [
       "arrays",
-      "console",
       "effect",
+      "foreign",
+      "maybe",
       "nullable",
-      "psci-support"
+      "options",
+      "prelude"
     ],
     "repo": "https://github.com/maxdeviant/purescript-which.git",
-    "version": "v0.1.0"
+    "version": "v1.0.0"
   },
   "yaml-next": {
     "dependencies": [

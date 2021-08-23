@@ -24,7 +24,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-store.git"
-  , version = "v0.1.1"
+  , version = "v0.1.2"
   }
 , slug =
   { dependencies =
