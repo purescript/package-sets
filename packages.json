@@ -3019,6 +3019,16 @@
     "repo": "https://github.com/hoodunit/purescript-payload.git",
     "version": "v0.4.0"
   },
+  "phaser": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "functions",
+      "prelude"
+    ],
+    "repo": "https://github.com/lfarroco/purescript-phaser.git",
+    "version": "v0.0.1"
+  },
   "phoenix": {
     "dependencies": [
       "options"
