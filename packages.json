@@ -3018,6 +3018,16 @@
     "repo": "https://github.com/hoodunit/purescript-payload.git",
     "version": "v0.4.0"
   },
+  "phaser": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "functions",
+      "prelude"
+    ],
+    "repo": "https://github.com/lfarroco/purescript-phaser.git",
+    "version": "v0.0.1"
+  },
   "phoenix": {
     "dependencies": [
       "options"
@@ -3283,16 +3293,6 @@
     ],
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "v5.0.0"
-  },
-  "purescript-phaser": {
-    "dependencies": [
-      "aff",
-      "effect",
-      "functions",
-      "prelude"
-    ],
-    "repo": "https://github.com/lfarroco/purescript-phaser.git",
-    "version": "v0.0.1"
   },
   "quantities": {
     "dependencies": [
