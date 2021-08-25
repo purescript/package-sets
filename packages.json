@@ -1145,12 +1145,13 @@
   "fast-vect": {
     "dependencies": [
       "arrays",
+      "maybe",
       "partial",
       "prelude",
       "tuples"
     ],
     "repo": "https://github.com/sigma-andex/purescript-fast-vect.git",
-    "version": "v0.1.2"
+    "version": "v0.2.0"
   },
   "ffi-foreign": {
     "dependencies": [
@@ -4474,6 +4475,14 @@
     ],
     "repo": "https://github.com/bodil/purescript-typelevel.git",
     "version": "v6.0.0"
+  },
+  "typelevel-arithmetic": {
+    "dependencies": [
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/sigma-andex/purescript-typelevel-arithmetic.git",
+    "version": "v0.1.0"
   },
   "typelevel-lists": {
     "dependencies": [
