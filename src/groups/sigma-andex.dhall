@@ -37,9 +37,16 @@
   , version = "v0.1.0"
   }
 , fast-vect =
-  { dependencies = [ "arrays", "maybe", "partial", "prelude", "tuples" ]
+  { dependencies =
+    [ "arrays"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "tuples"
+    , "typelevel-arithmetic"
+    ]
   , repo = "https://github.com/sigma-andex/purescript-fast-vect.git"
-  , version = "v0.2.0"
+  , version = "v0.3.1"
   }
 , typelevel-arithmetic =
   { dependencies = [ "prelude", "tuples" ]
