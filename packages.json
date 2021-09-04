@@ -3023,11 +3023,12 @@
     "dependencies": [
       "aff",
       "effect",
-      "functions",
-      "prelude"
+      "nullable",
+      "prelude",
+      "psci-support"
     ],
     "repo": "https://github.com/lfarroco/purescript-phaser.git",
-    "version": "v0.0.1"
+    "version": "v0.2.0"
   },
   "phoenix": {
     "dependencies": [
