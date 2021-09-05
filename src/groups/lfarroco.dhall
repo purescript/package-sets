@@ -1,6 +1,6 @@
 { phaser =
-  { dependencies = [ "aff", "effect", "prelude", "functions" ]
+  { dependencies = [ "aff", "effect", "prelude", "nullable", "psci-support" ]
   , repo = "https://github.com/lfarroco/purescript-phaser.git"
-  , version = "v0.0.1"
+  , version = "v0.2.0"
   }
 }
