@@ -27,7 +27,7 @@
     , "quickcheck"
     ]
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
-  , version = "v2.1.1"
+  , version = "v2.1.2"
   }
 , parsing-dataview =
   { dependencies =
