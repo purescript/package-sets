@@ -54,7 +54,7 @@
     , "variant"
     ]
   , repo = "https://github.com/JordanMartinez/purescript-veither.git"
-  , version = "v1.0.5"
+  , version = "v1.0.6"
   }
 , vexceptt =
   { dependencies =
