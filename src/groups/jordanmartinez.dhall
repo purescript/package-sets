@@ -17,7 +17,7 @@
 , interpolate =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/jordanmartinez/purescript-interpolate.git"
-  , version = "v2.0.1"
+  , version = "v3.0.1"
   }
 , tree-rose =
   { dependencies = [ "prelude", "lists", "free" ]
