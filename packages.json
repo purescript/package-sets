@@ -1838,7 +1838,7 @@
       "halogen"
     ],
     "repo": "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "halogen-vdom": {
     "dependencies": [
