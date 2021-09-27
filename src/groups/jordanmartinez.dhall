@@ -12,12 +12,12 @@
 , halogen-svg-elems =
   { dependencies = [ "halogen" ]
   , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
-  , version = "v4.0.0"
+  , version = "v5.0.0"
   }
 , interpolate =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/jordanmartinez/purescript-interpolate.git"
-  , version = "v2.0.1"
+  , version = "v3.0.1"
   }
 , tree-rose =
   { dependencies = [ "prelude", "lists", "free" ]
@@ -54,7 +54,7 @@
     , "variant"
     ]
   , repo = "https://github.com/JordanMartinez/purescript-veither.git"
-  , version = "v1.0.5"
+  , version = "v1.0.6"
   }
 , vexceptt =
   { dependencies =
