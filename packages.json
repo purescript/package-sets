@@ -327,7 +327,7 @@
       "node-http"
     ],
     "repo": "https://github.com/oreshinya/purescript-basic-auth.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
   },
   "bifunctors": {
     "dependencies": [
@@ -820,10 +820,12 @@
   },
   "crypto": {
     "dependencies": [
-      "node-buffer"
+      "aff",
+      "node-buffer",
+      "nullable"
     ],
     "repo": "https://github.com/oreshinya/purescript-crypto.git",
-    "version": "v3.0.0"
+    "version": "v4.0.0"
   },
   "css": {
     "dependencies": [
@@ -4020,7 +4022,7 @@
       "strings"
     ],
     "repo": "https://github.com/oreshinya/purescript-simple-jwt.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "simple-ulid": {
     "dependencies": [

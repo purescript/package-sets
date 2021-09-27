@@ -1,12 +1,12 @@
 { basic-auth =
   { dependencies = [ "crypto", "node-http" ]
   , repo = "https://github.com/oreshinya/purescript-basic-auth.git"
-  , version = "v2.0.0"
+  , version = "v2.1.0"
   }
 , crypto =
-  { dependencies = [ "node-buffer" ]
+  { dependencies = [ "aff", "node-buffer", "nullable" ]
   , repo = "https://github.com/oreshinya/purescript-crypto.git"
-  , version = "v3.0.0"
+  , version = "v4.0.0"
   }
 , identy =
   { dependencies = [ "simple-json" ]
@@ -36,7 +36,7 @@
 , simple-jwt =
   { dependencies = [ "crypto", "simple-json", "strings" ]
   , repo = "https://github.com/oreshinya/purescript-simple-jwt.git"
-  , version = "v3.0.0"
+  , version = "v3.1.0"
   }
 , simple-ulid =
   { dependencies = [ "exceptions", "now", "strings" ]
