@@ -1,7 +1,11 @@
 let
-  pkgs = import (builtins.fetchTarball {
-    url = "https://github.com/NixOS/nixpkgs/archive/21.05.tar.gz";
-  }) {};
+  nixpkgs-src = builtins.fetchTarball {
+    # nixos-21.05 as of 2021-11-16
+    url = "https://github.com/NixOS/nixpkgs/archive/46251a79f752ae1d46ef733e8e9760b6d3429da4.tar.gz";
+    sha256 = "1xsp0xyrf8arjkf4wi09n96kbg0r8igsmzx8bhc1nj4nr078p0pg";
+  };
+
+  pkgs = import nixpkgs-src {};
 
   easy-ps = import (
     pkgs.fetchFromGitHub {
@@ -25,6 +29,24 @@ let
     inherit pkgs;
   };
 
+  add-hashes =
+    pkgs.writers.writeHaskellBin
+      "add-hashes"
+      {
+        libraries = [
+          pkgs.haskellPackages.base64-bytestring
+          pkgs.haskellPackages.conduit
+          pkgs.haskellPackages.conduit-extra
+          pkgs.haskellPackages.cryptohash-sha256
+          pkgs.haskellPackages.dhall
+          pkgs.haskellPackages.http-conduit
+          pkgs.haskellPackages.prettyprinter
+          pkgs.haskellPackages.resourcet
+          pkgs.haskellPackages.temporary
+        ];
+      }
+      (builtins.readFile ./add-hashes.hs);
+
 in
 pkgs.runCommand "easy-ps-test" {
   buildInputs =
@@ -34,5 +56,5 @@ pkgs.runCommand "easy-ps-test" {
     builtins.attrValues {
       inherit (easy-dhall) dhall-simple dhall-json-simple;
     } ++
-    [ pkgs.git pkgs.wget pkgs.jq ];
+    [ pkgs.git pkgs.wget pkgs.jq add-hashes ];
 } ""
