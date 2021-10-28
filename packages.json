@@ -4749,6 +4749,16 @@
     "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference.git",
     "version": "v4.0.0"
   },
+  "untagged-to-tagged": {
+    "dependencies": [
+      "either",
+      "newtype",
+      "prelude",
+      "untagged-union"
+    ],
+    "repo": "https://github.com/sigma-andex/purescript-untagged-to-tagged.git",
+    "version": "v0.1.3"
+  },
   "untagged-union": {
     "dependencies": [
       "assert",

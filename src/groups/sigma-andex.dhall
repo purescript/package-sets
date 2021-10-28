@@ -53,4 +53,9 @@
   , repo = "https://github.com/sigma-andex/purescript-typelevel-arithmetic.git"
   , version = "v0.1.0"
   }
+, untagged-to-tagged =
+  { dependencies = [ "either", "newtype", "prelude", "untagged-union" ]
+  , repo = "https://github.com/sigma-andex/purescript-untagged-to-tagged.git"
+  , version = "v0.1.3"
+  }
 }
