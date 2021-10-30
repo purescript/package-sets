@@ -1432,7 +1432,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-formatters.git",
-    "version": "v5.0.1"
+    "version": "v6.0.0"
   },
   "framer-motion": {
     "dependencies": [
@@ -1690,7 +1690,7 @@
       "unicode"
     ],
     "repo": "https://github.com/OxfordAbstracts/purescript-graphql-client.git",
-    "version": "v4.0.18"
+    "version": "v7.0.0"
   },
   "graphqlclient": {
     "dependencies": [
@@ -2982,7 +2982,7 @@
       "unicode"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
-    "version": "v6.0.2"
+    "version": "v7.0.0"
   },
   "parsing-dataview": {
     "dependencies": [
@@ -3011,18 +3011,6 @@
     "repo": "https://github.com/markfarrell/purescript-parsing-expect.git",
     "version": "v0.0.3"
   },
-  "parsing-hexadecimal": {
-    "dependencies": [
-      "console",
-      "effect",
-      "parsing",
-      "parsing-expect",
-      "prelude",
-      "psci-support"
-    ],
-    "repo": "https://github.com/markfarrell/purescript-parsing-hexadecimal.git",
-    "version": "v0.0.2"
-  },
   "parsing-repetition": {
     "dependencies": [
       "console",
@@ -3041,20 +3029,6 @@
     ],
     "repo": "https://github.com/jamesdbrock/purescript-parsing-replace.git",
     "version": "v1.0.2"
-  },
-  "parsing-uuid": {
-    "dependencies": [
-      "console",
-      "effect",
-      "parsing",
-      "parsing-expect",
-      "parsing-hexadecimal",
-      "parsing-repetition",
-      "prelude",
-      "psci-support"
-    ],
-    "repo": "https://github.com/markfarrell/purescript-parsing-uuid.git",
-    "version": "v0.0.3"
   },
   "parsing-validation": {
     "dependencies": [

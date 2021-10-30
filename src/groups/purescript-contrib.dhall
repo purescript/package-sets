@@ -201,7 +201,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-formatters.git"
-  , version = "v5.0.1"
+  , version = "v6.0.0"
   }
 , freet =
   { dependencies =
@@ -313,7 +313,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "v6.0.2"
+  , version = "v7.0.0"
   }
 , pathy =
   { dependencies =
