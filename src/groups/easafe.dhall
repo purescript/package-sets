@@ -33,6 +33,41 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/easafe/purescript-flame.git"
-  , version = "v1.1.0"
+  , version = "v1.1.1"
+  }
+, droplet =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "bifunctors"
+    , "bigints"
+    , "datetime"
+    , "debug"
+    , "effect"
+    , "either"
+    , "enums"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "integers"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "partial"
+    , "prelude"
+    , "profunctor"
+    , "psci-support"
+    , "record"
+    , "strings"
+    , "test-unit"
+    , "transformers"
+    , "tuples"
+    , "type-equality"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/easafe/purescript-droplet.git"
+  , version = "v0.2.0"
   }
 }

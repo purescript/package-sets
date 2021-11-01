@@ -20,4 +20,19 @@
   , repo = "https://github.com/PureFunctor/purescript-options-extra.git"
   , version = "v0.2.0"
   }
+, dissect =
+  { dependencies =
+    [ "bifunctors"
+    , "either"
+    , "functors"
+    , "partial"
+    , "prelude"
+    , "tailrec"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/PureFunctor/purescript-dissect.git"
+  , version = "v0.1.0"
+  }
 }
