@@ -1760,7 +1760,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/Eugleo/purescript-grid-reactors.git",
-    "version": "v0.0.1"
+    "version": "v2.1.0"
   },
   "group": {
     "dependencies": [
