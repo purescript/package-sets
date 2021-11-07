@@ -355,7 +355,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-ordered-collections.git"
-  , version = "v2.0.1"
+  , version = "v2.0.2"
   }
 , orders =
   { dependencies = [ "newtype", "prelude" ]
