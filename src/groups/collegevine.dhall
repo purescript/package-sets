@@ -29,7 +29,7 @@
   , version = "v0.5.6"
   }
 , elmish-html =
-  { dependencies = [ "elmish", "foreign-object" ]
+  { dependencies = [ "elmish", "foreign-object", "record" ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
   , version = "v0.3.1"
   }
