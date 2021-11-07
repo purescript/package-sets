@@ -116,7 +116,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/justinwoo/purescript-milkis.git"
-  , version = "v7.4.0"
+  , version = "v7.5.0"
   }
 , motsunabe =
   { dependencies = [ "lists", "strings" ]
