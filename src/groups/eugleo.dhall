@@ -1,5 +1,5 @@
 { grid-reactors =
-  { version = "v0.0.1"
+  { version = "v2.1.0"
   , repo = "https://github.com/Eugleo/purescript-grid-reactors.git"
   , dependencies =
     [ "aff"
