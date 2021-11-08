@@ -333,7 +333,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-nonempty.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , numbers =
   { dependencies = [ "functions", "math", "maybe" ]
