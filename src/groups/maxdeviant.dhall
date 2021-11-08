@@ -10,7 +10,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/maxdeviant/purescript-heckin.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , npm-package-json =
   { dependencies =
