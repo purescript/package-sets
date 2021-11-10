@@ -25,9 +25,23 @@
   , version = "v6.0.0"
   }
 , aff-bus =
-  { dependencies = [ "avar", "effect", "prelude" ]
+  { dependencies =
+    [ "aff"
+    , "avar"
+    , "console"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "lists"
+    , "prelude"
+    , "refs"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    ]
   , repo = "https://github.com/purescript-contrib/purescript-aff-bus.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , aff-coroutines =
   { dependencies = [ "aff", "avar", "coroutines", "effect" ]
