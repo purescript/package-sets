@@ -35,7 +35,6 @@
     , "foldable-traversable"
     , "lists"
     , "prelude"
-    , "psci-support"
     , "refs"
     , "tailrec"
     , "transformers"
