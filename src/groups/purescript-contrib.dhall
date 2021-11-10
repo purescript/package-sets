@@ -27,7 +27,7 @@
 , aff-bus =
   { dependencies = [ "avar", "effect", "prelude" ]
   , repo = "https://github.com/purescript-contrib/purescript-aff-bus.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , aff-coroutines =
   { dependencies = [ "aff", "avar", "coroutines", "effect" ]
