@@ -13,7 +13,7 @@ if [ "${BRANCH}" != "master" ]; then
 fi
 git pull
 
-LATEST_PURS="0.14.4"
+LATEST_PURS="0.14.5"
 
 NEW_STABLE_TAG="psc-${LATEST_PURS}"
 
