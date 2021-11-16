@@ -126,7 +126,7 @@
 , node-he =
   { dependencies = [] : List Text
   , repo = "https://github.com/justinwoo/purescript-node-he.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , node-sqlite3 =
   { dependencies = [ "aff", "foreign" ]
