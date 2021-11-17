@@ -131,7 +131,7 @@
 , node-sqlite3 =
   { dependencies = [ "aff", "foreign" ]
   , repo = "https://github.com/justinwoo/purescript-node-sqlite3.git"
-  , version = "v6.0.0"
+  , version = "v7.0.0"
   }
 , record-extra =
   { dependencies =
