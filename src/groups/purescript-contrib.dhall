@@ -476,7 +476,7 @@
 , unicode =
   { dependencies = [ "foldable-traversable", "maybe", "strings" ]
   , repo = "https://github.com/purescript-contrib/purescript-unicode.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , unsafe-reference =
   { dependencies = [ "prelude" ]
