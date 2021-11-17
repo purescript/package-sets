@@ -474,23 +474,7 @@
   , version = "v6.0.3"
   }
 , unicode =
-  { dependencies =
-    [ "arrays"
-    , "assert"
-    , "console"
-    , "effect"
-    , "enums"
-    , "foldable-traversable"
-    , "integers"
-    , "maybe"
-    , "partial"
-    , "prelude"
-    , "quickcheck"
-    , "random"
-    , "strings"
-    , "transformers"
-    , "unsafe-coerce"
-    ]
+  { dependencies = [ "foldable-traversable", "maybe", "strings" ]
   , repo = "https://github.com/purescript-contrib/purescript-unicode.git"
   , version = "v5.0.1"
   }

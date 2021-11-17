@@ -4706,21 +4706,9 @@
   },
   "unicode": {
     "dependencies": [
-      "arrays",
-      "assert",
-      "console",
-      "effect",
-      "enums",
       "foldable-traversable",
-      "integers",
       "maybe",
-      "partial",
-      "prelude",
-      "quickcheck",
-      "random",
-      "strings",
-      "transformers",
-      "unsafe-coerce"
+      "strings"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-unicode.git",
     "version": "v5.0.1"
