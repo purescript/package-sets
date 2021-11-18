@@ -1754,11 +1754,9 @@
   },
   "grid-reactors": {
     "dependencies": [
-      "aff",
       "arrays",
       "canvas-action",
       "colors",
-      "console",
       "effect",
       "exceptions",
       "foldable-traversable",
@@ -1766,13 +1764,11 @@
       "halogen",
       "halogen-hooks",
       "halogen-subscriptions",
-      "heterogeneous",
       "integers",
       "maybe",
       "partial",
       "prelude",
       "psci-support",
-      "random",
       "st",
       "tailrec",
       "transformers",
@@ -1782,7 +1778,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/Eugleo/purescript-grid-reactors.git",
-    "version": "v2.1.0"
+    "version": "v3.0.0"
   },
   "group": {
     "dependencies": [
