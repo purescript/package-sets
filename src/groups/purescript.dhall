@@ -203,7 +203,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-free.git"
-  , version = "v6.1.0"
+  , version = "v6.2.0"
   }
 , functions =
   { dependencies = [ "prelude" ]
