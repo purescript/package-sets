@@ -1,4 +1,5 @@
-{ hyper =
+{-
+, hyper =
   { dependencies =
     [ "aff"
     , "avar"
@@ -8,14 +9,13 @@
     , "control"
     , "effect"
     , "foldable-traversable"
-    , "generics-rep"
     , "http-methods"
     , "indexed-monad"
     , "media-types"
+    , "node-buffer"
     , "node-fs-aff"
     , "node-http"
     , "ordered-collections"
-    , "proxy"
     , "random"
     , "smolder"
     , "strings"
@@ -24,7 +24,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/purescript-hyper/hyper.git"
-  , version = "v0.11.0"
+  , version = "v0.11.1"
   }
 , hypertrout =
   { dependencies =
@@ -42,4 +42,5 @@
   , repo = "https://github.com/purescript-hyper/purescript-trout-client.git"
   , version = "v0.13.0"
   }
-}
+-}
+{=}

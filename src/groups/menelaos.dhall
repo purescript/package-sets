@@ -1,25 +1,4 @@
-{ b64 =
-  { dependencies =
-    [ "arraybuffer-types"
-    , "either"
-    , "encoding"
-    , "enums"
-    , "exceptions"
-    , "functions"
-    , "partial"
-    , "prelude"
-    , "strings"
-    ]
-  , repo = "https://github.com/menelaos/purescript-b64.git"
-  , version = "v0.0.6"
-  }
-, encoding =
-  { dependencies =
-    [ "arraybuffer-types", "either", "exceptions", "functions", "prelude" ]
-  , repo = "https://github.com/menelaos/purescript-encoding.git"
-  , version = "v0.0.6"
-  }
-, jwt =
+{ jwt =
   { dependencies =
     [ "argonaut-core"
     , "arrays"
@@ -32,12 +11,33 @@
     , "strings"
     ]
   , repo = "https://github.com/menelaos/purescript-jwt.git"
+  , version = "v0.0.8"
+  }
+, b64 =
+  { dependencies =
+    [ "arraybuffer-types"
+    , "either"
+    , "encoding"
+    , "enums"
+    , "exceptions"
+    , "functions"
+    , "partial"
+    , "prelude"
+    , "strings"
+    ]
+  , repo = "https://github.com/menelaos/purescript-b64.git"
   , version = "v0.0.7"
   }
 , stringutils =
   { dependencies =
     [ "arrays", "either", "integers", "maybe", "partial", "prelude", "strings" ]
   , repo = "https://github.com/menelaos/purescript-stringutils.git"
-  , version = "v0.0.10"
+  , version = "v0.0.11"
+  }
+, encoding =
+  { dependencies =
+    [ "arraybuffer-types", "either", "exceptions", "functions", "prelude" ]
+  , repo = "https://github.com/menelaos/purescript-encoding.git"
+  , version = "v0.0.7"
   }
 }

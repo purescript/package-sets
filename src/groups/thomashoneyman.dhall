@@ -1,29 +1,36 @@
 { halogen-formless =
   { dependencies =
-    [ "halogen"
-    , "variant"
-    , "heterogeneous"
-    , "generics-rep"
-    , "profunctor-lenses"
-    ]
+    [ "halogen", "variant", "heterogeneous", "profunctor-lenses" ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-  , version = "v1.0.0-rc.2"
+  , version = "v2.2.0"
   }
 , halogen-hooks =
-  { dependencies = [ "halogen", "indexed-monad" ]
+  { dependencies = [ "halogen" ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-hooks.git"
-  , version = "v0.4.2"
+  , version = "v0.5.0"
+  }
+, halogen-store =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foldable-traversable"
+    , "halogen"
+    , "halogen-hooks"
+    , "halogen-subscriptions"
+    , "maybe"
+    , "prelude"
+    , "refs"
+    , "transformers"
+    , "unsafe-coerce"
+    , "unsafe-reference"
+    ]
+  , repo = "https://github.com/thomashoneyman/purescript-halogen-store.git"
+  , version = "v0.2.1"
   }
 , slug =
   { dependencies =
-    [ "prelude"
-    , "maybe"
-    , "strings"
-    , "unicode"
-    , "generics-rep"
-    , "argonaut-codecs"
-    ]
+    [ "prelude", "maybe", "strings", "unicode", "argonaut-codecs" ]
   , repo = "https://github.com/thomashoneyman/purescript-slug.git"
-  , version = "v2.0.0"
+  , version = "v3.0.0"
   }
 }

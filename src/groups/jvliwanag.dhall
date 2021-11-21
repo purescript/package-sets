@@ -11,7 +11,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/jvliwanag/purescript-literals.git"
-  , version = "v0.1.1"
+  , version = "v0.2.0"
   }
 , untagged-union =
   { dependencies =
@@ -23,12 +23,22 @@
     , "literals"
     , "maybe"
     , "newtype"
-    , "proxy"
     , "psci-support"
     , "tuples"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/jvliwanag/purescript-untagged-union.git"
-  , version = "v0.1.1"
+  , version = "v0.3.0"
+  }
+, strictlypositiveint =
+  { repo = "https://github.com/jamieyung/purescript-strictlypositiveint.git"
+  , version = "v1.0.1"
+  , dependencies = [ "prelude" ]
+  }
+, zipperarray =
+  { repo = "https://github.com/jamieyung/purescript-zipperarray.git"
+  , version = "v1.1.0"
+  , dependencies =
+    [ "arrays", "maybe", "prelude", "naturals", "strictlypositiveint" ]
   }
 }

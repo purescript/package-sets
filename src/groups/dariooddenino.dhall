@@ -1,6 +1,6 @@
 { simple-ajax =
-  { dependencies = [ "prelude", "simple-json", "affjax" ]
+  { dependencies = [ "prelude", "argonaut", "affjax", "variant" ]
   , repo = "https://github.com/dariooddenino/purescript-simple-ajax.git"
-  , version = "v2.0.0"
+  , version = "v4.0.0"
   }
 }

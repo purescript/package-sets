@@ -1,38 +1,50 @@
+{-
+  node-electron =
+  { dependencies =
+    [ "effect"
+    , "foreign"
+    , "halogen"
+    , "maybe"
+    , "options"
+    , "prelude"
+    , "transformers"
+    , "unsafe-coerce"
+    , "web-dom"
+    , "web-events"
+    , "web-html"
+    ]
+  , repo = "https://github.com/cprussin/purescript-node-electron.git"
+  , version = "v0.0.2"
+  }
+-}
 { httpure =
   { dependencies =
     [ "aff"
     , "arrays"
     , "bifunctors"
     , "console"
-    , "control"
     , "effect"
     , "either"
-    , "exceptions"
     , "foldable-traversable"
     , "foreign"
-    , "lists"
+    , "js-uri"
     , "maybe"
     , "newtype"
     , "node-buffer"
-    , "node-child-process"
     , "node-fs"
-    , "node-fs-aff"
     , "node-http"
     , "node-streams"
     , "nullable"
     , "options"
     , "ordered-collections"
     , "prelude"
-    , "psci-support"
     , "refs"
-    , "spec"
     , "strings"
     , "tuples"
     , "type-equality"
-    , "unsafe-coerce"
     ]
   , repo = "https://github.com/cprussin/purescript-httpure.git"
-  , version = "v0.10.0"
+  , version = "v0.12.0"
   }
 , monad-logger =
   { dependencies =
@@ -57,22 +69,5 @@
     ]
   , repo = "https://github.com/cprussin/purescript-monad-logger.git"
   , version = "v1.3.1"
-  }
-, node-electron =
-  { dependencies =
-    [ "effect"
-    , "foreign"
-    , "halogen"
-    , "maybe"
-    , "options"
-    , "prelude"
-    , "transformers"
-    , "unsafe-coerce"
-    , "web-dom"
-    , "web-events"
-    , "web-html"
-    ]
-  , repo = "https://github.com/cprussin/purescript-node-electron.git"
-  , version = "v0.0.2"
   }
 }

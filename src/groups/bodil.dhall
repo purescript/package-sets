@@ -1,8 +1,24 @@
+{-
+, smolder =
+  { dependencies =
+    [ "bifunctors"
+    , "catenable-lists"
+    , "free"
+    , "numbers"
+    , "ordered-collections"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/bodil/purescript-smolder.git"
+  , version = "v12.3.0"
+  }
+-}
 { signal =
   { dependencies =
     [ "aff", "foldable-traversable", "js-timers", "maybe", "prelude" ]
   , repo = "https://github.com/bodil/purescript-signal.git"
-  , version = "v10.1.0"
+  , version = "v12.0.1"
   }
 , sized-vectors =
   { dependencies =
@@ -17,21 +33,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/bodil/purescript-sized-vectors.git"
-  , version = "v5.0.1"
-  }
-, smolder =
-  { dependencies =
-    [ "bifunctors"
-    , "catenable-lists"
-    , "free"
-    , "globals"
-    , "ordered-collections"
-    , "strings"
-    , "transformers"
-    , "tuples"
-    ]
-  , repo = "https://github.com/bodil/purescript-smolder.git"
-  , version = "v12.3.0"
+  , version = "v5.0.2"
   }
 , test-unit =
   { dependencies =
@@ -47,7 +49,7 @@
     , "strings"
     ]
   , repo = "https://github.com/bodil/purescript-test-unit.git"
-  , version = "v15.0.0"
+  , version = "v16.0.0"
   }
 , typelevel =
   { dependencies =

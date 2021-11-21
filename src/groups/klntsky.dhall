@@ -1,9 +1,9 @@
-{ array-views =
+{-
+, array-views =
   { dependencies =
     [ "arrays"
     , "control"
     , "foldable-traversable"
-    , "generics-rep"
     , "maybe"
     , "nonempty"
     , "prelude"
@@ -26,10 +26,10 @@
   , repo = "https://github.com/klntsky/purescript-search-trie.git"
   , version = "v1.0.0"
   }
-, bower-json =
+-}
+{ bower-json =
   { dependencies =
     [ "prelude"
-    , "generics-rep"
     , "maybe"
     , "arrays"
     , "either"
@@ -40,6 +40,6 @@
     , "foreign-object"
     ]
   , repo = "https://github.com/klntsky/purescript-bower-json.git"
-  , version = "v2.0.0"
+  , version = "v3.0.0"
   }
 }
