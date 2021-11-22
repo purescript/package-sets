@@ -6,7 +6,7 @@
 , geometry-plane =
   { dependencies = [ "console", "effect", "psci-support", "sparse-polynomials" ]
   , repo = "https://github.com/Ebmtranceboy/purescript-geometry-plane.git"
-  , version = "v1.0.1"
+  , version = "v1.0.2"
   }
 , sparse-polynomials =
   { dependencies =
