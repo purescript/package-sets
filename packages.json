@@ -1604,16 +1604,6 @@
     "repo": "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git",
     "version": "v0.3.0"
   },
-  "geometry-plane": {
-    "dependencies": [
-      "console",
-      "effect",
-      "psci-support",
-      "sparse-polynomials"
-    ],
-    "repo": "https://github.com/Ebmtranceboy/purescript-geometry-plane.git",
-    "version": "v1.0.2"
-  },
   "gl-matrix": {
     "dependencies": [
       "arrays",
