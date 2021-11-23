@@ -6,7 +6,7 @@
 , return =
   { dependencies = [ "foldable-traversable", "point-free", "prelude" ]
   , repo = "https://github.com/ursi/purescript-return.git"
-  , version = "v0.1.3"
+  , version = "v0.1.4"
   }
 , substitute =
   { dependencies =
