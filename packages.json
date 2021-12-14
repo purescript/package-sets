@@ -5032,6 +5032,20 @@
     "repo": "https://github.com/purescript-web/purescript-web-socket.git",
     "version": "v3.0.0"
   },
+  "web-speech": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "functions",
+      "maybe",
+      "nullable",
+      "prelude",
+      "psci-support",
+      "web-html"
+    ],
+    "repo": "https://github.com/dirkz/purescript-web-speech.git",
+    "version": "v0.1.1"
+  },
   "web-storage": {
     "dependencies": [
       "nullable",
