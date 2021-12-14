@@ -14,18 +14,6 @@
   , repo = "https://github.com/markfarrell/purescript-parsing-foreign.git"
   , version = "v0.0.2"
   }
-, parsing-hexadecimal =
-  { dependencies =
-    [ "console"
-    , "effect"
-    , "parsing"
-    , "prelude"
-    , "psci-support"
-    , "parsing-expect"
-    ]
-  , repo = "https://github.com/markfarrell/purescript-parsing-hexadecimal.git"
-  , version = "v0.0.2"
-  }
 , parsing-uuid =
   { dependencies =
     [ "console"
@@ -48,20 +36,40 @@
   }
 , parsing-repetition =
   { dependencies =
-    [ "console"
+    [ "arrays"
     , "effect"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
     , "parsing"
+    , "parsing-expect"
     , "prelude"
     , "psci-support"
-    , "parsing-expect"
+    , "strings"
+    , "tuples"
     ]
   , repo = "https://github.com/markfarrell/purescript-parsing-repetition.git"
-  , version = "v0.0.6"
+  , version = "v0.0.8"
   }
 , parsing-validation =
   { dependencies = [ "console", "effect", "parsing", "prelude", "psci-support" ]
   , repo = "https://github.com/markfarrell/purescript-parsing-validation.git"
-  , version = "v0.1.2"
+  , version = "v0.1.3"
+  }
+, parsing-hexadecimal =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "lists"
+    , "parsing"
+    , "parsing-expect"
+    , "prelude"
+    , "psci-support"
+    , "strings"
+    ]
+  , repo = "https://github.com/markfarrell/purescript-parsing-hexadecimal.git"
+  , version = "v0.0.3"
   }
 , ffi-foreign =
   { dependencies = [ "console", "effect", "foreign", "prelude", "psci-support" ]
