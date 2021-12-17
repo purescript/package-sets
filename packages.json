@@ -2493,6 +2493,23 @@
     "repo": "https://github.com/LiamGoodacre/purescript-naturals.git",
     "version": "v3.0.0"
   },
+  "nano-id": {
+    "dependencies": [ 
+      "aff", 
+      "console",
+      "effect",
+      "lists",
+      "maybe",
+      "prelude",
+      "psci-support",
+      "random",
+      "spec",
+      "strings",
+      "stringutils"
+    ],
+    "repo": "https://github.com/eikooc/nano-id",
+    "version": "v1.0.0"
+  },
   "nested-functor": {
     "dependencies": [
       "prelude",
