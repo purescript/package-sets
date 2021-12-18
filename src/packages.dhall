@@ -132,5 +132,6 @@ let packages =
       ⫽ ./groups/deadshot465.dhall
       ⫽ ./groups/lfarroco.dhall
       ⫽ ./groups/eugleo.dhall
+      ⫽ ./groups/eikooc.dhall
 
 in  packages
