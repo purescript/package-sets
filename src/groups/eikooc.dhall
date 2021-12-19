@@ -1,5 +1,5 @@
-{ nano-id = {
-  dependencies =
+{ nano-id =
+  { dependencies =
     [ "aff"
     , "console"
     , "effect"

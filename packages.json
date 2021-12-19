@@ -2484,18 +2484,9 @@
     "repo": "https://github.com/oreshinya/purescript-mysql.git",
     "version": "v5.0.0"
   },
-  "naturals": {
-    "dependencies": [
-      "enums",
-      "maybe",
-      "prelude"
-    ],
-    "repo": "https://github.com/LiamGoodacre/purescript-naturals.git",
-    "version": "v3.0.0"
-  },
   "nano-id": {
-    "dependencies": [ 
-      "aff", 
+    "dependencies": [
+      "aff",
       "console",
       "effect",
       "lists",
@@ -2509,6 +2500,15 @@
     ],
     "repo": "https://github.com/eikooc/nano-id.git",
     "version": "v1.0.0"
+  },
+  "naturals": {
+    "dependencies": [
+      "enums",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/LiamGoodacre/purescript-naturals.git",
+    "version": "v3.0.0"
   },
   "nested-functor": {
     "dependencies": [
