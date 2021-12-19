@@ -12,7 +12,7 @@
     , "strings"
     , "stringutils"
     ]
-  , repo = "https://github.com/eikooc/nano-id"
+  , repo = "https://github.com/eikooc/nano-id.git"
   , version = "v1.0.0"
   }
 }
