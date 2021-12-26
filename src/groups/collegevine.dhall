@@ -28,6 +28,20 @@
   , repo = "https://github.com/collegevine/purescript-elmish.git"
   , version = "v0.5.6"
   }
+, elmish-hooks =
+  { dependencies =
+    [ "aff"
+    , "console"
+    , "debug"
+    , "effect"
+    , "elmish"
+    , "prelude"
+    , "psci-support"
+    , "tuples"
+    ]
+  , repo = "https://github.com/collegevine/purescript-elmish-hooks.git"
+  , version = "v0.2.0"
+  }
 , elmish-html =
   { dependencies = [ "elmish", "foreign-object", "record" ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
