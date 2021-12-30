@@ -28,6 +28,25 @@
   , repo = "https://github.com/collegevine/purescript-elmish.git"
   , version = "v0.5.6"
   }
+, elmish-enzyme =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "console"
+    , "debug"
+    , "effect"
+    , "elmish"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "functions"
+    , "prelude"
+    , "psci-support"
+    , "transformers"
+    ]
+  , repo = "https://github.com/collegevine/purescript-elmish-enzyme.git"
+  , version = "v0.0.1"
+  }
 , elmish-hooks =
   { dependencies =
     [ "aff"
