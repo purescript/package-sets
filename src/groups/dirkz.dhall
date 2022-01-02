@@ -17,13 +17,16 @@
     [ "aff"
     , "effect"
     , "functions"
+    , "integers"
     , "maybe"
     , "nullable"
     , "prelude"
     , "psci-support"
+    , "unsafe-coerce"
+    , "web-events"
     , "web-html"
     ]
   , repo = "https://github.com/dirkz/purescript-web-speech.git"
-  , version = "v0.1.1"
+  , version = "v0.2.0"
   }
 }
