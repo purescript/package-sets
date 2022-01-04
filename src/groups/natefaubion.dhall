@@ -12,7 +12,7 @@
   }
 , convertable-options =
   { dependencies = [ "console", "effect", "maybe", "record" ]
-  , repo = "https://github.com/natefaubion/purescript-convertable-options"
+  , repo = "https://github.com/natefaubion/purescript-convertable-options.git"
   , version = "v1.0.0"
   }
 , dodo-printer =
