@@ -327,7 +327,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "v7.2.0"
+  , version = "v8.0.0"
   }
 , pathy =
   { dependencies =
