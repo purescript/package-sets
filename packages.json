@@ -4021,6 +4021,36 @@
     "repo": "https://github.com/Mateiadrielrafael/purescript-run-external-state.git",
     "version": "v1.0.0"
   },
+  "rxps": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "control",
+      "effect",
+      "exceptions",
+      "foldable-traversable",
+      "foldable-traversable",
+      "foreign-object",
+      "functions",
+      "identity",
+      "identity",
+      "partial",
+      "partial",
+      "prelude",
+      "psci-support",
+      "strings",
+      "strings",
+      "test-unit",
+      "transformers",
+      "transformers",
+      "tuples",
+      "tuples",
+      "web-events",
+      "web-events"
+    ],
+    "repo": "https://github.com/waynevanson/purescript-rxps.git",
+    "version": "v1.8.0"
+  },
   "safe-coerce": {
     "dependencies": [
       "unsafe-coerce"

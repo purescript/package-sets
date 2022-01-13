@@ -127,6 +127,7 @@ let packages =
       ⫽ ./groups/unisay.dhall
       ⫽ ./groups/ursi.dhall
       ⫽ ./groups/vladciobanu.dhall
+      ⫽ ./groups/waynevanson.dhall
       ⫽ ./groups/sigma-andex.dhall
       ⫽ ./groups/connordillon.dhall
       ⫽ ./groups/mateiadrielrafael.dhall
