@@ -2988,6 +2988,26 @@
     "repo": "https://github.com/flip111/purescript-ordered-set.git",
     "version": "v0.4.0"
   },
+  "amazons": {
+    "dependencies": [ 
+      "aff",
+      "arrays",
+      "effect",
+      "foldable-traversable",
+      "integers",
+      "maybe",
+      "numbers",
+      "prelude",
+      "psci-support",
+      "quickcheck",
+      "spec",
+      "strings",
+      "tuples",
+      "versions"
+    ],
+    "repo": "https://github.com/Forensor/purescript-amazons.git",
+    "version": "v1.0.1"
+  },
   "orders": {
     "dependencies": [
       "newtype",

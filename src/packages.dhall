@@ -5,6 +5,7 @@ let packages =
       ⫽ ./groups/ajnsit.dhall
       ⫽ ./groups/AlexaDeWit.dhall
       ⫽ ./groups/alvart.dhall
+      ⫽ ./groups/Forensor.dhall
       ⫽ ./groups/anttih.dhall
       ⫽ ./groups/artemisSystem.dhall
       ⫽ ./groups/athanclark.dhall
