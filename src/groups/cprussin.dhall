@@ -26,7 +26,7 @@
     , "effect"
     , "either"
     , "foldable-traversable"
-    , "foreign"
+    , "foreign-object"
     , "js-uri"
     , "maybe"
     , "newtype"
@@ -34,17 +34,17 @@
     , "node-fs"
     , "node-http"
     , "node-streams"
-    , "nullable"
     , "options"
     , "ordered-collections"
     , "prelude"
+    , "psci-support"
     , "refs"
     , "strings"
     , "tuples"
     , "type-equality"
     ]
   , repo = "https://github.com/cprussin/purescript-httpure.git"
-  , version = "v0.12.0"
+  , version = "v0.14.0"
   }
 , monad-logger =
   { dependencies =
