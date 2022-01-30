@@ -61,17 +61,17 @@
 , undefined-is-not-a-problem =
   { dependencies =
     [ "assert"
-    , "console"
     , "effect"
+    , "either"
     , "foreign"
+    , "maybe"
     , "prelude"
     , "psci-support"
     , "random"
-    , "typelevel-prelude"
+    , "tuples"
     , "unsafe-coerce"
-    , "variant"
     ]
   , repo = "https://github.com/paluh/purescript-undefined-is-not-a-problem.git"
-  , version = "v0.2.0"
+  , version = "v0.2.1"
   }
 }
