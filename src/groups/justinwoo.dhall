@@ -95,7 +95,7 @@
 { expect-inferred =
   { dependencies = [ "prelude", "typelevel-prelude" ]
   , repo = "https://github.com/justinwoo/purescript-expect-inferred.git"
-  , version = "v2.0.0"
+  , version = "v3.0.0"
   }
 , gomtang-basic =
   { dependencies = [ "console", "effect", "prelude", "record", "web-html" ]
