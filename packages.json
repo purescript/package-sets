@@ -2636,7 +2636,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-fs.git",
-    "version": "v6.1.0"
+    "version": "v6.2.0"
   },
   "node-fs-aff": {
     "dependencies": [
@@ -3692,23 +3692,34 @@
     "dependencies": [
       "aff",
       "aff-promise",
+      "bifunctors",
       "console",
+      "control",
       "datetime",
       "effect",
       "either",
+      "exceptions",
+      "foldable-traversable",
+      "functions",
       "indexed-monad",
+      "integers",
       "maybe",
       "newtype",
+      "now",
+      "nullable",
+      "ordered-collections",
       "prelude",
       "psci-support",
       "react-basic",
+      "refs",
+      "tuples",
       "type-equality",
       "unsafe-coerce",
       "unsafe-reference",
       "web-html"
     ],
     "repo": "https://github.com/spicydonuts/purescript-react-basic-hooks.git",
-    "version": "v7.0.0"
+    "version": "v7.0.1"
   },
   "react-dom": {
     "dependencies": [
@@ -4780,18 +4791,18 @@
   "undefined-is-not-a-problem": {
     "dependencies": [
       "assert",
-      "console",
       "effect",
+      "either",
       "foreign",
+      "maybe",
       "prelude",
       "psci-support",
       "random",
-      "typelevel-prelude",
-      "unsafe-coerce",
-      "variant"
+      "tuples",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/paluh/purescript-undefined-is-not-a-problem.git",
-    "version": "v0.2.0"
+    "version": "v0.2.1"
   },
   "undefined-or": {
     "dependencies": [

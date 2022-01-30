@@ -5,24 +5,35 @@
   }
 , react-basic-hooks =
   { dependencies =
-    [ "prelude"
+    [ "aff"
     , "aff-promise"
-    , "aff"
+    , "bifunctors"
     , "console"
+    , "control"
     , "datetime"
     , "effect"
     , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "functions"
     , "indexed-monad"
+    , "integers"
     , "maybe"
     , "newtype"
+    , "now"
+    , "nullable"
+    , "ordered-collections"
+    , "prelude"
     , "psci-support"
     , "react-basic"
+    , "refs"
+    , "tuples"
     , "type-equality"
     , "unsafe-coerce"
     , "unsafe-reference"
     , "web-html"
     ]
   , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
-  , version = "v7.0.0"
+  , version = "v7.0.1"
   }
 }
