@@ -1283,7 +1283,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-expect-inferred.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "express": {
     "dependencies": [
