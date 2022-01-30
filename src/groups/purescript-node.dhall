@@ -41,7 +41,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-fs.git"
-  , version = "v6.1.0"
+  , version = "v6.2.0"
   }
 , node-fs-aff =
   { dependencies = [ "aff", "either", "node-fs", "node-path" ]
