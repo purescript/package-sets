@@ -2097,7 +2097,7 @@
       "effect",
       "either",
       "foldable-traversable",
-      "foreign",
+      "foreign-object",
       "js-uri",
       "maybe",
       "newtype",
@@ -2105,17 +2105,17 @@
       "node-fs",
       "node-http",
       "node-streams",
-      "nullable",
       "options",
       "ordered-collections",
       "prelude",
+      "psci-support",
       "refs",
       "strings",
       "tuples",
       "type-equality"
     ],
     "repo": "https://github.com/cprussin/purescript-httpure.git",
-    "version": "v0.12.0"
+    "version": "v0.14.0"
   },
   "httpure-contrib-biscotti": {
     "dependencies": [
@@ -2135,26 +2135,6 @@
     ],
     "repo": "https://github.com/drewolson/purescript-httpure-contrib-biscotti.git",
     "version": "v0.2.0"
-  },
-  "httpure-middleware": {
-    "dependencies": [
-      "ansi",
-      "arrays",
-      "console",
-      "effect",
-      "foreign-object",
-      "formatters",
-      "httpure",
-      "integers",
-      "maybe",
-      "now",
-      "options",
-      "parallel",
-      "prelude",
-      "strings"
-    ],
-    "repo": "https://github.com/joneshf/purescript-httpure-middleware.git",
-    "version": "v4.0.1"
   },
   "identity": {
     "dependencies": [

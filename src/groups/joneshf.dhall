@@ -1,24 +1,4 @@
-{ httpure-middleware =
-  { dependencies =
-    [ "ansi"
-    , "arrays"
-    , "console"
-    , "effect"
-    , "formatters"
-    , "foreign-object"
-    , "httpure"
-    , "integers"
-    , "maybe"
-    , "now"
-    , "options"
-    , "parallel"
-    , "prelude"
-    , "strings"
-    ]
-  , repo = "https://github.com/joneshf/purescript-httpure-middleware.git"
-  , version = "v4.0.1"
-  }
-, option =
+{ option =
   { dependencies =
     [ "argonaut-codecs"
     , "argonaut-core"
