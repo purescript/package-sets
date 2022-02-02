@@ -442,6 +442,22 @@
     "repo": "https://github.com/klntsky/purescript-bower-json.git",
     "version": "v3.0.0"
   },
+  "boxes": {
+    "dependencies": [
+      "arrays",
+      "foldable-traversable",
+      "maybe",
+      "newtype",
+      "prelude",
+      "profunctor",
+      "psci-support",
+      "strings",
+      "stringutils",
+      "tuples"
+    ],
+    "repo": "https://github.com/cdepillabout/purescript-boxes.git",
+    "version": "v2.1.0"
+  },
   "bucketchain": {
     "dependencies": [
       "aff",
@@ -1242,6 +1258,35 @@
     "repo": "https://github.com/purescript/purescript-enums.git",
     "version": "v5.0.0"
   },
+  "envparse": {
+    "dependencies": [
+      "ansi",
+      "arrays",
+      "bifunctors",
+      "boxes",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "exceptions",
+      "exists",
+      "foldable-traversable",
+      "foreign-object",
+      "integers",
+      "lists",
+      "maybe",
+      "newtype",
+      "node-process",
+      "ordered-collections",
+      "prelude",
+      "psci-support",
+      "strings",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/srghma/purescript-envparse.git",
+    "version": "v1.0.1"
+  },
   "errors": {
     "dependencies": [
       "control",
@@ -1805,7 +1850,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-graphqlclient/purescript-graphqlclient.git",
-    "version": "v1.2.0"
+    "version": "v1.2.1"
   },
   "graphs": {
     "dependencies": [
