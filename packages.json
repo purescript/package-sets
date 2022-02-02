@@ -2091,26 +2091,6 @@
     "repo": "https://github.com/drewolson/purescript-httpure-contrib-biscotti.git",
     "version": "v0.2.0"
   },
-  "httpure-middleware": {
-    "dependencies": [
-      "ansi",
-      "arrays",
-      "console",
-      "effect",
-      "foreign-object",
-      "formatters",
-      "httpure",
-      "integers",
-      "maybe",
-      "now",
-      "options",
-      "parallel",
-      "prelude",
-      "strings"
-    ],
-    "repo": "https://github.com/joneshf/purescript-httpure-middleware.git",
-    "version": "v4.0.1"
-  },
   "identity": {
     "dependencies": [
       "control",
