@@ -20,9 +20,17 @@
   , version = "v3.0.1"
   }
 , tree-rose =
-  { dependencies = [ "prelude", "lists", "free" ]
+  { dependencies =
+    [ "control"
+    , "foldable-traversable"
+    , "free"
+    , "lists"
+    , "maybe"
+    , "prelude"
+    , "tailrec"
+    ]
   , repo = "https://github.com/jordanmartinez/purescript-tree-rose.git"
-  , version = "v2.0.0"
+  , version = "v4.0.2"
   }
 , typelevel-rows =
   { dependencies = [ "prelude" ]

@@ -4661,12 +4661,16 @@
   },
   "tree-rose": {
     "dependencies": [
+      "control",
+      "foldable-traversable",
       "free",
       "lists",
-      "prelude"
+      "maybe",
+      "prelude",
+      "tailrec"
     ],
     "repo": "https://github.com/jordanmartinez/purescript-tree-rose.git",
-    "version": "v2.0.0"
+    "version": "v4.0.2"
   },
   "tuples": {
     "dependencies": [
