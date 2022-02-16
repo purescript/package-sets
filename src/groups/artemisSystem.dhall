@@ -37,6 +37,6 @@
     , "web-html"
     ]
   , repo = "https://github.com/artemisSystem/purescript-canvas-action.git"
-  , version = "v7.0.0"
+  , version = "v8.0.0"
   }
 }
