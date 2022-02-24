@@ -2016,7 +2016,7 @@
       "halogen"
     ],
     "repo": "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git",
-    "version": "v5.0.2"
+    "version": "v5.0.3"
   },
   "halogen-vdom": {
     "dependencies": [
