@@ -12,7 +12,7 @@
 , halogen-svg-elems =
   { dependencies = [ "halogen" ]
   , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
-  , version = "v5.0.1"
+  , version = "v5.0.3"
   }
 , interpolate =
   { dependencies = [ "prelude" ]
