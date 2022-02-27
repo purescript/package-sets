@@ -1962,6 +1962,27 @@
     "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
     "version": "v0.8.0"
   },
+  "halogen-router": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "either",
+      "foreign",
+      "halogen",
+      "halogen-hooks",
+      "halogen-store",
+      "halogen-subscriptions",
+      "maybe",
+      "prelude",
+      "routing",
+      "routing-duplex",
+      "safe-coerce",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/katsujukou/purescript-halogen-router.git",
+    "version": "v0.1.0"
+  },
   "halogen-select": {
     "dependencies": [
       "halogen",
