@@ -1,6 +1,4 @@
 {-
-let packages =
-        ./groups/purescript.dhall
       ⫽ ./groups/purescript-contrib.dhall
       ⫽ ./groups/purescript-node.dhall
       ⫽ ./groups/purescript-web.dhall
@@ -137,6 +135,5 @@ let packages =
       ⫽ ./groups/eugleo.dhall
       ⫽ ./groups/eikooc.dhall
       ⫽ ./groups/katsujukou.dhall
-
-in  packages
 -}
+let packages = ./groups/purescript.dhall in packages
