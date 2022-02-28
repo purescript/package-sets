@@ -116,7 +116,6 @@
       ⫽ ./groups/sigilion.dhall
       ⫽ ./groups/slamdata.dhall
       ⫽ ./groups/sodiumfrp.dhall
-      ⫽ ./groups/spacchetti.dhall
       ⫽ ./groups/spicydonuts.dhall
       ⫽ ./groups/srghma.dhall
       ⫽ ./groups/thimoteus.dhall
