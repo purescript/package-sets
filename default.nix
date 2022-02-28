@@ -7,8 +7,8 @@ let
     pkgs.fetchFromGitHub {
       owner = "justinwoo";
       repo = "easy-purescript-nix";
-      rev = "7802db65618c2ead3a55121355816b4c41d276d9";
-      sha256 = "0n99hxxcp9yc8yvx7bx4ac6askinfark7dnps3hzz5v9skrvq15q";
+      rev = "7f6207b9e9b021e30d6c82f49ba20f0d5db01d1f";
+      sha256 = "1j02jcs88fyc0diyyym1y3yhrhpjj7jcdj9aw8sfcd20yrpd4pbr";
     }
   ) {
     inherit pkgs;
@@ -25,14 +25,16 @@ let
     inherit pkgs;
   };
 
+  purs = easy-ps.purs-0_14_6;
+
 in
 pkgs.runCommand "easy-ps-test" {
   buildInputs =
     builtins.attrValues {
-      inherit (easy-ps) purescript psc-package spago;
+      inherit (easy-ps) psc-package spago;
     } ++
     builtins.attrValues {
       inherit (easy-dhall) dhall-simple dhall-json-simple;
     } ++
-    [ pkgs.git pkgs.wget pkgs.jq ];
+    [ pkgs.git pkgs.wget pkgs.jq purs ];
 } ""
