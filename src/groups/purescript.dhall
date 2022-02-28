@@ -307,7 +307,7 @@
 , metadata =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-metadata.git"
-  , version = "v0.14.7"
+  , version = "v0.15.0"
   }
 , minibench =
   { dependencies =
