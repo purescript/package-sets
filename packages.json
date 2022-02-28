@@ -385,6 +385,11 @@
     "repo": "https://github.com/purescript/purescript-maybe.git",
     "version": "master"
   },
+  "metadata": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript/purescript-metadata.git",
+    "version": "v0.15.0"
+  },
   "minibench": {
     "dependencies": [
       "console",
