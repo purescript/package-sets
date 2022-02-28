@@ -1,3 +1,4 @@
+{-
 let packages =
         ./groups/purescript.dhall
       ⫽ ./groups/purescript-contrib.dhall
@@ -138,3 +139,4 @@ let packages =
       ⫽ ./groups/katsujukou.dhall
 
 in  packages
+-}
