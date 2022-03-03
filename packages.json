@@ -1940,13 +1940,26 @@
   },
   "halogen-formless": {
     "dependencies": [
+      "convertable-options",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "foreign-object",
       "halogen",
       "heterogeneous",
-      "profunctor-lenses",
-      "variant"
+      "maybe",
+      "prelude",
+      "record",
+      "safe-coerce",
+      "type-equality",
+      "unsafe-coerce",
+      "unsafe-reference",
+      "variant",
+      "web-events",
+      "web-uievents"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
-    "version": "v2.2.0"
+    "version": "v3.0.0"
   },
   "halogen-hooks": {
     "dependencies": [
@@ -2449,7 +2462,7 @@
   },
   "metadata": {
     "dependencies": [],
-    "repo": "https://github.com/spacchetti/purescript-metadata.git",
+    "repo": "https://github.com/purescript/purescript-metadata.git",
     "version": "v0.14.7"
   },
   "midi": {
@@ -5002,7 +5015,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v7.0.3"
+    "version": "v7.1.0"
   },
   "vectorfield": {
     "dependencies": [
