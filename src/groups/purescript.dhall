@@ -304,6 +304,11 @@
   , repo = "https://github.com/purescript/purescript-maybe.git"
   , version = "v5.0.0"
   }
+, metadata =
+  { dependencies = [] : List Text
+  , repo = "https://github.com/purescript/purescript-metadata.git"
+  , version = "v0.14.7"
+  }
 , minibench =
   { dependencies =
     [ "console"
