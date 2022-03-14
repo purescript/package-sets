@@ -1,8 +1,25 @@
 { halogen-formless =
   { dependencies =
-    [ "halogen", "variant", "heterogeneous", "profunctor-lenses" ]
+    [ "convertable-options"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "halogen"
+    , "heterogeneous"
+    , "maybe"
+    , "prelude"
+    , "record"
+    , "safe-coerce"
+    , "type-equality"
+    , "unsafe-coerce"
+    , "unsafe-reference"
+    , "variant"
+    , "web-events"
+    , "web-uievents"
+    ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-  , version = "v2.2.0"
+  , version = "v3.0.0"
   }
 , halogen-hooks =
   { dependencies = [ "halogen" ]
