@@ -8,6 +8,7 @@ let
       owner = "jordanmartinez";
       repo = "easy-purescript-nix";
       rev = "86f76316f056628b3693df99ffb1120921e84902";
+      sha256 = "1i7zqda52npklj3d7pq80zw5rfjjzdqpl5bdrsp6vchg5frgj6ky";
     }
   ) {
     inherit pkgs;
