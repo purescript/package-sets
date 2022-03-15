@@ -1,25 +1,39 @@
-{-
-, heckin =
+{ heckin =
   { dependencies =
     [ "arrays"
-    , "console"
-    , "effect"
     , "foldable-traversable"
-    , "psci-support"
+    , "maybe"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "tuples"
     , "unicode"
     ]
   , repo = "https://github.com/maxdeviant/purescript-heckin.git"
-  , version = "v1.1.0"
+  , version = "v2.0.1"
   }
 , npm-package-json =
-  { dependencies = [ "argonaut", "console", "effect", "psci-support" ]
+  { dependencies =
+    [ "argonaut"
+    , "control"
+    , "either"
+    , "foreign-object"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    ]
   , repo = "https://github.com/maxdeviant/purescript-npm-package-json.git"
-  , version = "v1.2.0"
+  , version = "v2.0.0"
   }
--}
-{ which =
-  { dependencies = [ "arrays", "console", "effect", "nullable", "psci-support" ]
+, ulid =
+  { dependencies = [ "effect", "functions", "maybe", "nullable", "prelude" ]
+  , repo = "https://github.com/maxdeviant/purescript-ulid.git"
+  , version = "v2.0.0"
+  }
+, which =
+  { dependencies =
+    [ "arrays", "effect", "foreign", "maybe", "nullable", "options", "prelude" ]
   , repo = "https://github.com/maxdeviant/purescript-which.git"
-  , version = "v0.1.0"
+  , version = "v1.0.0"
   }
 }

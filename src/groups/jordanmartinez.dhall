@@ -12,16 +12,73 @@
 , halogen-svg-elems =
   { dependencies = [ "halogen" ]
   , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
-  , version = "v3.0.0"
+  , version = "v5.0.3"
   }
 , interpolate =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/jordanmartinez/purescript-interpolate.git"
-  , version = "v2.0.1"
+  , version = "v3.0.1"
   }
 , tree-rose =
-  { dependencies = [ "prelude", "lists", "free" ]
+  { dependencies =
+    [ "control"
+    , "foldable-traversable"
+    , "free"
+    , "lists"
+    , "maybe"
+    , "prelude"
+    , "tailrec"
+    ]
   , repo = "https://github.com/jordanmartinez/purescript-tree-rose.git"
-  , version = "v2.0.0"
+  , version = "v4.0.2"
+  }
+, typelevel-rows =
+  { dependencies = [ "prelude" ]
+  , repo = "https://github.com/jordanmartinez/purescript-typelevel-rows.git"
+  , version = "v0.1.0"
+  }
+, veither =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "console"
+    , "control"
+    , "effect"
+    , "either"
+    , "enums"
+    , "foldable-traversable"
+    , "invariant"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "partial"
+    , "prelude"
+    , "quickcheck"
+    , "quickcheck-laws"
+    , "record"
+    , "spec"
+    , "tuples"
+    , "unsafe-coerce"
+    , "variant"
+    ]
+  , repo = "https://github.com/JordanMartinez/purescript-veither.git"
+  , version = "v1.0.6"
+  }
+, vexceptt =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "newtype"
+    , "prelude"
+    , "spec"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    , "unsafe-coerce"
+    , "variant"
+    , "veither"
+    ]
+  , repo = "https://github.com/JordanMartinez/purescript-vexceptt.git"
+  , version = "v1.0.2"
   }
 }

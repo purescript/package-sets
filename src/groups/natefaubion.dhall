@@ -1,19 +1,8 @@
 {-
-, checked-exceptions =
-  { dependencies = [ "prelude", "transformers", "variant" ]
-  , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
-  , version = "v3.1.1"
-  }
 , run-streaming =
   { dependencies = [ "prelude", "run" ]
   , repo = "https://github.com/natefaubion/purescript-run-streaming.git"
   , version = "v2.0.0"
-  }
-, dodo-printer =
-  { dependencies =
-    [ "ansi", "foldable-traversable", "lists", "maybe", "prelude", "strings" ]
-  , repo = "https://github.com/natefaubion/purescript-dodo-printer.git"
-  , version = "v1.0.9"
   }
 -}
 { call-by-name =
@@ -21,11 +10,36 @@
   , repo = "https://github.com/natefaubion/purescript-call-by-name.git"
   , version = "v3.0.0"
   }
+, convertable-options =
+  { dependencies = [ "console", "effect", "maybe", "record" ]
+  , repo = "https://github.com/natefaubion/purescript-convertable-options.git"
+  , version = "v1.0.0"
+  }
+, dodo-printer =
+  { dependencies =
+    [ "aff"
+    , "ansi"
+    , "avar"
+    , "console"
+    , "effect"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "minibench"
+    , "node-child-process"
+    , "node-fs-aff"
+    , "node-process"
+    , "psci-support"
+    , "strings"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-dodo-printer.git"
+  , version = "v2.1.0"
+  }
 , heterogeneous =
   { dependencies =
     [ "either", "functors", "prelude", "record", "tuples", "variant" ]
   , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
-  , version = "v0.5.0"
+  , version = "v0.5.1"
   }
 , psa-utils =
   { dependencies =
@@ -85,7 +99,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/natefaubion/purescript-variant.git"
-  , version = "v7.0.2"
+  , version = "v7.1.0"
   }
 , run =
   { dependencies =
@@ -122,6 +136,11 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
-  , version = "v0.5.0"
+  , version = "v0.5.1"
+  }
+, checked-exceptions =
+  { dependencies = [ "prelude", "transformers", "variant" ]
+  , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
+  , version = "v3.1.1"
   }
 }

@@ -14,7 +14,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-arrays.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , `assert` =
   { dependencies = [ "console", "effect", "prelude" ]
@@ -37,7 +37,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-catenable-lists.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , console =
   { dependencies = [ "effect", "prelude" ]
@@ -79,7 +79,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript/purescript-datetime.git"
-  , version = "v5.0.0"
+  , version = "v5.0.2"
   }
 , distributive =
   { dependencies =
@@ -121,7 +121,7 @@
 , exists =
   { dependencies = [ "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-exists.git"
-  , version = "v5.0.0"
+  , version = "v5.1.0"
   }
 , filterable =
   { dependencies =
@@ -133,7 +133,7 @@
     , "ordered-collections"
     ]
   , repo = "https://github.com/purescript/purescript-filterable.git"
-  , version = "v4.0.0"
+  , version = "v4.0.1"
   }
 , foldable-traversable =
   { dependencies =
@@ -150,7 +150,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript/purescript-foldable-traversable.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , foreign =
   { dependencies =
@@ -165,7 +165,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript/purescript-foreign.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , foreign-object =
   { dependencies =
@@ -203,7 +203,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-free.git"
-  , version = "v6.0.0"
+  , version = "v6.2.0"
   }
 , functions =
   { dependencies = [ "prelude" ]
@@ -227,7 +227,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-functors.git"
-  , version = "v4.1.0"
+  , version = "v4.1.1"
   }
 , gen =
   { dependencies =
@@ -292,7 +292,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-lists.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , math =
   { dependencies = [] : List Text
@@ -303,6 +303,11 @@
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-maybe.git"
   , version = "v5.0.0"
+  }
+, metadata =
+  { dependencies = [] : List Text
+  , repo = "https://github.com/purescript/purescript-metadata.git"
+  , version = "v0.14.7"
   }
 , minibench =
   { dependencies =
@@ -333,7 +338,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-nonempty.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , numbers =
   { dependencies = [ "functions", "math", "maybe" ]
@@ -355,7 +360,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-ordered-collections.git"
-  , version = "v2.0.0"
+  , version = "v2.0.2"
   }
 , orders =
   { dependencies = [ "newtype", "prelude" ]
@@ -387,7 +392,7 @@
 , prelude =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-prelude.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , profunctor =
   { dependencies =
@@ -439,7 +444,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-quickcheck.git"
-  , version = "v7.0.0"
+  , version = "v7.1.0"
   }
 , random =
   { dependencies = [ "effect", "integers", "math" ]
@@ -469,7 +474,7 @@
 , st =
   { dependencies = [ "partial", "prelude", "tailrec", "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-st.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , strings =
   { dependencies =
@@ -505,7 +510,7 @@
     , "refs"
     ]
   , repo = "https://github.com/purescript/purescript-tailrec.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , transformers =
   { dependencies =
@@ -525,12 +530,12 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-transformers.git"
-  , version = "v5.0.0"
+  , version = "v5.2.0"
   }
 , tuples =
   { dependencies = [ "control", "invariant", "prelude" ]
   , repo = "https://github.com/purescript/purescript-tuples.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , type-equality =
   { dependencies = [] : List Text

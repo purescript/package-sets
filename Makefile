@@ -1,7 +1,7 @@
 all: format generate
 
 format:
-	@find src/ -iname "*.dhall" -exec dhall format --inplace {} \;
+	@find src/ -iname "*.dhall" -exec dhall format {} \;
 	@echo formatted dhall files
 
 generate: SHELL:=/usr/bin/env bash
@@ -16,7 +16,7 @@ test-psc-package:
 	@psc-package install
 
 verify-registry:
-	@./verify-packages-in-registry.sh
+	@./verify-registry.sh
 
 ci: generate verify-registry test-psc-package
 	echo "Checking if packages.json has changed..."

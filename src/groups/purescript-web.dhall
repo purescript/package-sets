@@ -27,7 +27,7 @@
 , web-dom-xpath =
   { dependencies = [ "web-dom" ]
   , repo = "https://github.com/purescript-web/purescript-web-dom-xpath.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , web-encoding =
   { dependencies = [ "arraybuffer-types", "effect", "newtype", "prelude" ]
@@ -62,7 +62,7 @@
 , web-html =
   { dependencies = [ "js-date", "web-dom", "web-file", "web-storage" ]
   , repo = "https://github.com/purescript-web/purescript-web-html.git"
-  , version = "v3.0.1"
+  , version = "v3.2.0"
   }
 , web-promise =
   { dependencies =
@@ -74,7 +74,7 @@
     , "prelude"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-promise.git"
-  , version = "v2.0.1"
+  , version = "v2.1.0"
   }
 , web-socket =
   { dependencies = [ "arraybuffer-types", "web-file" ]
@@ -119,6 +119,6 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
-  , version = "v4.0.0"
+  , version = "v4.1.0"
   }
 }

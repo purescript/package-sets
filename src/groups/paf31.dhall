@@ -81,22 +81,6 @@
   , repo = "https://github.com/paf31/purescript-safely.git"
   , version = "v4.0.1"
   }
-, string-parsers =
-  { dependencies =
-    [ "arrays"
-    , "bifunctors"
-    , "control"
-    , "either"
-    , "foldable-traversable"
-    , "lists"
-    , "maybe"
-    , "prelude"
-    , "strings"
-    , "tailrec"
-    ]
-  , repo = "https://github.com/paf31/purescript-string-parsers.git"
-  , version = "v5.0.1"
-  }
 , thermite =
   { dependencies =
     [ "aff", "coroutines", "freet", "profunctor-lenses", "react" ]

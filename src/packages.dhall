@@ -5,6 +5,7 @@ let packages =
       ⫽ ./groups/ajnsit.dhall
       ⫽ ./groups/AlexaDeWit.dhall
       ⫽ ./groups/alvart.dhall
+      ⫽ ./groups/Forensor.dhall
       ⫽ ./groups/anttih.dhall
       ⫽ ./groups/artemisSystem.dhall
       ⫽ ./groups/athanclark.dhall
@@ -16,6 +17,7 @@ let packages =
       ⫽ ./groups/cdepillabout.dhall
       ⫽ ./groups/chekoopa.dhall
       ⫽ ./groups/citizennet.dhall
+      ⫽ ./groups/cirru.dhall
       ⫽ ./groups/collegevine.dhall
       ⫽ ./groups/cprussin.dhall
       ⫽ ./groups/csicar.dhall
@@ -26,6 +28,7 @@ let packages =
       ⫽ ./groups/dirkz.dhall
       ⫽ ./groups/dretch.dhall
       ⫽ ./groups/drewolson.dhall
+      ⫽ ./groups/easafe.dhall
       ⫽ ./groups/ebmtranceboy.dhall
       ⫽ ./groups/epicallan.dhall
       ⫽ ./groups/epicorange.dhall
@@ -74,6 +77,7 @@ let packages =
       ⫽ ./groups/mlang.dhall
       ⫽ ./groups/morganthomas.dhall
       ⫽ ./groups/mschristiansen.dhall
+      ⫽ ./groups/mushishi78.dhall
       ⫽ ./groups/mwalkerwells.dhall
       ⫽ ./groups/natefaubion.dhall
       ⫽ ./groups/newlandsvalley.dhall
@@ -88,15 +92,18 @@ let packages =
       ⫽ ./groups/paulyoung.dhall
       ⫽ ./groups/pelotom.dhall
       ⫽ ./groups/purefunctor.dhall
+      ⫽ ./groups/purescript-codegen.dhall
       ⫽ ./groups/purescript-concur.dhall
       ⫽ ./groups/purescript-contrib.dhall
       ⫽ ./groups/purescript-express.dhall
       ⫽ ./groups/purescript-freedom.dhall
       ⫽ ./groups/purescript-grain.dhall
+      ⫽ ./groups/purescript-graphqlclient.dhall
       ⫽ ./groups/purescript-halogen.dhall
       ⫽ ./groups/purescript-hyper.dhall
       ⫽ ./groups/purescript-node-contrib.dhall
       ⫽ ./groups/purescript-node.dhall
+      ⫽ ./groups/purescript-open-community.dhall
       ⫽ ./groups/purescript-polyform.dhall
       ⫽ ./groups/purescript-spec.dhall
       ⫽ ./groups/purescript-web.dhall
@@ -110,8 +117,8 @@ let packages =
       ⫽ ./groups/sigilion.dhall
       ⫽ ./groups/slamdata.dhall
       ⫽ ./groups/sodiumfrp.dhall
-      ⫽ ./groups/spacchetti.dhall
       ⫽ ./groups/spicydonuts.dhall
+      ⫽ ./groups/srghma.dhall
       ⫽ ./groups/thimoteus.dhall
       ⫽ ./groups/thomashoneyman.dhall
       ⫽ ./groups/thought2.dhall
@@ -119,7 +126,14 @@ let packages =
       ⫽ ./groups/unisay.dhall
       ⫽ ./groups/ursi.dhall
       ⫽ ./groups/vladciobanu.dhall
-      ⫽ ./groups/zaquest.dhall
+      ⫽ ./groups/waynevanson.dhall
       ⫽ ./groups/sigma-andex.dhall
+      ⫽ ./groups/connordillon.dhall
+      ⫽ ./groups/mateiadrielrafael.dhall
+      ⫽ ./groups/deadshot465.dhall
+      ⫽ ./groups/lfarroco.dhall
+      ⫽ ./groups/eugleo.dhall
+      ⫽ ./groups/eikooc.dhall
+      ⫽ ./groups/katsujukou.dhall
 
 in  packages

@@ -15,17 +15,29 @@
   , repo = "https://github.com/sharkdp/purescript-flare.git"
   , version = "v6.0.0"
   }
-, quantities =
-  { dependencies =
-    [ "lists", "foldable-traversable", "numbers", "pairs", "decimals" ]
-  , repo = "https://github.com/sharkdp/purescript-quantities.git"
-  , version = "v10.0.0"
-  }
 -}
-{ bigints =
+{ quantities =
+  { dependencies =
+    [ "decimals"
+    , "either"
+    , "foldable-traversable"
+    , "lists"
+    , "math"
+    , "maybe"
+    , "newtype"
+    , "nonempty"
+    , "numbers"
+    , "pairs"
+    , "prelude"
+    , "tuples"
+    ]
+  , repo = "https://github.com/sharkdp/purescript-quantities.git"
+  , version = "v11.0.0"
+  }
+, bigints =
   { dependencies = [ "integers", "maybe", "strings" ]
   , repo = "https://github.com/sharkdp/purescript-bigints.git"
-  , version = "v5.0.0"
+  , version = "v6.0.0"
   }
 , colors =
   { dependencies = [ "arrays", "integers", "lists", "partial", "strings" ]
@@ -54,6 +66,6 @@
   { dependencies =
     [ "console", "distributive", "foldable-traversable", "quickcheck" ]
   , repo = "https://github.com/sharkdp/purescript-pairs.git"
-  , version = "v7.0.0"
+  , version = "v8.0.0"
   }
 }

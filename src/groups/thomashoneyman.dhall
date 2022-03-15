@@ -1,19 +1,48 @@
-{-
-, halogen-formless =
+{ halogen-formless =
   { dependencies =
-    [ "halogen"
-    , "variant"
+    [ "convertable-options"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "halogen"
     , "heterogeneous"
-    , "profunctor-lenses"
+    , "maybe"
+    , "prelude"
+    , "record"
+    , "safe-coerce"
+    , "type-equality"
+    , "unsafe-coerce"
+    , "unsafe-reference"
+    , "variant"
+    , "web-events"
+    , "web-uievents"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-  , version = "v1.0.0"
+  , version = "v3.0.0"
   }
--}
-{ halogen-hooks =
+, halogen-hooks =
   { dependencies = [ "halogen" ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-hooks.git"
   , version = "v0.5.0"
+  }
+, halogen-store =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foldable-traversable"
+    , "halogen"
+    , "halogen-hooks"
+    , "halogen-subscriptions"
+    , "maybe"
+    , "prelude"
+    , "refs"
+    , "transformers"
+    , "unsafe-coerce"
+    , "unsafe-reference"
+    ]
+  , repo = "https://github.com/thomashoneyman/purescript-halogen-store.git"
+  , version = "v0.2.1"
   }
 , slug =
   { dependencies =

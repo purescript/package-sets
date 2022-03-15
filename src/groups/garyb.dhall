@@ -6,7 +6,7 @@
 , codec =
   { dependencies = [ "transformers", "profunctor" ]
   , repo = "https://github.com/garyb/purescript-codec.git"
-  , version = "v4.0.0"
+  , version = "v4.0.1"
   }
 , debug =
   { dependencies = [ "prelude", "functions" ]
