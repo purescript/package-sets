@@ -322,12 +322,13 @@
     , "lists"
     , "maybe"
     , "prelude"
+    , "record"
     , "strings"
     , "transformers"
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "v8.3.0"
+  , version = "v8.4.0"
   }
 , pathy =
   { dependencies =
