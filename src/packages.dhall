@@ -134,5 +134,6 @@
       ⫽ ./groups/eugleo.dhall
       ⫽ ./groups/eikooc.dhall
       ⫽ ./groups/katsujukou.dhall
+      ⫽ ./groups/tweag.dhall
 -}
 let packages = ./groups/purescript.dhall in packages
