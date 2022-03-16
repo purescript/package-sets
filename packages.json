@@ -4899,6 +4899,24 @@
     "repo": "https://github.com/purescript-contrib/purescript-unicode.git",
     "version": "v5.0.1"
   },
+  "unlift": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "either",
+      "freet",
+      "identity",
+      "lists",
+      "maybe",
+      "monad-control",
+      "prelude",
+      "st",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/tweag/purescript-unlift.git",
+    "version": "v1.0.1"
+  },
   "unordered-collections": {
     "dependencies": [
       "arrays",
