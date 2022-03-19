@@ -387,46 +387,6 @@
     "repo": "https://github.com/athanclark/purescript-bip39.git",
     "version": "v1.0.1"
   },
-  "biscotti-cookie": {
-    "dependencies": [
-      "datetime",
-      "effect",
-      "either",
-      "foldable-traversable",
-      "formatters",
-      "gen",
-      "newtype",
-      "now",
-      "prelude",
-      "profunctor-lenses",
-      "psci-support",
-      "quickcheck",
-      "record",
-      "string-parsers",
-      "strings",
-      "test-unit"
-    ],
-    "repo": "https://github.com/drewolson/purescript-biscotti-cookie.git",
-    "version": "v0.3.0"
-  },
-  "biscotti-session": {
-    "dependencies": [
-      "aff",
-      "argonaut",
-      "biscotti-cookie",
-      "effect",
-      "newtype",
-      "ordered-collections",
-      "prelude",
-      "profunctor-lenses",
-      "psci-support",
-      "refs",
-      "test-unit",
-      "uuid"
-    ],
-    "repo": "https://github.com/drewolson/purescript-biscotti-session.git",
-    "version": "v0.2.0"
-  },
   "bower-json": {
     "dependencies": [
       "argonaut-codecs",
@@ -1229,7 +1189,7 @@
       "transformers"
     ],
     "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "encoding": {
     "dependencies": [
@@ -1769,59 +1729,6 @@
     "repo": "https://github.com/purescript-grain/purescript-grain-virtualized.git",
     "version": "v2.0.0"
   },
-  "graphql-client": {
-    "dependencies": [
-      "aff",
-      "aff-promise",
-      "affjax",
-      "argonaut-codecs",
-      "argonaut-core",
-      "arrays",
-      "bifunctors",
-      "control",
-      "datetime",
-      "effect",
-      "either",
-      "enums",
-      "exceptions",
-      "foldable-traversable",
-      "foreign",
-      "foreign-generic",
-      "foreign-object",
-      "functions",
-      "halogen-subscriptions",
-      "heterogeneous",
-      "http-methods",
-      "integers",
-      "lists",
-      "maybe",
-      "media-types",
-      "newtype",
-      "node-buffer",
-      "node-fs",
-      "nullable",
-      "numbers",
-      "ordered-collections",
-      "parsing",
-      "prelude",
-      "profunctor",
-      "profunctor-lenses",
-      "psci-support",
-      "quickcheck",
-      "record",
-      "spec",
-      "spec-discovery",
-      "string-parsers",
-      "strings",
-      "strings-extra",
-      "transformers",
-      "tuples",
-      "typelevel-prelude",
-      "unicode"
-    ],
-    "repo": "https://github.com/OxfordAbstracts/purescript-graphql-client.git",
-    "version": "v7.0.0"
-  },
   "graphqlclient": {
     "dependencies": [
       "aff",
@@ -2155,25 +2062,6 @@
     "repo": "https://github.com/cprussin/purescript-httpure.git",
     "version": "v0.14.0"
   },
-  "httpure-contrib-biscotti": {
-    "dependencies": [
-      "aff",
-      "argonaut",
-      "biscotti-cookie",
-      "biscotti-session",
-      "effect",
-      "either",
-      "httpure",
-      "maybe",
-      "profunctor-lenses",
-      "psci-support",
-      "test-unit",
-      "tuples",
-      "type-equality"
-    ],
-    "repo": "https://github.com/drewolson/purescript-httpure-contrib-biscotti.git",
-    "version": "v0.2.0"
-  },
   "identity": {
     "dependencies": [
       "control",
@@ -2468,18 +2356,6 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-metadata.git",
     "version": "v0.14.7"
-  },
-  "midi": {
-    "dependencies": [
-      "effect",
-      "integers",
-      "lists",
-      "prelude",
-      "signal",
-      "string-parsers"
-    ],
-    "repo": "https://github.com/newlandsvalley/purescript-midi.git",
-    "version": "v3.0.0"
   },
   "milkis": {
     "dependencies": [
@@ -4322,21 +4198,6 @@
     ],
     "repo": "https://github.com/SodiumFRP/purescript-sodium.git",
     "version": "v2.1.0"
-  },
-  "soundfonts": {
-    "dependencies": [
-      "affjax",
-      "argonaut-core",
-      "b64",
-      "console",
-      "effect",
-      "http-methods",
-      "midi",
-      "parallel",
-      "prelude"
-    ],
-    "repo": "https://github.com/newlandsvalley/purescript-soundfonts.git",
-    "version": "v3.2.0"
   },
   "sparse-matrices": {
     "dependencies": [
