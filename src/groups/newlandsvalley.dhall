@@ -24,4 +24,25 @@
   , repo = "https://github.com/newlandsvalley/purescript-js-fileio.git"
   , version = "v2.2.0"
   }
+, midi =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "signal"
+    , "string-parsers"
+    , "strings"
+    , "tuples"
+    , "unfoldable"
+    ]
+  , repo = "https://github.com/newlandsvalley/purescript-midi.git"
+  , version = "v3.1.0"
+  }
 }
