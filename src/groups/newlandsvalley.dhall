@@ -24,25 +24,4 @@
   , repo = "https://github.com/newlandsvalley/purescript-js-fileio.git"
   , version = "v2.2.0"
   }
-, midi =
-  { dependencies =
-    [ "effect", "integers", "lists", "prelude", "signal", "string-parsers" ]
-  , repo = "https://github.com/newlandsvalley/purescript-midi.git"
-  , version = "v3.0.0"
-  }
-, soundfonts =
-  { dependencies =
-    [ "affjax"
-    , "argonaut-core"
-    , "b64"
-    , "console"
-    , "effect"
-    , "http-methods"
-    , "midi"
-    , "parallel"
-    , "prelude"
-    ]
-  , repo = "https://github.com/newlandsvalley/purescript-soundfonts.git"
-  , version = "v3.2.0"
-  }
 }

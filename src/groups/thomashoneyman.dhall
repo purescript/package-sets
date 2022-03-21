@@ -29,20 +29,24 @@
 , halogen-store =
   { dependencies =
     [ "aff"
+    , "distributive"
     , "effect"
     , "foldable-traversable"
+    , "fork"
     , "halogen"
     , "halogen-hooks"
     , "halogen-subscriptions"
     , "maybe"
     , "prelude"
     , "refs"
+    , "tailrec"
     , "transformers"
+    , "tuples"
     , "unsafe-coerce"
     , "unsafe-reference"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-store.git"
-  , version = "v0.2.1"
+  , version = "v0.4.1"
   }
 , slug =
   { dependencies =
