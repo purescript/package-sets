@@ -2357,6 +2357,27 @@
     "repo": "https://github.com/purescript/purescript-metadata.git",
     "version": "v0.14.7"
   },
+  "midi": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "integers",
+      "lists",
+      "maybe",
+      "ordered-collections",
+      "prelude",
+      "signal",
+      "string-parsers",
+      "strings",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-midi.git",
+    "version": "v3.1.0"
+  },
   "milkis": {
     "dependencies": [
       "aff-promise",
