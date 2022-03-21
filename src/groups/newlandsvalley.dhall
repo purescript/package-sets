@@ -45,4 +45,35 @@
   , repo = "https://github.com/newlandsvalley/purescript-midi.git"
   , version = "v3.1.0"
   }
+, soundfonts =
+  { dependencies =
+    [ "aff"
+    , "affjax"
+    , "argonaut-core"
+    , "arraybuffer-types"
+    , "arrays"
+    , "b64"
+    , "bifunctors"
+    , "console"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "http-methods"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "midi"
+    , "ordered-collections"
+    , "parallel"
+    , "partial"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/newlandsvalley/purescript-soundfonts.git"
+  , version = "v3.3.0"
+  }
 }
