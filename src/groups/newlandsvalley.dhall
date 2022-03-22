@@ -26,23 +26,54 @@
   }
 , midi =
   { dependencies =
-    [ "effect", "integers", "lists", "prelude", "signal", "string-parsers" ]
+    [ "arrays"
+    , "control"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "signal"
+    , "string-parsers"
+    , "strings"
+    , "tuples"
+    , "unfoldable"
+    ]
   , repo = "https://github.com/newlandsvalley/purescript-midi.git"
-  , version = "v3.0.0"
+  , version = "v3.1.0"
   }
 , soundfonts =
   { dependencies =
-    [ "affjax"
+    [ "aff"
+    , "affjax"
     , "argonaut-core"
+    , "arraybuffer-types"
+    , "arrays"
     , "b64"
+    , "bifunctors"
     , "console"
     , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign-object"
     , "http-methods"
+    , "integers"
+    , "lists"
+    , "maybe"
     , "midi"
+    , "ordered-collections"
     , "parallel"
+    , "partial"
     , "prelude"
+    , "strings"
+    , "transformers"
+    , "tuples"
     ]
   , repo = "https://github.com/newlandsvalley/purescript-soundfonts.git"
-  , version = "v3.2.0"
+  , version = "v3.3.0"
   }
 }
