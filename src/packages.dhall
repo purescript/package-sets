@@ -81,7 +81,6 @@
       ⫽ ./groups/natefaubion.dhall
       ⫽ ./groups/newlandsvalley.dhall
       ⫽ ./groups/nsaunders.dhall
-      ⫽ ./groups/nwolverson.dhall
       ⫽ ./groups/openchronology.dhall
       ⫽ ./groups/oreshinya.dhall
       ⫽ ./groups/oxford-abstracts.dhall
@@ -138,5 +137,5 @@ let packages =
       //  ./groups/purescript-contrib.dhall
       //  ./groups/purescript-node.dhall
       //  ./groups/purescript-web.dhall
-
+      ⫽ ./groups/nwolverson.dhall
 in  packages

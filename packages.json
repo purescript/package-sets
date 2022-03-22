@@ -54,6 +54,14 @@
     "repo": "https://github.com/purescript-contrib/purescript-aff-coroutines.git",
     "version": "main"
   },
+  "aff-promise": {
+    "dependencies": [
+      "aff",
+      "foreign"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
+    "version": "master"
+  },
   "affjax": {
     "dependencies": [
       "aff",
