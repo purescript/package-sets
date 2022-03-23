@@ -9,6 +9,16 @@
   , repo = "https://github.com/athanclark/purescript-tuples-native.git"
   , version = "v2.1.0"
   }
+, queue =
+  { dependencies = [ "refs", "aff", "foreign-object", "avar" ]
+  , repo = "https://github.com/athanclark/purescript-queue.git"
+  , version = "v8.0.2"
+  }
+, react-queue =
+  { dependencies = [ "exceptions", "queue", "react", "zeta" ]
+  , repo = "https://github.com/athanclark/purescript-react-queue.git"
+  , version = "v1.3.2"
+  }
 , websocket-moderate =
   { dependencies =
     [ "argonaut"
@@ -61,6 +71,16 @@
   , repo = "https://github.com/athanclark/purescript-uint-instances.git"
   , version = "v0.0.2"
   }
+, zeta =
+  { dependencies = [ "refs", "aff", "foreign-object", "arrays" ]
+  , repo = "https://github.com/athanclark/purescript-zeta.git"
+  , version = "v6.0.0"
+  }
+, zeta-extra =
+  { dependencies = [ "js-timers", "web-html", "zeta" ]
+  , repo = "https://github.com/athanclark/purescript-zeta-extra.git"
+  , version = "v0.0.1"
+  }
 -}
 { abides =
   { dependencies = [ "enums", "foldable-traversable" ]
@@ -92,20 +112,10 @@
   , repo = "https://github.com/athanclark/purescript-unorm.git"
   , version = "v1.0.1"
   }
-, queue =
-  { dependencies = [ "refs", "aff", "foreign-object", "avar" ]
-  , repo = "https://github.com/athanclark/purescript-queue.git"
-  , version = "v8.0.2"
-  }
 , quickcheck-combinators =
   { dependencies = [ "quickcheck", "typelevel" ]
   , repo = "https://github.com/athanclark/purescript-quickcheck-combinators.git"
   , version = "v0.1.3"
-  }
-, react-queue =
-  { dependencies = [ "exceptions", "queue", "react", "zeta" ]
-  , repo = "https://github.com/athanclark/purescript-react-queue.git"
-  , version = "v1.3.2"
   }
 , row-extra =
   { dependencies = [] : List Text
@@ -131,15 +141,5 @@
   { dependencies = [ "thermite", "react", "react-dom", "web-html" ]
   , repo = "https://github.com/athanclark/purescript-thermite-dom.git"
   , version = "v0.3.1"
-  }
-, zeta =
-  { dependencies = [ "refs", "aff", "foreign-object", "arrays" ]
-  , repo = "https://github.com/athanclark/purescript-zeta.git"
-  , version = "v6.0.0"
-  }
-, zeta-extra =
-  { dependencies = [ "js-timers", "web-html", "zeta" ]
-  , repo = "https://github.com/athanclark/purescript-zeta-extra.git"
-  , version = "v0.0.1"
   }
 }
