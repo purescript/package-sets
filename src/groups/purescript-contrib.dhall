@@ -334,8 +334,8 @@
     , "transformers"
     , "unicode"
     ]
-  , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "main"
+  , repo = "https://github.com/JordanMartinez/purescript-parsing.git"
+  , version = "0.15.0-placeholder"
   }
 , pathy =
   { dependencies =
@@ -456,7 +456,7 @@
     , "tailrec"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-string-parsers.git"
-  , version = "main"
+  , version = "trh/fix-infix"
   }
 , strings-extra =
   { dependencies =
