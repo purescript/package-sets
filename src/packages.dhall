@@ -1,4 +1,9 @@
-{-
+let packages =
+        ./groups/purescript.dhall
+      ⫽ ./groups/purescript-contrib.dhall
+      ⫽ ./groups/purescript-node.dhall
+      ⫽ ./groups/purescript-web.dhall
+      ⫽ ./groups/nwolverson.dhall
       ⫽ ./groups/acple.dhall
       ⫽ ./groups/ad-si.dhall
       ⫽ ./groups/ajnsit.dhall
@@ -131,12 +136,5 @@
       ⫽ ./groups/eikooc.dhall
       ⫽ ./groups/katsujukou.dhall
       ⫽ ./groups/tweag.dhall
--}
-let packages =
-        ./groups/purescript.dhall
-      ⫽ ./groups/purescript-contrib.dhall
-      ⫽ ./groups/purescript-node.dhall
-      ⫽ ./groups/purescript-web.dhall
-      ⫽ ./groups/nwolverson.dhall
 
 in  packages
