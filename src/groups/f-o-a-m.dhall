@@ -13,7 +13,6 @@
     , "node-process"
     , "free"
     , "quickcheck"
-    , "spec"
     , "aff"
     , "bifunctors"
     , "control"

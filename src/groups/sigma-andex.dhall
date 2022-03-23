@@ -6,8 +6,6 @@
     , "heterogeneous"
     , "profunctor-lenses"
     , "psci-support"
-    , "spec"
-    , "spec-discovery"
     , "strings"
     , "validation"
     ]

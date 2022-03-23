@@ -8,7 +8,6 @@
     , "prelude"
     , "psci-support"
     , "random"
-    , "spec"
     , "strings"
     , "stringutils"
     ]

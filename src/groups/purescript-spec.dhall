@@ -1,4 +1,4 @@
-{ spec =
+{- spec =
   { dependencies =
     [ "aff"
     , "ansi"
@@ -31,4 +31,5 @@
   , repo = "https://github.com/purescript-spec/purescript-spec-mocha.git"
   , version = "v4.0.0"
   }
-}
+-}
+{=}

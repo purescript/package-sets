@@ -77,7 +77,7 @@ react-testing-library =
   }
 -}
 { justifill =
-  { dependencies = [ "record", "spec", "typelevel-prelude" ]
+  { dependencies = [ "record", "typelevel-prelude" ]
   , repo = "https://github.com/i-am-the-slime/purescript-justifill.git"
   , version = "v0.2.1"
   }
