@@ -64,6 +64,12 @@ foreign-generic =
   , repo = "https://github.com/paf31/purescript-foreign-generic.git"
   , version = "v11.0.0"
   }
+, yargs =
+  { dependencies =
+    [ "console", "either", "exceptions", "foreign", "unsafe-coerce" ]
+  , repo = "https://github.com/paf31/purescript-yargs.git"
+  , version = "v4.0.0"
+  }
 -}
 { drawing =
   { dependencies =
@@ -86,11 +92,5 @@ foreign-generic =
     [ "aff", "coroutines", "freet", "profunctor-lenses", "react" ]
   , repo = "https://github.com/paf31/purescript-thermite.git"
   , version = "v6.3.1"
-  }
-, yargs =
-  { dependencies =
-    [ "console", "either", "exceptions", "foreign", "unsafe-coerce" ]
-  , repo = "https://github.com/paf31/purescript-yargs.git"
-  , version = "v4.0.0"
   }
 }

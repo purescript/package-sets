@@ -1,4 +1,4 @@
-{ elmish =
+{- elmish =
   { dependencies =
     [ "aff"
     , "argonaut-core"
@@ -66,4 +66,5 @@
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
   , version = "v0.3.1"
   }
-}
+-}
+{=}

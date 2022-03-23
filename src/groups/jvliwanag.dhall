@@ -1,4 +1,5 @@
-{ literals =
+{-
+literals =
   { dependencies =
     [ "assert"
     , "effect"
@@ -13,7 +14,7 @@
   , repo = "https://github.com/jvliwanag/purescript-literals.git"
   , version = "v0.2.0"
   }
-, untagged-union =
+untagged-union =
   { dependencies =
     [ "assert"
     , "console"
@@ -30,7 +31,8 @@
   , repo = "https://github.com/jvliwanag/purescript-untagged-union.git"
   , version = "v0.3.0"
   }
-, strictlypositiveint =
+-}
+{ strictlypositiveint =
   { repo = "https://github.com/jamieyung/purescript-strictlypositiveint.git"
   , version = "v1.0.1"
   , dependencies = [ "prelude" ]

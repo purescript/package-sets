@@ -17,13 +17,6 @@
   , repo = "https://github.com/nsaunders/purescript-typedenv.git"
   , version = "v1.0.0"
   }
--}
-{ dotenv =
-  { dependencies =
-    [ "node-fs-aff", "node-process", "parsing", "prelude", "run", "sunde" ]
-  , repo = "https://github.com/nsaunders/purescript-dotenv.git"
-  , version = "v2.0.0"
-  }
 , web-resize-observer =
   { dependencies =
     [ "arrays"
@@ -38,4 +31,11 @@
   , repo = "https://github.com/nsaunders/purescript-web-resize-observer.git"
   , version = "v1.0.0"
   }
-}
+, dotenv =
+  { dependencies =
+    [ "node-fs-aff", "node-process", "parsing", "prelude", "run", "sunde" ]
+  , repo = "https://github.com/nsaunders/purescript-dotenv.git"
+  , version = "v2.0.0"
+  }
+-}
+{=}

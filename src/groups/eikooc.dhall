@@ -1,4 +1,4 @@
-{ nano-id =
+{- nano-id =
   { dependencies =
     [ "aff"
     , "console"
@@ -14,4 +14,5 @@
   , repo = "https://github.com/eikooc/nano-id.git"
   , version = "v1.0.0"
   }
-}
+-}
+{=}

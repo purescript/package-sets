@@ -1,4 +1,4 @@
-{ gl-matrix =
+{- gl-matrix =
   { dependencies =
     [ "arrays"
     , "effect"
@@ -29,4 +29,5 @@
   , repo = "https://github.com/dirkz/purescript-web-speech.git"
   , version = "v0.2.0"
   }
-}
+-}
+{=}

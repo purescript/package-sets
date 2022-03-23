@@ -1,4 +1,5 @@
-{ bytestrings =
+{-
+bytestrings =
   { dependencies =
     [ "arrays"
     , "effect"
@@ -17,7 +18,8 @@
   , repo = "https://github.com/rightfold/purescript-bytestrings.git"
   , version = "v8.0.0"
   }
-, logging =
+-}
+{ logging =
   { dependencies =
     [ "prelude"
     , "contravariant"

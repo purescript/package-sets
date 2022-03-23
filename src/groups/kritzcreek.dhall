@@ -1,8 +1,4 @@
-{ matrices =
-  { dependencies = [ "arrays", "strings" ]
-  , repo = "https://github.com/kRITZCREEK/purescript-matrices.git"
-  , version = "v5.0.1"
-  }
+{-
 , dynamic-buffer =
   { dependencies = [ "arraybuffer-types", "effect", "refs" ]
   , repo = "https://github.com/kritzcreek/purescript-dynamic-buffer.git"
@@ -22,5 +18,11 @@
     ]
   , repo = "https://github.com/kRITZCREEK/purescript-psc-ide.git"
   , version = "v18.0.0"
+  }
+-}
+{ matrices =
+  { dependencies = [ "arrays", "strings" ]
+  , repo = "https://github.com/kRITZCREEK/purescript-matrices.git"
+  , version = "v5.0.1"
   }
 }

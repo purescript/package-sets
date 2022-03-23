@@ -1,8 +1,4 @@
-{ url-regex-safe =
-  { dependencies = [ "console", "effect", "psci-support", "strings", "prelude" ]
-  , repo = "https://github.com/srghma/purescript-url-regex-safe.git"
-  , version = "v0.1.0"
-  }
+{-
 , record-extra-srghma =
   { dependencies =
     [ "record"
@@ -23,6 +19,11 @@
     , "tuples"
     ]
   , repo = "https://github.com/srghma/purescript-record-extra-srghma.git"
+  , version = "v0.1.0"
+  }
+, url-regex-safe =
+  { dependencies = [ "console", "effect", "psci-support", "strings", "prelude" ]
+  , repo = "https://github.com/srghma/purescript-url-regex-safe.git"
   , version = "v0.1.0"
   }
 , envparse =
@@ -54,4 +55,5 @@
   , repo = "https://github.com/srghma/purescript-envparse.git"
   , version = "v1.0.1"
   }
-}
+-}
+{=}

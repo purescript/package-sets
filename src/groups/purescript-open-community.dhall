@@ -1,3 +1,20 @@
+{-
+, open-mkdirp-aff =
+  { dependencies =
+    [ "aff"
+    , "console"
+    , "effect"
+    , "exceptions"
+    , "node-fs-aff"
+    , "node-path"
+    , "prelude"
+    , "psci-support"
+    ]
+  , repo =
+      "https://github.com/purescript-open-community/purescript-open-mkdirp-aff.git"
+  , version = "v1.1.0"
+  }
+-}
 { open-memoize =
   { dependencies =
     [ "console"
@@ -58,20 +75,5 @@
   , repo =
       "https://github.com/purescript-open-community/purescript-open-folds.git"
   , version = "v6.3.0"
-  }
-, open-mkdirp-aff =
-  { dependencies =
-    [ "aff"
-    , "console"
-    , "effect"
-    , "exceptions"
-    , "node-fs-aff"
-    , "node-path"
-    , "prelude"
-    , "psci-support"
-    ]
-  , repo =
-      "https://github.com/purescript-open-community/purescript-open-mkdirp-aff.git"
-  , version = "v1.1.0"
   }
 }

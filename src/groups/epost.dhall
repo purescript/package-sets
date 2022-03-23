@@ -1,4 +1,4 @@
-{ node-postgres =
+{- node-postgres =
   { dependencies =
     [ "aff"
     , "arrays"
@@ -15,4 +15,5 @@
   , repo = "https://github.com/epost/purescript-node-postgres.git"
   , version = "v5.0.0"
   }
-}
+-}
+{=}

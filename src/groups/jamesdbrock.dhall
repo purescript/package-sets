@@ -43,8 +43,7 @@
   , repo = "https://github.com/zapph/purescript-longs.git"
   , version = "v0.1.1"
   }
--}
-{ parsing-dataview =
+parsing-dataview =
   { dependencies =
     [ "effect"
     , "arraybuffer-types"
@@ -60,7 +59,8 @@
   , repo = "https://github.com/jamesdbrock/purescript-parsing-dataview.git"
   , version = "v2.1.0"
   }
-, arraybuffer-builder =
+-}
+{ arraybuffer-builder =
   { dependencies =
     [ "effect"
     , "arraybuffer-types"

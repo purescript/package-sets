@@ -1,4 +1,4 @@
-{ halogen-router =
+{- halogen-router =
   { dependencies =
     [ "aff"
     , "effect"
@@ -19,4 +19,5 @@
   , repo = "https://github.com/katsujukou/purescript-halogen-router.git"
   , version = "v0.1.0"
   }
-}
+-}
+{=}

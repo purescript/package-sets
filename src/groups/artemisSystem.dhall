@@ -1,15 +1,5 @@
-{ polymorphic-vectors =
-  { dependencies =
-    [ "distributive"
-    , "foldable-traversable"
-    , "math"
-    , "prelude"
-    , "record"
-    , "typelevel-prelude"
-    ]
-  , repo = "https://github.com/artemisSystem/purescript-polymorphic-vectors.git"
-  , version = "v3.0.0"
-  }
+{-
+
 , canvas-action =
   { dependencies =
     [ "aff"
@@ -38,5 +28,18 @@
     ]
   , repo = "https://github.com/artemisSystem/purescript-canvas-action.git"
   , version = "v8.0.0"
+  }
+-}
+{ polymorphic-vectors =
+  { dependencies =
+    [ "distributive"
+    , "foldable-traversable"
+    , "math"
+    , "prelude"
+    , "record"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/artemisSystem/purescript-polymorphic-vectors.git"
+  , version = "v3.0.0"
   }
 }

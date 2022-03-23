@@ -1,4 +1,4 @@
-{ dexie =
+{- dexie =
   { dependencies =
     [ "aff"
     , "control"
@@ -17,4 +17,5 @@
   , repo = "https://github.com/mushishi78/purescript-dexie.git"
   , version = "v0.3.0"
   }
-}
+-}
+{=}

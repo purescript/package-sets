@@ -85,36 +85,20 @@
   , repo = "https://github.com/athanclark/purescript-zeta-extra.git"
   , version = "v0.0.1"
   }
--}
-{ bip39 =
+bip39 =
   { dependencies = [ "arraybuffer-types", "nullable" ]
   , repo = "https://github.com/athanclark/purescript-bip39.git"
   , version = "v1.0.1"
   }
-, inflection =
+inflection =
   { dependencies = [ "functions" ]
   , repo = "https://github.com/athanclark/purescript-inflection.git"
   , version = "v1.0.1"
   }
-, monad-control =
-  { dependencies = [ "aff", "freet", "identity", "lists" ]
-  , repo = "https://github.com/athanclark/purescript-monad-control.git"
-  , version = "v5.0.0"
-  }
-, monad-unlift =
-  { dependencies = [ "monad-control" ]
-  , repo = "https://github.com/athanclark/purescript-monad-unlift.git"
-  , version = "v1.0.1"
-  }
-, unorm =
-  { dependencies = [] : List Text
-  , repo = "https://github.com/athanclark/purescript-unorm.git"
-  , version = "v1.0.1"
-  }
-, quickcheck-combinators =
-  { dependencies = [ "quickcheck", "typelevel" ]
-  , repo = "https://github.com/athanclark/purescript-quickcheck-combinators.git"
-  , version = "v0.1.3"
+, subtlecrypto =
+  { dependencies = [ "aff", "arraybuffer-types", "foreign", "promises" ]
+  , repo = "https://github.com/athanclark/purescript-subtlecrypto.git"
+  , version = "v0.0.1"
   }
 , row-extra =
   { dependencies = [] : List Text
@@ -131,10 +115,26 @@
   , repo = "https://github.com/athanclark/purescript-setimmediate.git"
   , version = "v1.0.2"
   }
-, subtlecrypto =
-  { dependencies = [ "aff", "arraybuffer-types", "foreign", "promises" ]
-  , repo = "https://github.com/athanclark/purescript-subtlecrypto.git"
-  , version = "v0.0.1"
+, unorm =
+  { dependencies = [] : List Text
+  , repo = "https://github.com/athanclark/purescript-unorm.git"
+  , version = "v1.0.1"
+  }
+-}
+{ monad-control =
+  { dependencies = [ "aff", "freet", "identity", "lists" ]
+  , repo = "https://github.com/athanclark/purescript-monad-control.git"
+  , version = "v5.0.0"
+  }
+, monad-unlift =
+  { dependencies = [ "monad-control" ]
+  , repo = "https://github.com/athanclark/purescript-monad-unlift.git"
+  , version = "v1.0.1"
+  }
+, quickcheck-combinators =
+  { dependencies = [ "quickcheck", "typelevel" ]
+  , repo = "https://github.com/athanclark/purescript-quickcheck-combinators.git"
+  , version = "v0.1.3"
   }
 , thermite-dom =
   { dependencies = [ "thermite", "react", "react-dom", "web-html" ]

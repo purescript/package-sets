@@ -40,8 +40,7 @@
   , repo = "https://github.com/paluh/purescript-pointed-list.git"
   , version = "v0.4.0"
   }
--}
-{ homogeneous =
+homogeneous =
   { dependencies =
     [ "assert"
     , "console"
@@ -74,4 +73,5 @@
   , repo = "https://github.com/paluh/purescript-undefined-is-not-a-problem.git"
   , version = "v0.2.1"
   }
-}
+-}
+{=}

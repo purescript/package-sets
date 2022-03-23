@@ -1,3 +1,10 @@
+{-
+, halogen-select =
+  { dependencies = [ "halogen", "record" ]
+  , repo = "https://github.com/citizennet/purescript-halogen-select.git"
+  , version = "v6.0.0"
+  }
+-}
 { fuzzy =
   { dependencies =
     [ "foldable-traversable"
@@ -11,10 +18,5 @@
     ]
   , repo = "https://github.com/citizennet/purescript-fuzzy.git"
   , version = "v0.4.0"
-  }
-, halogen-select =
-  { dependencies = [ "halogen", "record" ]
-  , repo = "https://github.com/citizennet/purescript-halogen-select.git"
-  , version = "v6.0.0"
   }
 }
