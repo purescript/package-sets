@@ -39,7 +39,7 @@
   , repo = "https://github.com/oreshinya/purescript-nodemailer.git"
   , version = "v3.0.0"
   }
-, 
+,
 -}
 { simple-emitter =
   { dependencies = [ "ordered-collections", "refs" ]
