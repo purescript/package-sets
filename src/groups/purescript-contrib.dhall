@@ -334,7 +334,7 @@
     , "transformers"
     , "unicode"
     ]
-  , repo = "https://github.com/JordanMartinez/purescript-parsing.git"
+  , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
   , version = "0.15.0-placeholder"
   }
 , pathy =
