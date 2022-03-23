@@ -1,35 +1,3 @@
-{-
-, css =
-  { dependencies =
-    [ "colors"
-    , "console"
-    , "effect"
-    , "nonempty"
-    , "profunctor"
-    , "strings"
-    , "these"
-    , "transformers"
-    ]
-  , repo = "https://github.com/purescript-contrib/purescript-css.git"
-  , version = "main"
-  }
-, github-actions-toolkit =
-  { dependencies =
-    [ "aff"
-    , "aff-promise"
-    , "effect"
-    , "foreign-object"
-    , "node-buffer"
-    , "node-path"
-    , "node-streams"
-    , "nullable"
-    , "transformers"
-    ]
-  , repo =
-      "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git"
-  , version = "main"
-  }
--}
 { ace =
   { dependencies =
     [ "arrays"
@@ -198,6 +166,20 @@
   , repo = "https://github.com/purescript-contrib/purescript-coroutines.git"
   , version = "main"
   }
+, css =
+  { dependencies =
+    [ "colors"
+    , "console"
+    , "effect"
+    , "nonempty"
+    , "profunctor"
+    , "strings"
+    , "these"
+    , "transformers"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-css.git"
+  , version = "main"
+  }
 , fixed-points =
   { dependencies = [ "exists", "newtype", "prelude", "transformers" ]
   , repo = "https://github.com/purescript-contrib/purescript-fixed-points.git"
@@ -254,6 +236,22 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-freet.git"
+  , version = "main"
+  }
+, github-actions-toolkit =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "effect"
+    , "foreign-object"
+    , "node-buffer"
+    , "node-path"
+    , "node-streams"
+    , "nullable"
+    , "transformers"
+    ]
+  , repo =
+      "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git"
   , version = "main"
   }
 , http-methods =
