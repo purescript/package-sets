@@ -182,6 +182,11 @@
   , repo = "https://github.com/purescript-contrib/purescript-avar.git"
   , version = "main"
   }
+, colors =
+  { dependencies = [ "arrays", "integers", "lists", "partial", "strings" ]
+  , repo = "https://github.com/purescript-contrib/purescript-colors.git"
+  , version = "main"
+  }
 , concurrent-queues =
   { dependencies = [ "aff", "avar", "effect" ]
   , repo =
