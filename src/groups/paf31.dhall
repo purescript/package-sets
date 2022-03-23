@@ -51,8 +51,7 @@
   , repo = "https://github.com/paf31/purescript-pairing.git"
   , version = "v5.1.0"
   }
--}
-{ foreign-generic =
+foreign-generic =
   { dependencies =
     [ "effect"
     , "exceptions"
@@ -65,7 +64,8 @@
   , repo = "https://github.com/paf31/purescript-foreign-generic.git"
   , version = "v11.0.0"
   }
-, drawing =
+-}
+{ drawing =
   { dependencies =
     [ "canvas", "colors", "integers", "lists", "math", "prelude" ]
   , repo = "https://github.com/paf31/purescript-drawing.git"

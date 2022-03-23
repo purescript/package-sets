@@ -1,4 +1,4 @@
-{ express =
+{- express =
   { dependencies =
     [ "aff"
     , "arrays"
@@ -21,4 +21,5 @@
   , repo = "https://github.com/purescript-express/purescript-express.git"
   , version = "v0.9.0"
   }
-}
+-}
+{=}
