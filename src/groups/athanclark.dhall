@@ -1,4 +1,8 @@
-{-
+{- abides =
+  { dependencies = [ "enums", "foldable-traversable" ]
+  , repo = "https://github.com/athanclark/purescript-abides.git"
+  , version = "v0.0.1"
+  }
 , byte-codec =
   { dependencies = [ "integers", "sized-vectors" ]
   , repo = "https://github.com/athanclark/purescript-byte-codec.git"
@@ -82,12 +86,7 @@
   , version = "v0.0.1"
   }
 -}
-{ abides =
-  { dependencies = [ "enums", "foldable-traversable" ]
-  , repo = "https://github.com/athanclark/purescript-abides.git"
-  , version = "v0.0.1"
-  }
-, bip39 =
+{ bip39 =
   { dependencies = [ "arraybuffer-types", "nullable" ]
   , repo = "https://github.com/athanclark/purescript-bip39.git"
   , version = "v1.0.1"

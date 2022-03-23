@@ -1,4 +1,4 @@
-{ rxps =
+{- rxps =
   { dependencies =
     [ "arrays"
     , "control"
@@ -28,4 +28,5 @@
   , repo = "https://github.com/waynevanson/purescript-rxps.git"
   , version = "v1.8.0"
   }
-}
+-}
+{=}

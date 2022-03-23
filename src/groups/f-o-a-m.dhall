@@ -1,8 +1,4 @@
-{ ring-modules =
-  { dependencies = [ "prelude" ]
-  , repo = "https://github.com/f-o-a-m/purescript-ring-modules.git"
-  , version = "v5.0.1"
-  }
+{-
 , optparse =
   { dependencies =
     [ "prelude"
@@ -40,5 +36,11 @@
     ]
   , repo = "https://github.com/f-o-a-m/purescript-optparse.git"
   , version = "v4.1.0"
+  }
+-}
+{ ring-modules =
+  { dependencies = [ "prelude" ]
+  , repo = "https://github.com/f-o-a-m/purescript-ring-modules.git"
+  , version = "v5.0.1"
   }
 }
