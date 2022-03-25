@@ -534,18 +534,6 @@
     "repo": "https://github.com/purescript-halogen/purescript-dom-indexed.git",
     "version": "v8.0.0"
   },
-  "drawing": {
-    "dependencies": [
-      "canvas",
-      "colors",
-      "integers",
-      "lists",
-      "math",
-      "prelude"
-    ],
-    "repo": "https://github.com/paf31/purescript-drawing.git",
-    "version": "v4.0.0"
-  },
   "effect": {
     "dependencies": [
       "prelude"
@@ -1605,46 +1593,12 @@
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
     "version": "main"
   },
-  "parsing-expect": {
-    "dependencies": [
-      "console",
-      "effect",
-      "parsing",
-      "prelude",
-      "psci-support"
-    ],
-    "repo": "https://github.com/markfarrell/purescript-parsing-expect.git",
-    "version": "v0.0.3"
-  },
-  "parsing-repetition": {
-    "dependencies": [
-      "console",
-      "effect",
-      "parsing",
-      "parsing-expect",
-      "prelude",
-      "psci-support"
-    ],
-    "repo": "https://github.com/markfarrell/purescript-parsing-repetition.git",
-    "version": "v0.0.6"
-  },
   "parsing-replace": {
     "dependencies": [
       "parsing"
     ],
     "repo": "https://github.com/jamesdbrock/purescript-parsing-replace.git",
     "version": "v1.0.2"
-  },
-  "parsing-validation": {
-    "dependencies": [
-      "console",
-      "effect",
-      "parsing",
-      "prelude",
-      "psci-support"
-    ],
-    "repo": "https://github.com/markfarrell/purescript-parsing-validation.git",
-    "version": "v0.1.2"
   },
   "partial": {
     "dependencies": [],
