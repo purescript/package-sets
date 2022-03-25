@@ -1603,7 +1603,7 @@
       "unicode"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
-    "version": "0.15.0-placeholder"
+    "version": "main"
   },
   "parsing-expect": {
     "dependencies": [
@@ -2181,7 +2181,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-string-parsers.git",
-    "version": "trh/fix-infix"
+    "version": "main"
   },
   "strings": {
     "dependencies": [
@@ -2579,6 +2579,7 @@
     "dependencies": [
       "datetime",
       "enums",
+      "foreign",
       "nullable"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-events.git",
