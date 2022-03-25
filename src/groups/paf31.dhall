@@ -70,14 +70,14 @@ foreign-generic =
   , repo = "https://github.com/paf31/purescript-yargs.git"
   , version = "v4.0.0"
   }
--}
-{ drawing =
+, drawing =
   { dependencies =
     [ "canvas", "colors", "integers", "lists", "math", "prelude" ]
   , repo = "https://github.com/paf31/purescript-drawing.git"
   , version = "v4.0.0"
   }
-, leibniz =
+-}
+{ leibniz =
   { dependencies = [ "prelude", "unsafe-coerce" ]
   , repo = "https://github.com/paf31/purescript-leibniz.git"
   , version = "v5.0.0"

@@ -45,8 +45,7 @@
   , repo = "https://github.com/markfarrell/purescript-ffi-foreign.git"
   , version = "v0.0.2"
   }
--}
-{ parsing-expect =
+, parsing-expect =
   { dependencies = [ "console", "effect", "parsing", "prelude", "psci-support" ]
   , repo = "https://github.com/markfarrell/purescript-parsing-expect.git"
   , version = "v0.0.3"
@@ -68,4 +67,5 @@
   , repo = "https://github.com/markfarrell/purescript-parsing-validation.git"
   , version = "v0.1.2"
   }
-}
+-}
+{=}
