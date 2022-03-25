@@ -456,7 +456,7 @@
     , "tailrec"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-string-parsers.git"
-  , version = "trh/fix-infix"
+  , version = "main"
   }
 , strings-extra =
   { dependencies =
