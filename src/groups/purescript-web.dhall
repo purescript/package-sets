@@ -35,7 +35,7 @@
   , version = "master"
   }
 , web-events =
-  { dependencies = [ "datetime", "enums", "nullable" ]
+  { dependencies = [ "datetime", "enums", "nullable", "foreign" ]
   , repo = "https://github.com/purescript-web/purescript-web-events.git"
   , version = "master"
   }
