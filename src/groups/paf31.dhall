@@ -72,7 +72,7 @@ foreign-generic =
   }
 , drawing =
   { dependencies =
-    [ "canvas", "colors", "integers", "lists", "math", "prelude" ]
+    [ "canvas", "colors", "integers", "lists", "prelude" ]
   , repo = "https://github.com/paf31/purescript-drawing.git"
   , version = "v4.0.0"
   }

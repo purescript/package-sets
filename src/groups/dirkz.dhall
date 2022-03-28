@@ -4,7 +4,6 @@
     , "effect"
     , "foldable-traversable"
     , "functions"
-    , "math"
     , "partial"
     , "prelude"
     , "psci-support"

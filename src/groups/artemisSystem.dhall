@@ -10,7 +10,6 @@
     , "either"
     , "exceptions"
     , "foldable-traversable"
-    , "math"
     , "maybe"
     , "numbers"
     , "polymorphic-vectors"
@@ -34,7 +33,6 @@
   { dependencies =
     [ "distributive"
     , "foldable-traversable"
-    , "math"
     , "prelude"
     , "record"
     , "typelevel-prelude"

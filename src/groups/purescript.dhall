@@ -70,7 +70,6 @@
     , "gen"
     , "integers"
     , "lists"
-    , "math"
     , "maybe"
     , "newtype"
     , "ordered-collections"
@@ -256,7 +255,7 @@
   , version = "master"
   }
 , integers =
-  { dependencies = [ "math", "maybe", "numbers", "prelude" ]
+  { dependencies = [ "maybe", "numbers", "prelude" ]
   , repo = "https://github.com/purescript/purescript-integers.git"
   , version = "master"
   }
@@ -272,7 +271,7 @@
   }
 , lcg =
   { dependencies =
-    [ "effect", "integers", "math", "maybe", "partial", "prelude", "random" ]
+    [ "effect", "integers", "maybe", "partial", "prelude", "random" ]
   , repo = "https://github.com/purescript/purescript-lcg.git"
   , version = "master"
   }
@@ -294,11 +293,6 @@
   , repo = "https://github.com/purescript/purescript-lists.git"
   , version = "master"
   }
-, math =
-  { dependencies = [] : List Text
-  , repo = "https://github.com/purescript/purescript-math.git"
-  , version = "master"
-  }
 , maybe =
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-maybe.git"
@@ -314,7 +308,6 @@
     [ "console"
     , "effect"
     , "integers"
-    , "math"
     , "numbers"
     , "partial"
     , "prelude"
@@ -341,7 +334,7 @@
   , version = "master"
   }
 , numbers =
-  { dependencies = [ "functions", "math", "maybe" ]
+  { dependencies = [ "functions", "maybe" ]
   , repo = "https://github.com/purescript/purescript-numbers.git"
   , version = "master"
   }
@@ -429,7 +422,6 @@
     , "lazy"
     , "lcg"
     , "lists"
-    , "math"
     , "maybe"
     , "newtype"
     , "nonempty"
@@ -447,7 +439,7 @@
   , version = "master"
   }
 , random =
-  { dependencies = [ "effect", "integers", "math" ]
+  { dependencies = [ "effect", "integers" ]
   , repo = "https://github.com/purescript/purescript-random.git"
   , version = "master"
   }

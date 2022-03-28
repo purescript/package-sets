@@ -8,7 +8,6 @@
     , "form-urlencoded"
     , "http-methods"
     , "integers"
-    , "math"
     , "media-types"
     , "nullable"
     , "refs"
@@ -477,7 +476,7 @@
   , version = "main"
   }
 , uint =
-  { dependencies = [ "prelude", "effect", "math", "maybe", "enums", "gen" ]
+  { dependencies = [ "prelude", "effect", "maybe", "enums", "gen" ]
   , repo = "https://github.com/purescript-contrib/purescript-uint.git"
   , version = "main"
   }
