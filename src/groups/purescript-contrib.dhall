@@ -152,7 +152,7 @@
   , version = "main"
   }
 , colors =
-  { dependencies = [ "arrays", "integers", "lists", "partial", "strings" ]
+  { dependencies = [ "arrays", "integers", "lists", "numbers", "partial", "strings" ]
   , repo = "https://github.com/purescript-contrib/purescript-colors.git"
   , version = "main"
   }
@@ -476,7 +476,7 @@
   , version = "main"
   }
 , uint =
-  { dependencies = [ "prelude", "effect", "maybe", "enums", "gen" ]
+  { dependencies = [ "prelude", "effect", "maybe", "numbers", "enums", "gen" ]
   , repo = "https://github.com/purescript-contrib/purescript-uint.git"
   , version = "main"
   }
