@@ -492,20 +492,4 @@
       "https://github.com/purescript-contrib/purescript-unsafe-reference.git"
   , version = "main"
   }
-, uri =
-  { dependencies =
-    [ "arrays"
-    , "integers"
-    , "js-uri"
-    , "numbers"
-    , "parsing"
-    , "prelude"
-    , "profunctor-lenses"
-    , "these"
-    , "transformers"
-    , "unfoldable"
-    ]
-  , repo = "https://github.com/purescript-contrib/purescript-uri.git"
-  , version = "main"
-  }
 }
