@@ -45,13 +45,7 @@ quantities =
 -}
 { format =
   { dependencies =
-    [ "arrays"
-    , "effect"
-    , "integers"
-    , "prelude"
-    , "strings"
-    , "unfoldable"
-    ]
+    [ "arrays", "effect", "integers", "prelude", "strings", "unfoldable" ]
   , repo = "https://github.com/sharkdp/purescript-format.git"
   , version = "v4.0.0"
   }

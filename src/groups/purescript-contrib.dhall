@@ -152,7 +152,8 @@
   , version = "main"
   }
 , colors =
-  { dependencies = [ "arrays", "integers", "lists", "numbers", "partial", "strings" ]
+  { dependencies =
+    [ "arrays", "integers", "lists", "numbers", "partial", "strings" ]
   , repo = "https://github.com/purescript-contrib/purescript-colors.git"
   , version = "main"
   }

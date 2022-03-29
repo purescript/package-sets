@@ -306,14 +306,7 @@
   }
 , minibench =
   { dependencies =
-    [ "console"
-    , "effect"
-    , "integers"
-    , "numbers"
-    , "partial"
-    , "prelude"
-    , "refs"
-    ]
+    [ "console", "effect", "integers", "numbers", "partial", "prelude", "refs" ]
   , repo = "https://github.com/purescript/purescript-minibench.git"
   , version = "master"
   }
