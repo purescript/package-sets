@@ -372,6 +372,7 @@
       "arrays",
       "integers",
       "lists",
+      "numbers",
       "partial",
       "strings"
     ],
@@ -467,9 +468,9 @@
       "gen",
       "integers",
       "lists",
-      "math",
       "maybe",
       "newtype",
+      "numbers",
       "ordered-collections",
       "partial",
       "prelude",
@@ -726,7 +727,6 @@
       "arrays",
       "effect",
       "integers",
-      "math",
       "prelude",
       "strings",
       "unfoldable"
@@ -961,7 +961,6 @@
   },
   "integers": {
     "dependencies": [
-      "math",
       "maybe",
       "numbers",
       "prelude"
@@ -1018,7 +1017,6 @@
     "dependencies": [
       "effect",
       "integers",
-      "math",
       "maybe",
       "partial",
       "prelude",
@@ -1081,11 +1079,6 @@
     "repo": "https://github.com/purescript-contrib/purescript-machines.git",
     "version": "main"
   },
-  "math": {
-    "dependencies": [],
-    "repo": "https://github.com/purescript/purescript-math.git",
-    "version": "master"
-  },
   "matrices": {
     "dependencies": [
       "arrays",
@@ -1133,7 +1126,6 @@
       "console",
       "effect",
       "integers",
-      "math",
       "numbers",
       "partial",
       "prelude",
@@ -1437,7 +1429,6 @@
   "numbers": {
     "dependencies": [
       "functions",
-      "math",
       "maybe"
     ],
     "repo": "https://github.com/purescript/purescript-numbers.git",
@@ -1644,7 +1635,6 @@
     "dependencies": [
       "distributive",
       "foldable-traversable",
-      "math",
       "prelude",
       "record",
       "typelevel-prelude"
@@ -1794,10 +1784,10 @@
       "lazy",
       "lcg",
       "lists",
-      "math",
       "maybe",
       "newtype",
       "nonempty",
+      "numbers",
       "partial",
       "prelude",
       "record",
@@ -1845,8 +1835,7 @@
   "random": {
     "dependencies": [
       "effect",
-      "integers",
-      "math"
+      "integers"
     ],
     "repo": "https://github.com/purescript/purescript-random.git",
     "version": "master"
@@ -2366,8 +2355,8 @@
       "effect",
       "enums",
       "gen",
-      "math",
       "maybe",
+      "numbers",
       "prelude"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-uint.git",
