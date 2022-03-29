@@ -1,4 +1,4 @@
-{ aff-retry =
+{- aff-retry =
   { dependencies =
     [ "psci-support"
     , "console"
@@ -12,4 +12,5 @@
   , repo = "https://github.com/Unisay/purescript-aff-retry.git"
   , version = "v1.2.1"
   }
-}
+-}
+{=}

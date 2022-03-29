@@ -42,14 +42,14 @@ quantities =
   , repo = "https://github.com/sharkdp/purescript-decimals.git"
   , version = "v6.0.0"
   }
--}
-{ format =
+, format =
   { dependencies =
     [ "arrays", "effect", "integers", "prelude", "strings", "unfoldable" ]
   , repo = "https://github.com/sharkdp/purescript-format.git"
   , version = "v4.0.0"
   }
-, pairs =
+-}
+{ pairs =
   { dependencies =
     [ "console", "distributive", "foldable-traversable", "quickcheck" ]
   , repo = "https://github.com/sharkdp/purescript-pairs.git"

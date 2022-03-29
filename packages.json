@@ -62,20 +62,6 @@
     "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
     "version": "master"
   },
-  "aff-retry": {
-    "dependencies": [
-      "aff",
-      "console",
-      "datetime",
-      "exceptions",
-      "prelude",
-      "psci-support",
-      "random",
-      "transformers"
-    ],
-    "repo": "https://github.com/Unisay/purescript-aff-retry.git",
-    "version": "v1.2.1"
-  },
   "amazons": {
     "dependencies": [
       "aff",
@@ -312,16 +298,6 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-canvas.git",
     "version": "master"
-  },
-  "cartesian": {
-    "dependencies": [
-      "console",
-      "effect",
-      "integers",
-      "psci-support"
-    ],
-    "repo": "https://github.com/Ebmtranceboy/purescript-cartesian.git",
-    "version": "v1.0.4"
   },
   "catenable-lists": {
     "dependencies": [
@@ -722,18 +698,6 @@
     "repo": "https://github.com/purescript-contrib/purescript-form-urlencoded.git",
     "version": "main"
   },
-  "format": {
-    "dependencies": [
-      "arrays",
-      "effect",
-      "integers",
-      "prelude",
-      "strings",
-      "unfoldable"
-    ],
-    "repo": "https://github.com/sharkdp/purescript-format.git",
-    "version": "v4.0.0"
-  },
   "formatters": {
     "dependencies": [
       "datetime",
@@ -848,16 +812,6 @@
     ],
     "repo": "https://github.com/purescript/purescript-gen.git",
     "version": "master"
-  },
-  "geometry-plane": {
-    "dependencies": [
-      "console",
-      "effect",
-      "psci-support",
-      "sparse-polynomials"
-    ],
-    "repo": "https://github.com/Ebmtranceboy/purescript-geometry-plane.git",
-    "version": "v1.0.2"
   },
   "github-actions-toolkit": {
     "dependencies": [
@@ -1631,17 +1585,6 @@
     "repo": "https://github.com/ursi/purescript-point-free.git",
     "version": "v1.0.0"
   },
-  "polymorphic-vectors": {
-    "dependencies": [
-      "distributive",
-      "foldable-traversable",
-      "prelude",
-      "record",
-      "typelevel-prelude"
-    ],
-    "repo": "https://github.com/artemisSystem/purescript-polymorphic-vectors.git",
-    "version": "v3.0.0"
-  },
   "posix-types": {
     "dependencies": [
       "maybe",
@@ -2069,29 +2012,6 @@
     ],
     "repo": "https://github.com/thomashoneyman/purescript-slug.git",
     "version": "v3.0.0"
-  },
-  "sparse-matrices": {
-    "dependencies": [
-      "console",
-      "effect",
-      "prelude",
-      "sparse-polynomials"
-    ],
-    "repo": "https://github.com/Ebmtranceboy/purescript-sparse-matrices.git",
-    "version": "v1.1.0"
-  },
-  "sparse-polynomials": {
-    "dependencies": [
-      "cartesian",
-      "console",
-      "effect",
-      "ordered-collections",
-      "prelude",
-      "rationals",
-      "tuples"
-    ],
-    "repo": "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git",
-    "version": "v1.0.3"
   },
   "st": {
     "dependencies": [
