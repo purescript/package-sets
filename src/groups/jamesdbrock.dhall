@@ -59,6 +59,11 @@ parsing-dataview =
   , repo = "https://github.com/jamesdbrock/purescript-parsing-dataview.git"
   , version = "v2.1.0"
   }
+, parsing-replace =
+  { dependencies = [ "parsing" ]
+  , repo = "https://github.com/jamesdbrock/purescript-parsing-replace.git"
+  , version = "v1.0.2"
+  }
 -}
 { arraybuffer-builder =
   { dependencies =
@@ -73,10 +78,5 @@ parsing-dataview =
     ]
   , repo = "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git"
   , version = "v2.1.0"
-  }
-, parsing-replace =
-  { dependencies = [ "parsing" ]
-  , repo = "https://github.com/jamesdbrock/purescript-parsing-replace.git"
-  , version = "v1.0.2"
   }
 }

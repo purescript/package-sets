@@ -1,4 +1,4 @@
-{ amazons =
+{- amazons =
   { version = "v1.0.1"
   , repo = "https://github.com/Forensor/purescript-amazons.git"
   , dependencies =
@@ -17,4 +17,5 @@
     , "versions"
     ]
   }
-}
+-}
+{=}
