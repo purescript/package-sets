@@ -62,6 +62,38 @@
     "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
     "version": "master"
   },
+  "affjax": {
+    "dependencies": [
+      "aff",
+      "argonaut-core",
+      "arraybuffer-types",
+      "foreign",
+      "form-urlencoded",
+      "http-methods",
+      "integers",
+      "media-types",
+      "nullable",
+      "refs",
+      "unsafe-coerce",
+      "web-xhr"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-affjax.git",
+    "version": "main"
+  },
+  "affjax-node": {
+    "dependencies": [
+      "affjax"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-affjax-node.git",
+    "version": "main"
+  },
+  "affjax-web": {
+    "dependencies": [
+      "affjax"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-affjax-web.git",
+    "version": "main"
+  },
   "ansi": {
     "dependencies": [
       "foldable-traversable",

@@ -1,23 +1,3 @@
-{-
-, affjax =
-  { dependencies =
-    [ "aff"
-    , "argonaut-core"
-    , "arraybuffer-types"
-    , "foreign"
-    , "form-urlencoded"
-    , "http-methods"
-    , "integers"
-    , "media-types"
-    , "nullable"
-    , "refs"
-    , "unsafe-coerce"
-    , "web-xhr"
-    ]
-  , repo = "https://github.com/purescript-contrib/purescript-affjax.git"
-  , version = "main"
-  }
--}
 { ace =
   { dependencies =
     [ "arrays"
@@ -66,6 +46,34 @@
 , aff-coroutines =
   { dependencies = [ "aff", "avar", "coroutines", "effect" ]
   , repo = "https://github.com/purescript-contrib/purescript-aff-coroutines.git"
+  , version = "main"
+  }
+, affjax =
+  { dependencies =
+    [ "aff"
+    , "argonaut-core"
+    , "arraybuffer-types"
+    , "foreign"
+    , "form-urlencoded"
+    , "http-methods"
+    , "integers"
+    , "media-types"
+    , "nullable"
+    , "refs"
+    , "unsafe-coerce"
+    , "web-xhr"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-affjax.git"
+  , version = "main"
+  }
+, affjax-node =
+  { dependencies = [ "affjax" ]
+  , repo = "https://github.com/purescript-contrib/purescript-affjax-node.git"
+  , version = "main"
+  }
+, affjax-web =
+  { dependencies = [ "affjax" ]
+  , repo = "https://github.com/purescript-contrib/purescript-affjax-web.git"
   , version = "main"
   }
 , argonaut =
