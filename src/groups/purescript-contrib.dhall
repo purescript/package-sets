@@ -150,6 +150,11 @@
   , repo = "https://github.com/purescript-contrib/purescript-avar.git"
   , version = "v4.0.0"
   }
+, colors =
+  { dependencies = [ "arrays", "integers", "lists", "partial", "strings" ]
+  , repo = "https://github.com/purescript-contrib/purescript-colors.git"
+  , version = "v6.0.0"
+  }
 , concurrent-queues =
   { dependencies = [ "aff", "avar", "effect" ]
   , repo =

@@ -39,11 +39,6 @@
   , repo = "https://github.com/sharkdp/purescript-bigints.git"
   , version = "v6.0.0"
   }
-, colors =
-  { dependencies = [ "arrays", "integers", "lists", "partial", "strings" ]
-  , repo = "https://github.com/sharkdp/purescript-colors.git"
-  , version = "v6.0.0"
-  }
 , decimals =
   { dependencies = [ "maybe" ]
   , repo = "https://github.com/sharkdp/purescript-decimals.git"
