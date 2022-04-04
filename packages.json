@@ -733,7 +733,7 @@
       "partial",
       "strings"
     ],
-    "repo": "https://github.com/sharkdp/purescript-colors.git",
+    "repo": "https://github.com/purescript-contrib/purescript-colors.git",
     "version": "v6.0.0"
   },
   "concur-core": {
@@ -2059,7 +2059,7 @@
       "tuples",
       "type-equality"
     ],
-    "repo": "https://github.com/cprussin/purescript-httpure.git",
+    "repo": "https://github.com/citizennet/purescript-httpure.git",
     "version": "v0.14.0"
   },
   "identity": {
