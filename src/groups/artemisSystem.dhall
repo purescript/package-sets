@@ -39,4 +39,20 @@
   , repo = "https://github.com/artemisSystem/purescript-canvas-action.git"
   , version = "v8.0.0"
   }
+, foreign-readwrite =
+  { dependencies =
+    [ "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "identity"
+    , "lists"
+    , "maybe"
+    , "prelude"
+    , "record"
+    , "safe-coerce"
+    , "transformers"
+    ]
+  , repo = "https://github.com/artemisSystem/purescript-foreign-readwrite.git"
+  , version = "v1.0.2"
+  }
 }
