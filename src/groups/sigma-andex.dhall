@@ -48,14 +48,8 @@ morello =
     , "partial"
     , "prelude"
     , "tuples"
-    , "typelevel-arithmetic"
     ]
   , repo = "https://github.com/sigma-andex/purescript-fast-vect.git"
   , version = "v0.5.1"
-  }
-, typelevel-arithmetic =
-  { dependencies = [ "prelude", "tuples" ]
-  , repo = "https://github.com/sigma-andex/purescript-typelevel-arithmetic.git"
-  , version = "v0.1.0"
   }
 }
