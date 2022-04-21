@@ -75,13 +75,13 @@ react-testing-library =
   , repo = "https://github.com/i-am-the-slime/purescript-framer-motion.git"
   , version = "v0.1.0"
   }
-, justifill =
+-}
+{ justifill =
   { dependencies = [ "record", "typelevel-prelude" ]
   , repo = "https://github.com/i-am-the-slime/purescript-justifill.git"
-  , version = "v0.2.1"
+  , version = "v0.3.1"
   }
--}
-{ two-or-more =
+, two-or-more =
   { dependencies =
     [ "arrays"
     , "console"
