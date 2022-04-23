@@ -337,7 +337,6 @@
     , "lists"
     , "maybe"
     , "prelude"
-    , "record"
     , "strings"
     , "transformers"
     , "unicode"
