@@ -1513,8 +1513,8 @@
       "integers",
       "lists",
       "maybe",
+      "nullable",
       "prelude",
-      "record",
       "strings",
       "transformers",
       "unicode"
