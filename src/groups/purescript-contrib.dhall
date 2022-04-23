@@ -336,6 +336,7 @@
     , "integers"
     , "lists"
     , "maybe"
+    , "nullable"
     , "prelude"
     , "strings"
     , "transformers"
