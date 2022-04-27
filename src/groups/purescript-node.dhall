@@ -2,7 +2,7 @@
   { dependencies =
     [ "arraybuffer-types", "effect", "maybe", "st", "unsafe-coerce" ]
   , repo = "https://github.com/purescript-node/purescript-node-buffer.git"
-  , version = "master"
+  , version = "v8.0.0"
   }
 , node-child-process =
   { dependencies =
@@ -18,7 +18,7 @@
     ]
   , repo =
       "https://github.com/purescript-node/purescript-node-child-process.git"
-  , version = "master"
+  , version = "v8.0.0"
   }
 , node-fs =
   { dependencies =
@@ -41,12 +41,12 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-fs.git"
-  , version = "master"
+  , version = "v7.0.0"
   }
 , node-fs-aff =
   { dependencies = [ "aff", "either", "node-fs", "node-path" ]
   , repo = "https://github.com/purescript-node/purescript-node-fs-aff.git"
-  , version = "master"
+  , version = "8.0.0"
   }
 , node-http =
   { dependencies =
@@ -66,7 +66,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-http.git"
-  , version = "master"
+  , version = "v7.0.0"
   }
 , node-net =
   { dependencies =
@@ -83,12 +83,12 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-net.git"
-  , version = "master"
+  , version = "v3.0.0"
   }
 , node-path =
   { dependencies = [ "effect" ]
   , repo = "https://github.com/purescript-node/purescript-node-path.git"
-  , version = "master"
+  , version = "v5.0.0"
   }
 , node-process =
   { dependencies =
@@ -101,7 +101,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-process.git"
-  , version = "master"
+  , version = "v9.0.0"
   }
 , node-readline =
   { dependencies =
@@ -113,22 +113,22 @@
     , "prelude"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-readline.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , node-streams =
   { dependencies =
     [ "effect", "either", "exceptions", "node-buffer", "prelude" ]
   , repo = "https://github.com/purescript-node/purescript-node-streams.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , node-url =
   { dependencies = [ "nullable" ]
   , repo = "https://github.com/purescript-node/purescript-node-url.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 , posix-types =
   { dependencies = [ "maybe", "prelude" ]
   , repo = "https://github.com/purescript-node/purescript-posix-types.git"
-  , version = "master"
+  , version = "v6.0.0"
   }
 }
