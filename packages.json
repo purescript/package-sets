@@ -2057,16 +2057,6 @@
     "repo": "https://github.com/purescript-contrib/purescript-strings-extra.git",
     "version": "main"
   },
-  "sunde": {
-    "dependencies": [
-      "aff",
-      "effect",
-      "node-child-process",
-      "prelude"
-    ],
-    "repo": "https://github.com/justinwoo/purescript-sunde.git",
-    "version": "v2.0.0"
-  },
   "supply": {
     "dependencies": [
       "console",
