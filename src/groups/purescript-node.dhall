@@ -118,8 +118,8 @@
 , node-streams =
   { dependencies =
     [ "effect", "either", "exceptions", "node-buffer", "prelude" ]
-  , repo = "https://github.com/purescript-node/purescript-node-streams.git"
-  , version = "master"
+  , repo = "https://github.com/JordanMartinez/purescript-node-streams.git"
+  , version = "fix-stream-write"
   }
 , node-url =
   { dependencies = [ "nullable" ]

@@ -160,6 +160,11 @@
   , repo = "https://github.com/justinwoo/purescript-simple-json.git"
   , version = "v8.0.0"
   }
+, sunde =
+  { dependencies = [ "aff", "effect", "node-child-process", "prelude" ]
+  , repo = "https://github.com/justinwoo/purescript-sunde.git"
+  , version = "v2.0.0"
+  }
 -}
 { expect-inferred =
   { dependencies = [ "prelude", "typelevel-prelude" ]
@@ -169,11 +174,6 @@
 , motsunabe =
   { dependencies = [ "lists", "strings" ]
   , repo = "https://github.com/justinwoo/purescript-motsunabe.git"
-  , version = "v2.0.0"
-  }
-, sunde =
-  { dependencies = [ "aff", "effect", "node-child-process", "prelude" ]
-  , repo = "https://github.com/justinwoo/purescript-sunde.git"
   , version = "v2.0.0"
   }
 }
