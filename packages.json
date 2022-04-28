@@ -82,14 +82,22 @@
   },
   "affjax-node": {
     "dependencies": [
-      "affjax"
+      "aff",
+      "affjax",
+      "either",
+      "maybe",
+      "prelude"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-affjax-node.git",
     "version": "v1.0.0"
   },
   "affjax-web": {
     "dependencies": [
-      "affjax"
+      "aff",
+      "affjax",
+      "either",
+      "maybe",
+      "prelude"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-affjax-web.git",
     "version": "v1.0.0"
