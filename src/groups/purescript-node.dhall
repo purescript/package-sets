@@ -46,7 +46,7 @@
 , node-fs-aff =
   { dependencies = [ "aff", "either", "node-fs", "node-path" ]
   , repo = "https://github.com/purescript-node/purescript-node-fs-aff.git"
-  , version = "8.0.0"
+  , version = "v8.0.0"
   }
 , node-http =
   { dependencies =
