@@ -21,6 +21,6 @@
 { mmorph =
   { dependencies = [ "free", "functors", "transformers" ]
   , repo = "https://github.com/Thimoteus/purescript-mmorph.git"
-  , version = "v6.0.0"
+  , version = "v7.0.0"
   }
 }
