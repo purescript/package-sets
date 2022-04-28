@@ -431,7 +431,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-quickcheck.git"
-  , version = "v8.0.0"
+  , version = "v8.0.1"
   }
 , random =
   { dependencies = [ "effect", "integers" ]
@@ -527,7 +527,7 @@
 , type-equality =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-type-equality.git"
-  , version = "v5.0.0"
+  , version = "v4.0.1"
   }
 , typelevel-prelude =
   { dependencies = [ "prelude", "type-equality" ]

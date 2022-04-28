@@ -179,7 +179,7 @@
   { dependencies =
     [ "arrays", "integers", "lists", "numbers", "partial", "strings" ]
   , repo = "https://github.com/purescript-contrib/purescript-colors.git"
-  , version = "v7.0.0"
+  , version = "v7.0.1"
   }
 , concurrent-queues =
   { dependencies = [ "aff", "avar", "effect" ]
@@ -420,7 +420,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-react.git"
-  , version = "v10.0.0"
+  , version = "v10.0.1"
   }
 , react-dom =
   { dependencies = [ "effect", "react", "web-dom" ]
