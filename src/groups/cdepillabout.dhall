@@ -1,8 +1,4 @@
-{ email-validate =
-  { dependencies = [ "aff", "string-parsers", "transformers" ]
-  , repo = "https://github.com/cdepillabout/purescript-email-validate.git"
-  , version = "v7.0.0"
-  }
+{-
 , boxes =
   { dependencies =
     [ "prelude"
@@ -18,5 +14,11 @@
     ]
   , repo = "https://github.com/cdepillabout/purescript-boxes.git"
   , version = "v2.1.0"
+  }
+-}
+{ email-validate =
+  { dependencies = [ "aff", "string-parsers", "transformers" ]
+  , repo = "https://github.com/cdepillabout/purescript-email-validate.git"
+  , version = "v7.0.0"
   }
 }

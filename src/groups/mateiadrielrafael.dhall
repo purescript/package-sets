@@ -1,4 +1,5 @@
-{ run-external-state =
+{-
+run-external-state =
   { dependencies =
     [ "maybe"
     , "prelude"
@@ -13,7 +14,8 @@
       "https://github.com/Mateiadrielrafael/purescript-run-external-state.git"
   , version = "v1.0.0"
   }
-, ask =
+-}
+{ ask =
   { dependencies = [ "unsafe-coerce" ]
   , repo = "https://github.com/Mateiadrielrafael/purescript-ask.git"
   , version = "v1.0.0"

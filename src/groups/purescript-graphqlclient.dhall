@@ -1,4 +1,4 @@
-{ graphqlclient =
+{- graphqlclient =
   { dependencies =
     [ "affjax"
     , "effect"
@@ -29,4 +29,5 @@
       "https://github.com/purescript-graphqlclient/purescript-graphqlclient.git"
   , version = "v1.2.1"
   }
-}
+-}
+{=}

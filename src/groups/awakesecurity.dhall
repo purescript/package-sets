@@ -1,4 +1,4 @@
-{ precise-datetime =
+{- precise-datetime =
   { dependencies =
     [ "arrays"
     , "console"
@@ -22,4 +22,5 @@
   , repo = "https://github.com/awakesecurity/purescript-precise-datetime.git"
   , version = "v6.0.1"
   }
-}
+-}
+{=}

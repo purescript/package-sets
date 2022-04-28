@@ -1,5 +1,9 @@
 let packages =
         ./groups/purescript.dhall
+      ⫽ ./groups/purescript-contrib.dhall
+      ⫽ ./groups/purescript-node.dhall
+      ⫽ ./groups/purescript-web.dhall
+      ⫽ ./groups/nwolverson.dhall
       ⫽ ./groups/acple.dhall
       ⫽ ./groups/ad-si.dhall
       ⫽ ./groups/ajnsit.dhall
@@ -82,7 +86,6 @@ let packages =
       ⫽ ./groups/natefaubion.dhall
       ⫽ ./groups/newlandsvalley.dhall
       ⫽ ./groups/nsaunders.dhall
-      ⫽ ./groups/nwolverson.dhall
       ⫽ ./groups/openchronology.dhall
       ⫽ ./groups/oreshinya.dhall
       ⫽ ./groups/oxford-abstracts.dhall
@@ -94,7 +97,6 @@ let packages =
       ⫽ ./groups/purefunctor.dhall
       ⫽ ./groups/purescript-codegen.dhall
       ⫽ ./groups/purescript-concur.dhall
-      ⫽ ./groups/purescript-contrib.dhall
       ⫽ ./groups/purescript-express.dhall
       ⫽ ./groups/purescript-freedom.dhall
       ⫽ ./groups/purescript-grain.dhall
@@ -102,11 +104,9 @@ let packages =
       ⫽ ./groups/purescript-halogen.dhall
       ⫽ ./groups/purescript-hyper.dhall
       ⫽ ./groups/purescript-node-contrib.dhall
-      ⫽ ./groups/purescript-node.dhall
       ⫽ ./groups/purescript-open-community.dhall
       ⫽ ./groups/purescript-polyform.dhall
       ⫽ ./groups/purescript-spec.dhall
-      ⫽ ./groups/purescript-web.dhall
       ⫽ ./groups/reactormonk.dhall
       ⫽ ./groups/rgrempel.dhall
       ⫽ ./groups/rightfold.dhall

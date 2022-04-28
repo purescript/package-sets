@@ -27,16 +27,16 @@
   , repo = "https://github.com/danieljharvey/purescript-react-stylesheet.git"
   , version = "v0.0.2"
   }
+, cssom =
+  { dependencies = [ "effect" ]
+  , repo = "https://github.com/danieljharvey/purescript-cssom.git"
+  , version = "v0.0.2"
+  }
 -}
 { refined =
   { dependencies =
     [ "argonaut", "effect", "prelude", "quickcheck", "typelevel" ]
   , repo = "https://github.com/danieljharvey/purescript-refined.git"
   , version = "v1.0.0"
-  }
-, cssom =
-  { dependencies = [ "effect" ]
-  , repo = "https://github.com/danieljharvey/purescript-cssom.git"
-  , version = "v0.0.2"
   }
 }

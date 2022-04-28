@@ -1,4 +1,4 @@
-{ cartesian =
+{- cartesian =
   { dependencies = [ "console", "effect", "integers", "psci-support" ]
   , repo = "https://github.com/Ebmtranceboy/purescript-cartesian.git"
   , version = "v1.0.4"
@@ -26,4 +26,5 @@
   , repo = "https://github.com/Ebmtranceboy/purescript-sparse-matrices.git"
   , version = "v1.1.0"
   }
-}
+-}
+{=}

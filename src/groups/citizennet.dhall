@@ -1,17 +1,4 @@
-{ fuzzy =
-  { dependencies =
-    [ "foldable-traversable"
-    , "foreign-object"
-    , "newtype"
-    , "ordered-collections"
-    , "prelude"
-    , "rationals"
-    , "strings"
-    , "tuples"
-    ]
-  , repo = "https://github.com/citizennet/purescript-fuzzy.git"
-  , version = "v0.4.0"
-  }
+{-
 , halogen-select =
   { dependencies = [ "halogen", "record" ]
   , repo = "https://github.com/citizennet/purescript-halogen-select.git"
@@ -45,5 +32,20 @@
     ]
   , repo = "https://github.com/citizennet/purescript-httpure.git"
   , version = "v0.14.0"
+  }
+-}
+{ fuzzy =
+  { dependencies =
+    [ "foldable-traversable"
+    , "foreign-object"
+    , "newtype"
+    , "ordered-collections"
+    , "prelude"
+    , "rationals"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/citizennet/purescript-fuzzy.git"
+  , version = "v0.4.0"
   }
 }

@@ -1,4 +1,4 @@
-{ protobuf =
+{- protobuf =
   { dependencies =
     [ "arraybuffer"
     , "arraybuffer-builder"
@@ -29,7 +29,21 @@
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
   , version = "v2.1.2"
   }
-, parsing-dataview =
+, longs =
+  { dependencies =
+    [ "effect"
+    , "console"
+    , "prelude"
+    , "strings"
+    , "foreign"
+    , "nullable"
+    , "functions"
+    , "quickcheck"
+    ]
+  , repo = "https://github.com/zapph/purescript-longs.git"
+  , version = "v0.1.1"
+  }
+parsing-dataview =
   { dependencies =
     [ "effect"
     , "arraybuffer-types"
@@ -45,7 +59,13 @@
   , repo = "https://github.com/jamesdbrock/purescript-parsing-dataview.git"
   , version = "v2.1.0"
   }
-, arraybuffer-builder =
+, parsing-replace =
+  { dependencies = [ "parsing" ]
+  , repo = "https://github.com/jamesdbrock/purescript-parsing-replace.git"
+  , version = "v1.0.2"
+  }
+-}
+{ arraybuffer-builder =
   { dependencies =
     [ "effect"
     , "arraybuffer-types"
@@ -58,24 +78,5 @@
     ]
   , repo = "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git"
   , version = "v2.1.0"
-  }
-, longs =
-  { dependencies =
-    [ "effect"
-    , "console"
-    , "prelude"
-    , "strings"
-    , "foreign"
-    , "nullable"
-    , "functions"
-    , "quickcheck"
-    ]
-  , repo = "https://github.com/zapph/purescript-longs.git"
-  , version = "v0.1.1"
-  }
-, parsing-replace =
-  { dependencies = [ "parsing" ]
-  , repo = "https://github.com/jamesdbrock/purescript-parsing-replace.git"
-  , version = "v1.0.2"
   }
 }

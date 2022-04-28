@@ -1,4 +1,5 @@
-{ react-halo =
+{-
+react-halo =
   { dependencies =
     [ "aff"
     , "free"
@@ -11,7 +12,8 @@
   , repo = "https://github.com/robertdp/purescript-react-halo.git"
   , version = "v2.0.0"
   }
-, resourcet =
+-}
+{ resourcet =
   { dependencies =
     [ "aff"
     , "effect"

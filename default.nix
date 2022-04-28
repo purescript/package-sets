@@ -5,10 +5,10 @@ let
 
   easy-ps = import (
     pkgs.fetchFromGitHub {
-      owner = "justinwoo";
+      owner = "jordanmartinez";
       repo = "easy-purescript-nix";
-      rev = "7f6207b9e9b021e30d6c82f49ba20f0d5db01d1f";
-      sha256 = "1j02jcs88fyc0diyyym1y3yhrhpjj7jcdj9aw8sfcd20yrpd4pbr";
+      rev = "b0ac14ff90ca7bd6eb7a2d125d94b4f9212e7595";
+      sha256 = "1zxbxrnznr59a3z6mh2a2pp0afgkv2rvqp17gnyn0wqs21q99xz1";
     }
   ) {
     inherit pkgs;
@@ -25,7 +25,7 @@ let
     inherit pkgs;
   };
 
-  purs = easy-ps.purs-0_14_7;
+  purs = easy-ps.purs-0_15_0_alpha_02;
 
 in
 pkgs.runCommand "easy-ps-test" {

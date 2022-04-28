@@ -14,10 +14,10 @@
   , repo = "https://github.com/rnons/purescript-svg-parser-halogen.git"
   , version = "v2.0.0-rc.1"
   }
--}
-{ halogen-storybook =
+, halogen-storybook =
   { dependencies = [ "halogen", "prelude", "routing", "foreign-object" ]
   , repo = "https://github.com/rnons/purescript-halogen-storybook.git"
   , version = "v1.0.1"
   }
-}
+-}
+{=}

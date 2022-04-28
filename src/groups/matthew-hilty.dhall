@@ -47,10 +47,10 @@
   , repo = "https://github.com/matthew-hilty/purescript-proxying.git"
   , version = "v1.1.0"
   }
--}
-{ subcategory =
+, subcategory =
   { dependencies = [ "prelude", "profunctor", "record", "typelevel-prelude" ]
   , repo = "https://github.com/matthew-hilty/purescript-subcategory.git"
   , version = "v0.2.0"
   }
-}
+-}
+{=}

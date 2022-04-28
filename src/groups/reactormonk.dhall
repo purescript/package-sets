@@ -42,18 +42,4 @@
   , version = "v0.1.1"
   }
 -}
-{ rave =
-  { dependencies =
-    [ "aff"
-    , "checked-exceptions"
-    , "console"
-    , "effect"
-    , "exceptions"
-    , "prelude"
-    , "record"
-    , "variant"
-    ]
-  , repo = "https://github.com/reactormonk/purescript-rave.git"
-  , version = "v0.1.1"
-  }
-}
+{=}

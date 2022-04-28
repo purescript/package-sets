@@ -1,4 +1,4 @@
-{ grain =
+{- grain =
   { dependencies = [ "web-html" ]
   , repo = "https://github.com/purescript-grain/purescript-grain.git"
   , version = "v2.0.0"
@@ -14,4 +14,5 @@
       "https://github.com/purescript-grain/purescript-grain-virtualized.git"
   , version = "v2.0.0"
   }
-}
+-}
+{=}

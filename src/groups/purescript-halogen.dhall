@@ -2,8 +2,9 @@
   { dependencies =
     [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
   , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
-  , version = "v8.0.0"
+  , version = "v9.0.0"
   }
+
 , halogen =
   { dependencies =
     [ "aff"
@@ -49,7 +50,7 @@
     ]
   , repo =
       "https://github.com/purescript-halogen/purescript-halogen-subscriptions.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , halogen-vdom =
   { dependencies =
@@ -65,6 +66,13 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen-vdom.git"
-  , version = "v7.0.1"
+  , version = "v8.0.0"
+  }
+, halogen-vdom-string-renderer =
+  { dependencies =
+    [ "foreign", "halogen-vdom", "ordered-collections", "prelude" ]
+  , repo =
+      "https://github.com/purescript-halogen/purescript-halogen-vdom-string-renderer.git"
+  , version = "v0.5.0"
   }
 }
