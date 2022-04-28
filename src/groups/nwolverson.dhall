@@ -26,6 +26,6 @@
 { aff-promise =
   { dependencies = [ "aff", "foreign" ]
   , repo = "https://github.com/nwolverson/purescript-aff-promise.git"
-  , version = "master"
+  , version = "v4.0.0"
   }
 }
