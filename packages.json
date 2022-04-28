@@ -863,6 +863,42 @@
     "repo": "https://github.com/morganthomas/purescript-group.git",
     "version": "v4.1.1"
   },
+  "halogen": {
+    "dependencies": [
+      "aff",
+      "avar",
+      "console",
+      "const",
+      "dom-indexed",
+      "effect",
+      "foreign",
+      "fork",
+      "free",
+      "freeap",
+      "halogen-subscriptions",
+      "halogen-vdom",
+      "media-types",
+      "nullable",
+      "ordered-collections",
+      "parallel",
+      "profunctor",
+      "transformers",
+      "unsafe-coerce",
+      "unsafe-reference",
+      "web-file",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/purescript-halogen/purescript-halogen.git",
+    "version": "v6.1.3"
+  },
+  "halogen-css": {
+    "dependencies": [
+      "css",
+      "halogen"
+    ],
+    "repo": "https://github.com/purescript-halogen/purescript-halogen-css.git",
+    "version": "v9.0.0"
+  },
   "halogen-subscriptions": {
     "dependencies": [
       "arrays",
