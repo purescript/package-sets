@@ -1,4 +1,4 @@
-{ {- github-actions-toolkit =
+{- github-actions-toolkit =
   { dependencies =
     [ "aff"
     , "aff-promise"
@@ -13,8 +13,9 @@
   , repo =
       "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git"
   , version = "main"
-  }, -}
-  ace =
+  },
+-}
+{ ace =
   { dependencies =
     [ "arrays"
     , "effect"
