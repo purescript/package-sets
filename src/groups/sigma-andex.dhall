@@ -42,13 +42,7 @@ morello =
   , version = "v0.8.0"
   }
 , fast-vect =
-  { dependencies =
-    [ "arrays"
-    , "maybe"
-    , "partial"
-    , "prelude"
-    , "tuples"
-    ]
+  { dependencies = [ "arrays", "maybe", "partial", "prelude", "tuples" ]
   , repo = "https://github.com/sigma-andex/purescript-fast-vect.git"
   , version = "v0.5.1"
   }
