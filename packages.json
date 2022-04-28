@@ -54,6 +54,14 @@
     "repo": "https://github.com/purescript-contrib/purescript-aff-coroutines.git",
     "version": "v9.0.0"
   },
+  "aff-promise": {
+    "dependencies": [
+      "aff",
+      "foreign"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
+    "version": "v4.0.0"
+  },
   "affjax": {
     "dependencies": [
       "aff",
@@ -2040,6 +2048,21 @@
     ],
     "repo": "https://github.com/purescript-spec/purescript-spec.git",
     "version": "v6.0.0"
+  },
+  "spec-discovery": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "arrays",
+      "console",
+      "effect",
+      "foldable-traversable",
+      "node-fs",
+      "prelude",
+      "spec"
+    ],
+    "repo": "https://github.com/purescript-spec/purescript-spec-discovery.git",
+    "version": "v7.0.0"
   },
   "st": {
     "dependencies": [

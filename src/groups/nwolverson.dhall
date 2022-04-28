@@ -22,10 +22,10 @@
   , repo = "https://github.com/nwolverson/purescript-suggest.git"
   , version = "v5.0.0"
   }
-, aff-promise =
+-}
+{ aff-promise =
   { dependencies = [ "aff", "foreign" ]
   , repo = "https://github.com/nwolverson/purescript-aff-promise.git"
   , version = "v4.0.0"
   }
--}
-{=}
+}
