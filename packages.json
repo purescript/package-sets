@@ -833,6 +833,21 @@
     "repo": "https://github.com/purescript/purescript-gen.git",
     "version": "v4.0.0"
   },
+  "github-actions-toolkit": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "effect",
+      "foreign-object",
+      "node-buffer",
+      "node-path",
+      "node-streams",
+      "nullable",
+      "transformers"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git",
+    "version": "v0.4.0"
+  },
   "graphs": {
     "dependencies": [
       "catenable-lists",

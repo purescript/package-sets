@@ -1,20 +1,3 @@
-{- github-actions-toolkit =
-  { dependencies =
-    [ "aff"
-    , "aff-promise"
-    , "effect"
-    , "foreign-object"
-    , "node-buffer"
-    , "node-path"
-    , "node-streams"
-    , "nullable"
-    , "transformers"
-    ]
-  , repo =
-      "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git"
-  , version = "main"
-  },
--}
 { ace =
   { dependencies =
     [ "arrays"
@@ -264,6 +247,22 @@
     ]
   , repo = "https://github.com/purescript-contrib/purescript-freet.git"
   , version = "v7.0.0"
+  }
+, github-actions-toolkit =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "effect"
+    , "foreign-object"
+    , "node-buffer"
+    , "node-path"
+    , "node-streams"
+    , "nullable"
+    , "transformers"
+    ]
+  , repo =
+      "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git"
+  , version = "v0.4.0"
   }
 , http-methods =
   { dependencies = [ "either", "prelude", "strings" ]
