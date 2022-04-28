@@ -32,6 +32,14 @@
   , repo = "https://github.com/purescript-halogen/purescript-halogen-css.git"
   , version = "v9.0.0"
   }
+}
+-}
+{ dom-indexed =
+  { dependencies =
+    [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
+  , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
+  , version = "v9.0.0"
+  }
 , halogen-subscriptions =
   { dependencies =
     [ "arrays"
@@ -44,15 +52,7 @@
     ]
   , repo =
       "https://github.com/purescript-halogen/purescript-halogen-subscriptions.git"
-  , version = "v1.0.0"
-  }
-}
--}
-{ dom-indexed =
-  { dependencies =
-    [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
-  , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
-  , version = "v9.0.0"
+  , version = "v2.0.0"
   }
 , halogen-vdom =
   { dependencies =
