@@ -70,4 +70,14 @@
   , repo = "https://github.com/purescript-halogen/purescript-halogen-vdom.git"
   , version = "v8.0.0"
   }
+, halogen-vdom-string-renderer =
+  { dependencies =
+      [ "foreign
+      , "halogen-vdom"
+      , "ordered-collections"
+      , "prelude"
+      ]
+  , repo = "https://github.com/purescript-halogen/purescript-halogen-vdom-string-renderer.git"
+  , version = "v0.5.0"
+  }
 }
