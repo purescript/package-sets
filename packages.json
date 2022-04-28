@@ -840,6 +840,19 @@
     "repo": "https://github.com/morganthomas/purescript-group.git",
     "version": "v4.1.1"
   },
+  "halogen-subscriptions": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "foldable-traversable",
+      "functors",
+      "refs",
+      "safe-coerce",
+      "unsafe-reference"
+    ],
+    "repo": "https://github.com/purescript-halogen/purescript-halogen-subscriptions.git",
+    "version": "v2.0.0"
+  },
   "halogen-vdom": {
     "dependencies": [
       "bifunctors",
