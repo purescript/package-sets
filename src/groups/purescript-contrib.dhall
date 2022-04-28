@@ -67,12 +67,12 @@
   , version = "main"
   }
 , affjax-node =
-  { dependencies = [ "affjax" ]
+  { dependencies = [ "aff", "affjax", "either", "maybe", "prelude" ]
   , repo = "https://github.com/purescript-contrib/purescript-affjax-node.git"
   , version = "main"
   }
 , affjax-web =
-  { dependencies = [ "affjax" ]
+  { dependencies = [ "aff", "affjax", "maybe", "either", "prelude" ]
   , repo = "https://github.com/purescript-contrib/purescript-affjax-web.git"
   , version = "main"
   }
