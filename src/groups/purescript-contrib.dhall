@@ -262,7 +262,7 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git"
-  , version = "v0.4.0"
+  , version = "v0.5.0"
   }
 , http-methods =
   { dependencies = [ "either", "prelude", "strings" ]
