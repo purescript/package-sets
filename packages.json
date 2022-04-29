@@ -1402,6 +1402,7 @@
       "either",
       "exceptions",
       "node-buffer",
+      "nullable",
       "prelude"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-streams.git",
