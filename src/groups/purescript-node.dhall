@@ -117,7 +117,7 @@
   }
 , node-streams =
   { dependencies =
-    [ "effect", "either", "exceptions", "node-buffer", "prelude" ]
+    [ "effect", "either", "exceptions", "node-buffer", "nullable", "prelude" ]
   , repo = "https://github.com/purescript-node/purescript-node-streams.git"
   , version = "v7.0.0"
   }
