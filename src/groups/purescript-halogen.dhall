@@ -4,7 +4,6 @@
   , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
   , version = "v9.0.0"
   }
-
 , halogen =
   { dependencies =
     [ "aff"
