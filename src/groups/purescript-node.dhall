@@ -18,7 +18,7 @@
     ]
   , repo =
       "https://github.com/purescript-node/purescript-node-child-process.git"
-  , version = "v8.0.0"
+  , version = "v9.0.0"
   }
 , node-fs =
   { dependencies =
@@ -41,12 +41,12 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-fs.git"
-  , version = "v7.0.1"
+  , version = "v8.0.0"
   }
 , node-fs-aff =
   { dependencies = [ "aff", "either", "node-fs", "node-path" ]
   , repo = "https://github.com/purescript-node/purescript-node-fs-aff.git"
-  , version = "v8.0.0"
+  , version = "v9.0.0"
   }
 , node-http =
   { dependencies =
@@ -66,7 +66,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-http.git"
-  , version = "v7.0.0"
+  , version = "v8.0.0"
   }
 , node-net =
   { dependencies =
@@ -83,7 +83,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-net.git"
-  , version = "v3.0.0"
+  , version = "v4.0.0"
   }
 , node-path =
   { dependencies = [ "effect" ]
@@ -101,7 +101,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-process.git"
-  , version = "v9.0.0"
+  , version = "v10.0.0"
   }
 , node-readline =
   { dependencies =
@@ -113,13 +113,13 @@
     , "prelude"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-readline.git"
-  , version = "v6.0.0"
+  , version = "v7.0.0"
   }
 , node-streams =
   { dependencies =
-    [ "effect", "either", "exceptions", "node-buffer", "prelude" ]
+    [ "effect", "either", "exceptions", "node-buffer", "nullable", "prelude" ]
   , repo = "https://github.com/purescript-node/purescript-node-streams.git"
-  , version = "v6.0.0"
+  , version = "v7.0.0"
   }
 , node-url =
   { dependencies = [ "nullable" ]
