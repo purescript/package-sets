@@ -10,11 +10,6 @@ arrays-zipper =
       "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git"
   , version = "v0.8.0"
   }
-, interpolate =
-  { dependencies = [ "prelude" ]
-  , repo = "https://github.com/jordanmartinez/purescript-interpolate.git"
-  , version = "v3.0.1"
-  }
 halogen-svg-elems =
   { dependencies = [ "halogen" ]
   , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
@@ -64,7 +59,12 @@ halogen-svg-elems =
   , version = "v1.0.2"
   }
 -}
-{ tree-rose =
+{ interpolate =
+  { dependencies = [ "prelude" ]
+  , repo = "https://github.com/jordanmartinez/purescript-interpolate.git"
+  , version = "v5.0.0"
+  }
+, tree-rose =
   { dependencies =
     [ "control"
     , "foldable-traversable"
