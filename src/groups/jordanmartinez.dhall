@@ -1,17 +1,15 @@
 {-
-
 , halogen-hooks-extra =
   { dependencies = [ "halogen-hooks" ]
   , repo =
       "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git"
   , version = "v0.8.0"
   }
-halogen-svg-elems =
+, halogen-svg-elems =
   { dependencies = [ "halogen" ]
   , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
   , version = "v5.0.3"
   }
-
 , veither =
   { dependencies =
     [ "aff"
