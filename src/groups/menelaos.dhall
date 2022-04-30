@@ -29,17 +29,17 @@ b64 =
   , repo = "https://github.com/menelaos/purescript-b64.git"
   , version = "v0.0.7"
   }
-, encoding =
+-}
+{ encoding =
   { dependencies =
     [ "arraybuffer-types", "either", "exceptions", "functions", "prelude" ]
   , repo = "https://github.com/menelaos/purescript-encoding.git"
-  , version = "v0.0.7"
+  , version = "v0.0.8"
   }
 , stringutils =
   { dependencies =
-    [ "arrays", "either", "integers", "maybe", "partial", "prelude", "strings" ]
+    [ "arrays", "integers", "maybe", "partial", "prelude", "strings" ]
   , repo = "https://github.com/menelaos/purescript-stringutils.git"
-  , version = "v0.0.11"
+  , version = "v0.0.12"
   }
--}
-{=}
+}

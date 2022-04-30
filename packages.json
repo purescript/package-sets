@@ -567,6 +567,17 @@
     "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
     "version": "v7.0.0"
   },
+  "encoding": {
+    "dependencies": [
+      "arraybuffer-types",
+      "either",
+      "exceptions",
+      "functions",
+      "prelude"
+    ],
+    "repo": "https://github.com/menelaos/purescript-encoding.git",
+    "version": "v0.0.8"
+  },
   "enums": {
     "dependencies": [
       "control",
@@ -2210,6 +2221,18 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-strings-extra.git",
     "version": "v4.0.0"
+  },
+  "stringutils": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "maybe",
+      "partial",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/menelaos/purescript-stringutils.git",
+    "version": "v0.0.12"
   },
   "supply": {
     "dependencies": [
