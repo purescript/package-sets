@@ -13,12 +13,6 @@
   , repo = "https://github.com/bodil/purescript-smolder.git"
   , version = "v12.3.0"
   }
-signal =
-  { dependencies =
-    [ "aff", "foldable-traversable", "js-timers", "maybe", "prelude" ]
-  , repo = "https://github.com/bodil/purescript-signal.git"
-  , version = "v12.0.1"
-  }
 , test-unit =
   { dependencies =
     [ "aff"
@@ -36,7 +30,13 @@ signal =
   , version = "v16.0.0"
   }
 -}
-{ sized-vectors =
+{ signal =
+  { dependencies =
+    [ "aff", "effect", "either", "foldable-traversable", "maybe", "prelude" ]
+  , repo = "https://github.com/bodil/purescript-signal.git"
+  , version = "v13.0.0"
+  }
+, sized-vectors =
   { dependencies =
     [ "argonaut"
     , "arrays"

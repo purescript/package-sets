@@ -2049,6 +2049,18 @@
     "repo": "https://github.com/purescript/purescript-semirings.git",
     "version": "v7.0.0"
   },
+  "signal": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/bodil/purescript-signal.git",
+    "version": "v13.0.0"
+  },
   "simple-emitter": {
     "dependencies": [
       "ordered-collections",
