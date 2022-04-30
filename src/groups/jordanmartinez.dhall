@@ -1,9 +1,5 @@
 {-
-arrays-zipper =
-  { dependencies = [ "arrays", "control", "quickcheck" ]
-  , repo = "https://github.com/JordanMartinez/purescript-arrays-zipper.git"
-  , version = "v1.1.1"
-  }
+
 , halogen-hooks-extra =
   { dependencies = [ "halogen-hooks" ]
   , repo =
@@ -59,7 +55,12 @@ halogen-svg-elems =
   , version = "v1.0.2"
   }
 -}
-{ interpolate =
+{ arrays-zipper =
+  { dependencies = [ "arrays", "control", "quickcheck" ]
+  , repo = "https://github.com/JordanMartinez/purescript-arrays-zipper.git"
+  , version = "v2.0.1"
+  }
+, interpolate =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/jordanmartinez/purescript-interpolate.git"
   , version = "v5.0.0"
