@@ -228,6 +228,15 @@
     "repo": "https://github.com/purescript/purescript-arrays.git",
     "version": "v7.0.0"
   },
+  "arrays-zipper": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/JordanMartinez/purescript-arrays-zipper.git",
+    "version": "v2.0.1"
+  },
   "ask": {
     "dependencies": [
       "unsafe-coerce"
@@ -987,6 +996,13 @@
     ],
     "repo": "https://github.com/purescript/purescript-integers.git",
     "version": "v6.0.0"
+  },
+  "interpolate": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/jordanmartinez/purescript-interpolate.git",
+    "version": "v5.0.0"
   },
   "invariant": {
     "dependencies": [
@@ -2111,7 +2127,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purescript-spec/purescript-spec.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "spec-discovery": {
     "dependencies": [
