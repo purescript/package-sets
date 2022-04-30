@@ -1,6 +1,6 @@
 { spec =
   { repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v6.0.0"
+  , version = "v7.0.0"
   , dependencies =
     [ "aff"
     , "ansi"
