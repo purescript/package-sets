@@ -5,7 +5,7 @@ let
 
   easy-ps = import (
     pkgs.fetchFromGitHub {
-      owner = "jordanmartinez";
+      owner = "justinwoo";
       repo = "easy-purescript-nix";
       rev = "b0ac14ff90ca7bd6eb7a2d125d94b4f9212e7595";
       sha256 = "1zxbxrnznr59a3z6mh2a2pp0afgkv2rvqp17gnyn0wqs21q99xz1";
