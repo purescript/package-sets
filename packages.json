@@ -919,7 +919,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/purescript-halogen/purescript-halogen.git",
-    "version": "v6.1.3"
+    "version": "v7.0.0"
   },
   "halogen-css": {
     "dependencies": [
