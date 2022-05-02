@@ -31,4 +31,9 @@
     , "spec"
     ]
   }
+, spec-quickcheck =
+  { repo = "https://github.com/purescript-spec/purescript-spec-quickcheck.git"
+  , version = "v5.0.0"
+  , dependencies = [ "aff", "prelude", "quickcheck", "random", "spec" ]
+  }
 }

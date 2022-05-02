@@ -1,4 +1,4 @@
-{- 
+{-
 , geometry-plane =
   { dependencies = [ "console", "effect", "psci-support", "sparse-polynomials" ]
   , repo = "https://github.com/Ebmtranceboy/purescript-geometry-plane.git"
