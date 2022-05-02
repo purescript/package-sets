@@ -558,7 +558,7 @@
       "strings"
     ],
     "repo": "https://github.com/natefaubion/purescript-dodo-printer.git",
-    "version": "v2.1.0"
+    "version": "v2.2.0"
   },
   "dom-indexed": {
     "dependencies": [
@@ -808,7 +808,7 @@
       "lists"
     ],
     "repo": "https://github.com/ethul/purescript-freeap.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "freet": {
     "dependencies": [
@@ -1038,7 +1038,7 @@
       "newtype"
     ],
     "repo": "https://github.com/garyb/purescript-indexed-monad.git",
-    "version": "v2.0.1"
+    "version": "v2.1.0"
   },
   "integers": {
     "dependencies": [
@@ -2198,7 +2198,7 @@
       "unicode"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-slug.git",
-    "version": "v3.0.0"
+    "version": "v3.0.1"
   },
   "spec": {
     "dependencies": [
