@@ -62,7 +62,7 @@
     , "strings"
     ]
   , repo = "https://github.com/natefaubion/purescript-dodo-printer.git"
-  , version = "v2.1.0"
+  , version = "v2.2.0"
   }
 , heterogeneous =
   { dependencies =
