@@ -329,6 +329,16 @@
     "repo": "https://github.com/purescript-web/purescript-canvas.git",
     "version": "v6.0.0"
   },
+  "cartesian": {
+    "dependencies": [
+      "console",
+      "effect",
+      "integers",
+      "psci-support"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-cartesian.git",
+    "version": "v1.0.5"
+  },
   "catenable-lists": {
     "dependencies": [
       "control",
