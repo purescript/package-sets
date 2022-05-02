@@ -265,6 +265,21 @@
     "repo": "https://github.com/purescript-contrib/purescript-avar.git",
     "version": "v5.0.0"
   },
+  "b64": {
+    "dependencies": [
+      "arraybuffer-types",
+      "either",
+      "encoding",
+      "enums",
+      "exceptions",
+      "functions",
+      "partial",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/menelaos/purescript-b64.git",
+    "version": "v0.0.8"
+  },
   "barlow-lens": {
     "dependencies": [
       "either",
