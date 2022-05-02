@@ -329,6 +329,16 @@
     "repo": "https://github.com/purescript-web/purescript-canvas.git",
     "version": "v6.0.0"
   },
+  "cartesian": {
+    "dependencies": [
+      "console",
+      "effect",
+      "integers",
+      "psci-support"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-cartesian.git",
+    "version": "v1.0.5"
+  },
   "catenable-lists": {
     "dependencies": [
       "control",
@@ -485,6 +495,14 @@
     "repo": "https://github.com/purescript/purescript-datetime.git",
     "version": "v6.0.0"
   },
+  "debug": {
+    "dependencies": [
+      "functions",
+      "prelude"
+    ],
+    "repo": "https://github.com/garyb/purescript-debug.git",
+    "version": "v6.0.0"
+  },
   "dissect": {
     "dependencies": [
       "bifunctors",
@@ -539,7 +557,7 @@
       "web-touchevents"
     ],
     "repo": "https://github.com/purescript-halogen/purescript-dom-indexed.git",
-    "version": "v9.0.0"
+    "version": "v10.0.0"
   },
   "effect": {
     "dependencies": [
@@ -566,6 +584,17 @@
     ],
     "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
     "version": "v7.0.0"
+  },
+  "encoding": {
+    "dependencies": [
+      "arraybuffer-types",
+      "either",
+      "exceptions",
+      "functions",
+      "prelude"
+    ],
+    "repo": "https://github.com/menelaos/purescript-encoding.git",
+    "version": "v0.0.8"
   },
   "enums": {
     "dependencies": [
@@ -898,7 +927,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/purescript-halogen/purescript-halogen.git",
-    "version": "v6.1.3"
+    "version": "v7.0.0"
   },
   "halogen-css": {
     "dependencies": [
@@ -2144,6 +2173,17 @@
     "repo": "https://github.com/purescript-spec/purescript-spec-discovery.git",
     "version": "v7.0.0"
   },
+  "spec-quickcheck": {
+    "dependencies": [
+      "aff",
+      "prelude",
+      "quickcheck",
+      "random",
+      "spec"
+    ],
+    "repo": "https://github.com/purescript-spec/purescript-spec-quickcheck.git",
+    "version": "v5.0.0"
+  },
   "st": {
     "dependencies": [
       "partial",
@@ -2210,6 +2250,18 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-strings-extra.git",
     "version": "v4.0.0"
+  },
+  "stringutils": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "maybe",
+      "partial",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/menelaos/purescript-stringutils.git",
+    "version": "v0.0.12"
   },
   "supply": {
     "dependencies": [
