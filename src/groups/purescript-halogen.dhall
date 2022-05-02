@@ -2,7 +2,7 @@
   { dependencies =
     [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
   , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
-  , version = "v9.0.0"
+  , version = "v10.0.0"
   }
 , halogen =
   { dependencies =
