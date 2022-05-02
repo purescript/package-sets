@@ -28,67 +28,10 @@
   , repo = "https://github.com/natefaubion/purescript-spork.git"
   , version = "v1.0.0"
   }
-, routing-duplex =
-  { dependencies =
-    [ "arrays"
-    , "control"
-    , "either"
-    , "js-uri"
-    , "lazy"
-    , "numbers"
-    , "prelude"
-    , "profunctor"
-    , "record"
-    , "strings"
-    , "typelevel-prelude"
-    ]
-  , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
-  , version = "v0.5.1"
-  }
-, variant =
-  { dependencies =
-    [ "enums"
-    , "lists"
-    , "maybe"
-    , "partial"
-    , "prelude"
-    , "record"
-    , "tuples"
-    , "unsafe-coerce"
-    ]
-  , repo = "https://github.com/natefaubion/purescript-variant.git"
-  , version = "v7.1.0"
-  }
-, run =
-  { dependencies =
-    [ "aff"
-    , "effect"
-    , "either"
-    , "free"
-    , "maybe"
-    , "newtype"
-    , "prelude"
-    , "profunctor"
-    , "tailrec"
-    , "tuples"
-    , "type-equality"
-    , "typelevel-prelude"
-    , "unsafe-coerce"
-    , "variant"
-    ]
-  , repo = "https://github.com/natefaubion/purescript-run.git"
-  , version = "v4.0.0"
-  }
 , checked-exceptions =
   { dependencies = [ "prelude", "transformers", "variant" ]
   , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
   , version = "v3.1.1"
-  }
-, heterogeneous =
-  { dependencies =
-    [ "either", "functors", "prelude", "record", "tuples", "variant" ]
-  , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
-  , version = "v0.5.1"
   }
 -}
 { call-by-name =
@@ -121,6 +64,12 @@
   , repo = "https://github.com/natefaubion/purescript-dodo-printer.git"
   , version = "v2.1.0"
   }
+, heterogeneous =
+  { dependencies =
+    [ "either", "functors", "prelude", "record", "tuples", "variant" ]
+  , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
+  , version = "v0.6.0"
+  }
 , psa-utils =
   { dependencies =
     [ "ansi"
@@ -141,6 +90,57 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/natefaubion/purescript-psa-utils.git"
+  , version = "v8.0.0"
+  }
+, routing-duplex =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "either"
+    , "js-uri"
+    , "lazy"
+    , "numbers"
+    , "prelude"
+    , "profunctor"
+    , "record"
+    , "strings"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
+  , version = "v0.6.0"
+  }
+, run =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "either"
+    , "free"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "profunctor"
+    , "tailrec"
+    , "tuples"
+    , "type-equality"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "variant"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-run.git"
+  , version = "v5.0.0"
+  }
+, variant =
+  { dependencies =
+    [ "enums"
+    , "lists"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "record"
+    , "tuples"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-variant.git"
   , version = "v8.0.0"
   }
 }

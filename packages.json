@@ -935,7 +935,7 @@
       "halogen"
     ],
     "repo": "https://github.com/purescript-halogen/purescript-halogen-css.git",
-    "version": "v9.0.0"
+    "version": "v10.0.0"
   },
   "halogen-subscriptions": {
     "dependencies": [
@@ -989,6 +989,18 @@
     ],
     "repo": "https://github.com/maxdeviant/purescript-heckin.git",
     "version": "v2.0.1"
+  },
+  "heterogeneous": {
+    "dependencies": [
+      "either",
+      "functors",
+      "prelude",
+      "record",
+      "tuples",
+      "variant"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-heterogeneous.git",
+    "version": "v0.6.0"
   },
   "http-methods": {
     "dependencies": [
@@ -2043,6 +2055,43 @@
     "repo": "https://github.com/purescript-contrib/purescript-routing.git",
     "version": "v11.0.0"
   },
+  "routing-duplex": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "either",
+      "js-uri",
+      "lazy",
+      "numbers",
+      "prelude",
+      "profunctor",
+      "record",
+      "strings",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-routing-duplex.git",
+    "version": "v0.6.0"
+  },
+  "run": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "either",
+      "free",
+      "maybe",
+      "newtype",
+      "prelude",
+      "profunctor",
+      "tailrec",
+      "tuples",
+      "type-equality",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "variant"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-run.git",
+    "version": "v5.0.0"
+  },
   "safe-coerce": {
     "dependencies": [
       "unsafe-coerce"
@@ -2524,6 +2573,20 @@
     ],
     "repo": "https://github.com/purescript/purescript-validation.git",
     "version": "v6.0.0"
+  },
+  "variant": {
+    "dependencies": [
+      "enums",
+      "lists",
+      "maybe",
+      "partial",
+      "prelude",
+      "record",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-variant.git",
+    "version": "v8.0.0"
   },
   "vectorfield": {
     "dependencies": [
