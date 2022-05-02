@@ -381,7 +381,18 @@
       "transformers"
     ],
     "repo": "https://github.com/garyb/purescript-codec.git",
-    "version": "v4.0.1"
+    "version": "v5.0.0"
+  },
+  "codec-argonaut": {
+    "dependencies": [
+      "argonaut-core",
+      "codec",
+      "ordered-collections",
+      "type-equality",
+      "variant"
+    ],
+    "repo": "https://github.com/garyb/purescript-codec-argonaut.git",
+    "version": "v9.0.0"
   },
   "colors": {
     "dependencies": [
