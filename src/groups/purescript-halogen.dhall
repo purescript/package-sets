@@ -35,7 +35,7 @@
 , halogen-css =
   { dependencies = [ "css", "halogen" ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen-css.git"
-  , version = "v9.0.0"
+  , version = "v10.0.0"
   }
 , halogen-subscriptions =
   { dependencies =
