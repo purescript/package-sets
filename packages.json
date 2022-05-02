@@ -495,6 +495,14 @@
     "repo": "https://github.com/purescript/purescript-datetime.git",
     "version": "v6.0.0"
   },
+  "debug": {
+    "dependencies": [
+      "functions",
+      "prelude"
+    ],
+    "repo": "https://github.com/garyb/purescript-debug.git",
+    "version": "v6.0.0"
+  },
   "dissect": {
     "dependencies": [
       "bifunctors",
