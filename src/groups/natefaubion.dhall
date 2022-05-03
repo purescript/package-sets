@@ -58,7 +58,7 @@
 , call-by-name =
   { dependencies = [ "unsafe-coerce", "lazy", "maybe", "either", "control" ]
   , repo = "https://github.com/natefaubion/purescript-call-by-name.git"
-  , version = "v3.0.0"
+  , version = "v4.0.1"
   }
 , convertable-options =
   { dependencies = [ "console", "effect", "maybe", "record" ]
