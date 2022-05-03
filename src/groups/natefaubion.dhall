@@ -34,7 +34,28 @@
   , version = "v3.1.1"
   }
 -}
-{ call-by-name =
+{ argparse-basic =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "control"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "numbers"
+    , "prelude"
+    , "record"
+    , "strings"
+    , "tuples"
+    , "unfoldable"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-argparse-basic.git"
+  , version = "v2.0.0"
+  }
+, call-by-name =
   { dependencies = [ "unsafe-coerce", "lazy", "maybe", "either", "control" ]
   , repo = "https://github.com/natefaubion/purescript-call-by-name.git"
   , version = "v3.0.0"
