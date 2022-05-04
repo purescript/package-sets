@@ -382,7 +382,7 @@
       "psci-support"
     ],
     "repo": "https://github.com/Ebmtranceboy/purescript-cartesian.git",
-    "version": "v1.0.5"
+    "version": "v1.0.6"
   },
   "catenable-lists": {
     "dependencies": [
@@ -2379,6 +2379,19 @@
     ],
     "repo": "https://github.com/thomashoneyman/purescript-slug.git",
     "version": "v3.0.1"
+  },
+  "sparse-polynomials": {
+    "dependencies": [
+      "cartesian",
+      "console",
+      "effect",
+      "ordered-collections",
+      "prelude",
+      "rationals",
+      "tuples"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git",
+    "version": "v1.0.4"
   },
   "spec": {
     "dependencies": [
