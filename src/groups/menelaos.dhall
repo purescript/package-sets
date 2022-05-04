@@ -1,20 +1,18 @@
-{-
-jwt =
+{ jwt =
   { dependencies =
     [ "argonaut-core"
     , "arrays"
     , "b64"
     , "either"
-    , "errors"
     , "exceptions"
     , "prelude"
     , "profunctor-lenses"
     , "strings"
     ]
   , repo = "https://github.com/menelaos/purescript-jwt.git"
-  , version = "v0.0.8"
+  , version = "v0.0.9"
   }
-b64 =
+, b64 =
   { dependencies =
     [ "arraybuffer-types"
     , "either"
@@ -27,10 +25,9 @@ b64 =
     , "strings"
     ]
   , repo = "https://github.com/menelaos/purescript-b64.git"
-  , version = "v0.0.7"
+  , version = "v0.0.8"
   }
--}
-{ encoding =
+, encoding =
   { dependencies =
     [ "arraybuffer-types", "either", "exceptions", "functions", "prelude" ]
   , repo = "https://github.com/menelaos/purescript-encoding.git"
