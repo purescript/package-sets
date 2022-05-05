@@ -568,18 +568,21 @@
   },
   "dissect": {
     "dependencies": [
+      "arrays",
       "bifunctors",
-      "either",
+      "foreign-object",
       "functors",
+      "newtype",
       "partial",
       "prelude",
       "tailrec",
-      "tuples",
+      "type-equality",
       "typelevel-prelude",
-      "unsafe-coerce"
+      "unsafe-coerce",
+      "variant"
     ],
     "repo": "https://github.com/PureFunctor/purescript-dissect.git",
-    "version": "v0.1.0"
+    "version": "v1.0.0"
   },
   "distributive": {
     "dependencies": [

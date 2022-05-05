@@ -24,17 +24,20 @@
   }
 , dissect =
   { dependencies =
-    [ "bifunctors"
-    , "either"
+    [ "arrays"
+    , "bifunctors"
+    , "foreign-object"
     , "functors"
+    , "newtype"
     , "partial"
     , "prelude"
     , "tailrec"
-    , "tuples"
+    , "type-equality"
     , "typelevel-prelude"
     , "unsafe-coerce"
+    , "variant"
     ]
   , repo = "https://github.com/PureFunctor/purescript-dissect.git"
-  , version = "v0.1.0"
+  , version = "v1.0.0"
   }
 }
