@@ -1,5 +1,17 @@
-{-
-
+{ polymorphic-vectors =
+  { dependencies =
+    [ "distributive"
+    , "foldable-traversable"
+    , "numbers"
+    , "prelude"
+    , "record"
+    , "safe-coerce"
+    , "type-equality"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/artemisSystem/purescript-polymorphic-vectors.git"
+  , version = "v4.0.0"
+  }
 , canvas-action =
   { dependencies =
     [ "aff"
@@ -26,18 +38,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/artemisSystem/purescript-canvas-action.git"
-  , version = "v8.0.0"
-  }
-, polymorphic-vectors =
-  { dependencies =
-    [ "distributive"
-    , "foldable-traversable"
-    , "prelude"
-    , "record"
-    , "typelevel-prelude"
-    ]
-  , repo = "https://github.com/artemisSystem/purescript-polymorphic-vectors.git"
-  , version = "v3.0.0"
+  , version = "v9.0.0"
   }
 , foreign-readwrite =
   { dependencies =
@@ -47,13 +48,19 @@
     , "identity"
     , "lists"
     , "maybe"
+    , "newtype"
     , "prelude"
     , "record"
     , "safe-coerce"
     , "transformers"
+    , "unsafe-coerce"
     ]
   , repo = "https://github.com/artemisSystem/purescript-foreign-readwrite.git"
-  , version = "v1.0.2"
+  , version = "v3.0.0"
   }
--}
-{=}
+, qualified-do =
+  { dependencies = [ "control", "parallel", "prelude" ]
+  , repo = "https://github.com/artemisSystem/purescript-qualified-do.git"
+  , version = "v1.0.0"
+  }
+}
