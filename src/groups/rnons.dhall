@@ -18,6 +18,6 @@
 { halogen-storybook =
   { dependencies = [ "halogen", "prelude", "routing", "foreign-object" ]
   , repo = "https://github.com/rnons/purescript-halogen-storybook.git"
-  , version = "v1.0.1"
+  , version = "v2.0.0"
   }
 }

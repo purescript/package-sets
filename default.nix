@@ -7,8 +7,8 @@ let
     pkgs.fetchFromGitHub {
       owner = "justinwoo";
       repo = "easy-purescript-nix";
-      rev = "7f6207b9e9b021e30d6c82f49ba20f0d5db01d1f";
-      sha256 = "1j02jcs88fyc0diyyym1y3yhrhpjj7jcdj9aw8sfcd20yrpd4pbr";
+      rev = "0ad5775c1e80cdd952527db2da969982e39ff592";
+      sha256 = "0x53ads5v8zqsk4r1mfpzf5913byifdpv5shnvxpgw634ifyj1kg";
     }
   ) {
     inherit pkgs;
@@ -25,7 +25,7 @@ let
     inherit pkgs;
   };
 
-  purs = easy-ps.purs-0_14_7;
+  purs = easy-ps.purs-0_15_0;
 
 in
 pkgs.runCommand "easy-ps-test" {

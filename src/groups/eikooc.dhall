@@ -1,4 +1,4 @@
-{ nano-id =
+{- nano-id =
   { dependencies =
     [ "aff"
     , "console"
@@ -8,11 +8,11 @@
     , "prelude"
     , "psci-support"
     , "random"
-    , "spec"
     , "strings"
     , "stringutils"
     ]
   , repo = "https://github.com/eikooc/nano-id.git"
   , version = "v1.0.0"
   }
-}
+-}
+{=}

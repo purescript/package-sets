@@ -11,7 +11,6 @@
     , "effect"
     , "either"
     , "integers"
-    , "math"
     , "numbers"
     , "ordered-collections"
     , "strings"

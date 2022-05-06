@@ -1,4 +1,4 @@
-{ concur-core =
+{- concur-core =
   { dependencies =
     [ "aff"
     , "arrays"
@@ -32,4 +32,5 @@
   , repo = "https://github.com/purescript-concur/purescript-concur-react.git"
   , version = "v0.4.2"
   }
-}
+-}
+{=}

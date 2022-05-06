@@ -18,7 +18,6 @@
     , "numbers"
     , "integers"
     , "lists"
-    , "math"
     , "prelude"
     , "ring-modules"
     , "newtype"

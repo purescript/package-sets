@@ -1,4 +1,55 @@
-{ halogen-formless =
+{ halogen-hooks =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "bifunctors"
+    , "effect"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "free"
+    , "freeap"
+    , "halogen"
+    , "halogen-subscriptions"
+    , "maybe"
+    , "newtype"
+    , "ordered-collections"
+    , "parallel"
+    , "partial"
+    , "prelude"
+    , "refs"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    , "unsafe-coerce"
+    , "unsafe-reference"
+    , "web-dom"
+    , "web-html"
+    ]
+  , repo = "https://github.com/thomashoneyman/purescript-halogen-hooks.git"
+  , version = "v0.6.0"
+  }
+, halogen-store =
+  { dependencies =
+    [ "aff"
+    , "distributive"
+    , "effect"
+    , "fork"
+    , "halogen"
+    , "halogen-hooks"
+    , "halogen-subscriptions"
+    , "maybe"
+    , "prelude"
+    , "refs"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    , "unsafe-reference"
+    ]
+  , repo = "https://github.com/thomashoneyman/purescript-halogen-store.git"
+  , version = "v0.5.0"
+  }
+, halogen-formless =
   { dependencies =
     [ "convertable-options"
     , "effect"
@@ -19,39 +70,12 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-  , version = "v3.0.0"
-  }
-, halogen-hooks =
-  { dependencies = [ "halogen" ]
-  , repo = "https://github.com/thomashoneyman/purescript-halogen-hooks.git"
-  , version = "v0.5.0"
-  }
-, halogen-store =
-  { dependencies =
-    [ "aff"
-    , "distributive"
-    , "effect"
-    , "foldable-traversable"
-    , "fork"
-    , "halogen"
-    , "halogen-hooks"
-    , "halogen-subscriptions"
-    , "maybe"
-    , "prelude"
-    , "refs"
-    , "tailrec"
-    , "transformers"
-    , "tuples"
-    , "unsafe-coerce"
-    , "unsafe-reference"
-    ]
-  , repo = "https://github.com/thomashoneyman/purescript-halogen-store.git"
-  , version = "v0.4.1"
+  , version = "v4.0.0"
   }
 , slug =
   { dependencies =
     [ "prelude", "maybe", "strings", "unicode", "argonaut-codecs" ]
   , repo = "https://github.com/thomashoneyman/purescript-slug.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 }
