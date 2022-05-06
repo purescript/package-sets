@@ -218,13 +218,17 @@
       "arraybuffer-types",
       "effect",
       "float32",
+      "identity",
+      "lists",
       "maybe",
+      "newtype",
       "prelude",
+      "tailrec",
       "transformers",
       "uint"
     ],
     "repo": "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git",
-    "version": "v2.1.0"
+    "version": "v3.0.1"
   },
   "arraybuffer-types": {
     "dependencies": [],
