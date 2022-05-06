@@ -122,6 +122,7 @@ let packages =
       ⫽ ./groups/thimoteus.dhall
       ⫽ ./groups/thomashoneyman.dhall
       ⫽ ./groups/thought2.dhall
+      ⫽ ./groups/toastal.dhall
       ⫽ ./groups/truqu.dhall
       ⫽ ./groups/unisay.dhall
       ⫽ ./groups/ursi.dhall

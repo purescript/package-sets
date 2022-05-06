@@ -68,15 +68,19 @@ parsing-dataview =
 { arraybuffer-builder =
   { dependencies =
     [ "effect"
-    , "arraybuffer-types"
-    , "maybe"
-    , "uint"
     , "float32"
+    , "identity"
+    , "lists"
+    , "maybe"
+    , "newtype"
     , "prelude"
     , "transformers"
+    , "uint"
+    , "arraybuffer-types"
     , "arraybuffer"
+    , "tailrec"
     ]
   , repo = "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git"
-  , version = "v2.1.0"
+  , version = "v3.0.1"
   }
 }
