@@ -278,7 +278,7 @@
 , js-timers =
   { dependencies = [ "effect" ]
   , repo = "https://github.com/purescript-contrib/purescript-js-timers.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , js-uri =
   { dependencies = [ "functions", "maybe" ]

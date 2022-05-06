@@ -2,7 +2,7 @@
   { dependencies =
     [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
   , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
-  , version = "v9.0.0"
+  , version = "v10.0.0"
   }
 , halogen =
   { dependencies =
@@ -30,12 +30,12 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen.git"
-  , version = "v6.1.3"
+  , version = "v7.0.0"
   }
 , halogen-css =
   { dependencies = [ "css", "halogen" ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen-css.git"
-  , version = "v9.0.0"
+  , version = "v10.0.0"
   }
 , halogen-subscriptions =
   { dependencies =
