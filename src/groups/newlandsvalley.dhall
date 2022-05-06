@@ -1,5 +1,5 @@
 {-
-, abc-parser =
+  abc-parser =
   { dependencies =
     [ "bifunctors"
     , "effect"
@@ -49,10 +49,11 @@
   , repo = "https://github.com/newlandsvalley/purescript-soundfonts.git"
   , version = "v3.3.0"
   }
-js-fileio =
+-}
+{ js-fileio =
   { dependencies = [ "aff", "effect", "prelude" ]
   , repo = "https://github.com/newlandsvalley/purescript-js-fileio.git"
-  , version = "v2.2.0"
+  , version = "v3.0.0"
   }
 , midi =
   { dependencies =
@@ -73,7 +74,6 @@ js-fileio =
     , "unfoldable"
     ]
   , repo = "https://github.com/newlandsvalley/purescript-midi.git"
-  , version = "v3.1.0"
+  , version = "v4.0.0"
   }
--}
-{=}
+}
