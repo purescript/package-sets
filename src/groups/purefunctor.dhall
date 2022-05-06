@@ -40,4 +40,20 @@
   , repo = "https://github.com/PureFunctor/purescript-dissect.git"
   , version = "v1.0.0"
   }
+, ssrs =
+  { dependencies =
+    [ "dissect"
+    , "either"
+    , "fixed-points"
+    , "free"
+    , "lists"
+    , "prelude"
+    , "safe-coerce"
+    , "tailrec"
+    , "tuples"
+    , "variant"
+    ]
+  , repo = "https://github.com/PureFunctor/purescript-ssrs.git"
+  , version = "v1.0.0"
+  }
 }
