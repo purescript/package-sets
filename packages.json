@@ -3092,6 +3092,17 @@
     "repo": "https://git.sr.ht/~toastal/purescript-web-page-visibility",
     "version": "v2.0.0"
   },
+  "web-pointerevents": {
+    "dependencies": [
+      "effect",
+      "maybe",
+      "prelude",
+      "web-dom",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/gbagan/purescript-web-pointerevents.git",
+    "version": "v1.0.0"
+  },
   "web-promise": {
     "dependencies": [
       "effect",
