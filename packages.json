@@ -996,6 +996,16 @@
     "repo": "https://github.com/purescript/purescript-gen.git",
     "version": "v4.0.0"
   },
+  "geometry-plane": {
+    "dependencies": [
+      "console",
+      "effect",
+      "psci-support",
+      "sparse-polynomials"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-geometry-plane.git",
+    "version": "v1.0.3"
+  },
   "github-actions-toolkit": {
     "dependencies": [
       "aff",
@@ -2508,6 +2518,16 @@
     "repo": "https://github.com/thomashoneyman/purescript-slug.git",
     "version": "v3.0.1"
   },
+  "sparse-matrices": {
+    "dependencies": [
+      "console",
+      "effect",
+      "prelude",
+      "sparse-polynomials"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-sparse-matrices.git",
+    "version": "v1.2.1"
+  },
   "sparse-polynomials": {
     "dependencies": [
       "cartesian",
@@ -2519,7 +2539,7 @@
       "tuples"
     ],
     "repo": "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git",
-    "version": "v1.0.4"
+    "version": "v1.0.5"
   },
   "spec": {
     "dependencies": [
