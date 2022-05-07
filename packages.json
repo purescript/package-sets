@@ -1283,6 +1283,20 @@
     "repo": "https://github.com/garyb/purescript-indexed-monad.git",
     "version": "v2.1.0"
   },
+  "int64": {
+    "dependencies": [
+      "effect",
+      "foreign",
+      "functions",
+      "integers",
+      "maybe",
+      "nullable",
+      "prelude",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-int64.git",
+    "version": "v1.0.0"
+  },
   "integers": {
     "dependencies": [
       "maybe",
@@ -1969,6 +1983,22 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
     "version": "v9.0.0"
+  },
+  "parsing-dataview": {
+    "dependencies": [
+      "arraybuffer",
+      "arraybuffer-types",
+      "effect",
+      "float32",
+      "maybe",
+      "parsing",
+      "prelude",
+      "transformers",
+      "tuples",
+      "uint"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-parsing-dataview.git",
+    "version": "v3.0.0"
   },
   "partial": {
     "dependencies": [],

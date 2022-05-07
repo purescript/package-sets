@@ -29,43 +29,24 @@
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
   , version = "v2.1.2"
   }
-, longs =
+-}
+{ parsing-dataview =
   { dependencies =
-    [ "effect"
-    , "console"
-    , "prelude"
-    , "strings"
-    , "foreign"
-    , "nullable"
-    , "functions"
-    , "quickcheck"
-    ]
-  , repo = "https://github.com/zapph/purescript-longs.git"
-  , version = "v0.1.1"
-  }
-parsing-dataview =
-  { dependencies =
-    [ "effect"
+    [ "arraybuffer"
     , "arraybuffer-types"
+    , "effect"
+    , "float32"
     , "maybe"
     , "parsing"
-    , "uint"
-    , "float32"
     , "prelude"
     , "transformers"
     , "tuples"
-    , "arraybuffer"
+    , "uint"
     ]
   , repo = "https://github.com/jamesdbrock/purescript-parsing-dataview.git"
-  , version = "v2.1.0"
+  , version = "v3.0.0"
   }
-, parsing-replace =
-  { dependencies = [ "parsing" ]
-  , repo = "https://github.com/jamesdbrock/purescript-parsing-replace.git"
-  , version = "v1.0.2"
-  }
--}
-{ arraybuffer-builder =
+, arraybuffer-builder =
   { dependencies =
     [ "effect"
     , "float32"
