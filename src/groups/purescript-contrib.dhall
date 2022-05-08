@@ -269,6 +269,20 @@
   , repo = "https://github.com/purescript-contrib/purescript-http-methods.git"
   , version = "v6.0.0"
   }
+, int64 =
+  { dependencies =
+    [ "prelude"
+    , "integers"
+    , "effect"
+    , "foreign"
+    , "nullable"
+    , "functions"
+    , "maybe"
+    , "quickcheck"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-int64.git"
+  , version = "v1.0.0"
+  }
 , js-date =
   { dependencies =
     [ "datetime", "effect", "exceptions", "foreign", "integers", "now" ]
