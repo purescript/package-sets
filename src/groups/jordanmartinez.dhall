@@ -73,7 +73,7 @@
     , "transformers"
     , "tuples"
     ]
-  , repo = "https://github.com/JordanMartinez/purescript-generate-values.git"
+  , repo = "https://github.com/jordanmartinez/purescript-generate-values.git"
   , version = "v1.0.1"
   }
 , halogen-hooks-extra =
