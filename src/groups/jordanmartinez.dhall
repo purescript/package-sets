@@ -52,6 +52,30 @@
   , repo = "https://github.com/JordanMartinez/purescript-arrays-zipper.git"
   , version = "v2.0.1"
   }
+, generate-values =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "effect"
+    , "enums"
+    , "foldable-traversable"
+    , "gen"
+    , "identity"
+    , "integers"
+    , "lcg"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "numbers"
+    , "partial"
+    , "prelude"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/JordanMartinez/purescript-generate-values.git"
+  , version = "v1.0.1"
+  }
 , halogen-hooks-extra =
   { dependencies = [ "halogen-hooks" ]
   , repo =
