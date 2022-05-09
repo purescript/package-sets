@@ -996,6 +996,30 @@
     "repo": "https://github.com/purescript/purescript-gen.git",
     "version": "v4.0.0"
   },
+  "generate-values": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "effect",
+      "enums",
+      "foldable-traversable",
+      "gen",
+      "identity",
+      "integers",
+      "lcg",
+      "lists",
+      "maybe",
+      "newtype",
+      "numbers",
+      "partial",
+      "prelude",
+      "tailrec",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/jordanmartinez/purescript-generate-values.git",
+    "version": "v1.0.1"
+  },
   "geometry-plane": {
     "dependencies": [
       "console",
