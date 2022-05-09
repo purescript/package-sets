@@ -2823,6 +2823,22 @@
     "repo": "https://github.com/purescript/purescript-tailrec.git",
     "version": "v6.0.0"
   },
+  "test-unit": {
+    "dependencies": [
+      "aff",
+      "avar",
+      "effect",
+      "either",
+      "free",
+      "js-timers",
+      "lists",
+      "prelude",
+      "quickcheck",
+      "strings"
+    ],
+    "repo": "https://github.com/bodil/purescript-test-unit.git",
+    "version": "v17.0.0"
+  },
   "thermite": {
     "dependencies": [
       "aff",
