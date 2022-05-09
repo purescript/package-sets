@@ -996,6 +996,16 @@
     "repo": "https://github.com/purescript/purescript-gen.git",
     "version": "v4.0.0"
   },
+  "geometry-plane": {
+    "dependencies": [
+      "console",
+      "effect",
+      "psci-support",
+      "sparse-polynomials"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-geometry-plane.git",
+    "version": "v1.0.3"
+  },
   "github-actions-toolkit": {
     "dependencies": [
       "aff",
@@ -1273,6 +1283,20 @@
     "repo": "https://github.com/garyb/purescript-indexed-monad.git",
     "version": "v2.1.0"
   },
+  "int64": {
+    "dependencies": [
+      "effect",
+      "foreign",
+      "functions",
+      "integers",
+      "maybe",
+      "nullable",
+      "prelude",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-int64.git",
+    "version": "v1.0.0"
+  },
   "integers": {
     "dependencies": [
       "maybe",
@@ -1308,6 +1332,15 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
     "version": "v8.0.0"
+  },
+  "js-fileio": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-js-fileio.git",
+    "version": "v3.0.0"
   },
   "js-timers": {
     "dependencies": [
@@ -1465,6 +1498,27 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-metadata.git",
     "version": "v0.15.0"
+  },
+  "midi": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "integers",
+      "lists",
+      "maybe",
+      "ordered-collections",
+      "prelude",
+      "signal",
+      "string-parsers",
+      "strings",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-midi.git",
+    "version": "v4.0.0"
   },
   "minibench": {
     "dependencies": [
@@ -1929,6 +1983,22 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
     "version": "v9.0.0"
+  },
+  "parsing-dataview": {
+    "dependencies": [
+      "arraybuffer",
+      "arraybuffer-types",
+      "effect",
+      "float32",
+      "maybe",
+      "parsing",
+      "prelude",
+      "transformers",
+      "tuples",
+      "uint"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-parsing-dataview.git",
+    "version": "v3.0.0"
   },
   "partial": {
     "dependencies": [],
@@ -2508,6 +2578,48 @@
     "repo": "https://github.com/thomashoneyman/purescript-slug.git",
     "version": "v3.0.1"
   },
+  "soundfonts": {
+    "dependencies": [
+      "aff",
+      "affjax",
+      "affjax-web",
+      "argonaut-core",
+      "arraybuffer-types",
+      "arrays",
+      "b64",
+      "bifunctors",
+      "console",
+      "effect",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "foreign-object",
+      "http-methods",
+      "integers",
+      "lists",
+      "maybe",
+      "midi",
+      "ordered-collections",
+      "parallel",
+      "partial",
+      "prelude",
+      "strings",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-soundfonts.git",
+    "version": "v4.0.1"
+  },
+  "sparse-matrices": {
+    "dependencies": [
+      "console",
+      "effect",
+      "prelude",
+      "sparse-polynomials"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-sparse-matrices.git",
+    "version": "v1.2.1"
+  },
   "sparse-polynomials": {
     "dependencies": [
       "cartesian",
@@ -2519,7 +2631,7 @@
       "tuples"
     ],
     "repo": "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git",
-    "version": "v1.0.4"
+    "version": "v1.0.5"
   },
   "spec": {
     "dependencies": [
@@ -2686,6 +2798,22 @@
     ],
     "repo": "https://github.com/purescript/purescript-tailrec.git",
     "version": "v6.0.0"
+  },
+  "test-unit": {
+    "dependencies": [
+      "aff",
+      "avar",
+      "effect",
+      "either",
+      "free",
+      "js-timers",
+      "lists",
+      "prelude",
+      "quickcheck",
+      "strings"
+    ],
+    "repo": "https://github.com/bodil/purescript-test-unit.git",
+    "version": "v17.0.0"
   },
   "thermite": {
     "dependencies": [
@@ -3071,6 +3199,17 @@
     ],
     "repo": "https://git.sr.ht/~toastal/purescript-web-page-visibility",
     "version": "v2.0.0"
+  },
+  "web-pointerevents": {
+    "dependencies": [
+      "effect",
+      "maybe",
+      "prelude",
+      "web-dom",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/gbagan/purescript-web-pointerevents.git",
+    "version": "v1.0.0"
   },
   "web-promise": {
     "dependencies": [

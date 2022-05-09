@@ -1,5 +1,5 @@
 {-
-, abc-parser =
+  abc-parser =
   { dependencies =
     [ "bifunctors"
     , "effect"
@@ -18,10 +18,38 @@
   , repo = "https://github.com/newlandsvalley/purescript-abc-parser.git"
   , version = "v1.9.3"
   }
+-}
+{ js-fileio =
+  { dependencies = [ "aff", "effect", "prelude" ]
+  , repo = "https://github.com/newlandsvalley/purescript-js-fileio.git"
+  , version = "v3.0.0"
+  }
+, midi =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "signal"
+    , "string-parsers"
+    , "strings"
+    , "tuples"
+    , "unfoldable"
+    ]
+  , repo = "https://github.com/newlandsvalley/purescript-midi.git"
+  , version = "v4.0.0"
+  }
 , soundfonts =
   { dependencies =
     [ "aff"
     , "affjax"
+    , "affjax-web"
     , "argonaut-core"
     , "arraybuffer-types"
     , "arrays"
@@ -47,33 +75,6 @@
     , "tuples"
     ]
   , repo = "https://github.com/newlandsvalley/purescript-soundfonts.git"
-  , version = "v3.3.0"
+  , version = "v4.0.1"
   }
-js-fileio =
-  { dependencies = [ "aff", "effect", "prelude" ]
-  , repo = "https://github.com/newlandsvalley/purescript-js-fileio.git"
-  , version = "v2.2.0"
-  }
-, midi =
-  { dependencies =
-    [ "arrays"
-    , "control"
-    , "effect"
-    , "either"
-    , "foldable-traversable"
-    , "integers"
-    , "lists"
-    , "maybe"
-    , "ordered-collections"
-    , "prelude"
-    , "signal"
-    , "string-parsers"
-    , "strings"
-    , "tuples"
-    , "unfoldable"
-    ]
-  , repo = "https://github.com/newlandsvalley/purescript-midi.git"
-  , version = "v3.1.0"
-  }
--}
-{=}
+}
