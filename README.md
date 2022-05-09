@@ -6,8 +6,8 @@ A curated list of PureScript packages for the `spago` and `psc-package` package 
 
 - [What is a package-set?](#what-is-a-package-set)
 - [Add your package](#add-your-package)
-- [How do I use package-sets with `psc-package`?](#how-do-i-use-package-sets-with-psc-package)
 - [How do I use package-sets with `spago`?](#how-do-i-use-package-sets-with-spago)
+- [How do I use package-sets with `psc-package`?](#how-do-i-use-package-sets-with-psc-package)
 
 ## What is a package set?
 
@@ -31,7 +31,7 @@ This repository aims to be a good collection of packages you can depend on. In g
 
 With `spago` the package-set address is specified in the `upstream` variable of your local `packages.dhall`, which will usually import a remote `packages.dhall`, e.g. the one from this repo.
 
-You can change the package-set version you are using by just pointing the `upstream` to a different location, and running `spago freeze` afterwards (see [its readme][spago] for more info about this)
+You can change the package-set version you are using by running `spago upgrade-set`, or if you want to point to a particular version, `spago upgrade-set --tag <tag>`.
 
 ## How do I use `package-sets` with Psc Package?
 
