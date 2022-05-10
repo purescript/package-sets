@@ -91,6 +91,37 @@
   , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
   , version = "v0.6.0"
   }
+, language-cst-parser =
+  { dependencies =
+    [ "arrays"
+    , "const"
+    , "control"
+    , "either"
+    , "foldable-traversable"
+    , "free"
+    , "functions"
+    , "functors"
+    , "identity"
+    , "integers"
+    , "lazy"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "numbers"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "st"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unfoldable"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-language-cst-parser.git"
+  , version = "v0.12.0"
+  }
 , psa-utils =
   { dependencies =
     [ "ansi"
