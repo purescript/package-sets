@@ -3335,5 +3335,48 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v5.0.0"
+  },
+  "yoga-fetch": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "arraybuffer-types",
+      "effect",
+      "foreign",
+      "foreign-object",
+      "newtype",
+      "prelude",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-yoga-fetch.git",
+    "version": "v1.0.1"
+  },
+  "yoga-json": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "identity",
+      "lists",
+      "maybe",
+      "nonempty",
+      "nullable",
+      "partial",
+      "prelude",
+      "record",
+      "transformers",
+      "typelevel-prelude",
+      "variant"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-yoga-json.git",
+    "version": "v1.0.0"
   }
 }
