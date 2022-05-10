@@ -138,5 +138,6 @@ let packages =
       ⫽ ./groups/eikooc.dhall
       ⫽ ./groups/katsujukou.dhall
       ⫽ ./groups/tweag.dhall
+      ⫽ ./groups/rowtype-yoga.dhall
 
 in  packages
