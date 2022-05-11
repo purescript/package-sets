@@ -452,6 +452,15 @@
     "repo": "https://github.com/ConnorDillon/purescript-channel.git",
     "version": "v1.0.0"
   },
+  "checked-exceptions": {
+    "dependencies": [
+      "prelude",
+      "transformers",
+      "variant"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-checked-exceptions.git",
+    "version": "v3.1.1"
+  },
   "codec": {
     "dependencies": [
       "profunctor",

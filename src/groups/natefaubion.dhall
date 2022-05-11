@@ -28,11 +28,6 @@
   , repo = "https://github.com/natefaubion/purescript-spork.git"
   , version = "v1.0.0"
   }
-, checked-exceptions =
-  { dependencies = [ "prelude", "transformers", "variant" ]
-  , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
-  , version = "v3.1.1"
-  }
 -}
 { argparse-basic =
   { dependencies =
@@ -59,6 +54,11 @@
   { dependencies = [ "unsafe-coerce", "lazy", "maybe", "either", "control" ]
   , repo = "https://github.com/natefaubion/purescript-call-by-name.git"
   , version = "v4.0.1"
+  }
+, checked-exceptions =
+  { dependencies = [ "prelude", "transformers", "variant" ]
+  , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
+  , version = "v3.1.1"
   }
 , convertable-options =
   { dependencies = [ "console", "effect", "maybe", "record" ]
