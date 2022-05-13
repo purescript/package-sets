@@ -685,6 +685,41 @@
     "repo": "https://github.com/purescript-halogen/purescript-dom-indexed.git",
     "version": "v10.0.0"
   },
+  "droplet": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "bifunctors",
+      "bigints",
+      "datetime",
+      "debug",
+      "effect",
+      "either",
+      "enums",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "integers",
+      "maybe",
+      "newtype",
+      "nullable",
+      "ordered-collections",
+      "partial",
+      "prelude",
+      "profunctor",
+      "record",
+      "spec",
+      "strings",
+      "transformers",
+      "tuples",
+      "type-equality",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/easafe/purescript-droplet.git",
+    "version": "v0.4.0"
+  },
   "dynamic-buffer": {
     "dependencies": [
       "arraybuffer-types",
