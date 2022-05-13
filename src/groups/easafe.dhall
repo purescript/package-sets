@@ -1,39 +1,40 @@
-{-
-, droplet =
+{ droplet =
   { dependencies =
-    [ "aff"
-    , "arrays"
-    , "bifunctors"
-    , "bigints"
-    , "datetime"
-    , "debug"
-    , "effect"
-    , "either"
-    , "enums"
-    , "exceptions"
-    , "foldable-traversable"
-    , "foreign"
-    , "foreign-object"
-    , "integers"
-    , "maybe"
-    , "newtype"
-    , "nullable"
-    , "partial"
-    , "prelude"
-    , "profunctor"
-    , "psci-support"
-    , "record"
-    , "strings"
-    , "test-unit"
-    , "transformers"
-    , "tuples"
-    , "type-equality"
-    , "typelevel-prelude"
-    , "unsafe-coerce"
-    ]
+  [ "aff"
+  , "arrays"
+  , "bifunctors"
+  , "bigints"
+  , "datetime"
+  , "debug"
+  , "effect"
+  , "either"
+  , "enums"
+  , "exceptions"
+  , "foldable-traversable"
+  , "foreign"
+  , "foreign-object"
+  , "integers"
+  , "maybe"
+  , "newtype"
+  , "nullable"
+  , "ordered-collections"
+  , "partial"
+  , "prelude"
+  , "profunctor"
+  , "record"
+  , "spec"
+  , "strings"
+  , "transformers"
+  , "tuples"
+  , "type-equality"
+  , "typelevel-prelude"
+  , "unsafe-coerce"
+  ]
   , repo = "https://github.com/easafe/purescript-droplet.git"
-  , version = "v0.2.0"
+  , version = "v0.4.0"
   }
+}
+  {-
 , flame =
   { dependencies =
     [ "aff"
@@ -72,4 +73,3 @@
   , version = "v1.1.1"
   }
 -}
-{=}
