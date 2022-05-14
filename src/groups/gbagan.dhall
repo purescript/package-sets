@@ -1,6 +1,13 @@
-{ web-pointerevents =
-  { dependencies = [ "prelude", "effect", "maybe", "web-dom", "web-uievents" ]
-  , repo = "https://github.com/gbagan/purescript-web-pointerevents.git"
+{ linalg =
+  { dependencies =
+    [ "arrays"
+    , "foldable-traversable"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "tuples"
+    ]
+  , repo = "https://github.com/gbagan/purescript-linalg.git"
   , version = "v1.0.0"
   }
 }
