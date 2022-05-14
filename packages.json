@@ -1564,6 +1564,18 @@
     "repo": "https://github.com/paf31/purescript-leibniz.git",
     "version": "v5.0.0"
   },
+  "linalg": {
+    "dependencies": [
+      "arrays",
+      "foldable-traversable",
+      "maybe",
+      "partial",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/gbagan/purescript-linalg.git",
+    "version": "v1.0.0"
+  },
   "lists": {
     "dependencies": [
       "bifunctors",
@@ -3364,7 +3376,7 @@
       "web-dom",
       "web-uievents"
     ],
-    "repo": "https://github.com/gbagan/purescript-web-pointerevents.git",
+    "repo": "https://github.com/purescript-web/purescript-web-pointerevents.git",
     "version": "v1.0.0"
   },
   "web-promise": {
