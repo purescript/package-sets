@@ -680,10 +680,11 @@
       "media-types",
       "prelude",
       "web-clipboard",
+      "web-pointerevents",
       "web-touchevents"
     ],
     "repo": "https://github.com/purescript-halogen/purescript-dom-indexed.git",
-    "version": "v10.0.0"
+    "version": "v10.1.0"
   },
   "droplet": {
     "dependencies": [

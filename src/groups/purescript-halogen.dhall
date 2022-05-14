@@ -1,8 +1,13 @@
 { dom-indexed =
   { dependencies =
-    [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
+    [ "media-types"
+    , "prelude"
+    , "web-clipboard"
+    , "web-touchevents"
+    , "web-pointerevents"
+    ]
   , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
-  , version = "v10.0.0"
+  , version = "v10.1.0"
   }
 , halogen =
   { dependencies =
