@@ -7,7 +7,7 @@
     , "web-pointerevents"
     ]
   , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
-  , version = "v10.1.0"
+  , version = "v11.0.0"
   }
 , halogen =
   { dependencies =
