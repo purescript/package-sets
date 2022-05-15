@@ -319,7 +319,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/sigma-andex/purescript-barlow-lens.git",
-    "version": "v0.8.0"
+    "version": "v0.9.0"
   },
   "bifunctors": {
     "dependencies": [
@@ -818,13 +818,13 @@
   "fast-vect": {
     "dependencies": [
       "arrays",
+      "foldable-traversable",
       "maybe",
       "partial",
-      "prelude",
-      "tuples"
+      "prelude"
     ],
     "repo": "https://github.com/sigma-andex/purescript-fast-vect.git",
-    "version": "v0.5.1"
+    "version": "v0.6.0"
   },
   "filterable": {
     "dependencies": [
@@ -1351,6 +1351,15 @@
     "repo": "https://github.com/natefaubion/purescript-heterogeneous.git",
     "version": "v0.6.0"
   },
+  "heterogeneous-extrablatt": {
+    "dependencies": [
+      "heterogeneous",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/sigma-andex/purescript-heterogeneous-extrablatt.git",
+    "version": "v0.2.1"
+  },
   "http-methods": {
     "dependencies": [
       "either",
@@ -1769,6 +1778,25 @@
     ],
     "repo": "https://github.com/mcneissue/purescript-monoidal.git",
     "version": "v0.16.0"
+  },
+  "morello": {
+    "dependencies": [
+      "arrays",
+      "barlow-lens",
+      "foldable-traversable",
+      "heterogeneous",
+      "heterogeneous-extrablatt",
+      "newtype",
+      "prelude",
+      "profunctor",
+      "profunctor-lenses",
+      "record",
+      "tuples",
+      "typelevel-prelude",
+      "validation"
+    ],
+    "repo": "https://github.com/sigma-andex/purescript-morello.git",
+    "version": "v0.3.2"
   },
   "motsunabe": {
     "dependencies": [
