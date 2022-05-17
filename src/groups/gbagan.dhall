@@ -2,13 +2,13 @@
   { dependencies =
     [ "arrays"
     , "foldable-traversable"
+    , "functions"
     , "maybe"
-    , "partial"
     , "prelude"
     , "tuples"
     ]
   , repo = "https://github.com/gbagan/purescript-linalg.git"
-  , version = "v1.1.0"
+  , version = "v4.0.0"
   }
 , pha =
   { dependencies =
@@ -37,5 +37,11 @@
     ]
   , repo = "https://github.com/gbagan/purescript-pha.git"
   , version = "v0.9.0"
+  }
+, web-workers =
+  { dependencies =
+    [ "effect", "foreign", "maybe", "prelude", "unsafe-coerce", "web-events" ]
+  , repo = "https://github.com/gbagan/purescript-web-workers.git"
+  , version = "v1.0.0"
   }
 }
