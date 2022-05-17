@@ -56,4 +56,21 @@
   , repo = "https://github.com/PureFunctor/purescript-ssrs.git"
   , version = "v1.0.0"
   }
+, uncurried-transformers =
+  { dependencies =
+    [ "control"
+    , "effect"
+    , "either"
+    , "functions"
+    , "identity"
+    , "prelude"
+    , "safe-coerce"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo =
+      "https://github.com/PureFunctor/purescript-uncurried-transformers.git"
+  , version = "v1.0.0"
+  }
 }

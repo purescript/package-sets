@@ -3197,6 +3197,22 @@
     "repo": "https://github.com/purescript-contrib/purescript-uint.git",
     "version": "v7.0.0"
   },
+  "uncurried-transformers": {
+    "dependencies": [
+      "control",
+      "effect",
+      "either",
+      "functions",
+      "identity",
+      "prelude",
+      "safe-coerce",
+      "tailrec",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/PureFunctor/purescript-uncurried-transformers.git",
+    "version": "v1.0.0"
+  },
   "unfoldable": {
     "dependencies": [
       "foldable-traversable",
