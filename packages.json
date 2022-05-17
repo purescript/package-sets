@@ -2545,6 +2545,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
     "version": "v10.0.1"
   },
+  "react-basic": {
+    "dependencies": [
+      "effect",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-basic.git",
+    "version": "v17.0.0"
+  },
   "react-dom": {
     "dependencies": [
       "effect",
@@ -3196,6 +3205,22 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-uint.git",
     "version": "v7.0.0"
+  },
+  "uncurried-transformers": {
+    "dependencies": [
+      "control",
+      "effect",
+      "either",
+      "functions",
+      "identity",
+      "prelude",
+      "safe-coerce",
+      "tailrec",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/PureFunctor/purescript-uncurried-transformers.git",
+    "version": "v1.0.0"
   },
   "unfoldable": {
     "dependencies": [

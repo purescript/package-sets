@@ -9,11 +9,6 @@
   , repo = "https://github.com/lumihq/purescript-react-basic-compat.git"
   , version = "v1.0.1"
   }
-, react-basic =
-  { dependencies = [ "prelude", "effect", "record" ]
-  , repo = "https://github.com/lumihq/purescript-react-basic.git"
-  , version = "v16.0.0"
-  }
 , react-basic-dom =
   { dependencies =
     [ "prelude"
@@ -75,4 +70,9 @@
   , version = "v8.0.0"
   }
 -}
-{=}
+{ react-basic =
+  { dependencies = [ "prelude", "effect", "record" ]
+  , repo = "https://github.com/lumihq/purescript-react-basic.git"
+  , version = "v17.0.0"
+  }
+}
