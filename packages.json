@@ -2141,7 +2141,7 @@
       "quickcheck"
     ],
     "repo": "https://github.com/sharkdp/purescript-pairs.git",
-    "version": "v8.0.0"
+    "version": "v9.0.0"
   },
   "parallel": {
     "dependencies": [
@@ -2451,6 +2451,23 @@
     ],
     "repo": "https://github.com/artemisSystem/purescript-qualified-do.git",
     "version": "v2.2.0"
+  },
+  "quantities": {
+    "dependencies": [
+      "decimals",
+      "either",
+      "foldable-traversable",
+      "lists",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "numbers",
+      "pairs",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-quantities.git",
+    "version": "v12.0.1"
   },
   "quickcheck": {
     "dependencies": [
