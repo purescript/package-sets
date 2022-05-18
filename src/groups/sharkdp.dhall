@@ -15,23 +15,6 @@
   , repo = "https://github.com/sharkdp/purescript-flare.git"
   , version = "v6.0.0"
   }
-quantities =
-  { dependencies =
-    [ "decimals"
-    , "either"
-    , "foldable-traversable"
-    , "lists"
-    , "maybe"
-    , "newtype"
-    , "nonempty"
-    , "numbers"
-    , "pairs"
-    , "prelude"
-    , "tuples"
-    ]
-  , repo = "https://github.com/sharkdp/purescript-quantities.git"
-  , version = "v11.0.0"
-  }
 , format =
   { dependencies =
     [ "arrays", "effect", "integers", "prelude", "strings", "unfoldable" ]
@@ -53,6 +36,23 @@ quantities =
   { dependencies =
     [ "console", "distributive", "foldable-traversable", "quickcheck" ]
   , repo = "https://github.com/sharkdp/purescript-pairs.git"
-  , version = "v8.0.0"
+  , version = "v9.0.0"
+  }
+, quantities =
+  { dependencies =
+    [ "decimals"
+    , "either"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "nonempty"
+    , "numbers"
+    , "pairs"
+    , "prelude"
+    , "tuples"
+    ]
+  , repo = "https://github.com/sharkdp/purescript-quantities.git"
+  , version = "v12.0.1"
   }
 }
