@@ -62,6 +62,25 @@
     "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
     "version": "v4.0.0"
   },
+  "aff-retry": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "datetime",
+      "effect",
+      "either",
+      "exceptions",
+      "integers",
+      "maybe",
+      "newtype",
+      "numbers",
+      "prelude",
+      "random",
+      "transformers"
+    ],
+    "repo": "https://github.com/Unisay/purescript-aff-retry.git",
+    "version": "v2.0.0"
+  },
   "affjax": {
     "dependencies": [
       "aff",
@@ -2141,7 +2160,7 @@
       "quickcheck"
     ],
     "repo": "https://github.com/sharkdp/purescript-pairs.git",
-    "version": "v8.0.0"
+    "version": "v9.0.0"
   },
   "parallel": {
     "dependencies": [
@@ -2452,6 +2471,23 @@
     "repo": "https://github.com/artemisSystem/purescript-qualified-do.git",
     "version": "v2.2.0"
   },
+  "quantities": {
+    "dependencies": [
+      "decimals",
+      "either",
+      "foldable-traversable",
+      "lists",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "numbers",
+      "pairs",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-quantities.git",
+    "version": "v12.0.1"
+  },
   "quickcheck": {
     "dependencies": [
       "arrays",
@@ -2647,6 +2683,15 @@
     ],
     "repo": "https://github.com/ad-si/purescript-result.git",
     "version": "v1.0.3"
+  },
+  "return": {
+    "dependencies": [
+      "foldable-traversable",
+      "point-free",
+      "prelude"
+    ],
+    "repo": "https://github.com/ursi/purescript-return.git",
+    "version": "v0.2.0"
   },
   "ring-modules": {
     "dependencies": [
