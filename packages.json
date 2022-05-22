@@ -3277,7 +3277,7 @@
       "tuples"
     ],
     "repo": "https://github.com/PureFunctor/purescript-uncurried-transformers.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "unfoldable": {
     "dependencies": [
@@ -3639,5 +3639,25 @@
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-yoga-json.git",
     "version": "v1.0.0"
+  },
+  "yoga-postgres": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "datetime",
+      "effect",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "foreign",
+      "integers",
+      "maybe",
+      "nullable",
+      "prelude",
+      "transformers",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-yoga-postgres.git",
+    "version": "v6.0.0"
   }
 }

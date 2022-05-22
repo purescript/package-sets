@@ -41,4 +41,24 @@
     ]
   , version = "v1.0.0"
   }
+, yoga-postgres =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "enums"
+    , "foldable-traversable"
+    , "foreign"
+    , "integers"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "transformers"
+    , "unsafe-coerce"
+    ]
+  , version = "v6.0.0"
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-postgres.git"
+  }
 }
