@@ -3627,5 +3627,25 @@
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-yoga-json.git",
     "version": "v1.0.0"
+  },
+  "yoga-postgres": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "datetime",
+      "effect",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "foreign",
+      "integers",
+      "maybe",
+      "nullable",
+      "prelude",
+      "transformers",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-yoga-postgres.git",
+    "version": "v6.0.0"
   }
 }
