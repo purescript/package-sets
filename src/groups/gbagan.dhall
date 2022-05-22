@@ -42,6 +42,6 @@
   { dependencies =
     [ "effect", "foreign", "maybe", "prelude", "unsafe-coerce", "web-events" ]
   , repo = "https://github.com/gbagan/purescript-web-workers.git"
-  , version = "v1.0.0"
+  , version = "v1.1.0"
   }
 }
