@@ -8,7 +8,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/gbagan/purescript-linalg.git"
-  , version = "v4.0.0"
+  , version = "v5.1.0"
   }
 , pha =
   { dependencies =
