@@ -1,9 +1,4 @@
 {-
-, fixed-precision =
-  { dependencies = [ "integers", "maybe", "bigints", "strings" ]
-  , repo = "https://github.com/lumihq/purescript-fixed-precision.git"
-  , version = "v4.3.1"
-  }
 , react-basic-compat =
   { dependencies = [ "effect", "react-basic-classic" ]
   , repo = "https://github.com/lumihq/purescript-react-basic-compat.git"
@@ -53,7 +48,22 @@
   , version = "v8.0.0"
   }
 -}
-{ react-basic =
+{ fixed-precision =
+  { dependencies =
+    [ "arrays"
+    , "bigints"
+    , "control"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "partial"
+    , "prelude"
+    , "strings"
+    ]
+  , repo = "https://github.com/lumihq/purescript-fixed-precision.git"
+  , version = "v5.0.0"
+  }
+, react-basic =
   { dependencies = [ "prelude", "effect", "record" ]
   , repo = "https://github.com/lumihq/purescript-react-basic.git"
   , version = "v17.0.0"
