@@ -837,13 +837,18 @@
   "fast-vect": {
     "dependencies": [
       "arrays",
+      "filterable",
       "foldable-traversable",
+      "lists",
       "maybe",
-      "partial",
-      "prelude"
+      "ordered-collections",
+      "prelude",
+      "profunctor",
+      "tuples",
+      "unfoldable"
     ],
     "repo": "https://github.com/sigma-andex/purescript-fast-vect.git",
-    "version": "v0.6.0"
+    "version": "v0.7.0"
   },
   "filterable": {
     "dependencies": [
@@ -1466,7 +1471,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/sigma-andex/purescript-httpurple.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "identity": {
     "dependencies": [

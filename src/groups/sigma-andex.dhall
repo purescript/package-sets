@@ -48,9 +48,19 @@
   }
 , fast-vect =
   { dependencies =
-    [ "arrays", "foldable-traversable", "maybe", "partial", "prelude" ]
+    [ "arrays"
+    , "filterable"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "profunctor"
+    , "tuples"
+    , "unfoldable"
+    ]
   , repo = "https://github.com/sigma-andex/purescript-fast-vect.git"
-  , version = "v0.6.0"
+  , version = "v0.7.0"
   }
 , httpurple =
   { dependencies =
@@ -86,7 +96,7 @@
     , "type-equality"
     , "typelevel-prelude"
     ]
-  , version = "v1.0.0"
+  , version = "v1.1.0"
   , repo = "https://github.com/sigma-andex/purescript-httpurple.git"
   }
 }
