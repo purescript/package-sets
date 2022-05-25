@@ -867,6 +867,21 @@
     "repo": "https://github.com/purescript-contrib/purescript-fixed-points.git",
     "version": "v7.0.0"
   },
+  "fixed-precision": {
+    "dependencies": [
+      "arrays",
+      "bigints",
+      "control",
+      "integers",
+      "maybe",
+      "numbers",
+      "partial",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/lumihq/purescript-fixed-precision.git",
+    "version": "v5.0.0"
+  },
   "flame": {
     "dependencies": [
       "aff",
