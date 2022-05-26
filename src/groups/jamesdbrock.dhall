@@ -64,4 +64,21 @@
   , repo = "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git"
   , version = "v3.0.1"
   }
+, node-streams-aff =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "exceptions"
+    , "node-buffer"
+    , "node-streams"
+    , "st"
+    , "arrays"
+    , "either"
+    , "maybe"
+    , "prelude"
+    , "tuples"
+    ]
+  , version = "v1.1.0"
+  , repo = "https://github.com/jamesdbrock/purescript-node-streams-aff.git"
+  }
 }
