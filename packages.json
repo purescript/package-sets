@@ -2047,6 +2047,23 @@
     "repo": "https://github.com/purescript-node/purescript-node-streams.git",
     "version": "v7.0.0"
   },
+  "node-streams-aff": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "effect",
+      "either",
+      "exceptions",
+      "maybe",
+      "node-buffer",
+      "node-streams",
+      "prelude",
+      "st",
+      "tuples"
+    ],
+    "repo": "https://github.com/jamesdbrock/purescript-node-streams-aff.git",
+    "version": "v1.1.0"
+  },
   "node-url": {
     "dependencies": [
       "nullable"
