@@ -2472,6 +2472,37 @@
     "repo": "https://github.com/purescript-contrib/purescript-profunctor-lenses.git",
     "version": "v8.0.0"
   },
+  "protobuf": {
+    "dependencies": [
+      "arraybuffer",
+      "arraybuffer-builder",
+      "arraybuffer-types",
+      "arrays",
+      "control",
+      "effect",
+      "either",
+      "enums",
+      "exceptions",
+      "float32",
+      "foldable-traversable",
+      "functions",
+      "int64",
+      "maybe",
+      "newtype",
+      "parsing",
+      "parsing-dataview",
+      "prelude",
+      "record",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "uint",
+      "web-encoding"
+    ],
+    "repo": "https://github.com/xc-jp/purescript-protobuf.git",
+    "version": "v3.0.0"
+  },
   "ps-cst": {
     "dependencies": [
       "ansi",
