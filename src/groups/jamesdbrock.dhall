@@ -1,36 +1,35 @@
-{- protobuf =
+{ protobuf =
   { dependencies =
     [ "arraybuffer"
     , "arraybuffer-builder"
     , "arraybuffer-types"
-    , "longs"
-    , "parsing"
-    , "parsing-dataview"
-    , "text-encoding"
-    , "uint"
     , "arrays"
     , "control"
     , "effect"
+    , "either"
     , "enums"
+    , "exceptions"
     , "float32"
     , "foldable-traversable"
+    , "functions"
+    , "int64"
     , "maybe"
     , "newtype"
-    , "partial"
+    , "parsing"
+    , "parsing-dataview"
     , "prelude"
     , "record"
     , "strings"
     , "tailrec"
     , "transformers"
     , "tuples"
-    , "either"
-    , "quickcheck"
+    , "uint"
+    , "web-encoding"
     ]
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
-  , version = "v2.1.2"
+  , version = "v3.0.0"
   }
--}
-{ parsing-dataview =
+, parsing-dataview =
   { dependencies =
     [ "arraybuffer"
     , "arraybuffer-types"
