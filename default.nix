@@ -1,14 +1,14 @@
 let
   pkgs = import (builtins.fetchTarball {
-    url = "https://github.com/NixOS/nixpkgs/archive/20.09.tar.gz";
+    url = "https://github.com/NixOS/nixpkgs/archive/21.05.tar.gz";
   }) {};
 
   easy-ps = import (
     pkgs.fetchFromGitHub {
       owner = "justinwoo";
       repo = "easy-purescript-nix";
-      rev = "0679c8e8f7432bdcedb6de84266fdc651d59c401";
-      sha256 = "13mbcgcfic6mxi84pkybbs427bbgyynnh4lvypv0x9c9nzkmna6m";
+      rev = "0ad5775c1e80cdd952527db2da969982e39ff592";
+      sha256 = "0x53ads5v8zqsk4r1mfpzf5913byifdpv5shnvxpgw634ifyj1kg";
     }
   ) {
     inherit pkgs;
@@ -18,21 +18,23 @@ let
     pkgs.fetchFromGitHub {
       owner = "justinwoo";
       repo = "easy-dhall-nix";
-      rev = "eae7f64c4d6c70681e5a56c84198236930ba425e";
-      sha256 = "1y2x15v8a679vlpxazjpibfwajp6zph60f8wjcm4xflbvazk0dx7";
+      rev = "9bd1bea0dcebe1d1d120c0fd1ba76683dc4a62e3";
+      sha256 = "1gdx1iqhr3ih3f2v304yjnpjqydpl0x4ngrg58qa4x5wlcr5rdhl";
     }
   ) {
     inherit pkgs;
   };
 
+  purs = easy-ps.purs-0_15_0;
+
 in
 pkgs.runCommand "easy-ps-test" {
   buildInputs =
     builtins.attrValues {
-      inherit (easy-ps) purescript psc-package spago;
+      inherit (easy-ps) psc-package spago;
     } ++
     builtins.attrValues {
       inherit (easy-dhall) dhall-simple dhall-json-simple;
     } ++
-    [ pkgs.git pkgs.wget pkgs.jq ];
+    [ pkgs.git pkgs.wget pkgs.jq purs ];
 } ""

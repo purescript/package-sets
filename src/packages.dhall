@@ -1,10 +1,15 @@
 let packages =
         ./groups/purescript.dhall
+      ⫽ ./groups/purescript-contrib.dhall
+      ⫽ ./groups/purescript-node.dhall
+      ⫽ ./groups/purescript-web.dhall
+      ⫽ ./groups/nwolverson.dhall
       ⫽ ./groups/acple.dhall
       ⫽ ./groups/ad-si.dhall
       ⫽ ./groups/ajnsit.dhall
       ⫽ ./groups/AlexaDeWit.dhall
       ⫽ ./groups/alvart.dhall
+      ⫽ ./groups/Forensor.dhall
       ⫽ ./groups/anttih.dhall
       ⫽ ./groups/artemisSystem.dhall
       ⫽ ./groups/athanclark.dhall
@@ -39,7 +44,9 @@ let packages =
       ⫽ ./groups/felixmulder.dhall
       ⫽ ./groups/felixschl.dhall
       ⫽ ./groups/flip111.dhall
+      ⫽ ./groups/flounders.dhall
       ⫽ ./groups/garyb.dhall
+      ⫽ ./groups/gbagan.dhall
       ⫽ ./groups/hdgarrood.dhall
       ⫽ ./groups/hivemindtechnologies.dhall
       ⫽ ./groups/hoodunit.dhall
@@ -81,7 +88,6 @@ let packages =
       ⫽ ./groups/natefaubion.dhall
       ⫽ ./groups/newlandsvalley.dhall
       ⫽ ./groups/nsaunders.dhall
-      ⫽ ./groups/nwolverson.dhall
       ⫽ ./groups/openchronology.dhall
       ⫽ ./groups/oreshinya.dhall
       ⫽ ./groups/oxford-abstracts.dhall
@@ -93,7 +99,6 @@ let packages =
       ⫽ ./groups/purefunctor.dhall
       ⫽ ./groups/purescript-codegen.dhall
       ⫽ ./groups/purescript-concur.dhall
-      ⫽ ./groups/purescript-contrib.dhall
       ⫽ ./groups/purescript-express.dhall
       ⫽ ./groups/purescript-freedom.dhall
       ⫽ ./groups/purescript-grain.dhall
@@ -101,11 +106,9 @@ let packages =
       ⫽ ./groups/purescript-halogen.dhall
       ⫽ ./groups/purescript-hyper.dhall
       ⫽ ./groups/purescript-node-contrib.dhall
-      ⫽ ./groups/purescript-node.dhall
       ⫽ ./groups/purescript-open-community.dhall
       ⫽ ./groups/purescript-polyform.dhall
       ⫽ ./groups/purescript-spec.dhall
-      ⫽ ./groups/purescript-web.dhall
       ⫽ ./groups/reactormonk.dhall
       ⫽ ./groups/rgrempel.dhall
       ⫽ ./groups/rightfold.dhall
@@ -116,21 +119,26 @@ let packages =
       ⫽ ./groups/sigilion.dhall
       ⫽ ./groups/slamdata.dhall
       ⫽ ./groups/sodiumfrp.dhall
-      ⫽ ./groups/spacchetti.dhall
       ⫽ ./groups/spicydonuts.dhall
       ⫽ ./groups/srghma.dhall
       ⫽ ./groups/thimoteus.dhall
       ⫽ ./groups/thomashoneyman.dhall
       ⫽ ./groups/thought2.dhall
+      ⫽ ./groups/toastal.dhall
       ⫽ ./groups/truqu.dhall
       ⫽ ./groups/unisay.dhall
       ⫽ ./groups/ursi.dhall
       ⫽ ./groups/vladciobanu.dhall
+      ⫽ ./groups/waynevanson.dhall
       ⫽ ./groups/sigma-andex.dhall
       ⫽ ./groups/connordillon.dhall
       ⫽ ./groups/mateiadrielrafael.dhall
       ⫽ ./groups/deadshot465.dhall
       ⫽ ./groups/lfarroco.dhall
       ⫽ ./groups/eugleo.dhall
+      ⫽ ./groups/eikooc.dhall
+      ⫽ ./groups/katsujukou.dhall
+      ⫽ ./groups/tweag.dhall
+      ⫽ ./groups/rowtype-yoga.dhall
 
 in  packages

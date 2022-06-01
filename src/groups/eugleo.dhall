@@ -1,12 +1,10 @@
-{ grid-reactors =
-  { version = "v0.0.1"
+{- grid-reactors =
+  { version = "v3.0.0"
   , repo = "https://github.com/Eugleo/purescript-grid-reactors.git"
   , dependencies =
-    [ "aff"
-    , "arrays"
+    [ "arrays"
     , "canvas-action"
     , "colors"
-    , "console"
     , "effect"
     , "exceptions"
     , "foldable-traversable"
@@ -14,13 +12,11 @@
     , "halogen"
     , "halogen-hooks"
     , "halogen-subscriptions"
-    , "heterogeneous"
     , "integers"
     , "maybe"
     , "partial"
     , "prelude"
     , "psci-support"
-    , "random"
     , "st"
     , "tailrec"
     , "transformers"
@@ -30,4 +26,5 @@
     , "web-uievents"
     ]
   }
-}
+-}
+{=}

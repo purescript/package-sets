@@ -1,4 +1,5 @@
-{ react-testing-library =
+{-
+react-testing-library =
   { dependencies =
     [ "aff"
     , "aff-promise"
@@ -43,26 +44,6 @@
       "https://github.com/i-am-the-slime/purescript-react-testing-library.git"
   , version = "v3.1.4"
   }
-, justifill =
-  { dependencies = [ "record", "spec", "typelevel-prelude" ]
-  , repo = "https://github.com/i-am-the-slime/purescript-justifill.git"
-  , version = "v0.2.1"
-  }
-, two-or-more =
-  { dependencies =
-    [ "arrays"
-    , "console"
-    , "effect"
-    , "foldable-traversable"
-    , "maybe"
-    , "partial"
-    , "prelude"
-    , "psci-support"
-    , "tuples"
-    ]
-  , repo = "https://github.com/i-am-the-slime/purescript-two-or-more.git"
-  , version = "v1.0.0"
-  }
 , framer-motion =
   { dependencies =
     [ "aff"
@@ -93,5 +74,26 @@
     ]
   , repo = "https://github.com/i-am-the-slime/purescript-framer-motion.git"
   , version = "v0.1.0"
+  }
+-}
+{ justifill =
+  { dependencies = [ "maybe", "prelude", "record", "typelevel-prelude" ]
+  , repo = "https://github.com/i-am-the-slime/purescript-justifill.git"
+  , version = "v0.5.0"
+  }
+, two-or-more =
+  { dependencies =
+    [ "arrays"
+    , "console"
+    , "effect"
+    , "foldable-traversable"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "psci-support"
+    , "tuples"
+    ]
+  , repo = "https://github.com/i-am-the-slime/purescript-two-or-more.git"
+  , version = "v1.0.0"
   }
 }

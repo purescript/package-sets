@@ -1,16 +1,20 @@
 { aff-retry =
   { dependencies =
-    [ "psci-support"
-    , "console"
-    , "aff"
+    [ "aff"
+    , "arrays"
     , "datetime"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "integers"
+    , "maybe"
+    , "newtype"
+    , "numbers"
     , "prelude"
     , "random"
     , "transformers"
-    , "exceptions"
-    , "test-unit"
     ]
   , repo = "https://github.com/Unisay/purescript-aff-retry.git"
-  , version = "v1.2.1"
+  , version = "v2.0.0"
   }
 }

@@ -91,12 +91,6 @@
   , repo = "https://github.com/justinwoo/purescript-type-isequal.git"
   , version = "v0.1.0"
   }
--}
-{ expect-inferred =
-  { dependencies = [ "prelude", "typelevel-prelude" ]
-  , repo = "https://github.com/justinwoo/purescript-expect-inferred.git"
-  , version = "v2.0.0"
-  }
 , gomtang-basic =
   { dependencies = [ "console", "effect", "prelude", "record", "web-html" ]
   , repo = "https://github.com/justinwoo/purescript-gomtang-basic.git"
@@ -116,22 +110,17 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/justinwoo/purescript-milkis.git"
-  , version = "v7.4.0"
-  }
-, motsunabe =
-  { dependencies = [ "lists", "strings" ]
-  , repo = "https://github.com/justinwoo/purescript-motsunabe.git"
-  , version = "v2.0.0"
+  , version = "v7.5.0"
   }
 , node-he =
   { dependencies = [] : List Text
   , repo = "https://github.com/justinwoo/purescript-node-he.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , node-sqlite3 =
   { dependencies = [ "aff", "foreign" ]
   , repo = "https://github.com/justinwoo/purescript-node-sqlite3.git"
-  , version = "v6.0.0"
+  , version = "v7.0.0"
   }
 , record-extra =
   { dependencies =
@@ -143,6 +132,18 @@
   { dependencies = [ "effect", "foreign", "nullable", "prelude" ]
   , repo = "https://github.com/justinwoo/purescript-redux-devtools.git"
   , version = "v0.1.0"
+  }
+, toppokki =
+  { dependencies =
+    [ "aff-promise"
+    , "functions"
+    , "node-buffer"
+    , "node-http"
+    , "prelude"
+    , "record"
+    ]
+  , repo = "https://github.com/justinwoo/purescript-toppokki.git"
+  , version = "v2.5.0"
   }
 , simple-json =
   { dependencies =
@@ -164,16 +165,15 @@
   , repo = "https://github.com/justinwoo/purescript-sunde.git"
   , version = "v2.0.0"
   }
-, toppokki =
-  { dependencies =
-    [ "aff-promise"
-    , "functions"
-    , "node-buffer"
-    , "node-http"
-    , "prelude"
-    , "record"
-    ]
-  , repo = "https://github.com/justinwoo/purescript-toppokki.git"
-  , version = "v2.5.0"
+-}
+{ expect-inferred =
+  { dependencies = [ "prelude", "typelevel-prelude" ]
+  , repo = "https://github.com/justinwoo/purescript-expect-inferred.git"
+  , version = "v3.0.0"
+  }
+, motsunabe =
+  { dependencies = [ "lists", "strings" ]
+  , repo = "https://github.com/justinwoo/purescript-motsunabe.git"
+  , version = "v2.0.0"
   }
 }

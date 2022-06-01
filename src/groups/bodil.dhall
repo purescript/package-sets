@@ -16,9 +16,9 @@
 -}
 { signal =
   { dependencies =
-    [ "aff", "foldable-traversable", "js-timers", "maybe", "prelude" ]
+    [ "aff", "effect", "either", "foldable-traversable", "maybe", "prelude" ]
   , repo = "https://github.com/bodil/purescript-signal.git"
-  , version = "v12.0.1"
+  , version = "v13.0.0"
   }
 , sized-vectors =
   { dependencies =
@@ -49,7 +49,7 @@
     , "strings"
     ]
   , repo = "https://github.com/bodil/purescript-test-unit.git"
-  , version = "v16.0.0"
+  , version = "v17.0.0"
   }
 , typelevel =
   { dependencies =

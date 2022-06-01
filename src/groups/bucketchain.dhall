@@ -1,4 +1,4 @@
-{ bucketchain =
+{- bucketchain =
   { dependencies =
     [ "aff", "console", "node-http", "node-streams", "transformers" ]
   , repo = "https://github.com/Bucketchain/purescript-bucketchain.git"
@@ -69,4 +69,5 @@
   , repo = "https://github.com/Bucketchain/purescript-bucketchain-static.git"
   , version = "v0.4.0"
   }
-}
+-}
+{=}

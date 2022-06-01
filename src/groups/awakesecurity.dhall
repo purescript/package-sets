@@ -1,7 +1,6 @@
 { precise-datetime =
   { dependencies =
     [ "arrays"
-    , "console"
     , "datetime"
     , "either"
     , "enums"
@@ -20,6 +19,6 @@
     , "decimals"
     ]
   , repo = "https://github.com/awakesecurity/purescript-precise-datetime.git"
-  , version = "v6.0.1"
+  , version = "v7.0.0"
   }
 }
