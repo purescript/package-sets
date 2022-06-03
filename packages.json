@@ -1338,6 +1338,13 @@
     "repo": "https://github.com/purescript-halogen/purescript-halogen-subscriptions.git",
     "version": "v2.0.0"
   },
+  "halogen-svg-elems": {
+    "dependencies": [
+      "halogen"
+    ],
+    "repo": "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git",
+    "version": "v6.0.0"
+  },
   "halogen-vdom": {
     "dependencies": [
       "bifunctors",
