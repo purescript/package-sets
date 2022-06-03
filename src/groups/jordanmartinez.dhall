@@ -1,9 +1,4 @@
 {-
-, halogen-svg-elems =
-  { dependencies = [ "halogen" ]
-  , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
-  , version = "v5.0.3"
-  }
 , veither =
   { dependencies =
     [ "aff"
@@ -81,6 +76,11 @@
   , repo =
       "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git"
   , version = "v0.9.0"
+  }
+, halogen-svg-elems =
+  { dependencies = [ "halogen" ]
+  , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
+  , version = "v6.0.0"
   }
 , interpolate =
   { dependencies = [ "prelude" ]
