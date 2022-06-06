@@ -44,6 +44,7 @@ let packages =
       ⫽ ./groups/felixmulder.dhall
       ⫽ ./groups/felixschl.dhall
       ⫽ ./groups/flip111.dhall
+      ⫽ ./groups/flounders.dhall
       ⫽ ./groups/garyb.dhall
       ⫽ ./groups/gbagan.dhall
       ⫽ ./groups/hdgarrood.dhall
@@ -138,5 +139,6 @@ let packages =
       ⫽ ./groups/eikooc.dhall
       ⫽ ./groups/katsujukou.dhall
       ⫽ ./groups/tweag.dhall
+      ⫽ ./groups/rowtype-yoga.dhall
 
 in  packages

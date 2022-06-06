@@ -64,6 +64,11 @@
   , repo = "https://github.com/purescript-web/purescript-web-html.git"
   , version = "v4.0.0"
   }
+, web-pointerevents =
+  { dependencies = [ "prelude", "effect", "maybe", "web-dom", "web-uievents" ]
+  , repo = "https://github.com/purescript-web/purescript-web-pointerevents.git"
+  , version = "v1.0.0"
+  }
 , web-promise =
   { dependencies =
     [ "effect"

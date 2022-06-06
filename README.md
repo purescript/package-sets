@@ -2,31 +2,36 @@
 
 [![Build Status](https://github.com/purescript/package-sets/workflows/build/badge.svg)](https://github.com/purescript/package-sets/actions)
 
-A curated list of PureScript packages for Psc-Package and Spago
-
-![](https://i.imgur.com/roCuNQ9.png)
-
+A curated list of PureScript packages for the `spago` and `psc-package` package managers.
 
 - [What is a package-set?](#what-is-a-package-set)
 - [Add your package](#add-your-package)
-- [How do I use package-sets with `psc-package`?](#how-do-i-use-package-sets-with-psc-package)
 - [How do I use package-sets with `spago`?](#how-do-i-use-package-sets-with-spago)
-
+- [How do I use package-sets with `psc-package`?](#how-do-i-use-package-sets-with-psc-package)
 
 ## What is a package set?
 
-A package set is a **collection** of packages, such that there is only **one** entry (i.e. version) for a given package in the set.
+A package set is a collection of packages such that there is only one version for a given package in the set, and the entire set of packages successfully compiles together. This ensures that you can always install packages from the package set without introducing conflicts between modules in your dependencies.
 
-If you use a package manager based on package-sets, this means that when you want to install a package:
-- it must be in the package set
-- its dependencies and all the transitive dependencies must be in the package set
+If you use a package manager based on package sets, that means that to install a package:
 
-## Add your package
+1. It must be in the package set
+2. Its dependencies and transitive dependencies must also be in the package set
 
-This repository aims to be a good collection of packages you can depend on.  
-In general we welcome all packages, provided that they follow some guidelines defined in the [contributing guide](CONTRIBUTING.md).
+## Adding your package
 
-The linked document also contains instructions on how to add new packages to the set, and information on versioning and related policies.
+This repository aims to be a good collection of packages you can depend on. In general we welcome all packages, provided that they follow some guidelines defined in the [contributing guide](CONTRIBUTING.md). The linked document also contains instructions on how to add new packages to the set, and information on versioning and related policies.
+
+## How do I use `package-sets` with `spago`?
+
+[`spago`][spago] is a package manager and build tool for PureScript. It is very similar to `psc-package`, and the main differences are:
+- it uses Dhall for its configuration (instead of `json` as `psc-package` does)
+- it supports package overrides and additions directly in the project configuration
+- it supports local dependencies (think `bower link`)
+
+With `spago` the package-set address is specified in the `upstream` variable of your local `packages.dhall`, which will usually import a remote `packages.dhall`, e.g. the one from this repo.
+
+You can change the package-set version you are using by running `spago upgrade-set`, or if you want to point to a particular version, `spago upgrade-set --tag <tag>`.
 
 ## How do I use `package-sets` with Psc Package?
 
@@ -78,18 +83,6 @@ E.g. in case of `aff@v5.0.0`:
 ```
 .psc-package/set-name/aff/v5.0.0
 ```
-
-## How do I use `package-sets` with `spago`?
-
-[`spago`][spago] is a package manager and build tool for PureScript. It is very similar to `psc-package`, and the main differences are:
-- it uses Dhall for its configuration (instead of `json` as `psc-package` does)
-- it supports package overrides and additions directly in the project configuration
-- it supports local dependencies (think `bower link`)
-
-With `spago` the package-set address is specified in the `upstream` variable of your local `packages.dhall`, which will usually import a remote `packages.dhall`, e.g. the one from this repo.
-
-You can change the package-set version you are using by just pointing the `upstream` to a different location, and running `spago freeze` afterwards (see [its readme][spago] for more info about this)
-
 
 [spago]: https://github.com/spacchetti/spago
 [psc-package]: https://github.com/purescript/psc-package

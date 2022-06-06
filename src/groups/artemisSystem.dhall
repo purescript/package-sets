@@ -59,8 +59,15 @@
   , version = "v3.0.0"
   }
 , qualified-do =
-  { dependencies = [ "control", "parallel", "prelude" ]
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "foldable-traversable"
+    , "parallel"
+    , "prelude"
+    , "unfoldable"
+    ]
   , repo = "https://github.com/artemisSystem/purescript-qualified-do.git"
-  , version = "v1.0.0"
+  , version = "v2.2.0"
   }
 }

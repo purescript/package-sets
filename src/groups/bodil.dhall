@@ -13,22 +13,6 @@
   , repo = "https://github.com/bodil/purescript-smolder.git"
   , version = "v12.3.0"
   }
-, test-unit =
-  { dependencies =
-    [ "aff"
-    , "avar"
-    , "effect"
-    , "either"
-    , "free"
-    , "js-timers"
-    , "lists"
-    , "prelude"
-    , "quickcheck"
-    , "strings"
-    ]
-  , repo = "https://github.com/bodil/purescript-test-unit.git"
-  , version = "v16.0.0"
-  }
 -}
 { signal =
   { dependencies =
@@ -50,6 +34,22 @@
     ]
   , repo = "https://github.com/bodil/purescript-sized-vectors.git"
   , version = "v5.0.2"
+  }
+, test-unit =
+  { dependencies =
+    [ "aff"
+    , "avar"
+    , "effect"
+    , "either"
+    , "free"
+    , "js-timers"
+    , "lists"
+    , "prelude"
+    , "quickcheck"
+    , "strings"
+    ]
+  , repo = "https://github.com/bodil/purescript-test-unit.git"
+  , version = "v17.0.0"
   }
 , typelevel =
   { dependencies =

@@ -1,9 +1,4 @@
 {-
-, halogen-svg-elems =
-  { dependencies = [ "halogen" ]
-  , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
-  , version = "v5.0.3"
-  }
 , veither =
   { dependencies =
     [ "aff"
@@ -52,11 +47,40 @@
   , repo = "https://github.com/JordanMartinez/purescript-arrays-zipper.git"
   , version = "v2.0.1"
   }
+, generate-values =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "effect"
+    , "enums"
+    , "foldable-traversable"
+    , "gen"
+    , "identity"
+    , "integers"
+    , "lcg"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "numbers"
+    , "partial"
+    , "prelude"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/jordanmartinez/purescript-generate-values.git"
+  , version = "v1.0.1"
+  }
 , halogen-hooks-extra =
   { dependencies = [ "halogen-hooks" ]
   , repo =
       "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git"
   , version = "v0.9.0"
+  }
+, halogen-svg-elems =
+  { dependencies = [ "halogen" ]
+  , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
+  , version = "v6.0.0"
   }
 , interpolate =
   { dependencies = [ "prelude" ]

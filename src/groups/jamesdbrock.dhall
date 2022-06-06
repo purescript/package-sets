@@ -1,36 +1,35 @@
-{- protobuf =
+{ protobuf =
   { dependencies =
     [ "arraybuffer"
     , "arraybuffer-builder"
     , "arraybuffer-types"
-    , "longs"
-    , "parsing"
-    , "parsing-dataview"
-    , "text-encoding"
-    , "uint"
     , "arrays"
     , "control"
     , "effect"
+    , "either"
     , "enums"
+    , "exceptions"
     , "float32"
     , "foldable-traversable"
+    , "functions"
+    , "int64"
     , "maybe"
     , "newtype"
-    , "partial"
+    , "parsing"
+    , "parsing-dataview"
     , "prelude"
     , "record"
     , "strings"
     , "tailrec"
     , "transformers"
     , "tuples"
-    , "either"
-    , "quickcheck"
+    , "uint"
+    , "web-encoding"
     ]
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
-  , version = "v2.1.2"
+  , version = "v3.0.0"
   }
--}
-{ parsing-dataview =
+, parsing-dataview =
   { dependencies =
     [ "arraybuffer"
     , "arraybuffer-types"
@@ -44,7 +43,7 @@
     , "uint"
     ]
   , repo = "https://github.com/jamesdbrock/purescript-parsing-dataview.git"
-  , version = "v3.0.0"
+  , version = "v3.1.0"
   }
 , arraybuffer-builder =
   { dependencies =
@@ -63,5 +62,22 @@
     ]
   , repo = "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git"
   , version = "v3.0.1"
+  }
+, node-streams-aff =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "exceptions"
+    , "node-buffer"
+    , "node-streams"
+    , "st"
+    , "arrays"
+    , "either"
+    , "maybe"
+    , "prelude"
+    , "tuples"
+    ]
+  , version = "v2.0.0"
+  , repo = "https://github.com/jamesdbrock/purescript-node-streams-aff.git"
   }
 }

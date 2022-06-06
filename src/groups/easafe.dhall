@@ -1,5 +1,4 @@
-{-
-, droplet =
+{ droplet =
   { dependencies =
     [ "aff"
     , "arrays"
@@ -18,13 +17,13 @@
     , "maybe"
     , "newtype"
     , "nullable"
+    , "ordered-collections"
     , "partial"
     , "prelude"
     , "profunctor"
-    , "psci-support"
     , "record"
+    , "spec"
     , "strings"
-    , "test-unit"
     , "transformers"
     , "tuples"
     , "type-equality"
@@ -32,7 +31,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/easafe/purescript-droplet.git"
-  , version = "v0.2.0"
+  , version = "v0.4.0"
   }
 , flame =
   { dependencies =
@@ -49,17 +48,15 @@
     , "foldable-traversable"
     , "foreign"
     , "foreign-object"
-    , "functions"
     , "maybe"
     , "newtype"
     , "nullable"
     , "partial"
     , "prelude"
-    , "psci-support"
     , "random"
     , "refs"
     , "strings"
-    , "test-unit"
+    , "spec"
     , "tuples"
     , "typelevel-prelude"
     , "unsafe-coerce"
@@ -69,7 +66,6 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/easafe/purescript-flame.git"
-  , version = "v1.1.1"
+  , version = "v1.2.0"
   }
--}
-{=}
+}

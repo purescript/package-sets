@@ -28,11 +28,6 @@
   , repo = "https://github.com/natefaubion/purescript-spork.git"
   , version = "v1.0.0"
   }
-, checked-exceptions =
-  { dependencies = [ "prelude", "transformers", "variant" ]
-  , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
-  , version = "v3.1.1"
-  }
 -}
 { argparse-basic =
   { dependencies =
@@ -59,6 +54,11 @@
   { dependencies = [ "unsafe-coerce", "lazy", "maybe", "either", "control" ]
   , repo = "https://github.com/natefaubion/purescript-call-by-name.git"
   , version = "v4.0.1"
+  }
+, checked-exceptions =
+  { dependencies = [ "prelude", "transformers", "variant" ]
+  , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
+  , version = "v3.1.1"
   }
 , convertable-options =
   { dependencies = [ "console", "effect", "maybe", "record" ]
@@ -90,6 +90,37 @@
     [ "either", "functors", "prelude", "record", "tuples", "variant" ]
   , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
   , version = "v0.6.0"
+  }
+, language-cst-parser =
+  { dependencies =
+    [ "arrays"
+    , "const"
+    , "control"
+    , "either"
+    , "foldable-traversable"
+    , "free"
+    , "functions"
+    , "functors"
+    , "identity"
+    , "integers"
+    , "lazy"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "numbers"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "st"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unfoldable"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-language-cst-parser.git"
+  , version = "v0.12.0"
   }
 , psa-utils =
   { dependencies =
