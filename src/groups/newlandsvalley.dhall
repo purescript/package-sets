@@ -75,6 +75,6 @@
     , "tuples"
     ]
   , repo = "https://github.com/newlandsvalley/purescript-soundfonts.git"
-  , version = "v4.0.1"
+  , version = "v4.1.0"
   }
 }
