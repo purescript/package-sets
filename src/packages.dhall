@@ -77,7 +77,6 @@ let packages =
       ⫽ ./groups/matthew-hilty.dhall
       ⫽ ./groups/maxdeviant.dhall
       ⫽ ./groups/meeshkan.dhall
-      ⫽ ./groups/megamaddu.dhall
       ⫽ ./groups/menelaos.dhall
       ⫽ ./groups/michaelxavier.dhall
       ⫽ ./groups/mjepronk.dhall
@@ -120,6 +119,7 @@ let packages =
       ⫽ ./groups/sigilion.dhall
       ⫽ ./groups/slamdata.dhall
       ⫽ ./groups/sodiumfrp.dhall
+      ⫽ ./groups/spicydonuts.dhall
       ⫽ ./groups/srghma.dhall
       ⫽ ./groups/thimoteus.dhall
       ⫽ ./groups/thomashoneyman.dhall

@@ -28,7 +28,7 @@
     , "unsafe-reference"
     , "web-html"
     ]
-  , repo = "https://github.com/megamaddu/purescript-react-basic-hooks.git"
+  , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
   , version = "v8.0.0"
   }
 , uuid =
@@ -46,7 +46,7 @@
     , "strings"
     , "transformers"
     ]
-  , repo = "https://github.com/megamaddu/purescript-uuid.git"
+  , repo = "https://github.com/spicydonuts/purescript-uuid.git"
   , version = "v8.0.0"
   }
 }
