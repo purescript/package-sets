@@ -19,7 +19,6 @@
   , dependencies =
     [ "arrays"
     , "bifunctors"
-    , "console"
     , "control"
     , "effect"
     , "either"
@@ -30,7 +29,6 @@
     , "identity"
     , "lists"
     , "maybe"
-    , "nonempty"
     , "nullable"
     , "partial"
     , "prelude"
@@ -39,7 +37,7 @@
     , "typelevel-prelude"
     , "variant"
     ]
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , yoga-postgres =
   { dependencies =
