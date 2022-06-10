@@ -131,4 +131,22 @@
   , repo = "https://github.com/purescript-node/purescript-posix-types.git"
   , version = "v6.0.0"
   }
+, node-buffer-blob =
+  { dependencies =
+    [ "aff-promise"
+    , "arraybuffer-types"
+    , "arrays"
+    , "console"
+    , "effect"
+    , "maybe"
+    , "media-types"
+    , "newtype"
+    , "node-buffer"
+    , "nullable"
+    , "prelude"
+    , "web-streams"
+    ]
+  , version = "v1.0.0"
+  , repo = "https://github.com/purescript-node/purescript-node-buffer-blob.git"
+  }
 }

@@ -1940,6 +1940,24 @@
     "repo": "https://github.com/purescript-node/purescript-node-buffer.git",
     "version": "v8.0.0"
   },
+  "node-buffer-blob": {
+    "dependencies": [
+      "aff-promise",
+      "arraybuffer-types",
+      "arrays",
+      "console",
+      "effect",
+      "maybe",
+      "media-types",
+      "newtype",
+      "node-buffer",
+      "nullable",
+      "prelude",
+      "web-streams"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-node-buffer-blob.git",
+    "version": "v1.0.0"
+  },
   "node-child-process": {
     "dependencies": [
       "exceptions",
