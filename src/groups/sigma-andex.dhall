@@ -92,11 +92,12 @@
     , "refs"
     , "routing-duplex"
     , "strings"
+    , "transformers"
     , "tuples"
     , "type-equality"
     , "typelevel-prelude"
     ]
-  , version = "v1.1.0"
+  , version = "v1.2.1"
   , repo = "https://github.com/sigma-andex/purescript-httpurple.git"
   }
 }
