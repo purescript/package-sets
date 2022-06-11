@@ -3814,7 +3814,7 @@
       "variant"
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-yoga-json.git",
-    "version": "v1.0.1"
+    "version": "v2.0.0"
   },
   "yoga-postgres": {
     "dependencies": [
