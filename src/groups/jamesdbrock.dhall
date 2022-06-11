@@ -27,7 +27,7 @@
     , "web-encoding"
     ]
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
-  , version = "v3.0.0"
+  , version = "v4.0.0"
   }
 , parsing-dataview =
   { dependencies =

@@ -1511,7 +1511,7 @@
       "quickcheck"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-int64.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "integers": {
     "dependencies": [
@@ -2310,7 +2310,7 @@
       "unicode"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
-    "version": "v9.0.0"
+    "version": "v9.1.0"
   },
   "parsing-dataview": {
     "dependencies": [
@@ -2556,7 +2556,7 @@
       "web-encoding"
     ],
     "repo": "https://github.com/xc-jp/purescript-protobuf.git",
-    "version": "v3.0.0"
+    "version": "v4.0.0"
   },
   "ps-cst": {
     "dependencies": [

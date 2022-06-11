@@ -281,7 +281,7 @@
     , "quickcheck"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-int64.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , js-date =
   { dependencies =
@@ -357,7 +357,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "v9.0.0"
+  , version = "v9.1.0"
   }
 , pathy =
   { dependencies =
