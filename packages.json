@@ -1479,7 +1479,33 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/sigma-andex/purescript-httpurple.git",
-    "version": "v1.2.1"
+    "version": "v1.3.0"
+  },
+  "httpurple-argonaut": {
+    "dependencies": [
+      "argonaut",
+      "console",
+      "effect",
+      "either",
+      "httpurple",
+      "prelude"
+    ],
+    "repo": "https://github.com/sigma-andex/purescript-httpurple-argonaut.git",
+    "version": "v1.0.1"
+  },
+  "httpurple-yoga-json": {
+    "dependencies": [
+      "console",
+      "effect",
+      "either",
+      "foreign",
+      "httpurple",
+      "lists",
+      "prelude",
+      "yoga-json"
+    ],
+    "repo": "https://github.com/sigma-andex/purescript-httpurple-yoga-json.git",
+    "version": "v1.0.0"
   },
   "identity": {
     "dependencies": [
