@@ -10,6 +10,6 @@
     , "web-html"
     ]
   , repo = "https://github.com/lfarroco/purescript-phaser.git"
-  , version = "v0.5.0"
+  , version = "v0.6.0"
   }
 }
