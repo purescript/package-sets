@@ -1,4 +1,4 @@
-{- elmish =
+{ elmish =
   { dependencies =
     [ "aff"
     , "argonaut-core"
@@ -19,52 +19,60 @@
     , "partial"
     , "prelude"
     , "refs"
-    , "strings"
     , "typelevel-prelude"
+    , "undefined-is-not-a-problem"
     , "unsafe-coerce"
     , "web-dom"
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.5.6"
+  , version = "v0.8.1"
   }
 , elmish-enzyme =
   { dependencies =
     [ "aff"
+    , "aff-promise"
     , "arrays"
     , "console"
     , "debug"
     , "effect"
     , "elmish"
-    , "exceptions"
     , "foldable-traversable"
     , "foreign"
     , "functions"
     , "prelude"
-    , "psci-support"
     , "transformers"
+    , "unsafe-coerce"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-enzyme.git"
-  , version = "v0.0.1"
+  , version = "v0.1.1"
   }
 , elmish-hooks =
   { dependencies =
     [ "aff"
-    , "console"
     , "debug"
-    , "effect"
     , "elmish"
+    , "maybe"
     , "prelude"
-    , "psci-support"
     , "tuples"
+    , "undefined-is-not-a-problem"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-hooks.git"
-  , version = "v0.2.0"
+  , version = "v0.8.2"
   }
 , elmish-html =
-  { dependencies = [ "elmish", "foreign-object", "record" ]
+  { dependencies =
+    [ "effect"
+    , "elmish"
+    , "foreign-object"
+    , "foreign"
+    , "prelude"
+    , "record"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "web-html"
+    ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
-  , version = "v0.3.1"
+  , version = "v0.7.1"
   }
--}
-{=}
+}
