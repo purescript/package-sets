@@ -1791,6 +1791,19 @@
     "repo": "https://github.com/purescript/purescript-lists.git",
     "version": "v7.0.0"
   },
+  "literals": {
+    "dependencies": [
+      "integers",
+      "maybe",
+      "numbers",
+      "partial",
+      "prelude",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-literals.git",
+    "version": "v1.0.2"
+  },
   "logging": {
     "dependencies": [
       "console",
