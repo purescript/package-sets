@@ -1,4 +1,17 @@
-{ yoga-fetch =
+{ literals =
+  { repo = "https://github.com/rowtype-yoga/purescript-literals.git"
+  , dependencies = 
+    [ "integers"
+    , "maybe"
+    , "numbers"
+    , "partial"
+    , "prelude"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    ]
+   , version = "v1.0.2"
+  }
+, yoga-fetch =
   { repo = "https://github.com/rowtype-yoga/purescript-yoga-fetch.git"
   , dependencies =
     [ "aff"
