@@ -80,7 +80,6 @@
     , "node-buffer"
     , "node-fs"
     , "node-http"
-    , "node-net"
     , "node-process"
     , "node-streams"
     , "options"
@@ -95,9 +94,8 @@
     , "transformers"
     , "tuples"
     , "type-equality"
-    , "typelevel-prelude"
     ]
-  , version = "v1.3.0"
+  , version = "v2.0.0"
   , repo = "https://github.com/sigma-andex/purescript-httpurple.git"
   }
 , httpurple-yoga-json =
@@ -119,5 +117,11 @@
     [ "argonaut", "console", "effect", "either", "httpurple", "prelude" ]
   , version = "v1.0.1"
   , repo = "https://github.com/sigma-andex/purescript-httpurple-argonaut.git"
+  }
+, lazy-joe =
+  { dependencies =
+    [ "aff", "aff-promise", "effect", "functions", "prelude", "unsafe-coerce" ]
+  , version = "v1.0.0"
+  , repo = "https://github.com/sigma-andex/purescript-lazy-joe.git"
   }
 }
