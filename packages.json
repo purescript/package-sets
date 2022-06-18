@@ -1538,7 +1538,6 @@
       "node-buffer",
       "node-fs",
       "node-http",
-      "node-net",
       "node-process",
       "node-streams",
       "options",
@@ -1552,11 +1551,10 @@
       "strings",
       "transformers",
       "tuples",
-      "type-equality",
-      "typelevel-prelude"
+      "type-equality"
     ],
     "repo": "https://github.com/sigma-andex/purescript-httpurple.git",
-    "version": "v1.3.0"
+    "version": "v2.0.0"
   },
   "httpurple-argonaut": {
     "dependencies": [
@@ -1740,6 +1738,18 @@
     ],
     "repo": "https://github.com/purescript/purescript-lazy.git",
     "version": "v6.0.0"
+  },
+  "lazy-joe": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "effect",
+      "functions",
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/sigma-andex/purescript-lazy-joe.git",
+    "version": "v1.0.0"
   },
   "lcg": {
     "dependencies": [
