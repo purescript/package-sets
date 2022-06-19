@@ -1483,6 +1483,18 @@
     "repo": "https://github.com/sigma-andex/purescript-heterogeneous-extrablatt.git",
     "version": "v0.2.1"
   },
+  "homogeneous": {
+    "dependencies": [
+      "assert",
+      "console",
+      "effect",
+      "foreign-object",
+      "psci-support",
+      "variant"
+    ],
+    "repo": "https://github.com/paluh/purescript-homogeneous.git",
+    "version": "v0.4.0"
+  },
   "http-methods": {
     "dependencies": [
       "either",
@@ -1826,6 +1838,16 @@
     ],
     "repo": "https://github.com/rightfold/purescript-logging.git",
     "version": "v3.0.0"
+  },
+  "logging-journald": {
+    "dependencies": [
+      "effect",
+      "logging",
+      "prelude",
+      "systemd-journald"
+    ],
+    "repo": "https://github.com/paluh/purescript-logging-journald.git",
+    "version": "v0.4.0"
   },
   "machines": {
     "dependencies": [
@@ -2572,6 +2594,14 @@
     ],
     "repo": "https://github.com/ursi/purescript-point-free.git",
     "version": "v1.0.0"
+  },
+  "pointed-list": {
+    "dependencies": [
+      "lists",
+      "prelude"
+    ],
+    "repo": "https://github.com/paluh/purescript-pointed-list.git",
+    "version": "v0.5.1"
   },
   "polymorphic-vectors": {
     "dependencies": [
@@ -3449,6 +3479,15 @@
     "repo": "https://github.com/ajnsit/purescript-supply.git",
     "version": "v0.2.0"
   },
+  "systemd-journald": {
+    "dependencies": [
+      "console",
+      "functions",
+      "prelude"
+    ],
+    "repo": "https://github.com/paluh/purescript-systemd-journald.git",
+    "version": "v0.3.0"
+  },
   "tailrec": {
     "dependencies": [
       "bifunctors",
@@ -3668,7 +3707,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/paluh/purescript-undefined-is-not-a-problem.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "unfoldable": {
     "dependencies": [
