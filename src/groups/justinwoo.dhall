@@ -145,21 +145,6 @@
   , repo = "https://github.com/justinwoo/purescript-toppokki.git"
   , version = "v2.5.0"
   }
-, simple-json =
-  { dependencies =
-    [ "arrays"
-    , "exceptions"
-    , "foreign-object"
-    , "foreign"
-    , "nullable"
-    , "prelude"
-    , "record"
-    , "typelevel-prelude"
-    , "variant"
-    ]
-  , repo = "https://github.com/justinwoo/purescript-simple-json.git"
-  , version = "v8.0.0"
-  }
 , sunde =
   { dependencies = [ "aff", "effect", "node-child-process", "prelude" ]
   , repo = "https://github.com/justinwoo/purescript-sunde.git"
@@ -175,5 +160,20 @@
   { dependencies = [ "lists", "strings" ]
   , repo = "https://github.com/justinwoo/purescript-motsunabe.git"
   , version = "v2.0.0"
+  }
+, simple-json =
+  { dependencies =
+    [ "arrays"
+    , "exceptions"
+    , "foreign-object"
+    , "foreign"
+    , "nullable"
+    , "prelude"
+    , "record"
+    , "typelevel-prelude"
+    , "variant"
+    ]
+  , repo = "https://github.com/justinwoo/purescript-simple-json.git"
+  , version = "v9.0.0"
   }
 }

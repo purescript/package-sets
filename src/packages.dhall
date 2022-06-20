@@ -80,6 +80,7 @@ let packages =
       ⫽ ./groups/megamaddu.dhall
       ⫽ ./groups/menelaos.dhall
       ⫽ ./groups/michaelxavier.dhall
+      ⫽ ./groups/mikesol.dhall
       ⫽ ./groups/mjepronk.dhall
       ⫽ ./groups/mlang.dhall
       ⫽ ./groups/morganthomas.dhall
