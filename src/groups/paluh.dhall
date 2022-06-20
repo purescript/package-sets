@@ -31,7 +31,21 @@
   , version = "v0.2.1"
   }
 -}
-{ homogeneous =
+{ array-builder =
+  { dependencies =
+    [ "arrays"
+    , "assert"
+    , "console"
+    , "effect"
+    , "foldable-traversable"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    ]
+  , repo = "https://github.com/paluh/purescript-array-builder.git"
+  , version = "v0.1.2"
+  }
+, homogeneous =
   { dependencies =
     [ "assert"
     , "console"
