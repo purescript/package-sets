@@ -374,6 +374,26 @@
     "repo": "https://github.com/sharkdp/purescript-bigints.git",
     "version": "v7.0.1"
   },
+  "bolson": {
+    "dependencies": [
+      "control",
+      "effect",
+      "fast-vect",
+      "filterable",
+      "foldable-traversable",
+      "foreign-object",
+      "heterogeneous",
+      "hyrule",
+      "maybe",
+      "monoid-extras",
+      "prelude",
+      "st",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/mikesol/purescript-bolson.git",
+    "version": "v0.0.6"
+  },
   "bower-json": {
     "dependencies": [
       "argonaut-codecs",
@@ -658,6 +678,39 @@
     ],
     "repo": "https://github.com/sharkdp/purescript-decimals.git",
     "version": "v7.0.0"
+  },
+  "deku": {
+    "dependencies": [
+      "arrays",
+      "bolson",
+      "control",
+      "effect",
+      "fast-vect",
+      "filterable",
+      "foldable-traversable",
+      "foreign-object",
+      "heterogeneous",
+      "hyrule",
+      "maybe",
+      "monoid-extras",
+      "newtype",
+      "ordered-collections",
+      "prelude",
+      "profunctor",
+      "quickcheck",
+      "record",
+      "refs",
+      "safe-coerce",
+      "st",
+      "strings",
+      "transformers",
+      "unsafe-coerce",
+      "web-dom",
+      "web-events",
+      "web-html"
+    ],
+    "repo": "https://github.com/mikesol/purescript-deku.git",
+    "version": "v0.4.13"
   },
   "dissect": {
     "dependencies": [
@@ -1608,6 +1661,38 @@
     "repo": "https://github.com/sigma-andex/purescript-httpurple-yoga-json.git",
     "version": "v1.0.0"
   },
+  "hyrule": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "filterable",
+      "foldable-traversable",
+      "js-timers",
+      "lists",
+      "maybe",
+      "monoid-extras",
+      "newtype",
+      "now",
+      "ordered-collections",
+      "partial",
+      "prelude",
+      "profunctor",
+      "record",
+      "refs",
+      "st",
+      "tuples",
+      "unsafe-coerce",
+      "unsafe-reference",
+      "web-events",
+      "web-html",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/mikesol/purescript-hyrule.git",
+    "version": "v2.0.0"
+  },
   "identity": {
     "dependencies": [
       "control",
@@ -2015,6 +2100,20 @@
     "repo": "https://github.com/athanclark/purescript-monad-unlift.git",
     "version": "v1.0.1"
   },
+  "monoid-extras": {
+    "dependencies": [
+      "console",
+      "effect",
+      "foldable-traversable",
+      "maybe",
+      "prelude",
+      "profunctor",
+      "profunctor-lenses",
+      "tuples"
+    ],
+    "repo": "https://github.com/mikesol/purescript-monoid-extras.git",
+    "version": "v0.0.1"
+  },
   "monoidal": {
     "dependencies": [
       "either",
@@ -2323,6 +2422,54 @@
     ],
     "repo": "https://github.com/purescript/purescript-numbers.git",
     "version": "v9.0.0"
+  },
+  "ocarina": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "arraybuffer-types",
+      "avar",
+      "bolson",
+      "control",
+      "convertable-options",
+      "effect",
+      "either",
+      "exceptions",
+      "fast-vect",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "homogeneous",
+      "hyrule",
+      "indexed-monad",
+      "integers",
+      "js-timers",
+      "lists",
+      "maybe",
+      "newtype",
+      "numbers",
+      "ordered-collections",
+      "prelude",
+      "profunctor",
+      "profunctor-lenses",
+      "random",
+      "refs",
+      "safe-coerce",
+      "simple-json",
+      "sized-vectors",
+      "tuples",
+      "type-equality",
+      "typelevel",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "unsafe-reference",
+      "variant",
+      "web-events",
+      "web-file",
+      "web-html"
+    ],
+    "repo": "https://github.com/mikesol/purescript-ocarina.git",
+    "version": "v1.2.0"
   },
   "open-folds": {
     "dependencies": [
@@ -3117,6 +3264,46 @@
     "repo": "https://github.com/f-o-a-m/purescript-ring-modules.git",
     "version": "v5.0.1"
   },
+  "rito": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "arrays",
+      "bolson",
+      "control",
+      "convertable-options",
+      "deku",
+      "effect",
+      "either",
+      "exceptions",
+      "exists",
+      "fast-vect",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "heterogeneous",
+      "hyrule",
+      "integers",
+      "maybe",
+      "newtype",
+      "numbers",
+      "prelude",
+      "profunctor",
+      "random",
+      "record",
+      "refs",
+      "safe-coerce",
+      "tuples",
+      "unsafe-coerce",
+      "variant",
+      "web-dom",
+      "web-html",
+      "web-touchevents",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/mikesol/purescript-rito.git",
+    "version": "v0.0.0"
+  },
   "routing": {
     "dependencies": [
       "aff",
@@ -3231,6 +3418,21 @@
     ],
     "repo": "https://github.com/oreshinya/purescript-simple-emitter.git",
     "version": "v2.0.0"
+  },
+  "simple-json": {
+    "dependencies": [
+      "arrays",
+      "exceptions",
+      "foreign",
+      "foreign-object",
+      "nullable",
+      "prelude",
+      "record",
+      "typelevel-prelude",
+      "variant"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-simple-json.git",
+    "version": "v9.0.0"
   },
   "sized-matrices": {
     "dependencies": [
