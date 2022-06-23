@@ -140,6 +140,7 @@ let packages =
       ⫽ ./groups/eikooc.dhall
       ⫽ ./groups/katsujukou.dhall
       ⫽ ./groups/tweag.dhall
+      ⫽ ./groups/njaremko.dhall
       ⫽ ./groups/rowtype-yoga.dhall
 
 in  packages
