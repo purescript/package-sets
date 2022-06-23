@@ -1323,6 +1323,23 @@
     "repo": "https://github.com/jordanmartinez/purescript-generate-values.git",
     "version": "v1.0.1"
   },
+  "generic-router": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "effect",
+      "foldable-traversable",
+      "lists",
+      "maybe",
+      "ordered-collections",
+      "prelude",
+      "record",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/njaremko/purescript-generic-router.git",
+    "version": "v0.0.1"
+  },
   "geometry-plane": {
     "dependencies": [
       "console",

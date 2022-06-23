@@ -19,4 +19,21 @@
   , repo = "https://github.com/njaremko/purescript-deno.git"
   , version = "v0.0.3"
   }
+, generic-router =
+  { dependencies =
+    [ "arrays"
+    , "assert"
+    , "effect"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "record"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/njaremko/purescript-generic-router.git"
+  , version = "v0.0.1"
+  }
 }
