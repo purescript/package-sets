@@ -17,7 +17,7 @@
     , "web-streams"
     ]
   , repo = "https://github.com/njaremko/purescript-deno.git"
-  , version = "v0.0.3"
+  , version = "v0.0.5"
   }
 , generic-router =
   { dependencies =
