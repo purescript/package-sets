@@ -101,17 +101,6 @@
   , repo = "https://github.com/justinwoo/purescript-makkori.git"
   , version = "v1.0.0"
   }
-, milkis =
-  { dependencies =
-    [ "aff-promise"
-    , "arraybuffer-types"
-    , "foreign-object"
-    , "prelude"
-    , "typelevel-prelude"
-    ]
-  , repo = "https://github.com/justinwoo/purescript-milkis.git"
-  , version = "v7.5.0"
-  }
 , node-he =
   { dependencies = [] : List Text
   , repo = "https://github.com/justinwoo/purescript-node-he.git"
@@ -155,6 +144,17 @@
   { dependencies = [ "prelude", "typelevel-prelude" ]
   , repo = "https://github.com/justinwoo/purescript-expect-inferred.git"
   , version = "v3.0.0"
+  }
+, milkis =
+  { dependencies =
+    [ "aff-promise"
+    , "arraybuffer-types"
+    , "foreign-object"
+    , "prelude"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/justinwoo/purescript-milkis.git"
+  , version = "v9.0.0"
   }
 , motsunabe =
   { dependencies = [ "lists", "strings" ]
