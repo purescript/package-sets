@@ -183,7 +183,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-rito.git"
-  , version = "v0.0.0"
+  , version = "v0.0.1"
   }
 , freer-free =
   { dependencies = [ "prelude", "record" ]
