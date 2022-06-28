@@ -185,4 +185,9 @@
   , repo = "https://github.com/mikesol/purescript-rito.git"
   , version = "v0.0.1"
   }
+, freer-free =
+  { dependencies = [ "prelude", "record" ]
+  , repo = "https://github.com/mikesol/purescript-freer-free.git"
+  , version = "v0.0.1"
+  }
 }
