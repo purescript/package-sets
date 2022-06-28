@@ -2072,6 +2072,17 @@
     "repo": "https://github.com/newlandsvalley/purescript-midi.git",
     "version": "v4.0.0"
   },
+  "milkis": {
+    "dependencies": [
+      "aff-promise",
+      "arraybuffer-types",
+      "foreign-object",
+      "prelude",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-milkis.git",
+    "version": "v9.0.0"
+  },
   "minibench": {
     "dependencies": [
       "console",
