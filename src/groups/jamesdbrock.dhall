@@ -77,7 +77,7 @@
     , "prelude"
     , "tuples"
     ]
-  , version = "v2.0.0"
+  , version = "v3.0.0"
   , repo = "https://github.com/jamesdbrock/purescript-node-streams-aff.git"
   }
 }
