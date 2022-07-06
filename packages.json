@@ -2421,7 +2421,7 @@
       "tuples"
     ],
     "repo": "https://github.com/jamesdbrock/purescript-node-streams-aff.git",
-    "version": "v3.0.0"
+    "version": "v4.0.0"
   },
   "node-url": {
     "dependencies": [
