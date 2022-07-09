@@ -3220,6 +3220,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v8.0.0"
   },
+  "react-icons": {
+    "dependencies": [
+      "react-basic",
+      "react-basic-dom",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/andys8/purescript-react-icons.git",
+    "version": "v1.0.1"
+  },
   "read": {
     "dependencies": [
       "maybe",

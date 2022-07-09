@@ -142,5 +142,6 @@ let packages =
       ⫽ ./groups/tweag.dhall
       ⫽ ./groups/njaremko.dhall
       ⫽ ./groups/rowtype-yoga.dhall
+      ⫽ ./groups/andys8.dhall
 
 in  packages
