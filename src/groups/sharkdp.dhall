@@ -30,7 +30,7 @@
 , decimals =
   { dependencies = [ "maybe" ]
   , repo = "https://github.com/sharkdp/purescript-decimals.git"
-  , version = "v7.0.0"
+  , version = "v7.1.0"
   }
 , pairs =
   { dependencies =
