@@ -1445,7 +1445,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
-    "version": "v4.0.0"
+    "version": "v4.0.2"
   },
   "halogen-hooks": {
     "dependencies": [
@@ -1503,7 +1503,7 @@
       "unsafe-reference"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-store.git",
-    "version": "v0.5.0"
+    "version": "v0.5.1"
   },
   "halogen-storybook": {
     "dependencies": [
@@ -3565,7 +3565,7 @@
       "unicode"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-slug.git",
-    "version": "v3.0.1"
+    "version": "v3.0.3"
   },
   "soundfonts": {
     "dependencies": [

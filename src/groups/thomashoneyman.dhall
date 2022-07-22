@@ -47,7 +47,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-store.git"
-  , version = "v0.5.0"
+  , version = "v0.5.1"
   }
 , halogen-formless =
   { dependencies =
@@ -70,12 +70,12 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-  , version = "v4.0.0"
+  , version = "v4.0.2"
   }
 , slug =
   { dependencies =
     [ "prelude", "maybe", "strings", "unicode", "argonaut-codecs" ]
   , repo = "https://github.com/thomashoneyman/purescript-slug.git"
-  , version = "v3.0.1"
+  , version = "v3.0.3"
   }
 }
