@@ -70,7 +70,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-  , version = "v4.0.1"
+  , version = "v4.0.2"
   }
 , slug =
   { dependencies =
