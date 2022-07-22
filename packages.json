@@ -3220,15 +3220,6 @@
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v8.0.0"
   },
-  "react-icons": {
-    "dependencies": [
-      "react-basic",
-      "react-basic-dom",
-      "unsafe-coerce"
-    ],
-    "repo": "https://github.com/andys8/purescript-react-icons.git",
-    "version": "v1.0.5"
-  },
   "react-halo": {
     "dependencies": [
       "aff",
@@ -3253,6 +3244,15 @@
     ],
     "repo": "https://github.com/robertdp/purescript-react-halo.git",
     "version": "v3.0.0"
+  },
+  "react-icons": {
+    "dependencies": [
+      "react-basic",
+      "react-basic-dom",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/andys8/purescript-react-icons.git",
+    "version": "v1.0.5"
   },
   "read": {
     "dependencies": [
