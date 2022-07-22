@@ -4283,7 +4283,7 @@
     "version": "v3.0.0"
   },
   "web-router": {
-    "dependencies": [ 
+    "dependencies": [
       "aff",
       "effect",
       "foldable-traversable",
