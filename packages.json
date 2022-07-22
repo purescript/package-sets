@@ -3220,6 +3220,31 @@
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v8.0.0"
   },
+  "react-halo": {
+    "dependencies": [
+      "aff",
+      "bifunctors",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "free",
+      "freeap",
+      "halogen-subscriptions",
+      "maybe",
+      "newtype",
+      "ordered-collections",
+      "parallel",
+      "prelude",
+      "react-basic-hooks",
+      "refs",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unsafe-reference"
+    ],
+    "repo": "https://github.com/robertdp/purescript-react-halo.git",
+    "version": "v3.0.0"
+  },
   "react-icons": {
     "dependencies": [
       "react-basic",

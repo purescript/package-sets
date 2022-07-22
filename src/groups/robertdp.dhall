@@ -1,19 +1,29 @@
-{-
-react-halo =
+{ react-halo =
   { dependencies =
     [ "aff"
+    , "bifunctors"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
     , "free"
     , "freeap"
     , "halogen-subscriptions"
+    , "maybe"
+    , "newtype"
+    , "ordered-collections"
+    , "parallel"
+    , "prelude"
     , "react-basic-hooks"
     , "refs"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
     , "unsafe-reference"
     ]
   , repo = "https://github.com/robertdp/purescript-react-halo.git"
-  , version = "v2.0.0"
+  , version = "v3.0.0"
   }
--}
-{ resourcet =
+, resourcet =
   { dependencies =
     [ "aff"
     , "effect"
