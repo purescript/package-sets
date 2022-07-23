@@ -4031,6 +4031,17 @@
     "repo": "https://github.com/purescript-contrib/purescript-uint.git",
     "version": "v7.0.0"
   },
+  "ulid": {
+    "dependencies": [
+      "effect",
+      "functions",
+      "maybe",
+      "nullable",
+      "prelude"
+    ],
+    "repo": "https://github.com/maxdeviant/purescript-ulid.git",
+    "version": "v3.0.1"
+  },
   "uncurried-transformers": {
     "dependencies": [
       "control",
