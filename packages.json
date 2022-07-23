@@ -4416,6 +4416,19 @@
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v5.0.0"
   },
+  "which": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "foreign",
+      "maybe",
+      "nullable",
+      "options",
+      "prelude"
+    ],
+    "repo": "https://github.com/maxdeviant/purescript-which.git",
+    "version": "v2.0.0"
+  },
   "yoga-fetch": {
     "dependencies": [
       "aff",
