@@ -35,4 +35,5 @@
     [ "arrays", "effect", "foreign", "maybe", "nullable", "options", "prelude" ]
   , repo = "https://github.com/maxdeviant/purescript-which.git"
   , version = "v2.0.0"
+  }
 }
