@@ -53,6 +53,6 @@
     , "tuples"
     ]
   , repo = "https://github.com/sharkdp/purescript-quantities.git"
-  , version = "v12.0.1"
+  , version = "v12.1.0"
   }
 }
