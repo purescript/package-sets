@@ -79,7 +79,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript/purescript-datetime.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , distributive =
   { dependencies =
