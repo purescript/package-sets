@@ -367,11 +367,21 @@
   },
   "bigints": {
     "dependencies": [
+      "arrays",
+      "assert",
+      "console",
+      "effect",
+      "foldable-traversable",
       "integers",
       "maybe",
+      "numbers",
+      "partial",
+      "prelude",
+      "quickcheck",
+      "quickcheck-laws",
       "strings"
     ],
-    "repo": "https://github.com/sharkdp/purescript-bigints.git",
+    "repo": "https://github.com/purescript-contrib/purescript-bigints.git",
     "version": "v7.0.1"
   },
   "bolson": {
@@ -3192,7 +3202,7 @@
       "integers",
       "prelude"
     ],
-    "repo": "https://github.com/anttih/purescript-rationals.git",
+    "repo": "https://github.com/purescript-contrib/purescript-rationals.git",
     "version": "v5.0.0"
   },
   "react": {
@@ -4211,6 +4221,19 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-uri.git",
+    "version": "v9.0.0"
+  },
+  "uuid": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "maybe",
+      "partial",
+      "prelude",
+      "spec",
+      "strings"
+    ],
+    "repo": "https://github.com/megamaddu/purescript-uuid.git",
     "version": "v9.0.0"
   },
   "validation": {
