@@ -22,12 +22,7 @@
   , version = "v4.0.0"
   }
 -}
-{ bigints =
-  { dependencies = [ "integers", "maybe", "strings" ]
-  , repo = "https://github.com/sharkdp/purescript-bigints.git"
-  , version = "v7.0.1"
-  }
-, decimals =
+{ decimals =
   { dependencies = [ "maybe" ]
   , repo = "https://github.com/sharkdp/purescript-decimals.git"
   , version = "v7.1.0"

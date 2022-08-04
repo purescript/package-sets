@@ -159,6 +159,25 @@
   , repo = "https://github.com/purescript-contrib/purescript-avar.git"
   , version = "v5.0.0"
   }
+, bigints =
+  { dependencies =
+    [ "arrays"
+    , "assert"
+    , "console"
+    , "effect"
+    , "foldable-traversable"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "partial"
+    , "prelude"
+    , "quickcheck"
+    , "quickcheck-laws"
+    , "strings"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-bigints.git"
+  , version = "v7.0.1"
+  }
 , colors =
   { dependencies =
     [ "arrays", "integers", "lists", "numbers", "partial", "strings" ]
@@ -422,6 +441,11 @@
   , repo =
       "https://github.com/purescript-contrib/purescript-quickcheck-laws.git"
   , version = "v7.0.0"
+  }
+, rationals =
+  { dependencies = [ "integers", "prelude" ]
+  , repo = "https://github.com/purescript-contrib/purescript-rationals.git"
+  , version = "v5.0.0"
   }
 , react =
   { dependencies =
