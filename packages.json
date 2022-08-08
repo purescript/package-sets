@@ -3888,6 +3888,16 @@
     "repo": "https://github.com/ursi/purescript-substitute.git",
     "version": "v0.2.3"
   },
+  "sunde": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "node-child-process",
+      "prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-sunde.git",
+    "version": "v3.0.0"
+  },
   "supply": {
     "dependencies": [
       "console",
