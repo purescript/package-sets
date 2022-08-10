@@ -42,7 +42,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-hyrule.git"
-  , version = "v2.0.0"
+  , version = "v2.0.7"
   }
 , bolson =
   { dependencies =
@@ -62,7 +62,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/mikesol/purescript-bolson.git"
-  , version = "v0.0.6"
+  , version = "v0.0.9"
   }
 , deku =
   { dependencies =
@@ -95,7 +95,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.4.13"
+  , version = "v0.4.14"
   }
 , ocarina =
   { dependencies =
@@ -143,7 +143,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/mikesol/purescript-ocarina.git"
-  , version = "v1.2.0"
+  , version = "v1.2.1"
   }
 , rito =
   { dependencies =
@@ -183,7 +183,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-rito.git"
-  , version = "v0.0.2"
+  , version = "v0.0.3"
   }
 , freer-free =
   { dependencies = [ "prelude", "record" ]
