@@ -42,7 +42,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-hyrule.git"
-  , version = "v2.0.7"
+  , version = "v2.0.8"
   }
 , bolson =
   { dependencies =
@@ -66,7 +66,8 @@
   }
 , deku =
   { dependencies =
-    [ "arrays"
+    [ "aff"
+    , "arrays"
     , "bolson"
     , "control"
     , "effect"
@@ -95,7 +96,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.4.14"
+  , version = "v0.5.2"
   }
 , ocarina =
   { dependencies =
