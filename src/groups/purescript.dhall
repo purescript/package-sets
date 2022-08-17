@@ -111,7 +111,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-enums.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , exceptions =
   { dependencies = [ "effect", "either", "maybe", "prelude" ]
@@ -483,7 +483,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-strings.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , tailrec =
   { dependencies =
