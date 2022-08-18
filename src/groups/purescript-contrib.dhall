@@ -316,7 +316,7 @@
 , js-uri =
   { dependencies = [ "functions", "maybe" ]
   , repo = "https://github.com/purescript-contrib/purescript-js-uri.git"
-  , version = "v3.0.0"
+  , version = "v3.1.0"
   }
 , machines =
   { dependencies =
