@@ -154,7 +154,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v9.0.0"
+    "version": "v9.1.0"
   },
   "argonaut-core": {
     "dependencies": [
@@ -1050,6 +1050,83 @@
     ],
     "repo": "https://github.com/sigma-andex/purescript-fast-vect.git",
     "version": "v0.7.0"
+  },
+  "fetch": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "arraybuffer-types",
+      "effect",
+      "fetch-core",
+      "foreign",
+      "http-methods",
+      "newtype",
+      "prelude",
+      "record",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "web-file",
+      "web-promise",
+      "web-streams"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-fetch.git",
+    "version": "v1.0.0"
+  },
+  "fetch-argonaut": {
+    "dependencies": [
+      "aff",
+      "argonaut",
+      "console",
+      "effect",
+      "either",
+      "foreign",
+      "prelude",
+      "transformers",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-fetch-argonaut.git",
+    "version": "v1.0.0"
+  },
+  "fetch-core": {
+    "dependencies": [
+      "arraybuffer-types",
+      "arrays",
+      "console",
+      "effect",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "functions",
+      "http-methods",
+      "maybe",
+      "newtype",
+      "nullable",
+      "prelude",
+      "record",
+      "tuples",
+      "typelevel-prelude",
+      "unfoldable",
+      "unsafe-coerce",
+      "web-file",
+      "web-promise",
+      "web-streams"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-fetch-core.git",
+    "version": "v4.0.4"
+  },
+  "fetch-yoga-json": {
+    "dependencies": [
+      "aff",
+      "either",
+      "exceptions",
+      "foreign",
+      "lists",
+      "prelude",
+      "transformers",
+      "yoga-json"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-fetch-yoga-json.git",
+    "version": "v1.0.1"
   },
   "filterable": {
     "dependencies": [
@@ -4242,6 +4319,23 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference.git",
     "version": "v5.0.0"
+  },
+  "untagged-union": {
+    "dependencies": [
+      "assert",
+      "console",
+      "effect",
+      "foreign",
+      "foreign-object",
+      "literals",
+      "maybe",
+      "newtype",
+      "psci-support",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-untagged-union.git",
+    "version": "v1.0.0"
   },
   "uri": {
     "dependencies": [
