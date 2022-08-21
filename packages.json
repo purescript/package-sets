@@ -1125,7 +1125,7 @@
       "transformers",
       "yoga-json"
     ],
-    "repo": "https://github.com/rowtype-yoga/fetch-yoga-json.git",
+    "repo": "https://github.com/rowtype-yoga/purescript-fetch-yoga-json.git",
     "version": "v1.0.1"
   },
   "filterable": {

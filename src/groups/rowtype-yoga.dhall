@@ -149,7 +149,7 @@
     , "yoga-json"
     ]
   , version = "v1.0.1"
-  , repo = "https://github.com/rowtype-yoga/fetch-yoga-json.git"
+  , repo = "https://github.com/rowtype-yoga/purescript-fetch-yoga-json.git"
   }
 , fetch-argonaut =
   { dependencies =
