@@ -49,6 +49,7 @@
   , dependencies =
     [ "arrays"
     , "bifunctors"
+    , "bigints"
     , "control"
     , "effect"
     , "either"
@@ -57,6 +58,7 @@
     , "foreign"
     , "foreign-object"
     , "identity"
+    , "js-date"
     , "lists"
     , "maybe"
     , "nullable"
@@ -67,7 +69,7 @@
     , "typelevel-prelude"
     , "variant"
     ]
-  , version = "v3.0.1"
+  , version = "v3.0.2"
   }
 , yoga-postgres =
   { dependencies =
