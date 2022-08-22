@@ -67,7 +67,7 @@
     , "typelevel-prelude"
     , "variant"
     ]
-  , version = "v2.0.0"
+  , version = "v3.0.1"
   }
 , yoga-postgres =
   { dependencies =
