@@ -1070,7 +1070,7 @@
       "web-streams"
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-fetch.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "fetch-argonaut": {
     "dependencies": [
@@ -1126,7 +1126,7 @@
       "yoga-json"
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-fetch-yoga-json.git",
-    "version": "v1.0.1"
+    "version": "v1.1.0"
   },
   "filterable": {
     "dependencies": [
