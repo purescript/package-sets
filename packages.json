@@ -4669,6 +4669,7 @@
     "dependencies": [
       "arrays",
       "bifunctors",
+      "bigints",
       "control",
       "effect",
       "either",
@@ -4677,6 +4678,7 @@
       "foreign",
       "foreign-object",
       "identity",
+      "js-date",
       "lists",
       "maybe",
       "nullable",
@@ -4688,7 +4690,7 @@
       "variant"
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-yoga-json.git",
-    "version": "v2.0.0"
+    "version": "v3.0.2"
   },
   "yoga-postgres": {
     "dependencies": [
