@@ -1821,12 +1821,17 @@
       "bifunctors",
       "console",
       "control",
+      "debug",
       "effect",
       "either",
+      "exceptions",
       "foldable-traversable",
       "foreign-object",
+      "functions",
       "js-uri",
       "justifill",
+      "lists",
+      "literals",
       "maybe",
       "newtype",
       "node-buffer",
@@ -1842,13 +1847,17 @@
       "record",
       "refs",
       "routing-duplex",
+      "safe-coerce",
       "strings",
       "transformers",
       "tuples",
-      "type-equality"
+      "type-equality",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "untagged-union"
     ],
     "repo": "https://github.com/sigma-andex/purescript-httpurple.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "httpurple-argonaut": {
     "dependencies": [
