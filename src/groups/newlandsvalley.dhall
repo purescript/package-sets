@@ -1,5 +1,5 @@
 {-
-, abc-parser =
+  abc-parser =
   { dependencies =
     [ "bifunctors"
     , "effect"
@@ -22,27 +22,59 @@
 { js-fileio =
   { dependencies = [ "aff", "effect", "prelude" ]
   , repo = "https://github.com/newlandsvalley/purescript-js-fileio.git"
-  , version = "v2.2.0"
+  , version = "v3.0.0"
   }
 , midi =
   { dependencies =
-    [ "effect", "integers", "lists", "prelude", "signal", "string-parsers" ]
+    [ "arrays"
+    , "control"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "signal"
+    , "string-parsers"
+    , "strings"
+    , "tuples"
+    , "unfoldable"
+    ]
   , repo = "https://github.com/newlandsvalley/purescript-midi.git"
-  , version = "v3.0.0"
+  , version = "v4.0.0"
   }
 , soundfonts =
   { dependencies =
-    [ "affjax"
+    [ "aff"
+    , "affjax"
+    , "affjax-web"
     , "argonaut-core"
+    , "arraybuffer-types"
+    , "arrays"
     , "b64"
+    , "bifunctors"
     , "console"
     , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign-object"
     , "http-methods"
+    , "integers"
+    , "lists"
+    , "maybe"
     , "midi"
+    , "ordered-collections"
     , "parallel"
+    , "partial"
     , "prelude"
+    , "strings"
+    , "transformers"
+    , "tuples"
     ]
   , repo = "https://github.com/newlandsvalley/purescript-soundfonts.git"
-  , version = "v3.2.0"
+  , version = "v4.1.0"
   }
 }

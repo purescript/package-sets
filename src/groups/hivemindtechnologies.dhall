@@ -1,4 +1,5 @@
-{ aws-encryption-sdk =
+{-
+ aws-encryption-sdk =
   { dependencies =
     [ "aff-promise"
     , "console"
@@ -6,8 +7,6 @@
     , "effect"
     , "node-buffer"
     , "psci-support"
-    , "spec"
-    , "spec-discovery"
     ]
   , repo =
       "https://github.com/HivemindTechnologies/purescript-aws-encryption-sdk.git"
@@ -42,9 +41,9 @@
     , "node-buffer"
     , "nullable"
     , "psci-support"
-    , "spec"
     ]
   , repo = "https://github.com/HivemindTechnologies/purescript-kafkajs.git"
   , version = "v0.2.0"
   }
-}
+-}
+{=}

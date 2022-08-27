@@ -17,7 +17,6 @@
     , "node-process"
     , "free"
     , "quickcheck"
-    , "spec"
     , "aff"
     , "bifunctors"
     , "control"
@@ -39,6 +38,6 @@
     , "tuples"
     ]
   , repo = "https://github.com/f-o-a-m/purescript-optparse.git"
-  , version = "v4.1.0"
+  , version = "v5.0.0"
   }
 }

@@ -5,7 +5,6 @@
     , "psci-support"
     , "record"
     , "strings"
-    , "spec"
     , "node-path"
     , "node-fs-aff"
     , "ansi"

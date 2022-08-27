@@ -1,7 +1,7 @@
 all: format generate
 
 format:
-	@find src/ -iname "*.dhall" -exec dhall format --inplace {} \;
+	@find src/ -iname "*.dhall" -exec dhall format {} \;
 	@echo formatted dhall files
 
 generate: SHELL:=/usr/bin/env bash

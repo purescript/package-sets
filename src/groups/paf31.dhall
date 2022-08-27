@@ -51,8 +51,7 @@
   , repo = "https://github.com/paf31/purescript-pairing.git"
   , version = "v5.1.0"
   }
--}
-{ foreign-generic =
+foreign-generic =
   { dependencies =
     [ "effect"
     , "exceptions"
@@ -65,13 +64,20 @@
   , repo = "https://github.com/paf31/purescript-foreign-generic.git"
   , version = "v11.0.0"
   }
+, yargs =
+  { dependencies =
+    [ "console", "either", "exceptions", "foreign", "unsafe-coerce" ]
+  , repo = "https://github.com/paf31/purescript-yargs.git"
+  , version = "v4.0.0"
+  }
 , drawing =
   { dependencies =
-    [ "canvas", "colors", "integers", "lists", "math", "prelude" ]
+    [ "canvas", "colors", "integers", "lists", "prelude" ]
   , repo = "https://github.com/paf31/purescript-drawing.git"
   , version = "v4.0.0"
   }
-, leibniz =
+-}
+{ leibniz =
   { dependencies = [ "prelude", "unsafe-coerce" ]
   , repo = "https://github.com/paf31/purescript-leibniz.git"
   , version = "v5.0.0"
@@ -86,11 +92,5 @@
     [ "aff", "coroutines", "freet", "profunctor-lenses", "react" ]
   , repo = "https://github.com/paf31/purescript-thermite.git"
   , version = "v6.3.1"
-  }
-, yargs =
-  { dependencies =
-    [ "console", "either", "exceptions", "foreign", "unsafe-coerce" ]
-  , repo = "https://github.com/paf31/purescript-yargs.git"
-  , version = "v4.0.0"
   }
 }

@@ -17,36 +17,7 @@
   , version = "v0.0.2"
   }
 -}
-{ httpure =
-  { dependencies =
-    [ "aff"
-    , "arrays"
-    , "bifunctors"
-    , "console"
-    , "effect"
-    , "either"
-    , "foldable-traversable"
-    , "foreign"
-    , "js-uri"
-    , "maybe"
-    , "newtype"
-    , "node-buffer"
-    , "node-fs"
-    , "node-http"
-    , "node-streams"
-    , "nullable"
-    , "options"
-    , "ordered-collections"
-    , "prelude"
-    , "refs"
-    , "strings"
-    , "tuples"
-    , "type-equality"
-    ]
-  , repo = "https://github.com/cprussin/purescript-httpure.git"
-  , version = "v0.12.0"
-  }
-, monad-logger =
+{ monad-logger =
   { dependencies =
     [ "aff"
     , "ansi"

@@ -1,6 +1,7 @@
 { supply =
-  { dependencies = [ "console", "effect", "newtype", "tuples", "lazy", "refs" ]
+  { dependencies =
+    [ "console", "control", "effect", "lazy", "prelude", "refs", "tuples" ]
   , repo = "https://github.com/ajnsit/purescript-supply.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 }

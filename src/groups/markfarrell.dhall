@@ -40,8 +40,12 @@
   , repo = "https://github.com/markfarrell/purescript-parsing-uuid.git"
   , version = "v0.0.3"
   }
--}
-{ parsing-expect =
+, ffi-foreign =
+  { dependencies = [ "console", "effect", "foreign", "prelude", "psci-support" ]
+  , repo = "https://github.com/markfarrell/purescript-ffi-foreign.git"
+  , version = "v0.0.2"
+  }
+, parsing-expect =
   { dependencies = [ "console", "effect", "parsing", "prelude", "psci-support" ]
   , repo = "https://github.com/markfarrell/purescript-parsing-expect.git"
   , version = "v0.0.3"
@@ -63,9 +67,5 @@
   , repo = "https://github.com/markfarrell/purescript-parsing-validation.git"
   , version = "v0.1.2"
   }
-, ffi-foreign =
-  { dependencies = [ "console", "effect", "foreign", "prelude", "psci-support" ]
-  , repo = "https://github.com/markfarrell/purescript-ffi-foreign.git"
-  , version = "v0.0.2"
-  }
-}
+-}
+{=}
