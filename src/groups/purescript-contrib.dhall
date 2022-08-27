@@ -97,7 +97,7 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-  , version = "v9.0.0"
+  , version = "v9.1.0"
   }
 , argonaut-core =
   { dependencies =

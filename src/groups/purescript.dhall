@@ -379,7 +379,7 @@
 , prelude =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-prelude.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , profunctor =
   { dependencies =

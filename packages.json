@@ -154,7 +154,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v9.0.0"
+    "version": "v9.1.0"
   },
   "argonaut-core": {
     "dependencies": [
@@ -402,7 +402,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/mikesol/purescript-bolson.git",
-    "version": "v0.0.9"
+    "version": "v0.1.1"
   },
   "bower-json": {
     "dependencies": [
@@ -721,7 +721,7 @@
       "web-html"
     ],
     "repo": "https://github.com/mikesol/purescript-deku.git",
-    "version": "v0.5.2"
+    "version": "v0.6.0"
   },
   "deno": {
     "dependencies": [
@@ -1050,6 +1050,83 @@
     ],
     "repo": "https://github.com/sigma-andex/purescript-fast-vect.git",
     "version": "v0.7.0"
+  },
+  "fetch": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "arraybuffer-types",
+      "effect",
+      "fetch-core",
+      "foreign",
+      "http-methods",
+      "newtype",
+      "prelude",
+      "record",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "web-file",
+      "web-promise",
+      "web-streams"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-fetch.git",
+    "version": "v1.1.0"
+  },
+  "fetch-argonaut": {
+    "dependencies": [
+      "aff",
+      "argonaut",
+      "console",
+      "effect",
+      "either",
+      "foreign",
+      "prelude",
+      "transformers",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-fetch-argonaut.git",
+    "version": "v1.0.0"
+  },
+  "fetch-core": {
+    "dependencies": [
+      "arraybuffer-types",
+      "arrays",
+      "console",
+      "effect",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "functions",
+      "http-methods",
+      "maybe",
+      "newtype",
+      "nullable",
+      "prelude",
+      "record",
+      "tuples",
+      "typelevel-prelude",
+      "unfoldable",
+      "unsafe-coerce",
+      "web-file",
+      "web-promise",
+      "web-streams"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-fetch-core.git",
+    "version": "v4.0.4"
+  },
+  "fetch-yoga-json": {
+    "dependencies": [
+      "aff",
+      "either",
+      "exceptions",
+      "foreign",
+      "lists",
+      "prelude",
+      "transformers",
+      "yoga-json"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-fetch-yoga-json.git",
+    "version": "v1.1.0"
   },
   "filterable": {
     "dependencies": [
@@ -1744,12 +1821,17 @@
       "bifunctors",
       "console",
       "control",
+      "debug",
       "effect",
       "either",
+      "exceptions",
       "foldable-traversable",
       "foreign-object",
+      "functions",
       "js-uri",
       "justifill",
+      "lists",
+      "literals",
       "maybe",
       "newtype",
       "node-buffer",
@@ -1765,13 +1847,17 @@
       "record",
       "refs",
       "routing-duplex",
+      "safe-coerce",
       "strings",
       "transformers",
       "tuples",
-      "type-equality"
+      "type-equality",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "untagged-union"
     ],
     "repo": "https://github.com/sigma-andex/purescript-httpurple.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "httpurple-argonaut": {
     "dependencies": [
@@ -1829,7 +1915,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/mikesol/purescript-hyrule.git",
-    "version": "v2.0.8"
+    "version": "v2.1.0"
   },
   "identity": {
     "dependencies": [
@@ -2618,7 +2704,7 @@
       "web-html"
     ],
     "repo": "https://github.com/mikesol/purescript-ocarina.git",
-    "version": "v1.2.1"
+    "version": "v1.3.0"
   },
   "open-folds": {
     "dependencies": [
@@ -2977,7 +3063,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
-    "version": "v6.0.0"
+    "version": "v6.0.1"
   },
   "prettier-printer": {
     "dependencies": [
@@ -3534,7 +3620,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/mikesol/purescript-rito.git",
-    "version": "v0.0.3"
+    "version": "v0.1.0"
   },
   "routing": {
     "dependencies": [
@@ -4243,6 +4329,23 @@
     "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference.git",
     "version": "v5.0.0"
   },
+  "untagged-union": {
+    "dependencies": [
+      "assert",
+      "console",
+      "effect",
+      "foreign",
+      "foreign-object",
+      "literals",
+      "maybe",
+      "newtype",
+      "psci-support",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-untagged-union.git",
+    "version": "v1.0.0"
+  },
   "uri": {
     "dependencies": [
       "arrays",
@@ -4575,6 +4678,7 @@
     "dependencies": [
       "arrays",
       "bifunctors",
+      "bigints",
       "control",
       "effect",
       "either",
@@ -4583,6 +4687,7 @@
       "foreign",
       "foreign-object",
       "identity",
+      "js-date",
       "lists",
       "maybe",
       "nullable",
@@ -4594,7 +4699,7 @@
       "variant"
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-yoga-json.git",
-    "version": "v2.0.0"
+    "version": "v3.0.2"
   },
   "yoga-postgres": {
     "dependencies": [
