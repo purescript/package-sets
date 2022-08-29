@@ -1,4 +1,4 @@
-{- unordered-collections =
+{ unordered-collections =
   { dependencies =
     [ "arrays"
     , "enums"
@@ -11,7 +11,6 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/fehrenbach/purescript-unordered-collections.git"
-  , version = "v2.1.4"
+  , version = "v3.0.0"
   }
--}
-{=}
+}

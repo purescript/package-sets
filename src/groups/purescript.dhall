@@ -79,7 +79,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript/purescript-datetime.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , distributive =
   { dependencies =
@@ -111,7 +111,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-enums.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , exceptions =
   { dependencies = [ "effect", "either", "maybe", "prelude" ]
@@ -379,7 +379,7 @@
 , prelude =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-prelude.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , profunctor =
   { dependencies =
@@ -483,7 +483,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-strings.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , tailrec =
   { dependencies =

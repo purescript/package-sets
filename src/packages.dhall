@@ -77,8 +77,10 @@ let packages =
       ⫽ ./groups/matthew-hilty.dhall
       ⫽ ./groups/maxdeviant.dhall
       ⫽ ./groups/meeshkan.dhall
+      ⫽ ./groups/megamaddu.dhall
       ⫽ ./groups/menelaos.dhall
       ⫽ ./groups/michaelxavier.dhall
+      ⫽ ./groups/mikesol.dhall
       ⫽ ./groups/mjepronk.dhall
       ⫽ ./groups/mlang.dhall
       ⫽ ./groups/morganthomas.dhall
@@ -119,7 +121,6 @@ let packages =
       ⫽ ./groups/sigilion.dhall
       ⫽ ./groups/slamdata.dhall
       ⫽ ./groups/sodiumfrp.dhall
-      ⫽ ./groups/spicydonuts.dhall
       ⫽ ./groups/srghma.dhall
       ⫽ ./groups/thimoteus.dhall
       ⫽ ./groups/thomashoneyman.dhall
@@ -139,6 +140,8 @@ let packages =
       ⫽ ./groups/eikooc.dhall
       ⫽ ./groups/katsujukou.dhall
       ⫽ ./groups/tweag.dhall
+      ⫽ ./groups/njaremko.dhall
       ⫽ ./groups/rowtype-yoga.dhall
+      ⫽ ./groups/andys8.dhall
 
 in  packages

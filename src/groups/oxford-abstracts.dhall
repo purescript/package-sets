@@ -1,21 +1,23 @@
-{- graphql-client =
+{ graphql-client =
   { dependencies =
     [ "aff"
     , "aff-promise"
     , "affjax"
+    , "affjax-node"
+    , "affjax-web"
     , "argonaut-codecs"
     , "argonaut-core"
     , "arrays"
     , "bifunctors"
     , "control"
     , "datetime"
+    , "debug"
     , "effect"
     , "either"
     , "enums"
     , "exceptions"
     , "foldable-traversable"
     , "foreign"
-    , "foreign-generic"
     , "foreign-object"
     , "functions"
     , "halogen-subscriptions"
@@ -45,11 +47,11 @@
     , "strings-extra"
     , "transformers"
     , "tuples"
-    , "typelevel-prelude"
     , "unicode"
+    , "unsafe-coerce"
+    , "variant"
     ]
   , repo = "https://github.com/OxfordAbstracts/purescript-graphql-client.git"
-  , version = "v7.0.0"
+  , version = "v9.2.2"
   }
--}
-{=}
+}

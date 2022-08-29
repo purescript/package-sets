@@ -1,9 +1,4 @@
 {-
-, logging-journald =
-  { dependencies = [ "logging", "systemd-journald" ]
-  , repo = "https://github.com/paluh/purescript-logging-journald.git"
-  , version = "v0.3.2"
-  }
 , polyform =
   { dependencies =
     [ "foreign"
@@ -35,12 +30,22 @@
   , repo = "https://github.com/paluh/purescript-redis-hotqueue.git"
   , version = "v0.2.1"
   }
-, pointed-list =
-  { dependencies = [ "lists", "prelude" ]
-  , repo = "https://github.com/paluh/purescript-pointed-list.git"
-  , version = "v0.4.0"
+-}
+{ array-builder =
+  { dependencies =
+    [ "arrays"
+    , "assert"
+    , "console"
+    , "effect"
+    , "foldable-traversable"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    ]
+  , repo = "https://github.com/paluh/purescript-array-builder.git"
+  , version = "v0.1.2"
   }
-homogeneous =
+, homogeneous =
   { dependencies =
     [ "assert"
     , "console"
@@ -50,28 +55,39 @@ homogeneous =
     , "variant"
     ]
   , repo = "https://github.com/paluh/purescript-homogeneous.git"
-  , version = "v0.3.0"
+  , version = "v0.4.0"
+  }
+, logging-journald =
+  { dependencies = [ "effect", "logging", "prelude", "systemd-journald" ]
+  , repo = "https://github.com/paluh/purescript-logging-journald.git"
+  , version = "v0.4.0"
+  }
+, pointed-list =
+  { dependencies = [ "lists", "prelude" ]
+  , repo = "https://github.com/paluh/purescript-pointed-list.git"
+  , version = "v0.5.1"
   }
 , systemd-journald =
   { dependencies = [ "console", "functions", "prelude" ]
   , repo = "https://github.com/paluh/purescript-systemd-journald.git"
-  , version = "v0.2.1"
+  , version = "v0.3.0"
   }
 , undefined-is-not-a-problem =
   { dependencies =
-    [ "assert"
+    [ "arrays"
+    , "assert"
     , "effect"
     , "either"
     , "foreign"
     , "maybe"
+    , "newtype"
     , "prelude"
-    , "psci-support"
     , "random"
     , "tuples"
+    , "type-equality"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/paluh/purescript-undefined-is-not-a-problem.git"
-  , version = "v0.2.1"
+  , version = "v1.1.0"
   }
--}
-{=}
+}

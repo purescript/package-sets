@@ -101,17 +101,6 @@
   , repo = "https://github.com/justinwoo/purescript-makkori.git"
   , version = "v1.0.0"
   }
-, milkis =
-  { dependencies =
-    [ "aff-promise"
-    , "arraybuffer-types"
-    , "foreign-object"
-    , "prelude"
-    , "typelevel-prelude"
-    ]
-  , repo = "https://github.com/justinwoo/purescript-milkis.git"
-  , version = "v7.5.0"
-  }
 , node-he =
   { dependencies = [] : List Text
   , repo = "https://github.com/justinwoo/purescript-node-he.git"
@@ -145,6 +134,28 @@
   , repo = "https://github.com/justinwoo/purescript-toppokki.git"
   , version = "v2.5.0"
   }
+-}
+{ expect-inferred =
+  { dependencies = [ "prelude", "typelevel-prelude" ]
+  , repo = "https://github.com/justinwoo/purescript-expect-inferred.git"
+  , version = "v3.0.0"
+  }
+, milkis =
+  { dependencies =
+    [ "aff-promise"
+    , "arraybuffer-types"
+    , "foreign-object"
+    , "prelude"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/justinwoo/purescript-milkis.git"
+  , version = "v9.0.0"
+  }
+, motsunabe =
+  { dependencies = [ "lists", "strings" ]
+  , repo = "https://github.com/justinwoo/purescript-motsunabe.git"
+  , version = "v2.0.0"
+  }
 , simple-json =
   { dependencies =
     [ "arrays"
@@ -158,22 +169,11 @@
     , "variant"
     ]
   , repo = "https://github.com/justinwoo/purescript-simple-json.git"
-  , version = "v8.0.0"
+  , version = "v9.0.0"
   }
 , sunde =
   { dependencies = [ "aff", "effect", "node-child-process", "prelude" ]
   , repo = "https://github.com/justinwoo/purescript-sunde.git"
-  , version = "v2.0.0"
-  }
--}
-{ expect-inferred =
-  { dependencies = [ "prelude", "typelevel-prelude" ]
-  , repo = "https://github.com/justinwoo/purescript-expect-inferred.git"
   , version = "v3.0.0"
-  }
-, motsunabe =
-  { dependencies = [ "lists", "strings" ]
-  , repo = "https://github.com/justinwoo/purescript-motsunabe.git"
-  , version = "v2.0.0"
   }
 }
