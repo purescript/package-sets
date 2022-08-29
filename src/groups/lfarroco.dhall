@@ -14,7 +14,7 @@
   }
 , small-ffi =
   { dependencies = [ "arrays", "console", "effect", "prelude", "quickcheck" ]
-  , repo = "https://github.com/lfarroco/small-ffi.git"
+  , repo = "https://github.com/lfarroco/purescript-small-ffi.git"
   , version = "v4.0.0"
   }
 }
