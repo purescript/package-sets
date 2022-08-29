@@ -97,7 +97,7 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-  , version = "v9.0.0"
+  , version = "v9.1.0"
   }
 , argonaut-core =
   { dependencies =
@@ -158,6 +158,25 @@
     [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]
   , repo = "https://github.com/purescript-contrib/purescript-avar.git"
   , version = "v5.0.0"
+  }
+, bigints =
+  { dependencies =
+    [ "arrays"
+    , "assert"
+    , "console"
+    , "effect"
+    , "foldable-traversable"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "partial"
+    , "prelude"
+    , "quickcheck"
+    , "quickcheck-laws"
+    , "strings"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-bigints.git"
+  , version = "v7.0.1"
   }
 , colors =
   { dependencies =
@@ -357,7 +376,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "v9.1.0"
+  , version = "v10.0.0"
   }
 , pathy =
   { dependencies =
@@ -422,6 +441,11 @@
   , repo =
       "https://github.com/purescript-contrib/purescript-quickcheck-laws.git"
   , version = "v7.0.0"
+  }
+, rationals =
+  { dependencies = [ "integers", "prelude" ]
+  , repo = "https://github.com/purescript-contrib/purescript-rationals.git"
+  , version = "v5.0.0"
   }
 , react =
   { dependencies =

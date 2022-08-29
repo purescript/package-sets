@@ -69,18 +69,22 @@
     , "bifunctors"
     , "console"
     , "control"
+    , "debug"
     , "effect"
     , "either"
+    , "exceptions"
     , "foldable-traversable"
     , "foreign-object"
+    , "functions"
     , "js-uri"
     , "justifill"
+    , "lists"
+    , "literals"
     , "maybe"
     , "newtype"
     , "node-buffer"
     , "node-fs"
     , "node-http"
-    , "node-net"
     , "node-process"
     , "node-streams"
     , "options"
@@ -91,13 +95,42 @@
     , "record"
     , "refs"
     , "routing-duplex"
+    , "safe-coerce"
     , "strings"
     , "transformers"
     , "tuples"
     , "type-equality"
     , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "untagged-union"
     ]
-  , version = "v1.2.1"
+  , version = "v3.0.0"
   , repo = "https://github.com/sigma-andex/purescript-httpurple.git"
+  }
+, httpurple-yoga-json =
+  { dependencies =
+    [ "console"
+    , "effect"
+    , "either"
+    , "foreign"
+    , "httpurple"
+    , "lists"
+    , "prelude"
+    , "yoga-json"
+    ]
+  , version = "v1.0.0"
+  , repo = "https://github.com/sigma-andex/purescript-httpurple-yoga-json.git"
+  }
+, httpurple-argonaut =
+  { dependencies =
+    [ "argonaut", "console", "effect", "either", "httpurple", "prelude" ]
+  , version = "v1.0.1"
+  , repo = "https://github.com/sigma-andex/purescript-httpurple-argonaut.git"
+  }
+, lazy-joe =
+  { dependencies =
+    [ "aff", "aff-promise", "effect", "functions", "prelude", "unsafe-coerce" ]
+  , version = "v1.0.0"
+  , repo = "https://github.com/sigma-andex/purescript-lazy-joe.git"
   }
 }

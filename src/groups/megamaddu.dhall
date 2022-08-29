@@ -1,7 +1,8 @@
-{- uuid =
-  { dependencies = [ "effect", "maybe", "foreign-generic", "console", "spec" ]
-  , repo = "https://github.com/spicydonuts/purescript-uuid.git"
-  , version = "v8.0.0"
+{ uuid =
+  { dependencies =
+    [ "prelude", "aff", "effect", "maybe", "partial", "spec", "strings" ]
+  , repo = "https://github.com/megamaddu/purescript-uuid.git"
+  , version = "v9.0.0"
   }
 , react-basic-hooks =
   { dependencies =
@@ -24,7 +25,6 @@
     , "nullable"
     , "ordered-collections"
     , "prelude"
-    , "psci-support"
     , "react-basic"
     , "refs"
     , "tuples"
@@ -33,8 +33,7 @@
     , "unsafe-reference"
     , "web-html"
     ]
-  , repo = "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
-  , version = "v7.0.1"
+  , repo = "https://github.com/megamaddu/purescript-react-basic-hooks.git"
+  , version = "v8.0.0"
   }
--}
-{=}
+}

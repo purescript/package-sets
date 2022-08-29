@@ -31,11 +31,30 @@
   , repo = "https://github.com/nsaunders/purescript-web-resize-observer.git"
   , version = "v1.0.0"
   }
-, dotenv =
-  { dependencies =
-    [ "node-fs-aff", "node-process", "parsing", "prelude", "run", "sunde" ]
-  , repo = "https://github.com/nsaunders/purescript-dotenv.git"
-  , version = "v2.0.0"
-  }
 -}
-{=}
+{ dotenv =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "control"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "maybe"
+    , "node-buffer"
+    , "node-child-process"
+    , "node-fs-aff"
+    , "node-process"
+    , "parsing"
+    , "prelude"
+    , "run"
+    , "strings"
+    , "sunde"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/nsaunders/purescript-dotenv.git"
+  , version = "v3.0.0"
+  }
+}
