@@ -27,7 +27,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-hooks.git"
-  , version = "v0.6.0"
+  , version = "v0.6.1"
   }
 , halogen-store =
   { dependencies =
