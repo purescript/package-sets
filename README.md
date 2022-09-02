@@ -1,8 +1,8 @@
 # Package Sets
 
-[![Build Status](https://github.com/purescript/package-sets/workflows/build/badge.svg)](https://github.com/purescript/package-sets/actions)
-
 A curated list of PureScript packages for the `spago` and `psc-package` package managers.
+
+:warning: This repository predates the [PureScript Registry](https://github.com/purescript/registry) and now exists only as a mirror to support legacy versions of package managers that use the package sets. To register your packages or add them to the package sets, please visit the registry. This repository no longer accepts pull requests or issues.
 
 - [What is a package-set?](#what-is-a-package-set)
 - [Add your package](#add-your-package)
@@ -11,80 +11,39 @@ A curated list of PureScript packages for the `spago` and `psc-package` package 
 
 ## What is a package set?
 
-A package set is a collection of packages such that there is only one version for a given package in the set, and the entire set of packages successfully compiles together. This ensures that you can always install packages from the package set without introducing conflicts between modules in your dependencies.
+A package set is a collection of packages in which there is only one version for each package, and the entire collection of packages compiles successfully together. A package set ensures you can always install a package from the set without introducing a conflict in your dependencies.
 
 If you use a package manager based on package sets, that means that to install a package:
 
-1. It must be in the package set
-2. Its dependencies and transitive dependencies must also be in the package set
+1. The package must be in the package set
+2. The package's dependencies and transitive dependencies must also be in the package set
 
 ## Adding your package
 
-This repository aims to be a good collection of packages you can depend on. In general we welcome all packages, provided that they follow some guidelines defined in the [contributing guide](CONTRIBUTING.md). The linked document also contains instructions on how to add new packages to the set, and information on versioning and related policies.
+This repository aims to be a good collection of packages you can depend on. The package sets here are produced by the [PureScript Registry](https://github.com/purescript/registry), and we welcome all packages that can be successfully registered.
+
+If you would like to add your new package to the package sets, please see the registry instructions for registering your package (it will automatically be added to the package sets, unless it fails to compile with the current package set). If your package has been dropped from the package sets and you would like to manually re-add it, please see the registry instructions for submitting a package sets update.
 
 ## How do I use `package-sets` with `spago`?
 
-[`spago`][spago] is a package manager and build tool for PureScript. It is very similar to `psc-package`, and the main differences are:
-- it uses Dhall for its configuration (instead of `json` as `psc-package` does)
-- it supports package overrides and additions directly in the project configuration
-- it supports local dependencies (think `bower link`)
+[`spago`][spago] is a package manager and build tool for PureScript which uses Dhall package sets. This makes them easy to extend and override.
 
-With `spago` the package-set address is specified in the `upstream` variable of your local `packages.dhall`, which will usually import a remote `packages.dhall`, e.g. the one from this repo.
+With `spago` the package-set address is specified in the `upstream` variable of your local `packages.dhall`, which will usually import a remote `packages.dhall`, e.g. the one from this repo. You can change the package-set version you are using by running `spago upgrade-set`, or if you want to point to a particular version, `spago upgrade-set --tag <tag>`.
 
-You can change the package-set version you are using by running `spago upgrade-set`, or if you want to point to a particular version, `spago upgrade-set --tag <tag>`.
+## How do I use `package-sets` with psc-package?
 
-## How do I use `package-sets` with Psc Package?
+[`psc-package`][psc-package] is a package manager for PureScript that works essentially by running a bunch of git commands. It is not maintained by the PureScript core team and we recommend using Spago instead.
 
-[`psc-package`][psc-package] is a package manager for PureScript that works essentially by running a bunch of git commands. Its distinguishing feature from most package managers is that it uses a **package set**.
-
-`psc-package` will use as package-set the `packages.json` file in the root of any package-set repository, like in [this case][packages-json].
-
-In order to use a package-set, the `psc-package.json` file in the root of your project, should look something like this:
+With `psc-package` the package-set address is set in the `source` field of a `psc-package.json` file, which should list the URL of a repository with a `packages.json` file in the root (such as this one). Your configuration should look something like this:
 
 ```json
 {
   "name": "project-name",
   "set": "set-name",
   "source": "https://github.com/purescript/package-sets.git",
-  "depends": [
-    "aff",
-    "console",
-    "prelude"
-  ]
+  "depends": ["aff", "console", "prelude"]
 }
 ```
 
-The way this file works is that:
-- `"set"` matches the tag or branch of the git repository of the package set
-- `"source"` is the URL for the git repository of the package set
-- `"depends"` is an array of strings, where the strings are names of packages you depend on.
-  *Note:* as said above, these dependencies should be contained in the package-set
-
-When you run `psc-package install`, psc-package will perform the steps so that the following directory will have the package set cloned into it:
-
-```
-.psc-package/set-name/.set
-```
-
-And the package set will then be available in
-
-```
-.psc-package/set-name/.set/packages.json
-```
-
-When you install a package in your given package set, the package contents will be cloned in the following directory structure:
-
-```
-.psc-package/${set-name}/${package-name}/${tag}
-```
-
-E.g. in case of `aff@v5.0.0`:
-
-```
-.psc-package/set-name/aff/v5.0.0
-```
-
-[spago]: https://github.com/spacchetti/spago
+[spago]: https://github.com/purescript/spago
 [psc-package]: https://github.com/purescript/psc-package
-[issues]: https://github.com/purescript/package-sets/issues
-[packages-json]: https://github.com/purescript/package-sets/blob/master/packages.json
