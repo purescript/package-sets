@@ -26,6 +26,8 @@ All packages that are included in the set must be either:
 - on the `bower` registry, i.e. `bower i $your-package` must run successfully
 - or listed in the [new-packages] in the `registry` repo.
 
+If your package is not listed in either, then [you should register your package using the PureScript registry](https://github.com/purescript/registry).
+
 The bottom line is that we need to prevent divergence in the ecosystem - e.g. having two different codebases for a package called "prelude" - and this means having a "central registry of package names".
 The Bower registry used to be that, but [recently it has stopped accepting package submissions][no-bower], which led to the current situation. This will change hopefully soon, as we move to a PureScript-only registry.
 
