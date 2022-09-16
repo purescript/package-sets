@@ -967,6 +967,25 @@
     "repo": "https://github.com/collegevine/purescript-elmish-html.git",
     "version": "v0.7.1"
   },
+  "elmish-testing-library": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "datetime",
+      "effect",
+      "elmish",
+      "exceptions",
+      "foldable-traversable",
+      "maybe",
+      "nullable",
+      "prelude",
+      "transformers",
+      "web-dom",
+      "web-html"
+    ],
+    "repo": "https://github.com/collegevine/purescript-elmish-testing-library.git",
+    "version": "v0.2.0"
+  },
   "email-validate": {
     "dependencies": [
       "aff",
