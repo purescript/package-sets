@@ -10,12 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: cachix/install-nix-action@v12
-        with:
-          nix_path: nixpkgs=channel:nixos-20.09
-      - name: Render packages.dhall
-        run: |
-          nix-shell --run '>packages.dhall dhall <<< ./src/packages.dhall'
+
+      - name: Copy packages.dhall to the root
+        run: cp ./src/packages.dhall packages.dhall
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -26,6 +24,7 @@ jobs:
           release_name: ${{ github.ref }}
           draft: false
           prerelease: false
+
       - name: Upload Release Asset
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
