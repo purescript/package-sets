@@ -3304,11 +3304,6 @@
   , repo = "https://github.com/thomashoneyman/purescript-slug.git"
   , version = "v3.0.3"
   }
-, small-ffi =
-  { dependencies = [ "arrays", "console", "effect", "prelude", "quickcheck" ]
-  , repo = "https://github.com/lfarroco/purescript-small-ffi.git"
-  , version = "v4.0.0"
-  }
 , soundfonts =
   { dependencies =
     [ "aff"
@@ -3898,20 +3893,6 @@
   { dependencies = [ "js-date", "web-dom", "web-file", "web-storage" ]
   , repo = "https://github.com/purescript-web/purescript-web-html.git"
   , version = "v4.0.0"
-  }
-, web-page-visibility =
-  { dependencies =
-    [ "effect"
-    , "enums"
-    , "exceptions"
-    , "maybe"
-    , "prelude"
-    , "strings"
-    , "web-events"
-    , "web-html"
-    ]
-  , repo = "https://git.sr.ht/~toastal/purescript-web-page-visibility"
-  , version = "v2.0.0"
   }
 , web-pointerevents =
   { dependencies = [ "prelude", "effect", "maybe", "web-dom", "web-uievents" ]
