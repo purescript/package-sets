@@ -5,7 +5,7 @@ A curated list of PureScript packages for the `spago` and `psc-package` package 
 :warning: This repository predates the [PureScript Registry](https://github.com/purescript/registry) and now exists only as a mirror to support legacy versions of package managers that use the package sets. To register your packages or add them to the package sets, please visit the registry. This repository no longer accepts pull requests or issues.
 
 - [What is a package-set?](#what-is-a-package-set)
-- [Add your package](#add-your-package)
+- [Add your package](#adding-your-package)
 - [How do I use package-sets with `spago`?](#how-do-i-use-package-sets-with-spago)
 - [How do I use package-sets with `psc-package`?](#how-do-i-use-package-sets-with-psc-package)
 
