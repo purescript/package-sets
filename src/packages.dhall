@@ -2182,7 +2182,7 @@
   { dependencies =
     [ "console", "effect", "integers", "numbers", "partial", "prelude", "refs" ]
   , repo = "https://github.com/purescript/purescript-minibench.git"
-  , version = "v4.0.0"
+  , version = "v4.0.1"
   }
 , mmorph =
   { dependencies = [ "free", "functors", "transformers" ]
@@ -3105,11 +3105,6 @@
   , repo = "https://github.com/openchronology/purescript-quickcheck-utf8.git"
   , version = "v0.0.0"
   }
-, quotient =
-  { dependencies = [ "prelude", "proxy", "quickcheck" ]
-  , repo = "https://github.com/rightfold/purescript-quotient.git"
-  , version = "v3.0.0"
-  }
 , random =
   { dependencies = [ "effect", "integers" ]
   , repo = "https://github.com/purescript/purescript-random.git"
@@ -3307,18 +3302,6 @@
   { dependencies = [ "functions", "prelude", "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-record.git"
   , version = "v4.0.0"
-  }
-, refined =
-  { dependencies =
-    [ "argonaut"
-    , "effect"
-    , "generics-rep"
-    , "prelude"
-    , "quickcheck"
-    , "typelevel"
-    ]
-  , repo = "https://github.com/danieljharvey/purescript-refined.git"
-  , version = "v1.0.0"
   }
 , refs =
   { dependencies = [ "effect", "prelude" ]
