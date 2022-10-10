@@ -1,4 +1,33 @@
-{ ace =
+{ abc-parser =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "control"
+    , "either"
+    , "enums"
+    , "foldable-traversable"
+    , "identity"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "midi"
+    , "newtype"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "profunctor-lenses"
+    , "rationals"
+    , "string-parsers"
+    , "strings"
+    , "stringutils"
+    , "transformers"
+    , "tuples"
+    , "unfoldable"
+    ]
+  , repo = "https://github.com/newlandsvalley/purescript-abc-parser.git"
+  , version = "v2.0.0"
+  }
+, ace =
   { dependencies =
     [ "arrays"
     , "effect"
@@ -634,6 +663,19 @@
   , repo = "https://github.com/sharkdp/purescript-decimals.git"
   , version = "v7.1.0"
   }
+, default-values =
+  { dependencies =
+    [ "either"
+    , "foreign-object"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "tuples"
+    ]
+  , repo = "https://github.com/imsaravana369/purescript-default.git"
+  , version = "v1.0.1"
+  }
 , deku =
   { dependencies =
     [ "aff"
@@ -922,22 +964,20 @@
     [ "aff"
     , "arrays"
     , "datetime"
-    , "debug"
     , "effect"
     , "elmish"
-    , "elmish-html"
     , "exceptions"
     , "foldable-traversable"
     , "maybe"
+    , "nullable"
     , "prelude"
-    , "spec"
     , "transformers"
     , "web-dom"
     , "web-html"
     ]
   , repo =
     "https://github.com/collegevine/purescript-elmish-testing-library.git"
-  , version = "v0.2.0"
+  , version = "v0.3.1"
   }
 , email-validate =
   { dependencies = [ "aff", "string-parsers", "transformers" ]
@@ -1234,7 +1274,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/artemisSystem/purescript-foreign-readwrite.git"
-  , version = "v3.0.0"
+  , version = "v3.1.0"
   }
 , fork =
   { dependencies = [ "aff" ]
@@ -1586,7 +1626,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-hooks.git"
-  , version = "v0.6.1"
+  , version = "v0.6.3"
   }
 , halogen-hooks-extra =
   { dependencies = [ "halogen-hooks" ]
@@ -1892,24 +1932,41 @@
   }
 , jelly =
   { dependencies =
-    [ "arrays"
+    [ "aff"
+    , "affjax"
+    , "affjax-web"
+    , "arrays"
+    , "console"
     , "effect"
+    , "either"
+    , "foreign"
     , "foreign-object"
+    , "free"
     , "js-timers"
     , "maybe"
+    , "newtype"
+    , "node-buffer"
+    , "node-child-process"
+    , "node-fs"
+    , "node-fs-aff"
+    , "node-streams"
+    , "parallel"
+    , "posix-types"
     , "prelude"
+    , "record"
     , "refs"
-    , "safely"
-    , "st"
+    , "simple-json"
+    , "strings"
     , "tailrec"
     , "transformers"
     , "tuples"
     , "web-dom"
     , "web-events"
     , "web-html"
+    , "web-uievents"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly.git"
-  , version = "v0.4.1"
+  , version = "v0.5.0"
   }
 , jest =
   { dependencies = [ "aff", "aff-promise", "effect", "prelude" ]
@@ -3113,7 +3170,27 @@
 , rationals =
   { dependencies = [ "integers", "prelude" ]
   , repo = "https://github.com/purescript-contrib/purescript-rationals.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
+  }
+, rdf =
+  { dependencies =
+    [ "arrays"
+    , "console"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "formatters"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "parsing"
+    , "prelude"
+    , "strings"
+    ]
+  , repo = "https://github.com/wintechis/purescript-rdf.git"
+  , version = "v0.1.0"
   }
 , react =
   { dependencies =
@@ -3669,7 +3746,7 @@
 , st =
   { dependencies = [ "partial", "prelude", "tailrec", "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-st.git"
-  , version = "v6.0.0"
+  , version = "v6.2.0"
   }
 , strictlypositiveint =
   { dependencies = [ "prelude" ]
