@@ -506,7 +506,7 @@
     , "variant"
     ]
   , repo = "https://github.com/garyb/purescript-codec-argonaut.git"
-  , version = "v9.0.0"
+  , version = "v9.1.0"
   }
 , colors =
   { dependencies =
@@ -1568,6 +1568,11 @@
     ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen.git"
   , version = "v7.0.0"
+  }
+, halogen-bootstrap5 =
+  { dependencies = [ "halogen" ]
+  , repo = "https://github.com/tonicebrian/purescript-halogen-bootstrap5.git"
+  , version = "v2.0.0"
   }
 , halogen-css =
   { dependencies = [ "css", "halogen" ]
