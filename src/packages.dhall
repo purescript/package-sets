@@ -3550,6 +3550,26 @@
   , repo = "https://github.com/paf31/purescript-safely.git"
   , version = "v4.0.1"
   }
+, school-of-music =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "midi"
+    , "ordered-collections"
+    , "prelude"
+    , "rationals"
+    , "string-parsers"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/newlandsvalley/purescript-school-of-music.git"
+  , version = "v1.3.0"
+  }
 , selection-foldable =
   { dependencies = [ "filterable", "foldable-traversable", "maybe", "prelude" ]
   , repo = "https://github.com/jamieyung/purescript-selection-foldable.git"
