@@ -1572,7 +1572,7 @@
 , halogen-bootstrap5 =
   { dependencies = [ "halogen" ]
   , repo = "https://github.com/tonicebrian/purescript-halogen-bootstrap5.git"
-  , version = "v2.0.0"
+  , version = "v2.1.0"
   }
 , halogen-css =
   { dependencies = [ "css", "halogen" ]
@@ -2528,7 +2528,7 @@
     , "st"
     , "tuples"
     ]
-  , repo = "https://github.com/jamesdbrock/purescript-node-streams-aff.git"
+  , repo = "https://github.com/purescript-node/purescript-node-streams-aff.git"
   , version = "v4.0.0"
   }
 , node-url =
