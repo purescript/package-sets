@@ -4439,6 +4439,24 @@
     "repo": "https://github.com/purescript/purescript-tailrec.git",
     "version": "v6.1.0"
   },
+  "tecton": {
+    "dependencies": [
+      "arrays",
+      "colors",
+      "either",
+      "foldable-traversable",
+      "integers",
+      "lists",
+      "numbers",
+      "prelude",
+      "record",
+      "strings",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/nsaunders/purescript-tecton.git",
+    "version": "v0.1.0"
+  },
   "test-unit": {
     "dependencies": [
       "aff",
