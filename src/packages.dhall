@@ -506,7 +506,7 @@
     , "variant"
     ]
   , repo = "https://github.com/garyb/purescript-codec-argonaut.git"
-  , version = "v9.1.0"
+  , version = "v9.2.0"
   }
 , colors =
   { dependencies =
@@ -1938,40 +1938,29 @@
 , jelly =
   { dependencies =
     [ "aff"
-    , "affjax"
-    , "affjax-web"
     , "arrays"
     , "console"
     , "effect"
     , "either"
     , "foreign"
-    , "foreign-object"
     , "free"
     , "js-timers"
     , "maybe"
     , "newtype"
-    , "node-buffer"
-    , "node-child-process"
-    , "node-fs"
-    , "node-fs-aff"
-    , "node-streams"
-    , "parallel"
-    , "posix-types"
     , "prelude"
     , "record"
     , "refs"
-    , "simple-json"
     , "strings"
     , "tailrec"
     , "transformers"
     , "tuples"
+    , "unordered-collections"
     , "web-dom"
     , "web-events"
     , "web-html"
-    , "web-uievents"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly.git"
-  , version = "v0.5.0"
+  , version = "v0.6.1"
   }
 , jest =
   { dependencies = [ "aff", "aff-promise", "effect", "prelude" ]
