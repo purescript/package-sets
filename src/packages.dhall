@@ -1960,12 +1960,17 @@
     , "web-html"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly.git"
-  , version = "v0.6.1"
+  , version = "v0.6.2"
   }
 , jest =
   { dependencies = [ "aff", "aff-promise", "effect", "prelude" ]
   , repo = "https://github.com/nonbili/purescript-jest.git"
   , version = "v1.0.0"
+  }
+, js-bigints =
+  { dependencies = [ "aff", "effect", "maybe", "prelude" ]
+  , repo = "https://github.com/sigma-andex/purescript-js-bigints.git"
+  , version = "v1.2.0"
   }
 , js-date =
   { dependencies =
@@ -2356,6 +2361,11 @@
   { dependencies = [ "prelude", "safe-coerce" ]
   , repo = "https://github.com/purescript/purescript-newtype.git"
   , version = "v5.0.0"
+  }
+, nextui =
+  { dependencies = [ "effect", "prelude", "react-basic-hooks" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-nextui.git"
+  , version = "v0.1.0"
   }
 , node-buffer =
   { dependencies =
