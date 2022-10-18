@@ -4168,6 +4168,17 @@
     "repo": "https://github.com/thomashoneyman/purescript-slug.git",
     "version": "v3.0.8"
   },
+  "small-ffi": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "prelude",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/lfarroco/purescript-small-ffi.git",
+    "version": "v4.0.1"
+  },
   "soundfonts": {
     "dependencies": [
       "aff",
@@ -4463,6 +4474,19 @@
       "tuples"
     ],
     "repo": "https://github.com/nsaunders/purescript-tecton.git",
+    "version": "v0.1.0"
+  },
+  "tecton-halogen": {
+    "dependencies": [
+      "halogen",
+      "media-types",
+      "prelude",
+      "record",
+      "tecton",
+      "transformers",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/nsaunders/purescript-tecton-halogen.git",
     "version": "v0.1.0"
   },
   "test-unit": {
