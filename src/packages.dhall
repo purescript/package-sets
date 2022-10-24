@@ -942,7 +942,7 @@
     , "undefined-is-not-a-problem"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-hooks.git"
-  , version = "v0.8.2"
+  , version = "v0.8.3"
   }
 , elmish-html =
   { dependencies =
@@ -1904,9 +1904,9 @@
   , version = "v6.0.0"
   }
 , interpolate =
-  { dependencies = [ "prelude" ]
+  { dependencies = [ "partial", "prelude" ]
   , repo = "https://github.com/jordanmartinez/purescript-interpolate.git"
-  , version = "v5.0.0"
+  , version = "v5.0.2"
   }
 , invariant =
   { dependencies = [ "control", "prelude" ]
@@ -2428,7 +2428,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-fs.git"
-  , version = "v8.1.0"
+  , version = "v8.1.1"
   }
 , node-fs-aff =
   { dependencies = [ "aff", "either", "node-fs", "node-path" ]
@@ -3720,7 +3720,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v7.0.0"
+  , version = "v7.1.0"
   }
 , spec-discovery =
   { dependencies =
@@ -4439,8 +4439,8 @@
   { dependencies =
     [ "arrays"
     , "bifunctors"
-    , "bigints"
     , "control"
+    , "datetime"
     , "effect"
     , "either"
     , "exceptions"
@@ -4448,19 +4448,26 @@
     , "foreign"
     , "foreign-object"
     , "identity"
+    , "integers"
+    , "js-bigints"
     , "js-date"
     , "lists"
     , "maybe"
+    , "newtype"
     , "nullable"
+    , "numbers"
+    , "ordered-collections"
     , "partial"
     , "prelude"
     , "record"
     , "transformers"
+    , "tuples"
     , "typelevel-prelude"
+    , "unsafe-coerce"
     , "variant"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-json.git"
-  , version = "v3.0.2"
+  , version = "v4.0.1"
   }
 , yoga-postgres =
   { dependencies =
