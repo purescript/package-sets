@@ -3311,7 +3311,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/megamaddu/purescript-react-basic-hooks.git"
-  , version = "v8.0.0"
+  , version = "v8.1.2"
   }
 , react-dom =
   { dependencies = [ "effect", "react", "web-dom" ]
@@ -4212,6 +4212,11 @@
     [ "aff", "effect", "maybe", "partial", "prelude", "spec", "strings" ]
   , repo = "https://github.com/megamaddu/purescript-uuid.git"
   , version = "v9.0.0"
+  }
+, uuidv4 =
+  { dependencies = [ "prelude", "random", "strings" ]
+  , repo = "https://github.com/garyb/purescript-uuidv4.git"
+  , version = "v1.0.0"
   }
 , validation =
   { dependencies =
