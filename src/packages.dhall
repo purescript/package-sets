@@ -501,13 +501,12 @@
   { dependencies =
     [ "argonaut-core"
     , "codec"
-    , "foreign-object"
     , "ordered-collections"
     , "type-equality"
     , "variant"
     ]
   , repo = "https://github.com/garyb/purescript-codec-argonaut.git"
-  , version = "v10.0.0"
+  , version = "v9.2.0"
   }
 , colors =
   { dependencies =
@@ -1257,7 +1256,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-foreign-object.git"
-  , version = "v4.1.0"
+  , version = "v4.0.0"
   }
 , foreign-readwrite =
   { dependencies =
@@ -1961,7 +1960,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly.git"
-  , version = "v0.6.3"
+  , version = "v0.6.2"
   }
 , jest =
   { dependencies = [ "aff", "aff-promise", "effect", "prelude" ]
