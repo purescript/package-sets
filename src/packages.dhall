@@ -493,20 +493,21 @@
   , version = "v2.0.0"
   }
 , codec =
-  { dependencies = [ "profunctor", "transformers" ]
+  { dependencies = [ "bifunctors", "profunctor" ]
   , repo = "https://github.com/garyb/purescript-codec.git"
-  , version = "v5.0.0"
+  , version = "v6.0.0"
   }
 , codec-argonaut =
   { dependencies =
     [ "argonaut-core"
     , "codec"
+    , "foreign-object"
     , "ordered-collections"
     , "type-equality"
     , "variant"
     ]
   , repo = "https://github.com/garyb/purescript-codec-argonaut.git"
-  , version = "v9.2.0"
+  , version = "v10.0.0"
   }
 , colors =
   { dependencies =
@@ -1256,7 +1257,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-foreign-object.git"
-  , version = "v4.0.0"
+  , version = "v4.1.0"
   }
 , foreign-readwrite =
   { dependencies =
@@ -1942,6 +1943,7 @@
     , "console"
     , "effect"
     , "either"
+    , "foldable-traversable"
     , "foreign"
     , "free"
     , "js-timers"
@@ -1954,13 +1956,14 @@
     , "tailrec"
     , "transformers"
     , "tuples"
+    , "typelevel-prelude"
     , "unordered-collections"
     , "web-dom"
     , "web-events"
     , "web-html"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly.git"
-  , version = "v0.6.2"
+  , version = "v0.7.0"
   }
 , jest =
   { dependencies = [ "aff", "aff-promise", "effect", "prelude" ]
