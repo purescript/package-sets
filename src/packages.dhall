@@ -375,17 +375,16 @@
     , "filterable"
     , "foldable-traversable"
     , "foreign-object"
-    , "heterogeneous"
     , "hyrule"
     , "maybe"
-    , "monoid-extras"
     , "prelude"
+    , "record"
     , "st"
     , "tuples"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/mikesol/purescript-bolson.git"
-  , version = "v0.1.1"
+  , version = "v0.3.1"
   }
 , bower-json =
   { dependencies =
@@ -682,13 +681,14 @@
     [ "aff"
     , "arrays"
     , "bolson"
+    , "catenable-lists"
     , "control"
     , "effect"
+    , "either"
     , "fast-vect"
     , "filterable"
     , "foldable-traversable"
     , "foreign-object"
-    , "heterogeneous"
     , "hyrule"
     , "maybe"
     , "newtype"
@@ -697,7 +697,6 @@
     , "profunctor"
     , "quickcheck"
     , "record"
-    , "refs"
     , "safe-coerce"
     , "st"
     , "strings"
@@ -710,7 +709,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.6.1"
+  , version = "v0.8.1"
   }
 , deno =
   { dependencies =
@@ -1873,7 +1872,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-hyrule.git"
-  , version = "v2.1.0"
+  , version = "v2.3.2"
   }
 , identity =
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
@@ -2583,22 +2582,19 @@
     [ "aff"
     , "aff-promise"
     , "arraybuffer-types"
-    , "avar"
     , "bolson"
     , "control"
     , "convertable-options"
     , "effect"
-    , "either"
-    , "exceptions"
     , "fast-vect"
     , "foldable-traversable"
     , "foreign"
     , "foreign-object"
     , "homogeneous"
     , "hyrule"
-    , "indexed-monad"
     , "integers"
     , "js-timers"
+    , "lcg"
     , "lists"
     , "maybe"
     , "newtype"
@@ -2607,11 +2603,12 @@
     , "prelude"
     , "profunctor"
     , "profunctor-lenses"
-    , "random"
+    , "quickcheck"
     , "refs"
     , "safe-coerce"
     , "simple-json"
     , "sized-vectors"
+    , "st"
     , "tuples"
     , "type-equality"
     , "typelevel"
@@ -2624,7 +2621,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/mikesol/purescript-ocarina.git"
-  , version = "v1.3.0"
+  , version = "v1.5.2"
   }
 , open-folds =
   { dependencies =
@@ -3467,10 +3464,12 @@
     , "numbers"
     , "prelude"
     , "profunctor"
+    , "quickcheck"
     , "random"
     , "record"
     , "refs"
     , "safe-coerce"
+    , "st"
     , "tuples"
     , "unsafe-coerce"
     , "variant"
@@ -3480,7 +3479,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-rito.git"
-  , version = "v0.1.0"
+  , version = "v0.3.2"
   }
 , routing =
   { dependencies =
