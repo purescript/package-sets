@@ -3313,6 +3313,12 @@
   , repo = "https://github.com/megamaddu/purescript-react-basic-hooks.git"
   , version = "v8.1.2"
   }
+, react-basic-storybook =
+  { dependencies = [ "effect", "prelude", "react-basic", "unsafe-coerce" ]
+  , repo =
+    "https://github.com/rowtype-yoga/purescript-react-basic-storybook.git"
+  , version = "v1.0.0"
+  }
 , react-dom =
   { dependencies = [ "effect", "react", "web-dom" ]
   , repo = "https://github.com/purescript-contrib/purescript-react-dom.git"
@@ -3373,6 +3379,21 @@
   , repo =
     "https://github.com/i-am-the-slime/purescript-react-testing-library.git"
   , version = "v4.0.1"
+  }
+, react-virtuoso =
+  { dependencies =
+    [ "effect"
+    , "functions"
+    , "maybe"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-dom"
+    , "react-basic-hooks"
+    , "unsafe-coerce"
+    , "web-html"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-react-virtuoso.git"
+  , version = "v1.0.0"
   }
 , read =
   { dependencies = [ "maybe", "prelude", "strings" ]
@@ -4495,5 +4516,18 @@
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-postgres.git"
   , version = "v6.0.0"
+  }
+, yoga-tree =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "foldable-traversable"
+    , "free"
+    , "maybe"
+    , "prelude"
+    , "tailrec"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-tree.git"
+  , version = "v1.0.0"
   }
 }
