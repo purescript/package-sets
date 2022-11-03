@@ -709,7 +709,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.8.2"
+  , version = "v0.8.3"
   }
 , deno =
   { dependencies =
@@ -1872,7 +1872,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-hyrule.git"
-  , version = "v2.3.2"
+  , version = "v2.3.3"
   }
 , identity =
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
@@ -3279,7 +3279,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/lumihq/purescript-react-basic-emotion.git"
-  , version = "v7.0.0"
+  , version = "v7.1.0"
   }
 , react-basic-hooks =
   { dependencies =
@@ -3611,7 +3611,7 @@
 , simple-emitter =
   { dependencies = [ "ordered-collections", "refs" ]
   , repo = "https://github.com/oreshinya/purescript-simple-emitter.git"
-  , version = "v2.0.0"
+  , version = "v3.0.0"
   }
 , simple-json =
   { dependencies =
@@ -3627,6 +3627,23 @@
     ]
   , repo = "https://github.com/justinwoo/purescript-simple-json.git"
   , version = "v9.0.0"
+  }
+, simple-ulid =
+  { dependencies =
+    [ "arrays"
+    , "datetime"
+    , "effect"
+    , "exceptions"
+    , "integers"
+    , "now"
+    , "numbers"
+    , "prelude"
+    , "strings"
+    , "tailrec"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/oreshinya/purescript-simple-ulid.git"
+  , version = "v3.0.0"
   }
 , sized-matrices =
   { dependencies =
