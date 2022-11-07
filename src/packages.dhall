@@ -3919,6 +3919,19 @@
   , repo = "https://github.com/paluh/purescript-systemd-journald.git"
   , version = "v0.3.0"
   }
+, tagged =
+  { dependencies =
+    [ "control"
+    , "foldable-traversable"
+    , "identity"
+    , "invariant"
+    , "newtype"
+    , "prelude"
+    , "profunctor"
+    ]
+  , repo = "https://github.com/LiamGoodacre/purescript-tagged.git"
+  , version = "v4.0.2"
+  }
 , tailrec =
   { dependencies =
     [ "bifunctors"
@@ -3949,20 +3962,12 @@
     , "tuples"
     ]
   , repo = "https://github.com/nsaunders/purescript-tecton.git"
-  , version = "v0.1.0"
+  , version = "v0.1.2"
   }
 , tecton-halogen =
-  { dependencies =
-    [ "halogen"
-    , "media-types"
-    , "prelude"
-    , "record"
-    , "tecton"
-    , "transformers"
-    , "typelevel-prelude"
-    ]
+  { dependencies = [ "halogen", "lists", "prelude", "tecton", "transformers" ]
   , repo = "https://github.com/nsaunders/purescript-tecton-halogen.git"
-  , version = "v0.1.0"
+  , version = "v0.1.2"
   }
 , test-unit =
   { dependencies =
