@@ -2525,12 +2525,14 @@
     , "maybe"
     , "node-buffer"
     , "node-streams"
+    , "nullable"
     , "prelude"
+    , "refs"
     , "st"
     , "tuples"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-streams-aff.git"
-  , version = "v4.0.0"
+  , version = "v4.0.1"
   }
 , node-url =
   { dependencies = [ "nullable" ]
