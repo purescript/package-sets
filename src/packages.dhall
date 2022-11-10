@@ -1031,6 +1031,23 @@
   , repo = "https://github.com/justinwoo/purescript-expect-inferred.git"
   , version = "v3.0.0"
   }
+, fahrtwind =
+  { dependencies =
+    [ "arrays"
+    , "colors"
+    , "foreign-object"
+    , "integers"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-dom"
+    , "react-basic-emotion"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-fahrtwind.git"
+  , version = "v1.0.1"
+  }
 , fallback =
   { dependencies =
     [ "console"
@@ -1307,6 +1324,35 @@
     ]
   , repo = "https://github.com/purescript-contrib/purescript-formatters.git"
   , version = "v7.0.0"
+  }
+, framer-motion =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "arrays"
+    , "effect"
+    , "foreign"
+    , "foreign-object"
+    , "heterogeneous"
+    , "literals"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-dom"
+    , "react-basic-hooks"
+    , "record"
+    , "tuples"
+    , "two-or-more"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "untagged-union"
+    , "web-dom"
+    , "web-events"
+    , "web-uievents"
+    ]
+  , repo = "https://github.com/i-am-the-slime/purescript-framer-motion.git"
+  , version = "v1.0.1"
   }
 , free =
   { dependencies =
@@ -1726,12 +1772,6 @@
   , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
   , version = "v0.6.0"
   }
-, heterogeneous-extrablatt =
-  { dependencies = [ "heterogeneous", "prelude", "record" ]
-  , repo =
-    "https://github.com/sigma-andex/purescript-heterogeneous-extrablatt.git"
-  , version = "v0.2.1"
-  }
 , homogeneous =
   { dependencies =
     [ "assert"
@@ -1995,6 +2035,11 @@
     , "prelude"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-js-promise.git"
+  , version = "v1.0.0"
+  }
+, js-promise-aff =
+  { dependencies = [ "aff", "foreign", "js-promise" ]
+  , repo = "https://github.com/purescript-contrib/purescript-js-promise-aff.git"
   , version = "v1.0.0"
   }
 , js-timers =
@@ -2311,18 +2356,18 @@
     , "barlow-lens"
     , "foldable-traversable"
     , "heterogeneous"
-    , "heterogeneous-extrablatt"
     , "newtype"
     , "prelude"
     , "profunctor"
     , "profunctor-lenses"
     , "record"
+    , "record-studio"
     , "tuples"
     , "typelevel-prelude"
     , "validation"
     ]
   , repo = "https://github.com/sigma-andex/purescript-morello.git"
-  , version = "v0.3.2"
+  , version = "v0.4.0"
   }
 , mote =
   { dependencies = [ "arrays", "these", "transformers" ]
@@ -3316,10 +3361,26 @@
   , version = "v8.1.2"
   }
 , react-basic-storybook =
-  { dependencies = [ "effect", "prelude", "react-basic", "unsafe-coerce" ]
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "debug"
+    , "effect"
+    , "foreign"
+    , "foreign-object"
+    , "functions"
+    , "maybe"
+    , "prelude"
+    , "react-basic"
+    , "record-studio"
+    , "strings"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "web-html"
+    ]
   , repo =
     "https://github.com/rowtype-yoga/purescript-react-basic-storybook.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , react-dom =
   { dependencies = [ "effect", "react", "web-dom" ]
@@ -3406,6 +3467,12 @@
   { dependencies = [ "functions", "prelude", "unsafe-coerce" ]
   , repo = "https://github.com/purescript/purescript-record.git"
   , version = "v4.0.0"
+  }
+, record-studio =
+  { dependencies =
+    [ "heterogeneous", "lists", "prelude", "record", "typelevel-prelude" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-record-studio.git"
+  , version = "v1.0.1"
   }
 , refs =
   { dependencies = [ "effect", "prelude" ]
@@ -3964,7 +4031,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/nsaunders/purescript-tecton.git"
-  , version = "v0.1.2"
+  , version = "v0.1.3"
   }
 , tecton-halogen =
   { dependencies = [ "halogen", "lists", "prelude", "tecton", "transformers" ]
