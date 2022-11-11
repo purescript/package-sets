@@ -3252,20 +3252,33 @@
   "parsing": {
     "dependencies": [
       "arrays",
+      "control",
+      "effect",
       "either",
+      "enums",
       "foldable-traversable",
+      "functions",
       "identity",
       "integers",
+      "lazy",
       "lists",
       "maybe",
+      "newtype",
       "nullable",
+      "numbers",
+      "partial",
       "prelude",
+      "st",
       "strings",
+      "tailrec",
       "transformers",
-      "unicode"
+      "tuples",
+      "unfoldable",
+      "unicode",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
-    "version": "v10.0.0"
+    "version": "v10.1.0"
   },
   "parsing-dataview": {
     "dependencies": [
@@ -5304,6 +5317,34 @@
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-yoga-json.git",
     "version": "v4.0.1"
+  },
+  "yoga-om": {
+    "dependencies": [
+      "aff",
+      "avar",
+      "console",
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "exceptions",
+      "functions",
+      "maybe",
+      "newtype",
+      "parallel",
+      "prelude",
+      "record",
+      "record-studio",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "typelevel-prelude",
+      "uncurried-transformers",
+      "unsafe-coerce",
+      "variant"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-yoga-om.git",
+    "version": "v0.1.0"
   },
   "yoga-postgres": {
     "dependencies": [
