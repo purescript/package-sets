@@ -1721,6 +1721,65 @@
     "repo": "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git",
     "version": "v0.5.0"
   },
+  "grain": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "exceptions",
+      "foreign",
+      "functions",
+      "integers",
+      "lazy",
+      "maybe",
+      "nullable",
+      "prelude",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unsafe-coerce",
+      "web-dom",
+      "web-events"
+    ],
+    "repo": "https://github.com/purescript-grain/purescript-grain.git",
+    "version": "v3.0.0"
+  },
+  "grain-router": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "effect",
+      "foldable-traversable",
+      "foreign",
+      "grain",
+      "integers",
+      "lists",
+      "maybe",
+      "numbers",
+      "ordered-collections",
+      "prelude",
+      "profunctor",
+      "strings",
+      "tuples",
+      "web-events",
+      "web-html"
+    ],
+    "repo": "https://github.com/purescript-grain/purescript-grain-router.git",
+    "version": "v3.0.0"
+  },
+  "grain-virtualized": {
+    "dependencies": [
+      "arrays",
+      "foldable-traversable",
+      "grain",
+      "maybe",
+      "prelude",
+      "web-dom",
+      "web-events"
+    ],
+    "repo": "https://github.com/purescript-grain/purescript-grain-virtualized.git",
+    "version": "v3.0.0"
+  },
   "graphql-client": {
     "dependencies": [
       "aff",
@@ -1944,7 +2003,7 @@
       "halogen"
     ],
     "repo": "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -2233,30 +2292,70 @@
     "dependencies": [
       "aff",
       "arrays",
-      "console",
       "effect",
       "either",
       "foldable-traversable",
-      "foreign",
-      "free",
-      "js-timers",
+      "jelly-hooks",
+      "jelly-signal",
       "maybe",
-      "newtype",
       "prelude",
-      "record",
       "refs",
-      "strings",
       "tailrec",
       "transformers",
       "tuples",
-      "typelevel-prelude",
-      "unordered-collections",
       "web-dom",
       "web-events",
       "web-html"
     ],
     "repo": "https://github.com/yukikurage/purescript-jelly.git",
-    "version": "v0.7.0"
+    "version": "v0.8.1"
+  },
+  "jelly-hooks": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "jelly-signal",
+      "js-timers",
+      "maybe",
+      "prelude",
+      "refs",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unsafe-coerce",
+      "web-events"
+    ],
+    "repo": "https://github.com/yukikurage/purescript-jelly-hooks.git",
+    "version": "v0.2.1"
+  },
+  "jelly-router": {
+    "dependencies": [
+      "effect",
+      "foreign",
+      "jelly",
+      "jelly-hooks",
+      "jelly-signal",
+      "prelude",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "web-dom",
+      "web-events",
+      "web-html"
+    ],
+    "repo": "https://github.com/yukikurage/purescript-jelly-router.git",
+    "version": "v0.1.1"
+  },
+  "jelly-signal": {
+    "dependencies": [
+      "effect",
+      "prelude",
+      "refs",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/yukikurage/purescript-jelly-signal.git",
+    "version": "v0.2.0"
   },
   "jest": {
     "dependencies": [
