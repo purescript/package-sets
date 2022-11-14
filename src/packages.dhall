@@ -3579,7 +3579,7 @@
   { dependencies =
     [ "heterogeneous", "lists", "prelude", "record", "typelevel-prelude" ]
   , repo = "https://github.com/rowtype-yoga/purescript-record-studio.git"
-  , version = "v1.0.1"
+  , version = "v1.0.4"
   }
 , refs =
   { dependencies = [ "effect", "prelude" ]
