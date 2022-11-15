@@ -4487,6 +4487,38 @@
   , repo = "https://github.com/hdgarrood/purescript-versions.git"
   , version = "v7.0.0"
   }
+, visx =
+  { dependencies =
+    [ "arrays"
+    , "console"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "functions"
+    , "integers"
+    , "js-date"
+    , "justifill"
+    , "lists"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-dom"
+    , "react-basic-hooks"
+    , "record"
+    , "transformers"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "untagged-union"
+    , "web-dom"
+    ]
+  , repo = "https://github.com/i-am-the-slime/purescript-visx.git"
+  , version = "v0.0.1"
+  }
 , web-clipboard =
   { dependencies = [ "web-html", "web-promise" ]
   , repo = "https://github.com/purescript-web/purescript-web-clipboard.git"
