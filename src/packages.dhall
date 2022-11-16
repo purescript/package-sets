@@ -401,6 +401,71 @@
   , repo = "https://github.com/klntsky/purescript-bower-json.git"
   , version = "v3.0.0"
   }
+, bucketchain =
+  { dependencies =
+    [ "aff", "console", "node-http", "node-streams", "transformers" ]
+  , repo = "https://github.com/Bucketchain/purescript-bucketchain.git"
+  , version = "v1.0.0"
+  }
+, bucketchain-conditional =
+  { dependencies = [ "bucketchain", "js-date" ]
+  , repo =
+    "https://github.com/Bucketchain/purescript-bucketchain-conditional.git"
+  , version = "v1.0.0"
+  }
+, bucketchain-cors =
+  { dependencies = [ "bucketchain", "bucketchain-header-utils", "http-methods" ]
+  , repo = "https://github.com/Bucketchain/purescript-bucketchain-cors.git"
+  , version = "v1.0.0"
+  }
+, bucketchain-csrf =
+  { dependencies = [ "bucketchain" ]
+  , repo = "https://github.com/Bucketchain/purescript-bucketchain-csrf.git"
+  , version = "v1.0.0"
+  }
+, bucketchain-header-utils =
+  { dependencies = [ "bucketchain" ]
+  , repo =
+    "https://github.com/Bucketchain/purescript-bucketchain-header-utils.git"
+  , version = "v1.0.0"
+  }
+, bucketchain-health =
+  { dependencies = [ "bucketchain" ]
+  , repo = "https://github.com/Bucketchain/purescript-bucketchain-health.git"
+  , version = "v1.0.0"
+  }
+, bucketchain-history-api-fallback =
+  { dependencies = [ "bucketchain" ]
+  , repo =
+    "https://github.com/Bucketchain/purescript-bucketchain-history-api-fallback.git"
+  , version = "v1.0.0"
+  }
+, bucketchain-logger =
+  { dependencies = [ "bucketchain", "js-date", "node-process" ]
+  , repo = "https://github.com/Bucketchain/purescript-bucketchain-logger.git"
+  , version = "v1.0.0"
+  }
+, bucketchain-secure =
+  { dependencies = [ "bucketchain" ]
+  , repo = "https://github.com/Bucketchain/purescript-bucketchain-secure.git"
+  , version = "v1.0.0"
+  }
+, bucketchain-simple-api =
+  { dependencies = [ "bucketchain", "freet", "media-types", "simple-json" ]
+  , repo =
+    "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git"
+  , version = "v5.0.0"
+  }
+, bucketchain-sslify =
+  { dependencies = [ "bucketchain" ]
+  , repo = "https://github.com/Bucketchain/purescript-bucketchain-sslify.git"
+  , version = "v1.0.0"
+  }
+, bucketchain-static =
+  { dependencies = [ "bucketchain", "node-fs-aff" ]
+  , repo = "https://github.com/Bucketchain/purescript-bucketchain-static.git"
+  , version = "v1.0.0"
+  }
 , call-by-name =
   { dependencies = [ "control", "either", "lazy", "maybe", "unsafe-coerce" ]
   , repo = "https://github.com/natefaubion/purescript-call-by-name.git"
@@ -2677,6 +2742,21 @@
   { dependencies = [ "nullable" ]
   , repo = "https://github.com/purescript-node/purescript-node-url.git"
   , version = "v6.0.0"
+  }
+, nodemailer =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foreign"
+    , "functions"
+    , "maybe"
+    , "node-streams"
+    , "prelude"
+    , "simple-json"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/oreshinya/purescript-nodemailer.git"
+  , version = "v4.0.1"
   }
 , nonempty =
   { dependencies =
