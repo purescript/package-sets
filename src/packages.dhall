@@ -403,9 +403,27 @@
   }
 , bucketchain =
   { dependencies =
-    [ "aff", "console", "node-http", "node-streams", "transformers" ]
+    [ "aff"
+    , "console"
+    , "control"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foreign-object"
+    , "maybe"
+    , "node-buffer"
+    , "node-http"
+    , "node-streams"
+    , "nullable"
+    , "options"
+    , "prelude"
+    , "refs"
+    , "tailrec"
+    , "transformers"
+    , "unsafe-coerce"
+    ]
   , repo = "https://github.com/Bucketchain/purescript-bucketchain.git"
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , bucketchain-conditional =
   { dependencies = [ "bucketchain", "js-date" ]
@@ -662,6 +680,19 @@
   { dependencies = [ "freet", "parallel", "profunctor" ]
   , repo = "https://github.com/purescript-contrib/purescript-coroutines.git"
   , version = "v7.0.0"
+  }
+, crypto =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "functions"
+    , "maybe"
+    , "node-buffer"
+    , "nullable"
+    , "prelude"
+    ]
+  , repo = "https://github.com/oreshinya/purescript-crypto.git"
+  , version = "v5.0.1"
   }
 , css =
   { dependencies =
@@ -2044,6 +2075,29 @@
   , repo = "https://github.com/purescript/purescript-identity.git"
   , version = "v6.0.0"
   }
+, identy =
+  { dependencies =
+    [ "arrays"
+    , "either"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "functions"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "record"
+    , "simple-json"
+    , "st"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unfoldable"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/oreshinya/purescript-identy.git"
+  , version = "v4.0.1"
+  }
 , indexed-monad =
   { dependencies = [ "control", "newtype" ]
   , repo = "https://github.com/garyb/purescript-indexed-monad.git"
@@ -2537,6 +2591,28 @@
   { dependencies = [ "lists", "strings" ]
   , repo = "https://github.com/justinwoo/purescript-motsunabe.git"
   , version = "v2.0.0"
+  }
+, mysql =
+  { dependencies =
+    [ "aff"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foreign"
+    , "functions"
+    , "js-date"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "nonempty"
+    , "prelude"
+    , "simple-json"
+    , "transformers"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/oreshinya/purescript-mysql.git"
+  , version = "v6.0.1"
   }
 , nano-id =
   { dependencies =
@@ -3655,6 +3731,19 @@
   , repo = "https://github.com/purescript/purescript-record.git"
   , version = "v4.0.0"
   }
+, record-extra =
+  { dependencies =
+    [ "arrays"
+    , "functions"
+    , "lists"
+    , "prelude"
+    , "record"
+    , "tuples"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/justinwoo/purescript-record-extra.git"
+  , version = "v5.0.1"
+  }
 , record-studio =
   { dependencies =
     [ "heterogeneous", "lists", "prelude", "record", "typelevel-prelude" ]
@@ -3865,9 +3954,16 @@
   , version = "v13.0.0"
   }
 , simple-emitter =
-  { dependencies = [ "ordered-collections", "refs" ]
+  { dependencies =
+    [ "effect"
+    , "foldable-traversable"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "refs"
+    ]
   , repo = "https://github.com/oreshinya/purescript-simple-emitter.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , simple-json =
   { dependencies =
