@@ -357,6 +357,22 @@
   , repo = "https://github.com/sigma-andex/purescript-barlow-lens.git"
   , version = "v0.9.0"
   }
+, basic-auth =
+  { dependencies =
+    [ "arrays"
+    , "crypto"
+    , "effect"
+    , "foreign-object"
+    , "maybe"
+    , "node-buffer"
+    , "node-http"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    ]
+  , repo = "https://github.com/oreshinya/purescript-basic-auth.git"
+  , version = "v3.0.1"
+  }
 , bifunctors =
   { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
   , repo = "https://github.com/purescript/purescript-bifunctors.git"
@@ -1971,7 +1987,7 @@
     , "type-equality"
     ]
   , repo = "https://github.com/citizennet/purescript-httpure.git"
-  , version = "v0.15.0"
+  , version = "v0.16.0"
   }
 , httpurple =
   { dependencies =
@@ -3965,6 +3981,19 @@
   , repo = "https://github.com/oreshinya/purescript-simple-emitter.git"
   , version = "v3.0.1"
   }
+, simple-i18n =
+  { dependencies =
+    [ "foreign-object"
+    , "maybe"
+    , "prelude"
+    , "record"
+    , "record-extra"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/oreshinya/purescript-simple-i18n.git"
+  , version = "v2.0.1"
+  }
 , simple-json =
   { dependencies =
     [ "arrays"
@@ -3979,6 +4008,21 @@
     ]
   , repo = "https://github.com/justinwoo/purescript-simple-json.git"
   , version = "v9.0.0"
+  }
+, simple-jwt =
+  { dependencies =
+    [ "arrays"
+    , "crypto"
+    , "effect"
+    , "either"
+    , "maybe"
+    , "node-buffer"
+    , "prelude"
+    , "simple-json"
+    , "strings"
+    ]
+  , repo = "https://github.com/oreshinya/purescript-simple-jwt.git"
+  , version = "v4.0.1"
   }
 , simple-ulid =
   { dependencies =
@@ -4758,6 +4802,11 @@
 , web-pointerevents =
   { dependencies = [ "effect", "maybe", "prelude", "web-dom", "web-uievents" ]
   , repo = "https://github.com/purescript-web/purescript-web-pointerevents.git"
+  , version = "v1.0.0"
+  }
+, web-proletarian =
+  { dependencies = [ "effect", "prelude" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-web-proletarian.git"
   , version = "v1.0.0"
   }
 , web-promise =
