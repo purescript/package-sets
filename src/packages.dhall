@@ -441,6 +441,19 @@
   , repo = "https://github.com/Bucketchain/purescript-bucketchain.git"
   , version = "v1.0.1"
   }
+, bucketchain-basic-auth =
+  { dependencies =
+    [ "basic-auth"
+    , "bucketchain"
+    , "effect"
+    , "maybe"
+    , "prelude"
+    , "transformers"
+    ]
+  , repo =
+    "https://github.com/Bucketchain/purescript-bucketchain-basic-auth.git"
+  , version = "v1.0.1"
+  }
 , bucketchain-conditional =
   { dependencies = [ "bucketchain", "js-date" ]
   , repo =
@@ -453,9 +466,18 @@
   , version = "v1.0.0"
   }
 , bucketchain-csrf =
-  { dependencies = [ "bucketchain" ]
+  { dependencies =
+    [ "bucketchain"
+    , "control"
+    , "effect"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "maybe"
+    , "prelude"
+    , "transformers"
+    ]
   , repo = "https://github.com/Bucketchain/purescript-bucketchain-csrf.git"
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , bucketchain-header-utils =
   { dependencies = [ "bucketchain" ]
@@ -469,10 +491,20 @@
   , version = "v1.0.0"
   }
 , bucketchain-history-api-fallback =
-  { dependencies = [ "bucketchain" ]
+  { dependencies =
+    [ "bucketchain"
+    , "effect"
+    , "foreign-object"
+    , "maybe"
+    , "node-url"
+    , "nullable"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    ]
   , repo =
     "https://github.com/Bucketchain/purescript-bucketchain-history-api-fallback.git"
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , bucketchain-logger =
   { dependencies = [ "bucketchain", "js-date", "node-process" ]
@@ -491,9 +523,17 @@
   , version = "v5.0.0"
   }
 , bucketchain-sslify =
-  { dependencies = [ "bucketchain" ]
+  { dependencies =
+    [ "bucketchain"
+    , "effect"
+    , "foreign-object"
+    , "maybe"
+    , "node-http"
+    , "prelude"
+    , "transformers"
+    ]
   , repo = "https://github.com/Bucketchain/purescript-bucketchain-sslify.git"
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , bucketchain-static =
   { dependencies = [ "bucketchain", "node-fs-aff" ]
