@@ -1334,9 +1334,10 @@
     , "profunctor"
     , "tuples"
     , "unfoldable"
+    , "unsafe-coerce"
     ]
   , repo = "https://github.com/sigma-andex/purescript-fast-vect.git"
-  , version = "v0.7.0"
+  , version = "v1.0.0"
   }
 , fetch =
   { dependencies =
@@ -3685,6 +3686,26 @@
     ]
   , repo = "https://github.com/purescript-contrib/purescript-react.git"
   , version = "v10.0.1"
+  }
+, react-aria =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foreign"
+    , "foreign-object"
+    , "nullable"
+    , "ordered-collections"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-dom"
+    , "react-basic-hooks"
+    , "unsafe-coerce"
+    , "untagged-union"
+    , "web-dom"
+    , "web-html"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-react-aria.git"
+  , version = "v0.2.0"
   }
 , react-basic =
   { dependencies = [ "effect", "prelude", "record" ]
