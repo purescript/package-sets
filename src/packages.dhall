@@ -2383,7 +2383,7 @@
 , jelly-signal =
   { dependencies = [ "effect", "prelude", "refs", "tuples", "unsafe-coerce" ]
   , repo = "https://github.com/yukikurage/purescript-jelly-signal.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , jest =
   { dependencies = [ "aff", "aff-promise", "effect", "prelude" ]
