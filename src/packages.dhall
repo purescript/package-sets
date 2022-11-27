@@ -735,6 +735,69 @@
   , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
   , version = "v3.1.1"
   }
+, classless =
+  { dependencies = [ "heterogeneous", "prelude", "record" ]
+  , repo = "https://github.com/thought2/purescript-classless.git"
+  , version = "v0.1.1"
+  }
+, classless-arbitrary =
+  { dependencies =
+    [ "arrays"
+    , "classless"
+    , "either"
+    , "enums"
+    , "gen"
+    , "heterogeneous"
+    , "identity"
+    , "lists"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "quickcheck"
+    , "record"
+    , "st"
+    , "strings"
+    , "tuples"
+    , "type-equality"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/thought2/purescript-classless-arbitrary.git"
+  , version = "v0.1.1"
+  }
+, classless-decode-json =
+  { dependencies =
+    [ "argonaut"
+    , "classless"
+    , "console"
+    , "effect"
+    , "either"
+    , "maybe"
+    , "prelude"
+    , "record"
+    , "tuples"
+    ]
+  , repo = "https://github.com/thought2/purescript-classless-decode-json.git"
+  , version = "v0.1.1"
+  }
+, classless-encode-json =
+  { dependencies =
+    [ "argonaut"
+    , "argonaut-codecs"
+    , "argonaut-core"
+    , "classless"
+    , "either"
+    , "foreign-object"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "record"
+    , "tuples"
+    , "type-equality"
+    ]
+  , repo = "https://github.com/thought2/purescript-classless-encode-json.git"
+  , version = "v0.1.3"
+  }
 , classnames =
   { dependencies = [ "maybe", "prelude", "record", "strings", "tuples" ]
   , repo = "https://github.com/dewey92/purescript-classnames.git"
@@ -2328,12 +2391,13 @@
     , "arrays"
     , "effect"
     , "either"
-    , "foldable-traversable"
+    , "free"
     , "jelly-hooks"
     , "jelly-signal"
     , "maybe"
     , "prelude"
     , "refs"
+    , "safely"
     , "tailrec"
     , "transformers"
     , "tuples"
@@ -2342,7 +2406,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly.git"
-  , version = "v0.8.1"
+  , version = "v0.9.0"
   }
 , jelly-hooks =
   { dependencies =
@@ -2360,7 +2424,7 @@
     , "web-events"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly-hooks.git"
-  , version = "v0.2.1"
+  , version = "v0.3.0"
   }
 , jelly-router =
   { dependencies =
@@ -2378,7 +2442,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly-router.git"
-  , version = "v0.1.1"
+  , version = "v0.2.1"
   }
 , jelly-signal =
   { dependencies = [ "effect", "prelude", "refs", "tuples", "unsafe-coerce" ]
@@ -3041,6 +3105,25 @@
   { dependencies = [ "functions", "maybe" ]
   , repo = "https://github.com/purescript/purescript-numbers.git"
   , version = "v9.0.0"
+  }
+, object-maps =
+  { dependencies =
+    [ "aff"
+    , "argonaut-codecs"
+    , "argonaut-core"
+    , "datetime"
+    , "debug"
+    , "effect"
+    , "either"
+    , "foreign-object"
+    , "maybe"
+    , "prelude"
+    , "profunctor-lenses"
+    , "spec"
+    , "tuples"
+    ]
+  , repo = "https://github.com/thought2/purescript-object-maps.git"
+  , version = "v0.1.1"
   }
 , ocarina =
   { dependencies =
@@ -4061,19 +4144,25 @@
 , routing-duplex =
   { dependencies =
     [ "arrays"
+    , "assert"
     , "control"
+    , "effect"
     , "either"
+    , "foldable-traversable"
+    , "integers"
     , "js-uri"
     , "lazy"
-    , "numbers"
+    , "maybe"
+    , "newtype"
     , "prelude"
     , "profunctor"
+    , "quickcheck"
     , "record"
     , "strings"
-    , "typelevel-prelude"
+    , "tuples"
     ]
   , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
-  , version = "v0.6.0"
+  , version = "v0.7.0"
   }
 , run =
   { dependencies =
@@ -4912,9 +5001,9 @@
   , version = "v0.0.1"
   }
 , web-clipboard =
-  { dependencies = [ "web-html", "web-promise" ]
+  { dependencies = [ "js-promise", "web-html" ]
   , repo = "https://github.com/purescript-web/purescript-web-clipboard.git"
-  , version = "v4.1.0"
+  , version = "v5.0.0"
   }
 , web-cssom =
   { dependencies = [ "web-dom", "web-html", "web-uievents" ]
