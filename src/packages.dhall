@@ -4620,7 +4620,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/nsaunders/purescript-tecton.git"
-  , version = "v0.1.3"
+  , version = "v0.1.4"
   }
 , tecton-halogen =
   { dependencies = [ "halogen", "lists", "prelude", "tecton", "transformers" ]
