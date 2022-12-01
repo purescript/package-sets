@@ -3356,7 +3356,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-parsing.git"
-  , version = "v10.1.0"
+  , version = "v10.2.0"
   }
 , parsing-dataview =
   { dependencies =
