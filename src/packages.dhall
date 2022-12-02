@@ -247,7 +247,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-arraybuffer.git"
-  , version = "v13.0.0"
+  , version = "v13.1.1"
   }
 , arraybuffer-builder =
   { dependencies =
@@ -5082,6 +5082,23 @@
     ]
   , repo = "https://github.com/purescript-web/purescript-web-promise.git"
   , version = "v3.1.0"
+  }
+, web-resize-observer =
+  { dependencies =
+    [ "arrays"
+    , "console"
+    , "control"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "foreign"
+    , "prelude"
+    , "record"
+    , "transformers"
+    , "web-dom"
+    ]
+  , repo = "https://github.com/nsaunders/purescript-web-resize-observer.git"
+  , version = "v2.0.0"
   }
 , web-router =
   { dependencies =
