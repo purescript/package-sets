@@ -1021,6 +1021,7 @@
     , "ordered-collections"
     , "prelude"
     , "profunctor"
+    , "profunctor-lenses"
     , "quickcheck"
     , "record"
     , "safe-coerce"
@@ -1035,7 +1036,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.9.5"
+  , version = "v0.9.6"
   }
 , deno =
   { dependencies =
@@ -3442,6 +3443,12 @@
   , repo = "https://github.com/felixschl/purescript-pipes.git"
   , version = "v8.0.0"
   }
+, pirates-charm =
+  { dependencies =
+    [ "aff", "arrays", "effect", "hyrule", "parallel", "prelude", "refs", "st" ]
+  , repo = "https://github.com/mikesol/purescript-pirates-charm.git"
+  , version = "v0.0.1"
+  }
 , point-free =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/ursi/purescript-point-free.git"
@@ -4625,7 +4632,7 @@
 , tecton-halogen =
   { dependencies = [ "halogen", "lists", "prelude", "tecton", "transformers" ]
   , repo = "https://github.com/nsaunders/purescript-tecton-halogen.git"
-  , version = "v0.1.2"
+  , version = "v0.1.3"
   }
 , test-unit =
   { dependencies =
