@@ -1373,7 +1373,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-fahrtwind.git"
-  , version = "v1.0.1"
+  , version = "v2.0.0"
   }
 , fallback =
   { dependencies =
@@ -2301,7 +2301,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-hyrule.git"
-  , version = "v2.3.3"
+  , version = "v2.3.5"
   }
 , identity =
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
@@ -3364,16 +3364,19 @@
     [ "arraybuffer"
     , "arraybuffer-types"
     , "effect"
+    , "enums"
     , "float32"
     , "maybe"
     , "parsing"
     , "prelude"
+    , "strings"
+    , "tailrec"
     , "transformers"
     , "tuples"
     , "uint"
     ]
   , repo = "https://github.com/jamesdbrock/purescript-parsing-dataview.git"
-  , version = "v3.1.0"
+  , version = "v3.2.4"
   }
 , partial =
   { dependencies = [] : List Text
