@@ -1036,7 +1036,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.9.6"
+  , version = "v0.9.8"
   }
 , deno =
   { dependencies =
