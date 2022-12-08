@@ -2408,7 +2408,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly.git"
-  , version = "v0.9.0"
+  , version = "v0.9.1"
   }
 , jelly-hooks =
   { dependencies =
@@ -2439,12 +2439,11 @@
     , "tailrec"
     , "transformers"
     , "tuples"
-    , "web-dom"
     , "web-events"
     , "web-html"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly-router.git"
-  , version = "v0.2.1"
+  , version = "v0.2.2"
   }
 , jelly-signal =
   { dependencies = [ "effect", "prelude", "refs", "tuples", "unsafe-coerce" ]
