@@ -1619,7 +1619,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/artemisSystem/purescript-foreign-readwrite.git"
-  , version = "v3.2.1"
+  , version = "v3.3.0"
   }
 , fork =
   { dependencies = [ "aff" ]
