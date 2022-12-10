@@ -3585,6 +3585,7 @@
     , "foldable-traversable"
     , "functions"
     , "int64"
+    , "lists"
     , "maybe"
     , "newtype"
     , "parsing"
@@ -3599,7 +3600,7 @@
     , "web-encoding"
     ]
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
-  , version = "v4.0.0"
+  , version = "v4.1.0"
   }
 , ps-cst =
   { dependencies =
