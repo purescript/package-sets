@@ -265,7 +265,7 @@
     , "uint"
     ]
   , repo = "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git"
-  , version = "v3.0.1"
+  , version = "v3.1.0"
   }
 , arraybuffer-types =
   { dependencies = [] : List Text
@@ -1390,6 +1390,7 @@
 , fast-vect =
   { dependencies =
     [ "arrays"
+    , "distributive"
     , "filterable"
     , "foldable-traversable"
     , "lists"
@@ -1402,7 +1403,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/sigma-andex/purescript-fast-vect.git"
-  , version = "v1.0.0"
+  , version = "v1.1.0"
   }
 , fetch =
   { dependencies =
@@ -4886,6 +4887,11 @@
   , repo =
     "https://github.com/purescript-contrib/purescript-unsafe-reference.git"
   , version = "v5.0.0"
+  }
+, untagged-to-tagged =
+  { dependencies = [ "either", "newtype", "prelude", "untagged-union" ]
+  , repo = "https://github.com/sigma-andex/purescript-untagged-to-tagged.git"
+  , version = "v0.1.4"
   }
 , untagged-union =
   { dependencies =
