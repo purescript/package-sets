@@ -1199,6 +1199,11 @@
   , repo = "https://github.com/kritzcreek/purescript-dynamic-buffer.git"
   , version = "v3.0.1"
   }
+, echarts-simple =
+  { dependencies = [ "console", "effect", "functions", "prelude", "web-dom" ]
+  , repo = "https://github.com/lucasdicioccio/purescript-echarts-simple.git"
+  , version = "v0.0.1"
+  }
 , effect =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/purescript/purescript-effect.git"
