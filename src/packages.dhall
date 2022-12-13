@@ -2019,6 +2019,22 @@
   , repo = "https://github.com/purescript-halogen/purescript-halogen-css.git"
   , version = "v10.0.0"
   }
+, halogen-echarts-simple =
+  { dependencies =
+    [ "aff"
+    , "console"
+    , "echarts-simple"
+    , "effect"
+    , "foldable-traversable"
+    , "halogen"
+    , "halogen-subscriptions"
+    , "maybe"
+    , "prelude"
+    ]
+  , repo =
+    "https://github.com/lucasdicioccio/purescript-halogen-echarts-simple.git"
+  , version = "v0.0.3"
+  }
 , halogen-formless =
   { dependencies =
     [ "convertable-options"
@@ -4636,7 +4652,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/nsaunders/purescript-tecton.git"
-  , version = "v0.1.5"
+  , version = "v0.1.6"
   }
 , tecton-halogen =
   { dependencies = [ "halogen", "lists", "prelude", "tecton", "transformers" ]
