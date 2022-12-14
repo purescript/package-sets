@@ -2869,6 +2869,12 @@
   , repo = "https://github.com/oreshinya/purescript-mysql.git"
   , version = "v6.0.1"
   }
+, n3 =
+  { dependencies =
+    [ "aff", "aff-promise", "console", "effect", "either", "prelude", "rdf" ]
+  , repo = "https://github.com/wintechis/purescript-n3.git"
+  , version = "v0.1.0"
+  }
 , nano-id =
   { dependencies =
     [ "aff"
@@ -5036,7 +5042,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/i-am-the-slime/purescript-visx.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , web-clipboard =
   { dependencies = [ "js-promise", "web-html" ]
