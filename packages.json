@@ -2998,6 +2998,30 @@
     "repo": "https://github.com/purescript-contrib/purescript-machines.git",
     "version": "v7.0.0"
   },
+  "marionette": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "console",
+      "datetime",
+      "effect",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "maybe",
+      "newtype",
+      "node-readline",
+      "now",
+      "ordered-collections",
+      "prelude",
+      "refs",
+      "strings",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/thought2/purescript-marionette.git",
+    "version": "v0.1.3"
+  },
   "matrices": {
     "dependencies": [
       "arrays",
@@ -5671,6 +5695,17 @@
     ],
     "repo": "https://github.com/csicar/purescript-vectorfield.git",
     "version": "v1.0.1"
+  },
+  "vectors": {
+    "dependencies": [
+      "console",
+      "effect",
+      "foldable-traversable",
+      "prelude",
+      "profunctor-lenses"
+    ],
+    "repo": "https://github.com/thought2/purescript-vectors.git",
+    "version": "v2.0.1"
   },
   "versions": {
     "dependencies": [
