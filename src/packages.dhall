@@ -5028,7 +5028,7 @@
     , "profunctor-lenses"
     ]
   , repo = "https://github.com/thought2/purescript-vectors.git"
-  , version = "v2.0.1"
+  , version = "v2.1.0"
   }
 , versions =
   { dependencies =
