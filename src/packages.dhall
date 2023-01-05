@@ -149,6 +149,29 @@
   , repo = "https://github.com/purescript-contrib/purescript-argonaut.git"
   , version = "v9.0.0"
   }
+, argonaut-aeson-generic =
+  { dependencies =
+    [ "argonaut-codecs"
+    , "argonaut-core"
+    , "argonaut-generic"
+    , "arrays"
+    , "bifunctors"
+    , "control"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "psci-support"
+    , "record"
+    , "test-unit"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/coot/purescript-argonaut-aeson-generic.git"
+  , version = "v0.4.1"
+  }
 , argonaut-codecs =
   { dependencies =
     [ "argonaut-core"
@@ -1036,7 +1059,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.9.8"
+  , version = "v0.9.9"
   }
 , deno =
   { dependencies =
@@ -1274,7 +1297,7 @@
     , "undefined-is-not-a-problem"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-hooks.git"
-  , version = "v0.8.3"
+  , version = "v0.9.1"
   }
 , elmish-html =
   { dependencies =
@@ -1625,7 +1648,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/artemisSystem/purescript-foreign-readwrite.git"
-  , version = "v3.3.0"
+  , version = "v3.4.0"
   }
 , fork =
   { dependencies = [ "aff" ]
@@ -1969,7 +1992,7 @@
     , "variant"
     ]
   , repo = "https://github.com/OxfordAbstracts/purescript-graphql-client.git"
-  , version = "v9.2.2"
+  , version = "v9.3.2"
   }
 , graphs =
   { dependencies = [ "catenable-lists", "ordered-collections" ]
@@ -2033,7 +2056,7 @@
     ]
   , repo =
     "https://github.com/lucasdicioccio/purescript-halogen-echarts-simple.git"
-  , version = "v0.0.3"
+  , version = "v0.0.4"
   }
 , halogen-formless =
   { dependencies =
@@ -2293,6 +2316,19 @@
   , repo = "https://github.com/sigma-andex/purescript-httpurple-yoga-json.git"
   , version = "v1.0.0"
   }
+, humdrum =
+  { dependencies =
+    [ "console"
+    , "effect"
+    , "foldable-traversable"
+    , "maybe"
+    , "prelude"
+    , "web-dom"
+    , "web-html"
+    ]
+  , repo = "https://github.com/lucasdicioccio/purescript-humdrum.git"
+  , version = "v0.0.1"
+  }
 , hyrule =
   { dependencies =
     [ "arrays"
@@ -2363,14 +2399,15 @@
     [ "effect"
     , "foreign"
     , "functions"
+    , "gen"
     , "integers"
     , "maybe"
     , "nullable"
     , "prelude"
-    , "quickcheck"
+    , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-int64.git"
-  , version = "v2.0.0"
+  , version = "v3.0.0"
   }
 , integers =
   { dependencies = [ "maybe", "numbers", "prelude" ]
@@ -2439,16 +2476,16 @@
     , "jelly-signal"
     , "js-timers"
     , "maybe"
+    , "partial"
     , "prelude"
     , "refs"
     , "tailrec"
     , "transformers"
     , "tuples"
-    , "unsafe-coerce"
     , "web-events"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly-hooks.git"
-  , version = "v0.3.0"
+  , version = "v0.3.1"
   }
 , jelly-router =
   { dependencies =
@@ -3652,7 +3689,7 @@
     , "web-encoding"
     ]
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
-  , version = "v4.1.0"
+  , version = "v4.2.0"
   }
 , ps-cst =
   { dependencies =
@@ -4468,19 +4505,33 @@
   { dependencies =
     [ "aff"
     , "ansi"
+    , "arrays"
     , "avar"
-    , "console"
+    , "bifunctors"
+    , "control"
+    , "datetime"
+    , "effect"
+    , "either"
     , "exceptions"
     , "foldable-traversable"
     , "fork"
+    , "identity"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "newtype"
     , "now"
+    , "ordered-collections"
+    , "parallel"
     , "pipes"
     , "prelude"
     , "strings"
+    , "tailrec"
     , "transformers"
+    , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v7.1.0"
+  , version = "v7.2.0"
   }
 , spec-discovery =
   { dependencies =
