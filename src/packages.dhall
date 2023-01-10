@@ -38,7 +38,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-ace.git"
-  , version = "v9.0.0"
+  , version = "v9.1.0"
   }
 , aff =
   { dependencies =
@@ -2814,7 +2814,7 @@
 , metadata =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-metadata.git"
-  , version = "v0.15.4"
+  , version = "v0.15.7"
   }
 , midi =
   { dependencies =
