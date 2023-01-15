@@ -402,7 +402,21 @@
   , version = "v6.0.0"
   }
 , bigints =
-  { dependencies = [ "integers", "maybe", "strings" ]
+  { dependencies =
+    [ "arrays"
+    , "assert"
+    , "console"
+    , "effect"
+    , "foldable-traversable"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "partial"
+    , "prelude"
+    , "quickcheck"
+    , "quickcheck-laws"
+    , "strings"
+    ]
   , repo = "https://github.com/purescript-contrib/purescript-bigints.git"
   , version = "v7.0.1"
   }
@@ -3169,10 +3183,10 @@
     , "prelude"
     , "refs"
     , "st"
-    , "tuples"
+    , "tailrec"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-streams-aff.git"
-  , version = "v4.0.1"
+  , version = "v5.0.0"
   }
 , node-url =
   { dependencies = [ "nullable" ]

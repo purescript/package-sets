@@ -459,8 +459,18 @@
   },
   "bigints": {
     "dependencies": [
+      "arrays",
+      "assert",
+      "console",
+      "effect",
+      "foldable-traversable",
       "integers",
       "maybe",
+      "numbers",
+      "partial",
+      "prelude",
+      "quickcheck",
+      "quickcheck-laws",
       "strings"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-bigints.git",
@@ -3587,10 +3597,10 @@
       "prelude",
       "refs",
       "st",
-      "tuples"
+      "tailrec"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-streams-aff.git",
-    "version": "v4.0.1"
+    "version": "v5.0.0"
   },
   "node-url": {
     "dependencies": [
