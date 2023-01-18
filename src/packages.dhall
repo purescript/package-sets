@@ -313,7 +313,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-arrays.git"
-  , version = "v7.1.0"
+  , version = "v7.2.0"
   }
 , arrays-zipper =
   { dependencies = [ "arrays", "control", "quickcheck" ]
@@ -1229,7 +1229,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/easafe/purescript-droplet.git"
-  , version = "v0.5.0"
+  , version = "v0.6.0"
   }
 , dynamic-buffer =
   { dependencies = [ "arraybuffer-types", "effect", "refs" ]
@@ -1589,7 +1589,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/easafe/purescript-flame.git"
-  , version = "v1.2.0"
+  , version = "v1.3.0"
   }
 , float32 =
   { dependencies = [ "gen", "maybe", "prelude" ]
