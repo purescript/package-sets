@@ -3408,6 +3408,34 @@
     "repo": "https://github.com/purescript/purescript-newtype.git",
     "version": "v5.0.0"
   },
+  "nextjs": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "console",
+      "datetime",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "functions",
+      "identity",
+      "maybe",
+      "nullable",
+      "options",
+      "partial",
+      "prelude",
+      "react-basic",
+      "react-basic-hooks",
+      "transformers",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "yoga-json"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-nextjs.git",
+    "version": "v0.1.1"
+  },
   "nextui": {
     "dependencies": [
       "effect",
