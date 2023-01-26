@@ -3049,7 +3049,7 @@
 , nextui =
   { dependencies = [ "effect", "prelude", "react-basic-hooks" ]
   , repo = "https://github.com/rowtype-yoga/purescript-nextui.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , node-buffer =
   { dependencies =
