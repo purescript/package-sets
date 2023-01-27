@@ -1279,7 +1279,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.8.3"
+  , version = "v0.9.3"
   }
 , elmish-enzyme =
   { dependencies =
@@ -1319,14 +1319,17 @@
     , "elmish"
     , "foreign"
     , "foreign-object"
+    , "maybe"
     , "prelude"
     , "record"
     , "typelevel-prelude"
     , "unsafe-coerce"
+    , "web-dom"
+    , "web-events"
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
-  , version = "v0.7.2"
+  , version = "v0.8.0"
   }
 , elmish-testing-library =
   { dependencies =
@@ -2094,6 +2097,20 @@
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
   , version = "v4.0.2"
+  }
+, halogen-helix =
+  { dependencies =
+    [ "effect"
+    , "halogen-hooks"
+    , "halogen-subscriptions"
+    , "lazy"
+    , "maybe"
+    , "prelude"
+    , "refs"
+    , "tuples"
+    ]
+  , repo = "https://github.com/katsujukou/purescript-halogen-helix.git"
+  , version = "v1.0.0"
   }
 , halogen-hooks =
   { dependencies =
@@ -4131,6 +4148,11 @@
   , repo = "https://github.com/andys8/purescript-react-icons.git"
   , version = "v1.0.8"
   }
+, react-markdown =
+  { dependencies = [ "prelude", "react-basic-hooks" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-react-markdown.git"
+  , version = "v0.1.0"
+  }
 , react-testing-library =
   { dependencies =
     [ "aff"
@@ -4588,6 +4610,7 @@
     , "arrays"
     , "avar"
     , "bifunctors"
+    , "console"
     , "control"
     , "datetime"
     , "effect"
@@ -4611,7 +4634,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v7.2.0"
+  , version = "v7.3.0"
   }
 , spec-discovery =
   { dependencies =
