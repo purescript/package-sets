@@ -3786,7 +3786,7 @@
     , "web-encoding"
     ]
   , repo = "https://github.com/xc-jp/purescript-protobuf.git"
-  , version = "v4.2.0"
+  , version = "v4.3.0"
   }
 , ps-cst =
   { dependencies =
@@ -4198,6 +4198,20 @@
   { dependencies = [ "maybe", "prelude", "strings" ]
   , repo = "https://github.com/truqu/purescript-read.git"
   , version = "v1.0.1"
+  }
+, recharts =
+  { dependencies =
+    [ "console"
+    , "effect"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-hooks"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/tfc/purescript-recharts.git"
+  , version = "v1.0.0"
   }
 , record =
   { dependencies = [ "functions", "prelude", "unsafe-coerce" ]
