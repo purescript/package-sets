@@ -4705,6 +4705,25 @@
   , repo = "https://github.com/purescript/purescript-st.git"
   , version = "v6.2.0"
   }
+, statistics =
+  { dependencies =
+    [ "arrays"
+    , "console"
+    , "control"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "partial"
+    , "prelude"
+    , "quickcheck"
+    , "tuples"
+    ]
+  , repo = "https://github.com/jacereda/purescript-statistics.git"
+  , version = "v0.3.2"
+  }
 , strictlypositiveint =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/jamieyung/purescript-strictlypositiveint.git"
@@ -5406,7 +5425,7 @@
 , web-workers =
   { dependencies =
     [ "effect", "foreign", "maybe", "prelude", "unsafe-coerce", "web-events" ]
-  , repo = "https://github.com/gbagan/purescript-web-workers.git"
+  , repo = "https://github.com/purescript-web/purescript-web-workers.git"
   , version = "v1.1.0"
   }
 , web-xhr =
