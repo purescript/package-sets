@@ -3108,6 +3108,54 @@
     "https://github.com/purescript-node/purescript-node-child-process.git"
   , version = "v9.0.0"
   }
+, node-event-emitter =
+  { dependencies =
+    [ "effect", "functions", "prelude", "safe-coerce", "unsafe-coerce" ]
+  , repo = "https://github.com/jordanmartinez/purescript-node-event-emitter.git"
+  , version = "v1.0.1"
+  }
+, node-execa =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "control"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "functions"
+    , "integers"
+    , "js-timers"
+    , "maybe"
+    , "node-buffer"
+    , "node-event-emitter"
+    , "node-fs"
+    , "node-human-signals"
+    , "node-path"
+    , "node-process"
+    , "node-streams"
+    , "nullable"
+    , "numbers"
+    , "ordered-collections"
+    , "parallel"
+    , "partial"
+    , "posix-types"
+    , "prelude"
+    , "profunctor-lenses"
+    , "record"
+    , "refs"
+    , "strings"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    , "unsafe-coerce"
+    , "unsafe-reference"
+    ]
+  , repo = "https://github.com/jordanmartinez/purescript-node-execa.git"
+  , version = "v1.0.1"
+  }
 , node-fs =
   { dependencies =
     [ "datetime"
@@ -3155,6 +3203,18 @@
     ]
   , repo = "https://github.com/purescript-node/purescript-node-http.git"
   , version = "v8.0.0"
+  }
+, node-human-signals =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "foreign-object"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    ]
+  , repo = "https://github.com/jordanmartinez/purescript-node-human-signals.git"
+  , version = "v1.0.0"
   }
 , node-net =
   { dependencies =
