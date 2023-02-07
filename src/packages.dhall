@@ -3154,7 +3154,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/jordanmartinez/purescript-node-execa.git"
-  , version = "v1.0.1"
+  , version = "v1.1.0"
   }
 , node-fs =
   { dependencies =
