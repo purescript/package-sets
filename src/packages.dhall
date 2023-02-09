@@ -1329,7 +1329,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
-  , version = "v0.8.0"
+  , version = "v0.8.1"
   }
 , elmish-testing-library =
   { dependencies =
@@ -2538,11 +2538,17 @@
 , jelly-signal =
   { dependencies = [ "effect", "prelude", "refs", "tuples", "unsafe-coerce" ]
   , repo = "https://github.com/yukikurage/purescript-jelly-signal.git"
-  , version = "v0.3.0"
+  , version = "v0.3.1"
   }
 , jest =
   { dependencies = [ "aff", "aff-promise", "effect", "prelude" ]
   , repo = "https://github.com/nonbili/purescript-jest.git"
+  , version = "v1.0.0"
+  }
+, js-abort-controller =
+  { dependencies = [ "effect", "foreign", "maybe", "nullable", "prelude" ]
+  , repo =
+    "https://github.com/purescript-contrib/purescript-js-abort-controller.git"
   , version = "v1.0.0"
   }
 , js-bigints =
@@ -2587,6 +2593,43 @@
   { dependencies = [ "functions", "maybe" ]
   , repo = "https://github.com/purescript-contrib/purescript-js-uri.git"
   , version = "v3.1.0"
+  }
+, json-codecs =
+  { dependencies =
+    [ "ansi"
+    , "argonaut-core"
+    , "arrays"
+    , "bifunctors"
+    , "console"
+    , "dodo-printer"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "functions"
+    , "identity"
+    , "integers"
+    , "invariant"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "nonempty"
+    , "nullable"
+    , "ordered-collections"
+    , "prelude"
+    , "profunctor"
+    , "record"
+    , "safe-coerce"
+    , "st"
+    , "strings"
+    , "these"
+    , "tuples"
+    , "unsafe-coerce"
+    , "validation"
+    , "variant"
+    ]
+  , repo = "https://github.com/jordanmartinez/purescript-json-codecs.git"
+  , version = "v3.0.0"
   }
 , justifill =
   { dependencies = [ "maybe", "prelude", "record", "typelevel-prelude" ]
@@ -3680,10 +3723,12 @@
     , "nullable"
     , "options"
     , "prelude"
+    , "small-ffi"
+    , "unsafe-coerce"
     , "web-html"
     ]
   , repo = "https://github.com/lfarroco/purescript-phaser.git"
-  , version = "v0.6.0"
+  , version = "v0.7.0"
   }
 , pipes =
   { dependencies =
@@ -4025,7 +4070,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-react.git"
-  , version = "v10.0.1"
+  , version = "v11.0.0"
   }
 , react-aria =
   { dependencies =
