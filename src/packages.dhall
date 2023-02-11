@@ -5085,6 +5085,22 @@
   , repo = "https://github.com/purescript/purescript-type-equality.git"
   , version = "v4.0.1"
   }
+, typedenv =
+  { dependencies =
+    [ "either"
+    , "foreign-object"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "numbers"
+    , "prelude"
+    , "record"
+    , "strings"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/nsaunders/purescript-typedenv.git"
+  , version = "v2.0.0"
+  }
 , typelevel =
   { dependencies =
     [ "partial", "prelude", "tuples", "typelevel-prelude", "unsafe-coerce" ]
