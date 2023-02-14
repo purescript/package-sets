@@ -1179,6 +1179,7 @@
     , "either"
     , "exceptions"
     , "foldable-traversable"
+    , "lists"
     , "maybe"
     , "node-buffer"
     , "node-child-process"
@@ -1191,9 +1192,10 @@
     , "sunde"
     , "transformers"
     , "tuples"
+    , "typelevel-prelude"
     ]
   , repo = "https://github.com/nsaunders/purescript-dotenv.git"
-  , version = "v3.0.0"
+  , version = "v4.0.0"
   }
 , droplet =
   { dependencies =
@@ -3394,7 +3396,7 @@
 , numbers =
   { dependencies = [ "functions", "maybe" ]
   , repo = "https://github.com/purescript/purescript-numbers.git"
-  , version = "v9.0.0"
+  , version = "v9.0.1"
   }
 , object-maps =
   { dependencies =
@@ -5099,7 +5101,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/nsaunders/purescript-typedenv.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , typelevel =
   { dependencies =
