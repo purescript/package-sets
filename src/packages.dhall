@@ -5444,6 +5444,11 @@
   , repo = "https://github.com/purescript-web/purescript-web-file.git"
   , version = "v4.0.0"
   }
+, web-geometry =
+  { dependencies = [] : List Text
+  , repo = "https://github.com/purescript-web/purescript-web-geometry.git"
+  , version = "v0.1.0"
+  }
 , web-html =
   { dependencies = [ "js-date", "web-dom", "web-file", "web-storage" ]
   , repo = "https://github.com/purescript-web/purescript-web-html.git"
