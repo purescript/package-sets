@@ -3714,7 +3714,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/gbagan/purescript-pha.git"
-  , version = "v0.9.0"
+  , version = "v0.9.1"
   }
 , phaser =
   { dependencies =
