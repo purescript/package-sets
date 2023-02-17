@@ -4253,7 +4253,7 @@
 , react-icons =
   { dependencies = [ "react-basic", "react-basic-dom", "unsafe-coerce" ]
   , repo = "https://github.com/andys8/purescript-react-icons.git"
-  , version = "v1.0.8"
+  , version = "v1.1.0"
   }
 , react-markdown =
   { dependencies = [ "prelude", "react-basic-hooks" ]
@@ -5398,6 +5398,11 @@
   { dependencies = [ "web-dom", "web-html", "web-uievents" ]
   , repo = "https://github.com/purescript-web/purescript-web-cssom.git"
   , version = "v2.0.0"
+  }
+, web-cssom-view =
+  { dependencies = [ "aff", "web-events", "web-geometry", "web-html" ]
+  , repo = "https://github.com/purescript-web/purescript-web-cssom-view.git"
+  , version = "v0.1.0"
   }
 , web-dom =
   { dependencies = [ "web-events" ]
