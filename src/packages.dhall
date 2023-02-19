@@ -4253,7 +4253,7 @@
 , react-icons =
   { dependencies = [ "react-basic", "react-basic-dom", "unsafe-coerce" ]
   , repo = "https://github.com/andys8/purescript-react-icons.git"
-  , version = "v1.1.0"
+  , version = "v1.1.1"
   }
 , react-markdown =
   { dependencies = [ "prelude", "react-basic-hooks" ]
