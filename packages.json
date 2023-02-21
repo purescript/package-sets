@@ -1201,7 +1201,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/mikesol/purescript-deku.git",
-    "version": "v0.9.9"
+    "version": "v0.9.12"
   },
   "deno": {
     "dependencies": [
@@ -6329,6 +6329,24 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v5.0.0"
+  },
+  "webextension-polyfill": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "console",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "maybe",
+      "newtype",
+      "prelude",
+      "yoga-json"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-webextension-polyfill.git",
+    "version": "v0.1.0"
   },
   "which": {
     "dependencies": [
