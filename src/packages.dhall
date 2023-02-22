@@ -2554,9 +2554,9 @@
   , version = "v1.0.0"
   }
 , js-bigints =
-  { dependencies = [ "aff", "effect", "maybe", "prelude" ]
+  { dependencies = [ "integers", "maybe", "prelude" ]
   , repo = "https://github.com/sigma-andex/purescript-js-bigints.git"
-  , version = "v1.2.0"
+  , version = "v2.0.0"
   }
 , js-date =
   { dependencies =
@@ -5626,6 +5626,7 @@
     , "foldable-traversable"
     , "foreign"
     , "foreign-object"
+    , "free"
     , "identity"
     , "integers"
     , "js-bigints"
@@ -5639,14 +5640,16 @@
     , "partial"
     , "prelude"
     , "record"
+    , "strings"
     , "transformers"
     , "tuples"
     , "typelevel-prelude"
     , "unsafe-coerce"
     , "variant"
+    , "yoga-tree"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-json.git"
-  , version = "v4.0.1"
+  , version = "v5.0.1"
   }
 , yoga-om =
   { dependencies =
