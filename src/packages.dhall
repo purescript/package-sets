@@ -1380,6 +1380,11 @@
   , repo = "https://github.com/purescript/purescript-enums.git"
   , version = "v6.0.1"
   }
+, env-names =
+  { dependencies = [ "arrays", "maybe" ]
+  , repo = "https://github.com/joellefkowitz/env-names.git"
+  , version = "v0.3.1"
+  }
 , error =
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/bklaric/purescript-error.git"
@@ -5649,7 +5654,7 @@
     , "yoga-tree"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-json.git"
-  , version = "v5.0.1"
+  , version = "v5.1.0"
   }
 , yoga-om =
   { dependencies =
