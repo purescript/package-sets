@@ -2397,7 +2397,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-hyrule.git"
-  , version = "v2.3.6"
+  , version = "v2.3.7"
   }
 , identity =
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
@@ -2491,7 +2491,6 @@
     , "effect"
     , "either"
     , "free"
-    , "jelly-hooks"
     , "jelly-signal"
     , "maybe"
     , "prelude"
@@ -2505,7 +2504,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly.git"
-  , version = "v0.9.1"
+  , version = "v0.10.0"
   }
 , jelly-hooks =
   { dependencies =
@@ -2530,7 +2529,6 @@
     [ "effect"
     , "foreign"
     , "jelly"
-    , "jelly-hooks"
     , "jelly-signal"
     , "prelude"
     , "tailrec"
@@ -2540,7 +2538,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/yukikurage/purescript-jelly-router.git"
-  , version = "v0.2.2"
+  , version = "v0.3.0"
   }
 , jelly-signal =
   { dependencies = [ "effect", "prelude", "refs", "tuples", "unsafe-coerce" ]
