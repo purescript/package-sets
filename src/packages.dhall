@@ -254,6 +254,12 @@
   , repo = "https://github.com/paluh/purescript-array-builder.git"
   , version = "v0.1.2"
   }
+, array-search =
+  { dependencies =
+    [ "arrays", "effect", "foldable-traversable", "maybe", "prelude" ]
+  , repo = "https://github.com/JoelLefkowitz/purescript-array-search.git"
+  , version = "v0.5.6"
+  }
 , arraybuffer =
   { dependencies =
     [ "arraybuffer-types"
@@ -329,6 +335,11 @@
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-assert.git"
   , version = "v6.0.0"
+  }
+, assert-multiple =
+  { dependencies = [ "effect", "foldable-traversable", "prelude" ]
+  , repo = "https://github.com/JoelLefkowitz/purescript-assert-multiple.git"
+  , version = "v0.3.4"
   }
 , avar =
   { dependencies =
@@ -1381,9 +1392,9 @@
   , version = "v6.0.1"
   }
 , env-names =
-  { dependencies = [ "arrays", "maybe" ]
+  { dependencies = [ "arrays", "maybe", "prelude" ]
   , repo = "https://github.com/joellefkowitz/env-names.git"
-  , version = "v0.3.1"
+  , version = "v0.3.4"
   }
 , error =
   { dependencies = [ "console", "effect", "prelude" ]
@@ -2506,24 +2517,6 @@
   , repo = "https://github.com/yukikurage/purescript-jelly.git"
   , version = "v0.10.0"
   }
-, jelly-hooks =
-  { dependencies =
-    [ "aff"
-    , "effect"
-    , "jelly-signal"
-    , "js-timers"
-    , "maybe"
-    , "partial"
-    , "prelude"
-    , "refs"
-    , "tailrec"
-    , "transformers"
-    , "tuples"
-    , "web-events"
-    ]
-  , repo = "https://github.com/yukikurage/purescript-jelly-hooks.git"
-  , version = "v0.3.1"
-  }
 , jelly-router =
   { dependencies =
     [ "effect"
@@ -2541,9 +2534,22 @@
   , version = "v0.3.0"
   }
 , jelly-signal =
-  { dependencies = [ "effect", "prelude", "refs", "tuples", "unsafe-coerce" ]
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "js-timers"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "refs"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    , "unsafe-coerce"
+    , "web-events"
+    ]
   , repo = "https://github.com/yukikurage/purescript-jelly-signal.git"
-  , version = "v0.3.1"
+  , version = "v0.4.0"
   }
 , jest =
   { dependencies = [ "aff", "aff-promise", "effect", "prelude" ]
@@ -2786,6 +2792,11 @@
     ]
   , repo = "https://github.com/purescript-contrib/purescript-machines.git"
   , version = "v7.0.0"
+  }
+, maps-eager =
+  { dependencies = [ "maybe", "ordered-collections" ]
+  , repo = "https://github.com/JoelLefkowitz/purescript-maps-eager.git"
+  , version = "v0.4.1"
   }
 , marionette =
   { dependencies =
