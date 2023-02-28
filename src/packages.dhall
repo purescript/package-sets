@@ -448,7 +448,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/mikesol/purescript-bolson.git"
-  , version = "v0.3.1"
+  , version = "v0.3.2"
   }
 , bower-json =
   { dependencies =
@@ -1084,7 +1084,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.9.12"
+  , version = "v0.9.13"
   }
 , deno =
   { dependencies =
@@ -2441,7 +2441,7 @@
 , indexed-monad =
   { dependencies = [ "control", "newtype" ]
   , repo = "https://github.com/garyb/purescript-indexed-monad.git"
-  , version = "v2.1.0"
+  , version = "v3.0.0"
   }
 , int64 =
   { dependencies =
