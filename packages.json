@@ -297,7 +297,7 @@
       "maybe",
       "prelude"
     ],
-    "repo": "https://github.com/JoelLefkowitz/purescript-array-search.git",
+    "repo": "https://github.com/joellefkowitz/array-search.git",
     "version": "v0.5.6"
   },
   "arraybuffer": {
@@ -391,7 +391,7 @@
       "foldable-traversable",
       "prelude"
     ],
-    "repo": "https://github.com/JoelLefkowitz/purescript-assert-multiple.git",
+    "repo": "https://github.com/joellefkowitz/assert-multiple.git",
     "version": "v0.3.4"
   },
   "avar": {
@@ -1221,7 +1221,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/mikesol/purescript-deku.git",
-    "version": "v0.9.13"
+    "version": "v0.9.14"
   },
   "deno": {
     "dependencies": [
@@ -3132,7 +3132,7 @@
       "maybe",
       "ordered-collections"
     ],
-    "repo": "https://github.com/JoelLefkowitz/purescript-maps-eager.git",
+    "repo": "https://github.com/joellefkowitz/maps-eager.git",
     "version": "v0.4.1"
   },
   "marionette": {
