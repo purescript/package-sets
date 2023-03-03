@@ -2438,6 +2438,36 @@
   , repo = "https://github.com/oreshinya/purescript-identy.git"
   , version = "v4.0.1"
   }
+, indexed-db =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "avar"
+    , "console"
+    , "control"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "enums"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "functions"
+    , "identity"
+    , "lists"
+    , "maybe"
+    , "nonempty"
+    , "now"
+    , "nullable"
+    , "prelude"
+    , "read"
+    , "spec"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/ilyakooo0/purescript-indexed-DB.git"
+  , version = "v1.0.0"
+  }
 , indexed-monad =
   { dependencies = [ "control", "newtype" ]
   , repo = "https://github.com/garyb/purescript-indexed-monad.git"
@@ -5217,6 +5247,11 @@
   { dependencies = [ "foldable-traversable", "maybe", "strings" ]
   , repo = "https://github.com/purescript-contrib/purescript-unicode.git"
   , version = "v6.0.0"
+  }
+, unique =
+  { dependencies = [ "effect", "prelude" ]
+  , repo = "https://github.com/nsaunders/purescript-unique.git"
+  , version = "v0.6.0"
   }
 , unlift =
   { dependencies =
