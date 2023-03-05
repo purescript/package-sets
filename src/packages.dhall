@@ -412,6 +412,12 @@
   , repo = "https://github.com/purescript/purescript-bifunctors.git"
   , version = "v6.0.0"
   }
+, bigintegers =
+  { dependencies =
+    [ "assert", "effect", "foldable-traversable", "maybe", "prelude" ]
+  , repo = "https://github.com/Ebmtranceboy/purescript-bigintegers.git"
+  , version = "v0.1.0"
+  }
 , bigints =
   { dependencies =
     [ "arrays"
@@ -4757,16 +4763,24 @@
   }
 , sparse-polynomials =
   { dependencies =
-    [ "cartesian"
-    , "console"
+    [ "arrays"
+    , "assert"
+    , "cartesian"
     , "effect"
+    , "foldable-traversable"
+    , "integers"
+    , "js-bigints"
+    , "maybe"
+    , "numbers"
     , "ordered-collections"
+    , "partial"
     , "prelude"
     , "rationals"
+    , "strings"
     , "tuples"
     ]
   , repo = "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git"
-  , version = "v1.0.5"
+  , version = "v2.0.1"
   }
 , spec =
   { dependencies =
