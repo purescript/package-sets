@@ -412,12 +412,6 @@
   , repo = "https://github.com/purescript/purescript-bifunctors.git"
   , version = "v6.0.0"
   }
-, bigintegers =
-  { dependencies =
-    [ "assert", "effect", "foldable-traversable", "maybe", "prelude" ]
-  , repo = "https://github.com/Ebmtranceboy/purescript-bigintegers.git"
-  , version = "v0.1.0"
-  }
 , bigints =
   { dependencies =
     [ "arrays"
@@ -2729,7 +2723,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/natefaubion/purescript-language-cst-parser.git"
-  , version = "v0.12.1"
+  , version = "v0.12.2"
   }
 , lazy =
   { dependencies = [ "control", "foldable-traversable", "invariant", "prelude" ]
@@ -4757,9 +4751,23 @@
   , version = "v4.1.0"
   }
 , sparse-matrices =
-  { dependencies = [ "console", "effect", "prelude", "sparse-polynomials" ]
+  { dependencies =
+    [ "arrays"
+    , "assert"
+    , "cartesian"
+    , "effect"
+    , "foldable-traversable"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "ordered-collections"
+    , "prelude"
+    , "rationals"
+    , "sparse-polynomials"
+    , "tuples"
+    ]
   , repo = "https://github.com/Ebmtranceboy/purescript-sparse-matrices.git"
-  , version = "v1.2.1"
+  , version = "v1.3.0"
   }
 , sparse-polynomials =
   { dependencies =
@@ -5086,6 +5094,21 @@
     ]
   , repo = "https://github.com/justinwoo/purescript-toppokki.git"
   , version = "v4.0.0"
+  }
+, transformation-matrix =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "numbers"
+    , "prelude"
+    , "spec"
+    , "tuples"
+    ]
+  , repo = "https://github.com/jstoxrocky/purescript-transformation-matrix.git"
+  , version = "v1.0.0"
   }
 , transformers =
   { dependencies =
