@@ -1084,7 +1084,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.9.15"
+  , version = "v0.9.16"
   }
 , deno =
   { dependencies =
@@ -3436,6 +3436,24 @@
   { dependencies = [ "effect", "functions", "maybe" ]
   , repo = "https://github.com/purescript-contrib/purescript-nullable.git"
   , version = "v6.0.0"
+  }
+, numberfield =
+  { dependencies =
+    [ "arrays"
+    , "assert"
+    , "effect"
+    , "foldable-traversable"
+    , "js-bigints"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "rationals"
+    , "sparse-matrices"
+    , "sparse-polynomials"
+    , "tuples"
+    ]
+  , repo = "https://github.com/Ebmtranceboy/purescript-numberfield.git"
+  , version = "v0.1.0"
   }
 , numbers =
   { dependencies = [ "functions", "maybe" ]
