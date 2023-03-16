@@ -3076,6 +3076,20 @@
     "repo": "https://github.com/paf31/purescript-leibniz.git",
     "version": "v5.0.0"
   },
+  "liminal": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "effect",
+      "foldable-traversable",
+      "maybe",
+      "prelude",
+      "spec",
+      "transformation-matrix"
+    ],
+    "repo": "https://github.com/jstoxrocky/purescript-liminal.git",
+    "version": "v1.0.1"
+  },
   "linalg": {
     "dependencies": [
       "arrays",
@@ -5757,7 +5771,7 @@
       "tuples"
     ],
     "repo": "https://github.com/jstoxrocky/purescript-transformation-matrix.git",
-    "version": "v1.0.0"
+    "version": "v1.0.1"
   },
   "transformers": {
     "dependencies": [
