@@ -3257,7 +3257,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/jordanmartinez/purescript-node-execa.git"
-  , version = "v1.1.0"
+  , version = "v1.2.0"
   }
 , node-fs =
   { dependencies =
@@ -5318,9 +5318,9 @@
   , version = "v6.0.0"
   }
 , unique =
-  { dependencies = [ "effect", "prelude" ]
-  , repo = "https://github.com/nsaunders/purescript-unique.git"
-  , version = "v0.6.0"
+  { dependencies = [ "effect", "prelude", "refs" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-unique.git"
+  , version = "v0.6.1"
   }
 , unlift =
   { dependencies =
