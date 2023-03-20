@@ -3243,12 +3243,14 @@
     , "numbers"
     , "ordered-collections"
     , "parallel"
+    , "parsing"
     , "partial"
     , "posix-types"
     , "prelude"
     , "profunctor-lenses"
     , "record"
     , "refs"
+    , "safe-coerce"
     , "strings"
     , "tailrec"
     , "transformers"
@@ -3257,7 +3259,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/jordanmartinez/purescript-node-execa.git"
-  , version = "v1.2.0"
+  , version = "v1.3.0"
   }
 , node-fs =
   { dependencies =
@@ -5689,7 +5691,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , webextension-polyfill =
   { dependencies =
