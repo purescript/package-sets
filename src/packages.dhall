@@ -4822,7 +4822,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git"
-  , version = "v2.0.1"
+  , version = "v2.0.3"
   }
 , spec =
   { dependencies =
