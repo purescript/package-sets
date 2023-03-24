@@ -1084,7 +1084,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.9.16"
+  , version = "v0.9.18"
   }
 , deno =
   { dependencies =
@@ -3282,7 +3282,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-fs.git"
-  , version = "v8.1.1"
+  , version = "v8.2.0"
   }
 , node-fs-aff =
   { dependencies = [ "aff", "either", "node-fs", "node-path" ]
@@ -4396,7 +4396,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/tfc/purescript-recharts.git"
-  , version = "v1.0.0"
+  , version = "v1.1.0"
   }
 , record =
   { dependencies = [ "functions", "prelude", "unsafe-coerce" ]
