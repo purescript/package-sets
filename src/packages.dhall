@@ -3214,7 +3214,8 @@
 , node-event-emitter =
   { dependencies =
     [ "effect", "functions", "prelude", "safe-coerce", "unsafe-coerce" ]
-  , repo = "https://github.com/jordanmartinez/purescript-node-event-emitter.git"
+  , repo =
+    "https://github.com/purescript-node/purescript-node-event-emitter.git"
   , version = "v1.0.1"
   }
 , node-execa =
@@ -3287,7 +3288,7 @@
 , node-fs-aff =
   { dependencies = [ "aff", "either", "node-fs", "node-path" ]
   , repo = "https://github.com/purescript-node/purescript-node-fs-aff.git"
-  , version = "v9.1.0"
+  , version = "v9.2.0"
   }
 , node-http =
   { dependencies =
@@ -5176,6 +5177,41 @@
     ]
   , repo = "https://github.com/jordanmartinez/purescript-tree-rose.git"
   , version = "v4.0.2"
+  }
+, ts-bridge =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "arrays"
+    , "console"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "maybe"
+    , "newtype"
+    , "node-buffer"
+    , "node-child-process"
+    , "node-fs"
+    , "node-fs-aff"
+    , "node-path"
+    , "nullable"
+    , "optparse"
+    , "ordered-collections"
+    , "ordered-set"
+    , "prelude"
+    , "record"
+    , "safe-coerce"
+    , "spec"
+    , "spec-discovery"
+    , "strings"
+    , "sunde"
+    , "transformers"
+    , "tuples"
+    , "typelevel"
+    , "variant"
+    ]
+  , repo = "https://github.com/thought2/purescript-ts-bridge.git"
+  , version = "v0.1.0"
   }
 , tuples =
   { dependencies = [ "control", "invariant", "prelude" ]
