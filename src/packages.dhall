@@ -1892,6 +1892,27 @@
   , repo = "https://github.com/njaremko/purescript-generic-router.git"
   , version = "v0.0.1"
   }
+, geojson =
+  { dependencies =
+    [ "argonaut"
+    , "argonaut-codecs"
+    , "arrays"
+    , "console"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "maybe"
+    , "nonempty"
+    , "prelude"
+    , "transformers"
+    , "tuples"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/sumew/purescript-geojson.git"
+  , version = "v0.0.1"
+  }
 , geometry-plane =
   { dependencies = [ "console", "effect", "psci-support", "sparse-polynomials" ]
   , repo = "https://github.com/Ebmtranceboy/purescript-geometry-plane.git"
@@ -5183,6 +5204,7 @@
     [ "aff"
     , "aff-promise"
     , "arrays"
+    , "bifunctors"
     , "console"
     , "effect"
     , "either"
@@ -5190,10 +5212,10 @@
     , "maybe"
     , "newtype"
     , "node-buffer"
-    , "node-child-process"
     , "node-fs"
     , "node-fs-aff"
     , "node-path"
+    , "node-process"
     , "nullable"
     , "optparse"
     , "ordered-collections"
@@ -5204,14 +5226,12 @@
     , "spec"
     , "spec-discovery"
     , "strings"
-    , "sunde"
     , "transformers"
     , "tuples"
-    , "typelevel"
     , "variant"
     ]
   , repo = "https://github.com/thought2/purescript-ts-bridge.git"
-  , version = "v0.1.0"
+  , version = "v1.0.0"
   }
 , tuples =
   { dependencies = [ "control", "invariant", "prelude" ]
