@@ -1911,7 +1911,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/sumew/purescript-geojson.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , geometry-plane =
   { dependencies = [ "console", "effect", "psci-support", "sparse-polynomials" ]
