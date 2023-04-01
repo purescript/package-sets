@@ -1244,6 +1244,21 @@
   , repo = "https://github.com/easafe/purescript-droplet.git"
   , version = "v0.6.0"
   }
+, dts =
+  { dependencies =
+    [ "arrays"
+    , "console"
+    , "effect"
+    , "maybe"
+    , "newtype"
+    , "ordered-collections"
+    , "ordered-set"
+    , "prelude"
+    , "tuples"
+    ]
+  , repo = "https://github.com/thought2/purescript-dts.git"
+  , version = "v0.1.3"
+  }
 , dynamic-buffer =
   { dependencies = [ "arraybuffer-types", "effect", "refs" ]
   , repo = "https://github.com/kritzcreek/purescript-dynamic-buffer.git"
@@ -5204,8 +5219,8 @@
     [ "aff"
     , "aff-promise"
     , "arrays"
-    , "bifunctors"
     , "console"
+    , "dts"
     , "effect"
     , "either"
     , "foldable-traversable"
@@ -5231,7 +5246,7 @@
     , "variant"
     ]
   , repo = "https://github.com/thought2/purescript-ts-bridge.git"
-  , version = "v1.0.0"
+  , version = "v2.0.3"
   }
 , tuples =
   { dependencies = [ "control", "invariant", "prelude" ]
