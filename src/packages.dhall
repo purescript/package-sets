@@ -2735,6 +2735,7 @@
     , "control"
     , "effect"
     , "either"
+    , "enums"
     , "foldable-traversable"
     , "free"
     , "functions"
@@ -2759,7 +2760,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/natefaubion/purescript-language-cst-parser.git"
-  , version = "v0.12.2"
+  , version = "v0.12.3"
   }
 , lazy =
   { dependencies = [ "control", "foldable-traversable", "invariant", "prelude" ]
