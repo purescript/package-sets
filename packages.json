@@ -1709,7 +1709,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-fetch-argonaut.git",
-    "version": "v1.0.0"
+    "version": "v1.0.1"
   },
   "fetch-core": {
     "dependencies": [
