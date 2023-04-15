@@ -1664,6 +1664,19 @@
   , repo = "https://github.com/purescript/purescript-foreign.git"
   , version = "v7.0.0"
   }
+, foreign-generic =
+  {
+    dependencies =
+    [ "effect"
+    , "foreign"
+    , "foreign-object"
+    , "ordered-collections"
+    , "exceptions"
+    , "record"
+    ]
+  , repo = "https://github.com/paf31/purescript-foreign-generic.git"
+  , version = "v11.0.0"
+  }
 , foreign-object =
   { dependencies =
     [ "arrays"
