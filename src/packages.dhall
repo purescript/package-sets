@@ -448,7 +448,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/mikesol/purescript-bolson.git"
-  , version = "v0.3.2"
+  , version = "v0.3.9"
   }
 , bower-json =
   { dependencies =
@@ -1063,18 +1063,19 @@
     , "filterable"
     , "foldable-traversable"
     , "foreign-object"
+    , "free"
     , "hyrule"
     , "maybe"
     , "newtype"
     , "ordered-collections"
     , "prelude"
     , "profunctor"
-    , "profunctor-lenses"
     , "quickcheck"
     , "record"
     , "safe-coerce"
     , "st"
     , "strings"
+    , "stringutils"
     , "transformers"
     , "tuples"
     , "unsafe-coerce"
@@ -1084,7 +1085,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.9.18"
+  , version = "v0.9.20"
   }
 , deno =
   { dependencies =
@@ -2419,6 +2420,7 @@
     [ "arrays"
     , "control"
     , "datetime"
+    , "debug"
     , "effect"
     , "either"
     , "filterable"
@@ -2426,13 +2428,11 @@
     , "js-timers"
     , "lists"
     , "maybe"
-    , "monoid-extras"
     , "newtype"
     , "now"
     , "ordered-collections"
     , "partial"
     , "prelude"
-    , "profunctor"
     , "record"
     , "refs"
     , "st"
@@ -2444,7 +2444,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-hyrule.git"
-  , version = "v2.3.7"
+  , version = "v2.3.8"
   }
 , identity =
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
@@ -2985,7 +2985,7 @@
 , metadata =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-metadata.git"
-  , version = "v0.15.7"
+  , version = "v0.15.8"
   }
 , midi =
   { dependencies =
@@ -3577,7 +3577,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/mikesol/purescript-ocarina.git"
-  , version = "v1.5.2"
+  , version = "v1.5.4"
   }
 , open-folds =
   { dependencies =
@@ -4555,7 +4555,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-rito.git"
-  , version = "v0.3.2"
+  , version = "v0.3.4"
   }
 , routing =
   { dependencies =
