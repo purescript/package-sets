@@ -3160,6 +3160,11 @@
   , repo = "https://github.com/eikooc/nano-id.git"
   , version = "v1.1.0"
   }
+, nanoid =
+  { dependencies = [ "effect", "prelude", "yoga-json" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-nanoid.git"
+  , version = "v0.1.0"
+  }
 , naturals =
   { dependencies = [ "enums", "maybe", "prelude" ]
   , repo = "https://github.com/LiamGoodacre/purescript-naturals.git"
