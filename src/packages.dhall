@@ -1701,6 +1701,11 @@
   , repo = "https://github.com/artemisSystem/purescript-foreign-readwrite.git"
   , version = "v3.4.0"
   }
+, forgetmenot =
+  { dependencies = [] : List Text
+  , repo = "https://github.com/rowtype-yoga/purescript-forgetmenot.git"
+  , version = "v0.1.0"
+  }
 , fork =
   { dependencies = [ "aff" ]
   , repo = "https://github.com/purescript-contrib/purescript-fork.git"
