@@ -2635,7 +2635,7 @@
   }
 , js-bigints =
   { dependencies = [ "integers", "maybe", "prelude" ]
-  , repo = "https://github.com/sigma-andex/purescript-js-bigints.git"
+  , repo = "https://github.com/purescript-contrib/purescript-js-bigints.git"
   , version = "v2.0.0"
   }
 , js-date =
@@ -2731,6 +2731,24 @@
     ]
   , repo = "https://github.com/menelaos/purescript-jwt.git"
   , version = "v0.0.9"
+  }
+, labeled-data =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "either"
+    , "heterogeneous"
+    , "maybe"
+    , "prelude"
+    , "record"
+    , "spec"
+    , "tuples"
+    , "type-equality"
+    , "unsafe-coerce"
+    , "variant"
+    ]
+  , repo = "https://github.com/thought2/purescript-labeled-data.git"
+  , version = "v0.1.0"
   }
 , language-cst-parser =
   { dependencies =
@@ -3869,6 +3887,22 @@
     [ "aff", "arrays", "effect", "hyrule", "parallel", "prelude", "refs", "st" ]
   , repo = "https://github.com/mikesol/purescript-pirates-charm.git"
   , version = "v0.0.1"
+  }
+, pmock =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "effect"
+    , "exceptions"
+    , "maybe"
+    , "prelude"
+    , "spec"
+    , "strings"
+    , "transformers"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
+  , version = "v0.1.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
@@ -5525,6 +5559,11 @@
     ]
   , repo = "https://github.com/natefaubion/purescript-variant.git"
   , version = "v8.0.0"
+  }
+, variant-encodings =
+  { dependencies = [ "prelude", "unsafe-coerce", "variant" ]
+  , repo = "https://github.com/thought2/purescript-variant-encodings.git"
+  , version = "v0.1.0"
   }
 , vectorfield =
   { dependencies = [ "console", "effect", "group", "prelude", "psci-support" ]
