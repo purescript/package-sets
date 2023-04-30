@@ -3544,22 +3544,18 @@
   }
 , object-maps =
   { dependencies =
-    [ "aff"
-    , "argonaut-codecs"
+    [ "argonaut-codecs"
     , "argonaut-core"
-    , "datetime"
-    , "debug"
-    , "effect"
     , "either"
     , "foreign-object"
     , "maybe"
     , "prelude"
     , "profunctor-lenses"
-    , "spec"
+    , "st"
     , "tuples"
     ]
   , repo = "https://github.com/thought2/purescript-object-maps.git"
-  , version = "v0.1.1"
+  , version = "v0.2.0"
   }
 , ocarina =
   { dependencies =
@@ -3902,7 +3898,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
