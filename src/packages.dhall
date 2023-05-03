@@ -2636,7 +2636,7 @@
 , js-bigints =
   { dependencies = [ "integers", "maybe", "prelude" ]
   , repo = "https://github.com/purescript-contrib/purescript-js-bigints.git"
-  , version = "v2.0.0"
+  , version = "v2.1.0"
   }
 , js-date =
   { dependencies =
@@ -3547,15 +3547,17 @@
     [ "argonaut-codecs"
     , "argonaut-core"
     , "either"
+    , "foldable-traversable"
     , "foreign-object"
     , "maybe"
     , "prelude"
     , "profunctor-lenses"
     , "st"
     , "tuples"
+    , "unsafe-coerce"
     ]
   , repo = "https://github.com/thought2/purescript-object-maps.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , ocarina =
   { dependencies =
@@ -3839,6 +3841,7 @@
     , "free"
     , "integers"
     , "maybe"
+    , "ordered-collections"
     , "prelude"
     , "profunctor-lenses"
     , "refs"
@@ -3854,7 +3857,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/gbagan/purescript-pha.git"
-  , version = "v0.9.1"
+  , version = "v0.10.1"
   }
 , phaser =
   { dependencies =
@@ -5828,6 +5831,27 @@
   , repo =
     "https://github.com/rowtype-yoga/purescript-webextension-polyfill.git"
   , version = "v0.1.0"
+  }
+, webgpu =
+  { dependencies =
+    [ "arraybuffer-types"
+    , "effect"
+    , "foreign"
+    , "foreign-object"
+    , "functions"
+    , "integers"
+    , "maybe"
+    , "newtype"
+    , "ordered-collections"
+    , "prelude"
+    , "uint"
+    , "unsafe-coerce"
+    , "web-events"
+    , "web-html"
+    , "web-promise"
+    ]
+  , repo = "https://github.com/purescript-web/purescript-webgpu.git"
+  , version = "v0.0.0"
   }
 , which =
   { dependencies =
