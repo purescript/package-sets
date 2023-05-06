@@ -3875,6 +3875,30 @@
   , repo = "https://github.com/lfarroco/purescript-phaser.git"
   , version = "v0.7.0"
   }
+, phylio =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "either"
+    , "enums"
+    , "filterable"
+    , "foldable-traversable"
+    , "graphs"
+    , "identity"
+    , "lists"
+    , "maybe"
+    , "numbers"
+    , "ordered-collections"
+    , "parsing"
+    , "prelude"
+    , "strings"
+    , "stringutils"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/vibbits/phylio.git"
+  , version = "v1.1.2"
+  }
 , pipes =
   { dependencies =
     [ "aff", "lists", "mmorph", "prelude", "tailrec", "transformers", "tuples" ]
@@ -3901,7 +3925,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
@@ -5972,5 +5996,21 @@
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-tree.git"
   , version = "v1.0.0"
+  }
+, z3 =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foldable-traversable"
+    , "js-bigints"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "prelude"
+    , "refs"
+    , "transformers"
+    ]
+  , repo = "https://github.com/gbagan/purescript-z3.git"
+  , version = "v0.0.1"
   }
 }
