@@ -6000,17 +6000,20 @@
 , z3 =
   { dependencies =
     [ "aff"
+    , "arrays"
     , "effect"
     , "foldable-traversable"
+    , "functions"
     , "js-bigints"
     , "js-promise"
     , "js-promise-aff"
     , "maybe"
     , "prelude"
+    , "record"
     , "refs"
     , "transformers"
     ]
   , repo = "https://github.com/gbagan/purescript-z3.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 }
