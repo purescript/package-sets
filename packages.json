@@ -2944,6 +2944,40 @@
     "repo": "https://github.com/newlandsvalley/purescript-js-fileio.git",
     "version": "v3.0.0"
   },
+  "js-iterators": {
+    "dependencies": [
+      "foldable-traversable",
+      "functions",
+      "lazy",
+      "lists",
+      "maybe",
+      "prelude",
+      "st",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/gbagan/purescript-js-iterators.git",
+    "version": "v0.1.1"
+  },
+  "js-maps": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "foldable-traversable",
+      "functions",
+      "js-bigints",
+      "maybe",
+      "prelude",
+      "profunctor-lenses",
+      "st",
+      "strings",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/gbagan/purescript-js-maps.git",
+    "version": "v0.1.2"
+  },
   "js-promise": {
     "dependencies": [
       "effect",
