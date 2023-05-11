@@ -1085,7 +1085,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.9.20"
+  , version = "v0.9.21"
   }
 , deno =
   { dependencies =
@@ -2865,7 +2865,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/gbagan/purescript-linalg.git"
-  , version = "v5.1.0"
+  , version = "v6.0.0"
   }
 , lists =
   { dependencies =
@@ -3867,13 +3867,11 @@
 , pha =
   { dependencies =
     [ "aff"
-    , "arrays"
     , "bifunctors"
-    , "datetime"
     , "effect"
     , "foldable-traversable"
     , "free"
-    , "integers"
+    , "functions"
     , "maybe"
     , "ordered-collections"
     , "prelude"
@@ -3891,7 +3889,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/gbagan/purescript-pha.git"
-  , version = "v0.10.1"
+  , version = "v0.10.2"
   }
 , phaser =
   { dependencies =
