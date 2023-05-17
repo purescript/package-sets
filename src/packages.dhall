@@ -5211,14 +5211,15 @@
     , "strings"
     , "transformers"
     , "tuples"
+    , "web-html"
     ]
   , repo = "https://github.com/nsaunders/purescript-tecton.git"
-  , version = "v0.1.6"
+  , version = "v0.2.0"
   }
 , tecton-halogen =
   { dependencies = [ "halogen", "lists", "prelude", "tecton", "transformers" ]
   , repo = "https://github.com/nsaunders/purescript-tecton-halogen.git"
-  , version = "v0.1.3"
+  , version = "v0.2.0"
   }
 , test-unit =
   { dependencies =
