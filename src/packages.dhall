@@ -5619,7 +5619,7 @@
 , variant-encodings =
   { dependencies = [ "prelude", "unsafe-coerce", "variant" ]
   , repo = "https://github.com/thought2/purescript-variant-encodings.git"
-  , version = "v0.1.0"
+  , version = "v1.0.0"
   }
 , vectorfield =
   { dependencies = [ "console", "effect", "group", "prelude", "psci-support" ]
