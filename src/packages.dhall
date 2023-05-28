@@ -3775,7 +3775,7 @@
   { dependencies =
     [ "console", "distributive", "foldable-traversable", "quickcheck" ]
   , repo = "https://github.com/sharkdp/purescript-pairs.git"
-  , version = "v9.0.0"
+  , version = "v9.0.1"
   }
 , parallel =
   { dependencies =
