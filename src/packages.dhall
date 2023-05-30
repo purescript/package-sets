@@ -1258,7 +1258,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/thought2/purescript-dts.git"
-  , version = "v0.1.3"
+  , version = "v0.1.4"
   }
 , dynamic-buffer =
   { dependencies = [ "arraybuffer-types", "effect", "refs" ]
@@ -2771,18 +2771,16 @@
     [ "aff"
     , "effect"
     , "either"
-    , "heterogeneous"
     , "maybe"
     , "prelude"
     , "record"
-    , "spec"
     , "tuples"
     , "type-equality"
     , "unsafe-coerce"
     , "variant"
     ]
   , repo = "https://github.com/thought2/purescript-labeled-data.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , language-cst-parser =
   { dependencies =
@@ -5619,7 +5617,7 @@
 , variant-encodings =
   { dependencies = [ "prelude", "unsafe-coerce", "variant" ]
   , repo = "https://github.com/thought2/purescript-variant-encodings.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , vectorfield =
   { dependencies = [ "console", "effect", "group", "prelude", "psci-support" ]
