@@ -4409,7 +4409,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/megamaddu/purescript-react-basic-hooks.git"
-  , version = "v8.1.2"
+  , version = "v8.2.0"
   }
 , react-basic-storybook =
   { dependencies =
