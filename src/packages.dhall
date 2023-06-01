@@ -3574,6 +3574,21 @@
   , repo = "https://github.com/purescript/purescript-numbers.git"
   , version = "v9.0.1"
   }
+, oak =
+  { dependencies =
+    [ "console"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "functions"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "refs"
+    ]
+  , repo = "https://github.com/ehrenmurdick/purescript-oak.git"
+  , version = "v3.1.0"
+  }
 , object-maps =
   { dependencies =
     [ "argonaut-codecs"
@@ -3955,7 +3970,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
-  , version = "v0.3.0"
+  , version = "v0.4.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
