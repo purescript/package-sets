@@ -2156,7 +2156,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-  , version = "v4.0.2"
+  , version = "v4.0.3"
   }
 , halogen-helix =
   { dependencies =
@@ -2815,7 +2815,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/natefaubion/purescript-language-cst-parser.git"
-  , version = "v0.12.3"
+  , version = "v0.13.0"
   }
 , lazy =
   { dependencies = [ "control", "foldable-traversable", "invariant", "prelude" ]
