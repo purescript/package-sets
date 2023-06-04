@@ -450,6 +450,30 @@
   , repo = "https://github.com/mikesol/purescript-bolson.git"
   , version = "v0.3.9"
   }
+, bookhound =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "control"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "numbers"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "psci-support"
+    , "strings"
+    , "tuples"
+    , "unfoldable"
+    , "unicode"
+    ]
+  , repo = "https://github.com/albertprz/purescript-bookhound.git"
+  , version = "v0.1.0"
+  }
 , bower-json =
   { dependencies =
     [ "argonaut-codecs"
