@@ -472,7 +472,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/albertprz/purescript-bookhound.git"
-  , version = "v0.1.0"
+  , version = "v0.1.2"
   }
 , bower-json =
   { dependencies =
