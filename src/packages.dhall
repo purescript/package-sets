@@ -2143,6 +2143,11 @@
   , repo = "https://github.com/purescript-halogen/purescript-halogen-css.git"
   , version = "v10.0.0"
   }
+, halogen-css-frameworks =
+  { dependencies = [ "halogen" ]
+  , repo = "https://github.com/deemp/purescript-halogen-css-frameworks.git"
+  , version = "v1.0.0"
+  }
 , halogen-echarts-simple =
   { dependencies =
     [ "aff"
