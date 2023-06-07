@@ -2136,7 +2136,7 @@
 , halogen-bootstrap5 =
   { dependencies = [ "halogen" ]
   , repo = "https://github.com/tonicebrian/purescript-halogen-bootstrap5.git"
-  , version = "v2.1.0"
+  , version = "v2.2.0"
   }
 , halogen-css =
   { dependencies = [ "css", "halogen" ]
