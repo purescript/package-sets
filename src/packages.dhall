@@ -3465,6 +3465,31 @@
   , repo = "https://github.com/purescript-node/purescript-node-net.git"
   , version = "v4.0.0"
   }
+, node-os =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "console"
+    , "control"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "functions"
+    , "maybe"
+    , "node-buffer"
+    , "nullable"
+    , "partial"
+    , "posix-types"
+    , "prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/purescript-node/purescript-node-os.git"
+  , version = "v4.0.0"
+  }
 , node-path =
   { dependencies = [ "effect" ]
   , repo = "https://github.com/purescript-node/purescript-node-path.git"
@@ -5797,6 +5822,12 @@
   { dependencies = [ "js-date", "web-dom", "web-file", "web-storage" ]
   , repo = "https://github.com/purescript-web/purescript-web-html.git"
   , version = "v4.1.0"
+  }
+, web-intl =
+  { dependencies =
+    [ "effect", "functions", "js-date", "prelude", "unsafe-coerce" ]
+  , repo = "https://github.com/ptrfrncsmrph/purescript-web-intl.git"
+  , version = "v0.0.1"
   }
 , web-pointerevents =
   { dependencies = [ "effect", "maybe", "prelude", "web-dom", "web-uievents" ]
