@@ -3386,7 +3386,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/jordanmartinez/purescript-node-execa.git"
-  , version = "v1.3.2"
+  , version = "v2.0.0"
   }
 , node-fs =
   { dependencies =
@@ -5075,6 +5075,20 @@
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec-discovery.git"
   , version = "v8.0.1"
+  }
+, spec-golden =
+  { dependencies =
+    [ "aff"
+    , "either"
+    , "foldable-traversable"
+    , "maybe"
+    , "node-execa"
+    , "node-path"
+    , "prelude"
+    , "spec"
+    ]
+  , repo = "https://github.com/jordanmartinez/purescript-spec-golden.git"
+  , version = "v1.0.0"
   }
 , spec-quickcheck =
   { dependencies = [ "aff", "prelude", "quickcheck", "random", "spec" ]
