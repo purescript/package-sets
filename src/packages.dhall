@@ -3337,6 +3337,22 @@
     "https://github.com/purescript-node/purescript-node-child-process.git"
   , version = "v9.0.0"
   }
+, node-env-paths =
+  { dependencies =
+    [ "control"
+    , "effect"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "maybe"
+    , "node-os"
+    , "node-path"
+    , "node-process"
+    , "prelude"
+    , "strings"
+    ]
+  , repo = "https://github.com/jordanmartinez/purescript-node-env-paths.git"
+  , version = "v1.0.0"
+  }
 , node-event-emitter =
   { dependencies =
     [ "effect", "functions", "prelude", "safe-coerce", "unsafe-coerce" ]
@@ -5839,9 +5855,16 @@
   }
 , web-intl =
   { dependencies =
-    [ "effect", "functions", "js-date", "prelude", "unsafe-coerce" ]
+    [ "effect"
+    , "functions"
+    , "js-date"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "unsafe-coerce"
+    ]
   , repo = "https://github.com/ptrfrncsmrph/purescript-web-intl.git"
-  , version = "v0.0.1"
+  , version = "v0.1.0"
   }
 , web-pointerevents =
   { dependencies = [ "effect", "maybe", "prelude", "web-dom", "web-uievents" ]
