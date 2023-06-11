@@ -4278,7 +4278,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/sharkdp/purescript-quantities.git"
-  , version = "v12.1.0"
+  , version = "v12.2.0"
   }
 , quickcheck =
   { dependencies =
