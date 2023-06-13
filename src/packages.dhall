@@ -1109,7 +1109,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.9.21"
+  , version = "v0.9.22"
   }
 , deno =
   { dependencies =
@@ -5311,7 +5311,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/nsaunders/purescript-tecton.git"
-  , version = "v0.2.0"
+  , version = "v0.2.1"
   }
 , tecton-halogen =
   { dependencies = [ "halogen", "lists", "prelude", "tecton", "transformers" ]
