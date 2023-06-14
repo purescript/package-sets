@@ -307,6 +307,7 @@
     [ "bifunctors"
     , "control"
     , "foldable-traversable"
+    , "functions"
     , "maybe"
     , "nonempty"
     , "partial"
@@ -319,7 +320,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-arrays.git"
-  , version = "v7.2.0"
+  , version = "v7.2.1"
   }
 , arrays-zipper =
   { dependencies = [ "arrays", "control", "quickcheck" ]
