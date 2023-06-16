@@ -3653,7 +3653,13 @@
     , "refs"
     ]
   , repo = "https://github.com/ehrenmurdick/purescript-oak.git"
-  , version = "v3.1.0"
+  , version = "v3.1.1"
+  }
+, oak-debug =
+  { dependencies =
+    [ "arrays", "console", "effect", "foldable-traversable", "oak", "prelude" ]
+  , repo = "https://github.com/ehrenmurdick/purescript-oak-debug.git"
+  , version = "v1.2.2"
   }
 , object-maps =
   { dependencies =
