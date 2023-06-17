@@ -1010,6 +1010,11 @@
   , repo = "https://github.com/purescript-contrib/purescript-css.git"
   , version = "v6.0.0"
   }
+, css-frameworks =
+  { dependencies = [ "web-html" ]
+  , repo = "https://github.com/deemp/purescript-css-frameworks.git"
+  , version = "v1.0.1"
+  }
 , datetime =
   { dependencies =
     [ "bifunctors"
@@ -5857,7 +5862,8 @@
   }
 , web-intl =
   { dependencies =
-    [ "effect"
+    [ "arrays"
+    , "effect"
     , "functions"
     , "js-date"
     , "maybe"
@@ -5866,7 +5872,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/ptrfrncsmrph/purescript-web-intl.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , web-pointerevents =
   { dependencies = [ "effect", "maybe", "prelude", "web-dom", "web-uievents" ]
