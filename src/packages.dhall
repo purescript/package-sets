@@ -3070,7 +3070,7 @@
 , metadata =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-metadata.git"
-  , version = "v0.15.8"
+  , version = "v0.15.9"
   }
 , midi =
   { dependencies =
