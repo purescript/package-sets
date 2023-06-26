@@ -3356,10 +3356,17 @@
   }
 , node-event-emitter =
   { dependencies =
-    [ "effect", "functions", "prelude", "safe-coerce", "unsafe-coerce" ]
+    [ "effect"
+    , "either"
+    , "functions"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "unsafe-coerce"
+    ]
   , repo =
     "https://github.com/purescript-node/purescript-node-event-emitter.git"
-  , version = "v1.0.1"
+  , version = "v3.0.0"
   }
 , node-execa =
   { dependencies =
@@ -3403,7 +3410,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/jordanmartinez/purescript-node-execa.git"
-  , version = "v2.0.0"
+  , version = "v3.0.0"
   }
 , node-fs =
   { dependencies =
@@ -4557,7 +4564,7 @@
   }
 , react-icons =
   { dependencies = [ "react-basic", "react-basic-dom", "unsafe-coerce" ]
-  , repo = "https://github.com/andys8/purescript-react-icons.git"
+  , repo = "https://github.com/purescript-react/purescript-react-icons.git"
   , version = "v1.1.1"
   }
 , react-markdown =
