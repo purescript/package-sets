@@ -5876,10 +5876,12 @@
     , "maybe"
     , "nullable"
     , "prelude"
+    , "tuples"
+    , "unfoldable"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/ptrfrncsmrph/purescript-web-intl.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , web-pointerevents =
   { dependencies = [ "effect", "maybe", "prelude", "web-dom", "web-uievents" ]
