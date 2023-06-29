@@ -459,6 +459,7 @@
     , "either"
     , "foldable-traversable"
     , "integers"
+    , "lazy"
     , "lists"
     , "maybe"
     , "newtype"
@@ -473,7 +474,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/albertprz/purescript-bookhound.git"
-  , version = "v0.1.2"
+  , version = "v0.1.3"
   }
 , bower-json =
   { dependencies =
