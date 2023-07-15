@@ -1,33 +1,4 @@
-{ abc-parser =
-  { dependencies =
-    [ "arrays"
-    , "bifunctors"
-    , "control"
-    , "either"
-    , "enums"
-    , "foldable-traversable"
-    , "identity"
-    , "integers"
-    , "lists"
-    , "maybe"
-    , "midi"
-    , "newtype"
-    , "ordered-collections"
-    , "partial"
-    , "prelude"
-    , "profunctor-lenses"
-    , "rationals"
-    , "string-parsers"
-    , "strings"
-    , "stringutils"
-    , "transformers"
-    , "tuples"
-    , "unfoldable"
-    ]
-  , repo = "https://github.com/newlandsvalley/purescript-abc-parser.git"
-  , version = "v2.0.0"
-  }
-, ace =
+{ ace =
   { dependencies =
     [ "arrays"
     , "effect"
@@ -4350,9 +4321,9 @@
   , version = "v6.0.0"
   }
 , rationals =
-  { dependencies = [ "integers", "prelude" ]
+  { dependencies = [ "integers", "js-bigints", "prelude" ]
   , repo = "https://github.com/purescript-contrib/purescript-rationals.git"
-  , version = "v5.0.1"
+  , version = "v6.0.0"
   }
 , rdf =
   { dependencies =
