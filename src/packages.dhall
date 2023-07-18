@@ -2255,6 +2255,29 @@
   , repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git"
   , version = "v8.0.0"
   }
+, halogen-typewriter =
+  { dependencies =
+    [ "aff"
+    , "css"
+    , "datetime"
+    , "effect"
+    , "foldable-traversable"
+    , "halogen"
+    , "halogen-css"
+    , "halogen-subscriptions"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "profunctor-lenses"
+    , "random"
+    , "strings"
+    , "transformers"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/qwbarch/halogen-typewriter.git"
+  , version = "v1.0.2"
+  }
 , halogen-vdom =
   { dependencies =
     [ "bifunctors"
@@ -5040,6 +5063,7 @@
     , "console"
     , "control"
     , "datetime"
+    , "debug"
     , "effect"
     , "either"
     , "exceptions"
@@ -5050,18 +5074,26 @@
     , "lists"
     , "maybe"
     , "newtype"
+    , "node-buffer"
+    , "node-child-process"
+    , "node-fs"
+    , "node-fs-aff"
+    , "node-os"
+    , "node-process"
+    , "node-streams"
     , "now"
     , "ordered-collections"
     , "parallel"
     , "pipes"
     , "prelude"
+    , "refs"
     , "strings"
     , "tailrec"
     , "transformers"
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v7.3.0"
+  , version = "v7.5.1"
   }
 , spec-discovery =
   { dependencies =
