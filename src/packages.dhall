@@ -1303,6 +1303,8 @@
     , "partial"
     , "prelude"
     , "refs"
+    , "safe-coerce"
+    , "type-equality"
     , "typelevel-prelude"
     , "undefined-is-not-a-problem"
     , "unsafe-coerce"
@@ -1310,7 +1312,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.9.3"
+  , version = "v0.10.0"
   }
 , elmish-enzyme =
   { dependencies =
@@ -5060,7 +5062,6 @@
     , "arrays"
     , "avar"
     , "bifunctors"
-    , "console"
     , "control"
     , "datetime"
     , "debug"
@@ -5074,13 +5075,6 @@
     , "lists"
     , "maybe"
     , "newtype"
-    , "node-buffer"
-    , "node-child-process"
-    , "node-fs"
-    , "node-fs-aff"
-    , "node-os"
-    , "node-process"
-    , "node-streams"
     , "now"
     , "ordered-collections"
     , "parallel"
@@ -5093,7 +5087,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v7.5.1"
+  , version = "v7.5.3"
   }
 , spec-discovery =
   { dependencies =
@@ -5128,6 +5122,12 @@
   { dependencies = [ "aff", "prelude", "quickcheck", "random", "spec" ]
   , repo = "https://github.com/purescript-spec/purescript-spec-quickcheck.git"
   , version = "v5.0.0"
+  }
+, spec-reporter-xunit =
+  { dependencies = [ "node-fs-aff", "spec", "transformers" ]
+  , repo =
+    "https://github.com/purescript-spec/purescript-spec-reporter-xunit.git"
+  , version = "v0.6.1"
   }
 , splitmix =
   { dependencies =
@@ -5874,18 +5874,21 @@
 , web-intl =
   { dependencies =
     [ "arrays"
+    , "datetime"
     , "effect"
+    , "enums"
     , "functions"
     , "js-date"
     , "maybe"
     , "nullable"
+    , "partial"
     , "prelude"
     , "tuples"
     , "unfoldable"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/ptrfrncsmrph/purescript-web-intl.git"
-  , version = "v0.3.0"
+  , version = "v0.4.0"
   }
 , web-pointerevents =
   { dependencies = [ "effect", "maybe", "prelude", "web-dom", "web-uievents" ]
