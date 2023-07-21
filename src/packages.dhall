@@ -3509,7 +3509,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-os.git"
-  , version = "v4.0.0"
+  , version = "v5.1.0"
   }
 , node-path =
   { dependencies = [ "effect" ]
@@ -3575,6 +3575,20 @@
   { dependencies = [ "nullable" ]
   , repo = "https://github.com/purescript-node/purescript-node-url.git"
   , version = "v6.0.0"
+  }
+, node-zlib =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "either"
+    , "functions"
+    , "node-buffer"
+    , "node-streams"
+    , "prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/JordanMartinez/purescript-node-zlib.git"
+  , version = "v0.2.1"
   }
 , nodemailer =
   { dependencies =
@@ -5087,7 +5101,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v7.5.3"
+  , version = "v7.5.4"
   }
 , spec-discovery =
   { dependencies =
@@ -5117,6 +5131,20 @@
     ]
   , repo = "https://github.com/jordanmartinez/purescript-spec-golden.git"
   , version = "v1.0.0"
+  }
+, spec-mocha =
+  { dependencies =
+    [ "aff"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "maybe"
+    , "prelude"
+    , "spec"
+    ]
+  , repo = "https://github.com/purescript-spec/purescript-spec-mocha.git"
+  , version = "v5.0.0"
   }
 , spec-quickcheck =
   { dependencies = [ "aff", "prelude", "quickcheck", "random", "spec" ]
