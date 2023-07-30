@@ -752,6 +752,20 @@
   , repo = "https://github.com/purescript/purescript-catenable-lists.git"
   , version = "v7.0.0"
   }
+, chameleon =
+  { dependencies =
+    [ "either"
+    , "foreign"
+    , "maybe"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "variant"
+    ]
+  , repo = "https://github.com/thought2/purescript-chameleon.git"
+  , version = "v0.0.3"
+  }
 , channel =
   { dependencies =
     [ "aff"
