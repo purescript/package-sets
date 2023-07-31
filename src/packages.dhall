@@ -764,7 +764,62 @@
     , "variant"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon.git"
-  , version = "v0.0.3"
+  , version = "v0.0.5"
+  }
+, chameleon-halogen =
+  { dependencies =
+    [ "aff"
+    , "bifunctors"
+    , "chameleon"
+    , "effect"
+    , "foreign"
+    , "foreign-object"
+    , "halogen"
+    , "halogen-vdom"
+    , "maybe"
+    , "prelude"
+    , "safe-coerce"
+    , "strings"
+    , "tuples"
+    , "unsafe-coerce"
+    , "web-events"
+    , "web-html"
+    ]
+  , repo = "https://github.com/thought2/purescript-chameleon-halogen.git"
+  , version = "v0.0.4"
+  }
+, chameleon-react-basic =
+  { dependencies =
+    [ "arrays"
+    , "chameleon"
+    , "effect"
+    , "foreign"
+    , "foreign-object"
+    , "maybe"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-dom"
+    , "react-basic-hooks"
+    , "strings"
+    , "tuples"
+    , "unsafe-coerce"
+    , "web-dom"
+    ]
+  , repo = "https://github.com/thought2/purescript-chameleon-react-basic.git"
+  , version = "v0.0.1"
+  }
+, chameleon-transformers =
+  { dependencies =
+    [ "chameleon"
+    , "foldable-traversable"
+    , "maybe"
+    , "prelude"
+    , "these"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/thought2/purescript-chameleon-transformers.git"
+  , version = "v0.0.1"
   }
 , channel =
   { dependencies =
