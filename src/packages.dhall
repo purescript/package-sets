@@ -786,7 +786,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-halogen.git"
-  , version = "v0.0.4"
+  , version = "v0.0.5"
   }
 , chameleon-react-basic =
   { dependencies =
@@ -806,7 +806,23 @@
     , "web-dom"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-react-basic.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
+  }
+, chameleon-styled =
+  { dependencies =
+    [ "arrays"
+    , "chameleon"
+    , "chameleon-transformers"
+    , "foldable-traversable"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    , "unordered-collections"
+    ]
+  , repo = "https://github.com/thought2/purescript-chameleon-styled.git"
+  , version = "v0.0.8"
   }
 , chameleon-transformers =
   { dependencies =
@@ -819,7 +835,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-transformers.git"
-  , version = "v0.0.1"
+  , version = "v0.0.4"
   }
 , channel =
   { dependencies =
@@ -1055,6 +1071,23 @@
   { dependencies = [ "web-html" ]
   , repo = "https://github.com/deemp/purescript-css-frameworks.git"
   , version = "v1.0.1"
+  }
+, data-mvc =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "either"
+    , "heterogeneous"
+    , "maybe"
+    , "mvc"
+    , "newtype"
+    , "prelude"
+    , "profunctor"
+    , "record"
+    , "variant"
+    ]
+  , repo = "https://github.com/thought2/purescript-data-mvc.git"
+  , version = "v0.0.2"
   }
 , datetime =
   { dependencies =
@@ -2630,6 +2663,32 @@
   , repo = "https://github.com/purescript/purescript-integers.git"
   , version = "v6.0.0"
   }
+, interactive-data =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "chameleon"
+    , "chameleon-styled"
+    , "chameleon-transformers"
+    , "convertable-options"
+    , "data-mvc"
+    , "dodo-printer"
+    , "either"
+    , "foldable-traversable"
+    , "identity"
+    , "maybe"
+    , "mvc"
+    , "newtype"
+    , "ordered-collections"
+    , "prelude"
+    , "strings"
+    , "these"
+    , "tuples"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/thought2/purescript-interactive-data.all.git"
+  , version = "v0.0.3"
+  }
 , interpolate =
   { dependencies = [ "partial", "prelude" ]
   , repo = "https://github.com/jordanmartinez/purescript-interpolate.git"
@@ -3267,6 +3326,12 @@
   { dependencies = [ "lists", "strings" ]
   , repo = "https://github.com/justinwoo/purescript-motsunabe.git"
   , version = "v2.0.0"
+  }
+, mvc =
+  { dependencies =
+    [ "heterogeneous", "maybe", "newtype", "prelude", "record", "variant" ]
+  , repo = "https://github.com/thought2/purescript-mvc.git"
+  , version = "v0.0.1"
   }
 , mysql =
   { dependencies =
