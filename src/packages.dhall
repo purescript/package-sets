@@ -1362,7 +1362,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/thought2/purescript-dts.git"
-  , version = "v0.1.4"
+  , version = "v0.2.0"
   }
 , dynamic-buffer =
   { dependencies = [ "arraybuffer-types", "effect", "refs" ]
@@ -3721,8 +3721,8 @@
     , "prelude"
     , "unsafe-coerce"
     ]
-  , repo = "https://github.com/JordanMartinez/purescript-node-zlib.git"
-  , version = "v0.2.1"
+  , repo = "https://github.com/purescript-node/purescript-node-zlib.git"
+  , version = "v0.4.0"
   }
 , nodemailer =
   { dependencies =
@@ -5602,6 +5602,8 @@
     , "effect"
     , "either"
     , "foldable-traversable"
+    , "foreign-object"
+    , "literals"
     , "maybe"
     , "newtype"
     , "node-buffer"
@@ -5613,18 +5615,21 @@
     , "optparse"
     , "ordered-collections"
     , "ordered-set"
+    , "partial"
     , "prelude"
     , "record"
     , "safe-coerce"
-    , "spec"
-    , "spec-discovery"
     , "strings"
     , "transformers"
     , "tuples"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "untagged-union"
     , "variant"
+    , "variant-encodings"
     ]
   , repo = "https://github.com/thought2/purescript-ts-bridge.git"
-  , version = "v2.0.3"
+  , version = "v2.1.2"
   }
 , tuples =
   { dependencies = [ "control", "invariant", "prelude" ]
