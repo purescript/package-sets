@@ -822,7 +822,7 @@
     , "unordered-collections"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-styled.git"
-  , version = "v0.0.8"
+  , version = "v0.1.0"
   }
 , chameleon-transformers =
   { dependencies =
