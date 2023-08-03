@@ -835,7 +835,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-transformers.git"
-  , version = "v0.0.4"
+  , version = "v0.1.0"
   }
 , channel =
   { dependencies =
