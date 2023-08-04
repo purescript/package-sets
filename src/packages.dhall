@@ -806,7 +806,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-react-basic.git"
-  , version = "v0.0.2"
+  , version = "v0.1.0"
   }
 , chameleon-styled =
   { dependencies =
@@ -1590,27 +1590,6 @@
   , repo = "https://github.com/sigma-andex/purescript-fast-vect.git"
   , version = "v1.1.0"
   }
-, fetch =
-  { dependencies =
-    [ "aff"
-    , "aff-promise"
-    , "arraybuffer-types"
-    , "effect"
-    , "fetch-core"
-    , "foreign"
-    , "http-methods"
-    , "newtype"
-    , "prelude"
-    , "record"
-    , "typelevel-prelude"
-    , "unsafe-coerce"
-    , "web-file"
-    , "web-promise"
-    , "web-streams"
-    ]
-  , repo = "https://github.com/rowtype-yoga/purescript-fetch.git"
-  , version = "v1.1.4"
-  }
 , fetch-argonaut =
   { dependencies =
     [ "aff"
@@ -1625,33 +1604,6 @@
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-fetch-argonaut.git"
   , version = "v1.0.1"
-  }
-, fetch-core =
-  { dependencies =
-    [ "arraybuffer-types"
-    , "arrays"
-    , "console"
-    , "effect"
-    , "foldable-traversable"
-    , "foreign"
-    , "foreign-object"
-    , "functions"
-    , "http-methods"
-    , "maybe"
-    , "newtype"
-    , "nullable"
-    , "prelude"
-    , "record"
-    , "tuples"
-    , "typelevel-prelude"
-    , "unfoldable"
-    , "unsafe-coerce"
-    , "web-file"
-    , "web-promise"
-    , "web-streams"
-    ]
-  , repo = "https://github.com/rowtype-yoga/purescript-fetch-core.git"
-  , version = "v4.0.4"
   }
 , fetch-yoga-json =
   { dependencies =
@@ -2687,7 +2639,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/thought2/purescript-interactive-data.all.git"
-  , version = "v0.0.3"
+  , version = "v0.3.0"
   }
 , interpolate =
   { dependencies = [ "partial", "prelude" ]
@@ -3568,7 +3520,7 @@
   }
 , node-fs-aff =
   { dependencies = [ "aff", "either", "node-fs", "node-path" ]
-  , repo = "https://github.com/purescript-node/purescript-node-fs-aff.git"
+  , repo = "https://github.com/purescript-deprecated/purescript-node-fs-aff.git"
   , version = "v9.2.0"
   }
 , node-http =
@@ -3702,7 +3654,8 @@
     , "st"
     , "tailrec"
     ]
-  , repo = "https://github.com/purescript-node/purescript-node-streams-aff.git"
+  , repo =
+    "https://github.com/purescript-deprecated/purescript-node-streams-aff.git"
   , version = "v5.0.0"
   }
 , node-url =
@@ -6013,15 +5966,15 @@
     [ "effect"
     , "foreign-object"
     , "http-methods"
+    , "js-promise"
     , "prelude"
     , "record"
     , "typelevel-prelude"
     , "web-file"
-    , "web-promise"
     , "web-streams"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-fetch.git"
-  , version = "v3.0.0"
+  , version = "v4.0.1"
   }
 , web-file =
   { dependencies = [ "foreign", "media-types", "web-dom" ]
@@ -6066,18 +6019,6 @@
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/rowtype-yoga/purescript-web-proletarian.git"
   , version = "v1.0.0"
-  }
-, web-promise =
-  { dependencies =
-    [ "effect"
-    , "exceptions"
-    , "foldable-traversable"
-    , "functions"
-    , "maybe"
-    , "prelude"
-    ]
-  , repo = "https://github.com/purescript-web/purescript-web-promise.git"
-  , version = "v3.1.0"
   }
 , web-resize-observer =
   { dependencies =
@@ -6129,13 +6070,13 @@
     [ "arraybuffer-types"
     , "effect"
     , "exceptions"
+    , "js-promise"
     , "nullable"
     , "prelude"
     , "tuples"
-    , "web-promise"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-streams.git"
-  , version = "v3.0.0"
+  , version = "v4.0.0"
   }
 , web-touchevents =
   { dependencies = [ "web-uievents" ]
@@ -6198,6 +6139,7 @@
     , "foreign-object"
     , "functions"
     , "integers"
+    , "js-promise"
     , "maybe"
     , "newtype"
     , "ordered-collections"
@@ -6206,10 +6148,9 @@
     , "unsafe-coerce"
     , "web-events"
     , "web-html"
-    , "web-promise"
     ]
   , repo = "https://github.com/purescript-web/purescript-webgpu.git"
-  , version = "v0.0.0"
+  , version = "v0.0.1"
   }
 , which =
   { dependencies =
