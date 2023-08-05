@@ -3521,7 +3521,7 @@
 , node-fs-aff =
   { dependencies = [ "aff", "either", "node-fs", "node-path" ]
   , repo = "https://github.com/purescript-deprecated/purescript-node-fs-aff.git"
-  , version = "v9.2.0"
+  , version = "v9.2.2"
   }
 , node-http =
   { dependencies =
@@ -3656,7 +3656,7 @@
     ]
   , repo =
     "https://github.com/purescript-deprecated/purescript-node-streams-aff.git"
-  , version = "v5.0.0"
+  , version = "v5.0.2"
   }
 , node-url =
   { dependencies = [ "nullable" ]
