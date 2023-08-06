@@ -1799,6 +1799,33 @@
     "repo": "https://github.com/rowtype-yoga/purescript-fetch-argonaut.git",
     "version": "v1.0.1"
   },
+  "fetch-core": {
+    "dependencies": [
+      "arraybuffer-types",
+      "arrays",
+      "console",
+      "effect",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "functions",
+      "http-methods",
+      "js-promise",
+      "maybe",
+      "newtype",
+      "nullable",
+      "prelude",
+      "record",
+      "tuples",
+      "typelevel-prelude",
+      "unfoldable",
+      "unsafe-coerce",
+      "web-file",
+      "web-streams"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-fetch-core.git",
+    "version": "v5.0.0"
+  },
   "fetch-yoga-json": {
     "dependencies": [
       "aff",
