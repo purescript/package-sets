@@ -1,4 +1,34 @@
 {
+  "abc-parser": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "control",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "identity",
+      "integers",
+      "js-bigints",
+      "lists",
+      "maybe",
+      "midi",
+      "newtype",
+      "ordered-collections",
+      "partial",
+      "prelude",
+      "profunctor-lenses",
+      "rationals",
+      "string-parsers",
+      "strings",
+      "stringutils",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/newlandsvalley/purescript-abc-parser.git",
+    "version": "v2.0.1"
+  },
   "ace": {
     "dependencies": [
       "arrays",
