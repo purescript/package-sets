@@ -1620,6 +1620,25 @@
   , repo = "https://github.com/sigma-andex/purescript-fast-vect.git"
   , version = "v1.1.0"
   }
+, fetch =
+  { dependencies =
+    [ "aff"
+    , "arraybuffer-types"
+    , "effect"
+    , "fetch-core"
+    , "foreign"
+    , "http-methods"
+    , "js-promise-aff"
+    , "newtype"
+    , "prelude"
+    , "record"
+    , "typelevel-prelude"
+    , "web-file"
+    , "web-streams"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-fetch.git"
+  , version = "v2.0.0"
+  }
 , fetch-argonaut =
   { dependencies =
     [ "aff"
@@ -1660,7 +1679,7 @@
     , "web-streams"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-fetch-core.git"
-  , version = "v5.0.0"
+  , version = "v5.1.0"
   }
 , fetch-yoga-json =
   { dependencies =
