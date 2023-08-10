@@ -4218,9 +4218,13 @@
   { dependencies =
     [ "aff"
     , "arrays"
+    , "control"
     , "effect"
     , "exceptions"
+    , "foldable-traversable"
     , "maybe"
+    , "newtype"
+    , "partial"
     , "prelude"
     , "spec"
     , "strings"
@@ -4228,7 +4232,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
-  , version = "v0.4.0"
+  , version = "v0.5.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
