@@ -4223,7 +4223,6 @@
     , "exceptions"
     , "foldable-traversable"
     , "maybe"
-    , "newtype"
     , "partial"
     , "prelude"
     , "spec"
@@ -4232,7 +4231,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
-  , version = "v0.5.0"
+  , version = "v0.6.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
@@ -5274,16 +5273,13 @@
   { dependencies =
     [ "aff"
     , "aff-promise"
-    , "arrays"
-    , "console"
     , "effect"
     , "foldable-traversable"
-    , "node-fs"
     , "prelude"
     , "spec"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec-discovery.git"
-  , version = "v8.0.1"
+  , version = "v8.2.0"
   }
 , spec-golden =
   { dependencies =
@@ -5319,10 +5315,25 @@
   , version = "v5.0.0"
   }
 , spec-reporter-xunit =
-  { dependencies = [ "node-fs-aff", "spec", "transformers" ]
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "maybe"
+    , "node-buffer"
+    , "node-fs"
+    , "node-path"
+    , "pipes"
+    , "prelude"
+    , "spec"
+    , "strings"
+    , "transformers"
+    ]
   , repo =
     "https://github.com/purescript-spec/purescript-spec-reporter-xunit.git"
-  , version = "v0.6.1"
+  , version = "v0.7.0"
   }
 , splitmix =
   { dependencies =
