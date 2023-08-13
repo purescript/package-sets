@@ -794,7 +794,7 @@
     , "variant"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon.git"
-  , version = "v0.0.5"
+  , version = "v1.0.0"
   }
 , chameleon-halogen =
   { dependencies =
@@ -805,18 +805,20 @@
     , "foreign"
     , "foreign-object"
     , "halogen"
+    , "halogen-subscriptions"
     , "halogen-vdom"
     , "maybe"
     , "prelude"
     , "safe-coerce"
     , "strings"
+    , "these"
     , "tuples"
     , "unsafe-coerce"
     , "web-events"
     , "web-html"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-halogen.git"
-  , version = "v0.0.5"
+  , version = "v1.0.1"
   }
 , chameleon-react-basic =
   { dependencies =
@@ -836,7 +838,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-react-basic.git"
-  , version = "v0.1.0"
+  , version = "v1.0.0"
   }
 , chameleon-styled =
   { dependencies =
@@ -852,7 +854,7 @@
     , "unordered-collections"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-styled.git"
-  , version = "v0.1.0"
+  , version = "v2.0.0"
   }
 , chameleon-transformers =
   { dependencies =
@@ -865,7 +867,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-transformers.git"
-  , version = "v0.1.0"
+  , version = "v1.0.0"
   }
 , channel =
   { dependencies =
@@ -2701,21 +2703,34 @@
     , "convertable-options"
     , "data-mvc"
     , "dodo-printer"
+    , "effect"
     , "either"
     , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "heterogeneous"
     , "identity"
+    , "integers"
+    , "labeled-data"
     , "maybe"
     , "mvc"
     , "newtype"
+    , "numbers"
     , "ordered-collections"
+    , "partial"
     , "prelude"
+    , "record"
+    , "routing"
+    , "routing-duplex"
     , "strings"
     , "these"
     , "tuples"
+    , "typedenv"
     , "typelevel-prelude"
+    , "variant"
     ]
   , repo = "https://github.com/thought2/purescript-interactive-data.all.git"
-  , version = "v0.3.0"
+  , version = "v2.0.0"
   }
 , interpolate =
   { dependencies = [ "partial", "prelude" ]
