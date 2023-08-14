@@ -2695,7 +2695,8 @@
   }
 , interactive-data =
   { dependencies =
-    [ "arrays"
+    [ "argonaut"
+    , "arrays"
     , "bifunctors"
     , "chameleon"
     , "chameleon-styled"
@@ -2730,7 +2731,7 @@
     , "variant"
     ]
   , repo = "https://github.com/thought2/purescript-interactive-data.all.git"
-  , version = "v2.0.0"
+  , version = "v2.1.0"
   }
 , interpolate =
   { dependencies = [ "partial", "prelude" ]
