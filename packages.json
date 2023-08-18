@@ -2998,7 +2998,7 @@
       "variant"
     ],
     "repo": "https://github.com/thought2/purescript-interactive-data.all.git",
-    "version": "v2.1.0"
+    "version": "v2.2.0"
   },
   "interpolate": {
     "dependencies": [
