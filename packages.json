@@ -899,7 +899,7 @@
       "web-html"
     ],
     "repo": "https://github.com/thought2/purescript-chameleon-halogen.git",
-    "version": "v1.0.1"
+    "version": "v1.0.2"
   },
   "chameleon-react-basic": {
     "dependencies": [
