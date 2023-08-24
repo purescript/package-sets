@@ -2731,7 +2731,7 @@
     , "variant"
     ]
   , repo = "https://github.com/thought2/purescript-interactive-data.all.git"
-  , version = "v2.2.0"
+  , version = "v2.3.0"
   }
 , interpolate =
   { dependencies = [ "partial", "prelude" ]
@@ -4079,7 +4079,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/purescript/purescript-parallel.git"
-  , version = "v6.0.0"
+  , version = "v7.0.0"
   }
 , parsing =
   { dependencies =
