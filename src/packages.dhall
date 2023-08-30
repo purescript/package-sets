@@ -2353,6 +2353,25 @@
   , repo = "https://github.com/newlandsvalley/purescript-js-fileio.git"
   , version = "v3.0.0"
   }
+, js-intl =
+  { dependencies =
+    [ "arrays"
+    , "convertable-options"
+    , "datetime"
+    , "effect"
+    , "foreign"
+    , "functions"
+    , "js-date"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "tuples"
+    , "unfoldable"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/pete-murphy/purescript-js-intl.git"
+  , version = "v1.0.1"
+  }
 , js-iterators =
   { dependencies =
     [ "foldable-traversable"
@@ -5300,25 +5319,6 @@
   { dependencies = [ "js-date", "web-dom", "web-file", "web-storage" ]
   , repo = "https://github.com/purescript-web/purescript-web-html.git"
   , version = "v4.1.0"
-  }
-, web-intl =
-  { dependencies =
-    [ "arrays"
-    , "datetime"
-    , "effect"
-    , "enums"
-    , "functions"
-    , "js-date"
-    , "maybe"
-    , "nullable"
-    , "partial"
-    , "prelude"
-    , "tuples"
-    , "unfoldable"
-    , "unsafe-coerce"
-    ]
-  , repo = "https://github.com/ptrfrncsmrph/purescript-web-intl.git"
-  , version = "v0.4.0"
   }
 , web-pointerevents =
   { dependencies = [ "effect", "maybe", "prelude", "web-dom", "web-uievents" ]
