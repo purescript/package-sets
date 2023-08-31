@@ -3417,7 +3417,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-ordered-collections.git"
-  , version = "v3.1.0"
+  , version = "v3.1.1"
   }
 , ordered-set =
   { dependencies =
