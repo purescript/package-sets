@@ -362,6 +362,21 @@
     "repo": "https://github.com/purescript/purescript-arrays.git",
     "version": "v7.2.1"
   },
+  "arrays-extra": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "maybe",
+      "partial",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/flip111/purescript-arrays-extra.git",
+    "version": "v0.1.3"
+  },
   "arrays-zipper": {
     "dependencies": [
       "arrays",
