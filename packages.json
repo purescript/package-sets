@@ -375,7 +375,7 @@
       "tuples"
     ],
     "repo": "https://github.com/flip111/purescript-arrays-extra.git",
-    "version": "v0.1.3"
+    "version": "v0.2.0"
   },
   "arrays-zipper": {
     "dependencies": [
@@ -696,12 +696,13 @@
       "maybe",
       "newtype",
       "prelude",
+      "record",
       "strings",
       "tuples",
       "unordered-collections"
     ],
     "repo": "https://github.com/thought2/purescript-chameleon-styled.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
   },
   "chameleon-transformers": {
     "dependencies": [
