@@ -604,7 +604,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-react-basic.git"
-  , version = "v1.0.0"
+  , version = "v1.1.0"
   }
 , chameleon-styled =
   { dependencies =
@@ -621,7 +621,7 @@
     , "unordered-collections"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-styled.git"
-  , version = "v2.1.0"
+  , version = "v2.2.0"
   }
 , chameleon-transformers =
   { dependencies =
