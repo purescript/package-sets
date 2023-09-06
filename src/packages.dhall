@@ -621,7 +621,7 @@
     , "unordered-collections"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-styled.git"
-  , version = "v2.2.0"
+  , version = "v2.3.0"
   }
 , chameleon-transformers =
   { dependencies =
@@ -1648,7 +1648,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-free.git"
-  , version = "v7.0.0"
+  , version = "v7.1.0"
   }
 , freeap =
   { dependencies = [ "const", "exists", "gen", "lists" ]
