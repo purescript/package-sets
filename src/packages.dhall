@@ -621,7 +621,7 @@
     , "unordered-collections"
     ]
   , repo = "https://github.com/thought2/purescript-chameleon-styled.git"
-  , version = "v2.3.0"
+  , version = "v2.4.0"
   }
 , chameleon-transformers =
   { dependencies =
@@ -4625,7 +4625,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v7.5.4"
+  , version = "v7.5.5"
   }
 , spec-mocha =
   { dependencies =
