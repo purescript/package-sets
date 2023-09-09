@@ -336,7 +336,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/flip111/purescript-arrays-extra.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , arrays-zipper =
   { dependencies = [ "arrays", "control", "quickcheck" ]
@@ -2449,6 +2449,35 @@
   , repo = "https://github.com/purescript-contrib/purescript-js-uri.git"
   , version = "v3.1.0"
   }
+, json-codecs =
+  { dependencies =
+    [ "argonaut-core"
+    , "arrays"
+    , "bifunctors"
+    , "either"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "functions"
+    , "identity"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "nonempty"
+    , "nullable"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "record"
+    , "safe-coerce"
+    , "strings"
+    , "these"
+    , "tuples"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/jordanmartinez/purescript-json-codecs.git"
+  , version = "v4.0.0"
+  }
 , justifill =
   { dependencies = [ "maybe", "prelude", "record", "typelevel-prelude" ]
   , repo = "https://github.com/i-am-the-slime/purescript-justifill.git"
@@ -2989,7 +3018,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/jordanmartinez/purescript-node-execa.git"
-  , version = "v4.0.0"
+  , version = "v4.0.1"
   }
 , node-fs =
   { dependencies =
