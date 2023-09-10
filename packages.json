@@ -2672,13 +2672,14 @@
       "js-date",
       "maybe",
       "nullable",
+      "partial",
       "prelude",
       "tuples",
       "unfoldable",
       "unsafe-coerce"
     ],
     "repo": "https://github.com/pete-murphy/purescript-js-intl.git",
-    "version": "v1.0.1"
+    "version": "v1.0.2"
   },
   "js-iterators": {
     "dependencies": [
