@@ -1496,6 +1496,20 @@
   , repo = "https://github.com/purescript-contrib/purescript-float32.git"
   , version = "v2.0.0"
   }
+, fmt =
+  { dependencies =
+    [ "arrays"
+    , "foldable-traversable"
+    , "prelude"
+    , "record"
+    , "strings"
+    , "tuples"
+    , "type-equality"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/thought2/purescript-fmt.git"
+  , version = "v0.1.0"
+  }
 , foldable-traversable =
   { dependencies =
     [ "bifunctors"
