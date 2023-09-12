@@ -702,7 +702,7 @@
       "unordered-collections"
     ],
     "repo": "https://github.com/thought2/purescript-chameleon-styled.git",
-    "version": "v2.4.0"
+    "version": "v2.5.0"
   },
   "chameleon-transformers": {
     "dependencies": [
@@ -1185,7 +1185,7 @@
       "web-touchevents"
     ],
     "repo": "https://github.com/purescript-halogen/purescript-dom-indexed.git",
-    "version": "v11.0.0"
+    "version": "v12.0.0"
   },
   "dotenv": {
     "dependencies": [
@@ -1711,7 +1711,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/thought2/purescript-fmt.git",
-    "version": "v0.1.0"
+    "version": "v0.1.1"
   },
   "foldable-traversable": {
     "dependencies": [
