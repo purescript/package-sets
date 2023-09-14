@@ -1436,6 +1436,11 @@
   , repo = "https://github.com/purescript/purescript-filterable.git"
   , version = "v5.0.0"
   }
+, fix-functor =
+  { dependencies = [ "prelude" ]
+  , repo = "https://github.com/artemisSystem/purescript-fix-functor.git"
+  , version = "v0.1.0"
+  }
 , fixed-points =
   { dependencies = [ "exists", "newtype", "prelude", "transformers" ]
   , repo = "https://github.com/purescript-contrib/purescript-fixed-points.git"
