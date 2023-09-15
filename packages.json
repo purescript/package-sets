@@ -1718,7 +1718,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/thought2/purescript-fmt.git",
-    "version": "v0.1.1"
+    "version": "v0.2.0"
   },
   "foldable-traversable": {
     "dependencies": [
