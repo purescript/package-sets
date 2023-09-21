@@ -329,14 +329,15 @@
     , "console"
     , "effect"
     , "either"
-    , "foldable-traversable"
+    , "functions"
     , "maybe"
+    , "ordered-collections"
     , "partial"
     , "prelude"
     , "tuples"
     ]
   , repo = "https://github.com/flip111/purescript-arrays-extra.git"
-  , version = "v0.3.0"
+  , version = "v0.4.0"
   }
 , arrays-zipper =
   { dependencies = [ "arrays", "control", "quickcheck" ]
