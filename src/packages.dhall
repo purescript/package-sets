@@ -2456,7 +2456,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pete-murphy/purescript-js-intl.git"
-  , version = "v1.0.2"
+  , version = "v1.0.4"
   }
 , js-iterators =
   { dependencies =
