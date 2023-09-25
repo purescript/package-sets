@@ -5511,7 +5511,7 @@
 , web-uievents =
   { dependencies = [ "web-html" ]
   , repo = "https://github.com/purescript-web/purescript-web-uievents.git"
-  , version = "v4.0.0"
+  , version = "v5.0.0"
   }
 , web-url =
   { dependencies =
