@@ -5104,6 +5104,11 @@
   , repo = "https://github.com/purescript/purescript-typelevel-prelude.git"
   , version = "v7.0.0"
   }
+, typelevel-regex =
+  { dependencies = [ "prelude", "typelevel-prelude" ]
+  , repo = "https://github.com/thought2/purescript-typelevel-regex.git"
+  , version = "v0.0.3"
+  }
 , typelevel-rows =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/jordanmartinez/purescript-typelevel-rows.git"
