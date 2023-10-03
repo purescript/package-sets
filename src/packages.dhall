@@ -2425,7 +2425,7 @@
 , js-bigints =
   { dependencies = [ "integers", "maybe", "prelude" ]
   , repo = "https://github.com/purescript-contrib/purescript-js-bigints.git"
-  , version = "v2.2.0"
+  , version = "v2.2.1"
   }
 , js-date =
   { dependencies =
