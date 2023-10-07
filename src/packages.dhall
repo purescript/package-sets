@@ -4503,6 +4503,31 @@
   , repo = "https://github.com/jamieyung/purescript-selection-foldable.git"
   , version = "v0.2.0"
   }
+, selective-functors =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "control"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "free"
+    , "functors"
+    , "identity"
+    , "lazy"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "run"
+    , "st"
+    , "transformers"
+    , "tuples"
+    , "uncurried-transformers"
+    ]
+  , repo = "https://github.com/artemisSystem/purescript-selective-functors.git"
+  , version = "v1.0.1"
+  }
 , semirings =
   { dependencies = [ "foldable-traversable", "lists", "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-semirings.git"
