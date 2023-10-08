@@ -145,6 +145,11 @@
   , repo = "https://github.com/hdgarrood/purescript-ansi.git"
   , version = "v7.0.0"
   }
+, applicative-phases =
+  { dependencies = [ "maybe", "prelude", "tuples" ]
+  , repo = "https://github.com/artemisSystem/purescript-applicative-phases.git"
+  , version = "v1.0.0"
+  }
 , argonaut =
   { dependencies = [ "argonaut-codecs", "argonaut-core", "argonaut-traversals" ]
   , repo = "https://github.com/purescript-contrib/purescript-argonaut.git"
@@ -329,7 +334,7 @@
     , "console"
     , "effect"
     , "either"
-    , "functions"
+    , "foldable-traversable"
     , "maybe"
     , "ordered-collections"
     , "partial"
@@ -337,7 +342,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/flip111/purescript-arrays-extra.git"
-  , version = "v0.4.0"
+  , version = "v0.4.1"
   }
 , arrays-zipper =
   { dependencies = [ "arrays", "control", "quickcheck" ]
