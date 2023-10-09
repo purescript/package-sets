@@ -818,7 +818,7 @@
 , console =
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-console.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , const =
   { dependencies = [ "invariant", "newtype", "prelude" ]
@@ -3297,7 +3297,7 @@
 , node-url =
   { dependencies = [ "effect", "foreign", "nullable", "prelude", "tuples" ]
   , repo = "https://github.com/purescript-node/purescript-node-url.git"
-  , version = "v7.0.0"
+  , version = "v7.0.1"
   }
 , node-zlib =
   { dependencies =
