@@ -2529,6 +2529,7 @@
     [ "argonaut-core"
     , "arrays"
     , "bifunctors"
+    , "control"
     , "either"
     , "foldable-traversable"
     , "foreign-object"
@@ -2551,7 +2552,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/jordanmartinez/purescript-json-codecs.git"
-  , version = "v4.0.0"
+  , version = "v5.0.0"
   }
 , justifill =
   { dependencies = [ "maybe", "prelude", "record", "typelevel-prelude" ]
