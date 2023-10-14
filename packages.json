@@ -1278,6 +1278,15 @@
     "repo": "https://github.com/thought2/purescript-dts.git",
     "version": "v0.2.0"
   },
+  "dual-numbers": {
+    "dependencies": [
+      "numbers",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/Ebmtranceboy/purescript-dual-numbers.git",
+    "version": "v1.0.2"
+  },
   "dynamic-buffer": {
     "dependencies": [
       "arraybuffer-types",
