@@ -741,7 +741,7 @@
 , codec =
   { dependencies = [ "bifunctors", "profunctor" ]
   , repo = "https://github.com/garyb/purescript-codec.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , codec-argonaut =
   { dependencies =
