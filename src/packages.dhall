@@ -755,6 +755,19 @@
   , repo = "https://github.com/garyb/purescript-codec-argonaut.git"
   , version = "v10.0.0"
   }
+, codec-json =
+  { dependencies =
+    [ "codec"
+    , "foreign-object"
+    , "json"
+    , "ordered-collections"
+    , "transformers"
+    , "type-equality"
+    , "variant"
+    ]
+  , repo = "https://github.com/garyb/purescript-codec-json.git"
+  , version = "v1.0.0"
+  }
 , colors =
   { dependencies =
     [ "arrays", "integers", "lists", "numbers", "partial", "strings" ]
@@ -2528,6 +2541,22 @@
   { dependencies = [ "functions", "maybe" ]
   , repo = "https://github.com/purescript-contrib/purescript-js-uri.git"
   , version = "v3.1.0"
+  }
+, json =
+  { dependencies =
+    [ "either"
+    , "foldable-traversable"
+    , "functions"
+    , "gen"
+    , "integers"
+    , "maybe"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    , "unfoldable"
+    ]
+  , repo = "https://github.com/purescript/purescript-json.git"
+  , version = "v1.0.0"
   }
 , json-codecs =
   { dependencies =
