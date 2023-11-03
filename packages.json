@@ -6254,7 +6254,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-pointerevents.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "web-proletarian": {
     "dependencies": [

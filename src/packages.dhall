@@ -5506,7 +5506,7 @@
 , web-pointerevents =
   { dependencies = [ "effect", "maybe", "prelude", "web-dom", "web-uievents" ]
   , repo = "https://github.com/purescript-web/purescript-web-pointerevents.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , web-proletarian =
   { dependencies = [ "effect", "prelude" ]
