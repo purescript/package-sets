@@ -326,7 +326,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-arrays.git"
-  , version = "v7.2.1"
+  , version = "v7.3.0"
   }
 , arrays-extra =
   { dependencies =
