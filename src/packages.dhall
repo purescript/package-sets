@@ -473,12 +473,13 @@
     , "prelude"
     , "psci-support"
     , "strings"
+    , "transformers"
     , "tuples"
-    , "unfoldable"
     , "unicode"
+    , "unsafe-coerce"
     ]
   , repo = "https://github.com/albertprz/purescript-bookhound.git"
-  , version = "v0.1.3"
+  , version = "v0.1.5"
   }
 , bower-json =
   { dependencies =
