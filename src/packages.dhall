@@ -3070,7 +3070,7 @@
     ]
   , repo =
     "https://github.com/purescript-node/purescript-node-child-process.git"
-  , version = "v11.0.0"
+  , version = "v11.1.0"
   }
 , node-event-emitter =
   { dependencies =
@@ -3095,6 +3095,7 @@
     , "either"
     , "exceptions"
     , "foldable-traversable"
+    , "foreign"
     , "foreign-object"
     , "functions"
     , "integers"
@@ -3127,7 +3128,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/jordanmartinez/purescript-node-execa.git"
-  , version = "v4.0.1"
+  , version = "v5.0.0"
   }
 , node-fs =
   { dependencies =
