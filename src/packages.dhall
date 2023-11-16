@@ -2455,6 +2455,30 @@
   , repo = "https://github.com/purescript-contrib/purescript-js-date.git"
   , version = "v8.0.0"
   }
+, js-fetch =
+  { dependencies =
+    [ "arraybuffer-types"
+    , "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "functions"
+    , "http-methods"
+    , "js-promise"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "record"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unfoldable"
+    , "web-file"
+    , "web-streams"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-js-fetch.git"
+  , version = "v0.2.0"
+  }
 , js-fileio =
   { dependencies = [ "aff", "effect", "prelude" ]
   , repo = "https://github.com/newlandsvalley/purescript-js-fileio.git"
