@@ -2477,7 +2477,7 @@
     , "web-streams"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-js-fetch.git"
-  , version = "v0.2.0"
+  , version = "v0.2.1"
   }
 , js-fileio =
   { dependencies = [ "aff", "effect", "prelude" ]
