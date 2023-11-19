@@ -299,7 +299,7 @@
     , "transformers"
     , "uint"
     ]
-  , repo = "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git"
+  , repo = "https://github.com/rowtype-yoga/purescript-arraybuffer-builder.git"
   , version = "v3.1.0"
   }
 , arraybuffer-types =
@@ -466,12 +466,10 @@
     , "lazy"
     , "lists"
     , "maybe"
-    , "newtype"
     , "numbers"
     , "ordered-collections"
     , "partial"
     , "prelude"
-    , "psci-support"
     , "strings"
     , "transformers"
     , "tuples"
@@ -479,7 +477,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/albertprz/purescript-bookhound.git"
-  , version = "v0.1.5"
+  , version = "v0.1.6"
   }
 , bower-json =
   { dependencies =
@@ -1347,7 +1345,7 @@
     , "prelude"
     , "transformers"
     ]
-  , repo = "https://github.com/sigma-andex/purescript-fallback.git"
+  , repo = "https://github.com/rowtype-yoga/purescript-fallback.git"
   , version = "v0.1.0"
   }
 , fast-vect =
@@ -1374,9 +1372,9 @@
     , "arraybuffer-types"
     , "bifunctors"
     , "effect"
-    , "fetch-core"
     , "foreign"
     , "http-methods"
+    , "js-fetch"
     , "js-promise-aff"
     , "maybe"
     , "newtype"
@@ -1389,7 +1387,7 @@
     , "web-streams"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-fetch.git"
-  , version = "v3.0.0"
+  , version = "v4.0.0"
   }
 , fetch-argonaut =
   { dependencies =
@@ -2654,7 +2652,7 @@
 , lazy-joe =
   { dependencies =
     [ "aff", "aff-promise", "effect", "functions", "prelude", "unsafe-coerce" ]
-  , repo = "https://github.com/sigma-andex/purescript-lazy-joe.git"
+  , repo = "https://github.com/rowtype-yoga/purescript-lazy-joe.git"
   , version = "v1.0.0"
   }
 , lcg =
@@ -2742,6 +2740,67 @@
   { dependencies = [ "effect", "logging", "prelude", "systemd-journald" ]
   , repo = "https://github.com/paluh/purescript-logging-journald.git"
   , version = "v0.4.0"
+  }
+, lumi-components =
+  { dependencies =
+    [ "aff"
+    , "aff-coroutines"
+    , "arrays"
+    , "bifunctors"
+    , "colors"
+    , "console"
+    , "control"
+    , "coroutines"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "enums"
+    , "exceptions"
+    , "fixed-precision"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "free"
+    , "heterogeneous"
+    , "integers"
+    , "js-timers"
+    , "js-uri"
+    , "maybe"
+    , "media-types"
+    , "newtype"
+    , "nonempty"
+    , "nullable"
+    , "numbers"
+    , "ordered-collections"
+    , "parallel"
+    , "partial"
+    , "prelude"
+    , "profunctor-lenses"
+    , "react-basic"
+    , "react-basic-classic"
+    , "react-basic-dnd"
+    , "react-basic-dom"
+    , "react-basic-emotion"
+    , "react-basic-hooks"
+    , "record"
+    , "refs"
+    , "simple-json"
+    , "st"
+    , "strings"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    , "unsafe-coerce"
+    , "unsafe-reference"
+    , "web-dom"
+    , "web-events"
+    , "web-file"
+    , "web-html"
+    , "web-storage"
+    , "web-uievents"
+    ]
+  , repo = "https://github.com/lumihq/purescript-lumi-components.git"
+  , version = "v18.0.0"
   }
 , machines =
   { dependencies =
@@ -3058,12 +3117,12 @@
     , "unsafe-coerce"
     , "yoga-json"
     ]
-  , repo = "https://github.com/rowtype-yoga/purescript-nextjs.git"
+  , repo = "https://github.com/purescript-react/purescript-nextjs.git"
   , version = "v0.1.1"
   }
 , nextui =
   { dependencies = [ "effect", "prelude", "react-basic-hooks" ]
-  , repo = "https://github.com/rowtype-yoga/purescript-nextui.git"
+  , repo = "https://github.com/purescript-react/purescript-nextui.git"
   , version = "v0.2.0"
   }
 , node-buffer =
@@ -3679,7 +3738,7 @@
     , "tuples"
     , "uint"
     ]
-  , repo = "https://github.com/jamesdbrock/purescript-parsing-dataview.git"
+  , repo = "https://github.com/rowtype-yoga/purescript-parsing-dataview.git"
   , version = "v3.2.4"
   }
 , partial =
@@ -4053,7 +4112,7 @@
   }
 , quickcheck-utf8 =
   { dependencies = [ "quickcheck" ]
-  , repo = "https://github.com/openchronology/purescript-quickcheck-utf8.git"
+  , repo = "https://github.com/athanclark/purescript-quickcheck-utf8.git"
   , version = "v0.0.0"
   }
 , random =
@@ -4121,7 +4180,7 @@
   }
 , react-basic =
   { dependencies = [ "effect", "prelude", "record" ]
-  , repo = "https://github.com/lumihq/purescript-react-basic.git"
+  , repo = "https://github.com/purescript-react/purescript-react-basic.git"
   , version = "v17.0.0"
   }
 , react-basic-classic =
@@ -4134,7 +4193,8 @@
     , "prelude"
     , "react-basic"
     ]
-  , repo = "https://github.com/lumihq/purescript-react-basic-classic.git"
+  , repo =
+    "https://github.com/purescript-react/purescript-react-basic-classic.git"
   , version = "v3.0.0"
   }
 , react-basic-dnd =
@@ -4147,7 +4207,7 @@
     , "react-basic-hooks"
     , "web-dom"
     ]
-  , repo = "https://github.com/lumihq/purescript-react-dnd-basic.git"
+  , repo = "https://github.com/purescript-react/purescript-react-dnd-basic.git"
   , version = "v10.1.0"
   }
 , react-basic-dom =
@@ -4167,7 +4227,7 @@
     , "web-file"
     , "web-html"
     ]
-  , repo = "https://github.com/lumihq/purescript-react-basic-dom.git"
+  , repo = "https://github.com/purescript-react/purescript-react-basic-dom.git"
   , version = "v6.1.0"
   }
 , react-basic-emotion =
@@ -4188,7 +4248,8 @@
     , "unsafe-coerce"
     , "web-html"
     ]
-  , repo = "https://github.com/lumihq/purescript-react-basic-emotion.git"
+  , repo =
+    "https://github.com/purescript-react/purescript-react-basic-emotion.git"
   , version = "v7.1.0"
   }
 , react-basic-hooks =
@@ -4220,7 +4281,8 @@
     , "unsafe-reference"
     , "web-html"
     ]
-  , repo = "https://github.com/megamaddu/purescript-react-basic-hooks.git"
+  , repo =
+    "https://github.com/purescript-react/purescript-react-basic-hooks.git"
   , version = "v8.2.0"
   }
 , react-basic-storybook =
@@ -4278,11 +4340,11 @@
 , react-icons =
   { dependencies = [ "react-basic", "react-basic-dom", "unsafe-coerce" ]
   , repo = "https://github.com/purescript-react/purescript-react-icons.git"
-  , version = "v1.1.1"
+  , version = "v1.1.2"
   }
 , react-markdown =
   { dependencies = [ "prelude", "react-basic-hooks" ]
-  , repo = "https://github.com/rowtype-yoga/purescript-react-markdown.git"
+  , repo = "https://github.com/purescript-react/purescript-react-markdown.git"
   , version = "v0.1.0"
   }
 , react-testing-library =
@@ -5354,7 +5416,7 @@
   }
 , untagged-to-tagged =
   { dependencies = [ "either", "newtype", "prelude", "untagged-union" ]
-  , repo = "https://github.com/sigma-andex/purescript-untagged-to-tagged.git"
+  , repo = "https://github.com/rowtype-yoga/purescript-untagged-to-tagged.git"
   , version = "v0.1.4"
   }
 , untagged-union =
@@ -5576,6 +5638,18 @@
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/rowtype-yoga/purescript-web-proletarian.git"
   , version = "v1.0.0"
+  }
+, web-promise =
+  { dependencies =
+    [ "effect"
+    , "exceptions"
+    , "foldable-traversable"
+    , "functions"
+    , "maybe"
+    , "prelude"
+    ]
+  , repo = "https://github.com/purescript-deprecated/purescript-web-promise.git"
+  , version = "v3.2.0"
   }
 , web-resize-observer =
   { dependencies =
