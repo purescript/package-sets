@@ -546,7 +546,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/albertprz/purescript-bookhound.git",
-    "version": "v0.1.6"
+    "version": "v0.1.7"
   },
   "bower-json": {
     "dependencies": [
