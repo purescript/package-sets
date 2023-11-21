@@ -3846,6 +3846,7 @@
     , "arrays"
     , "control"
     , "effect"
+    , "either"
     , "exceptions"
     , "foldable-traversable"
     , "maybe"
@@ -3857,7 +3858,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
-  , version = "v0.6.0"
+  , version = "v0.7.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
