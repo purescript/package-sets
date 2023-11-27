@@ -1123,8 +1123,6 @@
 , dts =
   { dependencies =
     [ "arrays"
-    , "console"
-    , "effect"
     , "maybe"
     , "newtype"
     , "ordered-collections"
@@ -1133,7 +1131,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/thought2/purescript-dts.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , dual-numbers =
   { dependencies = [ "numbers", "prelude", "tuples" ]
@@ -1943,7 +1941,7 @@
 , halogen-bootstrap5 =
   { dependencies = [ "halogen" ]
   , repo = "https://github.com/tonicebrian/purescript-halogen-bootstrap5.git"
-  , version = "v2.2.1"
+  , version = "v2.3.1"
   }
 , halogen-css =
   { dependencies = [ "css", "halogen" ]
@@ -5209,6 +5207,7 @@
     , "strings"
     , "transformers"
     , "tuples"
+    , "typelevel-lists"
     , "typelevel-prelude"
     , "unsafe-coerce"
     , "untagged-union"
@@ -5216,7 +5215,7 @@
     , "variant-encodings"
     ]
   , repo = "https://github.com/thought2/purescript-ts-bridge.git"
-  , version = "v2.2.0"
+  , version = "v2.3.0"
   }
 , tuples =
   { dependencies = [ "control", "invariant", "prelude" ]
@@ -5655,7 +5654,6 @@
 , web-resize-observer =
   { dependencies =
     [ "arrays"
-    , "console"
     , "control"
     , "effect"
     , "either"
@@ -5667,7 +5665,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/nsaunders/purescript-web-resize-observer.git"
-  , version = "v2.0.0"
+  , version = "v2.1.0"
   }
 , web-router =
   { dependencies =
