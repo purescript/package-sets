@@ -1131,7 +1131,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/thought2/purescript-dts.git"
-  , version = "v0.3.0"
+  , version = "v1.0.0"
   }
 , dual-numbers =
   { dependencies = [ "numbers", "prelude", "tuples" ]
@@ -2864,6 +2864,27 @@
   , repo =
     "https://github.com/thought2/purescript-marionette-react-basic-hooks.git"
   , version = "v0.1.1"
+  }
+, marked =
+  { dependencies =
+    [ "dts"
+    , "either"
+    , "foreign-object"
+    , "integers"
+    , "labeled-data"
+    , "literals"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "prelude"
+    , "ts-bridge"
+    , "unsafe-coerce"
+    , "untagged-union"
+    , "variant"
+    , "variant-encodings"
+    ]
+  , repo = "https://github.com/thought2/purescript-marked.git"
+  , version = "v0.1.0"
   }
 , matrices =
   { dependencies = [ "arrays", "strings" ]
@@ -5215,7 +5236,7 @@
     , "variant-encodings"
     ]
   , repo = "https://github.com/thought2/purescript-ts-bridge.git"
-  , version = "v2.3.0"
+  , version = "v4.0.0"
   }
 , tuples =
   { dependencies = [ "control", "invariant", "prelude" ]
