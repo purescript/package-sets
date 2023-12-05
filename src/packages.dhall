@@ -2907,6 +2907,27 @@
   , repo = "https://github.com/purescript-contrib/purescript-media-types.git"
   , version = "v6.0.0"
   }
+, meowclient =
+  { dependencies =
+    [ "aff"
+    , "argonaut"
+    , "arrays"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "js-date"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "node-buffer"
+    , "partial"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/userfriendanonymous/purescript-meowclient.git"
+  , version = "v1.0.0"
+  }
 , metadata =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-metadata.git"
