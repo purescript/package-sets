@@ -1370,9 +1370,11 @@
     , "arraybuffer-types"
     , "bifunctors"
     , "effect"
+    , "either"
     , "foreign"
     , "http-methods"
     , "js-fetch"
+    , "js-promise"
     , "js-promise-aff"
     , "maybe"
     , "newtype"
@@ -1385,7 +1387,7 @@
     , "web-streams"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-fetch.git"
-  , version = "v4.0.0"
+  , version = "v4.1.0"
   }
 , fetch-argonaut =
   { dependencies =
