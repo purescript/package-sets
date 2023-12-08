@@ -1297,6 +1297,11 @@
   , repo = "https://github.com/bklaric/purescript-error.git"
   , version = "v2.0.0"
   }
+, eta-conversion =
+  { dependencies = [ "effect", "prelude", "transformers", "type-equality" ]
+  , repo = "https://github.com/pujoheadsoft/purescript-eta-conversion.git"
+  , version = "v0.1.0"
+  }
 , exceptions =
   { dependencies = [ "effect", "either", "maybe", "prelude" ]
   , repo = "https://github.com/purescript/purescript-exceptions.git"
