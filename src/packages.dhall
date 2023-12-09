@@ -1300,7 +1300,7 @@
 , eta-conversion =
   { dependencies = [ "effect", "prelude", "transformers", "type-equality" ]
   , repo = "https://github.com/pujoheadsoft/purescript-eta-conversion.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , exceptions =
   { dependencies = [ "effect", "either", "maybe", "prelude" ]
@@ -3714,6 +3714,27 @@
   { dependencies = [ "newtype", "prelude" ]
   , repo = "https://github.com/purescript/purescript-orders.git"
   , version = "v6.0.0"
+  }
+, owoify =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "console"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "prelude"
+    , "random"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "unfoldable"
+    ]
+  , repo = "https://github.com/deadshot465/purescript-owoify.git"
+  , version = "v1.2.0"
   }
 , pairs =
   { dependencies =
