@@ -1300,7 +1300,7 @@
 , eta-conversion =
   { dependencies = [ "effect", "prelude", "transformers", "type-equality" ]
   , repo = "https://github.com/pujoheadsoft/purescript-eta-conversion.git"
-  , version = "v0.2.0"
+  , version = "v0.3.2"
   }
 , exceptions =
   { dependencies = [ "effect", "either", "maybe", "prelude" ]
