@@ -2362,7 +2362,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/qwbarch/halogen-typewriter.git",
-    "version": "v1.0.2"
+    "version": "v1.0.3"
   },
   "halogen-vdom": {
     "dependencies": [
