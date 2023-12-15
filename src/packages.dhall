@@ -3283,6 +3283,27 @@
   , repo = "https://github.com/purescript-node/purescript-node-fs.git"
   , version = "v9.1.0"
   }
+, node-glob-basic =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "node-fs"
+    , "node-path"
+    , "node-process"
+    , "ordered-collections"
+    , "parallel"
+    , "prelude"
+    , "refs"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-node-glob-basic.git"
+  , version = "v1.3.0"
+  }
 , node-http =
   { dependencies =
     [ "arraybuffer-types"
