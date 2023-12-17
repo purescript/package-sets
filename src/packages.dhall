@@ -3947,7 +3947,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
-  , version = "v0.7.0"
+  , version = "v0.8.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
