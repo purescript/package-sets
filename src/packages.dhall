@@ -3709,6 +3709,42 @@
   , repo = "https://github.com/purescript-contrib/purescript-options.git"
   , version = "v7.0.0"
   }
+, optparse =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "bifunctors"
+    , "console"
+    , "control"
+    , "effect"
+    , "either"
+    , "enums"
+    , "exists"
+    , "exitcodes"
+    , "foldable-traversable"
+    , "free"
+    , "gen"
+    , "integers"
+    , "lazy"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "node-buffer"
+    , "node-process"
+    , "node-streams"
+    , "nonempty"
+    , "numbers"
+    , "open-memoize"
+    , "partial"
+    , "prelude"
+    , "strings"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-optparse.git"
+  , version = "v6.0.0"
+  }
 , ordered-collections =
   { dependencies =
     [ "arrays"
@@ -3948,7 +3984,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
-  , version = "v0.8.0"
+  , version = "v0.9.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
