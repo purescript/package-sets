@@ -4552,6 +4552,18 @@
   , repo = "https://github.com/justinwoo/purescript-record-extra.git"
   , version = "v5.0.1"
   }
+, record-ptional-fields =
+  { dependencies =
+    [ "maybe"
+    , "partial"
+    , "prelude"
+    , "record"
+    , "type-equality"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/katsujukou/purescript-record-optional-fields.git"
+  , version = "v0.1.1"
+  }
 , record-studio =
   { dependencies =
     [ "heterogeneous", "lists", "prelude", "record", "typelevel-prelude" ]
