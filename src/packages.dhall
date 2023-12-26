@@ -4562,7 +4562,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/katsujukou/purescript-record-optional-fields.git"
-  , version = "v0.1.1"
+  , version = "v0.1.2"
   }
 , record-studio =
   { dependencies =
