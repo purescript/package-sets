@@ -4991,7 +4991,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-react/purescript-react-icons.git",
-    "version": "v1.1.2"
+    "version": "v1.1.4"
   },
   "react-markdown": {
     "dependencies": [

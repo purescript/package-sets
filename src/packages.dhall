@@ -4467,7 +4467,7 @@
 , react-icons =
   { dependencies = [ "react-basic", "react-basic-dom", "unsafe-coerce" ]
   , repo = "https://github.com/purescript-react/purescript-react-icons.git"
-  , version = "v1.1.2"
+  , version = "v1.1.4"
   }
 , react-markdown =
   { dependencies = [ "prelude", "react-basic-hooks" ]
