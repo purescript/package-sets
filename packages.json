@@ -6842,5 +6842,17 @@
     ],
     "repo": "https://github.com/gbagan/purescript-z3.git",
     "version": "v0.0.2"
+  },
+  "zipperarray": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "foldable-traversable",
+      "maybe",
+      "naturals",
+      "prelude"
+    ],
+    "repo": "https://github.com/jamieyung/purescript-zipperarray.git",
+    "version": "v2.0.0"
   }
 }
