@@ -5028,7 +5028,7 @@
     , "spec"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec-mocha.git"
-  , version = "v5.0.0"
+  , version = "v5.1.0"
   }
 , spec-quickcheck =
   { dependencies = [ "aff", "prelude", "quickcheck", "random", "spec" ]
