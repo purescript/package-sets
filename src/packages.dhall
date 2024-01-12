@@ -1451,6 +1451,11 @@
   , repo = "https://github.com/rowtype-yoga/purescript-fetch-yoga-json.git"
   , version = "v1.1.0"
   }
+, fft-js =
+  { dependencies = [ "arrays", "cartesian", "partial", "prelude", "st" ]
+  , repo = "https://github.com/jeslie0/purescript-fft-js.git"
+  , version = "v0.1.0"
+  }
 , filterable =
   { dependencies =
     [ "arrays"
@@ -1847,6 +1852,24 @@
   { dependencies = [ "console", "effect", "psci-support", "sparse-polynomials" ]
   , repo = "https://github.com/Ebmtranceboy/purescript-geometry-plane.git"
   , version = "v1.0.3"
+  }
+, gojs =
+  { dependencies =
+    [ "effect"
+    , "foldable-traversable"
+    , "functions"
+    , "lists"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "variant"
+    , "web-events"
+    , "web-html"
+    ]
+  , repo = "https://github.com/AdaBeat/purescript-gojs.git"
+  , version = "v0.1.0"
   }
 , grain =
   { dependencies =
