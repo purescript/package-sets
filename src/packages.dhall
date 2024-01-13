@@ -334,6 +334,7 @@
     , "either"
     , "filterable"
     , "foldable-traversable"
+    , "lists"
     , "maybe"
     , "ordered-collections"
     , "partial"
@@ -341,7 +342,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/flip111/purescript-arrays-extra.git"
-  , version = "v0.4.4"
+  , version = "v0.5.0"
   }
 , arrays-zipper =
   { dependencies = [ "arrays", "control", "quickcheck" ]
@@ -1972,7 +1973,7 @@
 , halogen-bootstrap5 =
   { dependencies = [ "halogen" ]
   , repo = "https://github.com/tonicebrian/purescript-halogen-bootstrap5.git"
-  , version = "v2.3.1"
+  , version = "v5.3.2"
   }
 , halogen-css =
   { dependencies = [ "css", "halogen" ]
