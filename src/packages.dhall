@@ -1190,7 +1190,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.10.0"
+  , version = "v0.11.3"
   }
 , elmish-enzyme =
   { dependencies =
@@ -1240,7 +1240,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
-  , version = "v0.8.1"
+  , version = "v0.8.2"
   }
 , elmish-testing-library =
   { dependencies =
@@ -1260,7 +1260,7 @@
     ]
   , repo =
     "https://github.com/collegevine/purescript-elmish-testing-library.git"
-  , version = "v0.3.1"
+  , version = "v0.3.2"
   }
 , email-validate =
   { dependencies = [ "aff", "string-parsers", "transformers" ]
