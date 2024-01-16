@@ -342,7 +342,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/flip111/purescript-arrays-extra.git"
-  , version = "v0.5.0"
+  , version = "v0.5.1"
   }
 , arrays-zipper =
   { dependencies = [ "arrays", "control", "quickcheck" ]
@@ -1870,7 +1870,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/AdaBeat/purescript-gojs.git"
-  , version = "v0.1.0"
+  , version = "v0.1.1"
   }
 , grain =
   { dependencies =
@@ -2377,6 +2377,11 @@
   { dependencies = [ "partial", "prelude" ]
   , repo = "https://github.com/jordanmartinez/purescript-interpolate.git"
   , version = "v5.0.2"
+  }
+, intersection-observer =
+  { dependencies = [ "css", "options", "web-dom" ]
+  , repo = "https://github.com/grybiena/intersection-observer.git"
+  , version = "v1.0.1"
   }
 , invariant =
   { dependencies = [ "control", "prelude" ]
@@ -4603,6 +4608,11 @@
   { dependencies = [ "bifunctors", "either", "profunctor-lenses" ]
   , repo = "https://github.com/krisajenkins/purescript-remotedata.git"
   , version = "v5.0.0"
+  }
+, resize-observer =
+  { dependencies = [ "web-dom" ]
+  , repo = "https://github.com/grybiena/resize-observer.git"
+  , version = "v1.0.0"
   }
 , resource =
   { dependencies =
