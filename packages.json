@@ -2322,6 +2322,21 @@
     "repo": "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git",
     "version": "v0.9.0"
   },
+  "halogen-infinite-scroll": {
+    "dependencies": [
+      "css",
+      "halogen",
+      "halogen-css",
+      "halogen-subscriptions",
+      "intersection-observer",
+      "mmorph",
+      "pipes",
+      "resize-observer",
+      "resourcet"
+    ],
+    "repo": "https://github.com/grybiena/halogen-infinite-scroll.git",
+    "version": "v1.0.1"
+  },
   "halogen-store": {
     "dependencies": [
       "aff",
