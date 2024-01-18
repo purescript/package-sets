@@ -2083,7 +2083,7 @@
     , "resourcet"
     ]
   , repo = "https://github.com/grybiena/halogen-infinite-scroll.git"
-  , version = "v1.0.1"
+  , version = "v1.1.0"
   }
 , halogen-store =
   { dependencies =
