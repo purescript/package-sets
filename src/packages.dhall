@@ -1565,6 +1565,22 @@
   , repo = "https://github.com/purescript/purescript-foldable-traversable.git"
   , version = "v6.0.0"
   }
+, foldable-traversable-extra =
+  { dependencies =
+    [ "arrays"
+    , "either"
+    , "foldable-traversable"
+    , "maybe"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo =
+    "https://github.com/flip111/purescript-foldable-traversable-extra.git"
+  , version = "v0.0.5"
+  }
 , foreign =
   { dependencies =
     [ "either"
@@ -2174,6 +2190,12 @@
   , repo =
     "https://github.com/purescript-halogen/purescript-halogen-vdom-string-renderer.git"
   , version = "v0.5.0"
+  }
+, halogen-xterm =
+  { dependencies =
+    [ "halogen", "halogen-css", "options", "profunctor-lenses", "xterm" ]
+  , repo = "https://github.com/grybiena/halogen-xterm.git"
+  , version = "v1.0.0"
   }
 , heckin =
   { dependencies =
@@ -5976,6 +5998,11 @@
     [ "arrays", "effect", "foreign", "maybe", "nullable", "options", "prelude" ]
   , repo = "https://github.com/maxdeviant/purescript-which.git"
   , version = "v2.0.0"
+  }
+, xterm =
+  { dependencies = [ "aff-promise", "css", "options", "web-uievents" ]
+  , repo = "https://github.com/grybiena/xterm.git"
+  , version = "v1.0.0"
   }
 , yoga-fetch =
   { dependencies =
