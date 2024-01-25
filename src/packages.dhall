@@ -334,15 +334,14 @@
     , "either"
     , "filterable"
     , "foldable-traversable"
-    , "lists"
+    , "foldable-traversable-extra"
     , "maybe"
-    , "ordered-collections"
     , "partial"
     , "prelude"
     , "tuples"
     ]
   , repo = "https://github.com/flip111/purescript-arrays-extra.git"
-  , version = "v0.5.1"
+  , version = "v0.6.0"
   }
 , arrays-zipper =
   { dependencies = [ "arrays", "control", "quickcheck" ]
@@ -1491,7 +1490,7 @@
     , "prelude"
     , "strings"
     ]
-  , repo = "https://github.com/lumihq/purescript-fixed-precision.git"
+  , repo = "https://github.com/rowtype-yoga/purescript-fixed-precision.git"
   , version = "v5.0.0"
   }
 , flame =
@@ -1579,7 +1578,7 @@
     ]
   , repo =
     "https://github.com/flip111/purescript-foldable-traversable-extra.git"
-  , version = "v0.0.5"
+  , version = "v0.0.6"
   }
 , foreign =
   { dependencies =
@@ -2871,7 +2870,7 @@
     , "web-storage"
     , "web-uievents"
     ]
-  , repo = "https://github.com/lumihq/purescript-lumi-components.git"
+  , repo = "https://github.com/purescript-react/purescript-lumi-components.git"
   , version = "v18.0.0"
   }
 , machines =
