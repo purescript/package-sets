@@ -668,6 +668,11 @@
   , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
   , version = "v3.1.1"
   }
+, choku =
+  { dependencies = [ "aff", "effect", "functions", "maybe", "prelude" ]
+  , repo = "https://github.com/m15a/purescript-choku.git"
+  , version = "v0.2.2"
+  }
 , classless =
   { dependencies = [ "heterogeneous", "prelude", "record" ]
   , repo = "https://github.com/thought2/purescript-classless.git"
@@ -2737,6 +2742,12 @@
   , repo = "https://github.com/paf31/purescript-leibniz.git"
   , version = "v5.0.0"
   }
+, leveldb =
+  { dependencies =
+    [ "aff", "aff-promise", "argonaut", "options", "pipes", "resourcet" ]
+  , repo = "https://github.com/grybiena/leveldb.git"
+  , version = "v1.0.1"
+  }
 , liminal =
   { dependencies =
     [ "aff"
@@ -4228,6 +4239,22 @@
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-psci-support.git"
   , version = "v6.0.0"
+  }
+, punycode =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "either"
+    , "enums"
+    , "foldable-traversable"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/crestonbunch/purescript-punycode.git"
+  , version = "v1.0.0"
   }
 , qualified-do =
   { dependencies =
