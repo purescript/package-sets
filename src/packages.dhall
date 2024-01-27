@@ -1273,9 +1273,15 @@
   }
 , encoding =
   { dependencies =
-    [ "arraybuffer-types", "either", "exceptions", "functions", "prelude" ]
+    [ "arraybuffer-types"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "functions"
+    , "prelude"
+    ]
   , repo = "https://github.com/menelaos/purescript-encoding.git"
-  , version = "v0.0.8"
+  , version = "v0.0.9"
   }
 , enums =
   { dependencies =
