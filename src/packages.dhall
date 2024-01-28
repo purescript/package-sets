@@ -2205,7 +2205,7 @@
   { dependencies =
     [ "halogen", "halogen-css", "options", "profunctor-lenses", "xterm" ]
   , repo = "https://github.com/grybiena/halogen-xterm.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , heckin =
   { dependencies =
