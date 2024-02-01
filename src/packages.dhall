@@ -341,7 +341,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/flip111/purescript-arrays-extra.git"
-  , version = "v0.6.0"
+  , version = "v0.6.1"
   }
 , arrays-zipper =
   { dependencies = [ "arrays", "control", "quickcheck" ]
