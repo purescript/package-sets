@@ -2001,6 +2001,11 @@
   , repo = "https://github.com/tonicebrian/purescript-halogen-bootstrap5.git"
   , version = "v5.3.2"
   }
+, halogen-canvas =
+  { dependencies = [ "aff-promise", "canvas", "colors", "halogen" ]
+  , repo = "https://github.com/grybiena/halogen-canvas.git"
+  , version = "v1.0.0"
+  }
 , halogen-css =
   { dependencies = [ "css", "halogen" ]
   , repo = "https://github.com/purescript-halogen/purescript-halogen-css.git"
