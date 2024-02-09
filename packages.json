@@ -5359,6 +5359,20 @@
     "repo": "https://github.com/mikesol/purescript-rito.git",
     "version": "v0.3.4"
   },
+  "rough-notation": {
+    "dependencies": [
+      "aff",
+      "datetime",
+      "effect",
+      "maybe",
+      "nullable",
+      "prelude",
+      "unsafe-coerce",
+      "web-dom"
+    ],
+    "repo": "https://github.com/MitchStevens/purescript-rough-notation.git",
+    "version": "v1.0.0"
+  },
   "routing": {
     "dependencies": [
       "aff",
