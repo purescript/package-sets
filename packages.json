@@ -760,13 +760,15 @@
   "choku": {
     "dependencies": [
       "aff",
+      "control",
       "effect",
       "functions",
       "maybe",
-      "prelude"
+      "prelude",
+      "strings"
     ],
     "repo": "https://github.com/m15a/purescript-choku.git",
-    "version": "v0.2.2"
+    "version": "v1.0.1"
   },
   "classless": {
     "dependencies": [

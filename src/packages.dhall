@@ -669,9 +669,10 @@
   , version = "v3.1.1"
   }
 , choku =
-  { dependencies = [ "aff", "effect", "functions", "maybe", "prelude" ]
+  { dependencies =
+    [ "aff", "control", "effect", "functions", "maybe", "prelude", "strings" ]
   , repo = "https://github.com/m15a/purescript-choku.git"
-  , version = "v0.2.2"
+  , version = "v1.0.1"
   }
 , classless =
   { dependencies = [ "heterogeneous", "prelude", "record" ]
