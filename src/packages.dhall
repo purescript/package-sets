@@ -5114,7 +5114,6 @@
     , "bifunctors"
     , "control"
     , "datetime"
-    , "debug"
     , "effect"
     , "either"
     , "exceptions"
@@ -5137,7 +5136,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v7.5.5"
+  , version = "v7.6.0"
   }
 , spec-mocha =
   { dependencies =
