@@ -4788,7 +4788,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/MitchStevens/purescript-rough-notation.git"
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , routing =
   { dependencies =
