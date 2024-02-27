@@ -5369,11 +5369,12 @@
       "maybe",
       "nullable",
       "prelude",
+      "record",
       "unsafe-coerce",
       "web-dom"
     ],
     "repo": "https://github.com/MitchStevens/purescript-rough-notation.git",
-    "version": "v1.0.1"
+    "version": "v1.0.2"
   },
   "routing": {
     "dependencies": [
