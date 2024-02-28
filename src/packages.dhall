@@ -2732,6 +2732,39 @@
   , repo = "https://github.com/thought2/purescript-labeled-data.git"
   , version = "v0.2.0"
   }
+, language-cst-parser =
+  { dependencies =
+    [ "arrays"
+    , "const"
+    , "control"
+    , "effect"
+    , "either"
+    , "enums"
+    , "foldable-traversable"
+    , "free"
+    , "functions"
+    , "functors"
+    , "identity"
+    , "integers"
+    , "lazy"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "numbers"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "st"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unfoldable"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-language-cst-parser.git"
+  , version = "v0.14.0"
+  }
 , lazy =
   { dependencies = [ "control", "foldable-traversable", "invariant", "prelude" ]
   , repo = "https://github.com/purescript/purescript-lazy.git"
