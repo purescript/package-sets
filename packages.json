@@ -5284,11 +5284,16 @@
   "remotedata": {
     "dependencies": [
       "bifunctors",
+      "effect",
       "either",
-      "profunctor-lenses"
+      "foldable-traversable",
+      "maybe",
+      "prelude",
+      "profunctor-lenses",
+      "transformers"
     ],
     "repo": "https://github.com/krisajenkins/purescript-remotedata.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "resize-observer": {
     "dependencies": [

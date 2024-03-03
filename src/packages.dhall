@@ -4713,9 +4713,18 @@
   , version = "v6.0.0"
   }
 , remotedata =
-  { dependencies = [ "bifunctors", "either", "profunctor-lenses" ]
+  { dependencies =
+    [ "bifunctors"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "maybe"
+    , "prelude"
+    , "profunctor-lenses"
+    , "transformers"
+    ]
   , repo = "https://github.com/krisajenkins/purescript-remotedata.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , resize-observer =
   { dependencies = [ "web-dom" ]
