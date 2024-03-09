@@ -5706,7 +5706,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/fehrenbach/purescript-unordered-collections.git"
-  , version = "v3.0.1"
+  , version = "v3.1.0"
   }
 , unsafe-coerce =
   { dependencies = [] : List Text
