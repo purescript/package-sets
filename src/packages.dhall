@@ -1463,6 +1463,12 @@
   , repo = "https://github.com/rowtype-yoga/purescript-fetch-yoga-json.git"
   , version = "v1.1.0"
   }
+, ffi-simple =
+  { dependencies =
+    [ "functions", "maybe", "nullable", "prelude", "unsafe-coerce" ]
+  , repo = "https://github.com/garganscript/purescript-ffi-simple.git"
+  , version = "v0.5.1"
+  }
 , fft-js =
   { dependencies = [ "arrays", "cartesian", "partial", "prelude", "st" ]
   , repo = "https://github.com/jeslie0/purescript-fft-js.git"
@@ -4167,13 +4173,15 @@
     , "record"
     , "simple-json"
     , "strings"
+    , "tailrec"
     , "transformers"
     , "tuples"
     , "typelevel-prelude"
+    , "unlift"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-postgresql.git"
-  , version = "v1.2.3"
+  , version = "v1.3.0"
   }
 , precise =
   { dependencies =
