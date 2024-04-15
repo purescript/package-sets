@@ -1061,6 +1061,12 @@
   , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
   , version = "v12.0.0"
   }
+, dom-simple =
+  { dependencies =
+    [ "effect", "ffi-simple", "maybe", "nullable", "prelude", "unsafe-coerce" ]
+  , repo = "https://github.com/garganscript/purescript-dom-simple.git"
+  , version = "v0.4.0"
+  }
 , dotenv =
   { dependencies =
     [ "aff"
@@ -4651,7 +4657,7 @@
 , react-icons =
   { dependencies = [ "react-basic", "react-basic-dom", "unsafe-coerce" ]
   , repo = "https://github.com/purescript-react/purescript-react-icons.git"
-  , version = "v1.1.4"
+  , version = "v1.1.5"
   }
 , react-markdown =
   { dependencies = [ "prelude", "react-basic-hooks" ]
