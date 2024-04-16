@@ -5269,6 +5269,23 @@
     "repo": "https://github.com/rowtype-yoga/purescript-react-virtuoso.git",
     "version": "v1.0.0"
   },
+  "reactix": {
+    "dependencies": [
+      "dom-simple",
+      "effect",
+      "ffi-simple",
+      "foldable-traversable",
+      "functions",
+      "maybe",
+      "nullable",
+      "prelude",
+      "strings",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/garganscript/purescript-reactix.git",
+    "version": "v0.6.0"
+  },
   "read": {
     "dependencies": [
       "maybe",
@@ -5675,6 +5692,18 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
     "version": "v9.0.0"
+  },
+  "simple-json-generics": {
+    "dependencies": [
+      "control",
+      "foreign",
+      "prelude",
+      "simple-json",
+      "transformers",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-simple-json-generics.git",
+    "version": "v0.2.1"
   },
   "simple-ulid": {
     "dependencies": [
@@ -6159,6 +6188,21 @@
     "repo": "https://github.com/purescript-contrib/purescript-these.git",
     "version": "v6.0.0"
   },
+  "toestand": {
+    "dependencies": [
+      "effect",
+      "foldable-traversable",
+      "ordered-collections",
+      "prelude",
+      "reactix",
+      "record",
+      "tuples",
+      "typelevel-prelude",
+      "typisch"
+    ],
+    "repo": "https://github.com/garganscript/purescript-toestand.git",
+    "version": "v0.9.0"
+  },
   "transformation-matrix": {
     "dependencies": [
       "aff",
@@ -6348,6 +6392,13 @@
     ],
     "repo": "https://github.com/jordanmartinez/purescript-typelevel-rows.git",
     "version": "v0.1.0"
+  },
+  "typisch": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/garganscript/purescript-typisch.git",
+    "version": "v0.4.0"
   },
   "uint": {
     "dependencies": [
