@@ -41,6 +41,11 @@
   , repo = "https://github.com/purescript-contrib/purescript-ace.git"
   , version = "v9.1.0"
   }
+, address-rfc2821 =
+  { dependencies = [ "either", "exceptions", "ffi-simple", "prelude" ]
+  , repo = "https://github.com/garganscript/purescript-address-rfc2821.git"
+  , version = "v0.1.1"
+  }
 , aff =
   { dependencies =
     [ "arrays"
