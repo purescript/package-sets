@@ -150,6 +150,12 @@
   , repo = "https://github.com/hdgarrood/purescript-ansi.git"
   , version = "v7.0.0"
   }
+, apexcharts =
+  { dependencies =
+    [ "contravariant", "effect", "foreign", "options", "prelude", "web-dom" ]
+  , repo = "https://github.com/timdeputter/purescript-apexcharts.git"
+  , version = "v0.5.0"
+  }
 , applicative-phases =
   { dependencies = [ "maybe", "prelude", "tuples" ]
   , repo = "https://github.com/artemisSystem/purescript-applicative-phases.git"
@@ -4192,7 +4198,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-postgresql.git"
-  , version = "v1.3.0"
+  , version = "v1.4.0"
   }
 , precise =
   { dependencies =
