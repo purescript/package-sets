@@ -892,6 +892,40 @@
   , repo = "https://github.com/deemp/purescript-css-frameworks.git"
   , version = "v1.0.1"
   }
+, csv-stream =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "bifunctors"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "node-buffer"
+    , "node-event-emitter"
+    , "node-streams"
+    , "nullable"
+    , "numbers"
+    , "precise-datetime"
+    , "prelude"
+    , "record"
+    , "st"
+    , "strings"
+    , "tailrec"
+    , "transformers"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/cakekindel/purescript-csv-stream.git"
+  , version = "v1.1.0"
+  }
 , data-mvc =
   { dependencies =
     [ "arrays"
@@ -4181,6 +4215,7 @@
     , "newtype"
     , "node-buffer"
     , "node-event-emitter"
+    , "node-streams"
     , "nullable"
     , "parallel"
     , "partial"
@@ -4198,7 +4233,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-postgresql.git"
-  , version = "v1.4.0"
+  , version = "v1.5.1"
   }
 , precise =
   { dependencies =
