@@ -897,10 +897,12 @@
     [ "aff"
     , "arrays"
     , "bifunctors"
+    , "control"
     , "datetime"
     , "effect"
     , "either"
     , "exceptions"
+    , "filterable"
     , "foldable-traversable"
     , "foreign"
     , "foreign-object"
@@ -913,9 +915,11 @@
     , "node-streams"
     , "nullable"
     , "numbers"
+    , "ordered-collections"
     , "precise-datetime"
     , "prelude"
     , "record"
+    , "record-extra"
     , "st"
     , "strings"
     , "tailrec"
@@ -924,7 +928,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-csv-stream.git"
-  , version = "v1.1.0"
+  , version = "v1.1.7"
   }
 , data-mvc =
   { dependencies =
