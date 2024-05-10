@@ -988,6 +988,11 @@
   , repo = "https://github.com/flounders/purescript-datetime-parsing.git"
   , version = "v0.2.0"
   }
+, debounce =
+  { dependencies = [ "effect", "prelude" ]
+  , repo = "https://github.com/garganscript/purescript-debouncing.git"
+  , version = "v0.1.0"
+  }
 , debug =
   { dependencies = [ "functions", "prelude" ]
   , repo = "https://github.com/garyb/purescript-debug.git"
@@ -4770,7 +4775,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/garganscript/purescript-reactix.git"
-  , version = "v0.6.0"
+  , version = "v0.6.1"
   }
 , read =
   { dependencies = [ "maybe", "prelude", "strings" ]
