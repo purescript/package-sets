@@ -3635,6 +3635,35 @@
   , repo = "https://github.com/justinwoo/purescript-node-sqlite3.git"
   , version = "v8.0.0"
   }
+, node-stream-pipes =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "maybe"
+    , "mmorph"
+    , "newtype"
+    , "node-buffer"
+    , "node-event-emitter"
+    , "node-fs"
+    , "node-path"
+    , "node-streams"
+    , "node-zlib"
+    , "parallel"
+    , "pipes"
+    , "prelude"
+    , "st"
+    , "strings"
+    , "tailrec"
+    , "transformers"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/cakekindel/purescript-node-stream-pipes.git"
+  , version = "v1.0.5"
+  }
 , node-streams =
   { dependencies =
     [ "aff"
