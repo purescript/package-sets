@@ -3643,6 +3643,8 @@
     , "either"
     , "exceptions"
     , "foldable-traversable"
+    , "foreign-object"
+    , "lists"
     , "maybe"
     , "mmorph"
     , "newtype"
@@ -3652,6 +3654,7 @@
     , "node-path"
     , "node-streams"
     , "node-zlib"
+    , "ordered-collections"
     , "parallel"
     , "pipes"
     , "prelude"
@@ -3659,10 +3662,12 @@
     , "strings"
     , "tailrec"
     , "transformers"
+    , "tuples"
+    , "unordered-collections"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-node-stream-pipes.git"
-  , version = "v1.0.5"
+  , version = "v1.2.3"
   }
 , node-streams =
   { dependencies =
@@ -4253,10 +4258,12 @@
     , "newtype"
     , "node-buffer"
     , "node-event-emitter"
+    , "node-stream-pipes"
     , "node-streams"
     , "nullable"
     , "parallel"
     , "partial"
+    , "pipes"
     , "precise-datetime"
     , "prelude"
     , "profunctor"
@@ -4271,7 +4278,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-postgresql.git"
-  , version = "v1.5.1"
+  , version = "v1.6.3"
   }
 , precise =
   { dependencies =
