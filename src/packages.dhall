@@ -3667,7 +3667,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-node-stream-pipes.git"
-  , version = "v1.3.3"
+  , version = "v1.4.1"
   }
 , node-streams =
   { dependencies =
