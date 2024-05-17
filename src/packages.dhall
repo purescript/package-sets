@@ -2731,7 +2731,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/purescript/purescript-json.git"
-  , version = "v1.0.0"
+  , version = "v1.1.0"
   }
 , json-codecs =
   { dependencies =
