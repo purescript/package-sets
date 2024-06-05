@@ -935,7 +935,7 @@
       "variant"
     ],
     "repo": "https://github.com/garyb/purescript-codec-json.git",
-    "version": "v1.1.0"
+    "version": "v1.2.0"
   },
   "colors": {
     "dependencies": [
