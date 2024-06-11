@@ -1429,6 +1429,41 @@
   , repo = "https://github.com/justinwoo/purescript-expect-inferred.git"
   , version = "v3.0.0"
   }
+, ezfetch =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "arraybuffer-types"
+    , "b64"
+    , "bifunctors"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "integers"
+    , "maybe"
+    , "newtype"
+    , "node-buffer"
+    , "node-streams"
+    , "nullable"
+    , "numbers"
+    , "ordered-collections"
+    , "prelude"
+    , "record"
+    , "simple-json"
+    , "transformers"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "url-immutable"
+    , "web-file"
+    , "web-streams"
+    ]
+  , repo = "https://github.com/cakekindel/purescript-ezfetch.git"
+  , version = "v1.0.0"
+  }
 , fahrtwind =
   { dependencies =
     [ "arrays"
@@ -5983,6 +6018,30 @@
     ]
   , repo = "https://github.com/purescript-contrib/purescript-uri.git"
   , version = "v9.0.0"
+  }
+, url-immutable =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "either"
+    , "filterable"
+    , "foldable-traversable"
+    , "foreign"
+    , "integers"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "simple-json"
+    , "strings"
+    , "stringutils"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/cakekindel/purescript-url-immutable.git"
+  , version = "v1.0.0"
   }
 , uuid =
   { dependencies =
