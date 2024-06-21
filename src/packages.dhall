@@ -595,7 +595,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-cbor-stream.git"
-  , version = "v1.0.4"
+  , version = "v1.1.0"
   }
 , chameleon =
   { dependencies =
@@ -962,7 +962,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-csv-stream.git"
-  , version = "v2.0.2"
+  , version = "v2.1.0"
   }
 , data-mvc =
   { dependencies =
