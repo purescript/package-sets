@@ -585,7 +585,6 @@
     , "node-streams"
     , "nullable"
     , "ordered-collections"
-    , "pipes"
     , "prelude"
     , "record"
     , "simple-json"
@@ -595,7 +594,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-cbor-stream.git"
-  , version = "v1.1.0"
+  , version = "v1.3.0"
   }
 , chameleon =
   { dependencies =
@@ -948,21 +947,19 @@
     , "nullable"
     , "numbers"
     , "ordered-collections"
-    , "pipes"
     , "precise-datetime"
     , "prelude"
     , "record"
     , "record-extra"
     , "st"
     , "strings"
-    , "tailrec"
     , "transformers"
     , "tuples"
     , "typelevel-prelude"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-csv-stream.git"
-  , version = "v2.1.0"
+  , version = "v2.3.0"
   }
 , data-mvc =
   { dependencies =
@@ -3538,7 +3535,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-fs.git"
-  , version = "v9.1.0"
+  , version = "v9.2.0"
   }
 , node-glob-basic =
   { dependencies =
@@ -3708,11 +3705,15 @@
   { dependencies =
     [ "aff"
     , "arrays"
+    , "console"
+    , "control"
+    , "datetime"
     , "effect"
     , "either"
     , "exceptions"
     , "foldable-traversable"
     , "foreign-object"
+    , "fork"
     , "lists"
     , "maybe"
     , "mmorph"
@@ -3723,6 +3724,7 @@
     , "node-path"
     , "node-streams"
     , "node-zlib"
+    , "now"
     , "ordered-collections"
     , "parallel"
     , "pipes"
@@ -3736,7 +3738,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-node-stream-pipes.git"
-  , version = "v1.4.1"
+  , version = "v2.1.1"
   }
 , node-streams =
   { dependencies =
@@ -4347,7 +4349,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-postgresql.git"
-  , version = "v1.6.3"
+  , version = "v1.7.2"
   }
 , precise =
   { dependencies =
