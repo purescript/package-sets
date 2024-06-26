@@ -272,10 +272,9 @@
   , version = "v0.1.2"
   }
 , array-search =
-  { dependencies =
-    [ "arrays", "effect", "foldable-traversable", "maybe", "prelude" ]
+  { dependencies = [ "arrays", "foldable-traversable", "maybe", "prelude" ]
   , repo = "https://github.com/joellefkowitz/array-search.git"
-  , version = "v0.5.6"
+  , version = "v0.6.0"
   }
 , arraybuffer =
   { dependencies =
@@ -372,7 +371,7 @@
 , assert-multiple =
   { dependencies = [ "effect", "foldable-traversable", "prelude" ]
   , repo = "https://github.com/joellefkowitz/assert-multiple.git"
-  , version = "v0.3.4"
+  , version = "v0.4.0"
   }
 , avar =
   { dependencies =
@@ -1336,7 +1335,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
-  , version = "v0.8.2"
+  , version = "v0.8.3"
   }
 , elmish-testing-library =
   { dependencies =
@@ -1392,9 +1391,9 @@
   , version = "v6.0.1"
   }
 , env-names =
-  { dependencies = [ "arrays", "maybe", "prelude" ]
+  { dependencies = [ "arrays", "prelude" ]
   , repo = "https://github.com/joellefkowitz/env-names.git"
-  , version = "v0.3.4"
+  , version = "v0.4.0"
   }
 , error =
   { dependencies = [ "console", "effect", "prelude" ]
@@ -2431,6 +2430,22 @@
   , repo = "https://github.com/sigma-andex/purescript-httpurple.git"
   , version = "v4.0.0"
   }
+, huffman =
+  { dependencies =
+    [ "arrays"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "strings"
+    , "stringutils"
+    , "tuples"
+    ]
+  , repo = "https://github.com/joellefkowitz/huffman.git"
+  , version = "v0.4.0"
+  }
 , humdrum =
   { dependencies =
     [ "console"
@@ -3077,9 +3092,10 @@
   , version = "v7.0.0"
   }
 , maps-eager =
-  { dependencies = [ "maybe", "ordered-collections" ]
+  { dependencies =
+    [ "arrays", "lists", "maybe", "ordered-collections", "prelude" ]
   , repo = "https://github.com/joellefkowitz/maps-eager.git"
-  , version = "v0.4.1"
+  , version = "v0.5.0"
   }
 , marionette =
   { dependencies =
@@ -3738,7 +3754,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-node-stream-pipes.git"
-  , version = "v2.1.1"
+  , version = "v2.1.4"
   }
 , node-streams =
   { dependencies =
@@ -4321,14 +4337,17 @@
     , "foldable-traversable"
     , "foreign"
     , "fork"
+    , "functors"
     , "integers"
     , "js-bigints"
     , "lists"
     , "maybe"
     , "mmorph"
+    , "monad-control"
     , "newtype"
     , "node-buffer"
     , "node-event-emitter"
+    , "node-fs"
     , "node-stream-pipes"
     , "node-streams"
     , "nullable"
@@ -4339,6 +4358,7 @@
     , "prelude"
     , "profunctor"
     , "record"
+    , "refs"
     , "simple-json"
     , "strings"
     , "tailrec"
@@ -4349,7 +4369,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-postgresql.git"
-  , version = "v1.7.2"
+  , version = "v2.0.15"
   }
 , precise =
   { dependencies =
@@ -4958,6 +4978,20 @@
   , repo = "https://github.com/krisajenkins/purescript-remotedata.git"
   , version = "v5.0.1"
   }
+, repr =
+  { dependencies =
+    [ "arrays"
+    , "foldable-traversable"
+    , "lists"
+    , "ordered-collections"
+    , "prelude"
+    , "strings"
+    , "stringutils"
+    , "tuples"
+    ]
+  , repo = "https://github.com/joellefkowitz/repr.git"
+  , version = "v0.5.0"
+  }
 , resize-observer =
   { dependencies = [ "web-dom" ]
   , repo = "https://github.com/grybiena/resize-observer.git"
@@ -5049,6 +5083,23 @@
     ]
   , repo = "https://github.com/mikesol/purescript-rito.git"
   , version = "v0.3.4"
+  }
+, roman =
+  { dependencies =
+    [ "array-search"
+    , "arrays"
+    , "foldable-traversable"
+    , "integers"
+    , "maps-eager"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "strings"
+    , "stringutils"
+    , "tuples"
+    ]
+  , repo = "https://github.com/joellefkowitz/roman.git"
+  , version = "v0.4.0"
   }
 , rough-notation =
   { dependencies =
