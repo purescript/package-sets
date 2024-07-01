@@ -1408,7 +1408,7 @@
 , exceptions =
   { dependencies = [ "effect", "either", "maybe", "prelude" ]
   , repo = "https://github.com/purescript/purescript-exceptions.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , exists =
   { dependencies = [ "unsafe-coerce" ]
@@ -3710,7 +3710,7 @@
     , "prelude"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-readline.git"
-  , version = "v8.1.0"
+  , version = "v8.1.1"
   }
 , node-sqlite3 =
   { dependencies = [ "aff", "foreign" ]
