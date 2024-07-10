@@ -1285,7 +1285,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.11.3"
+  , version = "v0.11.4"
   }
 , elmish-enzyme =
   { dependencies =
@@ -5475,6 +5475,18 @@
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
   , version = "v7.6.0"
+  }
+, spec-discovery =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "effect"
+    , "foldable-traversable"
+    , "prelude"
+    , "spec"
+    ]
+  , repo = "https://github.com/purescript-spec/purescript-spec-discovery.git"
+  , version = "v8.3.0"
   }
 , spec-mocha =
   { dependencies =
