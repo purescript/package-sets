@@ -5503,9 +5503,17 @@
   , version = "v5.1.0"
   }
 , spec-quickcheck =
-  { dependencies = [ "aff", "prelude", "quickcheck", "random", "spec" ]
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "prelude"
+    , "quickcheck"
+    ]
   , repo = "https://github.com/purescript-spec/purescript-spec-quickcheck.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , splitmix =
   { dependencies =

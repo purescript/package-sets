@@ -6139,13 +6139,15 @@
   "spec-quickcheck": {
     "dependencies": [
       "aff",
+      "effect",
+      "foldable-traversable",
+      "lists",
+      "maybe",
       "prelude",
-      "quickcheck",
-      "random",
-      "spec"
+      "quickcheck"
     ],
     "repo": "https://github.com/purescript-spec/purescript-spec-quickcheck.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "splitmix": {
     "dependencies": [
