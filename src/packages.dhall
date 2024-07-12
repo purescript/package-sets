@@ -1317,7 +1317,7 @@
     , "undefined-is-not-a-problem"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-hooks.git"
-  , version = "v0.10.0"
+  , version = "v0.10.2"
   }
 , elmish-html =
   { dependencies =
