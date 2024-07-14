@@ -2008,9 +2008,10 @@
   , version = "v0.0.5"
   }
 , geometry-plane =
-  { dependencies = [ "console", "effect", "psci-support", "sparse-polynomials" ]
+  { dependencies =
+    [ "arrays", "maybe", "numbers", "prelude", "sparse-polynomials" ]
   , repo = "https://github.com/Ebmtranceboy/purescript-geometry-plane.git"
-  , version = "v1.0.3"
+  , version = "v1.1.0"
   }
 , gojs =
   { dependencies =
@@ -3846,10 +3847,9 @@
 , numberfield =
   { dependencies =
     [ "arrays"
-    , "assert"
-    , "effect"
     , "foldable-traversable"
-    , "js-bigints"
+    , "group"
+    , "integers"
     , "maybe"
     , "ordered-collections"
     , "prelude"
@@ -3857,9 +3857,10 @@
     , "sparse-matrices"
     , "sparse-polynomials"
     , "tuples"
+    , "unordered-collections"
     ]
   , repo = "https://github.com/Ebmtranceboy/purescript-numberfield.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , numbers =
   { dependencies = [ "functions", "maybe" ]
@@ -5406,28 +5407,22 @@
 , sparse-matrices =
   { dependencies =
     [ "arrays"
-    , "assert"
     , "cartesian"
-    , "effect"
     , "foldable-traversable"
     , "integers"
     , "maybe"
-    , "numbers"
     , "ordered-collections"
     , "prelude"
-    , "rationals"
     , "sparse-polynomials"
     , "tuples"
     ]
   , repo = "https://github.com/Ebmtranceboy/purescript-sparse-matrices.git"
-  , version = "v1.3.0"
+  , version = "v2.0.0"
   }
 , sparse-polynomials =
   { dependencies =
     [ "arrays"
-    , "assert"
     , "cartesian"
-    , "effect"
     , "foldable-traversable"
     , "integers"
     , "js-bigints"
@@ -5441,7 +5436,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git"
-  , version = "v2.0.5"
+  , version = "v3.0.0"
   }
 , spec =
   { dependencies =
