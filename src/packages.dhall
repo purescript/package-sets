@@ -1285,7 +1285,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.11.4"
+  , version = "v0.12.0"
   }
 , elmish-enzyme =
   { dependencies =
@@ -1317,7 +1317,7 @@
     , "undefined-is-not-a-problem"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-hooks.git"
-  , version = "v0.10.2"
+  , version = "v0.10.3"
   }
 , elmish-html =
   { dependencies =
@@ -3755,7 +3755,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-node-stream-pipes.git"
-  , version = "v2.1.5"
+  , version = "v2.1.6"
   }
 , node-streams =
   { dependencies =
@@ -5744,6 +5744,29 @@
     [ "arrays", "gen", "lists", "quickcheck", "quickcheck-laws", "tuples" ]
   , repo = "https://github.com/purescript-contrib/purescript-these.git"
   , version = "v6.0.0"
+  }
+, threading =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "catenable-lists"
+    , "control"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "filterable"
+    , "foldable-traversable"
+    , "maybe"
+    , "nullable"
+    , "ordered-collections"
+    , "prelude"
+    , "refs"
+    , "transformers"
+    , "tuples"
+    , "typelevel-prelude"
+    ]
+  , repo = "https://github.com/cakekindel/purescript-threading.git"
+  , version = "v0.0.3"
   }
 , toestand =
   { dependencies =
