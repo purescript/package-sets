@@ -5469,7 +5469,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v7.6.0"
+  , version = "v7.6.1"
   }
 , spec-discovery =
   { dependencies =
@@ -5486,7 +5486,6 @@
 , spec-mocha =
   { dependencies =
     [ "aff"
-    , "datetime"
     , "effect"
     , "either"
     , "foldable-traversable"
@@ -5495,20 +5494,43 @@
     , "spec"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec-mocha.git"
-  , version = "v5.1.0"
+  , version = "v5.1.1"
   }
 , spec-quickcheck =
   { dependencies =
     [ "aff"
+    , "arrays"
     , "effect"
     , "foldable-traversable"
     , "lists"
     , "maybe"
     , "prelude"
     , "quickcheck"
+    , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec-quickcheck.git"
-  , version = "v5.0.1"
+  , version = "v5.0.2"
+  }
+, spec-reporter-xunit =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "maybe"
+    , "node-buffer"
+    , "node-fs"
+    , "node-path"
+    , "pipes"
+    , "prelude"
+    , "spec"
+    , "strings"
+    , "transformers"
+    ]
+  , repo =
+    "https://github.com/purescript-spec/purescript-spec-reporter-xunit.git"
+  , version = "v0.7.1"
   }
 , splitmix =
   { dependencies =
