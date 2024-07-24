@@ -360,7 +360,7 @@
   }
 , ask =
   { dependencies = [ "unsafe-coerce" ]
-  , repo = "https://github.com/Mateiadrielrafael/purescript-ask.git"
+  , repo = "https://github.com/prescientmoon/purescript-ask.git"
   , version = "v1.0.0"
   }
 , `assert` =
@@ -4420,6 +4420,20 @@
   { dependencies = [ "console", "lists", "prelude", "strings", "tuples" ]
   , repo = "https://github.com/paulyoung/purescript-prettier-printer.git"
   , version = "v3.0.0"
+  }
+, priority-queue =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "prelude"
+    , "st"
+    ]
+  , repo = "https://github.com/f-f/purescript-priority-queue.git"
+  , version = "v0.1.0"
   }
 , profunctor =
   { dependencies =
