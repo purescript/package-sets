@@ -2007,12 +2007,6 @@
   , repo = "https://github.com/sumew/purescript-geojson.git"
   , version = "v0.0.5"
   }
-, geometry-plane =
-  { dependencies =
-    [ "arrays", "maybe", "numbers", "prelude", "sparse-polynomials" ]
-  , repo = "https://github.com/Ebmtranceboy/purescript-geometry-plane.git"
-  , version = "v1.1.0"
-  }
 , gojs =
   { dependencies =
     [ "effect"
