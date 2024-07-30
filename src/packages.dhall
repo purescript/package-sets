@@ -1233,7 +1233,7 @@
 , dual-numbers =
   { dependencies = [ "numbers", "prelude", "tuples" ]
   , repo = "https://github.com/Ebmtranceboy/purescript-dual-numbers.git"
-  , version = "v1.0.2"
+  , version = "v1.0.3"
   }
 , dynamic-buffer =
   { dependencies = [ "arraybuffer-types", "effect", "refs" ]
@@ -1285,7 +1285,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.12.0"
+  , version = "v0.13.0"
   }
 , elmish-enzyme =
   { dependencies =
@@ -1335,7 +1335,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
-  , version = "v0.8.3"
+  , version = "v0.9.0"
   }
 , elmish-testing-library =
   { dependencies =
@@ -2006,6 +2006,24 @@
     ]
   , repo = "https://github.com/sumew/purescript-geojson.git"
   , version = "v0.0.5"
+  }
+, geometria =
+  { dependencies =
+    [ "arrays"
+    , "cartesian"
+    , "foldable-traversable"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "ordered-collections"
+    , "prelude"
+    , "record-studio"
+    , "sparse-matrices"
+    , "sparse-polynomials"
+    , "tuples"
+    ]
+  , repo = "https://github.com/Ebmtranceboy/purescript-geometria.git"
+  , version = "v2.1.0"
   }
 , gojs =
   { dependencies =
@@ -3854,7 +3872,7 @@
     , "unordered-collections"
     ]
   , repo = "https://github.com/Ebmtranceboy/purescript-numberfield.git"
-  , version = "v0.2.0"
+  , version = "v0.2.1"
   }
 , numbers =
   { dependencies = [ "functions", "maybe" ]
@@ -5373,7 +5391,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-slug.git"
-  , version = "v3.0.8"
+  , version = "v3.1.0"
   }
 , small-ffi =
   { dependencies = [ "arrays", "console", "effect", "prelude", "quickcheck" ]
@@ -5425,7 +5443,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/Ebmtranceboy/purescript-sparse-matrices.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , sparse-polynomials =
   { dependencies =
@@ -5444,7 +5462,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , spec =
   { dependencies =
