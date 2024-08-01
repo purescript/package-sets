@@ -2014,6 +2014,7 @@
     , "foldable-traversable"
     , "integers"
     , "maybe"
+    , "numberfield"
     , "numbers"
     , "ordered-collections"
     , "prelude"
@@ -2023,7 +2024,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/Ebmtranceboy/purescript-geometria.git"
-  , version = "v2.1.0"
+  , version = "v2.2.0"
   }
 , gojs =
   { dependencies =
@@ -3872,7 +3873,7 @@
     , "unordered-collections"
     ]
   , repo = "https://github.com/Ebmtranceboy/purescript-numberfield.git"
-  , version = "v0.2.1"
+  , version = "v0.2.2"
   }
 , numbers =
   { dependencies = [ "functions", "maybe" ]
