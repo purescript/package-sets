@@ -6152,6 +6152,37 @@
     "repo": "https://github.com/purescript-spec/purescript-spec-mocha.git",
     "version": "v5.1.1"
   },
+  "spec-node": {
+    "dependencies": [
+      "aff",
+      "argonaut-codecs",
+      "argonaut-core",
+      "arrays",
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "integers",
+      "maybe",
+      "newtype",
+      "node-buffer",
+      "node-fs",
+      "node-process",
+      "now",
+      "numbers",
+      "optparse",
+      "ordered-collections",
+      "partial",
+      "prelude",
+      "spec",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-spec/purescript-spec-node.git",
+    "version": "v0.0.1"
+  },
   "spec-quickcheck": {
     "dependencies": [
       "aff",
