@@ -630,7 +630,7 @@
     , "web-events"
     , "web-html"
     ]
-  , repo = "https://github.com/thought2/purescript-chameleon-halogen.git"
+  , repo = "https://github.com/m-bock/purescript-chameleon-halogen.git"
   , version = "v1.0.3"
   }
 , chameleon-react-basic =
@@ -650,7 +650,7 @@
     , "unsafe-coerce"
     , "web-dom"
     ]
-  , repo = "https://github.com/thought2/purescript-chameleon-react-basic.git"
+  , repo = "https://github.com/m-bock/purescript-chameleon-react-basic.git"
   , version = "v1.1.0"
   }
 , chameleon-styled =
@@ -667,7 +667,7 @@
     , "tuples"
     , "unordered-collections"
     ]
-  , repo = "https://github.com/thought2/purescript-chameleon-styled.git"
+  , repo = "https://github.com/m-bock/purescript-chameleon-styled.git"
   , version = "v2.5.0"
   }
 , chameleon-transformers =
@@ -680,7 +680,7 @@
     , "transformers"
     , "tuples"
     ]
-  , repo = "https://github.com/thought2/purescript-chameleon-transformers.git"
+  , repo = "https://github.com/m-bock/purescript-chameleon-transformers.git"
   , version = "v1.0.0"
   }
 , channel =
@@ -719,7 +719,7 @@
   }
 , classless =
   { dependencies = [ "heterogeneous", "prelude", "record" ]
-  , repo = "https://github.com/thought2/purescript-classless.git"
+  , repo = "https://github.com/m-bock/purescript-classless.git"
   , version = "v0.1.1"
   }
 , classless-arbitrary =
@@ -744,7 +744,7 @@
     , "typelevel-prelude"
     , "unsafe-coerce"
     ]
-  , repo = "https://github.com/thought2/purescript-classless-arbitrary.git"
+  , repo = "https://github.com/m-bock/purescript-classless-arbitrary.git"
   , version = "v0.1.1"
   }
 , classless-decode-json =
@@ -759,7 +759,7 @@
     , "record"
     , "tuples"
     ]
-  , repo = "https://github.com/thought2/purescript-classless-decode-json.git"
+  , repo = "https://github.com/m-bock/purescript-classless-decode-json.git"
   , version = "v0.1.1"
   }
 , classless-encode-json =
@@ -777,7 +777,7 @@
     , "tuples"
     , "type-equality"
     ]
-  , repo = "https://github.com/thought2/purescript-classless-encode-json.git"
+  , repo = "https://github.com/m-bock/purescript-classless-encode-json.git"
   , version = "v0.1.3"
   }
 , classnames =
@@ -974,7 +974,7 @@
     , "record"
     , "variant"
     ]
-  , repo = "https://github.com/thought2/purescript-data-mvc.git"
+  , repo = "https://github.com/m-bock/purescript-data-mvc.git"
   , version = "v0.0.2"
   }
 , datetime =
@@ -1227,7 +1227,7 @@
     , "prelude"
     , "tuples"
     ]
-  , repo = "https://github.com/thought2/purescript-dts.git"
+  , repo = "https://github.com/m-bock/purescript-dts.git"
   , version = "v1.0.0"
   }
 , dual-numbers =
@@ -1687,7 +1687,7 @@
     , "type-equality"
     , "typelevel-prelude"
     ]
-  , repo = "https://github.com/thought2/purescript-fmt.git"
+  , repo = "https://github.com/m-bock/purescript-fmt.git"
   , version = "v0.2.1"
   }
 , foldable-traversable =
@@ -2890,7 +2890,7 @@
     , "unsafe-coerce"
     , "variant"
     ]
-  , repo = "https://github.com/thought2/purescript-labeled-data.git"
+  , repo = "https://github.com/m-bock/purescript-labeled-data.git"
   , version = "v0.2.0"
   }
 , language-cst-parser =
@@ -3129,7 +3129,7 @@
     , "transformers"
     , "tuples"
     ]
-  , repo = "https://github.com/thought2/purescript-marionette.git"
+  , repo = "https://github.com/m-bock/purescript-marionette.git"
   , version = "v1.0.0"
   }
 , marionette-react-basic-hooks =
@@ -3153,7 +3153,7 @@
     , "web-html"
     ]
   , repo =
-    "https://github.com/thought2/purescript-marionette-react-basic-hooks.git"
+    "https://github.com/m-bock/purescript-marionette-react-basic-hooks.git"
   , version = "v0.1.1"
   }
 , marked =
@@ -3357,7 +3357,7 @@
 , mvc =
   { dependencies =
     [ "heterogeneous", "maybe", "newtype", "prelude", "record", "variant" ]
-  , repo = "https://github.com/thought2/purescript-mvc.git"
+  , repo = "https://github.com/m-bock/purescript-mvc.git"
   , version = "v0.0.1"
   }
 , mysql =
@@ -3915,7 +3915,7 @@
     , "tuples"
     , "unsafe-coerce"
     ]
-  , repo = "https://github.com/thought2/purescript-object-maps.git"
+  , repo = "https://github.com/m-bock/purescript-object-maps.git"
   , version = "v0.3.0"
   }
 , ocarina =
@@ -5848,6 +5848,11 @@
   , repo = "https://github.com/cakekindel/purescript-threading.git"
   , version = "v0.0.3"
   }
+, tldr =
+  { dependencies = [ "prelude" ]
+  , repo = "https://github.com/mikesol/purescript-tldr.git"
+  , version = "v0.0.0"
+  }
 , toestand =
   { dependencies =
     [ "effect"
@@ -5948,7 +5953,7 @@
     , "variant"
     , "variant-encodings"
     ]
-  , repo = "https://github.com/thought2/purescript-ts-bridge.git"
+  , repo = "https://github.com/m-bock/purescript-ts-bridge.git"
   , version = "v4.0.0"
   }
 , tuples =
@@ -6029,7 +6034,7 @@
   }
 , typelevel-regex =
   { dependencies = [ "prelude", "typelevel-prelude" ]
-  , repo = "https://github.com/thought2/purescript-typelevel-regex.git"
+  , repo = "https://github.com/m-bock/purescript-typelevel-regex.git"
   , version = "v0.0.3"
   }
 , typelevel-rows =
@@ -6254,7 +6259,7 @@
   }
 , variant-encodings =
   { dependencies = [ "prelude", "unsafe-coerce", "variant" ]
-  , repo = "https://github.com/thought2/purescript-variant-encodings.git"
+  , repo = "https://github.com/m-bock/purescript-variant-encodings.git"
   , version = "v2.0.0"
   }
 , vectorfield =
@@ -6270,7 +6275,7 @@
     , "prelude"
     , "profunctor-lenses"
     ]
-  , repo = "https://github.com/thought2/purescript-vectors.git"
+  , repo = "https://github.com/m-bock/purescript-vectors.git"
   , version = "v2.1.0"
   }
 , versions =
