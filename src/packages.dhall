@@ -6330,7 +6330,7 @@
 , web-clipboard =
   { dependencies = [ "js-promise", "web-html" ]
   , repo = "https://github.com/purescript-web/purescript-web-clipboard.git"
-  , version = "v5.0.0"
+  , version = "v6.0.0"
   }
 , web-cssom =
   { dependencies = [ "web-dom", "web-html", "web-uievents" ]
