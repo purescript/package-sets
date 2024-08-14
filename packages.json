@@ -4468,6 +4468,19 @@
     "repo": "https://github.com/mikesol/purescript-ocarina.git",
     "version": "v1.5.4"
   },
+  "oooooooooorrrrrrrmm-lib": {
+    "dependencies": [
+      "datetime",
+      "foreign",
+      "maybe",
+      "nullable",
+      "prelude",
+      "record",
+      "yoga-json"
+    ],
+    "repo": "https://github.com/mikesol/purescript-oooooooooorrrrrrrmm-lib.git",
+    "version": "v0.0.1"
+  },
   "open-folds": {
     "dependencies": [
       "bifunctors",
