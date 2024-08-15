@@ -3979,64 +3979,57 @@
   }
 , open-folds =
   { dependencies =
-    [ "bifunctors"
-    , "console"
-    , "control"
+    [ "control"
     , "distributive"
-    , "effect"
-    , "either"
     , "foldable-traversable"
-    , "identity"
-    , "invariant"
     , "maybe"
     , "newtype"
     , "ordered-collections"
     , "prelude"
     , "profunctor"
-    , "psci-support"
-    , "tuples"
     ]
   , repo =
     "https://github.com/purescript-open-community/purescript-open-folds.git"
-  , version = "v6.3.0"
+  , version = "v6.4.0"
   }
 , open-memoize =
   { dependencies =
-    [ "console"
-    , "effect"
-    , "either"
+    [ "either"
     , "integers"
     , "lazy"
     , "lists"
     , "maybe"
     , "partial"
     , "prelude"
-    , "psci-support"
     , "strings"
     , "tuples"
     ]
   , repo =
     "https://github.com/purescript-open-community/purescript-open-memoize.git"
-  , version = "v6.1.0"
+  , version = "v6.2.0"
+  }
+, open-mkdirp-aff =
+  { dependencies =
+    [ "aff", "effect", "exceptions", "node-fs", "node-path", "prelude" ]
+  , repo =
+    "https://github.com/purescript-open-community/purescript-open-mkdirp-aff.git"
+  , version = "v1.2.0"
   }
 , open-pairing =
   { dependencies =
-    [ "console"
-    , "control"
-    , "effect"
+    [ "control"
     , "either"
     , "free"
     , "functors"
     , "identity"
     , "newtype"
     , "prelude"
-    , "psci-support"
     , "transformers"
     , "tuples"
     ]
   , repo =
     "https://github.com/purescript-open-community/purescript-open-pairing.git"
-  , version = "v6.1.0"
+  , version = "v6.2.0"
   }
 , options =
   { dependencies =
