@@ -4452,7 +4452,7 @@
     , "st"
     ]
   , repo = "https://github.com/f-f/purescript-priority-queue.git"
-  , version = "v0.1.0"
+  , version = "v0.1.2"
   }
 , profunctor =
   { dependencies =
@@ -5502,7 +5502,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v7.6.1"
+  , version = "v8.0.0"
   }
 , spec-discovery =
   { dependencies =
