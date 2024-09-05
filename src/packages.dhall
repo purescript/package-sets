@@ -2208,7 +2208,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/katsujukou/purescript-halogen-helix.git"
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , halogen-hooks =
   { dependencies =
