@@ -48,8 +48,7 @@
   }
 , aff =
   { dependencies =
-    [ "arrays"
-    , "bifunctors"
+    [ "bifunctors"
     , "control"
     , "datetime"
     , "effect"
@@ -67,7 +66,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-aff.git"
-  , version = "v7.1.0"
+  , version = "v8.0.0"
   }
 , aff-bus =
   { dependencies =
