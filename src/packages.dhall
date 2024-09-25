@@ -3991,6 +3991,33 @@
     "https://github.com/purescript-open-community/purescript-open-folds.git"
   , version = "v6.4.0"
   }
+, open-foreign-generic =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "control"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "identity"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "record"
+    , "transformers"
+    , "tuples"
+    , "unsafe-coerce"
+    ]
+  , repo =
+    "https://github.com/purescript-open-community/purescript-open-foreign-generic.git"
+  , version = "v11.0.3"
+  }
 , open-memoize =
   { dependencies =
     [ "either"
