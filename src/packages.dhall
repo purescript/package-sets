@@ -4057,6 +4057,27 @@
     "https://github.com/purescript-open-community/purescript-open-pairing.git"
   , version = "v6.2.0"
   }
+, open-smolder =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "catenable-lists"
+    , "control"
+    , "foldable-traversable"
+    , "free"
+    , "js-uri"
+    , "maybe"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo =
+    "https://github.com/purescript-open-community/purescript-open-smolder.git"
+  , version = "v12.0.1"
+  }
 , options =
   { dependencies =
     [ "contravariant", "foreign", "foreign-object", "maybe", "tuples" ]
