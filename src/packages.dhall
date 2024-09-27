@@ -4076,7 +4076,7 @@
     ]
   , repo =
     "https://github.com/purescript-open-community/purescript-open-smolder.git"
-  , version = "v12.0.1"
+  , version = "v12.0.2"
   }
 , options =
   { dependencies =
