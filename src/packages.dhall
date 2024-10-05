@@ -3976,6 +3976,12 @@
   , repo = "https://github.com/mikesol/purescript-oooooooooorrrrrrrmm-lib.git"
   , version = "v0.0.1"
   }
+, open-colors-scales-and-schemes =
+  { dependencies = [ "arrays", "colors", "partial", "prelude" ]
+  , repo =
+    "https://github.com/purescript-open-community/purescript-open-colors-scales-and-schemes.git"
+  , version = "v1.0.0"
+  }
 , open-folds =
   { dependencies =
     [ "control"
@@ -4809,6 +4815,28 @@
     ]
   , repo = "https://github.com/purescript-react/purescript-react-basic-dom.git"
   , version = "v6.1.0"
+  }
+, react-basic-dom-beta =
+  { dependencies =
+    [ "datetime"
+    , "effect"
+    , "forgetmenot"
+    , "functions"
+    , "nullable"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-hooks"
+    , "record"
+    , "type-equality"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "web-dom"
+    , "web-events"
+    , "web-html"
+    , "web-touchevents"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-react-basic-dom-beta.git"
+  , version = "v0.1.1"
   }
 , react-basic-emotion =
   { dependencies =
