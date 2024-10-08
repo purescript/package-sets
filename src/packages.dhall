@@ -5577,19 +5577,13 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v8.0.0"
+  , version = "v8.1.0"
   }
 , spec-discovery =
   { dependencies =
-    [ "aff"
-    , "aff-promise"
-    , "effect"
-    , "foldable-traversable"
-    , "prelude"
-    , "spec"
-    ]
+    [ "aff", "effect", "foldable-traversable", "prelude", "spec", "spec-node" ]
   , repo = "https://github.com/purescript-spec/purescript-spec-discovery.git"
-  , version = "v8.3.0"
+  , version = "v8.4.0"
   }
 , spec-mocha =
   { dependencies =
