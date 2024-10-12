@@ -5632,7 +5632,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec-node.git"
-  , version = "v0.0.2"
+  , version = "v0.0.3"
   }
 , spec-quickcheck =
   { dependencies =
