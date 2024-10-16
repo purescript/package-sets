@@ -4582,8 +4582,8 @@
     , "uint"
     , "web-encoding"
     ]
-  , repo = "https://github.com/xc-jp/purescript-protobuf.git"
-  , version = "v4.3.0"
+  , repo = "https://github.com/rowtype-yoga/purescript-protobuf.git"
+  , version = "v4.4.0"
   }
 , psa-utils =
   { dependencies =
