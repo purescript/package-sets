@@ -821,7 +821,7 @@
       "strings"
     ],
     "repo": "https://github.com/m15a/purescript-choku.git",
-    "version": "v1.0.1"
+    "version": "v1.0.2"
   },
   "classless": {
     "dependencies": [
@@ -7588,6 +7588,25 @@
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-yoga-postgres.git",
     "version": "v6.0.0"
+  },
+  "yoga-subtlecrypto": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "arraybuffer-types",
+      "effect",
+      "either",
+      "exceptions",
+      "foreign",
+      "functions",
+      "maybe",
+      "prelude",
+      "transformers",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-yoga-subtlecrypto.git",
+    "version": "v0.1.0"
   },
   "yoga-tree": {
     "dependencies": [
