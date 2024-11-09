@@ -4819,7 +4819,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-react/purescript-react-basic-dom.git"
-  , version = "v6.1.0"
+  , version = "v7.0.0"
   }
 , react-basic-dom-beta =
   { dependencies =
