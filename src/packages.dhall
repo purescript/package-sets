@@ -5582,7 +5582,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v8.1.0"
+  , version = "v8.1.1"
   }
 , spec-discovery =
   { dependencies =
