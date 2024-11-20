@@ -4498,6 +4498,11 @@
   , repo = "https://github.com/paulyoung/purescript-prettier-printer.git"
   , version = "v3.0.0"
   }
+, printf =
+  { dependencies = [ "prelude" ]
+  , repo = "https://github.com/eternasuno/purescript-printf.git"
+  , version = "v0.1.0"
+  }
 , priority-queue =
   { dependencies =
     [ "arrays"
