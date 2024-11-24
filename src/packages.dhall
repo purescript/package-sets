@@ -1457,7 +1457,7 @@
     , "web-streams"
     ]
   , repo = "https://github.com/cakekindel/purescript-ezfetch.git"
-  , version = "v1.0.0"
+  , version = "v1.1.0"
   }
 , fahrtwind =
   { dependencies =
@@ -2748,7 +2748,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pete-murphy/purescript-js-intl.git"
-  , version = "v1.0.4"
+  , version = "v1.1.4"
   }
 , js-iterators =
   { dependencies =
