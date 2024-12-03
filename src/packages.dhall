@@ -918,6 +918,36 @@
   , repo = "https://github.com/purescript-contrib/purescript-css.git"
   , version = "v6.0.0"
   }
+, css-class-name-extractor =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "console"
+    , "control"
+    , "effect"
+    , "either"
+    , "enums"
+    , "exceptions"
+    , "foldable-traversable"
+    , "identity"
+    , "interpolate"
+    , "lists"
+    , "maybe"
+    , "node-buffer"
+    , "node-fs"
+    , "node-path"
+    , "ordered-collections"
+    , "parsing"
+    , "prelude"
+    , "spec"
+    , "spec-discovery"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/himanoa/purescript-css-class-name-extractor.git"
+  , version = "v0.0.2"
+  }
 , css-frameworks =
   { dependencies = [ "web-html" ]
   , repo = "https://github.com/deemp/purescript-css-frameworks.git"
