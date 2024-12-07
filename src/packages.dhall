@@ -946,7 +946,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/himanoa/purescript-css-class-name-extractor.git"
-  , version = "v0.0.2"
+  , version = "v0.0.3"
   }
 , css-frameworks =
   { dependencies = [ "web-html" ]
