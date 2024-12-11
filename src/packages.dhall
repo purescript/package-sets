@@ -5883,6 +5883,37 @@
   , repo = "https://github.com/purescript/purescript-tailrec.git"
   , version = "v6.1.0"
   }
+, tanstack-query =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "console"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "forgetmenot"
+    , "js-promise"
+    , "js-promise-aff"
+    , "literals"
+    , "maybe"
+    , "nullable"
+    , "partial"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-hooks"
+    , "record"
+    , "remotedata"
+    , "typelevel-prelude"
+    , "undefined-is-not-a-problem"
+    , "unsafe-coerce"
+    , "yoga-json"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-tanstack-query.git"
+  , version = "v1.0.0"
+  }
 , tecton =
   { dependencies =
     [ "arrays"
@@ -6441,6 +6472,24 @@
     ]
   , repo = "https://github.com/i-am-the-slime/purescript-visx.git"
   , version = "v0.0.2"
+  }
+, vitest =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "exceptions"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "transformers"
+    , "unsafe-coerce"
+    , "web-dom"
+    , "web-html"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-vitest.git"
+  , version = "v1.0.0"
   }
 , web-clipboard =
   { dependencies = [ "js-promise", "web-html" ]
