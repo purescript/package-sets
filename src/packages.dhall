@@ -5912,7 +5912,7 @@
     , "yoga-json"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-tanstack-query.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , tecton =
   { dependencies =
