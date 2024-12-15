@@ -7675,6 +7675,28 @@
     "repo": "https://github.com/rowtype-yoga/purescript-yoga-postgres.git",
     "version": "v6.0.0"
   },
+  "yoga-react-dom": {
+    "dependencies": [
+      "datetime",
+      "effect",
+      "forgetmenot",
+      "functions",
+      "nullable",
+      "prelude",
+      "react-basic",
+      "react-basic-hooks",
+      "record",
+      "type-equality",
+      "typelevel-prelude",
+      "unsafe-coerce",
+      "web-dom",
+      "web-events",
+      "web-html",
+      "web-touchevents"
+    ],
+    "repo": "https://github.com/rowtype-yoga/purescript-yoga-react-dom.git",
+    "version": "v1.0.1"
+  },
   "yoga-subtlecrypto": {
     "dependencies": [
       "aff",
