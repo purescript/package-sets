@@ -7566,6 +7566,8 @@
   },
   "whine-core": {
     "dependencies": [
+      "aff",
+      "aff-promise",
       "ansi",
       "arrays",
       "bifunctors",
@@ -7579,6 +7581,7 @@
       "exceptions",
       "foldable-traversable",
       "foreign",
+      "foreign-object",
       "functions",
       "identity",
       "json",
@@ -7590,6 +7593,7 @@
       "node-path",
       "node-process",
       "nullable",
+      "optparse",
       "ordered-collections",
       "prelude",
       "profunctor",
@@ -7598,10 +7602,11 @@
       "stringutils",
       "transformers",
       "tuples",
-      "typelevel-prelude"
+      "typelevel-prelude",
+      "untagged-union"
     ],
     "repo": "https://github.com/collegevine/purescript-whine.git",
-    "version": "v0.0.1"
+    "version": "v0.0.13"
   },
   "xterm": {
     "dependencies": [

@@ -6722,7 +6722,9 @@
   }
 , whine-core =
   { dependencies =
-    [ "ansi"
+    [ "aff"
+    , "aff-promise"
+    , "ansi"
     , "arrays"
     , "bifunctors"
     , "codec"
@@ -6735,6 +6737,7 @@
     , "exceptions"
     , "foldable-traversable"
     , "foreign"
+    , "foreign-object"
     , "functions"
     , "identity"
     , "json"
@@ -6746,6 +6749,7 @@
     , "node-path"
     , "node-process"
     , "nullable"
+    , "optparse"
     , "ordered-collections"
     , "prelude"
     , "profunctor"
@@ -6755,9 +6759,10 @@
     , "transformers"
     , "tuples"
     , "typelevel-prelude"
+    , "untagged-union"
     ]
   , repo = "https://github.com/collegevine/purescript-whine.git"
-  , version = "v0.0.1"
+  , version = "v0.0.13"
   }
 , xterm =
   { dependencies = [ "aff-promise", "css", "options", "web-uievents" ]
