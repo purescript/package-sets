@@ -2958,7 +2958,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/natefaubion/purescript-language-cst-parser.git"
-  , version = "v0.14.0"
+  , version = "v0.14.1"
   }
 , lazy =
   { dependencies = [ "control", "foldable-traversable", "invariant", "prelude" ]
