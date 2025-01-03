@@ -6742,6 +6742,7 @@
     , "identity"
     , "json"
     , "language-cst-parser"
+    , "lists"
     , "maybe"
     , "newtype"
     , "node-buffer"
@@ -6762,7 +6763,7 @@
     , "untagged-union"
     ]
   , repo = "https://github.com/collegevine/purescript-whine.git"
-  , version = "v0.0.16"
+  , version = "v0.0.17"
   }
 , xterm =
   { dependencies = [ "aff-promise", "css", "options", "web-uievents" ]
