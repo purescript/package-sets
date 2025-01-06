@@ -6731,6 +6731,7 @@
     , "codec-json"
     , "console"
     , "control"
+    , "datetime"
     , "effect"
     , "either"
     , "elmish"
@@ -6738,6 +6739,7 @@
     , "foldable-traversable"
     , "foreign"
     , "foreign-object"
+    , "formatters"
     , "functions"
     , "identity"
     , "json"
@@ -6749,6 +6751,7 @@
     , "node-fs"
     , "node-path"
     , "node-process"
+    , "now"
     , "nullable"
     , "optparse"
     , "ordered-collections"
@@ -6763,7 +6766,7 @@
     , "untagged-union"
     ]
   , repo = "https://github.com/collegevine/purescript-whine.git"
-  , version = "v0.0.19"
+  , version = "v0.0.20"
   }
 , xterm =
   { dependencies = [ "aff-promise", "css", "options", "web-uievents" ]
