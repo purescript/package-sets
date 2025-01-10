@@ -946,7 +946,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/himanoa/purescript-css-class-name-extractor.git"
-  , version = "v0.0.3"
+  , version = "0.0.4"
   }
 , css-frameworks =
   { dependencies = [ "web-html" ]
@@ -6755,6 +6755,7 @@
     , "nullable"
     , "optparse"
     , "ordered-collections"
+    , "parsing"
     , "prelude"
     , "profunctor"
     , "record"
@@ -6766,7 +6767,7 @@
     , "untagged-union"
     ]
   , repo = "https://github.com/collegevine/purescript-whine.git"
-  , version = "v0.0.20"
+  , version = "v0.0.22"
   }
 , xterm =
   { dependencies = [ "aff-promise", "css", "options", "web-uievents" ]
