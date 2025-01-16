@@ -5396,6 +5396,11 @@
   , repo = "https://github.com/purescript/purescript-semirings.git"
   , version = "v7.0.0"
   }
+, shuffle =
+  { dependencies = [ "arrays", "effect", "maybe", "prelude" ]
+  , repo = "https://github.com/joellefkowitz/shuffle.git"
+  , version = "v1.1.0"
+  }
 , signal =
   { dependencies =
     [ "aff", "effect", "either", "foldable-traversable", "maybe", "prelude" ]
