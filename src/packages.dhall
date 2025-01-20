@@ -3730,7 +3730,7 @@
 , node-path =
   { dependencies = [ "effect" ]
   , repo = "https://github.com/purescript-node/purescript-node-path.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , node-process =
   { dependencies =
