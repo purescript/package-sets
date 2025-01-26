@@ -1158,6 +1158,24 @@
   , repo = "https://github.com/purescript/purescript-distributive.git"
   , version = "v6.0.0"
   }
+, dodo-printer =
+  { dependencies =
+    [ "ansi"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "partial"
+    , "prelude"
+    , "safe-coerce"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-dodo-printer.git"
+  , version = "v2.2.3"
+  }
 , dom-filereader =
   { dependencies = [ "aff", "arraybuffer-types", "web-file", "web-html" ]
   , repo = "https://github.com/nwolverson/purescript-dom-filereader.git"
@@ -6772,7 +6790,7 @@
     , "untagged-union"
     ]
   , repo = "https://github.com/collegevine/purescript-whine.git"
-  , version = "v0.0.23"
+  , version = "v0.0.24"
   }
 , xterm =
   { dependencies = [ "aff-promise", "css", "options", "web-uievents" ]
