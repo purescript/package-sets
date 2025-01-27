@@ -3638,7 +3638,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/natefaubion/purescript-node-glob-basic.git"
-  , version = "v1.3.0"
+  , version = "v2.0.0"
   }
 , node-http =
   { dependencies =
@@ -3825,16 +3825,22 @@
 , node-streams =
   { dependencies =
     [ "aff"
+    , "arrays"
     , "effect"
     , "either"
     , "exceptions"
+    , "maybe"
     , "node-buffer"
     , "node-event-emitter"
     , "nullable"
     , "prelude"
+    , "refs"
+    , "st"
+    , "tailrec"
+    , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-streams.git"
-  , version = "v9.0.0"
+  , version = "v9.0.1"
   }
 , node-tls =
   { dependencies =
