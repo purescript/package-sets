@@ -7637,15 +7637,17 @@
       "prelude",
       "profunctor",
       "record",
+      "safe-coerce",
       "strings",
       "stringutils",
       "transformers",
       "tuples",
+      "type-equality",
       "typelevel-prelude",
       "untagged-union"
     ],
     "repo": "https://github.com/collegevine/purescript-whine.git",
-    "version": "v0.0.24"
+    "version": "v0.0.25"
   },
   "xterm": {
     "dependencies": [
