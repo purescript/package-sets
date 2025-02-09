@@ -376,7 +376,7 @@
   { dependencies =
     [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]
   , repo = "https://github.com/purescript-contrib/purescript-avar.git"
-  , version = "v5.0.0"
+  , version = "v5.0.1"
   }
 , b64 =
   { dependencies =
