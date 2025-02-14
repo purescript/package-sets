@@ -4358,6 +4358,28 @@
     "repo": "https://github.com/purescript-node/purescript-node-url.git",
     "version": "v7.0.1"
   },
+  "node-workerbees": {
+    "dependencies": [
+      "aff",
+      "argonaut-core",
+      "arraybuffer-types",
+      "arrays",
+      "avar",
+      "effect",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "foreign-object",
+      "newtype",
+      "parallel",
+      "prelude",
+      "transformers",
+      "tuples",
+      "variant"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-node-workerbees.git",
+    "version": "v0.3.0"
+  },
   "node-zlib": {
     "dependencies": [
       "aff",
