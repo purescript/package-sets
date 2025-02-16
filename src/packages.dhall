@@ -4567,7 +4567,7 @@
 , prelude =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-prelude.git"
-  , version = "v6.0.1"
+  , version = "v6.0.2"
   }
 , prettier-printer =
   { dependencies = [ "console", "lists", "prelude", "strings", "tuples" ]
