@@ -6045,6 +6045,60 @@
   , repo = "https://github.com/cakekindel/purescript-threading.git"
   , version = "v0.0.3"
   }
+, tidy =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "dodo-printer"
+    , "either"
+    , "foldable-traversable"
+    , "language-cst-parser"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-tidy.git"
+  , version = "v0.11.1"
+  }
+, tidy-codegen =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "control"
+    , "dodo-printer"
+    , "effect"
+    , "either"
+    , "enums"
+    , "foldable-traversable"
+    , "free"
+    , "identity"
+    , "integers"
+    , "language-cst-parser"
+    , "lazy"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "record"
+    , "safe-coerce"
+    , "st"
+    , "strings"
+    , "tidy"
+    , "transformers"
+    , "tuples"
+    , "type-equality"
+    , "unicode"
+    ]
+  , repo = "https://github.com/natefaubion/purescript-tidy-codegen.git"
+  , version = "v4.0.1"
+  }
 , tldr =
   { dependencies = [ "prelude" ]
   , repo = "https://github.com/mikesol/purescript-tldr.git"
