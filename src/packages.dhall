@@ -6874,7 +6874,7 @@
     , "untagged-union"
     ]
   , repo = "https://github.com/collegevine/purescript-whine.git"
-  , version = "v0.0.27"
+  , version = "v0.0.28"
   }
 , xterm =
   { dependencies = [ "aff-promise", "css", "options", "web-uievents" ]
