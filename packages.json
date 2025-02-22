@@ -6868,6 +6868,22 @@
     "repo": "https://github.com/jordanmartinez/purescript-tree-rose.git",
     "version": "v4.0.2"
   },
+  "trivial-unfold": {
+    "dependencies": [
+      "bifunctors",
+      "enums",
+      "exists",
+      "foldable-traversable",
+      "maybe",
+      "newtype",
+      "prelude",
+      "quickcheck",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/UnrelatedString/purescript-trivial-unfold.git",
+    "version": "v0.1.1"
+  },
   "ts-bridge": {
     "dependencies": [
       "aff",
