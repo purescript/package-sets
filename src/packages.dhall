@@ -6171,9 +6171,11 @@
 , trivial-unfold =
   { dependencies =
     [ "bifunctors"
+    , "control"
     , "enums"
     , "exists"
     , "foldable-traversable"
+    , "invariant"
     , "maybe"
     , "newtype"
     , "prelude"
@@ -6182,7 +6184,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/UnrelatedString/purescript-trivial-unfold.git"
-  , version = "v0.1.1"
+  , version = "v0.4.1"
   }
 , ts-bridge =
   { dependencies =
