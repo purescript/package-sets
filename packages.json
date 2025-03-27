@@ -2336,6 +2336,37 @@
     "repo": "https://github.com/Ebmtranceboy/purescript-geometria.git",
     "version": "v2.2.0"
   },
+  "gesso": {
+    "dependencies": [
+      "aff",
+      "canvas",
+      "css",
+      "dom-indexed",
+      "effect",
+      "foldable-traversable",
+      "halogen",
+      "halogen-subscriptions",
+      "integers",
+      "lists",
+      "maybe",
+      "numbers",
+      "ordered-collections",
+      "prelude",
+      "record",
+      "transformers",
+      "tuples",
+      "typelevel-prelude",
+      "web-clipboard",
+      "web-dom",
+      "web-events",
+      "web-html",
+      "web-pointerevents",
+      "web-touchevents",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/smilack/purescript-gesso.git",
+    "version": "v1.0.0"
+  },
   "gojs": {
     "dependencies": [
       "effect",
