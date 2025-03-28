@@ -2512,6 +2512,20 @@
     "repo": "https://github.com/purescript-halogen/purescript-halogen-css.git",
     "version": "v10.0.0"
   },
+  "halogen-declarative-canvas": {
+    "dependencies": [
+      "canvas",
+      "effect",
+      "foldable-traversable",
+      "halogen",
+      "maybe",
+      "prelude",
+      "unsafe-coerce",
+      "web-html"
+    ],
+    "repo": "https://github.com/UnrelatedString/purescript-halogen-declarative-canvas.git",
+    "version": "v0.0.8"
+  },
   "halogen-echarts-simple": {
     "dependencies": [
       "aff",
