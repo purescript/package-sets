@@ -5233,6 +5233,19 @@
   , repo = "https://github.com/joellefkowitz/repr.git"
   , version = "v0.5.0"
   }
+, resize-arrays =
+  { dependencies =
+    [ "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "prelude"
+    , "tailrec"
+    , "tuples"
+    , "unordered-collections"
+    ]
+  , repo = "https://github.com/m-bock/purescript-resize-arrays.git"
+  , version = "v0.0.1"
+  }
 , resize-observer =
   { dependencies = [ "web-dom" ]
   , repo = "https://github.com/grybiena/resize-observer.git"
