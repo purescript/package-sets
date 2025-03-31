@@ -422,6 +422,38 @@
   , repo = "https://github.com/sigma-andex/purescript-barlow-lens.git"
   , version = "v0.9.0"
   }
+, benchlib =
+  { dependencies =
+    [ "aff"
+    , "argonaut"
+    , "arrays"
+    , "codec-argonaut"
+    , "console"
+    , "datetime"
+    , "effect"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "node-buffer"
+    , "node-fs"
+    , "node-path"
+    , "now"
+    , "ordered-collections"
+    , "prelude"
+    , "profunctor"
+    , "record"
+    , "refs"
+    , "safe-coerce"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "unfoldable"
+    ]
+  , repo = "https://github.com/m-bock/purescript-benchlib.git"
+  , version = "v0.0.1"
+  }
 , bifunctors =
   { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
   , repo = "https://github.com/purescript/purescript-bifunctors.git"
