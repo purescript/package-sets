@@ -2454,6 +2454,12 @@
   , repo = "https://github.com/qwbarch/halogen-typewriter.git"
   , version = "v1.0.4"
   }
+, halogen-use-trigger-hooks =
+  { dependencies = [ "halogen-hooks", "prelude", "tuples" ]
+  , repo =
+    "https://github.com/katsujukou/purescript-halogen-use-trigger-hooks.git"
+  , version = "v0.1.0"
+  }
 , halogen-vdom =
   { dependencies =
     [ "bifunctors"
@@ -6583,7 +6589,7 @@
 , uuid =
   { dependencies =
     [ "aff", "effect", "maybe", "partial", "prelude", "spec", "strings" ]
-  , repo = "https://github.com/megamaddu/purescript-uuid.git"
+  , repo = "https://github.com/maddie927/purescript-uuid.git"
   , version = "v9.0.0"
   }
 , uuidv4 =
