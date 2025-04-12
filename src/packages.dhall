@@ -2455,10 +2455,19 @@
   , version = "v1.0.4"
   }
 , halogen-use-trigger-hooks =
-  { dependencies = [ "halogen-hooks", "prelude", "tuples" ]
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "halogen-hooks"
+    , "maybe"
+    , "prelude"
+    , "refs"
+    , "tuples"
+    ]
   , repo =
     "https://github.com/katsujukou/purescript-halogen-use-trigger-hooks.git"
-  , version = "v0.1.0"
+  , version = "v1.0.0"
   }
 , halogen-vdom =
   { dependencies =
