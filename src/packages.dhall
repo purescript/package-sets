@@ -457,7 +457,7 @@
 , bifunctors =
   { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
   , repo = "https://github.com/purescript/purescript-bifunctors.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , bigints =
   { dependencies =
@@ -2326,6 +2326,7 @@
     [ "effect"
     , "halogen-hooks"
     , "halogen-subscriptions"
+    , "halogen-use-trigger-hooks"
     , "lazy"
     , "maybe"
     , "prelude"
@@ -2333,7 +2334,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/katsujukou/purescript-halogen-helix.git"
-  , version = "v1.0.1"
+  , version = "v1.1.0"
   }
 , halogen-hooks =
   { dependencies =
