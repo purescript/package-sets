@@ -6976,19 +6976,23 @@
     "dependencies": [
       "bifunctors",
       "control",
+      "either",
       "enums",
       "exists",
+      "filterable",
       "foldable-traversable",
       "invariant",
       "maybe",
       "newtype",
       "prelude",
+      "profunctor",
       "quickcheck",
+      "these",
       "tuples",
       "unfoldable"
     ],
     "repo": "https://github.com/UnrelatedString/purescript-trivial-unfold.git",
-    "version": "v0.4.1"
+    "version": "v0.5.0"
   },
   "ts-bridge": {
     "dependencies": [
