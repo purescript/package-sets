@@ -5229,6 +5229,23 @@
   , repo = "https://github.com/justinwoo/purescript-record-extra.git"
   , version = "v5.0.1"
   }
+, record-extra-srghma =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "functions"
+    , "lists"
+    , "maybe"
+    , "parallel"
+    , "prelude"
+    , "record"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unfoldable"
+    ]
+  , repo = "https://github.com/srghma/purescript-record-extra-srghma.git"
+  , version = "v0.1.1"
+  }
 , record-ptional-fields =
   { dependencies =
     [ "maybe"
@@ -6598,6 +6615,11 @@
     ]
   , repo = "https://github.com/cakekindel/purescript-url-immutable.git"
   , version = "v1.0.0"
+  }
+, url-regex-safe =
+  { dependencies = [ "strings" ]
+  , repo = "https://github.com/srghma/purescript-url-regex-safe.git"
+  , version = "v0.1.1"
   }
 , uuid =
   { dependencies =
