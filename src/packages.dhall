@@ -6663,6 +6663,21 @@
   , repo = "https://github.com/m-bock/purescript-variant-encodings.git"
   , version = "v2.0.0"
   }
+, variant-gen =
+  { dependencies =
+    [ "gen"
+    , "lists"
+    , "nonempty"
+    , "prelude"
+    , "record"
+    , "tuples"
+    , "typelevel-prelude"
+    , "variant"
+    ]
+  , repo =
+    "https://github.com/purescript-open-community/purescript-variant-gen.git"
+  , version = "v1.0.0"
+  }
 , vectorfield =
   { dependencies = [ "console", "effect", "group", "prelude", "psci-support" ]
   , repo = "https://github.com/csicar/purescript-vectorfield.git"
