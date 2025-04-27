@@ -1731,6 +1731,31 @@
     "repo": "https://github.com/justinwoo/purescript-expect-inferred.git",
     "version": "v3.0.0"
   },
+  "express": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "maybe",
+      "newtype",
+      "node-http",
+      "node-path",
+      "nullable",
+      "open-foreign-generic",
+      "prelude",
+      "record",
+      "strings",
+      "transformers",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-express/purescript-express.git",
+    "version": "v0.9.1"
+  },
   "ezfetch": {
     "dependencies": [
       "aff",
@@ -1782,6 +1807,20 @@
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-fahrtwind.git",
     "version": "v2.0.0"
+  },
+  "fakerjs": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "exceptions",
+      "functions",
+      "maybe",
+      "nullable",
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-open-community/purescript-fakerjs.git",
+    "version": "v0.0.1"
   },
   "fallback": {
     "dependencies": [
