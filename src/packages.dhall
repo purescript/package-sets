@@ -2192,6 +2192,12 @@
   , repo = "https://github.com/AdaBeat/purescript-gojs.git"
   , version = "v0.1.1"
   }
+, golem-fetch =
+  { dependencies =
+    [ "aff", "argonaut-codecs", "argonaut-core", "maybe", "prelude", "tuples" ]
+  , repo = "https://github.com/kalxd/purescript-golem-fetch.git"
+  , version = "v0.1.0"
+  }
 , grain =
   { dependencies =
     [ "arrays"
