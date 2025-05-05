@@ -5281,6 +5281,7 @@
     , "functions"
     , "lists"
     , "maybe"
+    , "nonempty"
     , "parallel"
     , "prelude"
     , "record"
@@ -5289,7 +5290,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/srghma/purescript-record-extra-srghma.git"
-  , version = "v0.1.1"
+  , version = "v0.2.2"
   }
 , record-ptional-fields =
   { dependencies =
