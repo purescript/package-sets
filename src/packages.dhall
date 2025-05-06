@@ -5285,12 +5285,13 @@
     , "parallel"
     , "prelude"
     , "record"
+    , "strings"
     , "tuples"
     , "typelevel-prelude"
     , "unfoldable"
     ]
   , repo = "https://github.com/srghma/purescript-record-extra-srghma.git"
-  , version = "v0.2.2"
+  , version = "v0.2.8"
   }
 , record-ptional-fields =
   { dependencies =
