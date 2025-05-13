@@ -1773,20 +1773,16 @@
     , "nullable"
     , "partial"
     , "prelude"
-    , "random"
     , "refs"
-    , "spec"
     , "strings"
     , "tuples"
     , "typelevel-prelude"
     , "unsafe-coerce"
     , "web-dom"
     , "web-events"
-    , "web-html"
-    , "web-uievents"
     ]
   , repo = "https://github.com/easafe/purescript-flame.git"
-  , version = "v1.3.0"
+  , version = "v1.4.0"
   }
 , float32 =
   { dependencies = [ "gen", "maybe", "prelude" ]
