@@ -1711,6 +1711,22 @@
   , repo = "https://github.com/garganscript/purescript-ffi-simple.git"
   , version = "v0.5.1"
   }
+, fft =
+  { dependencies =
+    [ "arrays"
+    , "cartesian"
+    , "foldable-traversable"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "partial"
+    , "prelude"
+    , "st"
+    , "strings"
+    ]
+  , repo = "https://github.com/Ebmtranceboy/purescript-fft.git"
+  , version = "v0.3.0"
+  }
 , fft-js =
   { dependencies = [ "arrays", "cartesian", "partial", "prelude", "st" ]
   , repo = "https://github.com/jeslie0/purescript-fft-js.git"
