@@ -452,6 +452,54 @@
     "repo": "https://github.com/purescript-contrib/purescript-avar.git",
     "version": "v5.0.1"
   },
+  "axon": {
+    "dependencies": [
+      "aff",
+      "argonaut-codecs",
+      "argonaut-core",
+      "arraybuffer-types",
+      "arrays",
+      "b64",
+      "bifunctors",
+      "console",
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "enums",
+      "exceptions",
+      "foldable-traversable",
+      "foreign-object",
+      "integers",
+      "js-promise-aff",
+      "js-uri",
+      "lists",
+      "maybe",
+      "mimetype",
+      "newtype",
+      "node-buffer",
+      "node-event-emitter",
+      "node-net",
+      "node-streams",
+      "nullable",
+      "ordered-collections",
+      "parsing",
+      "partial",
+      "prelude",
+      "record",
+      "refs",
+      "strings",
+      "transformers",
+      "tuples",
+      "typelevel-prelude",
+      "unlift",
+      "unsafe-coerce",
+      "url-immutable",
+      "web-streams"
+    ],
+    "repo": "https://github.com/cakekindel/purescript-axon.git",
+    "version": "v0.0.3"
+  },
   "b64": {
     "dependencies": [
       "arraybuffer-types",
@@ -1771,6 +1819,7 @@
       "foreign-object",
       "integers",
       "maybe",
+      "mimetype",
       "newtype",
       "node-buffer",
       "node-streams",
@@ -1789,7 +1838,7 @@
       "web-streams"
     ],
     "repo": "https://github.com/cakekindel/purescript-ezfetch.git",
-    "version": "v1.1.0"
+    "version": "v1.1.1"
   },
   "fahrtwind": {
     "dependencies": [
@@ -3877,6 +3926,14 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
     "version": "v9.0.0"
+  },
+  "mimetype": {
+    "dependencies": [
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/cakekindel/purescript-mimetype.git",
+    "version": "v0.0.1"
   },
   "minibench": {
     "dependencies": [
