@@ -1269,7 +1269,7 @@
     , "web-touchevents"
     ]
   , repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git"
-  , version = "v12.0.0"
+  , version = "v13.0.0"
   }
 , dom-simple =
   { dependencies =
