@@ -2620,9 +2620,16 @@
   }
 , heterogeneous =
   { dependencies =
-    [ "either", "functors", "prelude", "record", "tuples", "variant" ]
+    [ "either"
+    , "foldable-traversable"
+    , "functors"
+    , "prelude"
+    , "record"
+    , "tuples"
+    , "variant"
+    ]
   , repo = "https://github.com/natefaubion/purescript-heterogeneous.git"
-  , version = "v0.6.0"
+  , version = "v0.7.0"
   }
 , homogeneous =
   { dependencies =

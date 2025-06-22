@@ -2916,6 +2916,7 @@
   "heterogeneous": {
     "dependencies": [
       "either",
+      "foldable-traversable",
       "functors",
       "prelude",
       "record",
@@ -2923,7 +2924,7 @@
       "variant"
     ],
     "repo": "https://github.com/natefaubion/purescript-heterogeneous.git",
-    "version": "v0.6.0"
+    "version": "v0.7.0"
   },
   "homogeneous": {
     "dependencies": [
