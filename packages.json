@@ -605,6 +605,43 @@
     "repo": "https://github.com/purescript-contrib/purescript-bigints.git",
     "version": "v7.0.1"
   },
+  "blessed": {
+    "dependencies": [
+      "aff",
+      "argonaut-codecs",
+      "argonaut-core",
+      "arrays",
+      "bifunctors",
+      "codec",
+      "codec-argonaut",
+      "console",
+      "effect",
+      "either",
+      "enums",
+      "exceptions",
+      "foldable-traversable",
+      "free",
+      "identity",
+      "maybe",
+      "newtype",
+      "node-buffer",
+      "node-fs",
+      "node-path",
+      "ordered-collections",
+      "prelude",
+      "profunctor",
+      "refs",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "typelevel-prelude",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/shamansir/purescript-blessed.git",
+    "version": "v1.0.0"
+  },
   "bolson": {
     "dependencies": [
       "control",
@@ -5184,6 +5221,19 @@
     "repo": "https://github.com/mikesol/purescript-pirates-charm.git",
     "version": "v0.0.1"
   },
+  "play": {
+    "dependencies": [
+      "arrays",
+      "foldable-traversable",
+      "integers",
+      "prelude",
+      "tuples",
+      "yoga-tree",
+      "yoga-tree-utils"
+    ],
+    "repo": "https://github.com/shamansir/purescript-play.git",
+    "version": "v0.1.0"
+  },
   "pmock": {
     "dependencies": [
       "aff",
@@ -8176,6 +8226,58 @@
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-yoga-tree.git",
     "version": "v1.0.0"
+  },
+  "yoga-tree-svg": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "effect",
+      "foldable-traversable",
+      "graphs",
+      "halogen",
+      "halogen-svg-elems",
+      "integers",
+      "lists",
+      "maybe",
+      "numbers",
+      "ordered-collections",
+      "play",
+      "prelude",
+      "strings",
+      "tuples",
+      "web-events",
+      "web-html",
+      "web-uievents",
+      "yoga-json",
+      "yoga-tree",
+      "yoga-tree-utils"
+    ],
+    "repo": "https://github.com/shamansir/purescript-yoga-tree-svg.git",
+    "version": "v0.1.0"
+  },
+  "yoga-tree-utils": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "either",
+      "foldable-traversable",
+      "foreign",
+      "free",
+      "graphs",
+      "lists",
+      "maybe",
+      "newtype",
+      "ordered-collections",
+      "prelude",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unicode",
+      "yoga-json",
+      "yoga-tree"
+    ],
+    "repo": "https://github.com/shamansir/purescript-yoga-tree-utils.git",
+    "version": "v0.1.0"
   },
   "z3": {
     "dependencies": [
