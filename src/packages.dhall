@@ -7403,12 +7403,10 @@
   { dependencies =
     [ "arrays"
     , "bifunctors"
-    , "either"
     , "foldable-traversable"
     , "foreign"
     , "free"
     , "graphs"
-    , "lists"
     , "maybe"
     , "newtype"
     , "ordered-collections"
@@ -7421,7 +7419,7 @@
     , "yoga-tree"
     ]
   , repo = "https://github.com/shamansir/purescript-yoga-tree-utils.git"
-  , version = "v0.1.0"
+  , version = "v1.0.0"
   }
 , z3 =
   { dependencies =
