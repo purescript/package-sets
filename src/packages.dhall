@@ -4483,6 +4483,36 @@
   , repo = "https://github.com/purescript/purescript-orders.git"
   , version = "v6.0.0"
   }
+, org-doc =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "control"
+    , "datetime"
+    , "debug"
+    , "effect"
+    , "either"
+    , "enums"
+    , "foldable-traversable"
+    , "foreign"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "ordered-collections"
+    , "prelude"
+    , "strings"
+    , "text-formatting"
+    , "transformers"
+    , "tuples"
+    , "unfoldable"
+    , "unicode"
+    , "variant"
+    , "yoga-json"
+    ]
+  , repo = "https://github.com/shamansir/purescript-org-doc.git"
+  , version = "v0.1.0"
+  }
 , owoify =
   { dependencies =
     [ "arrays"
@@ -6297,6 +6327,33 @@
     ]
   , repo = "https://github.com/bodil/purescript-test-unit.git"
   , version = "v17.0.0"
+  }
+, text-formatting =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "colors"
+    , "datetime"
+    , "debug"
+    , "dodo-printer"
+    , "effect"
+    , "either"
+    , "enums"
+    , "exceptions"
+    , "foldable-traversable"
+    , "formatters"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "ordered-collections"
+    , "prelude"
+    , "strings"
+    , "these"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/shamansir/purescript-doc.git"
+  , version = "v0.1.0"
   }
 , thermite =
   { dependencies =
