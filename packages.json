@@ -4824,6 +4824,21 @@
     "repo": "https://github.com/purescript-open-community/purescript-open-colors-scales-and-schemes.git",
     "version": "v1.0.0"
   },
+  "open-drawing": {
+    "dependencies": [
+      "canvas",
+      "colors",
+      "control",
+      "effect",
+      "foldable-traversable",
+      "lists",
+      "maybe",
+      "numbers",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-open-community/purescript-open-drawing.git",
+    "version": "v6.0.4"
+  },
   "open-folds": {
     "dependencies": [
       "control",
