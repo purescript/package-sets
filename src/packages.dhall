@@ -1884,7 +1884,7 @@
     , "web-events"
     ]
   , repo = "https://github.com/easafe/purescript-flame.git"
-  , version = "v1.5.0"
+  , version = "v1.6.0"
   }
 , float32 =
   { dependencies = [ "gen", "maybe", "prelude" ]
