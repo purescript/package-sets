@@ -1520,6 +1520,29 @@
     "https://github.com/collegevine/purescript-elmish-testing-library.git"
   , version = "v0.3.2"
   }
+, elmish-time-machine =
+  { dependencies =
+    [ "arrays"
+    , "debug"
+    , "effect"
+    , "elmish"
+    , "elmish-html"
+    , "foldable-traversable"
+    , "functions"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "record"
+    , "tuples"
+    , "web-dom"
+    , "web-events"
+    , "web-html"
+    , "web-uievents"
+    ]
+  , repo = "https://github.com/mcordova47/purescript-elmish-time-machine.git"
+  , version = "v0.3.0"
+  }
 , email-validate =
   { dependencies = [ "aff", "string-parsers", "transformers" ]
   , repo = "https://github.com/cdepillabout/purescript-email-validate.git"
