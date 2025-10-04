@@ -1473,6 +1473,7 @@
   { dependencies =
     [ "aff"
     , "debug"
+    , "effect"
     , "elmish"
     , "maybe"
     , "prelude"
@@ -1480,7 +1481,7 @@
     , "undefined-is-not-a-problem"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-hooks.git"
-  , version = "v0.10.3"
+  , version = "v0.11.0"
   }
 , elmish-html =
   { dependencies =
