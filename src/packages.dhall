@@ -1523,26 +1523,31 @@
   }
 , elmish-time-machine =
   { dependencies =
-    [ "arrays"
+    [ "aff"
+    , "arrays"
     , "debug"
     , "effect"
     , "elmish"
+    , "elmish-hooks"
     , "elmish-html"
     , "foldable-traversable"
     , "functions"
+    , "lazy"
     , "lists"
     , "maybe"
     , "ordered-collections"
     , "prelude"
-    , "record"
+    , "strings"
+    , "tailrec"
     , "tuples"
+    , "unsafe-coerce"
     , "web-dom"
     , "web-events"
     , "web-html"
     , "web-uievents"
     ]
   , repo = "https://github.com/mcordova47/purescript-elmish-time-machine.git"
-  , version = "v0.3.1"
+  , version = "v0.4.1"
   }
 , email-validate =
   { dependencies = [ "aff", "string-parsers", "transformers" ]
