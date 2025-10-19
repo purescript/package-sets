@@ -2299,7 +2299,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/smilack/purescript-gesso.git"
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , gojs =
   { dependencies =
