@@ -5812,9 +5812,17 @@
   , version = "v7.0.0"
   }
 , shuffle =
-  { dependencies = [ "arrays", "effect", "maybe", "prelude" ]
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "maybe"
+    , "prelude"
+    , "random"
+    , "unfoldable"
+    ]
   , repo = "https://github.com/joellefkowitz/shuffle.git"
-  , version = "v1.1.0"
+  , version = "v2.0.0"
   }
 , signal =
   { dependencies =
@@ -7318,6 +7326,22 @@
   { dependencies = [ "aff-promise", "css", "options", "web-uievents" ]
   , repo = "https://github.com/grybiena/xterm.git"
   , version = "v1.0.0"
+  }
+, yaml-next =
+  { dependencies =
+    [ "argonaut-core"
+    , "arrays"
+    , "foreign"
+    , "functions"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "tuples"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/archaeron/purescript-yaml-next.git"
+  , version = "v3.1.1"
   }
 , yoga-fetch =
   { dependencies =
