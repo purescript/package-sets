@@ -1547,7 +1547,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mcordova47/purescript-elmish-time-machine.git"
-  , version = "v0.4.1"
+  , version = "v0.4.2"
   }
 , email-validate =
   { dependencies = [ "aff", "string-parsers", "transformers" ]
