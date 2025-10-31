@@ -5046,6 +5046,26 @@
   , repo = "https://github.com/crestonbunch/purescript-punycode.git"
   , version = "v1.0.0"
   }
+, pursfmt =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "dodo-printer"
+    , "either"
+    , "foldable-traversable"
+    , "language-cst-parser"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/ad-si/pursfmt.git"
+  , version = "v0.16.0"
+  }
 , qualified-do =
   { dependencies =
     [ "arrays"
