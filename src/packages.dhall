@@ -1587,6 +1587,12 @@
   , repo = "https://github.com/joellefkowitz/env-names.git"
   , version = "v0.4.0"
   }
+, environment =
+  { dependencies =
+    [ "effect", "exceptions", "maybe", "node-process", "prelude" ]
+  , repo = "https://github.com/joellefkowitz/environment.git"
+  , version = "v1.0.0"
+  }
 , error =
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/bklaric/purescript-error.git"
@@ -6267,6 +6273,18 @@
     [ "arrays", "integers", "maybe", "partial", "prelude", "strings" ]
   , repo = "https://github.com/menelaos/purescript-stringutils.git"
   , version = "v0.0.12"
+  }
+, structured-logging =
+  { dependencies =
+    [ "argonaut-codecs"
+    , "argonaut-core"
+    , "console"
+    , "effect"
+    , "js-date"
+    , "prelude"
+    ]
+  , repo = "https://github.com/joellefkowitz/structured-logging.git"
+  , version = "v1.0.0"
   }
 , substitute =
   { dependencies =
