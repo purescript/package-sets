@@ -1589,9 +1589,9 @@
   }
 , environment =
   { dependencies =
-    [ "effect", "exceptions", "maybe", "node-process", "prelude" ]
+    [ "effect", "exceptions", "maybe", "node-process", "prelude", "read" ]
   , repo = "https://github.com/joellefkowitz/environment.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , error =
   { dependencies = [ "console", "effect", "prelude" ]

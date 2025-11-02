@@ -1800,10 +1800,11 @@
       "exceptions",
       "maybe",
       "node-process",
-      "prelude"
+      "prelude",
+      "read"
     ],
     "repo": "https://github.com/joellefkowitz/environment.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "error": {
     "dependencies": [
