@@ -1499,7 +1499,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
-  , version = "v0.9.0"
+  , version = "v0.10.0"
   }
 , elmish-testing-library =
   { dependencies =
