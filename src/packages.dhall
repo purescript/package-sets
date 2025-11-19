@@ -7148,7 +7148,7 @@
 , web-html =
   { dependencies = [ "js-date", "web-dom", "web-file", "web-storage" ]
   , repo = "https://github.com/purescript-web/purescript-web-html.git"
-  , version = "v4.1.0"
+  , version = "v4.1.1"
   }
 , web-pointerevents =
   { dependencies = [ "effect", "maybe", "prelude", "web-dom", "web-uievents" ]
