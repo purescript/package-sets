@@ -2432,7 +2432,7 @@
     , "variant"
     ]
   , repo = "https://github.com/OxfordAbstracts/purescript-graphql-client.git"
-  , version = "v10.1.0"
+  , version = "v10.1.1"
   }
 , graphs =
   { dependencies = [ "catenable-lists", "ordered-collections" ]
