@@ -8151,6 +8151,32 @@
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v5.0.1"
   },
+  "webb-refer": {
+    "dependencies": [
+      "effect",
+      "prelude",
+      "profunctor-lenses",
+      "refs",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/mitchellandwebb/webb-refer.git",
+    "version": "v0.0.1"
+  },
+  "webb-test": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "exceptions",
+      "prelude",
+      "spec",
+      "spec-discovery",
+      "spec-node",
+      "transformers"
+    ],
+    "repo": "https://github.com/mitchellandwebb/webb-test.git",
+    "version": "v0.0.1"
+  },
   "webextension-polyfill": {
     "dependencies": [
       "aff",
