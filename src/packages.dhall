@@ -5113,7 +5113,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/ad-si/pursfmt.git"
-  , version = "v0.16.0"
+  , version = "v0.17.0"
   }
 , qualified-do =
   { dependencies =
@@ -7306,6 +7306,26 @@
   , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
   , version = "v5.0.1"
   }
+, webb-monad =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "debug"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "monad-loops"
+    , "newtype"
+    , "prelude"
+    , "transformers"
+    ]
+  , repo = "https://github.com/mitchellandwebb/webb-monad.git"
+  , version = "v0.0.2"
+  }
 , webb-refer =
   { dependencies =
     [ "effect"
@@ -7316,7 +7336,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-refer.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , webb-test =
   { dependencies =
