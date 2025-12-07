@@ -7352,6 +7352,30 @@
   , repo = "https://github.com/mitchellandwebb/webb-test.git"
   , version = "v0.0.1"
   }
+, webb-writer =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "maybe"
+    , "monad-loops"
+    , "node-buffer"
+    , "node-fs"
+    , "node-path"
+    , "node-process"
+    , "ordered-collections"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "unsafe-coerce"
+    , "webb-monad"
+    , "webb-refer"
+    ]
+  , repo = "https://github.com/mitchellandwebb/webb-writer.git"
+  , version = "v0.0.1"
+  }
 , webextension-polyfill =
   { dependencies =
     [ "aff"
