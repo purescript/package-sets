@@ -7338,6 +7338,22 @@
   , repo = "https://github.com/mitchellandwebb/webb-refer.git"
   , version = "v0.0.2"
   }
+, webb-stateful =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "tuples"
+    , "webb-monad"
+    , "webb-refer"
+    ]
+  , repo = "https://github.com/mitchellandwebb/webb-stateful.git"
+  , version = "v0.0.1"
+  }
 , webb-test =
   { dependencies =
     [ "aff"
