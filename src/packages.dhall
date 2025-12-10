@@ -2935,6 +2935,21 @@
   , repo = "https://github.com/garyb/purescript-indexed-monad.git"
   , version = "v3.0.0"
   }
+, ink =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "maybe"
+    , "node-streams"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-hooks"
+    , "record"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/ricky0123/purescript-ink.git"
+  , version = "v0.0.1"
+  }
 , int64 =
   { dependencies =
     [ "effect"
