@@ -7367,7 +7367,7 @@
     , "webb-refer"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-stateful.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , webb-test =
   { dependencies =
