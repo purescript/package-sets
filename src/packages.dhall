@@ -7341,6 +7341,24 @@
   , repo = "https://github.com/mitchellandwebb/webb-monad.git"
   , version = "v0.0.2"
   }
+, webb-random =
+  { dependencies =
+    [ "control"
+    , "effect"
+    , "gen"
+    , "lcg"
+    , "maybe"
+    , "prelude"
+    , "quickcheck"
+    , "refs"
+    , "strings"
+    , "tuples"
+    , "webb-monad"
+    , "webb-refer"
+    ]
+  , repo = "https://github.com/mitchellandwebb/webb-random.git"
+  , version = "v0.0.1"
+  }
 , webb-refer =
   { dependencies =
     [ "effect"
