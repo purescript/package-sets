@@ -8186,6 +8186,25 @@
     "repo": "https://github.com/mitchellandwebb/webb-monad.git",
     "version": "v0.0.2"
   },
+  "webb-parsing": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "maybe",
+      "parsing",
+      "prelude",
+      "strings",
+      "transformers",
+      "tuples",
+      "webb-monad",
+      "webb-stateful"
+    ],
+    "repo": "https://github.com/mitchellandwebb/webb-parsing.git",
+    "version": "v0.0.3"
+  },
   "webb-random": {
     "dependencies": [
       "control",
