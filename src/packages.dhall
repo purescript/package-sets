@@ -7358,7 +7358,7 @@
     , "webb-stateful"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-parsing.git"
-  , version = "v0.0.3"
+  , version = "v0.0.5"
   }
 , webb-random =
   { dependencies =
@@ -7388,7 +7388,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-refer.git"
-  , version = "v0.0.2"
+  , version = "v0.0.3"
   }
 , webb-stateful =
   { dependencies =
