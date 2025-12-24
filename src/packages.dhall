@@ -4819,15 +4819,18 @@
   { dependencies =
     [ "arrays"
     , "foldable-traversable"
+    , "foreign"
     , "integers"
     , "maybe"
+    , "newtype"
     , "prelude"
     , "tuples"
+    , "yoga-json"
     , "yoga-tree"
     , "yoga-tree-utils"
     ]
   , repo = "https://github.com/shamansir/purescript-play.git"
-  , version = "v0.3.0"
+  , version = "v1.0.0"
   }
 , pmock =
   { dependencies =
@@ -7321,6 +7324,26 @@
   , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
   , version = "v5.0.1"
   }
+, webb-directory =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "effect"
+    , "maybe"
+    , "newtype"
+    , "node-fs"
+    , "node-path"
+    , "node-process"
+    , "ordered-collections"
+    , "prelude"
+    , "transformers"
+    , "webb-monad"
+    , "webb-refer"
+    , "webb-stateful"
+    ]
+  , repo = "https://github.com/mitchellandwebb/webb-directory.git"
+  , version = "v0.0.1"
+  }
 , webb-monad =
   { dependencies =
     [ "aff"
@@ -7426,8 +7449,10 @@
     , "arrays"
     , "effect"
     , "foldable-traversable"
+    , "identity"
     , "maybe"
     , "monad-loops"
+    , "newtype"
     , "node-buffer"
     , "node-fs"
     , "node-path"
@@ -7437,12 +7462,13 @@
     , "strings"
     , "transformers"
     , "tuples"
+    , "unicode"
     , "unsafe-coerce"
     , "webb-monad"
     , "webb-refer"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-writer.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , webextension-polyfill =
   { dependencies =
