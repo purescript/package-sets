@@ -7329,6 +7329,7 @@
     [ "aff"
     , "arrays"
     , "effect"
+    , "foldable-traversable"
     , "maybe"
     , "newtype"
     , "node-fs"
@@ -7342,6 +7343,32 @@
     , "webb-stateful"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-directory.git"
+  , version = "v0.0.2"
+  }
+, webb-file =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "integers"
+    , "maybe"
+    , "monad-loops"
+    , "newtype"
+    , "node-buffer"
+    , "node-fs"
+    , "prelude"
+    , "profunctor-lenses"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "webb-directory"
+    , "webb-monad"
+    , "webb-random"
+    , "webb-refer"
+    , "webb-stateful"
+    ]
+  , repo = "https://github.com/mitchellandwebb/webb-file.git"
   , version = "v0.0.1"
   }
 , webb-monad =
@@ -7445,18 +7472,12 @@
   }
 , webb-writer =
   { dependencies =
-    [ "aff"
-    , "arrays"
-    , "effect"
+    [ "arrays"
     , "foldable-traversable"
     , "identity"
     , "maybe"
     , "monad-loops"
     , "newtype"
-    , "node-buffer"
-    , "node-fs"
-    , "node-path"
-    , "node-process"
     , "ordered-collections"
     , "prelude"
     , "strings"
@@ -7468,7 +7489,7 @@
     , "webb-refer"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-writer.git"
-  , version = "v0.0.2"
+  , version = "v0.0.3"
   }
 , webextension-polyfill =
   { dependencies =
