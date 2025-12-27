@@ -7324,6 +7324,19 @@
   , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
   , version = "v5.0.1"
   }
+, webb-commandline =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "maybe"
+    , "node-buffer"
+    , "node-child-process"
+    , "node-process"
+    , "prelude"
+    ]
+  , repo = "https://github.com/mitchellandwebb/webb-commandline.git"
+  , version = "v0.0.2"
+  }
 , webb-directory =
   { dependencies =
     [ "aff"
@@ -7343,7 +7356,7 @@
     , "webb-stateful"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-directory.git"
-  , version = "v0.0.2"
+  , version = "v0.0.4"
   }
 , webb-file =
   { dependencies =
