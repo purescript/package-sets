@@ -7326,16 +7326,9 @@
   }
 , webb-commandline =
   { dependencies =
-    [ "arrays"
-    , "effect"
-    , "maybe"
-    , "node-buffer"
-    , "node-child-process"
-    , "node-process"
-    , "prelude"
-    ]
+    [ "arrays", "effect", "node-buffer", "node-process", "prelude" ]
   , repo = "https://github.com/mitchellandwebb/webb-commandline.git"
-  , version = "v0.0.2"
+  , version = "v0.0.3"
   }
 , webb-directory =
   { dependencies =
