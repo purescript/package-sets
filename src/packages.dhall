@@ -7397,6 +7397,23 @@
   , repo = "https://github.com/mitchellandwebb/webb-monad.git"
   , version = "v0.0.2"
   }
+, webb-mutex =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "effect"
+    , "exceptions"
+    , "foldable-traversable"
+    , "integers"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "webb-monad"
+    , "webb-refer"
+    ]
+  , repo = "https://github.com/mitchellandwebb/webb-mutex.git"
+  , version = "v0.0.3"
+  }
 , webb-parsing =
   { dependencies =
     [ "arrays"
