@@ -7324,6 +7324,11 @@
   , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
   , version = "v5.0.1"
   }
+, webb-array =
+  { dependencies = [ "arrays", "foldable-traversable", "maybe", "prelude" ]
+  , repo = "https://github.com/mitchellandwebb/webb-array.git"
+  , version = "v0.0.1"
+  }
 , webb-commandline =
   { dependencies =
     [ "arrays", "effect", "node-buffer", "node-process", "prelude" ]
@@ -7377,6 +7382,12 @@
   , repo = "https://github.com/mitchellandwebb/webb-file.git"
   , version = "v0.0.1"
   }
+, webb-map =
+  { dependencies =
+    [ "control", "ordered-collections", "prelude", "tuples", "webb-array" ]
+  , repo = "https://github.com/mitchellandwebb/webb-map.git"
+  , version = "v0.0.1"
+  }
 , webb-monad =
   { dependencies =
     [ "aff"
@@ -7412,7 +7423,7 @@
     , "webb-refer"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-mutex.git"
-  , version = "v0.0.3"
+  , version = "v0.0.5"
   }
 , webb-parsing =
   { dependencies =
@@ -7463,6 +7474,11 @@
   , repo = "https://github.com/mitchellandwebb/webb-refer.git"
   , version = "v0.0.3"
   }
+, webb-set =
+  { dependencies = [ "ordered-collections", "prelude" ]
+  , repo = "https://github.com/mitchellandwebb/webb-set.git"
+  , version = "v0.0.1"
+  }
 , webb-stateful =
   { dependencies =
     [ "arrays"
@@ -7491,6 +7507,20 @@
     , "transformers"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-test.git"
+  , version = "v0.0.1"
+  }
+, webb-thread =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foldable-traversable"
+    , "maybe"
+    , "prelude"
+    , "webb-monad"
+    , "webb-mutex"
+    , "webb-refer"
+    ]
+  , repo = "https://github.com/mitchellandwebb/webb-thread.git"
   , version = "v0.0.1"
   }
 , webb-writer =
