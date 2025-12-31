@@ -8179,6 +8179,25 @@
     "repo": "https://github.com/mitchellandwebb/webb-array.git",
     "version": "v0.0.1"
   },
+  "webb-channel": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "foldable-traversable",
+      "integers",
+      "maybe",
+      "newtype",
+      "prelude",
+      "profunctor-lenses",
+      "unsafe-coerce",
+      "webb-array",
+      "webb-monad",
+      "webb-mutex",
+      "webb-refer"
+    ],
+    "repo": "https://github.com/mitchellandwebb/webb-channel.git",
+    "version": "v0.0.1"
+  },
   "webb-commandline": {
     "dependencies": [
       "arrays",
