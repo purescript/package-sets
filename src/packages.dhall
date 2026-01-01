@@ -7442,7 +7442,7 @@
     , "webb-refer"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-mutex.git"
-  , version = "v0.0.5"
+  , version = "v0.0.6"
   }
 , webb-parsing =
   { dependencies =
