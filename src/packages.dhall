@@ -6658,6 +6658,39 @@
   , repo = "https://github.com/purescript/purescript-transformers.git"
   , version = "v6.1.0"
   }
+, transit =
+  { dependencies =
+    [ "arrays"
+    , "colors"
+    , "console"
+    , "control"
+    , "effect"
+    , "enums"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "functions"
+    , "identity"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "node-buffer"
+    , "node-fs"
+    , "node-path"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "safe-coerce"
+    , "strings"
+    , "tuples"
+    , "typelevel-lists"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "variant"
+    ]
+  , repo = "https://github.com/m-bock/purescript-transit.git"
+  , version = "v0.0.1"
+  }
 , tree-rose =
   { dependencies =
     [ "control"
@@ -7346,7 +7379,7 @@
     , "webb-refer"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-channel.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , webb-commandline =
   { dependencies =
@@ -7442,7 +7475,7 @@
     , "webb-refer"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-mutex.git"
-  , version = "v0.0.6"
+  , version = "v0.0.7"
   }
 , webb-parsing =
   { dependencies =
@@ -7496,6 +7529,12 @@
 , webb-set =
   { dependencies = [ "ordered-collections", "prelude" ]
   , repo = "https://github.com/mitchellandwebb/webb-set.git"
+  , version = "v0.0.1"
+  }
+, webb-slot =
+  { dependencies =
+    [ "effect", "maybe", "prelude", "refs", "webb-monad", "webb-refer" ]
+  , repo = "https://github.com/mitchellandwebb/webb-slot.git"
   , version = "v0.0.1"
   }
 , webb-stateful =
