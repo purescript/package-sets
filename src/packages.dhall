@@ -7357,6 +7357,30 @@
   , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
   , version = "v5.0.1"
   }
+, webb-aff-list =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "exceptions"
+    , "foldable-traversable"
+    , "maybe"
+    , "monad-loops"
+    , "newtype"
+    , "prelude"
+    , "transformers"
+    , "unsafe-coerce"
+    , "webb-array"
+    , "webb-channel"
+    , "webb-monad"
+    , "webb-mutex"
+    , "webb-refer"
+    , "webb-slot"
+    , "webb-stateful"
+    , "webb-thread"
+    ]
+  , repo = "https://github.com/mitchellandwebb/webb-aff-list.git"
+  , version = "v0.0.1"
+  }
 , webb-array =
   { dependencies = [ "arrays", "foldable-traversable", "maybe", "prelude" ]
   , repo = "https://github.com/mitchellandwebb/webb-array.git"
@@ -7379,7 +7403,7 @@
     , "webb-refer"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-channel.git"
-  , version = "v0.0.2"
+  , version = "v0.0.3"
   }
 , webb-commandline =
   { dependencies =
@@ -7551,7 +7575,7 @@
     , "webb-refer"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-stateful.git"
-  , version = "v0.0.2"
+  , version = "v0.0.3"
   }
 , webb-test =
   { dependencies =
@@ -7579,7 +7603,7 @@
     , "webb-refer"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-thread.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , webb-writer =
   { dependencies =
