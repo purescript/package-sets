@@ -7379,12 +7379,12 @@
     , "webb-thread"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-aff-list.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , webb-array =
   { dependencies = [ "arrays", "foldable-traversable", "maybe", "prelude" ]
   , repo = "https://github.com/mitchellandwebb/webb-array.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , webb-channel =
   { dependencies =
@@ -7424,13 +7424,14 @@
     , "node-process"
     , "ordered-collections"
     , "prelude"
+    , "strings"
     , "transformers"
     , "webb-monad"
     , "webb-refer"
     , "webb-stateful"
     ]
   , repo = "https://github.com/mitchellandwebb/webb-directory.git"
-  , version = "v0.0.4"
+  , version = "v0.0.7"
   }
 , webb-file =
   { dependencies =
@@ -7576,6 +7577,21 @@
     ]
   , repo = "https://github.com/mitchellandwebb/webb-stateful.git"
   , version = "v0.0.3"
+  }
+, webb-string =
+  { dependencies =
+    [ "arrays"
+    , "maybe"
+    , "monad-loops"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "webb-array"
+    , "webb-refer"
+    ]
+  , repo = "https://github.com/mitchellandwebb/webb-string.git"
+  , version = "v0.0.1"
   }
 , webb-test =
   { dependencies =
