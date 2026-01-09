@@ -6662,9 +6662,8 @@
   { dependencies =
     [ "arrays"
     , "colors"
-    , "console"
     , "control"
-    , "effect"
+    , "either"
     , "enums"
     , "foldable-traversable"
     , "foreign"
@@ -6674,9 +6673,6 @@
     , "lists"
     , "maybe"
     , "newtype"
-    , "node-buffer"
-    , "node-fs"
-    , "node-path"
     , "ordered-collections"
     , "partial"
     , "prelude"
@@ -6689,7 +6685,7 @@
     , "variant"
     ]
   , repo = "https://github.com/m-bock/purescript-transit.git"
-  , version = "v0.0.1"
+  , version = "v0.1.1"
   }
 , tree-rose =
   { dependencies =
