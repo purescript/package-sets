@@ -721,7 +721,7 @@
     , "tuples"
     , "variant"
     ]
-  , repo = "https://github.com/thought2/purescript-chameleon.git"
+  , repo = "https://github.com/m-bock/purescript-chameleon.git"
   , version = "v1.0.0"
   }
 , chameleon-halogen =
@@ -1067,7 +1067,7 @@
 , css-frameworks =
   { dependencies = [ "web-html" ]
   , repo = "https://github.com/deemp/purescript-css-frameworks.git"
-  , version = "v1.0.1"
+  , version = "v1.1.0"
   }
 , csv-stream =
   { dependencies =
@@ -3562,7 +3562,7 @@
     , "variant"
     , "variant-encodings"
     ]
-  , repo = "https://github.com/thought2/purescript-marked.git"
+  , repo = "https://github.com/m-bock/purescript-marked.git"
   , version = "v0.1.0"
   }
 , matrices =
