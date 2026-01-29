@@ -4927,7 +4927,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/cakekindel/purescript-postgresql.git"
-  , version = "v2.0.20"
+  , version = "v2.0.21"
   }
 , precise =
   { dependencies =
