@@ -2231,7 +2231,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/i-am-the-slime/purescript-framer-motion.git"
-  , version = "v1.0.1"
+  , version = "v2.0.1"
   }
 , free =
   { dependencies =
@@ -5851,7 +5851,7 @@
     ]
   , repo =
     "https://github.com/purescript-react/purescript-react-basic-hooks.git"
-  , version = "v8.2.0"
+  , version = "v9.0.0"
   }
 , react-basic-storybook =
   { dependencies =
