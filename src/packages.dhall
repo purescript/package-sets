@@ -3140,6 +3140,234 @@
   , repo = "https://github.com/lucasdicioccio/purescript-humdrum.git"
   , version = "v0.0.1"
   }
+, hylograph-canvas =
+  { dependencies = [ "effect", "prelude" ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-canvas.git"
+  , version = "v0.1.0"
+  }
+, hylograph-d3-kernel =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "hylograph-simulation-core"
+    , "maybe"
+    , "nullable"
+    , "ordered-collections"
+    , "prelude"
+    , "refs"
+    , "tuples"
+    , "typelevel-prelude"
+    , "web-dom"
+    ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-d3-kernel.git"
+  , version = "v0.1.0"
+  }
+, hylograph-graph =
+  { dependencies =
+    [ "arrays"
+    , "either"
+    , "foldable-traversable"
+    , "free"
+    , "graphs"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "numbers"
+    , "ordered-collections"
+    , "prelude"
+    , "tree-rose"
+    , "tuples"
+    ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-graph.git"
+  , version = "v0.1.0"
+  }
+, hylograph-layout =
+  { dependencies =
+    [ "arrays"
+    , "either"
+    , "foldable-traversable"
+    , "foreign"
+    , "free"
+    , "hylograph-graph"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "numbers"
+    , "ordered-collections"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "tree-rose"
+    , "tuples"
+    ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-layout.git"
+  , version = "v0.1.0"
+  }
+, hylograph-music =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "hylograph-selection"
+    , "integers"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "refs"
+    , "tuples"
+    , "web-dom"
+    ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-music.git"
+  , version = "v0.1.0"
+  }
+, hylograph-optics =
+  { dependencies =
+    [ "arrays"
+    , "foldable-traversable"
+    , "free"
+    , "hylograph-graph"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "profunctor-lenses"
+    , "tree-rose"
+    ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-optics.git"
+  , version = "v0.1.0"
+  }
+, hylograph-selection =
+  { dependencies =
+    [ "arrays"
+    , "colors"
+    , "console"
+    , "contravariant"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "free"
+    , "graphs"
+    , "hylograph-graph"
+    , "hylograph-transitions"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "numbers"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "refs"
+    , "strings"
+    , "transformers"
+    , "tree-rose"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "unsafe-reference"
+    , "web-dom"
+    , "web-html"
+    , "web-pointerevents"
+    , "web-uievents"
+    ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-selection.git"
+  , version = "v0.1.1"
+  }
+, hylograph-simulation =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "console"
+    , "effect"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "functions"
+    , "hylograph-selection"
+    , "hylograph-transitions"
+    , "integers"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "numbers"
+    , "ordered-collections"
+    , "prelude"
+    , "refs"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "web-dom"
+    ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-simulation.git"
+  , version = "v0.1.0"
+  }
+, hylograph-simulation-core =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "foreign-object"
+    , "integers"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "refs"
+    ]
+  , repo =
+    "https://github.com/afcondon/purescript-hylograph-simulation-core.git"
+  , version = "v0.1.0"
+  }
+, hylograph-simulation-halogen =
+  { dependencies =
+    [ "effect"
+    , "halogen-subscriptions"
+    , "hylograph-d3-kernel"
+    , "hylograph-simulation"
+    , "maybe"
+    , "prelude"
+    , "refs"
+    ]
+  , repo =
+    "https://github.com/afcondon/purescript-hylograph-simulation-halogen.git"
+  , version = "v0.1.0"
+  }
+, hylograph-transitions =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "ordered-collections"
+    , "prelude"
+    , "refs"
+    , "strings"
+    ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-transitions.git"
+  , version = "v0.1.0"
+  }
+, hylograph-wasm-kernel =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "effect"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "halogen-subscriptions"
+    , "hylograph-simulation-core"
+    , "maybe"
+    , "prelude"
+    , "refs"
+    , "tuples"
+    ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-wasm-kernel.git"
+  , version = "v0.1.0"
+  }
 , hyrule =
   { dependencies =
     [ "arrays"
@@ -8586,6 +8814,49 @@
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-react-dom.git"
   , version = "v1.0.1"
   }
+, yoga-redis =
+  { dependencies =
+    [ "aff"
+    , "datetime"
+    , "effect"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "prelude"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-redis.git"
+  , version = "v0.1.0"
+  }
+, yoga-sql-types =
+  { dependencies =
+    [ "arrays"
+    , "bifunctors"
+    , "either"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "heterogeneous"
+    , "identity"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "record"
+    , "safe-coerce"
+    , "transformers"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "yoga-json"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-sql-types.git"
+  , version = "v0.1.0"
+  }
 , yoga-subtlecrypto =
   { dependencies =
     [ "aff"
@@ -8601,6 +8872,11 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-subtlecrypto.git"
+  , version = "v0.1.0"
+  }
+, yoga-test-docker =
+  { dependencies = [ "aff", "datetime", "effect", "exceptions", "prelude" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-test-docker.git"
   , version = "v0.1.0"
   }
 , yoga-tree =
