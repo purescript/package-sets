@@ -7919,6 +7919,7 @@
   { dependencies =
     [ "aff"
     , "effect"
+    , "either"
     , "exceptions"
     , "js-promise"
     , "js-promise-aff"
@@ -7931,7 +7932,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-vitest.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , web-clipboard =
   { dependencies =
