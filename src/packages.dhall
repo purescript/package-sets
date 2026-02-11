@@ -5231,7 +5231,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/flip111/purescript-ordered-set.git"
-  , version = "v0.4.0"
+  , version = "v0.5.0"
   }
 , orders =
   { dependencies = [ "newtype", "prelude" ]
@@ -6853,7 +6853,7 @@
   { dependencies =
     [ "aff", "effect", "foldable-traversable", "prelude", "spec", "spec-node" ]
   , repo = "https://github.com/purescript-spec/purescript-spec-discovery.git"
-  , version = "v8.4.0"
+  , version = "v8.4.1"
   }
 , spec-mocha =
   { dependencies =
