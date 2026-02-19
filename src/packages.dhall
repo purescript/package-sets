@@ -6611,6 +6611,23 @@
   , repo = "https://github.com/joellefkowitz/shuffle.git"
   , version = "v2.0.0"
   }
+, sigil =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "integers"
+    , "language-cst-parser"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    , "unsafe-coerce"
+    , "web-dom"
+    ]
+  , repo = "https://github.com/afcondon/purescript-sigil.git"
+  , version = "v0.2.0"
+  }
 , signal =
   { dependencies =
     [ "aff", "effect", "either", "foldable-traversable", "maybe", "prelude" ]
