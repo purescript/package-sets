@@ -6626,7 +6626,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/afcondon/purescript-sigil.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , signal =
   { dependencies =
