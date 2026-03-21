@@ -8765,6 +8765,7 @@
 , yoga-om =
   { dependencies =
     [ "aff"
+    , "aff-retry"
     , "avar"
     , "console"
     , "control"
@@ -8773,12 +8774,14 @@
     , "either"
     , "exceptions"
     , "functions"
+    , "heterogeneous"
     , "maybe"
     , "newtype"
     , "parallel"
     , "prelude"
     , "record"
     , "record-studio"
+    , "refs"
     , "tailrec"
     , "transformers"
     , "tuples"
@@ -8788,7 +8791,33 @@
     , "variant"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-om.git"
-  , version = "v0.1.0"
+  , version = "v2.0.0"
+  }
+, yoga-om-layer =
+  { dependencies =
+    [ "aff"
+    , "aff-retry"
+    , "arrays"
+    , "effect"
+    , "exceptions"
+    , "foldable-traversable"
+    , "maybe"
+    , "nullable"
+    , "ordered-collections"
+    , "parallel"
+    , "prelude"
+    , "record"
+    , "record-studio"
+    , "refs"
+    , "transformers"
+    , "type-equality"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "variant"
+    , "yoga-om"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-om-layer.git"
+  , version = "v2.0.0"
   }
 , yoga-postgres =
   { dependencies =
