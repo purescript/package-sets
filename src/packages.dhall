@@ -866,6 +866,37 @@
   , repo = "https://github.com/ConnorDillon/purescript-channel.git"
   , version = "v1.0.0"
   }
+, chartjs =
+  { dependencies =
+    [ "argonaut-core"
+    , "arrays"
+    , "effect"
+    , "foreign"
+    , "foreign-object"
+    , "integers"
+    , "maybe"
+    , "prelude"
+    , "tuples"
+    , "web-events"
+    , "web-html"
+    ]
+  , repo = "https://github.com/philippedev101/purescript-chartjs.git"
+  , version = "v0.1.1"
+  }
+, chartjs-halogen =
+  { dependencies =
+    [ "aff"
+    , "chartjs"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "halogen"
+    , "maybe"
+    , "prelude"
+    ]
+  , repo = "https://github.com/philippedev101/purescript-chartjs-halogen.git"
+  , version = "v0.1.0"
+  }
 , checked-exceptions =
   { dependencies = [ "either", "newtype", "prelude", "transformers", "variant" ]
   , repo = "https://github.com/natefaubion/purescript-checked-exceptions.git"
@@ -1227,6 +1258,20 @@
     ]
   , repo = "https://github.com/cakekindel/purescript-csv-stream.git"
   , version = "v2.3.0"
+  }
+, currency =
+  { dependencies =
+    [ "arrays"
+    , "foldable-traversable"
+    , "integers"
+    , "js-bigints"
+    , "maybe"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/philippedev101/purescript-currency.git"
+  , version = "v0.1.0"
   }
 , data-mvc =
   { dependencies =
@@ -1843,6 +1888,12 @@
   , repo = "https://github.com/rowtype-yoga/purescript-fahrtwind.git"
   , version = "v2.0.0"
   }
+, faker-ffi =
+  { dependencies =
+    [ "arrays", "effect", "foldable-traversable", "maybe", "prelude", "tuples" ]
+  , repo = "https://github.com/philippedev101/purescript-faker-ffi.git"
+  , version = "v0.1.1"
+  }
 , fakerjs =
   { dependencies =
     [ "arrays"
@@ -2218,7 +2269,6 @@
     , "nullable"
     , "prelude"
     , "react-basic"
-    , "react-basic-dom"
     , "react-basic-hooks"
     , "record"
     , "tuples"
@@ -2229,9 +2279,10 @@
     , "web-dom"
     , "web-events"
     , "web-uievents"
+    , "yoga-react-dom"
     ]
   , repo = "https://github.com/i-am-the-slime/purescript-framer-motion.git"
-  , version = "v2.0.1"
+  , version = "v3.1.0"
   }
 , free =
   { dependencies =
@@ -2473,6 +2524,23 @@
     ]
   , repo = "https://github.com/AdaBeat/purescript-gojs.git"
   , version = "v0.1.1"
+  }
+, golden-test =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "either"
+    , "maybe"
+    , "node-buffer"
+    , "node-fs"
+    , "node-path"
+    , "node-process"
+    , "prelude"
+    , "spec"
+    , "strings"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-golden-test.git"
+  , version = "v0.1.0"
   }
 , golem-fetch =
   { dependencies =
@@ -3181,7 +3249,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-graph.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , hylograph-layout =
   { dependencies =
@@ -3203,7 +3271,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-layout.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , hylograph-music =
   { dependencies =
@@ -3302,7 +3370,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-simulation.git"
-  , version = "v0.1.0"
+  , version = "v0.3.0"
   }
 , hylograph-simulation-core =
   { dependencies =
@@ -3331,7 +3399,7 @@
     ]
   , repo =
     "https://github.com/afcondon/purescript-hylograph-simulation-halogen.git"
-  , version = "v0.1.0"
+  , version = "v0.3.0"
   }
 , hylograph-transitions =
   { dependencies =
@@ -3395,6 +3463,33 @@
     ]
   , repo = "https://github.com/mikesol/purescript-hyrule.git"
   , version = "v2.3.8"
+  }
+, i18next =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foreign"
+    , "foreign-object"
+    , "js-promise"
+    , "js-promise-aff"
+    , "prelude"
+    ]
+  , repo = "https://github.com/philippedev101/purescript-i18next.git"
+  , version = "v0.1.0"
+  }
+, idb =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foreign"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    ]
+  , repo = "https://github.com/philippedev101/purescript-idb.git"
+  , version = "v0.1.0"
   }
 , identity =
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
@@ -3650,14 +3745,16 @@
     , "js-date"
     , "maybe"
     , "nullable"
+    , "ordered-collections"
     , "partial"
     , "prelude"
+    , "safe-coerce"
     , "tuples"
     , "unfoldable"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pete-murphy/purescript-js-intl.git"
-  , version = "v1.1.4"
+  , version = "v1.3.0"
   }
 , js-iterators =
   { dependencies =
@@ -3721,6 +3818,28 @@
     ]
   , repo = "https://github.com/purescript-contrib/purescript-js-promise-aff.git"
   , version = "v1.0.0"
+  }
+, js-temporal =
+  { dependencies =
+    [ "convertable-options"
+    , "datetime"
+    , "effect"
+    , "enums"
+    , "foreign"
+    , "functions"
+    , "integers"
+    , "js-bigints"
+    , "js-date"
+    , "js-intl"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "partial"
+    , "prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/pete-murphy/purescript-js-temporal.git"
+  , version = "v2.1.0"
   }
 , js-timers =
   { dependencies = [ "effect", "prelude" ]
@@ -4089,6 +4208,11 @@
     "https://github.com/m-bock/purescript-marionette-react-basic-hooks.git"
   , version = "v0.1.1"
   }
+, markdown-it-js =
+  { dependencies = [] : List Text
+  , repo = "https://github.com/philippedev101/purescript-markdown-it-js.git"
+  , version = "v0.1.0"
+  }
 , marked =
   { dependencies =
     [ "dts"
@@ -4197,6 +4321,11 @@
     ]
   , repo = "https://github.com/newlandsvalley/purescript-midi.git"
   , version = "v4.0.0"
+  }
+, milkdown =
+  { dependencies = [ "aff", "effect", "functions", "prelude", "web-dom" ]
+  , repo = "https://github.com/philippedev101/purescript-milkdown.git"
+  , version = "v0.1.0"
   }
 , milkis =
   { dependencies =
@@ -4421,6 +4550,34 @@
   { dependencies = [ "prelude", "safe-coerce" ]
   , repo = "https://github.com/purescript/purescript-newtype.git"
   , version = "v5.0.0"
+  }
+, next-purs-rsc =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "effect"
+    , "either"
+    , "foreign"
+    , "functions"
+    , "http-methods"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "partial"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-hooks"
+    , "record"
+    , "tuples"
+    , "unsafe-coerce"
+    , "untagged-union"
+    , "yoga-http-api"
+    , "yoga-om"
+    , "yoga-react-dom"
+    , "yoga-react-om"
+    ]
+  , repo = "https://github.com/rowtype-yoga/next-purs-rsc.git"
+  , version = "v0.1.0"
   }
 , nextjs =
   { dependencies =
@@ -4903,6 +5060,11 @@
     ]
   , repo = "https://github.com/maxdeviant/purescript-npm-package-json.git"
   , version = "v2.0.0"
+  }
+, nqueens =
+  { dependencies = [ "control", "lists", "prelude" ]
+  , repo = "https://github.com/jrrom/purescript-nqueens.git"
+  , version = "v0.1.4"
   }
 , nullable =
   { dependencies = [ "functions", "maybe", "prelude" ]
@@ -5720,6 +5882,62 @@
     "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
   , version = "v8.0.0"
   }
+, prospero =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "avar"
+    , "bifunctors"
+    , "console"
+    , "control"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "fetch"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "functions"
+    , "integers"
+    , "js-promise"
+    , "js-promise-aff"
+    , "language-cst-parser"
+    , "lazy"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "node-buffer"
+    , "node-fs"
+    , "node-process"
+    , "now"
+    , "nullable"
+    , "numbers"
+    , "ordered-collections"
+    , "partial"
+    , "prelude"
+    , "record"
+    , "record-studio"
+    , "ref-lifted"
+    , "refs"
+    , "safe-coerce"
+    , "strings"
+    , "tidy-codegen"
+    , "transformers"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "variant"
+    , "web-fetch"
+    , "yoga-bun-yoga"
+    , "yoga-fastify"
+    , "yoga-json"
+    , "yoga-om"
+    , "yoga-om-layer"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-prospero.git"
+  , version = "v0.1.0"
+  }
 , protobuf =
   { dependencies =
     [ "arraybuffer"
@@ -6100,6 +6318,25 @@
     "https://github.com/rowtype-yoga/purescript-react-basic-storybook.git"
   , version = "v2.0.0"
   }
+, react-dnd-kit =
+  { dependencies =
+    [ "effect"
+    , "foreign"
+    , "functions"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-hooks"
+    , "unsafe-coerce"
+    , "web-dom"
+    , "web-events"
+    , "yoga-react-dom"
+    ]
+  , repo = "https://github.com/i-am-the-slime/purescript-react-dnd-kit.git"
+  , version = "v0.6.0"
+  }
 , react-dom =
   { dependencies =
     [ "effect"
@@ -6277,6 +6514,11 @@
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-record-studio.git"
   , version = "v1.0.4"
+  }
+, ref-lifted =
+  { dependencies = [ "effect", "prelude", "refs" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-ref-lifted.git"
+  , version = "v0.0.2"
   }
 , refs =
   { dependencies = [ "effect", "prelude" ]
@@ -7148,6 +7390,7 @@
     , "foldable-traversable"
     , "foreign"
     , "forgetmenot"
+    , "functions"
     , "js-promise"
     , "js-promise-aff"
     , "literals"
@@ -7165,7 +7408,7 @@
     , "yoga-json"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-tanstack-query.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , tecton =
   { dependencies =
@@ -7189,6 +7432,11 @@
   { dependencies = [ "halogen", "lists", "prelude", "tecton", "transformers" ]
   , repo = "https://github.com/nsaunders/purescript-tecton-halogen.git"
   , version = "v0.2.0"
+  }
+, temporal =
+  { dependencies = [ "effect", "js-bigints", "maybe", "prelude" ]
+  , repo = "https://github.com/philippedev101/purescript-temporal.git"
+  , version = "v0.1.0"
   }
 , test-unit =
   { dependencies =
@@ -8709,6 +8957,204 @@
   , repo = "https://github.com/archaeron/purescript-yaml-next.git"
   , version = "v3.1.1"
   }
+, yoga-acp-om =
+  { dependencies =
+    [ "arraybuffer-types"
+    , "arrays"
+    , "effect"
+    , "either"
+    , "foreign"
+    , "http-methods"
+    , "js-fetch"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "unsafe-coerce"
+    , "yoga-json"
+    , "yoga-om"
+    , "yoga-om-strom"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-acp-om.git"
+  , version = "v0.1.1"
+  }
+, yoga-better-auth =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "foreign"
+    , "js-date"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "prelude"
+    , "unsafe-coerce"
+    , "web-fetch"
+    , "yoga-fastify"
+    , "yoga-fetch"
+    , "yoga-om"
+    , "yoga-om-layer"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-better-auth.git"
+  , version = "v0.2.2"
+  }
+, yoga-bun-yoga =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foreign"
+    , "foreign-object"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "unsafe-coerce"
+    , "web-fetch"
+    , "yoga-json"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-bun-yoga.git"
+  , version = "v0.2.1"
+  }
+, yoga-config =
+  { dependencies =
+    [ "aff"
+    , "bifunctors"
+    , "control"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "identity"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "node-buffer"
+    , "node-fs"
+    , "node-process"
+    , "numbers"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "yoga-json"
+    , "yoga-om"
+    , "yoga-om-layer"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-config.git"
+  , version = "v0.2.1"
+  }
+, yoga-country =
+  { dependencies =
+    [ "enums", "foreign", "maybe", "prelude", "transformers", "yoga-json" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-country.git"
+  , version = "v3.0.0"
+  }
+, yoga-docker-compose =
+  { dependencies = [ "aff", "newtype", "node-child-process", "prelude" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-docker-compose.git"
+  , version = "v0.1.1"
+  }
+, yoga-dynamodb =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foreign"
+    , "foreign-object"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-dynamodb.git"
+  , version = "v0.1.1"
+  }
+, yoga-elasticsearch =
+  { dependencies =
+    [ "aff"
+    , "datetime"
+    , "effect"
+    , "foreign"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "prelude"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-elasticsearch.git"
+  , version = "v0.1.1"
+  }
+, yoga-fastify =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "bifunctors"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "prelude"
+    , "record"
+    , "strings"
+    , "unsafe-coerce"
+    , "variant"
+    , "yoga-http-api"
+    , "yoga-json"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-fastify.git"
+  , version = "v0.5.1"
+  }
+, yoga-fastify-om =
+  { dependencies =
+    [ "aff"
+    , "console"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foreign"
+    , "foreign-object"
+    , "integers"
+    , "maybe"
+    , "node-buffer"
+    , "prelude"
+    , "record"
+    , "refs"
+    , "routing-duplex"
+    , "transformers"
+    , "unsafe-coerce"
+    , "variant"
+    , "yoga-fastify"
+    , "yoga-http-api"
+    , "yoga-json"
+    , "yoga-om"
+    , "yoga-om-layer"
+    , "yoga-om-strom"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-fastify-om.git"
+  , version = "v0.4.1"
+  }
 , yoga-fetch =
   { dependencies =
     [ "aff"
@@ -8724,6 +9170,78 @@
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fetch.git"
   , version = "v1.0.1"
+  }
+, yoga-fetch-om =
+  { dependencies =
+    [ "aff"
+    , "arraybuffer-types"
+    , "arrays"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "http-methods"
+    , "js-fetch"
+    , "js-promise-aff"
+    , "maybe"
+    , "prelude"
+    , "record"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "variant"
+    , "yoga-http-api"
+    , "yoga-json"
+    , "yoga-om"
+    , "yoga-om-strom"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-fetch-om.git"
+  , version = "v0.6.2"
+  }
+, yoga-http-api =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "either"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "identity"
+    , "integers"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "record"
+    , "strings"
+    , "tuples"
+    , "undefined-is-not-a-problem"
+    , "unsafe-coerce"
+    , "variant"
+    , "yoga-json"
+    , "yoga-options"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-http-api.git"
+  , version = "v0.3.1"
+  }
+, yoga-jaeger =
+  { dependencies =
+    [ "aff"
+    , "datetime"
+    , "effect"
+    , "foreign-object"
+    , "integers"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "prelude"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-jaeger.git"
+  , version = "v0.1.1"
   }
 , yoga-json =
   { dependencies =
@@ -8751,6 +9269,7 @@
     , "partial"
     , "prelude"
     , "record"
+    , "safe-coerce"
     , "strings"
     , "transformers"
     , "tuples"
@@ -8760,7 +9279,26 @@
     , "yoga-tree"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-json.git"
-  , version = "v5.1.0"
+  , version = "v5.2.1"
+  }
+, yoga-language =
+  { dependencies =
+    [ "enums", "foreign", "maybe", "prelude", "transformers", "yoga-json" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-language.git"
+  , version = "v1.0.0"
+  }
+, yoga-next-fastify =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "http-methods"
+    , "js-promise"
+    , "js-promise-aff"
+    , "prelude"
+    , "yoga-fastify"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-next-fastify.git"
+  , version = "v0.1.1"
   }
 , yoga-om =
   { dependencies =
@@ -8819,6 +9357,89 @@
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-om-layer.git"
   , version = "v2.0.0"
   }
+, yoga-om-strom =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "avar"
+    , "catenable-lists"
+    , "console"
+    , "control"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "now"
+    , "prelude"
+    , "refs"
+    , "spec"
+    , "st"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    , "variant"
+    , "yoga-om"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-om-strom.git"
+  , version = "v0.4.2"
+  }
+, yoga-om-workerbees =
+  { dependencies =
+    [ "aff"
+    , "arraybuffer-types"
+    , "arrays"
+    , "console"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "functions"
+    , "maybe"
+    , "node-workerbees"
+    , "parallel"
+    , "partial"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "yoga-json"
+    , "yoga-om"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-om-workerbees.git"
+  , version = "v0.1.2"
+  }
+, yoga-opentelemetry =
+  { dependencies =
+    [ "aff"
+    , "datetime"
+    , "effect"
+    , "foreign-object"
+    , "integers"
+    , "js-promise"
+    , "js-promise-aff"
+    , "newtype"
+    , "prelude"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-opentelemetry.git"
+  , version = "v0.1.1"
+  }
+, yoga-options =
+  { dependencies = [ "identity", "literals", "unsafe-coerce", "untagged-union" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-options.git"
+  , version = "v0.1.1"
+  }
+, yoga-pino =
+  { dependencies = [ "effect", "foreign-object", "functions", "prelude" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-pino.git"
+  , version = "v0.1.1"
+  }
 , yoga-postgres =
   { dependencies =
     [ "aff"
@@ -8838,6 +9459,11 @@
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-postgres.git"
   , version = "v6.0.0"
+  }
+, yoga-react =
+  { dependencies = [ "effect", "prelude", "react-basic", "react-basic-hooks" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-react.git"
+  , version = "v1.0.2"
   }
 , yoga-react-dom =
   { dependencies =
@@ -8859,7 +9485,47 @@
     , "web-touchevents"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-react-dom.git"
-  , version = "v1.0.1"
+  , version = "v2.0.1"
+  }
+, yoga-react-native =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "foreign"
+    , "functions"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-hooks"
+    , "tuples"
+    , "type-equality"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-react-native.git"
+  , version = "v0.2.1"
+  }
+, yoga-react-om =
+  { dependencies =
+    [ "aff"
+    , "effect"
+    , "either"
+    , "indexed-monad"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-hooks"
+    , "refs"
+    , "tuples"
+    , "type-equality"
+    , "unsafe-coerce"
+    , "yoga-om"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-react-om.git"
+  , version = "v0.2.0"
   }
 , yoga-redis =
   { dependencies =
@@ -8875,6 +9541,28 @@
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-redis.git"
   , version = "v0.1.0"
+  }
+, yoga-shadcn =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "foreign-object"
+    , "integers"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-dom"
+    , "react-basic-hooks"
+    , "tuples"
+    , "unsafe-coerce"
+    , "web-dom"
+    , "yoga-react"
+    , "yoga-react-dom"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-shadcn.git"
+  , version = "v1.0.5"
   }
 , yoga-sql-types =
   { dependencies =
@@ -8904,6 +9592,45 @@
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-sql-types.git"
   , version = "v0.1.0"
   }
+, yoga-sqlite =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "enums"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "integers"
+    , "js-bigints"
+    , "js-date"
+    , "js-promise"
+    , "js-promise-aff"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "numbers"
+    , "ordered-collections"
+    , "prelude"
+    , "record"
+    , "strings"
+    , "transformers"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "uuid"
+    , "yoga-json"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-sqlite.git"
+  , version = "v0.3.0"
+  }
+, yoga-sse =
+  { dependencies = [ "effect", "foreign", "prelude" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-sse.git"
+  , version = "v0.1.1"
+  }
 , yoga-subtlecrypto =
   { dependencies =
     [ "aff"
@@ -8922,9 +9649,25 @@
   , version = "v0.1.0"
   }
 , yoga-test-docker =
-  { dependencies = [ "aff", "datetime", "effect", "exceptions", "prelude" ]
+  { dependencies = [ "aff", "datetime", "exceptions", "newtype", "prelude" ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-test-docker.git"
-  , version = "v0.1.0"
+  , version = "v0.1.2"
+  }
+, yoga-timezone =
+  { dependencies =
+    [ "datetime"
+    , "enums"
+    , "foreign"
+    , "integers"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "yoga-json"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-timezone.git"
+  , version = "v1.0.0"
   }
 , yoga-tree =
   { dependencies =
