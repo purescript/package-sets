@@ -3271,7 +3271,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-layout.git"
-  , version = "v0.2.0"
+  , version = "v0.2.1"
   }
 , hylograph-music =
   { dependencies =
@@ -3281,14 +3281,13 @@
     , "hylograph-selection"
     , "integers"
     , "maybe"
-    , "ordered-collections"
+    , "numbers"
     , "prelude"
     , "refs"
     , "tuples"
-    , "web-dom"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-music.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , hylograph-optics =
   { dependencies =
@@ -3310,7 +3309,6 @@
   { dependencies =
     [ "arrays"
     , "colors"
-    , "console"
     , "contravariant"
     , "datetime"
     , "effect"
@@ -3327,7 +3325,6 @@
     , "nullable"
     , "numbers"
     , "ordered-collections"
-    , "partial"
     , "prelude"
     , "refs"
     , "strings"
@@ -3336,14 +3333,14 @@
     , "tuples"
     , "typelevel-prelude"
     , "unsafe-coerce"
-    , "unsafe-reference"
     , "web-dom"
+    , "web-events"
     , "web-html"
     , "web-pointerevents"
     , "web-uievents"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-selection.git"
-  , version = "v0.1.1"
+  , version = "v0.3.4"
   }
 , hylograph-simulation =
   { dependencies =
@@ -4040,6 +4037,12 @@
     ]
   , repo = "https://github.com/gbagan/purescript-linalg.git"
   , version = "v6.0.0"
+  }
+, linear =
+  { dependencies =
+    [ "foldable-traversable", "maybe", "newtype", "numbers", "prelude" ]
+  , repo = "https://github.com/afcondon/purescript-linear.git"
+  , version = "v0.1.0"
   }
 , lists =
   { dependencies =
@@ -6869,6 +6872,11 @@
     ]
   , repo = "https://github.com/afcondon/purescript-sigil.git"
   , version = "v0.3.0"
+  }
+, sigil-hats =
+  { dependencies = [ "hylograph-selection", "maybe", "prelude", "sigil" ]
+  , repo = "https://github.com/afcondon/purescript-sigil-hats.git"
+  , version = "v0.2.0"
   }
 , signal =
   { dependencies =
