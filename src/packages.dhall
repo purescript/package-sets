@@ -1059,6 +1059,27 @@
   , repo = "https://github.com/purescript-contrib/purescript-colors.git"
   , version = "v7.0.1"
   }
+, compile-fail =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "maybe"
+    , "node-buffer"
+    , "node-child-process"
+    , "node-execa"
+    , "node-fs"
+    , "node-path"
+    , "node-process"
+    , "prelude"
+    , "spec"
+    , "strings"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-compile-fail.git"
+  , version = "v0.4.0"
+  }
 , concur-core =
   { dependencies =
     [ "aff"
