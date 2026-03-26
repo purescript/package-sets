@@ -9172,6 +9172,7 @@
     , "refs"
     , "routing-duplex"
     , "transformers"
+    , "typelevel-prelude"
     , "unsafe-coerce"
     , "variant"
     , "yoga-fastify"
@@ -9182,7 +9183,7 @@
     , "yoga-om-strom"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fastify-om.git"
-  , version = "v0.4.1"
+  , version = "v0.4.4"
   }
 , yoga-fetch =
   { dependencies =
