@@ -7135,7 +7135,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-spec/purescript-spec.git"
-  , version = "v8.1.1"
+  , version = "v8.1.2"
   }
 , spec-discovery =
   { dependencies =
@@ -9456,9 +9456,11 @@
     , "prelude"
     , "typelevel-prelude"
     , "unsafe-coerce"
+    , "yoga-om"
+    , "yoga-om-layer"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-opentelemetry.git"
-  , version = "v0.1.1"
+  , version = "v0.2.0"
   }
 , yoga-options =
   { dependencies = [ "identity", "literals", "unsafe-coerce", "untagged-union" ]
