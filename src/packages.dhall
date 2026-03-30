@@ -8228,6 +8228,31 @@
   , repo = "https://github.com/rowtype-yoga/purescript-vitest.git"
   , version = "v2.0.0"
   }
+, web-chain =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "numbers"
+    , "prelude"
+    , "st"
+    , "tuples"
+    , "unordered-collections"
+    , "unsafe-coerce"
+    , "unsafe-reference"
+    , "web-cssom"
+    , "web-dom"
+    , "web-events"
+    , "web-html"
+    ]
+  , repo = "https://github.com/david-sledge/purescript-web-chain.git"
+  , version = "v1.0.1"
+  }
 , web-clipboard =
   { dependencies =
     [ "effect"
