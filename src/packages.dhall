@@ -3308,7 +3308,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-music.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , hylograph-optics =
   { dependencies =
@@ -3361,7 +3361,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-selection.git"
-  , version = "v0.3.4"
+  , version = "v0.4.0"
   }
 , hylograph-simulation =
   { dependencies =
@@ -3371,7 +3371,6 @@
     , "effect"
     , "foldable-traversable"
     , "foreign-object"
-    , "functions"
     , "hylograph-selection"
     , "hylograph-transitions"
     , "integers"
@@ -3384,11 +3383,10 @@
     , "refs"
     , "tuples"
     , "typelevel-prelude"
-    , "unsafe-coerce"
     , "web-dom"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-simulation.git"
-  , version = "v0.3.0"
+  , version = "v0.4.0"
   }
 , hylograph-simulation-core =
   { dependencies =
@@ -3417,7 +3415,7 @@
     ]
   , repo =
     "https://github.com/afcondon/purescript-hylograph-simulation-halogen.git"
-  , version = "v0.3.0"
+  , version = "v0.4.0"
   }
 , hylograph-transitions =
   { dependencies =
@@ -3873,6 +3871,34 @@
   { dependencies = [ "effect", "record", "web-dom" ]
   , repo = "https://github.com/purescript-open-community/purescript-jsdom.git"
   , version = "v1.0.0"
+  }
+, jsinc =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "argonaut"
+    , "arrays"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "fetch-core"
+    , "foreign-object"
+    , "identity"
+    , "integers"
+    , "maybe"
+    , "newtype"
+    , "numbers"
+    , "prelude"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    , "unicode"
+    , "unsafe-coerce"
+    , "web-encoding"
+    , "web-streams"
+    ]
+  , repo = "https://github.com/david-sledge/purescript-jsinc.git"
+  , version = "v0.5.1"
   }
 , json =
   { dependencies =
