@@ -3308,7 +3308,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-music.git"
-  , version = "v0.3.0"
+  , version = "v0.4.0"
   }
 , hylograph-optics =
   { dependencies =
@@ -3361,7 +3361,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-selection.git"
-  , version = "v0.4.0"
+  , version = "v0.5.0"
   }
 , hylograph-simulation =
   { dependencies =
@@ -3386,7 +3386,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-simulation.git"
-  , version = "v0.4.0"
+  , version = "v0.5.0"
   }
 , hylograph-simulation-core =
   { dependencies =
@@ -3415,7 +3415,7 @@
     ]
   , repo =
     "https://github.com/afcondon/purescript-hylograph-simulation-halogen.git"
-  , version = "v0.4.0"
+  , version = "v0.5.0"
   }
 , hylograph-transitions =
   { dependencies =
@@ -6923,7 +6923,7 @@
 , sigil-hats =
   { dependencies = [ "hylograph-selection", "maybe", "prelude", "sigil" ]
   , repo = "https://github.com/afcondon/purescript-sigil-hats.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , signal =
   { dependencies =
