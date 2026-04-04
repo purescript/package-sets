@@ -9410,13 +9410,14 @@
     , "variant"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-om.git"
-  , version = "v2.0.0"
+  , version = "v2.1.0"
   }
 , yoga-om-layer =
   { dependencies =
     [ "aff"
     , "aff-retry"
     , "arrays"
+    , "control"
     , "effect"
     , "exceptions"
     , "foldable-traversable"
@@ -9428,6 +9429,7 @@
     , "record"
     , "record-studio"
     , "refs"
+    , "tailrec"
     , "transformers"
     , "type-equality"
     , "typelevel-prelude"
@@ -9436,7 +9438,7 @@
     , "yoga-om"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-om-layer.git"
-  , version = "v2.0.0"
+  , version = "v2.1.0"
   }
 , yoga-om-strom =
   { dependencies =
