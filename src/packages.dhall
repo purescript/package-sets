@@ -3270,7 +3270,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-graph.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , hylograph-layout =
   { dependencies =
@@ -3292,7 +3292,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-layout.git"
-  , version = "v0.2.1"
+  , version = "v0.3.0"
   }
 , hylograph-music =
   { dependencies =
@@ -3361,7 +3361,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-selection.git"
-  , version = "v0.5.0"
+  , version = "v0.5.1"
   }
 , hylograph-simulation =
   { dependencies =
@@ -9410,7 +9410,7 @@
     , "variant"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-om.git"
-  , version = "v2.1.0"
+  , version = "v2.2.0"
   }
 , yoga-om-layer =
   { dependencies =
