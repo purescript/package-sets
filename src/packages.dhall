@@ -6328,6 +6328,7 @@
     , "either"
     , "exceptions"
     , "foldable-traversable"
+    , "foreign-object"
     , "functions"
     , "indexed-monad"
     , "integers"
@@ -6347,7 +6348,7 @@
     ]
   , repo =
     "https://github.com/purescript-react/purescript-react-basic-hooks.git"
-  , version = "v9.0.0"
+  , version = "v9.1.1"
   }
 , react-basic-storybook =
   { dependencies =
