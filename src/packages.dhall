@@ -9710,7 +9710,7 @@
     , "yoga-json"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-sqlite.git"
-  , version = "v0.3.0"
+  , version = "v0.3.1"
   }
 , yoga-sse =
   { dependencies = [ "effect", "foreign", "prelude" ]
