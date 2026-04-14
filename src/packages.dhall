@@ -7452,7 +7452,6 @@
     , "literals"
     , "maybe"
     , "nullable"
-    , "partial"
     , "prelude"
     , "react-basic"
     , "react-basic-hooks"
@@ -7464,7 +7463,7 @@
     , "yoga-json"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-tanstack-query.git"
-  , version = "v2.0.1"
+  , version = "v3.0.0"
   }
 , tecton =
   { dependencies =
@@ -9710,7 +9709,7 @@
     , "yoga-json"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-sqlite.git"
-  , version = "v0.3.1"
+  , version = "v0.3.2"
   }
 , yoga-sse =
   { dependencies = [ "effect", "foreign", "prelude" ]
