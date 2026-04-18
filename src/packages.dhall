@@ -3496,16 +3496,19 @@
 , idb =
   { dependencies =
     [ "aff"
+    , "arrays"
     , "effect"
+    , "foldable-traversable"
     , "foreign"
     , "js-promise"
     , "js-promise-aff"
     , "maybe"
     , "nullable"
     , "prelude"
+    , "tuples"
     ]
   , repo = "https://github.com/philippedev101/purescript-idb.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , identity =
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
