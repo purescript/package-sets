@@ -7358,7 +7358,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/menelaos/purescript-stringutils.git"
-  , version = "v0.0.12"
+  , version = "v0.0.13"
   }
 , structured-logging =
   { dependencies =
