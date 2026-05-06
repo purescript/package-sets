@@ -499,7 +499,7 @@
     , "strings"
     ]
   , repo = "https://github.com/menelaos/purescript-b64.git"
-  , version = "v0.0.8"
+  , version = "v0.0.9"
   }
 , barbies =
   { dependencies = [ "const", "control", "prelude", "transformers" ]
