@@ -3858,7 +3858,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pete-murphy/purescript-js-temporal.git"
-  , version = "v2.1.0"
+  , version = "v3.0.0"
   }
 , js-timers =
   { dependencies = [ "effect", "prelude" ]
