@@ -6508,6 +6508,20 @@
     "repo": "https://github.com/rowtype-yoga/purescript-protobuf.git",
     "version": "v4.4.0"
   },
+  "ps-spa": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "foldable-traversable",
+      "integers",
+      "maybe",
+      "prelude",
+      "refs",
+      "strings"
+    ],
+    "repo": "https://github.com/the-man-with-a-golden-mind/ps-spa.git",
+    "version": "v0.4.2"
+  },
   "psa-utils": {
     "dependencies": [
       "ansi",
