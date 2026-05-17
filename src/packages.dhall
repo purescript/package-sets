@@ -6033,9 +6033,10 @@
     , "prelude"
     , "refs"
     , "strings"
+    , "type-equality"
     ]
   , repo = "https://github.com/the-man-with-a-golden-mind/ps-spa.git"
-  , version = "v0.4.2"
+  , version = "v0.5.3"
   }
 , psa-utils =
   { dependencies =
