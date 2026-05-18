@@ -6518,10 +6518,11 @@
       "prelude",
       "refs",
       "strings",
+      "tuples",
       "type-equality"
     ],
     "repo": "https://github.com/the-man-with-a-golden-mind/ps-spa.git",
-    "version": "v0.5.3"
+    "version": "v0.7.1"
   },
   "psa-utils": {
     "dependencies": [
