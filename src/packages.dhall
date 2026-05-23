@@ -9340,7 +9340,7 @@
     , "yoga-om-strom"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fetch-om.git"
-  , version = "v0.6.2"
+  , version = "v0.6.3"
   }
 , yoga-http-api =
   { dependencies =
