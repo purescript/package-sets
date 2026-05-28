@@ -9342,6 +9342,23 @@
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fetch-om.git"
   , version = "v0.6.3"
   }
+, yoga-heroui =
+  { dependencies =
+    [ "effect"
+    , "foreign"
+    , "functions"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-hooks"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "yoga-react-dom"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-heroui.git"
+  , version = "v2.0.2"
+  }
 , yoga-http-api =
   { dependencies =
     [ "aff"
