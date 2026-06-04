@@ -9056,7 +9056,7 @@
     , "untagged-union"
     ]
   , repo = "https://github.com/collegevine/purescript-whine.git"
-  , version = "v0.0.33"
+  , version = "v0.0.34"
   }
 , xterm =
   { dependencies =
