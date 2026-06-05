@@ -4539,6 +4539,35 @@
   , repo = "https://github.com/garyb/purescript-mote.git"
   , version = "v3.0.0"
   }
+, motion =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "arrays"
+    , "effect"
+    , "foreign"
+    , "foreign-object"
+    , "heterogeneous"
+    , "literals"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "react-basic"
+    , "react-basic-hooks"
+    , "record"
+    , "tuples"
+    , "two-or-more"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "untagged-union"
+    , "web-dom"
+    , "web-events"
+    , "web-uievents"
+    , "yoga-react-dom"
+    ]
+  , repo = "https://github.com/i-am-the-slime/purescript-motion.git"
+  , version = "v4.0.0"
+  }
 , motsunabe =
   { dependencies =
     [ "lazy", "lists", "prelude", "strings", "tuples", "unsafe-coerce" ]
