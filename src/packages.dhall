@@ -8345,6 +8345,11 @@
   , repo = "https://github.com/rowtype-yoga/purescript-vitest.git"
   , version = "v2.0.0"
   }
+, wasm-base =
+  { dependencies = [] : List Text
+  , repo = "https://github.com/purs-wasm/purescript-wasm-base.git"
+  , version = "v0.1.1"
+  }
 , web-chain =
   { dependencies =
     [ "arrays"
