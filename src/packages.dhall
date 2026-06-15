@@ -9376,6 +9376,11 @@
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fetch-om.git"
   , version = "v0.6.3"
   }
+, yoga-format =
+  { dependencies = [ "arrays", "maybe", "prelude", "record" ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-format.git"
+  , version = "v1.0.0"
+  }
 , yoga-heroui =
   { dependencies =
     [ "effect"
