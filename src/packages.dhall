@@ -7580,9 +7580,22 @@
   , version = "v0.2.0"
   }
 , temporal =
-  { dependencies = [ "effect", "js-bigints", "maybe", "prelude" ]
+  { dependencies =
+    [ "argonaut-codecs"
+    , "argonaut-core"
+    , "argonaut-generic"
+    , "arrays"
+    , "effect"
+    , "either"
+    , "enums"
+    , "integers"
+    , "js-bigints"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    ]
   , repo = "https://github.com/philippedev101/purescript-temporal.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , test-unit =
   { dependencies =
