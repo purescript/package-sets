@@ -8361,7 +8361,7 @@
 , wasm-base =
   { dependencies = [] : List Text
   , repo = "https://github.com/purs-wasm/purescript-wasm-base.git"
-  , version = "v0.1.1"
+  , version = "v0.2.0"
   }
 , web-chain =
   { dependencies =
