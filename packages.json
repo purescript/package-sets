@@ -3368,6 +3368,17 @@
     "repo": "https://github.com/grybiena/halogen-xterm.git",
     "version": "v2.0.0"
   },
+  "harmonia": {
+    "dependencies": [
+      "arrays",
+      "foldable-traversable",
+      "maybe",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/afcondon/purescript-harmonia.git",
+    "version": "v0.1.1"
+  },
   "heckin": {
     "dependencies": [
       "arrays",
