@@ -10626,7 +10626,7 @@
       "yoga-json"
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-yoga-sqlite.git",
-    "version": "v0.3.2"
+    "version": "v0.3.3"
   },
   "yoga-sse": {
     "dependencies": [
