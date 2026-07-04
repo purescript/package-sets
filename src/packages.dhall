@@ -9319,7 +9319,7 @@
     , "yoga-json"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fastify.git"
-  , version = "v0.5.1"
+  , version = "v0.5.2"
   }
 , yoga-fastify-om =
   { dependencies =
