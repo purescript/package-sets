@@ -3112,7 +3112,7 @@
   { dependencies =
     [ "arrays", "foldable-traversable", "maybe", "prelude", "tuples" ]
   , repo = "https://github.com/afcondon/purescript-harmonia.git"
-  , version = "v0.1.1"
+  , version = "v0.2.0"
   }
 , heckin =
   { dependencies =
