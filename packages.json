@@ -10174,7 +10174,7 @@
       "yoga-react-dom"
     ],
     "repo": "https://github.com/rowtype-yoga/purescript-yoga-heroui.git",
-    "version": "v2.0.2"
+    "version": "v2.0.3"
   },
   "yoga-http-api": {
     "dependencies": [
