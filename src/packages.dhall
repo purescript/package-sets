@@ -3161,7 +3161,7 @@
 , http-methods =
   { dependencies = [ "either", "prelude", "strings" ]
   , repo = "https://github.com/purescript-contrib/purescript-http-methods.git"
-  , version = "v6.0.0"
+  , version = "v6.1.0"
   }
 , httpurple =
   { dependencies =
@@ -9319,7 +9319,7 @@
     , "yoga-json"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fastify.git"
-  , version = "v0.5.2"
+  , version = "v0.5.3"
   }
 , yoga-fastify-om =
   { dependencies =
@@ -9349,7 +9349,7 @@
     , "yoga-om-strom"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fastify-om.git"
-  , version = "v0.4.4"
+  , version = "v0.4.5"
   }
 , yoga-fetch =
   { dependencies =
@@ -9393,7 +9393,7 @@
     , "yoga-om-strom"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fetch-om.git"
-  , version = "v0.6.3"
+  , version = "v0.7.0"
   }
 , yoga-format =
   { dependencies = [ "arrays", "maybe", "prelude", "record" ]
@@ -9440,7 +9440,7 @@
     , "yoga-options"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-http-api.git"
-  , version = "v0.3.1"
+  , version = "v0.3.2"
   }
 , yoga-jaeger =
   { dependencies =
@@ -9516,7 +9516,7 @@
     , "yoga-fastify"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-next-fastify.git"
-  , version = "v0.1.1"
+  , version = "v0.2.0"
   }
 , yoga-om =
   { dependencies =
@@ -9605,7 +9605,7 @@
     , "yoga-om"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-om-strom.git"
-  , version = "v0.4.2"
+  , version = "v0.4.3"
   }
 , yoga-om-workerbees =
   { dependencies =
