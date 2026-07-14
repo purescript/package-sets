@@ -735,6 +735,19 @@
     "repo": "https://github.com/klntsky/purescript-bower-json.git",
     "version": "v3.0.0"
   },
+  "bytestrings": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "maybe",
+      "prelude",
+      "st",
+      "strings",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/f-f/purescript-bytestrings.git",
+    "version": "v9.0.0"
+  },
   "call-by-name": {
     "dependencies": [
       "control",
