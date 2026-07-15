@@ -9560,7 +9560,7 @@
     , "variant"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-om.git"
-  , version = "v2.2.0"
+  , version = "v2.2.1"
   }
 , yoga-om-layer =
   { dependencies =
