@@ -401,7 +401,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/flip111/purescript-arrays-extra.git"
-  , version = "v0.6.1"
+  , version = "v0.6.2"
   }
 , arrays-zipper =
   { dependencies =
@@ -888,13 +888,15 @@
     , "foreign-object"
     , "integers"
     , "maybe"
+    , "nullable"
     , "prelude"
     , "tuples"
+    , "unsafe-coerce"
     , "web-events"
     , "web-html"
     ]
   , repo = "https://github.com/philippedev101/purescript-chartjs.git"
-  , version = "v0.1.1"
+  , version = "v0.2.0"
   }
 , chartjs-halogen =
   { dependencies =
@@ -903,12 +905,14 @@
     , "effect"
     , "either"
     , "exceptions"
+    , "foreign"
     , "halogen"
     , "maybe"
     , "prelude"
+    , "web-events"
     ]
   , repo = "https://github.com/philippedev101/purescript-chartjs-halogen.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , checked-exceptions =
   { dependencies = [ "either", "newtype", "prelude", "transformers", "variant" ]
@@ -1368,7 +1372,7 @@
 , debounce =
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/garganscript/purescript-debouncing.git"
-  , version = "v0.1.0"
+  , version = "v0.1.2"
   }
 , debug =
   { dependencies = [ "functions", "prelude" ]
@@ -1429,7 +1433,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-deku.git"
-  , version = "v0.9.23"
+  , version = "v0.9.24"
   }
 , deno =
   { dependencies =
@@ -5494,7 +5498,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/flip111/purescript-ordered-set.git"
-  , version = "v0.5.0"
+  , version = "v0.5.2"
   }
 , orders =
   { dependencies = [ "newtype", "prelude" ]
@@ -6496,7 +6500,7 @@
 , react-icons =
   { dependencies = [ "react-basic", "react-basic-dom", "unsafe-coerce" ]
   , repo = "https://github.com/purescript-react/purescript-react-icons.git"
-  , version = "v1.1.5"
+  , version = "v1.1.6"
   }
 , react-markdown =
   { dependencies = [ "react-basic-hooks" ]
@@ -8375,7 +8379,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-vitest.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , wasm-base =
   { dependencies = [] : List Text
@@ -8715,9 +8719,17 @@
   }
 , web-workers =
   { dependencies =
-    [ "effect", "foreign", "maybe", "prelude", "unsafe-coerce", "web-events" ]
+    [ "effect"
+    , "foreign"
+    , "functions"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "unsafe-coerce"
+    , "web-events"
+    ]
   , repo = "https://github.com/purescript-web/purescript-web-workers.git"
-  , version = "v1.1.0"
+  , version = "v2.0.0"
   }
 , web-xhr =
   { dependencies =
@@ -9332,7 +9344,7 @@
     , "yoga-json"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fastify.git"
-  , version = "v0.5.3"
+  , version = "v0.5.4"
   }
 , yoga-fastify-om =
   { dependencies =
@@ -9362,7 +9374,7 @@
     , "yoga-om-strom"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fastify-om.git"
-  , version = "v0.4.5"
+  , version = "v0.4.6"
   }
 , yoga-fetch =
   { dependencies =
@@ -9433,15 +9445,21 @@
 , yoga-http-api =
   { dependencies =
     [ "aff"
+    , "arraybuffer-types"
     , "arrays"
+    , "effect"
     , "either"
     , "foldable-traversable"
     , "foreign"
     , "foreign-object"
     , "identity"
     , "integers"
+    , "js-promise"
+    , "js-promise-aff"
     , "maybe"
     , "newtype"
+    , "nullable"
+    , "numbers"
     , "prelude"
     , "record"
     , "strings"
@@ -9453,7 +9471,7 @@
     , "yoga-options"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-http-api.git"
-  , version = "v0.3.2"
+  , version = "v0.3.3"
   }
 , yoga-jaeger =
   { dependencies =
@@ -9775,7 +9793,7 @@
     , "prelude"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-redis.git"
-  , version = "v0.1.0"
+  , version = "v0.1.1"
   }
 , yoga-shadcn =
   { dependencies =
@@ -9825,7 +9843,7 @@
     , "yoga-json"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-sql-types.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , yoga-sqlite =
   { dependencies =
