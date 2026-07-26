@@ -522,6 +522,36 @@
   , repo = "https://github.com/sigma-andex/purescript-barlow-lens.git"
   , version = "v0.9.0"
   }
+, baskerville-core =
+  { dependencies =
+    [ "arrays"
+    , "control"
+    , "either"
+    , "foldable-traversable"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    ]
+  , repo = "https://github.com/afcondon/purescript-baskerville.git"
+  , version = "v0.1.3"
+  }
+, baskerville-mycroft =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "baskerville-core"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "maybe"
+    , "mycroft"
+    , "ordered-collections"
+    , "prelude"
+    , "transformers"
+    ]
+  , repo = "https://github.com/afcondon/purescript-baskerville-mycroft.git"
+  , version = "v0.1.0"
+  }
 , benchlib =
   { dependencies =
     [ "aff"
@@ -3095,6 +3125,29 @@
     "https://github.com/purescript-halogen/purescript-halogen-vdom-string-renderer.git"
   , version = "v0.5.0"
   }
+, halogen-widgets =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "datetime"
+    , "dom-indexed"
+    , "effect"
+    , "halogen"
+    , "halogen-subscriptions"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "prelude"
+    , "strings"
+    , "unsafe-coerce"
+    , "web-dom"
+    , "web-events"
+    , "web-html"
+    , "web-uievents"
+    ]
+  , repo = "https://github.com/afcondon/purescript-halogen-widgets.git"
+  , version = "v0.2.0"
+  }
 , halogen-xterm =
   { dependencies =
     [ "aff"
@@ -4602,6 +4655,32 @@
     [ "heterogeneous", "maybe", "newtype", "prelude", "record", "variant" ]
   , repo = "https://github.com/thought2/purescript-mvc.git"
   , version = "v0.0.1"
+  }
+, mycroft =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "lists"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "refs"
+    , "strings"
+    , "transformers"
+    , "tuples"
+    ]
+  , repo = "https://github.com/afcondon/purescript-mycroft.git"
+  , version = "v0.1.1"
+  }
+, mycroft-z3-wasm =
+  { dependencies =
+    [ "aff", "aff-promise", "effect", "maybe", "mycroft", "prelude" ]
+  , repo = "https://github.com/afcondon/purescript-mycroft-z3-wasm.git"
+  , version = "v0.1.0"
   }
 , mysql =
   { dependencies =
