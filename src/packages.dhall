@@ -520,7 +520,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/sigma-andex/purescript-barlow-lens.git"
-  , version = "v0.9.0"
+  , version = "v1.0.0"
   }
 , baskerville-core =
   { dependencies =
@@ -4579,25 +4579,6 @@
     ]
   , repo = "https://github.com/mcneissue/purescript-monoidal.git"
   , version = "v0.16.0"
-  }
-, morello =
-  { dependencies =
-    [ "arrays"
-    , "barlow-lens"
-    , "foldable-traversable"
-    , "heterogeneous"
-    , "newtype"
-    , "prelude"
-    , "profunctor"
-    , "profunctor-lenses"
-    , "record"
-    , "record-studio"
-    , "tuples"
-    , "typelevel-prelude"
-    , "validation"
-    ]
-  , repo = "https://github.com/sigma-andex/purescript-morello.git"
-  , version = "v0.4.0"
   }
 , mote =
   { dependencies =
