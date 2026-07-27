@@ -3554,7 +3554,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-hyrule.git"
-  , version = "v2.3.8"
+  , version = "v2.3.9"
   }
 , i18next =
   { dependencies =
