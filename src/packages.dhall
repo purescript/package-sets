@@ -1689,8 +1689,6 @@
     , "partial"
     , "prelude"
     , "refs"
-    , "safe-coerce"
-    , "type-equality"
     , "typelevel-prelude"
     , "undefined-is-not-a-problem"
     , "unsafe-coerce"
@@ -1698,7 +1696,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.13.0"
+  , version = "v0.14.0"
   }
 , elmish-enzyme =
   { dependencies =
@@ -1719,20 +1717,6 @@
   , repo = "https://github.com/collegevine/purescript-elmish-enzyme.git"
   , version = "v0.1.1"
   }
-, elmish-hooks =
-  { dependencies =
-    [ "aff"
-    , "debug"
-    , "effect"
-    , "elmish"
-    , "maybe"
-    , "prelude"
-    , "tuples"
-    , "undefined-is-not-a-problem"
-    ]
-  , repo = "https://github.com/collegevine/purescript-elmish-hooks.git"
-  , version = "v0.11.0"
-  }
 , elmish-html =
   { dependencies =
     [ "effect"
@@ -1749,7 +1733,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
-  , version = "v0.10.0"
+  , version = "v0.12.0"
   }
 , elmish-testing-library =
   { dependencies =
@@ -1770,34 +1754,6 @@
   , repo =
     "https://github.com/collegevine/purescript-elmish-testing-library.git"
   , version = "v0.3.2"
-  }
-, elmish-time-machine =
-  { dependencies =
-    [ "aff"
-    , "arrays"
-    , "debug"
-    , "effect"
-    , "elmish"
-    , "elmish-hooks"
-    , "elmish-html"
-    , "foldable-traversable"
-    , "functions"
-    , "lazy"
-    , "lists"
-    , "maybe"
-    , "ordered-collections"
-    , "prelude"
-    , "strings"
-    , "tailrec"
-    , "tuples"
-    , "unsafe-coerce"
-    , "web-dom"
-    , "web-events"
-    , "web-html"
-    , "web-uievents"
-    ]
-  , repo = "https://github.com/mcordova47/purescript-elmish-time-machine.git"
-  , version = "v0.4.2"
   }
 , email-validate =
   { dependencies =
