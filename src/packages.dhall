@@ -3393,7 +3393,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-selection.git"
-  , version = "v0.5.1"
+  , version = "v0.5.3"
   }
 , hylograph-simulation =
   { dependencies =
@@ -3418,7 +3418,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-simulation.git"
-  , version = "v0.5.0"
+  , version = "v0.6.0"
   }
 , hylograph-simulation-core =
   { dependencies =
@@ -3447,7 +3447,7 @@
     ]
   , repo =
     "https://github.com/afcondon/purescript-hylograph-simulation-halogen.git"
-  , version = "v0.5.0"
+  , version = "v0.5.1"
   }
 , hylograph-transitions =
   { dependencies =
