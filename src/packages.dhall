@@ -3266,6 +3266,25 @@
   , repo = "https://github.com/afcondon/purescript-hylograph-canvas.git"
   , version = "v0.1.0"
   }
+, hylograph-components =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "effect"
+    , "enums"
+    , "foldable-traversable"
+    , "halogen"
+    , "hylograph-selection"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-components.git"
+  , version = "v0.1.0"
+  }
 , hylograph-d3-kernel =
   { dependencies =
     [ "arrays"
