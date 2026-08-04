@@ -3088,6 +3088,7 @@
     , "datetime"
     , "dom-indexed"
     , "effect"
+    , "foldable-traversable"
     , "halogen"
     , "halogen-subscriptions"
     , "integers"
@@ -3102,7 +3103,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/afcondon/purescript-halogen-widgets.git"
-  , version = "v0.2.1"
+  , version = "v0.3.0"
   }
 , halogen-xterm =
   { dependencies =
