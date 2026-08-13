@@ -9831,6 +9831,36 @@
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-redis.git"
   , version = "v0.1.1"
   }
+, yoga-scylladb =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "datetime"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "foreign-object"
+    , "heterogeneous"
+    , "js-promise"
+    , "js-promise-aff"
+    , "maybe"
+    , "newtype"
+    , "nullable"
+    , "ordered-collections"
+    , "prelude"
+    , "record"
+    , "strings"
+    , "transformers"
+    , "typelevel-prelude"
+    , "unsafe-coerce"
+    , "yoga-json"
+    , "yoga-sql-types"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-scylladb.git"
+  , version = "v0.1.1"
+  }
 , yoga-shadcn =
   { dependencies =
     [ "arrays"
@@ -9884,6 +9914,7 @@
 , yoga-sqlite =
   { dependencies =
     [ "aff"
+    , "arraybuffer-types"
     , "arrays"
     , "datetime"
     , "effect"
@@ -9913,7 +9944,29 @@
     , "yoga-json"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-sqlite.git"
-  , version = "v0.3.3"
+  , version = "v0.3.4"
+  }
+, yoga-sqlite-om =
+  { dependencies =
+    [ "aff"
+    , "arrays"
+    , "console"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "foreign"
+    , "maybe"
+    , "prelude"
+    , "record"
+    , "transformers"
+    , "typelevel-prelude"
+    , "yoga-json"
+    , "yoga-om"
+    , "yoga-om-layer"
+    , "yoga-sqlite"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-yoga-sqlite-om.git"
+  , version = "v0.3.0"
   }
 , yoga-sse =
   { dependencies = [ "effect", "foreign", "prelude" ]
