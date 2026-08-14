@@ -1674,7 +1674,6 @@
     , "argonaut-core"
     , "arrays"
     , "bifunctors"
-    , "console"
     , "debug"
     , "effect"
     , "either"
@@ -1692,11 +1691,9 @@
     , "typelevel-prelude"
     , "undefined-is-not-a-problem"
     , "unsafe-coerce"
-    , "web-dom"
-    , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.14.0"
+  , version = "v0.15.0"
   }
 , elmish-enzyme =
   { dependencies =
@@ -1719,7 +1716,8 @@
   }
 , elmish-html =
   { dependencies =
-    [ "effect"
+    [ "console"
+    , "effect"
     , "elmish"
     , "foreign"
     , "foreign-object"
@@ -1733,7 +1731,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
-  , version = "v0.12.0"
+  , version = "v0.13.0"
   }
 , elmish-testing-library =
   { dependencies =
@@ -1742,6 +1740,7 @@
     , "datetime"
     , "effect"
     , "elmish"
+    , "elmish-html"
     , "exceptions"
     , "foldable-traversable"
     , "maybe"
@@ -1753,7 +1752,7 @@
     ]
   , repo =
     "https://github.com/collegevine/purescript-elmish-testing-library.git"
-  , version = "v0.3.2"
+  , version = "v0.4.0"
   }
 , email-validate =
   { dependencies =
