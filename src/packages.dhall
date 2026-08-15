@@ -1714,6 +1714,19 @@
   , repo = "https://github.com/collegevine/purescript-elmish-enzyme.git"
   , version = "v0.1.1"
   }
+, elmish-hooks =
+  { dependencies =
+    [ "aff"
+    , "debug"
+    , "elmish"
+    , "maybe"
+    , "prelude"
+    , "tuples"
+    , "undefined-is-not-a-problem"
+    ]
+  , repo = "https://github.com/collegevine/purescript-elmish-hooks.git"
+  , version = "v0.12.0"
+  }
 , elmish-html =
   { dependencies =
     [ "console"
@@ -5038,6 +5051,27 @@
     ]
   , repo = "https://github.com/purescript-node/purescript-node-readline.git"
   , version = "v8.1.1"
+  }
+, node-sqlite =
+  { dependencies =
+    [ "bifunctors"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "nullable"
+    , "prelude"
+    , "record"
+    , "strings"
+    , "transformers"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/m-rinaldi/purescript-node-sqlite.git"
+  , version = "v0.2.0"
   }
 , node-sqlite3 =
   { dependencies =
