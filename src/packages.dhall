@@ -1744,7 +1744,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish-html.git"
-  , version = "v0.13.0"
+  , version = "v0.14.0"
   }
 , elmish-testing-library =
   { dependencies =
@@ -1765,7 +1765,7 @@
     ]
   , repo =
     "https://github.com/collegevine/purescript-elmish-testing-library.git"
-  , version = "v0.4.0"
+  , version = "v0.5.0"
   }
 , email-validate =
   { dependencies =
