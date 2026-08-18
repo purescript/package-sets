@@ -9427,10 +9427,12 @@
     , "integers"
     , "maybe"
     , "node-buffer"
+    , "numbers"
     , "prelude"
     , "record"
     , "refs"
     , "routing-duplex"
+    , "strings"
     , "transformers"
     , "typelevel-prelude"
     , "unsafe-coerce"
@@ -9443,7 +9445,7 @@
     , "yoga-om-strom"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fastify-om.git"
-  , version = "v0.4.6"
+  , version = "v0.4.7"
   }
 , yoga-fetch =
   { dependencies =
@@ -9487,7 +9489,7 @@
     , "yoga-om-strom"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-fetch-om.git"
-  , version = "v0.7.0"
+  , version = "v0.8.0"
   }
 , yoga-format =
   { dependencies = [ "arrays", "maybe", "prelude", "record" ]
@@ -9540,7 +9542,7 @@
     , "yoga-options"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-yoga-http-api.git"
-  , version = "v0.3.3"
+  , version = "v0.3.4"
   }
 , yoga-jaeger =
   { dependencies =
