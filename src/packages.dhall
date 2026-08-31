@@ -1693,7 +1693,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.15.0"
+  , version = "v0.15.2"
   }
 , elmish-enzyme =
   { dependencies =
