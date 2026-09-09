@@ -1688,12 +1688,13 @@
     , "partial"
     , "prelude"
     , "refs"
+    , "tuples"
     , "typelevel-prelude"
     , "undefined-is-not-a-problem"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/collegevine/purescript-elmish.git"
-  , version = "v0.15.2"
+  , version = "v0.16.0"
   }
 , elmish-enzyme =
   { dependencies =
@@ -5851,7 +5852,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
-  , version = "v0.9.0"
+  , version = "v0.10.2"
   }
 , point-free =
   { dependencies = [ "prelude" ]
