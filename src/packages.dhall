@@ -5849,10 +5849,9 @@
     , "spec"
     , "strings"
     , "transformers"
-    , "unsafe-coerce"
     ]
   , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
-  , version = "v0.10.2"
+  , version = "v1.0.1"
   }
 , point-free =
   { dependencies = [ "prelude" ]
