@@ -5851,7 +5851,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/pujoheadsoft/purescript-pmock.git"
-  , version = "v1.0.1"
+  , version = "v1.1.0"
   }
 , point-free =
   { dependencies = [ "prelude" ]
