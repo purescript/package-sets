@@ -7894,6 +7894,49 @@
   , repo = "https://github.com/garganscript/purescript-toestand.git"
   , version = "v0.9.0"
   }
+, tramaj-halogen =
+  { dependencies =
+    [ "argonaut-core"
+    , "arrays"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "halogen"
+    , "integers"
+    , "maybe"
+    , "ordered-collections"
+    , "prelude"
+    , "strings"
+    , "tramaj-purs"
+    , "tuples"
+    , "web-html"
+    ]
+  , repo = "https://github.com/lucasdicioccio/purescript-tramaj-halogen.git"
+  , version = "v0.3.3"
+  }
+, tramaj-purs =
+  { dependencies =
+    [ "argonaut-core"
+    , "arrays"
+    , "bifunctors"
+    , "control"
+    , "either"
+    , "enums"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "numbers"
+    , "ordered-collections"
+    , "parsing"
+    , "partial"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/lucasdicioccio/purescript-tramaj-purs.git"
+  , version = "v0.3.3"
+  }
 , transformation-matrix =
   { dependencies =
     [ "arrays"
