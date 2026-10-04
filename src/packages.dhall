@@ -7031,6 +7031,11 @@
   , repo = "https://github.com/purescript/purescript-semirings.git"
   , version = "v7.0.0"
   }
+, seowebchecker =
+  { dependencies = [ "prelude", "strings" ]
+  , repo = "https://github.com/jaiganesh6999/seowebchecker-seoaudit-sdk.git"
+  , version = "v1.0.4"
+  }
 , shuffle =
   { dependencies =
     [ "arrays"
