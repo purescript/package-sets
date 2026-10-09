@@ -7901,8 +7901,7 @@
   }
 , tramaj-halogen =
   { dependencies =
-    [ "argonaut-core"
-    , "arrays"
+    [ "arrays"
     , "foldable-traversable"
     , "foreign-object"
     , "halogen"
@@ -7916,7 +7915,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/lucasdicioccio/purescript-tramaj-halogen.git"
-  , version = "v0.3.3"
+  , version = "v0.4.1"
   }
 , tramaj-purs =
   { dependencies =
@@ -7940,7 +7939,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/lucasdicioccio/purescript-tramaj-purs.git"
-  , version = "v0.3.3"
+  , version = "v0.4.1"
   }
 , transformation-matrix =
   { dependencies =
