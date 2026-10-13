@@ -2851,7 +2851,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git"
-  , version = "v4.0.3"
+  , version = "v4.1.0"
   }
 , halogen-helix =
   { dependencies =
@@ -2897,7 +2897,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-hooks.git"
-  , version = "v0.6.3"
+  , version = "v0.6.4"
   }
 , halogen-hooks-extra =
   { dependencies =
@@ -2964,7 +2964,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-halogen-store.git"
-  , version = "v0.5.4"
+  , version = "v0.5.5"
   }
 , halogen-storybook =
   { dependencies =
@@ -4776,7 +4776,24 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-buffer.git"
-  , version = "v9.0.0"
+  , version = "v9.0.1"
+  }
+, node-buffer-blob =
+  { dependencies =
+    [ "aff-promise"
+    , "arraybuffer-types"
+    , "arrays"
+    , "effect"
+    , "maybe"
+    , "media-types"
+    , "newtype"
+    , "node-buffer"
+    , "nullable"
+    , "prelude"
+    , "web-streams"
+    ]
+  , repo = "https://github.com/purescript-node/purescript-node-buffer-blob.git"
+  , version = "v1.0.1"
   }
 , node-child-process =
   { dependencies =
@@ -4819,7 +4836,7 @@
     ]
   , repo =
     "https://github.com/purescript-node/purescript-node-event-emitter.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , node-execa =
   { dependencies =
@@ -4886,7 +4903,7 @@
     , "strings"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-fs.git"
-  , version = "v9.2.0"
+  , version = "v9.2.1"
   }
 , node-glob-basic =
   { dependencies =
@@ -4929,7 +4946,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-http.git"
-  , version = "v9.1.0"
+  , version = "v9.1.1"
   }
 , node-http2 =
   { dependencies =
@@ -4958,7 +4975,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-http2.git"
-  , version = "v1.1.1"
+  , version = "v1.1.2"
   }
 , node-human-signals =
   { dependencies =
@@ -4987,7 +5004,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-net.git"
-  , version = "v5.1.0"
+  , version = "v5.1.1"
   }
 , node-os =
   { dependencies =
@@ -5010,7 +5027,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-os.git"
-  , version = "v5.1.0"
+  , version = "v5.1.1"
   }
 , node-path =
   { dependencies = [ "effect" ]
@@ -5032,7 +5049,7 @@
     , "strings"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-process.git"
-  , version = "v11.2.0"
+  , version = "v11.2.1"
   }
 , node-readline =
   { dependencies =
@@ -5051,7 +5068,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-readline.git"
-  , version = "v8.1.1"
+  , version = "v8.1.2"
   }
 , node-sqlite =
   { dependencies =
@@ -5072,7 +5089,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/m-rinaldi/purescript-node-sqlite.git"
-  , version = "v0.2.0"
+  , version = "v0.2.1"
   }
 , node-sqlite3 =
   { dependencies =
@@ -5137,7 +5154,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-streams.git"
-  , version = "v9.0.1"
+  , version = "v9.0.2"
   }
 , node-tls =
   { dependencies =
@@ -5155,7 +5172,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-tls.git"
-  , version = "v0.3.1"
+  , version = "v0.3.2"
   }
 , node-url =
   { dependencies =
@@ -5168,7 +5185,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-url.git"
-  , version = "v7.0.1"
+  , version = "v7.0.2"
   }
 , node-workerbees =
   { dependencies =
@@ -5204,7 +5221,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-node/purescript-node-zlib.git"
-  , version = "v0.4.0"
+  , version = "v0.4.1"
   }
 , nonempty =
   { dependencies =
@@ -5888,7 +5905,7 @@
 , posix-types =
   { dependencies = [ "maybe", "newtype", "prelude" ]
   , repo = "https://github.com/purescript-node/purescript-posix-types.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , postgresql =
   { dependencies =
@@ -6203,6 +6220,41 @@
     ]
   , repo = "https://github.com/crestonbunch/purescript-punycode.git"
   , version = "v1.0.0"
+  }
+, puppy-runtime =
+  { dependencies =
+    [ "arrays"
+    , "either"
+    , "lists"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "tailrec"
+    , "transformers"
+    , "tuples"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/katsujukou/purescript-puppy-runtime.git"
+  , version = "v0.2.0"
+  }
+, puregrain =
+  { dependencies =
+    [ "arrays"
+    , "catenable-lists"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "lazy"
+    , "lists"
+    , "maybe"
+    , "numbers"
+    , "partial"
+    , "prelude"
+    , "tuples"
+    , "unfoldable"
+    ]
+  , repo = "https://github.com/roman-mkh/puregrain.git"
+  , version = "v0.1.0"
   }
 , pursfmt =
   { dependencies =
@@ -7202,7 +7254,7 @@
     , "unicode"
     ]
   , repo = "https://github.com/thomashoneyman/purescript-slug.git"
-  , version = "v3.2.0"
+  , version = "v3.2.1"
   }
 , small-ffi =
   { dependencies = [ "prelude" ]
@@ -8540,7 +8592,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-clipboard.git"
-  , version = "v6.0.0"
+  , version = "v6.0.1"
   }
 , web-cssom =
   { dependencies =
@@ -8554,7 +8606,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-cssom.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , web-cssom-view =
   { dependencies =
@@ -8570,7 +8622,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-cssom-view.git"
-  , version = "v0.1.0"
+  , version = "v0.2.1"
   }
 , web-dom =
   { dependencies =
@@ -8604,12 +8656,12 @@
     , "web-dom"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-dom-xpath.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , web-encoding =
   { dependencies = [ "arraybuffer-types", "effect", "newtype", "prelude" ]
   , repo = "https://github.com/purescript-web/purescript-web-encoding.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , web-events =
   { dependencies =
@@ -8675,7 +8727,7 @@
 , web-geometry =
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript-web/purescript-web-geometry.git"
-  , version = "v0.1.0"
+  , version = "v0.1.1"
   }
 , web-html =
   { dependencies =
@@ -8710,7 +8762,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-pointerevents.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , web-proletarian =
   { dependencies = [ "effect", "prelude" ]
@@ -8779,7 +8831,7 @@
     , "web-file"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-socket.git"
-  , version = "v4.0.0"
+  , version = "v4.0.1"
   }
 , web-storage =
   { dependencies =
@@ -8812,7 +8864,7 @@
     , "web-uievents"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-touchevents.git"
-  , version = "v4.0.0"
+  , version = "v4.0.1"
   }
 , web-uievents =
   { dependencies =
@@ -8845,7 +8897,7 @@
     , "web-events"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-workers.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , web-xhr =
   { dependencies =
@@ -8868,7 +8920,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-web/purescript-web-xhr.git"
-  , version = "v5.0.1"
+  , version = "v5.0.2"
   }
 , webb-aff-list =
   { dependencies =
@@ -9193,7 +9245,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/purescript-web/purescript-webgpu.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , which =
   { dependencies =
