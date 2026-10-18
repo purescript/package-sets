@@ -5086,10 +5086,9 @@
     , "record"
     , "strings"
     , "transformers"
-    , "unsafe-coerce"
     ]
   , repo = "https://github.com/m-rinaldi/purescript-node-sqlite.git"
-  , version = "v0.2.1"
+  , version = "v0.3.0"
   }
 , node-sqlite3 =
   { dependencies =
@@ -6250,11 +6249,12 @@
     , "numbers"
     , "partial"
     , "prelude"
+    , "strings"
     , "tuples"
     , "unfoldable"
     ]
   , repo = "https://github.com/roman-mkh/puregrain.git"
-  , version = "v0.1.0"
+  , version = "v0.1.1"
   }
 , pursfmt =
   { dependencies =
