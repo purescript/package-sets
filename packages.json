@@ -1986,6 +1986,29 @@
     "repo": "https://github.com/purescript/purescript-enums.git",
     "version": "v6.0.2"
   },
+  "env": {
+    "dependencies": [
+      "bifunctors",
+      "effect",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "foreign-object",
+      "integers",
+      "lists",
+      "maybe",
+      "node-process",
+      "numbers",
+      "prelude",
+      "record",
+      "strings",
+      "transformers",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/m-rinaldi/purescript-env.git",
+    "version": "v0.1.0"
+  },
   "env-names": {
     "dependencies": [
       "arrays",
@@ -5493,7 +5516,7 @@
       "strings"
     ],
     "repo": "https://github.com/purescript-node/purescript-node-process.git",
-    "version": "v11.2.1"
+    "version": "v11.3.0"
   },
   "node-readline": {
     "dependencies": [
