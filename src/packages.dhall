@@ -7388,7 +7388,7 @@
   { dependencies =
     [ "aff", "effect", "foldable-traversable", "prelude", "spec", "spec-node" ]
   , repo = "https://github.com/purescript-spec/purescript-spec-discovery.git"
-  , version = "v8.4.1"
+  , version = "v8.4.2"
   }
 , spec-mocha =
   { dependencies =
