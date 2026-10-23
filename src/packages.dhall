@@ -2355,14 +2355,16 @@
     , "invariant"
     , "lazy"
     , "maybe"
+    , "newtype"
     , "prelude"
+    , "safe-coerce"
     , "tailrec"
     , "transformers"
     , "tuples"
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-free.git"
-  , version = "v7.1.1"
+  , version = "v7.2.0"
   }
 , freeap =
   { dependencies =
