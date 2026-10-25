@@ -7992,7 +7992,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/lucasdicioccio/purescript-tramaj-halogen.git"
-  , version = "v0.4.1"
+  , version = "v0.5.0"
   }
 , tramaj-purs =
   { dependencies =
@@ -8016,7 +8016,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/lucasdicioccio/purescript-tramaj-purs.git"
-  , version = "v0.4.1"
+  , version = "v0.5.0"
   }
 , transformation-matrix =
   { dependencies =
