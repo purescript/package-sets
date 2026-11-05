@@ -1651,7 +1651,7 @@
 , dynamic-buffer =
   { dependencies = [ "arraybuffer-types", "effect", "prelude", "refs" ]
   , repo = "https://github.com/kritzcreek/purescript-dynamic-buffer.git"
-  , version = "v3.0.1"
+  , version = "v3.0.2"
   }
 , echarts-simple =
   { dependencies = [ "effect", "functions", "prelude", "web-dom" ]
@@ -3787,7 +3787,7 @@
 , jest =
   { dependencies = [ "aff", "aff-promise", "effect", "prelude" ]
   , repo = "https://github.com/nonbili/purescript-jest.git"
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , js-abort-controller =
   { dependencies = [ "effect", "foreign", "maybe", "nullable", "prelude" ]
