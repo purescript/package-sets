@@ -6279,7 +6279,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/roman-mkh/puregrain.git"
-  , version = "v0.2.0"
+  , version = "v0.2.1"
   }
 , pursfmt =
   { dependencies =
