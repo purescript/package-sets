@@ -1595,7 +1595,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/nsaunders/purescript-dotenv.git"
-  , version = "v4.0.3"
+  , version = "v4.0.4"
   }
 , droplet =
   { dependencies =
@@ -6804,7 +6804,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/krisajenkins/purescript-remotedata.git"
-  , version = "v5.0.1"
+  , version = "v5.0.2"
   }
 , repr =
   { dependencies =
@@ -7746,7 +7746,7 @@
     , "web-html"
     ]
   , repo = "https://github.com/nsaunders/purescript-tecton.git"
-  , version = "v0.2.1"
+  , version = "v0.2.2"
   }
 , tecton-halogen =
   { dependencies = [ "halogen", "lists", "prelude", "tecton", "transformers" ]
