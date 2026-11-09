@@ -4060,7 +4060,7 @@
     , "strings"
     ]
   , repo = "https://github.com/menelaos/purescript-jwt.git"
-  , version = "v0.0.9"
+  , version = "v0.0.10"
   }
 , labeled-data =
   { dependencies =
@@ -7201,7 +7201,7 @@
     , "variant"
     ]
   , repo = "https://github.com/justinwoo/purescript-simple-json.git"
-  , version = "v9.0.0"
+  , version = "v9.0.1"
   }
 , simple-json-generics =
   { dependencies =
