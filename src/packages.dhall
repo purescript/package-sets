@@ -6097,6 +6097,11 @@
     "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
   , version = "v8.0.0"
   }
+, property-area-ranges =
+  { dependencies = [ "either", "numbers", "prelude" ]
+  , repo = "https://github.com/novasia-estate/property-area-ranges.git"
+  , version = "v1.0.1"
+  }
 , prospero =
   { dependencies =
     [ "aff"
