@@ -516,11 +516,12 @@
     , "prelude"
     , "profunctor"
     , "profunctor-lenses"
+    , "record"
     , "tuples"
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/sigma-andex/purescript-barlow-lens.git"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   }
 , baskerville-core =
   { dependencies =
@@ -1255,7 +1256,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-css.git"
-  , version = "v6.0.0"
+  , version = "v6.1.1"
   }
 , css-class-name-extractor =
   { dependencies =
@@ -1394,10 +1395,9 @@
     , "parsing"
     , "prelude"
     , "strings"
-    , "unicode"
     ]
   , repo = "https://github.com/flounders/purescript-datetime-parsing.git"
-  , version = "v0.2.0"
+  , version = "v0.2.2"
   }
 , debounce =
   { dependencies = [ "effect", "prelude" ]
@@ -2052,7 +2052,7 @@
     , "web-streams"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-fetch-core.git"
-  , version = "v5.1.0"
+  , version = "v5.1.1"
   }
 , fetch-yoga-json =
   { dependencies =
@@ -2269,7 +2269,7 @@
 , forgetmenot =
   { dependencies = [] : List Text
   , repo = "https://github.com/rowtype-yoga/purescript-forgetmenot.git"
-  , version = "v0.1.0"
+  , version = "v0.1.1"
   }
 , fork =
   { dependencies = [ "aff", "prelude", "transformers" ]
@@ -4781,12 +4781,12 @@
     , "yoga-json"
     ]
   , repo = "https://github.com/purescript-react/purescript-nextjs.git"
-  , version = "v0.1.1"
+  , version = "v0.1.2"
   }
 , nextui =
   { dependencies = [ "effect", "prelude", "react-basic-hooks" ]
   , repo = "https://github.com/purescript-react/purescript-nextui.git"
-  , version = "v0.2.0"
+  , version = "v0.2.1"
   }
 , node-buffer =
   { dependencies =
@@ -6570,7 +6570,7 @@
     ]
   , repo =
     "https://github.com/purescript-react/purescript-react-basic-hooks.git"
-  , version = "v9.1.1"
+  , version = "v9.1.2"
   }
 , react-basic-storybook =
   { dependencies =
@@ -6656,7 +6656,7 @@
 , react-markdown =
   { dependencies = [ "react-basic-hooks" ]
   , repo = "https://github.com/purescript-react/purescript-react-markdown.git"
-  , version = "v0.1.0"
+  , version = "v0.1.1"
   }
 , react-testing-library =
   { dependencies =
