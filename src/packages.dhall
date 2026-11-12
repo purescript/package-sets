@@ -1032,7 +1032,7 @@
   { dependencies =
     [ "bifunctors", "control", "invariant", "prelude", "profunctor", "tuples" ]
   , repo = "https://github.com/garyb/purescript-codec.git"
-  , version = "v6.1.0"
+  , version = "v6.1.1"
   }
 , codec-argonaut =
   { dependencies =
@@ -1407,7 +1407,7 @@
 , debug =
   { dependencies = [ "functions", "prelude" ]
   , repo = "https://github.com/garyb/purescript-debug.git"
-  , version = "v6.0.2"
+  , version = "v6.0.3"
   }
 , decimals =
   { dependencies = [ "maybe", "prelude" ]
@@ -2413,7 +2413,7 @@
 , functor1 =
   { dependencies = [ "newtype", "prelude" ]
   , repo = "https://github.com/garyb/purescript-functor1.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , functors =
   { dependencies =
@@ -3655,7 +3655,7 @@
 , indexed-monad =
   { dependencies = [ "newtype", "prelude" ]
   , repo = "https://github.com/garyb/purescript-indexed-monad.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , ink =
   { dependencies =
@@ -3690,7 +3690,7 @@
 , integers =
   { dependencies = [ "maybe", "numbers", "prelude" ]
   , repo = "https://github.com/purescript/purescript-integers.git"
-  , version = "v6.0.1"
+  , version = "v6.0.2"
   }
 , interpolate =
   { dependencies = [ "partial", "prelude" ]
@@ -4608,7 +4608,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/garyb/purescript-mote.git"
-  , version = "v3.0.0"
+  , version = "v3.0.1"
   }
 , motion =
   { dependencies =
@@ -8454,7 +8454,7 @@
     , "strings"
     ]
   , repo = "https://github.com/garyb/purescript-uuidv4.git"
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , validation =
   { dependencies =
