@@ -5119,7 +5119,7 @@
   { dependencies =
     [ "aff", "effect", "either", "exceptions", "foreign", "prelude" ]
   , repo = "https://github.com/justinwoo/purescript-node-sqlite3.git"
-  , version = "v8.0.0"
+  , version = "v8.0.1"
   }
 , node-stream-pipes =
   { dependencies =
