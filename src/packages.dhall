@@ -6270,6 +6270,7 @@
   { dependencies =
     [ "arrays"
     , "catenable-lists"
+    , "effect"
     , "either"
     , "foldable-traversable"
     , "integers"
@@ -6284,7 +6285,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/roman-mkh/puregrain.git"
-  , version = "v0.2.1"
+  , version = "v0.2.2"
   }
 , pursfmt =
   { dependencies =
@@ -7272,6 +7273,11 @@
     ]
   , repo = "https://github.com/bodil/purescript-sized-vectors.git"
   , version = "v5.0.2"
+  }
+, slatwall =
+  { dependencies = [ "integers", "maybe", "numbers", "prelude", "tuples" ]
+  , repo = "https://github.com/getmediawall/purescript-slatwall.git"
+  , version = "v1.0.0"
   }
 , slug =
   { dependencies =
