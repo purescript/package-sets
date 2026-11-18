@@ -3360,7 +3360,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-graph.git"
-  , version = "v0.3.0"
+  , version = "v0.3.1"
   }
 , hylograph-layout =
   { dependencies =
@@ -3382,7 +3382,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-layout.git"
-  , version = "v0.3.0"
+  , version = "v0.4.0"
   }
 , hylograph-music =
   { dependencies =
@@ -4723,7 +4723,7 @@
 , nested-functor =
   { dependencies = [ "prelude", "type-equality" ]
   , repo = "https://github.com/acple/purescript-nested-functor.git"
-  , version = "v0.2.1"
+  , version = "v0.2.2"
   }
 , newtype =
   { dependencies = [ "prelude", "safe-coerce" ]
@@ -6287,6 +6287,44 @@
   , repo = "https://github.com/roman-mkh/puregrain.git"
   , version = "v0.2.2"
   }
+, purs-solid =
+  { dependencies =
+    [ "aff"
+    , "aff-promise"
+    , "argonaut-core"
+    , "arraybuffer-types"
+    , "arrays"
+    , "dom-indexed"
+    , "effect"
+    , "either"
+    , "exceptions"
+    , "foldable-traversable"
+    , "foreign-object"
+    , "functions"
+    , "integers"
+    , "maybe"
+    , "media-types"
+    , "nullable"
+    , "prelude"
+    , "strings"
+    , "tailrec"
+    , "tuples"
+    , "type-equality"
+    , "unsafe-coerce"
+    , "web-clipboard"
+    , "web-dom"
+    , "web-events"
+    , "web-fetch"
+    , "web-html"
+    , "web-pointerevents"
+    , "web-streams"
+    , "web-touchevents"
+    , "web-uievents"
+    , "web-xhr"
+    ]
+  , repo = "https://github.com/arazorda/purs-solid.git"
+  , version = "v0.1.0"
+  }
 , pursfmt =
   { dependencies =
     [ "arrays"
@@ -7277,7 +7315,7 @@
 , slatwall =
   { dependencies = [ "integers", "maybe", "numbers", "prelude", "tuples" ]
   , repo = "https://github.com/getmediawall/purescript-slatwall.git"
-  , version = "v1.0.0"
+  , version = "v1.0.1"
   }
 , slug =
   { dependencies =
