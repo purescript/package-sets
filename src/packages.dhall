@@ -3343,6 +3343,27 @@
   , repo = "https://github.com/afcondon/purescript-hylograph-d3-kernel.git"
   , version = "v0.1.0"
   }
+, hylograph-forces =
+  { dependencies =
+    [ "arrays"
+    , "effect"
+    , "either"
+    , "foldable-traversable"
+    , "functions"
+    , "integers"
+    , "lists"
+    , "maybe"
+    , "nullable"
+    , "numbers"
+    , "ordered-collections"
+    , "prelude"
+    , "refs"
+    , "st"
+    , "tuples"
+    ]
+  , repo = "https://github.com/afcondon/purescript-hylograph-forces.git"
+  , version = "v0.1.0"
+  }
 , hylograph-graph =
   { dependencies =
     [ "arrays"
@@ -3382,7 +3403,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-layout.git"
-  , version = "v0.4.0"
+  , version = "v0.5.0"
   }
 , hylograph-music =
   { dependencies =
@@ -3445,13 +3466,12 @@
     , "typelevel-prelude"
     , "unsafe-coerce"
     , "web-dom"
-    , "web-events"
     , "web-html"
     , "web-pointerevents"
     , "web-uievents"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-selection.git"
-  , version = "v0.5.3"
+  , version = "v0.6.0"
   }
 , hylograph-simulation =
   { dependencies =
@@ -3459,8 +3479,12 @@
     , "arrays"
     , "console"
     , "effect"
+    , "either"
+    , "exceptions"
     , "foldable-traversable"
     , "foreign-object"
+    , "functions"
+    , "hylograph-forces"
     , "hylograph-selection"
     , "hylograph-transitions"
     , "integers"
@@ -3476,7 +3500,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-simulation.git"
-  , version = "v0.6.0"
+  , version = "v1.1.0"
   }
 , hylograph-simulation-core =
   { dependencies =
@@ -3497,7 +3521,6 @@
   { dependencies =
     [ "effect"
     , "halogen-subscriptions"
-    , "hylograph-d3-kernel"
     , "hylograph-simulation"
     , "maybe"
     , "prelude"
@@ -3505,7 +3528,7 @@
     ]
   , repo =
     "https://github.com/afcondon/purescript-hylograph-simulation-halogen.git"
-  , version = "v0.5.1"
+  , version = "v0.6.0"
   }
 , hylograph-transitions =
   { dependencies =
@@ -3526,21 +3549,9 @@
   , version = "v0.1.0"
   }
 , hylograph-wasm-kernel =
-  { dependencies =
-    [ "aff"
-    , "arrays"
-    , "effect"
-    , "foldable-traversable"
-    , "foreign-object"
-    , "halogen-subscriptions"
-    , "hylograph-simulation-core"
-    , "maybe"
-    , "prelude"
-    , "refs"
-    , "tuples"
-    ]
+  { dependencies = [ "aff", "effect", "hylograph-simulation", "prelude" ]
   , repo = "https://github.com/afcondon/purescript-hylograph-wasm-kernel.git"
-  , version = "v0.1.0"
+  , version = "v1.0.0"
   }
 , hyrule =
   { dependencies =
@@ -8024,6 +8035,21 @@
     ]
   , repo = "https://github.com/garganscript/purescript-toestand.git"
   , version = "v0.9.0"
+  }
+, train-horn =
+  { dependencies =
+    [ "arrays"
+    , "either"
+    , "foldable-traversable"
+    , "integers"
+    , "maybe"
+    , "numbers"
+    , "prelude"
+    , "strings"
+    , "tuples"
+    ]
+  , repo = "https://github.com/train-horn/purescript-train-horn.git"
+  , version = "v1.0.0"
   }
 , tramaj-halogen =
   { dependencies =
