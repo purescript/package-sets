@@ -3615,6 +3615,38 @@
     "repo": "https://github.com/afcondon/purescript-hylograph-d3-kernel.git",
     "version": "v0.1.0"
   },
+  "hylograph-flow": {
+    "dependencies": [
+      "arrays",
+      "foldable-traversable",
+      "maybe",
+      "ordered-collections",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/afcondon/purescript-hylograph-flow.git",
+    "version": "v0.1.0"
+  },
+  "hylograph-flow-render": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "foldable-traversable",
+      "hylograph-flow",
+      "hylograph-graph",
+      "hylograph-layout",
+      "hylograph-selection",
+      "integers",
+      "maybe",
+      "numbers",
+      "ordered-collections",
+      "prelude",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/afcondon/purescript-hylograph-flow-render.git",
+    "version": "v0.1.0"
+  },
   "hylograph-forces": {
     "dependencies": [
       "arrays",
@@ -3675,7 +3707,7 @@
       "tuples"
     ],
     "repo": "https://github.com/afcondon/purescript-hylograph-layout.git",
-    "version": "v0.5.0"
+    "version": "v0.6.0"
   },
   "hylograph-music": {
     "dependencies": [
