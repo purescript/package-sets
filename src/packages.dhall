@@ -403,6 +403,19 @@
   , repo = "https://github.com/flip111/purescript-arrays-extra.git"
   , version = "v0.6.2"
   }
+, arrays-indexed =
+  { dependencies =
+    [ "arrays"
+    , "foldable-traversable"
+    , "maybe"
+    , "partial"
+    , "prelude"
+    , "st"
+    , "tuples"
+    ]
+  , repo = "https://github.com/rowtype-yoga/purescript-arrays-indexed.git"
+  , version = "v0.1.0"
+  }
 , arrays-zipper =
   { dependencies =
     [ "arrays"
@@ -1026,7 +1039,7 @@
 , classnames =
   { dependencies = [ "maybe", "prelude", "record", "strings", "tuples" ]
   , repo = "https://github.com/dewey92/purescript-classnames.git"
-  , version = "v2.0.0"
+  , version = "v2.0.1"
   }
 , codec =
   { dependencies =
