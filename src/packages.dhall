@@ -3366,7 +3366,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-flow.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , hylograph-flow-render =
   { dependencies =
@@ -3386,7 +3386,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-flow-render.git"
-  , version = "v0.1.0"
+  , version = "v0.3.0"
   }
 , hylograph-forces =
   { dependencies =
@@ -6341,7 +6341,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/roman-mkh/puregrain.git"
-  , version = "v0.2.2"
+  , version = "v0.3.0"
   }
 , purs-solid =
   { dependencies =
@@ -8462,7 +8462,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/fehrenbach/purescript-unordered-collections.git"
-  , version = "v3.1.0"
+  , version = "v3.2.0"
   }
 , unsafe-coerce =
   { dependencies = [] : List Text
