@@ -6341,7 +6341,7 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/roman-mkh/puregrain.git"
-  , version = "v0.3.0"
+  , version = "v0.3.1"
   }
 , purs-solid =
   { dependencies =
