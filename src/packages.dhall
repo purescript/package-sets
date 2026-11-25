@@ -414,7 +414,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-arrays-indexed.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
   }
 , arrays-zipper =
   { dependencies =
@@ -3371,12 +3371,14 @@
 , hylograph-flow-render =
   { dependencies =
     [ "arrays"
+    , "control"
     , "effect"
     , "foldable-traversable"
     , "hylograph-flow"
     , "hylograph-graph"
     , "hylograph-layout"
     , "hylograph-selection"
+    , "hylograph-transitions"
     , "integers"
     , "maybe"
     , "numbers"
@@ -3386,7 +3388,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-flow-render.git"
-  , version = "v0.3.0"
+  , version = "v0.7.1"
   }
 , hylograph-forces =
   { dependencies =
@@ -3545,7 +3547,7 @@
     , "web-dom"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-simulation.git"
-  , version = "v1.1.0"
+  , version = "v2.0.0"
   }
 , hylograph-simulation-core =
   { dependencies =
@@ -3591,7 +3593,7 @@
     , "strings"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-transitions.git"
-  , version = "v0.1.0"
+  , version = "v0.1.1"
   }
 , hylograph-wasm-kernel =
   { dependencies = [ "aff", "effect", "hylograph-simulation", "prelude" ]
