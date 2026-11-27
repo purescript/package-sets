@@ -414,7 +414,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/rowtype-yoga/purescript-arrays-indexed.git"
-  , version = "v0.2.0"
+  , version = "v0.3.0"
   }
 , arrays-zipper =
   { dependencies =
@@ -3388,7 +3388,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/afcondon/purescript-hylograph-flow-render.git"
-  , version = "v0.7.1"
+  , version = "v0.7.2"
   }
 , hylograph-forces =
   { dependencies =
@@ -5729,7 +5729,7 @@
   { dependencies =
     [ "distributive", "foldable-traversable", "prelude", "quickcheck" ]
   , repo = "https://github.com/sharkdp/purescript-pairs.git"
-  , version = "v9.0.1"
+  , version = "v9.0.3"
   }
 , parallel =
   { dependencies =
